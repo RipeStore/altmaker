@@ -1,0 +1,119 @@
+{
+  "git": [
+    "https://github.com/xenios-jp/XeniOS",
+    "https://git.ryujinx.app/projects/MeloNX",
+    "https://github.com/johnny901901901/Applesauce",
+    "https://github.com/Cat-Ling/violet-ios",
+    "https://github.com/5rahim/seanime-tenji",
+    "https://github.com/VortXTV/VortX",
+    "https://github.com/Manic-EMU/ManicEMU",
+    "https://github.com/Baconium/JESSI",
+    "https://github.com/StikDebug/StikDebug",
+    {
+      "url": "https://github.com/llsc12/Paicord",
+      "prerelease": true
+    },
+    "https://github.com/emp0ry/MiruShin",
+    "https://github.com/KolbyML/Manatan",
+    "https://github.com/open-ani/animeko",
+    "https://github.com/mirarr-app/mirarr",
+    "https://github.com/Flixorui/flixor",
+    "https://github.com/hrydgard/ppsspp",
+    "https://github.com/KRTirtho/spotube",
+    "https://github.com/ppy/osu",
+    "https://github.com/Paperback-iOS/app",
+    "https://github.com/fleetingheart/ksre",
+    "https://github.com/lo-cafe/winston",
+    "https://github.com/ChrisMack32/Locus",
+    "https://github.com/madeye/gterm",
+    "https://github.com/vcmi/vcmi",
+    "https://github.com/OpenStrap/edge",
+    "https://github.com/swisslite/Kryptos",
+    "https://github.com/clynamic/e1547",
+    "https://github.com/moffatman/chan",
+    "https://github.com/bourbonicfisky/Hotline-Navigator",
+    {
+      "url": "https://github.com/ryanbr/noop",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/Nodesclock/Blinker-Fluid",
+      "prerelease": true
+    },
+    "https://github.com/jailbreakdotparty/PancakeStore",
+    "https://github.com/TwilitRealm/dusklight",
+    "https://github.com/wrwrabbit/Vartagram",
+    "https://github.com/Suwayomi/Tachidesk-Sorayomi",
+    "https://github.com/Stossycord/Stossycord",
+    "https://github.com/Ayan4k/Ram-Checker",
+    "https://github.com/RipeStore/kodi",
+    {
+      "url": "https://github.com/hugeBlack/GetMoreRam",
+      "prerelease": true
+    },
+    "https://github.com/DonutWare/Fladder",
+    {
+      "url": "https://github.com/hugeBlack/OpenParsec",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/harkinianpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/sunpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/ctrpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/paperpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/f0x",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/starshippad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/maskpad",
+      "prerelease": true
+    },
+    "https://github.com/alexsvitlov/iTransmission",
+    "https://github.com/Jellify-Music/App",
+    "https://github.com/session-foundation/session-ios",
+    "https://github.com/Fchat-Horizon/Solstice",
+    "https://github.com/cranci1/Sora",
+    "https://github.com/G-Ray/pikatorrent",
+    "https://github.com/mateo-m/empo-app",
+    "https://github.com/T-Pau/Ready",
+    "https://github.com/OctoNezd/VNDS-LOVE-TOUCH",
+    "https://github.com/pounat/absorb",
+    "https://github.com/yuroyami/syncplay-mobile",
+    "https://github.com/khaled-0/Syncara",
+    "https://github.com/coflyn/Mori",
+    "https://github.com/akashdh11/skystream",
+    "https://github.com/Sakayorii/sakayori-music",
+    "https://github.com/Lolendor/LBox",
+    "https://github.com/CrispStrobe/CrisperWeaver",
+    "https://github.com/RandomityGuy/MBHaxe",
+    "https://github.com/scienceLabwork/Stable-Action",
+    "https://github.com/vicwomg/surge-ios-android",
+    "https://github.com/Llloooggg/LetsFLUTssh",
+    "https://github.com/matthw-labs/seekarr",
+    "https://github.com/Nyora-Manga/nyora-ios",
+    "https://github.com/Drakonis96/tesstats",
+    "https://github.com/MyNamesEMurray/LensLink",
+    "https://github.com/dz0ny/meshcore-sar",
+    "https://github.com/MaftyManicEMU/DukeX",
+    "https://github.com/geode-sdk/ios-launcher"
+  ],
+  "index": [
+    "https://download.videolan.org/pub/videolan/vlc-iOS/"
+  ]
+}
