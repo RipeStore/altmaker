@@ -1,6 +1,9 @@
 name: Clean & Optimize Git Database
 
 on:
+  schedule:
+    # Runs every Sunday at 04:00 UTC (offset by 4 hours from the 00:00/12:00 UTC update syncs)
+    - cron: '0 4 * * 0'
   workflow_dispatch:
     inputs:
       squash_history:
@@ -59,7 +62,7 @@ jobs:
 
           git add -A
 
-          if [ "${{ github.event.inputs.squash_history }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.squash_history }}" = "true" ] || [ -z "${{ github.event.inputs.squash_history }}" ]; then
             echo ">>> Squashing history to a single clean snapshot on branch: $CURRENT_BRANCH..."
             
             MSG="${{ github.event.inputs.commit_message || 'chore: maintain clean repository state and optimize source storage' }}"
