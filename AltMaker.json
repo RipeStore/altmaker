@@ -2494,6 +2494,39 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "Tesstats",
+      "bundleIdentifier": "com.tesstats.app",
+      "developerName": "Drakonis96",
+      "subtitle": "iOS app that displays TeslaMate stats on your iphone",
+      "localizedDescription": "Tesstats:\n\nA beautiful, read‑only stats app for your Tesla — powered by your own TeslaMate server. For iPhone, iPad and Mac.\n\nTesstats shows your car's live status, trips, charging sessions, battery health and rich analytics — at a glance, in a clean dark interface. It never sends any command to your car: it only reads the data TeslaMate already collects.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.tesstats.app.png",
+      "tintColor": "#701010",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/02-dashboard.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/05-charging.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/04-trips.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/03-battery.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/06-settings.png"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-07-30T15:33:57Z",
+          "localizedDescription": "Rearrangeable screens, tappable units, tariff plans — and the app is finally translated end to end.\n\nEvery screen is yours to arrange:\n\nSummary, Trips, Charging, Battery and Stats are built from blocks you can reorder or hide, from the ▦ button on the screen itself or from Settings. Defaults now lead with what most people open the app for — how the car is, and what it cost — with the enthusiast blocks further down.\n\nTap to change units:\n\nConsumption switches between Wh/km and kWh/100 km, and tyre pressure between bar and psi, by tapping any value. Every value switches together and the choice is remembered.\n\nTariff plans:\n\nName a plan, give it price bands, and charging sessions TeslaMate did not cost are priced by when they happened. You set only when each band starts — the day closes itself, so the bands always add up to 24 h. Existing time-of-use setups are migrated automatically. Per-location prices can now be set from a charging session itself, which also explains where its cost came from.\n\nThe app follows the language you pick:\n\n179 strings had never been added to the catalogue and always showed in English. Beyond that, dates, weekday names and chart axis labels are formatted from a locale rather than the string table, so a Battery chart could read sáb / lun / mié inside an otherwise English screen. Both are fixed, in both directions.\n\nIt stops stalling:\n\nEvery scrollable screen re-derived all of its analytics on each redraw. On a three-year history, one pass through Stats measured just over a second of blocked main thread — and the live feed triggers several a second. Screens now recompute only when something actually changed, and Stats does it off the main thread. The worst offender, the phantom-drain estimate, went from 948 ms to 4 ms. The launch splash no longer sits for a second and a half before showing anything.\n\nMaps follow the car:\n\nDrive somewhere new and the map stayed framed on the previous place with the marker off-screen. All four maps now re-aim: the live location, the history map after a filter change, and a trip's route once its real GPS trace arrives.\n\nSmaller fixes:\n\n• The trip row no longer breaks prices across two lines or truncates the efficiency label.\n• A tariff plan could never be opened — the selection circle was swallowing the row's tap.\n• The settings tabs and the gear button had no VoiceOver name.\n\nSideload the attached Tesstats.ipa with AltStore. The watch app is stripped from the IPA because AltStore cannot provision it.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.2.0/Tesstats.ipa",
+          "size": 2718716,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Tesstats connects to your self-hosted TeslaMate server on your local network."
+        }
+      }
     }
   ]
 }
