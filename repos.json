@@ -119,7 +119,11 @@
     "https://github.com/RipeStore/ffmpeg-ios-builder",
     "https://github.com/NekoSurf/NekoSurf",
     "https://github.com/EduAlexxis/ByeTunes",
-    "https://github.com/emexlab/Nyxian"
+    {
+      "url": "https://github.com/XITRIX/RPCS3-iOS-Releases",
+      "prerelease": true
+    },
+    "https://github.com/emexlab/Nyxian",
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
