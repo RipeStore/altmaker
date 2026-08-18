@@ -114,7 +114,8 @@
     "https://github.com/geode-sdk/ios-launcher",
     "https://github.com/RipeStore/Swiftfin",
     "https://github.com/RipeStore/suwattebuilder",
-    "https://github.com/RipeStore/linkwarden"
+    "https://github.com/RipeStore/linkwarden",
+    "https://github.com/tfourj/Palladium"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
