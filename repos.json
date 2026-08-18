@@ -116,7 +116,10 @@
     "https://github.com/RipeStore/suwattebuilder",
     "https://github.com/RipeStore/linkwarden",
     "https://github.com/tfourj/Palladium",
-    "https://github.com/RipeStore/ffmpeg-ios-builder"
+    "https://github.com/RipeStore/ffmpeg-ios-builder",
+    "https://github.com/NekoSurf/NekoSurf",
+    "https://github.com/EduAlexxis/ByeTunes",
+    "https://github.com/emexlab/Nyxian"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
