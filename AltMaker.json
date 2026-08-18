@@ -2682,10 +2682,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-08-18T05:23:53Z",
+          "date": "2026-08-18T07:16:20Z",
           "localizedDescription": "first commit.\n\nBranch: main.\n\nBuilt from upstream commit ab6ef64 on the main branch.",
           "downloadURL": "https://github.com/RipeStore/ffmpeg-ios-builder/releases/download/v1.1-ab6ef64/FFmpegShellIOS-v1.1-ab6ef64-unsigned.ipa",
-          "size": 13424137,
+          "size": 13423932,
           "minOSVersion": "17.0"
         }
       ],
