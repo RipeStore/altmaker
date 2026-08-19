@@ -119,6 +119,8 @@
     "https://github.com/RipeStore/ffmpeg-ios-builder",
     "https://github.com/NekoSurf/NekoSurf",
     "https://github.com/EduAlexxis/ByeTunes",
+    "https://github.com/RipeStore/spark",
+    "https://github.com/RipeStore/aurora"
     {
       "url": "https://github.com/XITRIX/RPCS3-iOS-Releases",
       "prerelease": true
