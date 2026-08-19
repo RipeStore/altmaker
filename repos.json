@@ -125,7 +125,10 @@
       "url": "https://github.com/XITRIX/RPCS3-iOS-Releases",
       "prerelease": true
     },
-    "https://github.com/emexlab/Nyxian"
+    "https://github.com/emexlab/Nyxian",
+    "https://github.com/lotusprey/otraku",
+    "https://github.com/cranci1/SwiftyBox",
+    "https://github.com/RipeStore/AniHyou-iOS"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
