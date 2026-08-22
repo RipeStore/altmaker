@@ -128,7 +128,23 @@
     "https://github.com/emexlab/Nyxian",
     "https://github.com/lotusprey/otraku",
     "https://github.com/cranci1/SwiftyBox",
-    "https://github.com/RipeStore/AniHyou-iOS"
+    "https://github.com/RipeStore/AniHyou-iOS",
+    "https://github.com/cranci1/Iridum",
+    "https://github.com/raaaton/Flashcards",
+    {
+      "url": "https://github.com/itoapp/Ito",
+      "prerelease": true
+    },
+    "https://github.com/moliango/doer",
+    "https://github.com/Suwayomi/Suwayomi-Tsumiru",
+    "https://github.com/mangeshghodke/DreamPlayer",
+    "https://github.com/squazaryu/TumoCompanion",
+    "https://github.com/fafarunner/fafarunner",
+    "https://github.com/picguard/picguard",
+    "https://github.com/Wiredframe/paper-comic-reader",
+    "https://github.com/RohanBhattacharyya/oSBM",
+    "https://github.com/jevonlipsey/pico-ios",
+    "https://github.com/zzanehip/The-OldOS-Project"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
