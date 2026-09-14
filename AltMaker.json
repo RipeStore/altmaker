@@ -3638,6 +3638,452 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "Harbour",
+      "bundleIdentifier": "xyz.shameful.Harbour",
+      "developerName": "rrroyal",
+      "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS",
+      "localizedDescription": "Harbour:\n\nDocker/Portainer management app for iOS, iPadOS and macOS.\n\nPortainer is required to use Harbour.\n\nFeatures:\n\n• [x] Multiple Servers and Endpoints.\n• [x] Widgets.\n• [x] App Intents and Shortcuts.\n• [x] Handoff.\n• [x] Background Notifications.\n• [x] Spotlight Integration.\n• [x] Link-backs to Portainer.\n• [x] No Telemetry.\n\nContainers:\n\n• [x] Displaying Details (Health, Environment, Labels, Mounts, Networks).\n• [x] Inspecting Logs.\n• [x] Managing State.\n• Deploying New Containers.\n• Editing Existing Containers.\n• [x] Removing Containers.\n\nStacks:\n\n• [x] Displaying Details.\n• [x] Managing State.\n• [x] Deploying New Stacks.\n• [x] Editing Existing Stacks.\n• [x] Removing Stacks.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/xyz.shameful.Harbour.png",
+      "tintColor": "#3050e0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "4.2.9",
+          "date": "2026-05-02T21:42:25Z",
+          "localizedDescription": "Containers:\n\n• Fixed subtitle in list cells (#82).",
+          "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.ipa",
+          "size": 8552473,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "StikPair",
+      "bundleIdentifier": "com.stik.StikPair",
+      "developerName": "StikDebug",
+      "subtitle": "A simple SwiftUI iOS app that creates a pairing file on-device",
+      "localizedDescription": "StikPair:\n\nA simple SwiftUI iOS app that creates a pairing file on-device, using iOS 27+ or tvOS 11+ wireless pairing. Powered by idevice.\n\nRequirements:\n\n• iOS 27+.\n• To build: Xcode 27, Rust (aarch64-apple-ios + aarch64-apple-ios-sim), xcodegen.\n\nBuild:\n\nSet your signing team and run on a device.\n\niPhone or iPad:\n\n• Tap Pair iPhone or iPad and grant the Local Network prompt.\n• On the device: Settings › Privacy \u0026 Security › Developer Mode, scroll down, tap Pair with StikPair, and enter the PIN shown in the Live Activity.\n• When the \"Pairing complete\" notification arrives, return to the app and tap Export Pairing File.\n\nApple TV:\n\n• On Apple TV, open Settings › Remotes and Devices › Remote App and Devices.\n• Tap Pair Apple TV in StikPair and select the Apple TV.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stik.StikPair.png",
+      "tintColor": "#20c0f0",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "1.2.0",
+          "date": "2026-08-25T22:16:01Z",
+          "localizedDescription": "• Fix build action.\n• Apple TV wireless pairing.\n\nNew Contributors:\n\n• @CelloSerenity made their first contribution.",
+          "downloadURL": "https://github.com/StikDebug/StikPair/releases/download/v1.2.0/StikPair.ipa",
+          "size": 7735750,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "StikPair uses your local network to discover devices and complete pairing.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "StikPair can use location to keep running in the background while you complete pairing in Settings.",
+          "NSLocationWhenInUseUsageDescription": "StikPair can use location to keep running in the background while you complete pairing in Settings."
+        }
+      }
+    },
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "app.aidoku.Aidoku",
+      "developerName": "Aidoku",
+      "subtitle": "Manga reading app for iOS, iPadOS, and macOS",
+      "localizedDescription": "Aidoku:\n\nA free and open source manga reading application for iOS, iPadOS, and macOS.\n\nFeatures:\n\n• No ads.\n• Local file reading (CBZ).\n• Built-in reading service providers (Komga, Kavita, Suwayomi).\n• WASM external source system.\n\n• Tracker integration (AniList, MyAnimeList, etc.).\n• OCR dictionary lookup.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.aidoku.Aidoku.png",
+      "tintColor": "#f02050",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/library-noframe.png",
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/source-noframe.png",
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/reader-noframe.png"
+      ],
+      "versions": [
+        {
+          "version": "0.9",
+          "date": "2026-09-03T20:17:08Z",
+          "localizedDescription": "• OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n• Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n• Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n\n• Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+          "size": 14731108,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.user-fonts",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+          "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga and Kavita servers",
+          "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library"
+        }
+      }
+    },
+    {
+      "name": "Table Habit",
+      "bundleIdentifier": "io.github.friesi23.mhabit",
+      "developerName": "FriesI23",
+      "subtitle": "Open-source Flutter habit tracker with smart scoring, WebDAV sync, local-first storage, privacy-focused design, and support for Android, iOS, Windows, macOS, and Linux",
+      "localizedDescription": "Table Habit is a free and open-source habit tracker that helps you build micro habits with a unique scoring system, rich growth charts, and cross-device WebDAV sync. Available on Android, iOS, macOS, Windows, and Linux — no ads, no account required. See the translation badge above for supported languages. Licensed under Apache 2.0.\n\nWhy Table Habit?:\n\n• 📊 Smart Scoring — Not Just Streaks Quantifies your consistency beyond daily check-ins. Growth curves show your long-term progress with separate scoring models for \"do\" and \"don't\" habits.\n• 🔄 WebDAV Sync — Own Your Data Sync seamlessly across devices via Nextcloud, Koofr, or self-hosted servers. Zero vendor lock-in and complete data privacy — your habit data always stays yours.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.friesi23.mhabit.png",
+      "tintColor": "#1070d0",
+      "category": "lifestyle",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-sync-settings.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-customization-01.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-customization-02.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-offline-empty.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-edit-habit.png"
+      ],
+      "versions": [
+        {
+          "version": "1.27.6",
+          "date": "2026-09-07T09:49:55Z",
+          "localizedDescription": "✨ Features:\n\n• Complete the adaptive interface migration across navigation, settings, page headers, search, selection, and habit actions.\n\n• Preserve branch state and improve back navigation across nested pages.\n• Keep actions and menus responsive across window sizes and input modes.\n\n• Add quick theme mode controls to app bars and wider navigation layouts (#659).\n• Add resizable side navigation for wider layouts (#653).\n\n• Keep navigation aligned with window controls, safe areas, and layout direction changes.\n• Improve text rendering and theme behavior across desktop layouts.\n\n• Improve app bars, habit actions, and batch status changes across window sizes (#655).\n\n• Keep localized action labels readable and move extra actions into overflow menus when space is limited.\n• Refine page backgrounds and scroll-under transitions.\n\n🐛 Fixes:\n\n• Keep dialogs above app navigation and refresh selection state consistently after reordering or regrouping habits (#656).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.6%2B195/mhabit-unsigned.ipa",
+          "size": 14790504,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Onion Browser",
+      "bundleIdentifier": "com.miketigas.OnionBrowser",
+      "developerName": "OnionBrowser",
+      "subtitle": "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network",
+      "localizedDescription": "Onion Browser:\n\n© 2012-2024, Tigas Ventures, LLC (Mike Tigas).\n\nThis is the Onion Browser 3.X branch. The older versions of Onion Browser can be found here and here.\n\nOnion Browser is a free web browser for iPhone and iPad that encrypts and tunnels web traffic through the Tor network with the help of Orbot iOS. See the official site for more details and App Store links.\n\nPlease see the LICENSE file for usage and redistribution terms.\n\nThe following features are new to Onion Browser, mostly by leveraging Orbot iOS:\n\n• Use of newer, more secure, faster rendering engine WKWebView.\n• Finally all traffic, including audio/video streams tunneled through Tor.\n\n• Search in page from iOS 16 and up.\n• Multiple windows support on iPad.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.miketigas.OnionBrowser.png",
+      "tintColor": "#501060",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.4.1",
+          "date": "2026-08-11T16:27:51Z",
+          "localizedDescription": "• Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.).\n• Updated libevent to 2.1.13.\n• Updated Japanese and Pashto translations.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
+          "size": 39611914,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.default-data-protection",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.web-browser",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Needed to read bridge addresses from displayed QR codes.",
+          "NSFaceIDUsageDescription": "Needed, if you want to unlock the app with Face ID.",
+          "NSPhotoLibraryAddUsageDescription": "Needed to store the selected image to your photos."
+        }
+      }
+    },
+    {
+      "name": "VoxelTrail",
+      "bundleIdentifier": "app.voxeltrail.local",
+      "developerName": "hernan0078",
+      "subtitle": "Native iOS build of the Gen 1 recomp engine, with optional 3D voxel rendering. Bring your own ROM",
+      "localizedDescription": "VoxelTrail for iOS:\n\nEspañol · English.\n\nA native iOS build of the Gen 1 recomp engine — the Generation 1 Pokémon games, reimplemented in Lua on LÖVE — with the Dramatic Shape voxel mod built in, so the overworld can be played as a 3D diorama or in first person.\n\nYou need your own ROM. None is included here and none will be. The app reads a Game Boy ROM you already own and extracts its data on first launch.\n\nInstall:\n\nThe IPA is unsigned, which is what sideloading tools expect — they sign it with your own Apple ID, on your own device.\n\n• Install a sideloader. SideStore or AltStore. Follow their setup; both need a one-time pairing step with a computer.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.voxeltrail.local.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.5.0",
+          "date": "2026-08-08T16:52:19Z",
+          "localizedDescription": "Unsigned IPA — install with SideStore or AltStore. Requires iOS 16+, tested on iOS 26.6. Bring your own ROM.\n\n📖 Instrucciones en español · 🇪🇸 Notas en español abajo.\n\nPokémon Stadium battle models:\n\n3D BATTLES can fight with the Pokémon Stadium models instead of the flat Game Boy pictures — STADIUM A on the map, STADIUM B on two discs against the sky.\n\nYou supply the cartridge. Import Stadium ROM in the launcher's MODS panel, or STADIUM ROM in the options menu, opens the Files picker for your Pokémon Stadium (US) 1.0 file. The models are built on your device, once, and the ROM is read and forgotten rather than kept.\n\nThat picker is new work on my side: iOS had no way to hand the mod a cartridge at all, so it printed a sandbox path and asked you to put a file somewhere a phone cannot reach. Now upstream as.\n\nUS 1.0 specifically — every model offset is measured against that revision. Another one builds, and the screen tells you the models may be wrong.\n\nThe battle HUD reads the right way round:\n\n1.7.2 draws the battle HUD mirrored on iOS — PIKACHU, the HP numbers and L100 all backwards, while FIGHT/ITEM/RUN reads fine. It comes from a fix that assumes iOS presents the HUD canvas upside down and corrects for it; this build's renderer doesn't flip it, so the correction was the mirror. Fixed, and the frosted panels behind the HUD come back with it.\n\nMore of the mod:\n\n• RENDER DIST — FIT / WIDE / WIDER / WIDEST / OFF. The first thing to reach for if 3D runs slowly: FIT skips whole connected maps before they cost anything.\n• Fog and god rays in Viridian Forest, every battle location rebuilt, and a lot of new voxel work — diner stools, mansion desks, CUT trees.\n• ROUND WORLD gained two rungs, GLOBE and PLANET. PLANET is a true half-sphere: the town sitting on a little world.\n\nSpanish:\n\nThe Stadium screens and the whole STADIUM ROM flow are translated. Two older gaps closed: CANCEL was the one English word left on a fully Spanish options menu — structurally unreachable, now fixed and — and ten strings carried Ñ, ¿ or ¡ onto the 8×8 font, which has no glyph for any of them and drew holes instead.\n\nThe translation is.\n\nKept from before:\n\nThe live-tuning panel, the look stick, readable setting names, third person, the battle camera, and Spanish Red/Blue ROM support.\n\n🇪🇸 En español:\n\nIPA sin firmar — instalalo con SideStore o AltStore. Requiere iOS 16 o posterior; probado en iOS 26.6. Necesitas tu propia ROM.\n\n📖 Instrucciones completas en español.\n\nModelos de combate de Pokemon Stadium:\n\nCOMBATES 3D puede pelear con los modelos de Pokemon Stadium en vez de con las imagenes planas de Game Boy: STADIUM A sobre el mapa, STADIUM B sobre dos discos contra el cielo.\n\nEl cartucho lo pones tu. Importar ROM de Stadium, en el panel de MODS del menu inicial, o ROM STADIUM en las opciones, abre el selector de Archivos para tu Pokemon Stadium (US) 1.0. Los modelos se crean en tu dispositivo una sola vez, y la ROM se lee y se olvida en lugar de guardarse.\n\nEse selector es trabajo nuevo de mi parte: en iOS no habia forma de entregarle un cartucho al mod, asi que imprimia una ruta interna y te pedia dejar un archivo en un sitio al que un telefono no llega.\n\nUS 1.0 en concreto: cada medida de los modelos esta tomada de esa revision. Otra distinta se construye igual, pero la pantalla te avisa de que pueden salir mal.\n\nEl HUD de combate se lee del derecho:\n\nLa 1.7.2 dibuja el HUD de combate reflejado en iOS: PIKACHU, los numeros de PS y L100 al reves, mientras que LUCHA/OBJETO/HUIR se lee bien. Viene de un arreglo que da por hecho que iOS presenta ese lienzo del reves y lo corrige; el motor de esta version no lo voltea, asi que la correccion era el reflejo. Arreglado, y los paneles esmerilados de detras del HUD vuelven con ello.\n\nMas del mod:\n\n• DISTANCIA — AJUSTE / LEJOS / MAS LEJOS / MAXIMO / NO. Lo primero que tocar si el 3D va lento: AJUSTE descarta mapas enteros antes de que cuesten nada.\n• Niebla y rayos de sol en el Bosque Verde, todas las localizaciones de combate rehechas, y mucho trabajo nuevo de voxeles.\n• MUNDO CURVO gano dos niveles, GLOBO y PLANETA. PLANETA es media esfera de verdad: el pueblo sobre un planeta pequeño.\n\nEspañol:\n\nLas pantallas de Stadium y todo el proceso de ROM STADIUM estan traducidos. Se cierran dos huecos antiguos: CANCELAR era la unica palabra en ingles que quedaba en un menu de opciones completamente en español, y diez textos llevaban Ñ, ¿ o ¡ a la fuente de 8x8, que no tiene glifo para ninguno y dibujaba huecos.\n\nSe mantiene todo lo anterior:\n\nEl panel de ajuste en vivo, la palanca de vista, los nombres legibles de los ajustes, la tercera persona, la camara de combate y el soporte de ROMs de Rojo y Azul en español.",
+          "downloadURL": "https://github.com/hernan0078/voxeltrail-ios/releases/download/v0.5.0/VoxelTrail-0.5.0.ipa",
+          "size": 20272748,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Nectar",
+      "bundleIdentifier": "com.kyrielie.nectar",
+      "developerName": "kyrielie",
+      "subtitle": "netnewswire fork for fanfiction reading!",
+      "localizedDescription": "🍎 Nectar:\n\n**An iOS feed reader for Archive of Our Own and Ambrosia. An unofficial AO3 reading application. **.\n\nQuick Install:\n\n• [x] This app will always be free and open source. (If you don't trust me, you can look at the code and build the application yourself.).\n• [x] This app does not distribute fics.\n• [x] This app does it's best to respect AO3's TOS, servers, and policies.\n• [x] Nectar logs you in using the Safari browser. Your login details stay on your phone.\n• [x] Your reading history stays private on your phone.\n\nBackground:\n\nI have extended the functionality of Nectar to be able to update the metadata and text from AO3 for my local library. Now you can load any work search link and start reading.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.kyrielie.nectar.png",
+      "tintColor": "#e0d050",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.1.7",
+          "date": "2026-09-12T07:03:21Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.7/Nectar-unsigned.ipa",
+          "size": 4852286,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Grant permission to save images from the article."
+        }
+      }
+    },
+    {
+      "name": "C64 Commander",
+      "bundleIdentifier": "uk.gleissner.c64commander",
+      "developerName": "chrisgleissner",
+      "subtitle": "Control and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network",
+      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Search: Find any page, setting, action, tune or disk by name. Three ways in — the field at the top of Home, the Quick menu, or the 7 key. A result you cannot use yet is still listed, with the reason.\n\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.\n• Remote Input and Live View: Use an on-screen joystick or keyboard, and stream audio or video from the running machine.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/uk.gleissner.c64commander.png",
+      "tintColor": "#c0b060",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/00-overview-light.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/01-quick-actions-to-live-view.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/01-overview-dark.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/04-video-to-audio.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/09-lighting-to-keyboard-light.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-09-08T14:39:39Z",
+          "localizedDescription": "• Make droidctl the unmistakable interface for all Android device work.\n• Make Demo Mode a simulated device: reachable, real content, a live screen, and sound.\n• deps: bump postcss-selector-parser from 6.1.2 to 6.1.4[bot].\n• deps: bump browserslist from 4.28.4 to 4.28.6[bot].\n• deps: bump @humanfs/node from 0.16.6 to 0.16.8[bot].\n• deps: bump qs from 6.15.2 to 6.16.0 in /c64scope[bot].\n• deps: bump fast-uri from 3.1.5 to 3.1.7 in /c64scope[bot].\n• deps: Bump the \"weekly-rollup\" group with 2 updates across multiple ecosystems[bot].\n• Hardening 27: fix all forty production-readiness review findings.\n• Demo Mode: serve the whole app from the device, and enable it for C64U Remote.\n• Fix opaque sheet backdrops and profile-unaware full-screen defaults.\n• Let the screen decide the display profile for C64U Remote.\n• Give six automation-targeted controls a DOM id.",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.3/c64commander-1.0.3-ios.ipa",
+          "size": 7302100,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Swift Radio",
+      "bundleIdentifier": "com.matthewfecher.SwiftRadio",
+      "developerName": "analogcode",
+      "subtitle": "Professional Radio Station App for iOS!",
+      "localizedDescription": "Swift Radio:\n\nOpen-source radio station app built entirely in Swift. Used by 80+ apps on the App Store.\n\nLooking for Android? See Swift Radio Android. Same station format, native Kotlin and Jetpack Compose.\n\nFeatures:\n\n• Stream live radio with background audio playback.\n• Scrubber and progress bar for non-live streams.\n• Apple CarPlay support.\n• Album art and track metadata from streams and iTunes API.\n• Lock screen and Control Center integration.\n• Multiple stations from a local or remote JSON file.\n• Pull to refresh and optional search bar.\n• Localization-ready via Xcode String Catalog.\n• About screen with email, sharing, and external links.\n\nBuilt on FRadioPlayer for streaming, metadata parsing, and iTunes album art fetching.\n\nGetting Started:\n\n• Open SwiftRadio.xcodeproj in Xcode.\n• Update your stations in SwiftRadio/Data/stations.json or host the file remotely.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.matthewfecher.SwiftRadio.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/3511384/63377830-d8041880-c35e-11e9-91d1-5f7b7d4188d7.jpg"
+      ],
+      "versions": [
+        {
+          "version": "3.1.0",
+          "date": "2026-07-04T20:18:33Z",
+          "localizedDescription": "The attached .ipa is unsigned. Install it by sideloading with AltStore or Sideloadly, which re-sign it with your own Apple ID. Or clone the repo and run it from Xcode with your personal team.\n\n• Localize About screen.\n• Add link to Swift Radio Android in README.\n• Move Android link below screenshots.\n• Fix CI builds by using iPhone 17 Pro simulator.\n\n• Fix iOS app icon: use square full-bleed artwork.",
+          "downloadURL": "https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa",
+          "size": 6178833,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "This app would like to save the image associated with the current track and station to your photo library."
+        }
+      }
+    },
+    {
+      "name": "Navic",
+      "bundleIdentifier": "paige.Navic",
+      "developerName": "ssalggnikool",
+      "subtitle": "A modern Navidrome client for Android and iOS",
+      "localizedDescription": "A modern Navidrome client for Android and iOS.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/paige.Navic.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-12T23:43:57Z",
+          "localizedDescription": "• fix(#503): always invalidate hasSentNowPlaying when media changes.\n• Translations update from Hosted Weblate.",
+          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha55/Navic.ipa",
+          "size": 22584290,
+          "minOSVersion": "14.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "com.xitrix.iTorrent2",
+      "developerName": "XITRIX",
+      "subtitle": "Torrent client for iOS 16+",
+      "localizedDescription": "iTorrent - iOS Torrent client App:\n\n][AltStore Classic Link] ][SideStore Link] ][GitHub Link] ][Jailbreak Link]!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.xitrix.iTorrent2.png",
+      "tintColor": "#f09060",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/73256524-4861-4b8f-afba-5bd657badb2f",
+        "https://github.com/user-attachments/assets/9ac2c682-a3b4-4498-8daa-6c5c6f742946",
+        "https://github.com/user-attachments/assets/c2f06516-862a-47b5-b69b-aed4f6043aae",
+        "https://github.com/user-attachments/assets/c7dff083-4fe7-4440-9961-9eb472e22142",
+        "https://github.com/user-attachments/assets/be15d663-0d5b-40ed-aa6c-1f3eb9e00a1e"
+      ],
+      "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2026-07-19T09:59:41Z",
+          "localizedDescription": "What's new::\n\n• Enjoy Picture in Picture, playback speeds from 0.5x to 2x, audio and subtitle track selection, precise seeking, and system media controls.\n• Take playback to a bigger screen with AirPlay or a compatible player discovered on your local network.\n\n• Select and share multiple completed files or entire folders in one go.\n\nImprovements::\n\n• Refreshed the interface for iOS 26, with Liquid Glass styling, cleaner dialogs, and more polished navigation.\n\n• Improved media previewing so iTorrent can offer the best available player for each file.\n\n• Expanded and refined translations across all supported languages.\n\nFixes::\n\n• Fixed cases where magnet links could be saved incorrectly.\n• Fixed a startup race condition that could interfere with launching the app or completing initial setup.\n• Fixed toolbars and navigation behaving incorrectly in iPad split-screen mode.\n\n• Fixed torrent details sometimes getting stuck in a continuous update loop.",
+          "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "size": 24288935,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "iTorrent uses the local network to discover playback devices and cast video on your network."
+        }
+      }
+    },
+    {
+      "name": "Voyager",
+      "bundleIdentifier": "app.vger.voyager",
+      "developerName": "aeharding",
+      "subtitle": "Voyager — a beautiful app for Lemmy and Piefed",
+      "localizedDescription": "Voyager for Lemmy:\n\nVoyager is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out!\n\nWhat does Voyager currently support?\n\n• Light/dark mode.\n• View and subscribe to communities.\n• Multi account support.\n• Single comment thread context view.\n• Upvote, downvote and reply to threads and comments.\n• Interact with user profiles.\n• Comment thread collapsing.\n• A bunch of swipe gestures.\n• Messaging, mentions and replies.\n• Creating new posts (url/photo/text).\n• Deleting/editing comments.\n• Deleting/editing posts.\n• Swipe to hide posts.\n• iOS and Android themes.\n\nWhat is on the roadmap?\n\n• More customization.\n• Native notifications and badging.\n\n• .and more!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.vger.voyager.png",
+      "tintColor": "#102050",
+      "category": "social",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/aeharding/voyager@main/public/promo.webp"
+      ],
+      "versions": [
+        {
+          "version": "2.49.1",
+          "date": "2026-09-13T05:07:24Z",
+          "localizedDescription": "🐛 Fixes:\n\n• fix: preserve special characters in search.\n\n• PR: #2358.\n\n📝 Other Changes:\n\n• chore: rust react compiler pipeline.\n\n• PR: #2357.\n\n• chore: upgrade dependencies.\n\n• PR: #2359.",
+          "downloadURL": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
+          "size": 8232319,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Attach photo to a new post",
+          "NSFaceIDUsageDescription": "Optional setting to check face ID when opening app",
+          "NSMicrophoneUsageDescription": "Attach video to a new post",
+          "NSPhotoLibraryAddUsageDescription": "Save photos to device"
+        }
+      }
+    },
+    {
+      "name": "Monolith",
+      "bundleIdentifier": "dev.naveed-gung.monolith",
+      "developerName": "naveed-gung",
+      "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Import readable songs from the iOS Music picker, import the accessible local Music library in one batch, or choose audio files from Files. Failed items retain their individual reasons.\n• Browse songs, artists, albums, playlists, and recent additions.\n• Open the activity dropdown below the header to inspect concurrent transfers and stop individual jobs.\n\n• Read missing durations from native audio metadata without playing every song.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
+      "tintColor": "#e04050",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/library.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/songs.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/player.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/downloads.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/search.png"
+      ],
+      "versions": [
+        {
+          "version": "1.4.4",
+          "date": "2026-09-10T07:50:38Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.4/monolith.ipa",
+          "size": 11104378,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Monolith needs access to your media library to import songs from your device.",
+          "NSLocalNetworkUsageDescription": "Monolith uses local network access for audio session management."
+        }
+      }
+    },
+    {
+      "name": "Flycast",
+      "bundleIdentifier": "com.chachirie.FlycastiOS",
+      "developerName": "chachillie",
+      "subtitle": "Flycast for iOS 26 with StikDebug support",
+      "localizedDescription": "Flycast:\n\nFlycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.chachirie.FlycastiOS.png",
+      "tintColor": "#c0d0f0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.6",
+          "date": "2026-01-22T02:53:54Z",
+          "localizedDescription": "TXM and Non-TXM devices tested and working with iOS26.\n\n• Flycast-iOS automatically routes to the correct .js.",
+          "downloadURL": "https://github.com/chachillie/Flycast-iOS/releases/download/v1.0/Flycast-iOS.ipa",
+          "size": 8292812,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Flycast uses the local network to find and communicate with AltServer.",
+          "NSMicrophoneUsageDescription": "Flycast requires microphone access to emulate the Dreamcast microphone",
+          "NSPhotoLibraryAddUsageDescription": "Flycast can save screenshots to your Photo library."
+        }
+      }
     }
   ]
 }
