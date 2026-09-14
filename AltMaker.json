@@ -1917,7 +1917,7 @@
       "developerName": "Nyora-Manga",
       "subtitle": "Nyora for iOS \u0026 iPadOS — free, open-source manga reader; Aidoku-based UI with Nyora cloud sources and sync",
       "localizedDescription": "Read like the world can wait.:\n\nA fast, free, ad-free, open-source manga / manhwa / manhua reader for iPhone \u0026 iPad — part of the cross-platform Nyora series. Hundreds of sources, an in-reader AI translation overlay, and your library synced across every device you read on.\n\nNo App Store, no ads, no sign-up wall. Sideload the .ipa and start reading.\n\nAbout:\n\nRunning the engine locally also means iOS can clear a Cloudflare challenge itself, so it gets the same source coverage as the Android and desktop apps rather than the reduced set a shared cloud helper can serve.",
-      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/placeholder.png",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.nyora.ios.png",
       "tintColor": "#6156e2",
       "category": "entertainment",
       "versions": [
@@ -2984,7 +2984,7 @@
       "developerName": "zzanehip",
       "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI",
       "localizedDescription": "!",
-      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/placeholder.png",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.zurac.BudgetBuddy.png",
       "tintColor": "#6156e2",
       "category": "other",
       "screenshotURLs": [
