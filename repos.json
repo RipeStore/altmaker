@@ -107,9 +107,7 @@
     "https://github.com/Llloooggg/LetsFLUTssh",
     "https://github.com/matthw-labs/seekarr",
     "https://github.com/Nyora-Manga/nyora-ios",
-    "https://github.com/Drakonis96/tesstats",
     "https://github.com/MyNamesEMurray/LensLink",
-    "https://github.com/dz0ny/meshcore-sar",
     "https://github.com/MaftyManicEMU/DukeX",
     "https://github.com/geode-sdk/ios-launcher",
     "https://github.com/RipeStore/Swiftfin",
@@ -145,15 +143,16 @@
     "https://github.com/RohanBhattacharyya/oSBM",
     "https://github.com/jevonlipsey/pico-ios",
     "https://github.com/zzanehip/The-OldOS-Project",
-    "https://github.com/EhPanda-Team/EhPanda",
-    "https://github.com/OatmealDome/dolphin-ios",
+    {
+      "url": "https://github.com/OatmealDome/dolphin-ios",
+      "prerelease": true
+    },
     "https://github.com/dddevid/musly",
     "https://github.com/kodjodevf/mangayomi",
     "https://github.com/donbytyqi/scenebox",
     "https://github.com/g8row/PhotosBackup",
     "https://github.com/luqmanfadlli/NuvioMobile-Enhanced",
     "https://github.com/andrewnakas/skate3-ios-setup",
-    "https://github.com/RohanBhattacharyya/oSBM",
     "https://github.com/RipeStore/hydrabuilder"
   ],
   "index": [
