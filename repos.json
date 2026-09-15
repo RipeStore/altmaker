@@ -15,7 +15,6 @@
     },
     "https://github.com/emp0ry/MiruShin",
     "https://github.com/KolbyML/Manatan",
-    "https://github.com/open-ani/animeko",
     "https://github.com/mirarr-app/mirarr",
     "https://github.com/Flixorui/flixor",
     "https://github.com/hrydgard/ppsspp",
@@ -170,7 +169,16 @@
     "https://github.com/chrisgleissner/c64commander",
     "https://github.com/kyrielie/nectar",
     "https://github.com/naveed-gung/Monolith",
-    "https://github.com/stossy11/MeloCafe"
+    "https://github.com/stossy11/MeloCafe",
+    "https://github.com/ResistanceTo/MiniWatts",
+    "https://github.com/verback2308/Opaline",
+    "https://github.com/RipeStore/smarttubebuilder",
+    "https://github.com/niuhuan/pansy",
+    "https://github.com/khoadng/Boorusama",
+    {
+      "url": "https://github.com/yattee/yattee",
+      "prerelease": true
+    }
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
