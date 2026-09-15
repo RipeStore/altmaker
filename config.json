@@ -12,7 +12,7 @@
   "githubRawBaseURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main",
   "outputFile": "AltMaker.json",
   "iconsDir": "./icons",
-  "maxVersions": 3,
+  "maxVersions": 1,
   "readmeWordLimit": 120,
   "maxScreenshots": 5
 }
