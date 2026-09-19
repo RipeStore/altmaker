@@ -178,7 +178,32 @@
     {
       "url": "https://github.com/yattee/yattee",
       "prerelease": true
-    }
+    },
+    {
+      "url": "https://github.com/chrissotraidis/meleepad",
+      "prerelease": true
+    },
+    {
+      "url": "hhttps://github.com/chrissotraidis/goldenpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/bellpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/ballpad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/annepad",
+      "prerelease": true
+    },
+    {
+      "url": "https://github.com/chrissotraidis/galaxypad",
+      "prerelease": true
+    },
+    "https://github.com/chrissotraidis/kartpad"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
