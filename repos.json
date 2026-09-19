@@ -203,7 +203,12 @@
       "url": "https://github.com/chrissotraidis/galaxypad",
       "prerelease": true
     },
-    "https://github.com/chrissotraidis/kartpad"
+    "https://github.com/chrissotraidis/kartpad",
+    {
+      "url": "https://github.com/Provenance-Emu/iCube",
+      "prerelease": true
+    },
+    "https://github.com/Provenance-Emu/Provenance"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
