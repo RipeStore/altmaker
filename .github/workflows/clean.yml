@@ -1,0 +1,98 @@
+name: Clean & Optimize Git Database
+
+on:
+  schedule:
+    # Runs every Sunday at 04:00 UTC (offset by 4 hours from the 00:00/12:00 UTC update syncs)
+    - cron: '0 4 * * 0'
+  workflow_dispatch:
+    inputs:
+      squash_history:
+        description: 'Squash commit history to 1 clean commit (Purges old JSON snapshot blobs)'
+        type: boolean
+        required: true
+        default: true
+      commit_message:
+        description: 'Commit message when squashing history'
+        type: string
+        required: false
+        default: 'chore: maintain clean repository state and optimize source storage'
+
+concurrency:
+  group: altmaker-sync
+  cancel-in-progress: true
+
+jobs:
+  clean:
+    name: Git Database Cleanup & Storage Optimization
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Measure Git DB Size (Before)
+        run: |
+          echo "=== Storage Metrics Before Cleanup ==="
+          du -sh .git
+          git count-objects -vH
+
+      - name: Optimize & Maintain Repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          CURRENT_BRANCH="${GITHUB_REF#refs/heads/}"
+          if [ -z "$CURRENT_BRANCH" ] || [ "$CURRENT_BRANCH" = "HEAD" ]; then
+            CURRENT_BRANCH="main"
+          fi
+
+          echo ">>> Fetching absolute latest remote state on branch: $CURRENT_BRANCH..."
+          git fetch origin "$CURRENT_BRANCH"
+          git checkout "$CURRENT_BRANCH"
+          git reset --hard "origin/$CURRENT_BRANCH"
+
+          echo ">>> Running Altmaker Engine to ensure latest data snapshot..."
+          chmod +x ./bin/altmaker
+          ./bin/altmaker -config ./config.json -repos ./repos.json
+
+          git add -A
+
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.squash_history }}" = "true" ] || [ -z "${{ github.event.inputs.squash_history }}" ]; then
+            echo ">>> Squashing history to a single clean snapshot on branch: $CURRENT_BRANCH..."
+            
+            MSG="${{ github.event.inputs.commit_message || 'chore: maintain clean repository state and optimize source storage' }}"
+            
+            # Create a single root commit directly from the latest tree state
+            TREE_ID=$(git write-tree)
+            COMMIT_ID=$(git commit-tree "$TREE_ID" -m "$MSG")
+            
+            # Point branch directly to the clean root commit
+            git reset --hard "$COMMIT_ID"
+            
+            # Expire reflogs and aggressively prune dangling objects
+            git reflog expire --expire=now --all
+            git gc --prune=now --aggressive
+            
+            # Force push clean state
+            git push origin "$CURRENT_BRANCH" --force
+          else
+            echo ">>> Running standard Git GC & Packfile optimization on branch: $CURRENT_BRANCH..."
+            if ! git diff --staged --quiet; then
+              git commit -m "chore(source): sync latest app releases [skip ci]"
+            fi
+            git reflog expire --expire=now --all
+            git repack -a -d -f --depth=250 --window=250
+            git gc --prune=now --aggressive
+            git push origin "$CURRENT_BRANCH" --force
+          fi
+
+      - name: Measure Git DB Size (After)
+        run: |
+          echo "=== Storage Metrics After Cleanup ==="
+          du -sh .git
+          git count-objects -vH
