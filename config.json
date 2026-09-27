@@ -1,0 +1,18 @@
+{
+  "name": "Altmaker by RipeStore",
+  "identifier": "com.ripestore.altmaker",
+  "subtitle": "Freshly sliced sideloadable iOS apps directly from upstream sources.",
+  "description": "Automated repository indexing latest sideloadable iOS applications, emulators, and utilities.",
+  "sourceURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json",
+  "website": "https://ripestore.github.io/",
+  "patreonURL": "https://ripestore.github.io/",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "tintColor": "#6156e2",
+  "githubRepoURL": "https://github.com/RipeStore/altmaker",
+  "githubRawBaseURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main",
+  "outputFile": "AltMaker.json",
+  "iconsDir": "./icons",
+  "maxVersions": 1,
+  "readmeWordLimit": 120,
+  "maxScreenshots": 5
+}
