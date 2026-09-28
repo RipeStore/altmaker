@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.xitrix.RPCS3",
-    "com.stik.stikdebug",
-    "com.crispstrobe.crisperweaver"
+    "com.naine.doer",
+    "com.noopapp.noop",
+    "com.xitrix.RPCS3"
   ],
   "apps": [
     {
@@ -1346,11 +1346,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.5.2",
-          "date": "2026-09-16T05:40:12Z",
+          "version": "1.8.5.3",
+          "date": "2026-09-28T04:11:27Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.2/doer-unsigned.ipa",
-          "size": 28115063,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.3/doer-unsigned.ipa",
+          "size": 28033512,
           "minOSVersion": "15.0"
         }
       ],
@@ -2011,7 +2011,7 @@
       "localizedDescription": "SunPad:\n\nSuper Mario Sunshine on iPhone, iPad, Apple silicon Mac, and experimental Apple TV through ahead-of-time recompilation. SunPad brings together Metal rendering, touch controls, controller support, and local game-image import. Supply your own supported copy of the game.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. SunPad provides the Apple app and Sunshine-specific integration. See full credits, including Apple TV contributions and AI/artwork provenance.\n\nMaintained forks: ModernGekko, RecompCore, and DolRecomp. Runtime and compiler dependencies use pinned submodules. The source graph records the separate Apple and tvOS versions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.sunpad.SunPad.png",
       "tintColor": "#10e0e0",
-      "category": "games",
+      "category": "developer",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-delfino-plaza.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-plaza-conversation.jpg",
@@ -3829,10 +3829,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-27T11:08:06Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-27 · 0e56473.",
+          "date": "2026-09-28T02:06:54Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-28 · 4eec45c.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21801888,
+          "size": 21813580,
           "minOSVersion": "17.0"
         }
       ],
@@ -3924,7 +3924,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Mori is a free, fast, and private downloader for saving videos, photos, and music from 14 popular social media platforms. No ads, no tracking, and no external servers, everything runs directly on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).",
+      "localizedDescription": "Videos, photos, and music from 14 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n📜 Features:\n\n• 14 Platforms in One App: Save watermark-free videos, high-resolution photos, and audio from TikTok, Instagram, YouTube, Twitter/X, Spotify, Apple Music, Pinterest, Facebook, Threads, Bandcamp, Pixiv, Bilibili, Douyin, and RedNote.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
