@@ -208,7 +208,8 @@
       "url": "https://github.com/Provenance-Emu/iCube",
       "prerelease": true
     },
-    "https://github.com/Provenance-Emu/Provenance"
+    "https://github.com/Provenance-Emu/Provenance",
+    "https://github.com/intraducine/iridium"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
