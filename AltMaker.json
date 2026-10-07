@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.alyn.resamp.launcher",
-    "com.nuvio.media",
-    "com.husk.app"
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -2421,11 +2421,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.33",
-          "date": "2026-10-05T17:19:04Z",
-          "localizedDescription": "Release v6.1.33:\n\n• Fix local manga reading across devices (404dadb8).\n• Fix closing PDFs in the desktop novel reader (9c7cc422).\n• Fix Android reader audio export for Anki cards (6bd1b52e).\n• Allow independent primary and secondary video subtitle sizes (2631fad7).\n• Honor kanji lookup settings and preserve dictionary navigation (96338232).\n• Allow Kanji and Hanzi dictionaries to collapse (df196b74).\n• Add PDF zoom and local novel folder discovery (a2cf7328).\n• Preserve renewed playback sessions across cookie synchronization (c66a6a20).\n• Show Chinese stroke order in Hanzi diagrams (3e69433a).\n• Keep video playback working across rotating CDN hosts (07597f62).\n• Keep desktop dictionary popup controls aligned after layout changes (7cf45b70).\n• Add weekly anime schedule across desktop, mobile, and WebUI (405868aa).\n• Improve Jimaku show selection with a unified native dialog (f3d33a8b).\n• Add search to Manatan and WebUI settings (d68d0eaf).\n• Improve native study editing and reader navigation (ad5202af).\n• Prevent false pitch accents in dictionary results (62fcfb35).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.33/Manatan-v6.1.33-iOS.ipa",
-          "size": 383396464,
+          "version": "6.1.34",
+          "date": "2026-10-07T06:39:12Z",
+          "localizedDescription": "Release v6.1.34:\n\n• Add local popup input diagnostics (967b001).\n• Add cross-device immersion stats and progress tracking (de437e4).\n• update the build pipeline (850ea94).\n• Fix Jellyfin tracker progress, refresh, and browser links (3be1869).\n• Distinguish iOS distribution builds with a shared monotonic counter (bc4b916).\n• Fix local manga page loading and OCR recovery (2c700f9).\n• Fix catalog refresh errors and removal state (4cc9823).\n• Update text (de5d4a1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.34/Manatan-v6.1.34-iOS.ipa",
+          "size": 395313611,
           "minOSVersion": "16.1"
         }
       ],
@@ -5021,6 +5021,35 @@
           "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
           "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
         }
+      }
+    },
+    {
+      "name": "Ito",
+      "bundleIdentifier": "moe.itoapp.ito",
+      "developerName": "AtiinLabs",
+      "subtitle": "Open source manga, Anime and Novel viewer for iOS",
+      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList integration, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.\n• Progress tracking — Connect AniList to track what you read and watch.\n\n• Backup and migration — Export native .itobackup files or import libraries from Aidoku and Paperback.\n• On-device storage — Library data and history are stored locally, with tracker credentials protected by Keychain.\n• No advertisements — Ito is free and ad-free.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
+      "tintColor": "#90e0c0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/details.png",
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/reader.png",
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/library.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-06T16:15:11Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261006-81/Ito-1.0.0-nightly.20261006.81-unsigned.ipa",
+          "size": 10264581,
+          "minOSVersion": "15.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
