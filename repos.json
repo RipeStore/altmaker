@@ -1,7 +1,7 @@
 {
   "git": [
     "https://github.com/xenios-jp/XeniOS",
-    "https://starforgejo.dev/projects/MeloNX",
+    "https://git.ryujinx.app/projects/MeloNX",
     "https://github.com/johnny901901901/Applesauce",
     "https://github.com/Cat-Ling/violet-ios",
     "https://github.com/5rahim/seanime-tenji",
@@ -224,10 +224,21 @@
     "https://github.com/rebelancap/SpaghettiKart-ios",
     "https://github.com/rebelancap/perfect-dark-ios",
     "https://github.com/rebelancap/GoldenEye-Recomp-ios",
-    {
-      "url":     "https://github.com/LiveContainer/LiveExec32",
-      "prerelease": true
-    }
+    "https://github.com/RipeStore/SA-MP_Mobile",
+    "https://github.com/DevZer0D4Y/COD4iOS-COD4NS",
+    "https://github.com/DevZer0D4Y/MCX360-EDITION",
+    "https://github.com/DevZer0D4Y/UnleashedRecompilediOS",
+    "https://github.com/DevZer0D4Y/MarathonRecompilediOS",
+    "https://github.com/brandonplank/flappybird",
+    "https://github.com/mongoosemonke504/OnsideTV",
+    "https://github.com/orionblur/NeoFreeBird",
+    "https://github.com/seanhowarthdev/Roam-Control",
+    "https://github.com/iamjhe08/VidGrab",
+    "https://github.com/Jonathan8520/patch-tasm2",
+    "https://github.com/TwilitRealm/dusklight",
+    "https://github.com/KoreanSeats1/MCLA-4iOS",
+    "https://github.com/veebteam/Veeb",
+    "https://github.com/yoshisuga/starfox-enhanced"
   ],
   "index": [
     "https://download.videolan.org/pub/videolan/vlc-iOS/"
