@@ -9,8 +9,8 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.friesi23.mhabit",
     "com.t4mag0.vidgrab",
+    "io.github.friesi23.mhabit",
     "com.rebelancap.lighthouse"
   ],
   "apps": [
@@ -891,10 +891,10 @@
       "versions": [
         {
           "version": "1.3.4",
-          "date": "2026-10-09T19:57:53Z",
-          "localizedDescription": "VidGrab 1.3.4 — What's New.\n\nNew Features.\n\n• Mini Player: Minimize the video player with the down arrow and keep playback going in a compact bar above the tab bar.\n• Library Music Player: A frosted-glass player featuring album artwork, a progress bar, and playback controls. Swipe left on the cover to view lyrics.\n\n• High-Quality Streaming: Choose your preferred streaming quality directly from Home or the browser, including 2K and 4K.\n• Track List: View the full track list when streaming a playlist and jump straight to any song.\n• Improved Playlist Playback: Shuffle now displays each track's original number. Shuffle, repeat, playback speed, and video on/off preferences are remembered between sessions.\n\n• Recently Saved: Swipe left or right through recently saved content on Home.\n• Lock Screen Controls: Previous and next buttons and album artwork now appear on the Lock Screen during playlist streaming.\n\nFixes \u0026 Improvements.\n\n• Fixed music playback stopping after a notification sound.\n• Fixed disabled floating bubble options on some jailbroken devices.\n• Fixed YouTube videos not loading in the browser on some iOS 15 devices.",
-          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.4/VidGrab-1.3.4.ipa",
-          "size": 30654333,
+          "date": "2026-10-10T04:35:22Z",
+          "localizedDescription": "New Features:\n\n• Themes: Choose from Default, SP, SC, FL, or PR using the palette button on the Home screen. The floating bubble automatically matches your selected theme.",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.4a/VidGrab-1.3.4a.ipa",
+          "size": 30663682,
           "minOSVersion": "15.0"
         }
       ],
@@ -2740,9 +2740,7 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Tablet/Dashboard.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Tablet/Details.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Tablet/Library.png"
+        "https://github.com/user-attachments/assets/b808c9b7-c4f2-43e4-9f4d-3bcab96b9f36"
       ],
       "versions": [
         {
