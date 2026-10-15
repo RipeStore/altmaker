@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "com.lukebrosious.theft4",
-    "com.tfourj.Palladium"
+    "com.kyrielie.nectar",
+    "com.mori.downloader",
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -2341,11 +2341,11 @@
       ],
       "versions": [
         {
-          "version": "4.4.0",
-          "date": "2026-09-30T22:16:05Z",
-          "localizedDescription": "What's New in v4.4.0.\n\n• Custom Fullscreen Video Player: Replaced native WebView fullscreen with a custom cross-platform player featuring a title header, 60fps seek scrubbing, mute toggle, and back-button / Esc navigation.\n\n• Scraper Engine Architecture: Removed binary obfuscation/encryption layer in favor of plain bundled JavaScript (bundle.js) with deterministic OTA hot-patching.\n• Spotify Engine Provider: Migrated Server 2 (SoundLoaders) to the active spotimate.app backend with multipart token authentication.\n\n• History Multi-Photo Previews: Fixed duplicate slide preview in History modal where Image 1 was mistakenly repeated across all slide previews.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.4.0/Mori-v4.4.0-iOS-Unsigned.ipa",
-          "size": 1662745,
+          "version": "4.5.0",
+          "date": "2026-10-15T01:40:00Z",
+          "localizedDescription": "What's New in v4.5.0.\n\n• In-App Native PDF Viewer: Bundled offline PDF.js engine with high-DPI canvas rendering, viewport lazy rendering, page 1 cover generator, and page count subtitle.\n• High-Resolution 640px Thumbnails: Upgraded Android native frame extraction, web canvas generator, and PDF covers to 640px JPEG with sequential queue processing.\n• Audio Gallery Previews \u0026 Grid Covers: History-style audio playback in gallery viewer with album art, track details, local binary streaming, and album artwork on grid cards.\n• Gallery Favorites Priority: Favorited items float to top of grid with heart badge, accent card border, and real-time cross-tab synchronization.\n• In-App File Deletion: Cross-platform file deletion via trash button, card long-press haptic, or viewer modal with Android MediaScanner purge and Tauri backend support.\n• Player Volume Toggle \u0026 Unmute Badge: Dedicated volume button in player bar, floating frosted-glass \"Tap to unmute\" badge for WebKit/macOS autoplay restrictions, and decoupled fullscreen toggle.\n• Desktop Tauri Backend Commands: Implemented native Rust commands for recursive directory scanning (tauri_list_dir) and filesystem deletion (tauri_delete_file).\n• Instant Auto-Paste \u0026 Native Paste: Reduced clipboard check delay to 300ms on start/resume, with native paste event listener on input for instant link analysis.\n• Privacy Lock Protection: Integrated Gallery with Mori PIN and biometric authentication with auto-lock on app pause/minimize.\n• Gallery DOM Card Reuse: Map-based card caching preserves DOM nodes during filter and sort switches, eliminating decoder lag and image flicker.\n• Scan Concurrency \u0026 Duplicate Fixes: Replaced boolean lock with active promise deduplication and resolved Android directory namespace prefixes to prevent duplicate media cards.\n• Video Aspect Ratio \u0026 Local Loop Fixes: Enforced contain fit for 9:16 portrait videos in viewer and synchronized HTML loop attributes with ended fallback.\n• Settings Audit \u0026 Cleanup: Purged orphaned auto-clear toggles in favor of day-based retention select menus, preventing accidental launch cache wipes.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.0/Mori-v4.5.0-iOS-Unsigned.ipa",
+          "size": 2096767,
           "minOSVersion": "14.0"
         }
       ],
@@ -4184,11 +4184,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.2.0",
-          "date": "2026-10-05T02:13:37Z",
-          "localizedDescription": "• Refactored modules.\n• Fixed reading stats bug.\n• Removed some themes, moved to themes gallery site.\n• Updated ao3 settings menu.",
-          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.0/Nectar-unsigned.ipa",
-          "size": 5308342,
+          "version": "0.2.1",
+          "date": "2026-10-15T02:38:17Z",
+          "localizedDescription": "• Changed default themes.\n• Improved many themes.\n\n• Fixed button for hiding works.",
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.1/Nectar-unsigned.ipa",
+          "size": 5450977,
           "minOSVersion": "17.0"
         }
       ],
