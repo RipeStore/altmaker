@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "com.stik.stikdebug",
-    "com.joemattiello.iCube"
+    "com.devz.cod4ios",
+    "com.noopapp.noop",
+    "com.barnabas.absorb"
   ],
   "apps": [
     {
@@ -483,10 +483,10 @@
       "versions": [
         {
           "version": "12.1.0",
-          "date": "2026-10-13T11:30:14Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity. Android and macOS install beside the official app; the iOS ipa carries the production bundle id, so it replaces an installed official app and uses its data. Filenames carry the base app version (v12.1.0).\n\n• Android (debug) — NOOP-android-debug-v12.1.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v12.1.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v12.1.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device). Replaces an installed official app (production bundle id, shared data), so back up first if you have one. Embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 12.1.0 · built 2026-10-13 · 3a0b74b.",
+          "date": "2026-10-15T17:31:32Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity. Android and macOS install beside the official app; the iOS ipa carries the production bundle id, so it replaces an installed official app and uses its data. Filenames carry the base app version (v12.1.0).\n\n• Android (debug) — NOOP-android-debug-v12.1.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v12.1.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v12.1.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device). Replaces an installed official app (production bundle id, shared data), so back up first if you have one. Embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 12.1.0 · built 2026-10-15 · 8e4b0c1.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v12.1.0.ipa",
-          "size": 21927384,
+          "size": 21924696,
           "minOSVersion": "17.0"
         }
       ],
@@ -1038,7 +1038,7 @@
         {
           "version": "0.3.2",
           "date": "2026-10-14T18:59:19Z",
-          "localizedDescription": "Theft4 0.3.2 — potential BC texture preparation fix:\n\nVersion 0.3.2 · build 144 · iPhone and iPad · 2026-10-14.\n\nI don't have an older phone, so I cannot test these changes on one. Your mileage may vary (YMMV).\n\nWhat changed:\n\n• A scan that finds zero textures is scanned again on retry instead of repeatedly reusing a failed result.\n• Restoring or replacing aes_key.bin invalidates the saved source scan. Older scan identities are refreshed once; existing converted textures can still be reused by their content keys.\n• Empty-scan errors now show the source-file count, resources decoded, warning count and first underlying archive/resource warning.\n\nUpdate and retry:\n\n• Update the existing app in place. Do not delete it: deletion removes its private saves and caches.\n• Open Theft4, check the game files, and retry texture preparation if your GPU requires it. Allow a fresh source scan; completed conversion files remain reusable.\n• Keep Theft4 open during preparation, preferably on power. Allow roughly 2.4 GB for prepared textures plus additional free working space. Pause/resume retains completed conversions.\n\nBug reports need logs and information:\n\n• Exact device model, iOS/iPadOS version, and Theft4 version/build.\n• Exact error text or a screenshot, the failing setup step, and whether retry changes it.\n• Game platform/region/media ID, base version, exact TU8 source/patch hash, and how the game folder was staged and transferred. Do not upload game files or the AES key.\n• Free device storage and steps needed to reproduce the problem.\n\nValidation and limitations:\n\nIPA SHA-256: 8f7d3a2865a10f34af0cdd736ee66677ac2614207651d60267d61a47cced9f57.\n\nNo physical iPhone 12 Pro, iPhone 13 Pro, or other older-phone test was performed for this release. Host tests and compilation do not confirm the initial cause on an affected phone. Please provide diagnostics if the issue persists.",
+          "localizedDescription": "Theft4 0.3.2 — potential BC texture preparation fix:\n\nVersion 0.3.2 · build 144 · iPhone and iPad · 2026-10-14.\n\nI don't have an older phone, so I cannot test these changes on one. Your mileage may vary (YMMV).\n\nGetting “No BC textures found”? Check this first:\n\nThe first thing to check is a missing or misplaced aes_key.bin. This has now been confirmed in a 0.3.2 user log. Your game files can be present, but Theft4 needs this small file to read the texture archives. If the log says “Archive AES key is unavailable,” the app did not load the required key; this does not establish a phone/GPU problem.\n\nCopy aes_key.bin from your validated, prepared game folder into the same folder as default.xex and default.xexp on your device. It should be named exactly aes_key.bin and be 32 bytes. Do not put it inside an extra nested folder.\n\nIf you use LiveContainer, make sure the file is in the game folder used by the copy of Theft4 inside LiveContainer.\n\nThen close and reopen Theft4 and retry texture preparation. Version 0.3.2 will rescan after the key is restored. If it still fails, export a new log using System → Download Latest Log Capture and include your device model, iOS/app version and exact error.\n\nWhat changed:\n\n• A scan that finds zero textures is scanned again on retry instead of repeatedly reusing a failed result.\n• Restoring or replacing aes_key.bin invalidates the saved source scan. Older scan identities are refreshed once; existing converted textures can still be reused by their content keys.\n• Empty-scan errors now show the source-file count, resources decoded, warning count and first underlying archive/resource warning.\n\nUpdate and retry:\n\n• Update the existing app in place. Do not delete it: deletion removes its private saves and caches.\n• Open Theft4, check the game files, and retry texture preparation if your GPU requires it. Allow a fresh source scan; completed conversion files remain reusable.\n• Keep Theft4 open during preparation, preferably on power. Allow roughly 2.4 GB for prepared textures plus additional free working space. Pause/resume retains completed conversions.\n\nBug reports need logs and information:\n\n• Exact device model, iOS/iPadOS version, and Theft4 version/build.\n• Exact error text or a screenshot, the failing setup step, and whether retry changes it.\n• Game platform/region/media ID, base version, exact TU8 source/patch hash, and how the game folder was staged and transferred. Do not upload game files or the AES key.\n• Free device storage and steps needed to reproduce the problem.\n\nValidation and limitations:\n\nIPA SHA-256: 8f7d3a2865a10f34af0cdd736ee66677ac2614207651d60267d61a47cced9f57.\n\nNo physical iPhone 12 Pro, iPhone 13 Pro, or other older-phone test was performed for this release. Host tests and compilation do not confirm the initial cause on an affected phone. Please provide diagnostics if the issue persists.",
           "downloadURL": "https://github.com/KoreanSeats1/Theft4/releases/download/v0.3.2/Theft4-0.3.2-144-ios-arm64.ipa",
           "size": 51642084,
           "minOSVersion": "26.0"
@@ -2162,10 +2162,10 @@
       "versions": [
         {
           "version": "1.0.4",
-          "date": "2026-10-14T12:20:08Z",
-          "localizedDescription": "What's fixed in this build:\n\n• Confirmed checkpoints used to remain in RAM; they are now immediately written to disk.\n• \"Resume\" now retrieves the save reference even if it is missing from config.cfg.",
-          "downloadURL": "https://github.com/DevZer0D4Y/COD4iOS-COD4NS/releases/download/R3/COD4iOS-1.0.4.ipa",
-          "size": 9675463,
+          "date": "2026-10-15T18:40:00Z",
+          "localizedDescription": "COD4iOS 1.0.4 build 10. This is the exact IPA tested by the reporter, who confirmed the crash is fixed.\n\n• Fixes dynamic-lighting memory overwrites and invalid static-model draw data involved in the Blackout/Nikolai crash.\n• Includes campaign checkpoint protection, Resume recovery, and persistent mission unlocks.\n• Includes the touch-control editor and Metal upload/memory improvements from the preceding builds.\n\nBoth single-player and multiplayer engines are included. Renderer, checkpoint, campaign-transition and mission-progress regression tests pass. FPS improvements have not been measured on the affected device.\n\nThe IPA is unsigned: use your signing/sideload tool and install as an update with the same app identifier to preserve existing data. Back up your players folder before updating.\n\nThe matching build-source archive and SHA-256 checksums are attached. The source archive includes the complete build checkout, including pre-existing source changes beyond the release tag. Retail game data, personal saves and signing keys are not included.\n\nIPA SHA-256: ea26f886f535e5bd0715cdfe6b4482e80d131a893e0442292ebed877d27f9a0e.",
+          "downloadURL": "https://github.com/DevZer0D4Y/COD4iOS-COD4NS/releases/download/R4/COD4iOS-1.0.4-build10-renderer-crash-fix-unsigned.ipa",
+          "size": 9687390,
           "minOSVersion": "17.0"
         }
       ],
@@ -2330,7 +2330,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n📜 Features:\n\n• Over-The-Air (OTA) Scraper Hot-Patching: Never wait for app updates when a platform changes its API. Mori seamlessly hot-patches scraper engines in the background without needing to reinstall the app.",
+      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\nKey CLI capabilities:\n\n• Interactive REPL: Arrow-key navigation, format selectors, and 21 slash commands (/history, /play, /delete, /config, /stats, /update, /clear, etc.).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -4365,11 +4365,11 @@
       ],
       "versions": [
         {
-          "version": "1.10.0",
-          "date": "2026-09-08T19:51:48Z",
-          "localizedDescription": "Transcription:\n\n• New - Turn audio bookmarks into text, fully on your device (Settings \u003e Advanced \u003e Transcription).\n• New - Pause and tap Find position in ebook, or highlight text while reading and find that spot in the audiobook.\n• New - With an EPUB on the book, a confident match uses the book's exact words.\n\nReading:\n\n• New - Auto scroll: the next page rolls down over the current one, so the text never moves.\n• New - Share a highlight or bookmark note as a quote card over the book cover.\n• New - E-ink mode: flat, monochrome, no animations - great on a Boox Palma.\n• New - Tap a highlight to recolor, note, share, or jump to it in the audiobook, and see every book's highlights in All Bookmarks.\n• Improved - Reading uses less battery, big ebooks open faster.\n\nPlayback:\n\n• New - Progress from other devices catches up automatically, and the paused player follows along.\n• New - Sync to the server every 20 seconds instead of every minute.\n• New - Jump to a session's start or end from its details.\n• Fix - Headset play starts right away, and the widget and Android Auto no longer start or pause playback on their own.\n\niOS:\n\n• New - Lock screen controls use your own skip amounts.\n• Improved - Bluetooth controls are much more reliable.\n\nPodcasts:\n\n• New - Subscribe without new episodes filling up Absorbing, plus Up Next and New filters and episode sorting.\n\nMore:\n\n• New - Book subtitles in the library, more author and narrator sorts, Audible rating counts.\n• New - Settings sync across devices via your own WebDAV server.\n• New - Cover size setting, bulk book actions, delete from server, daily/weekly/monthly goals.\n\n• New - Audiobookshelf 2.36 support and a bigger admin area.\n• Improved - Very large libraries load in pages, and search no longer floods the server.\n• Fix - Duplicate sessions inflating stats, search missing books past 10,000, collections missing on servers with very many.\n• Fix - Streamed books going silent or jumping back after a sync.\n• Fix - Smoother cover grids that no longer crash.",
-          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0/absorb-1.10.0-276.ipa",
-          "size": 47275115,
+          "version": "1.12.0",
+          "date": "2026-10-15T17:30:53Z",
+          "localizedDescription": "Read along:\n\n• New - Read along: the narration is highlighted in the ebook as the audiobook plays, word by word or a sentence at a time, and the pages turn themselves. Turn pages freely and tap Back to narration to return.\n• New - Live transcript on the card for podcasts and books without an ebook, on streamed books too.\n\nEbook reader:\n\n• New - Scroll mode, left-aligned text, and an option to keep the title bar on screen.\n• New - Picture-only ebooks open in the comic reader, which now has bookmarks.\n• New - The reader's player opens chapters, sleep timer, bookmarks, equalizer, cast and more.\n\n• Fix - Books open where you left off after reading on the web or in another app.\n\nBookOrbit:\n\n• New - Sign in to BookOrbit servers, including SSO and magic links.\n\n• New - Filter the library by reading status.\n\nPlayback:\n\n• New - Speed up to 5x, and on Android the loudness boost really raises the volume.\n• New - Choose what the notification, lock screen, Android Auto and CarPlay show on each line.\n• New - Keep the screen on in the player and car mode.\n\n• Fix - Play picks up the newer spot from another device, and progress that fails to send is kept and sent later.\n\nQueue and series:\n\n• New - Adding to Absorbing asks whether it plays next or goes to the end.\n• New - The series sheet opens on the covers around your next book, with series stats and an up next button.\n• Fix - The series queue plays the actual next book and works past book 100.\n\nCar:\n\n• New - Car settings with sort options, and Collections and Playlists in the car library.\n• Fix - Android Auto no longer restarts the book when you switch to the radio.\n\nLibrary:\n\n• New - New Collection and New Playlist buttons in the Lists tab, and search across bookmarks and highlights.\n• New - Sort series by total duration or last book added, and upload files into an existing book.\n• New - Find the start in the chapter editor listens around a marker for where the chapter really begins.\n\nSign-in:\n\n• Improved - SSO sign-in returns to absorb://oauth. Server admins need to allow it under Settings, Authentication, Mobile redirect URIs (#417).\n\nOther:\n\n• Fix - Book details use each library's cover shape and show every genre and tag, and authors without a photo no longer trip fail2ban (#418).\n• Fix - Settings sync no longer wakes the phone every 45 seconds in the background (#409).",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.0/absorb-1.12.0-297.ipa",
+          "size": 46137587,
           "minOSVersion": "15.0"
         }
       ],
@@ -5050,6 +5050,25 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "starfox-enhanced",
+      "bundleIdentifier": "com.ripestore.starfox-enhanced",
+      "developerName": "yoshisuga",
+      "subtitle": "A native 60 FPS PC source port built from the UltraStarFox codebase",
+      "localizedDescription": "Star Fox Enhanced for iOS:\n\nA native iOS port of the open-source UltraStarFox codebase. It presents at a selectable 20, 30, 60, 90, 120, 240, 360, or 480 frames per second while preserving the original game's intended NTSC simulation speed and assembled model data. The default is 60 FPS.\n\nYou do not need to build this yourself. Prebuilt alpha downloads are available under GitHub Releases, and the current Windows x64 nightly is also kept in dist/StarFoxEnhanced.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2026.08.28",
+          "date": "2026-08-28T19:53:52Z",
+          "localizedDescription": "For iOS: Download IPA, and re-sign with your preferred tool. No additional entitlements needed.\n\nFor macOS: The build is not notarized so you need to open security settings and open the app.\n\nYou need to supply your own Star Fox rev2 USA ROM and place it using the Files app, under \"On my iPhone\" -\u003e Star Fox Enhanced.\n\nAdditions:\n\n• Onscreen controls and game controllers.\n• Save States.",
+          "downloadURL": "https://github.com/yoshisuga/starfox-enhanced/releases/download/2026.08.28/StarFoxEnhanced.ipa",
+          "size": 2262896
+        }
+      ]
     }
   ]
 }
