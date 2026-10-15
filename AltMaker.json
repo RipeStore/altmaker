@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
-    "com.kyrielie.nectar",
-    "com.mori.downloader"
+    "moe.itoapp.ito",
+    "com.stik.stikdebug",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -1629,11 +1629,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "3.1.14",
-          "date": "2026-10-12T03:13:42Z",
-          "localizedDescription": "Add Husk support.",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
-          "size": 13544340,
+          "version": "3.1.15",
+          "date": "2026-10-15T14:31:50Z",
+          "localizedDescription": "Attempt to fix ServiceNotFound errors, add debugging.",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+          "size": 13543234,
           "minOSVersion": "17.4"
         }
       ],
@@ -3819,10 +3819,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-14T14:50:03Z",
+          "date": "2026-10-15T14:35:53Z",
           "localizedDescription": "Automated unsigned nightly from main at commit d387ebc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261014-89/Ito-1.0.0-nightly.20261014.89-unsigned.ipa",
-          "size": 10289671,
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261015-90/Ito-1.0.0-nightly.20261015.90-unsigned.ipa",
+          "size": 10289502,
           "minOSVersion": "15.4"
         }
       ],
@@ -4550,7 +4550,7 @@
       "bundleIdentifier": "com.nuvio.media",
       "developerName": "luqmanfadlli",
       "subtitle": "Unofficial Nuvio Mobile repository to build Nuvio with experimental features, improvements, and bug fixes not yet availabe in the official repository",
-      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nAndroid:\n\nRequires Android Studio and the Android SDK.\n\niOS:\n\nRequires macOS and Xcode.",
+      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nPerformance:\n\n• Faster startup (Android) — saved data is loaded in the background while the splash screen is up.\n• Instant home — the last home screen is saved per profile and shown on the next launch while fresh rows load.\n\n• Smoother artwork colours — dynamic background and details-page colours appear without a dark first frame and blend straight from one hero to the next.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nuvio.media.png",
       "tintColor": "#b040f0",
       "category": "other",
