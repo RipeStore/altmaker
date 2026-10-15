@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.joemattiello.iCube",
     "com.kyrielie.nectar",
-    "com.mori.downloader",
-    "app.mangatan.mangatan"
+    "com.mori.downloader"
   ],
   "apps": [
     {
@@ -1592,16 +1592,18 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-14T05:44:36Z",
-          "localizedDescription": "Immutable snapshot of alpha build 330 (d6d21ab).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 330, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-330/Non-Jailbroken.ipa",
-          "size": 97252132,
+          "date": "2026-10-15T07:47:43Z",
+          "localizedDescription": "Immutable snapshot of alpha build 337 (f28eada).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 337, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-337/Non-Jailbroken.ipa",
+          "size": 97775088,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
         "entitlements": [
           "com.apple.developer.activities",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
           "com.apple.developer.kernel.increased-memory-limit",
           "com.apple.security.application-groups",
           "com.apple.security.cs.allow-jit",
