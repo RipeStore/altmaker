@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.kartpad.app",
-    "app.mangatan.mangatan",
-    "com.joemattiello.iCube"
+    "moe.itoapp.ito",
+    "com.wrngwrld.Chanyan",
+    "dev.kartpad.app"
   ],
   "apps": [
     {
@@ -3819,10 +3819,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-15T14:35:53Z",
-          "localizedDescription": "Automated unsigned nightly from main at commit d387ebc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261015-90/Ito-1.0.0-nightly.20261015.90-unsigned.ipa",
-          "size": 10289502,
+          "date": "2026-10-16T14:18:33Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit cfcd6fc. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261016-91/Ito-1.0.0-nightly.20261016.91-unsigned.ipa",
+          "size": 10227259,
           "minOSVersion": "15.4"
         }
       ],
@@ -4441,10 +4441,10 @@
       "versions": [
         {
           "version": "0.11.5",
-          "date": "2026-10-08T09:39:38Z",
-          "localizedDescription": "Fixes:\n\nImproved scrolling smoothness in threads with inline videos.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5%2B284/Runner.ipa",
-          "size": 33065594,
+          "date": "2026-10-16T11:47:16Z",
+          "localizedDescription": "What's new:\n\nSaved attachments.\n\n• Select multiple attachments. Choose Select from the … menu in the nav bar, or long-press any tile. You can select all or deselect all, then save the selection to Photos, or share it and use \"Save to Files\". (#82).\n• Browse in the Files app (iOS). Saved media now appears under On My iPhone → NekoSurf, so you can copy or move files wherever you like. This is useful when saving to Photos fails. (#82).\n• Real file names. Saved files use the uploader's original filename instead of a numeric ID. Duplicate names get (2), (3) and so on, and existing files are renamed automatically.\n• Clean Files folder. Only your media shows up there. Thumbnails are stored privately, on Android too.\n• Sharper video thumbnails. New videos get a thumbnail taken from the video itself, instead of the small 4chan preview.\n• Redesigned grid. The grid is tighter, with a small play or GIF badge on videos, iOS-style selection checkmarks and a clearer empty state.\n• Confirmations. Clearing all attachments and deleting a single attachment now ask first.\n\nImprovements:\n\n• Media viewer. You can double-tap an image to zoom in or out. (#61).\n• Zoom after scrolling. Pinch-to-zoom now works almost immediately after swiping to the next item, instead of waiting for the page to settle. (#61).\n• Thread re-entry. Reopening a thread now jumps straight to your last-seen post, with no scroll animation.(#61).\n• Android animations. Screen transitions are much quicker at about 180ms instead of 450ms, and they no longer block touches. (#61).\n\nFixes:\n\n• Photos saves. Saving to Photos no longer fails silently. Failures now show a message, with a count when saving several items at once. Saving a video that Photos rejects no longer hangs. (#82).\n• Converted videos. .webm to .mp4 conversion on iOS now handles file paths properly and produces output Photos accepts more reliably.\n• Deleted files. Files you delete in the Files app are removed from the app's list instead of showing broken tiles.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5%2B285/Runner.ipa",
+          "size": 33085093,
           "minOSVersion": "17.6"
         }
       ],
