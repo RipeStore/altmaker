@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
-    "com.stremiox.app.native",
-    "com.devz.cod4ios"
+    "dev.kartpad.app",
+    "app.mangatan.mangatan",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-16T01:34:50Z",
-          "localizedDescription": "Immutable snapshot of alpha build 340 (22bd603).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 340, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-340/Non-Jailbroken.ipa",
-          "size": 97780046,
+          "date": "2026-10-16T05:46:03Z",
+          "localizedDescription": "Immutable snapshot of alpha build 345 (9d6996c).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 345, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-345/Non-Jailbroken.ipa",
+          "size": 97848865,
           "minOSVersion": "17.0"
         }
       ],
@@ -2683,11 +2683,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.47",
-          "date": "2026-10-14T20:15:21Z",
-          "localizedDescription": "Release v6.1.47:\n\n• Update desktop launcher and app with one restart (9068e6644).\n• Restore EPUB reading positions across image pages (d5cacf174).\n• Record video hotkeys and honor configured seek duration (e9f755245).\n• Align Screen lookup and Schedule controls in More (86e8576d2).\n• Route CI artifacts over tailnet (88a8811c1).\n• Restore clean-runner iOS builds (2e2a0a4a7).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.47/Manatan-v6.1.47-iOS.ipa",
-          "size": 398250703,
+          "version": "6.1.48",
+          "date": "2026-10-16T07:33:05Z",
+          "localizedDescription": "Release v6.1.48:\n\n• Preserve novel data across Android distribution changes (5c942aebd).\n• Keep media covers separate across libraries (8ce99eea6).\n\n• Set up accessible Android media folders (75cf9e4f1).\n• Add language-filtered YouTube browsing, scrolling and video discovery (7d775cce8).\n\n• Fix Anki searches for fields with spaces (174430cc8).\n\n• Preserve EPUB reading position across app backgrounding (c8cb84558).\n• Correct Kavita volume labels (3a26eb601).\n• Preserve immersion tracking for titles with surrounding whitespace (54b16a078).\n• Explain card field options in Flutter and WebUI (96e7b407f).\n• Preserve new episodes when refreshes overlap (a924b237b).\n• Respect reader themes for EPUB page backgrounds (0ef4d0371).\n• Reduce dictionary storage and speed up lookups (7610f7fb8).\n• Preserve styles for every matching dictionary (45858e0f4).\n\n• Fix cross-platform launcher smoke fixture (5757903f6).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.48/Manatan-v6.1.48-iOS.ipa",
+          "size": 399937498,
           "minOSVersion": "16.1"
         }
       ],
@@ -4245,11 +4245,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-10-13T01:18:40Z",
-          "localizedDescription": "KartPad 0.8.1 fixes two problems in 0.8.0: characters that disappeared on some Snapdragon phones, and Mac builds that refused most disc images. It also fixes choosing a game folder on iPhone and iPad.\n\nDon't install KartPad-v0.8.1-ios-for-padmint.ipa yourself: it has no game in it. PadMint downloads it and adds the game from your own disc.\n\nFull steps: Get KartPad.\n\nFixed:\n\n• Android: invisible characters on some Snapdragon phones. 0.8.0 switched every Adreno 6xx/7xx GPU (Snapdragon 8 Gen 3 and older) to an experimental graphics path in Automatic, which hid the characters on phones that showed them before. Automatic works as it did in 0.7.15 again. If you switched Help → Character Graphics Test to a Compare option to get characters back, switch it back to Automatic (recommended): the Compare options are slow.\n• Mac: \"disc-image SHA-256 is unsupported\". Building the Mac app with PadMint only accepted one exact disc image file. Any PAL (RMCP01) disc image whose game files are unmodified now works, whether it's an ISO or a WBFS.\n• iPhone and iPad: choosing the game folder in Files could do nothing after Open (#380). Import from Extracted Folder… now opens a picker that only chooses folders, and always tells you whether the import worked.\n\nNew test option:\n\n• Android: Help → Character Graphics Test → Experimental: matrix rows like Dolphin. For Snapdragon 8 Gen 3 and older phones where characters have always been invisible (#104, #301): it reads character bones the way Dolphin does. It's off unless you choose it, and we don't know yet whether it helps; if you try it, tell us on GitHub.\n\nUpdating:\n\n• Android: tap Update available → Update Now on the game chooser, or install the APK over your current KartPad; don't uninstall first. Saves and game data stay.\n• iPhone and iPad: build 0.8.1 with PadMint and install over your current KartPad with the same sideloading tool and Apple ID to keep your saves. Your game pack from 0.8.0 still fits.\n• Mac: build 0.8.1 with PadMint 0.5.1 or newer (This Mac). It replaces the old app; your saves stay.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0). No disc images, game files or keys are included.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.1/KartPad-v0.8.1-ios-for-padmint.ipa",
-          "size": 9292669,
+          "version": "0.8.2",
+          "date": "2026-10-16T08:09:34Z",
+          "localizedDescription": "KartPad 0.8.2 fixes Mac build retries, keyboard settings and a Retro Rewind race-start crash.\n\n• Repeated PadMint builds reuse verified prepared files and preserve earlier app/ZIP outputs.\n• Keyboard reset restores defaults; remaps and clears save immediately and reach the game. Shift, Control and Option can be captured; Command shortcuts remain reserved.\n• Retro Rewind skips a malformed model texture link that caused a fatal memory access when entering a race.\n\nAndroid: install the APK over the existing app. iPhone/iPad: use PadMint; the ios-for-padmint.ipa file is a game-code-free build input, not a ready-to-play app. Keep existing saves and game files.\n\nThe focused Mac checks covered race entry, remapped input, normal quitting and reopening in Original and Retro Rewind. Original completed a race; a full Retro race was not required or completed. Native Apple Silicon and Intel CI passed. This release does not claim to fix the reported high-FPS regression.\n\nBuild 264. Source, notices, recipe and checksums are included below. No ready-to-play Apple app is distributed.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.2/KartPad-v0.8.2-ios-for-padmint.ipa",
+          "size": 9292659,
           "minOSVersion": "16.0"
         }
       ],
@@ -4272,16 +4272,18 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-05T18:29:37Z",
-          "localizedDescription": "First release!",
-          "downloadURL": "https://github.com/DevZer0D4Y/MarathonRecompilediOS/releases/download/R1/Sonic06-iOS.ipa",
-          "size": 35609295,
+          "date": "2026-10-16T05:16:04Z",
+          "localizedDescription": "Build 1.0.10. Install over the existing Sonic (2006) app and keep the bundle ID com.devz.sonic2006. The IPA is unsigned and contains no game files.\n\n• Mod manager: a mod's \"can't be enabled\" reason no longer spills into the next row. Rows now grow to fit the text.\n\nKhronos, Physics and Physics Companion still can't be enabled. They need the Khronos DLL, which patches the game executable, and the recompiled game can't run it yet.",
+          "downloadURL": "https://github.com/DevZer0D4Y/MarathonRecompilediOS/releases/download/ios-2026-10-16-b/Sonic06-iOS.ipa",
+          "size": 35723108,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Connect to wireless game controllers."
+        }
       }
     },
     {
