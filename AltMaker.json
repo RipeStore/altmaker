@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.stremiox.app.native",
-    "com.joemattiello.iCube",
-    "dev.kartpad.app"
+    "moe.itoapp.ito",
+    "app.mangatan.mangatan",
+    "com.stremiox.app.native"
   ],
   "apps": [
     {
@@ -2683,11 +2683,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.0",
-          "date": "2026-10-17T02:54:24Z",
-          "localizedDescription": "Release v6.2.0:\n\n• Split manga settings into remembered reader and OCR tabs (d433d2f8f).\n• Streamline More support shortcuts and settings access (a7617237f).\n• Compact the More account header and shortcut spacing (cf7db15ee).\n• Present More shortcuts as an open icon grid (64adcd792).\n• Unify settings and contextual reader controls (43565da0d).\n• Preserve Jellyfin audio selection and streaming timeline (9b10529bc).\n• Allow reordering Schedule in the More menu (83dae96b2).\n\n• Cover automatic Jellyfin tracking after episode completion (a7fe589fa).\n• Support TXT imports in the novel reader (6e75348f6).\n• Wait for desktop update lock in smoke test (2827a929f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.0/Manatan-v6.2.0-iOS.ipa",
-          "size": 399999358,
+          "version": "6.2.1",
+          "date": "2026-10-17T09:29:47Z",
+          "localizedDescription": "Release v6.2.1:\n\n• Fix desktop bootstrapper config on macOS (de920cd02).\n• Refresh light App Store screenshots and crop-safe header (92908fbb5).\n• Hide pronunciation when dictionaries provide no data (d46ec51d7).\n• Fix dictionary indicators and tighten podcast details (cad32effc).\n• Refine podcast headers and library actions (a2b154bef).\n• Show episode details and clarify video player controls (a8acf2544).\n• Coalesce backend outage reports across app restarts (0bcba23c8).\n• Open novel reader controls from empty background taps (3130c12ce).\n• Use settings gears in video and novel reader toolbars (b0fd850a5).\n• Show web membership access on desktop and GitHub Android (3362e9500).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.1/Manatan-v6.2.1-iOS.ipa",
+          "size": 400052720,
           "minOSVersion": "16.1"
         }
       ],
@@ -3819,10 +3819,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-16T14:18:33Z",
+          "date": "2026-10-17T13:18:49Z",
           "localizedDescription": "Automated unsigned nightly from main at commit cfcd6fc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261016-91/Ito-1.0.0-nightly.20261016.91-unsigned.ipa",
-          "size": 10227259,
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261017-92/Ito-1.0.0-nightly.20261017.92-unsigned.ipa",
+          "size": 10227559,
           "minOSVersion": "15.4"
         }
       ],
