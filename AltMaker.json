@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.aidoku.Aidoku",
-    "com.tfourj.Palladium",
-    "com.devz.sonic2006"
+    "com.kyrielie.nectar",
+    "app.mangatan.mangatan",
+    "com.cosmonautical.jellify"
   ],
   "apps": [
     {
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-16T17:25:52Z",
-          "localizedDescription": "Immutable snapshot of alpha build 347 (48d9255).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 347, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-347/Non-Jailbroken.ipa",
-          "size": 97848858,
+          "date": "2026-10-17T00:01:12Z",
+          "localizedDescription": "Immutable snapshot of alpha build 348 (4628ce6).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 348, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-348/Non-Jailbroken.ipa",
+          "size": 97849228,
           "minOSVersion": "17.0"
         }
       ],
@@ -2335,11 +2335,11 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/1.png",
-        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/2.png",
-        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/3.png",
-        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/4.png",
-        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/5.png"
+        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/1.webp",
+        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/2.webp",
+        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/3.webp",
+        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/4.webp",
+        "https://cdn.jsdelivr.net/gh/coflyn/Mori@main/assets/5.webp"
       ],
       "versions": [
         {
@@ -2683,11 +2683,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.48",
-          "date": "2026-10-16T07:33:05Z",
-          "localizedDescription": "Release v6.1.48:\n\n• Preserve novel data across Android distribution changes (5c942aebd).\n• Keep media covers separate across libraries (8ce99eea6).\n\n• Set up accessible Android media folders (75cf9e4f1).\n• Add language-filtered YouTube browsing, scrolling and video discovery (7d775cce8).\n\n• Fix Anki searches for fields with spaces (174430cc8).\n\n• Preserve EPUB reading position across app backgrounding (c8cb84558).\n• Correct Kavita volume labels (3a26eb601).\n• Preserve immersion tracking for titles with surrounding whitespace (54b16a078).\n• Explain card field options in Flutter and WebUI (96e7b407f).\n• Preserve new episodes when refreshes overlap (a924b237b).\n• Respect reader themes for EPUB page backgrounds (0ef4d0371).\n• Reduce dictionary storage and speed up lookups (7610f7fb8).\n• Preserve styles for every matching dictionary (45858e0f4).\n\n• Fix cross-platform launcher smoke fixture (5757903f6).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.48/Manatan-v6.1.48-iOS.ipa",
-          "size": 399937498,
+          "version": "6.2.0",
+          "date": "2026-10-17T02:54:24Z",
+          "localizedDescription": "Release v6.2.0:\n\n• Split manga settings into remembered reader and OCR tabs (d433d2f8f).\n• Streamline More support shortcuts and settings access (a7617237f).\n• Compact the More account header and shortcut spacing (cf7db15ee).\n• Present More shortcuts as an open icon grid (64adcd792).\n• Unify settings and contextual reader controls (43565da0d).\n• Preserve Jellyfin audio selection and streaming timeline (9b10529bc).\n• Allow reordering Schedule in the More menu (83dae96b2).\n\n• Cover automatic Jellyfin tracking after episode completion (a7fe589fa).\n• Support TXT imports in the novel reader (6e75348f6).\n• Wait for desktop update lock in smoke test (2827a929f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.0/Manatan-v6.2.0-iOS.ipa",
+          "size": 399999358,
           "minOSVersion": "16.1"
         }
       ],
@@ -3790,10 +3790,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-10-08T16:07:29Z",
-          "localizedDescription": "Welcome! This is the first versioned release of everything thats been on our nightly since 1.3.0 in may, future releases will be tagged and published this way going forward:\n\nstreaming.\n\n• pauses in the background instead of disconnecting, and reconnects on its own after a drop or a lock (#66, #80, #109).\n• pip recovers when its display layer fails, thanks @alantangok (#108).\n• audio buffer and race fixes, memcpy clamp from #70 thanks @2extndd (#85, #110).\n• connecting no longer kills music thats playing, it mixes instead, plus a status overlay (#86).\n\ninput.\n\n• touchpad style cursor and crisp zoom, thanks @rebelancap (#78).\n• zoom viewport stays above the keyboard, thanks @alantangok (#107).\n• direct mode and keyboard fixes (#81, #87).\n• external pointer fixes and left alt no longer sent as win, thanks @jobsgonnawork (#91).\n• option key as command setting (#94).\n\napp.\n\n• login fixes, saved login readable after first unlock (#89, #111).\n• fixes from live testing: screen stays awake while streaming, says when the session expired or the host didnt approve, names the host its reconnecting to, cursor and zoom fixes (#105).\n• reconnect memory leak and version string fixes from #70, thanks @2extndd (#84).\n• error reporting and logging (#77, #90).\n• safety fixes and cleanups (#82, #83).\n• every nightly has its own build number now so altstore shows it as an update (#112, #95 ).\n\nExpect a 2.0 release in the coming weeks with lots more improvements! Thank you for your support!\n\nGenerated by GitHub:\n\n• Significantly optimized the sound latency performance.\n• Create altstore.json.\n• Fix AltStore .json.\n• ci: upgrade deprecated upload artifact action.\n\n• Fix fullwidth Unicode characters not passing through virtual keyboard.\n• Move zoom reset on rotate.\n• Implement #58.\n• Added Picture in Picture.\n• fix crash sites and cleanup.\n• keyboard remap and key repeat for hardware keyboards.\n• reduce battery drain.\n• Touchpad-style cursor control and crisp zoom.\n• pause on background instead of disconnecting.\n• Auto reconnect and stuck input fix.\n• Direct mode fix.\n• small cleanups.\n• log sdk binary version and stream status.\n• Safety fixes.\n• taking fixes from #70.\n• Audio buffer fixes.\n• Session status and audio session exclusivity.\n• Keyboard fixes.\n• Lifecycle and login fixes.\n• Error reporting and logging.\n• Fix external pointer regressions and Left Alt sent as Win (#88).\n• Option key as command setting.\n• Live test fixes, QUALITY PR!\n• keep zoom viewport above keyboard.\n• pip recovery.\n• reconnect fixes.\n• fix race audio ring buffer.\n• Login fixes.\n• nightly build number and 1.4.0.\n\nNew Contributors:\n\n• @xiaoxuhuanxiang made their first contribution.\n• @Somiona made their first contribution.\n• @yodaluca23 made their first contribution.\n• @underw8 made their first contribution.\n• @danieltarazona made their first contribution.\n• @Add1ct1ve made their first contribution.\n• @studiobloom made their first contribution.\n• @naive17 made their first contribution.\n• @SandiyosDev made their first contribution.\n• @TwhomeGH made their first contribution.\n• @rebelancap made their first contribution.\n• @jobsgonnawork made their first contribution.",
-          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/1.4.0/OpenParsec.ipa",
-          "size": 4358332,
+          "date": "2026-10-17T01:46:34Z",
+          "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
+          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
+          "size": 4363429,
           "minOSVersion": "14.0"
         }
       ],
@@ -4186,11 +4186,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.2.1",
-          "date": "2026-10-15T02:38:17Z",
-          "localizedDescription": "• Changed default themes.\n• Improved many themes.\n\n• Fixed button for hiding works.",
-          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.1/Nectar-unsigned.ipa",
-          "size": 5450977,
+          "version": "0.2.2",
+          "date": "2026-10-17T03:40:48Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.2/Nectar-unsigned.ipa",
+          "size": 5486102,
           "minOSVersion": "17.0"
         }
       ],
@@ -4859,11 +4859,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.11",
-          "date": "2026-10-05T10:23:55Z",
-          "localizedDescription": "Welcome to Jellify 1.2.11.\n\nWe are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.\n\n• Improved Shuffle Playback: We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.",
-          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
-          "size": 41199026,
+          "version": "1.3.0",
+          "date": "2026-10-17T02:21:39Z",
+          "localizedDescription": "Welcome to Jellify 1.3.0.\n\nHey music lovers! We've packed this update with some really sweet fixes and major stability improvements to make sure your playlist keeps going strong wherever you are. Grab your headphones and get ready to stream!\n\n• Improved Car Experience: We've made some great updates for Android Auto users, giving you server-backed browsing and a much smoother experience when resuming playback in your car.\n• Flawless Playback: We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+          "size": 41451346,
           "minOSVersion": "16.4"
         }
       ],
