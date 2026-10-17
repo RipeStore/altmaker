@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.getdieter.ios",
     "com.spor.mobile",
-    "com.mobilenext.devicekit-ios",
-    "com.gamertheartist.heyyou"
+    "com.mobilenext.devicekit-ios"
   ],
   "apps": [
     {
@@ -5989,11 +5989,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.415",
-          "date": "2026-10-17T09:26:16Z",
-          "localizedDescription": "Fixed:\n\n• Task creation remembers your project, board, workspace, checkout and agent choices, including when you close the form without creating a task. Submitting immediately after changing an option uses the latest selection, and an explicit Default effort stays selected.\n• Android option pickers use readable, scrollable dialogs that mark the current selection instead of narrow dropdown menus.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.415/Dieter-iOS.ipa",
-          "size": 59114136,
+          "version": "0.6.416",
+          "date": "2026-10-17T16:54:41Z",
+          "localizedDescription": "Fixed:\n\n• Screen sharing on Mac and Android recovers automatically when the initial signaling connection is interrupted, without requiring a second Connect.\n• Connecting to a Mac desktop gives a cold capture helper enough time to wake the display before reporting a startup error.\n• Active screen sharing keeps its video connection while signaling reconnects.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.416/Dieter-iOS.ipa",
+          "size": 59113759,
           "minOSVersion": "18.0"
         }
       ],
