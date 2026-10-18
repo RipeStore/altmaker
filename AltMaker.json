@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.linuxserver.sealskinisolation",
-    "app.netfish.ios",
-    "app.velunivo.mobile"
+    "com.minh-ton.Reynard",
+    "org.rigsofrods.ror-ios",
+    "vn.qifi.gotchigalaxy"
   ],
   "apps": [
     {
@@ -1606,11 +1606,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.8.27",
-          "date": "2026-10-18T04:12:45Z",
-          "localizedDescription": "• Meet Kumi, a rare nine-tailed fox: breed two carriers from Umbra to find one.\n• Kumi comes in jade or crimson, with a shell of its own.\n• Five new home sets in Shop \u003e Home, each with a hanging light.\n• Look in on a trip: your pet reacts to its planet.\n• The pet profile shows its stage and birthday.\n• Camera pictures leave the menus out.\n• Festival games count while your pets sleep.\n• Moon Rabbit Ears rest while we redraw them.\n• Island play: everyone needs this version.",
-          "downloadURL": "https://github.com/cuongpnh/gotchi-galaxy-releases/releases/download/v0.8.27/gotchi-galaxy-0.8.27-ios.ipa",
-          "size": 3015582,
+          "version": "0.8.28",
+          "date": "2026-10-18T09:20:13Z",
+          "localizedDescription": "• New game: Yum Merge, slide the foods together, no top score.\n• Duel a friend or Chirpy at Yum Merge on the square.\n• Every square table now plays every game, Follow the Leader too.\n• Every game round pays 30 coins, win or lose, up to 450 a day.\n• Chirpy sits in at once when you are alone on the square.\n\n• Pet thoughts float over their heads, no bubble box.\n• Square play: everyone needs this version.",
+          "downloadURL": "https://github.com/cuongpnh/gotchi-galaxy-releases/releases/download/v0.8.28/gotchi-galaxy-0.8.28-ios.ipa",
+          "size": 3020577,
           "minOSVersion": "15.0"
         }
       ],
@@ -2723,10 +2723,10 @@
       "versions": [
         {
           "version": "0.2.0",
-          "date": "2026-10-18T08:13:43Z",
-          "localizedDescription": "🌲 Rimba Mobile — Digital Garden \u0026 Focus World:\n\nIPA Build untuk Sideload SideStore / AltStore.\n\n📲 Cara Install di iPhone via SideStore / AltStore::\n\n• Buka halaman rilis ini di browser Safari iPhone Anda.\n• Unduh file Rimba.ipa dari bagian Assets di bawah.\n• Buka aplikasi SideStore (atau AltStore).\n• Tap tab My Apps, lalu tap ikon + di pojok kiri/kanan atas.\n• Pilih file Rimba.ipa yang baru diunduh.\n• SideStore akan menandatangani dengan akun Apple ID Anda, dan Rimba siap digunakan!\n\nCommit: 1073e9589a92d5a76cee102e8b3d3564e1c91fad.",
-          "downloadURL": "https://github.com/jagarimbatetaplestari/Rimba-Mobile/releases/download/v0.2.0-build-65/Rimba.ipa",
-          "size": 89652916,
+          "date": "2026-10-18T09:10:58Z",
+          "localizedDescription": "🌲 Rimba Mobile — Digital Garden \u0026 Focus World:\n\nIPA Build untuk Sideload SideStore / AltStore.\n\n📲 Cara Install di iPhone via SideStore / AltStore::\n\n• Buka halaman rilis ini di browser Safari iPhone Anda.\n• Unduh file Rimba.ipa dari bagian Assets di bawah.\n• Buka aplikasi SideStore (atau AltStore).\n• Tap tab My Apps, lalu tap ikon + di pojok kiri/kanan atas.\n• Pilih file Rimba.ipa yang baru diunduh.\n• SideStore akan menandatangani dengan akun Apple ID Anda, dan Rimba siap digunakan!\n\nCommit: 2f64e6ed4db22895c16247781914bd2434fe928e.",
+          "downloadURL": "https://github.com/jagarimbatetaplestari/Rimba-Mobile/releases/download/v0.2.0-build-68/Rimba.ipa",
+          "size": 89653941,
           "minOSVersion": "13.0"
         }
       ],
@@ -3942,10 +3942,10 @@
       "versions": [
         {
           "version": "0.9.9",
-          "date": "2026-10-17T19:59:12Z",
+          "date": "2026-10-18T08:49:49Z",
           "localizedDescription": "",
           "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v0.9.9/Scripta-ios-unsigned.ipa",
-          "size": 10532382,
+          "size": 10531878,
           "minOSVersion": "15.0"
         }
       ],
@@ -5987,11 +5987,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "d89e364",
-          "date": "2026-10-18T08:22:51Z",
+          "version": "fb40cd2",
+          "date": "2026-10-18T08:41:08Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/d89e364/sealskin-v0.4.0.ipa",
-          "size": 1478267,
+          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/fb40cd2/sealskin-v0.4.0.ipa",
+          "size": 1478264,
           "minOSVersion": "26.0"
         }
       ],
@@ -6868,10 +6868,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-17T13:18:49Z",
-          "localizedDescription": "Automated unsigned nightly from main at commit cfcd6fc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261017-92/Ito-1.0.0-nightly.20261017.92-unsigned.ipa",
-          "size": 10227559,
+          "date": "2026-10-18T09:18:27Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit 60e4af3. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261018-93/Ito-1.0.0-nightly.20261018.93-unsigned.ipa",
+          "size": 10227890,
           "minOSVersion": "15.4"
         }
       ],
@@ -6891,11 +6891,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.1",
-          "date": "2026-10-18T05:36:25Z",
-          "localizedDescription": "Offdesk Dev v0.25.1: every component at 0.25.1, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.1/offdesk-0.25.1.ipa",
-          "size": 9344966,
+          "version": "0.25.2",
+          "date": "2026-10-18T08:28:47Z",
+          "localizedDescription": "Offdesk Dev v0.25.2: every component at 0.25.2, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.2/offdesk-0.25.2.ipa",
+          "size": 9355790,
           "minOSVersion": "15.0"
         }
       ],
@@ -8868,11 +8868,11 @@
       ],
       "versions": [
         {
-          "version": "0.17.1",
-          "date": "2026-10-12T11:16:00Z",
-          "localizedDescription": "Bug Fixes \u0026 Improvements:\n\n• Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n• Fixed a crash when editing in scrollable text fields on iOS 14 and older.",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
-          "size": 109225943,
+          "version": "0.18.0",
+          "date": "2026-10-18T09:22:42Z",
+          "localizedDescription": "New Features:\n\n• When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\n\nImprovements:\n\n• Scrolling on webpages is now smoother and more accurate.\n• Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+          "size": 109731773,
           "minOSVersion": "13.0"
         }
       ],
@@ -10270,11 +10270,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "rtss15",
-          "date": "2026-10-18T07:28:48Z",
-          "localizedDescription": "Unsigned, ad-hoc-signed RoR IPA for arm64 iPhone/iPad, built from c91f7747b.\n\nFiles (release-dependent):\n\n• RoR-ios.ipa - the full game, ~112 MB. Ships its data in RoR.app/rorres/ (not resources/ - see below).\n• RoR-ios-lite.ipa - the same app with the content-only archives dropped (meshes/textures/sounds/caelum/SkyX/ hydrax), ~40 MB. Every archive the startup path loads is kept, so it launches exactly like the full build - this is what makes it a usable launch diagnostic.\n• RoR-ios-tiny.ipa - NOT the game. Shares Info.plist/signature/packaging with the game. Installs and launches (green screen).\n• RoR-ios-bin.ipa - diagnostic (only on 'diag' tag). Real RoR binary, no data directory at all. The known-good baseline.\n• RoR-ios-res0.ipa - diagnostic (only on 'diag' tag). bin plus a single file in resources/. The known-BAD reference.\n• RoR-ios-res0r.ipa - diagnostic (only on 'diag' tag). bin plus the same single file, in rorres/ instead. What the fix does.\n\nWhy the directory is called rorres:\n\nAn .app whose bundle contains a top-level directory named resources (or Resources - the check is case-insensitive) is refused by the iOS installer with the generic \"Unable to Install\", while the very same directory under any other name (zzz/, Base.lproj/, rorres/) installs and runs. Measured on device: bin - no directory -\u003e installs zzz/rotest.txt -\u003e installs Base.lproj/rotest.txt -\u003e installs resources/rotest.txt -\u003e refused Resources/rotest.txt -\u003e refused.\n\ncodesign is what flips. With a resources/ (or Resources/) directory present it switches its resource rules to the macOS \"resource envelope\" set - rules=^Resources/, plus a '^[^/]+$ -\u003e nested' rule in rules2 - and iOS will not install a bundle sealed that way. With any other directory name it keeps the plain ^.* rules that iOS accepts. The ad-hoc signature was never the problem: an unsigned variant with resources/ is refused just the same.\n\nIf the game installs but crashes right after launching:\n\nIt now writes Documents/ror-trace.log - one line per startup phase, plus every OGRE log line and, if it dies, the reason (SIGSEGV, or the uncaught exception's message). That file is flushed line by line with write(2), so it is complete even when the process is killed mid-line. Open it on the phone: Files app -\u003e On My iPhone -\u003e Rigs of Rods -\u003e ror-trace.log. The last lines are the interesting ones. The same folder holds RigsOfRods/logs/RoR.log, which OGRE writes - but that one is buffered and loses its tail on a crash, so prefer ror-trace.log.\n\nHand the file itself to ESIGN / Sideloadly / SideStore - it is served as a plain file, nothing to unpack. An .ipa is a zip whose root contains Payload/.\n\nCHECK THE DOWNLOAD BEFORE INSTALLING.\n\nA truncated download makes every installer fail, and the error looks like a build problem (\"Truncated input file\", \"Unable to Install\"). Compare the byte size of the file you downloaded with the list below; if it differs by even one byte, download the file again.\n\nRoR-ios.ipa 114863023 sha256:2df9d96aeeab0d596ec2089dec7bd685b9baa06c28a8d77dfbbd1c2bb9ff56dd RoR-ios-lite.ipa 43222973 sha256:1adf4c5b0d6ab5a21eb65bd2bd996e5b75066a3fac6b5214027f91a78d8abcc3 RoR-ios-tiny.ipa 8954 sha256:c46d0842f0e22b13cad1487247b68e872d34144a378c188d4c466da144e82a8d RoR-ios-bin.ipa 6760425 sha256:d00c1f42b4b8559310c79862105538878372ca2bccbef297b4bb687c1a7b5b66 RoR-ios-res0.ipa 6760889 sha256:44884e63fa06e3692b0e503034ce0c5134817eb6e97573c7e267341a0715799f RoR-ios-res0r.ipa 6760882 sha256:7deb7b631f39e8b381f5ed7502874b7e40bdf963d3d2f787141776cfdb2ac89a.",
-          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/rtss15/RoR-ios.ipa",
-          "size": 114863023,
+          "version": "rtss16",
+          "date": "2026-10-18T09:21:40Z",
+          "localizedDescription": "Unsigned, ad-hoc-signed RoR IPA for arm64 iPhone/iPad, built from a47078999.\n\nFiles (release-dependent):\n\n• RoR-ios.ipa - the full game, ~112 MB. Ships its data in RoR.app/rorres/ (not resources/ - see below).\n• RoR-ios-lite.ipa - the same app with the content-only archives dropped (meshes/textures/sounds/caelum/SkyX/ hydrax), ~40 MB. Every archive the startup path loads is kept, so it launches exactly like the full build - this is what makes it a usable launch diagnostic.\n• RoR-ios-tiny.ipa - NOT the game. Shares Info.plist/signature/packaging with the game. Installs and launches (green screen).\n• RoR-ios-bin.ipa - diagnostic (only on 'diag' tag). Real RoR binary, no data directory at all. The known-good baseline.\n• RoR-ios-res0.ipa - diagnostic (only on 'diag' tag). bin plus a single file in resources/. The known-BAD reference.\n• RoR-ios-res0r.ipa - diagnostic (only on 'diag' tag). bin plus the same single file, in rorres/ instead. What the fix does.\n\nWhy the directory is called rorres:\n\nAn .app whose bundle contains a top-level directory named resources (or Resources - the check is case-insensitive) is refused by the iOS installer with the generic \"Unable to Install\", while the very same directory under any other name (zzz/, Base.lproj/, rorres/) installs and runs. Measured on device: bin - no directory -\u003e installs zzz/rotest.txt -\u003e installs Base.lproj/rotest.txt -\u003e installs resources/rotest.txt -\u003e refused Resources/rotest.txt -\u003e refused.\n\ncodesign is what flips. With a resources/ (or Resources/) directory present it switches its resource rules to the macOS \"resource envelope\" set - rules=^Resources/, plus a '^[^/]+$ -\u003e nested' rule in rules2 - and iOS will not install a bundle sealed that way. With any other directory name it keeps the plain ^.* rules that iOS accepts. The ad-hoc signature was never the problem: an unsigned variant with resources/ is refused just the same.\n\nIf the game installs but crashes right after launching:\n\nIt now writes Documents/ror-trace.log - one line per startup phase, plus every OGRE log line and, if it dies, the reason (SIGSEGV, or the uncaught exception's message). That file is flushed line by line with write(2), so it is complete even when the process is killed mid-line. Open it on the phone: Files app -\u003e On My iPhone -\u003e Rigs of Rods -\u003e ror-trace.log. The last lines are the interesting ones. The same folder holds RigsOfRods/logs/RoR.log, which OGRE writes - but that one is buffered and loses its tail on a crash, so prefer ror-trace.log.\n\nHand the file itself to ESIGN / Sideloadly / SideStore - it is served as a plain file, nothing to unpack. An .ipa is a zip whose root contains Payload/.\n\nCHECK THE DOWNLOAD BEFORE INSTALLING.\n\nA truncated download makes every installer fail, and the error looks like a build problem (\"Truncated input file\", \"Unable to Install\"). Compare the byte size of the file you downloaded with the list below; if it differs by even one byte, download the file again.\n\nRoR-ios.ipa 114865341 sha256:26da1235196d2b7f5964cc993b2f2e6735f44128d1d16e8ca33a9b213656f25d RoR-ios-lite.ipa 43225289 sha256:6f3dbce17a224ae1e86337932b2e2043d971efb320e2370f4875a2bdf1e9b160 RoR-ios-tiny.ipa 8954 sha256:f9a48afd188fa54b1e353cfd95f4765dde47bca8c0e5cd2ca1493b8d81ea0e7d RoR-ios-bin.ipa 6762743 sha256:93ebc45a7866b64724f7edab861fc9bc1e877601012a665da64743f09b04234e RoR-ios-res0.ipa 6763203 sha256:9e42dd18fd7b1951ada6c87f5e0dfded3726d652f648185390793b39660c4955 RoR-ios-res0r.ipa 6763199 sha256:ac8926d1538438224528311ba1778df8df06a5df941b93c6980602fb8310b6d0.",
+          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/rtss16/RoR-ios.ipa",
+          "size": 114865341,
           "minOSVersion": "13.0"
         }
       ],
