@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "org.tethercam.app",
-    "com.porksphere.comical",
-    "com.soltheman.pocketlab"
+    "com.engikode.enginote",
+    "com.owlens.app",
+    "com.gamertheartist.kinbits"
   ],
   "apps": [
     {
@@ -97,11 +97,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.39",
-          "date": "2026-10-19T03:49:30Z",
-          "localizedDescription": "Bo1ZPocket 0.3.39: download Bo1ZPocket.ipa below and install it over the app you have.\n\n• New main menu: pick your map (Kino, plus Five and Dead Ops shown locked), with BO1's music playing — Kino's theme by default, or 115, Abracadavre, Not Ready to Die, Pareidolia or Coming Home.\n• Settings now has Graphics, Controls, Buttons and Audio tabs, and there's a co-op lobby page (setting up co-op from it is coming).\n• The touch buttons use BO1's own knife, grenade and bullet icons, with a darker look and a blood-red fire button.\n\nFull history: CHANGELOG.md.",
-          "downloadURL": "https://github.com/soltheman/pocket-lab/releases/download/v0.3.39/Bo1ZPocket.ipa",
-          "size": 39723837,
+          "version": "0.3.43",
+          "date": "2026-10-19T09:54:41Z",
+          "localizedDescription": "Bo1ZPocket 0.3.43: download Bo1ZPocket.ipa below and install it over the app you have.\n\n• Zombies walk their routes again (up and down stairs) instead of hopping over railings.\n• New button icons from BO1's own art: Perk-a-Cola seals by default, plus Chalk, BO1 HUD and Classic sets, and you can pick any icon for any button (Settings → Buttons).\n• Richtofen on Kino's loading screen, \"+10 / -950\" points pop-ups, power-up glow gone after pickup, and the grey patch backstage is fixed.\n\nFull history: CHANGELOG.md.",
+          "downloadURL": "https://github.com/soltheman/pocket-lab/releases/download/v0.3.43/Bo1ZPocket.ipa",
+          "size": 53917546,
           "minOSVersion": "15.0"
         }
       ],
@@ -641,11 +641,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "cd8bf3c",
-          "date": "2026-10-18T17:01:18Z",
+          "version": "dc78d2f",
+          "date": "2026-10-19T09:56:37Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/cd8bf3c/sealskin-v0.4.0.ipa",
-          "size": 1727893,
+          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/dc78d2f/sealskin-v0.4.0.ipa",
+          "size": 1728510,
           "minOSVersion": "26.0"
         }
       ],
@@ -681,10 +681,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-18T13:16:39Z",
-          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.6.0 Commit: a10913931f621fc6f70e43b85091da641683aed5 Short SHA: a109139.",
+          "date": "2026-10-19T06:23:13Z",
+          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.7.0 Commit: 99435f22e94eaec27c0c1b9f22cc2a6b1910d7d1 Short SHA: 99435f2.",
           "downloadURL": "https://github.com/xmoezzz/rfvp/releases/download/pre-release/RFVPLauncher.ipa",
-          "size": 19873932,
+          "size": 19874489,
           "minOSVersion": "14.0"
         }
       ],
@@ -704,11 +704,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.12.1.2",
-          "date": "2026-10-17T09:23:17Z",
-          "localizedDescription": "PokeRogueOffline v1.12.1.2:\n\nHotfix 1.12.1.2.\n\nBug Fixes:\n\n• It is again possible to change starter preferences while selecting a starter in the party.\n• Rival team generation will properly consider both types of each of the rival's Pokémon when balancing weaknesses.\n\n• After a game over during a trainer battle, that trainer no longer stays on the field in the next run, where it could show up in later battles (including wild ones).\n\nBalance:\n\n• Toedscool now gets Muddy Water as an Egg Move over Topsy Turvy.\n• Espeon now learns Safeguard from Pokemon Champions at Level 23.\n• Croagunk and Toxicroak now learn Close Combat from Legends Arceus at Level 52 and 60, respectively.\n• Probopass now learns Flash Cannon from Legends Arceus via Memory Mushroom.\n• Skiddo and Gogoat now learn Megahorn from Legends ZA at Level 54 and 65, respectively. Earthquake was moved down to Level 60 from 66 as in older generations.\n• Nickit and Thievul now learn Roar from Legends ZA at Level 10.\n• Enemy Giratina should no longer generate Phantom Force over Shadow Force.\n\nFiles:\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).",
-          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.1.2-276/PokeRogueOffline.ipa",
-          "size": 539481300,
+          "version": "1.12.1.3",
+          "date": "2026-10-19T04:18:50Z",
+          "localizedDescription": "Gameplay:\n\n• The game will not crash when recalling Dondozo and Tatsugiri before a fixed battle or biome change.\n• Life dew no longer fails if only one target in doubles is at full HP.\n• Salt Cure's damage over time effect will deal 1/16 max HP in damage (1/8 vs Water and Steel types) per turn again, matching the balance change from Champions.\n\nUI/UX:\n\n• Shiny icons will not be covered by the background in the starter select screen when using the legacy UI.\n• When selecting the random button, starter icons will not start jumping.\n• When leaving the starter select menu while on the random button, then opening the menu again, the cursor will be correctly reset.\n• Renaming a Pokémon from the party icons will apply to the starter.\n• Pokémon such as Zygarde, which may not have their base form unlocked when caught, will correctly have the first caught form as their default in the Starter Select screen.\n• Candy upgrade animations will work again.\n\nFiles:\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).",
+          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.1.3-279/PokeRogueOffline.ipa",
+          "size": 539482217,
           "minOSVersion": "15.0"
         }
       ],
@@ -886,11 +886,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.0",
-          "date": "2026-10-17T12:00:21Z",
-          "localizedDescription": "Masterpiece 0.8.0 is the culmination of a series of performance and usability efforts, including 48% lower processor use and 99% fewer late audio blocks under heavy playing, 36% faster listing of split RAR sets, composite definition support, a split mode for single-manual setups, automatic portrait and landscape layouts, and several fundamental sample reproduction enhancements, from natural swell boxes to release-preserving voice allocation.\n\nNew features:\n\n• Composite organs: you can now open premade composite definitions, organs assembled from the pipework of several sample sets, such as Augustine's Jehmlich and Zamardi-Buda composites. Masterpiece finds the sets they play in the composite's folder and the folders in it, in your package folder and in your sample libraries, and reads them straight from their archives. Point it once to a set you keep elsewhere, and it remembers. The Jehmlich composite plays 11,785 samples from five archives and opens again in 5.3 s (#289, #376).\n• Package folder: choose where you keep your sample sets in Organ settings \u003e Loading \u003e Package folder, and every composite looks there (#376).\n• Standard component noises: composites that use the standard components package play key action, stop action and blower noises made by Masterpiece (#378).\n• Split keyboard: one keyboard plays the whole organ. Up to three split points divide it into zones, each sending its keys to a manual or the pedal, with a second manual layered and its own octave and transposition. The lowest key you hold can play the pedal. Nine presets are shared by every organ, three of them ready made; each organ keeps its own layout, and every control can be learned from MIDI. Open it from View \u003e Split keyboard (#358, #364).\n• Flatpak for Linux: one bundle for every x86-64 distribution, installed with flatpak install and run in its sandbox (#237, #370).\n• Automatic portrait layout: a window or screen taller than it is wide shows the organ's portrait layout, and a wider one its main layout. A layout you choose yourself holds until the window turns, and the toolbar names the portrait layout (#366, #368).\n• Steady MIDI learning: in Settings \u003e MIDI, learning can take a key once it has been held a quarter second, so only the key you mean is learned (#365).\n• Saved starting state: the stops drawn become the organ's starting state, kept with the organ (#317).\n• Sequencer number keys: the keys 1 to 9 go to that frame, and 0 to the tenth (#316).\n\nImprovements:\n\n• Faster split RAR sets: volumes are listed in parallel, two volumes in 0.9 s, down from 1.4 s (-36%) on an NVMe drive, and a sample that spans two volumes is read whole (#321, #361).\n\n• Complete definition packages: a definition published as a package of its own, such as Hill, Burton-Berlin's, opens together with the sample packages beside it (#345, #371).\n\n• Marked unavailable stops: drawn as the set draws them, and named as not available when the mouse is over them (#304, #369).\n• Tidier panels: a control drawn in several places appears once, under the organ's own name, and an organ that draws its pistons lists them (#314, #374).\n\nBug fixes:\n\n• Hill, Burton-Berlin Unison Off: Unison Off now silences the manual's own division, and its octave couplers keep sounding (#345, #372).\n• Melody and bass couplers: a chord now couples its top note, or its bottom note for a bass coupler, as one note (#355, #373).\n• St. Mary, Portsea General Cancel and generals: General Cancel now clears all 38 stops, and the generals store them (#366, #367).\n• Upper Norwood swell shoes: either shoe now moves the swell, and both pictures follow (#366, #375).\n• Nowa Ruda jambs: every playing stop now shows at full brightness (#304, #369).\n• Portrait jambs: each stop shows the picture of the layout on screen (#308, #363).\n• Toggling MIDI buttons: a stop's button now draws it on the first press after a cancel, and General Cancel or a piston on a toggling button fires on every press (#366, #379).\n• Generals in older MIDI maps: generals mapped on an organ before the console kept its own map now come back with that organ, and their buttons recall them (#366, #381).\n• Natural swell boxes: a closed box now lowers the level by the set's overall figure and rolls off the treble to the depth the set states, so the Augustine sets keep 9 dB more of their bass when closed (#366, #382).\n• Accented names on Windows: archives and folders named with letters such as \"ö\" now open and play (#377).\n\nThanks to ahall41, ppytprs, puciak, vpoguru, michaelbacayo and klangpost for the reports behind these.\n\nDownloads:\n\nThe same files are under Assets below; the list there shows ten of them until \"Show all assets\" is pressed.",
-          "downloadURL": "https://github.com/bonninr/masterpiece/releases/download/v0.8.0/masterpiece-0.8.0-ios.ipa",
-          "size": 5387394,
+          "version": "0.8.1",
+          "date": "2026-10-19T09:42:10Z",
+          "localizedDescription": "Masterpiece 0.8.1 adds real-time scheduling for the render threads, which cut late audio blocks from 57 to 0 on an 8-core Windows PC under load and from 150 to 9 on a 2-core Linux machine. It also adds a daily update check, a default voicing EQ, stop availability that matches the samples a demo set ships, single-folder downloads with the VST3 and LV2 plugins, and a complete online manual.\n\nNew features:\n\n• Real-time render threads: an option in Organ settings \u003e Loading gives the threads that render the organ real-time priority, the way each system offers it: MMCSS on Windows, SCHED_FIFO or rtkit on Linux, the audio workgroup on macOS. Playing the Widor Toccata on a large organ, late blocks fell from 57 to 0 on an 8-core PC busy with other work, and from 150 to 9 on a 2-core i3. The box label shows the method it found. It starts off while players try it; tell us how it goes in discussion #422 (#421, #424).\n\n• Default voicing EQ: save an EQ as the default for your speakers, keep an organ's own EQ with the organ, and Reset to the default (#409).\n\nImprovements:\n\n• Accurate demo stops: a demo offers the stops whose samples it ships, and the rest stay locked with their action noise, as on Nowa Ruda, Brasov, Solignac and the Claviorgan (#391, #413).\n\n• Complete plugin settings: in a DAW the plugin opens Organ settings and General settings, and a project reopens with its organ (#406).\n• Remembered preferences: the MIDI output and its echo, the console display, and the metronome's tempo, beats and level come back at the next start (#403, #404, #405).\n\nBug fixes:\n\n• Demo packages: a demo such as Nancy now opens with its own samples straight away (#384).\n• Recorder takes: a saved MIDI take now keeps its full length (#402).\n• Voicing box: the Voicing box in Organ settings now turns the voicing off and on (#407).\n• Memory limit message: the message now points to the limit on the same tab (#408).\n• Mixer wording: the button and the rows both speak of pairs (#412).\n• Interface text: clearer wording for the wizard's favourites, the Set button, reopening after an unexpected close, and --help (#415).\n\nThanks to puciak for the report behind the demo stop changes.\n\nDownloads:\n\nThe same files are under Assets below; the list there shows ten of them until \"Show all assets\" is pressed.",
+          "downloadURL": "https://github.com/bonninr/masterpiece/releases/download/v0.8.1/masterpiece-0.8.1-ios.ipa",
+          "size": 5439168,
           "minOSVersion": "15.0"
         }
       ],
@@ -1162,11 +1162,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.162.1",
-          "date": "2026-10-19T02:26:19Z",
-          "localizedDescription": "F1007 repairs the reproduced known-but-never-alerted suppression path. Explicit Menu Refresh and full Bird Gen reload freshly acquire notable evidence and may issue one qualifying unseen opportunity even when the rarity-source journal already knows the species. No false eBird observation, account change or history clearing is needed. Complete current personal-list evidence remains authoritative for whether the species is unseen.\n\nAn explicit Menu Refresh queued behind automatic work starts a genuinely fresh wave. Full-feed acquisition checks context ownership before journal writes. Retained independent rows survive incomplete/error states, and a failed persistence readback remains visible. Bounded numeric diagnostics explain eligibility and recovery without personal details. The generated searchable help catalog is synchronized with the changed production prose.\n\nValidation before the calendar-only fixture correction: 1,313 DOM and all 254 non-DOM cases pass locally, with zero failures or cancellations. Complete parity/report guards, 20 wiring checks and all six Chrome viewport/text profiles pass. The focused production-boundary selection passes 24 controls; two unchanged mutation baselines pass and all 21 coherent production mutations fail their intended assertions. Real 402px production component renders were measured and inspected separately; representative rendering is not substituted for actual-loader acquisition proof.\n\nThe first CI candidate passed 1,566 of 1,567 cases but correctly stopped on an old migration test fixture: its computed outside week was 53 while the chosen 2025 calendar year had no matching Wednesday. Reproduced the failure in UTC with a passing Pacific control. Shared historical fixture generation now searches actual past Wednesdays instead of assuming one year contains every ISO week. All twelve F268 boundaries pass in both zones. A new guard covers all 53 weeks across three representative years and detects restoring the old single-year assumption. No app behavior, clock, threshold, timeout, source or assertion is weakened. Complete CI and the mandatory private hook remain release gates.\n\nInstallation: BirdChaser-unsigned.ipa is an unsigned sideloadable iOS build, not an App Store installation. After installing, refresh the complete Year List and explicitly Refresh Recent Bird Gen or reload the full feed. If a new baseline was saved, Refresh again. Do not edit eBird or clear history.\n\nUnverified on device: confirm the reported LALO/Sabine's Gull opportunity with current qualifying evidence; if absent, export the new bounded verdict. Installed recovery is not claimed from offline tests or bundle verification. F995 native-window and older named Mass Flocks/device checks remain unresolved. The separate unseen-WATCH policy and Favorite/Celebrity follow-ups are unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from fa982c0, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.162.1/BirdChaser-unsigned.ipa",
-          "size": 143096852,
+          "version": "1.162.2",
+          "date": "2026-10-19T05:28:10Z",
+          "localizedDescription": "F1008 - Mega rarities now lists only species selected by the latest successful source response. A complete empty response removes stale index cards without discarding selected-species detail or historical evidence. Pending and failed requests keep their explicitly labelled cached answer.\n\nRegression protection: actual loaders and nearby/statewide section Refresh actions prove empty Mega cannot borrow Twitches and empty Twitches cannot borrow Mega. Legitimate overlapping species from independent sources remain allowed.\n\nValidation: complete local parity/report, 254 non-DOM and 1,319 DOM cases, plus two subsequently added isolation cases passing separately (final catalog: 1,575). All six real-Chrome profiles pass. Eight coherent production mutations are killed with two unchanged seven-case baselines. CI runs the complete final catalog before publication.\n\nUnverified on device: historical card provenance and the older named TWITCH recovery, native-window and Mass Flocks checks remain unclosed. This patch does not claim a native fix.\n\nInstallation: download BirdChaser-unsigned.ipa, then sign and sideload with your usual tool.\n\nThe .ipa below is UNSIGNED and was built by CI from 945a0f4, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.162.2/BirdChaser-unsigned.ipa",
+          "size": 143096864,
           "minOSVersion": "15.0"
         }
       ],
@@ -1385,11 +1385,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.1",
-          "date": "2026-10-04T11:15:41Z",
-          "localizedDescription": "SunPad 0.2.1 for iPhone and iPad. The app below contains no game code: PadMint adds the game, made on your Apple Silicon Mac from your own Super Mario Sunshine (GMSE01) disc, and saves your SunPad IPA.\n\nWhat's new:\n\n• Opens on iOS and iPadOS 27. SunPad 0.2.0 was built with Xcode 27 but still used the older app startup, so iOS 27 stopped it at launch (#54). SunPad now starts through a UIKit scene (#55). Checked: the app below declares its scene and passes the package checks; not yet checked on a physical iOS 27 device.\n\nGet it:\n\nOpen PadMint (0.3.9 or newer), choose SunPad and your own disc image, and follow the page. The full steps are in the README. Already have SunPad? Install the new copy over it with the same tool and Apple ID; back up your saves first as usual.\n\nFiles:\n\n• SunPad-v0.2.1-ios-unsigned.ipa: the app without game code. PadMint uses it; it can't play by itself.\n• SunPad-v0.2.1-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums.",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.1/SunPad-v0.2.1-ios-unsigned.ipa",
-          "size": 12264704,
+          "version": "0.2.2",
+          "date": "2026-10-19T05:34:29Z",
+          "localizedDescription": "What's new:\n\n• Build SunPad for this Mac. PadMint 0.5.5 or newer can make SunPad.app as well as the iPhone/iPad IPA: choose Super Mario Sunshine, then This Mac. PadMint translates the game from your disc and saves the app as a zip; move it to Applications.\n• The Mac app carries SunPad's real version.\n\nGet it:\n\nOpen PadMint, choose Super Mario Sunshine and your own GMSE01 disc image. The full steps are in the README. Every copy contains code translated from your disc: keep it to yourself. Already have SunPad on your iPhone or iPad? Install the new copy over it with the same tool and Apple ID; your saves stay.\n\nFiles:\n\n• SunPad-v0.2.2-ios-unsigned.ipa: the iPhone/iPad app without any game code; PadMint adds the part made from your disc.\n• SunPad-v0.2.2-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for both files.\n\nChecked: a clean PadMint build of the Mac app (Apple's Python, empty PadMint folder) launched its SunPad launcher, which asks for access to your Documents folder to find disc images. A clean PadMint iPhone/iPad build with this app also passed. Mac gameplay coverage remains open.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.2/SunPad-v0.2.2-ios-unsigned.ipa",
+          "size": 12278113,
           "minOSVersion": "16.0"
         }
       ],
@@ -1463,30 +1463,6 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "iTorrent uses the local network to discover playback devices and cast video on your network."
         }
-      }
-    },
-    {
-      "name": "Ohaiyou",
-      "bundleIdentifier": "com.gamertheartist.heyyou",
-      "developerName": "bunsoootchi",
-      "subtitle": "Private beta distribution source for Kinbits",
-      "localizedDescription": "Kinbits Beta:\n\nKinbits beta builds for personal testing through SideStore and AltStore Classic.\n\nRequirements:\n\n• iPhone running iOS 17 or later.\n• SideStore or AltStore Classic.\n• Your own Apple Account for free signing.\n\nImportant:\n\n• Free Apple signing normally requires refreshing the app before the 7-day provisioning period expires.\n• Update Kinbits over your existing installation.\n• Do not delete Kinbits before updating unless specifically instructed, because deleting the app can remove local pet data.\n\nSideStore One-Click Source:\n\nAdd to SideStore.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.gamertheartist.heyyou.png",
-      "tintColor": "#6058e8",
-      "category": "other",
-      "versions": [
-        {
-          "version": "0.9.2",
-          "date": "2026-10-18T17:27:11Z",
-          "localizedDescription": "New first launch: download the brain first, set up while it downloads, then your pet wakes up with a big yawn and says hi. Cleaner, friendlier text and more breathing room across the app.\n\nSHA-256 2472c07e07a18bc08615d3f4ab369349fc821c069d17d966e21342591b1836a9.",
-          "downloadURL": "https://github.com/bunsoootchi/kinbits-beta/releases/download/heyyou-v0.9.2-b10/Ohaiyou-0.9.2-b10.ipa",
-          "size": 97536530,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
       }
     },
     {
@@ -1655,11 +1631,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.8",
-          "date": "2026-10-12T22:51:31Z",
-          "localizedDescription": "• Smoother performance on smaller phones: Faster page and overlay rendering, more responsive tab switching, and reduced Live View overhead. (#453, #460).\n• Seek during C64 SID playback: Use Previous, Next, and the progress bar to seek within SID tunes played by the C64 itself. (#456).\n• New SID Radio collections: Discover collections built from STIL, the SID Tune Information List. (#461).\n• Faster SID emulation: Added the native libSidplayEZ renderer, which is faster than libsidplayfp-wasm while delivering the same emulation accuracy. Also updated libsidplayfp-wasm and made the SID emulation choice available to everyone. (#462, #465).\n• Improved phone audio: Added audio processing and a spectrum view, with corrected timing when handing over between tracks during crossfades. (#466).\n• More reliable playback controls: Improved output switching and playback transport on the Play page, verified through extended hardware testing. (#463).\n• Maintenance and security: Updated dependencies and improved logs. (#454, #455, #457, #458, #459, #464).\n\nSpecial Thanks:\n\nThanks to Michael Hartmann for having created the very impressive (and fast) fork libSidplayEZ of libsidplayfp!",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.8/c64commander-1.0.8-ios.ipa",
-          "size": 7481451,
+          "version": "1.1.0",
+          "date": "2026-10-19T06:49:22Z",
+          "localizedDescription": "• Playback keeps running with the screen off: Playback on the phone no longer stops after three to five minutes with the display off. The native audio store now stays within the memory the system allows an app, so Android no longer destroys the app's activity and the playback engine with it. Very long tunes no longer crash the app. Tunes of up to 240 s are pre-rendered whole, and longer ones are cached as a lead-in and rendered live from there. (#500).\n• More reliable Live View: The periodic loss of Live View video, about every 270 s, is fixed. The app now rejoins the multicast group every 60 s, which keeps the router's membership timeout from silencing the stream. Mirrored audio that stops is restarted automatically. (#535).\n• Spectrum and level meters: The Spectrum card shows one level meter per output channel, with RMS, peak, a held peak marker and a clipping indicator. The bars now line up with the sound you hear: Live View audio follows the C64's own output, and on-phone playback follows the samples leaving the speaker. The card no longer freezes during on-phone playback. (#479, #490, #494).\n• Correct tune endings and lengths on the phone: With the crossfade off, each tune now plays to its full songlength instead of ending about 2 s early. After Next or Previous, the length and the playlist totals show the chosen tune's own length immediately. A mute on the C64 now moves with the sound when playback moves to the phone, and stays in place across Pause and Resume. (#471, #488, #494, #495).\n• Fewer playback stalls and clearer HVSC import: A tune that goes quiet or is seeked far into no longer ends with tens of seconds of silence. The HVSC install shows five steps (Fetch, Unpack, Find songs, Song details, Analyze), each with its own measurements. Song metadata is read from the SID headers during the install, so the library is complete when the install reports Ready. Before, a background pass kept the app busy for 15 to 45 minutes afterwards. (#471, #500).\n• Keypad and small-screen support: Devices with a physical keypad and a screen of about 320 x 427 px are now supported much better.\n\n• Keys: F1 and F3, the soft keys, multi-tap text entry and paging past the last control work as labeled. The left soft key closes dialogs and the tour. Dialog bodies scroll to their end before Down moves on. (#467, #475, #476, #477, #485).\n• Remote Input: all controls are reachable with the keypad, and in Keys mode the keypad types on the C64. (#482, #491).\n• Layout: dialogs, sheets, menus and the playlist filter are reworked for the small screen. Touch targets are at least 44 px. The playlist has a letter rail covering the whole list, and on compact screens the item menu is a sheet. The device name is no longer truncated in the app bar. (#489, #499, #500).\n\n• Notification permission is requested at a planned moment after the first connection instead of while the first tune starts. (#483).\n\n• Faster and smoother on low-end phones: Key presses, tab switches and first visits to a page cost much less. The connection state no longer re-renders every component on each REST answer, the focus ring no longer rescans on text-only changes, playlist rows and Config cards are built in stages, and library hydration yields to input. Median key-to-paint after a cold first Play visit dropped from 184 ms to 136 ms, and the worst case from 1,472 ms to 232 ms. (#478, #487, #492, #493, #496, #500, #535).\n• More reliable connection handling: A late answer arriving after the network dropped no longer flips the app back to connected. While offline, the app backs off its network scan instead of scanning about every minute. The Switch device dialog no longer reports false RASTER and JIFFY timeouts, and Home no longer retries reads against an overloaded device. (#484, #499, #532).\n\n• Maintenance and tooling: Updated 42 dependencies in the weekly roll-up (#498). Improved the hardware test tooling: droidctl on container-based phones, the merge gate on the keypad phone, a standalone Android device probe, and soak harnesses for tune changes, Live View, tab switches and battery use. (#470, #472, #473, #480, #481, #486, #497, #532).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.1.0/c64commander-1.1.0-ios.ipa",
+          "size": 7541698,
           "minOSVersion": "15.0"
         }
       ],
@@ -1956,11 +1932,11 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "0.1.16",
-          "date": "2026-10-19T03:57:56Z",
+          "version": "0.1.17",
+          "date": "2026-10-19T04:23:30Z",
           "localizedDescription": "Windows: install the MSI (needs Windows 11 and the Apple Devices app). Linux: install the .deb for your Ubuntu release or the .rpm for Fedora (needs v4l2loopback; see docs/USER_GUIDE.md). iPhone: add the AltStore source https://raw.githubusercontent.com/kshitizwagle/tethercam/main/altstore/source.json, or sideload Tethercam-unsigned.ipa with Sideloadly/AltStore (signs it with your Apple ID). See README for details.",
-          "downloadURL": "https://github.com/kshitizwagle/tethercam/releases/download/v0.1.16/Tethercam-unsigned.ipa",
-          "size": 302551,
+          "downloadURL": "https://github.com/kshitizwagle/tethercam/releases/download/v0.1.17/Tethercam-unsigned.ipa",
+          "size": 304748,
           "minOSVersion": "16.0"
         }
       ],
@@ -2013,11 +1989,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.9",
-          "date": "2026-10-18T08:49:49Z",
+          "version": "1.0.0",
+          "date": "2026-10-19T08:26:16Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v0.9.9/Scripta-ios-unsigned.ipa",
-          "size": 10531878,
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.0/Scripta-ios-unsigned.ipa",
+          "size": 10532268,
           "minOSVersion": "15.0"
         }
       ],
@@ -2686,11 +2662,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.0",
-          "date": "2026-10-02T04:14:30Z",
-          "localizedDescription": "English:\n\n• Fixes blank PowerPoint slides during presentations and supports returning to editing after changing slides.\n• Reduces Linux virtual-machine synchronization overhead for single- and dual-core workloads. Actual speed varies by device and task.\n\nDistributed as a normal GitHub Release. Public TestFlight access requires separate Apple review; submission does not mean installation is available. Device behavior remains subject to feedback after installation.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.0/Floe-Agent-1.7.0-build241-unsigned.ipa",
-          "size": 739946669,
+          "version": "1.7.39",
+          "date": "2026-10-19T05:09:33Z",
+          "localizedDescription": "English:\n\n• Replaces synthesized PiP rain/brown noise with a bundled, looping meditation piano track. Existing volume, switches, narration and cues persist; retired choices migrate automatically.\n• Repairs two-finger Office zoom while drawing mode stays enabled, preserving continuous writing, native vectors and the Notes cover pipeline.\n\nThe audio change passed a full App build and 45 focused Simulator tests. Strict Office pinch/toolbar acceptance and five live-ink/placement/save/cover cases passed separately; they do not establish physical Pencil pressure, palm rejection or device feel. Musical preference and long background/lock behavior still need device feedback. Stationary ink dots and some first-open preview backfill messages remain under investigation.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.39/Floe-Agent-1.7.39-build280-unsigned.ipa",
+          "size": 768111079,
           "minOSVersion": "26.0"
         }
       ],
@@ -2819,11 +2795,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.10",
-          "date": "2026-10-19T03:25:40Z",
+          "version": "0.7.12",
+          "date": "2026-10-19T06:21:41Z",
           "localizedDescription": "The apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.10/Netfish-ios.ipa",
-          "size": 916554,
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.12/Netfish-ios.ipa",
+          "size": 917500,
           "minOSVersion": "16.0"
         }
       ],
@@ -4203,30 +4179,6 @@
       }
     },
     {
-      "name": "Rigs of Rods",
-      "bundleIdentifier": "org.rigsofrods.ror-ios",
-      "developerName": "wayl-t",
-      "subtitle": "Rigs of Rods on iPhone: native port built on free GitHub Actions macOS runners",
-      "localizedDescription": "Rigs of Rods — iOS:\n\nпод Apple/iOS (patches/ror/apply_ios_patches.py). Сборка — **без Mac и без Sideloadly).",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.rigsofrods.ror-ios.png",
-      "tintColor": "#e28e26",
-      "category": "games",
-      "versions": [
-        {
-          "version": "rtss20",
-          "date": "2026-10-18T13:19:48Z",
-          "localizedDescription": "Unsigned, ad-hoc-signed RoR IPA for arm64 iPhone/iPad, built from 215e31998.\n\nFiles (release-dependent):\n\n• RoR-ios.ipa - the full game, ~112 MB. Ships its data in RoR.app/rorres/ (not resources/ - see below).\n• RoR-ios-lite.ipa - the same app with the content-only archives dropped (meshes/textures/sounds/caelum/SkyX/ hydrax), ~40 MB. Every archive the startup path loads is kept, so it launches exactly like the full build - this is what makes it a usable launch diagnostic.\n• RoR-ios-tiny.ipa - NOT the game. Shares Info.plist/signature/packaging with the game. Installs and launches (green screen).\n• RoR-ios-bin.ipa - diagnostic (only on 'diag' tag). Real RoR binary, no data directory at all. The known-good baseline.\n• RoR-ios-res0.ipa - diagnostic (only on 'diag' tag). bin plus a single file in resources/. The known-BAD reference.\n• RoR-ios-res0r.ipa - diagnostic (only on 'diag' tag). bin plus the same single file, in rorres/ instead. What the fix does.\n\nWhy the directory is called rorres:\n\nAn .app whose bundle contains a top-level directory named resources (or Resources - the check is case-insensitive) is refused by the iOS installer with the generic \"Unable to Install\", while the very same directory under any other name (zzz/, Base.lproj/, rorres/) installs and runs. Measured on device: bin - no directory -\u003e installs zzz/rotest.txt -\u003e installs Base.lproj/rotest.txt -\u003e installs resources/rotest.txt -\u003e refused Resources/rotest.txt -\u003e refused.\n\ncodesign is what flips. With a resources/ (or Resources/) directory present it switches its resource rules to the macOS \"resource envelope\" set - rules=^Resources/, plus a '^[^/]+$ -\u003e nested' rule in rules2 - and iOS will not install a bundle sealed that way. With any other directory name it keeps the plain ^.* rules that iOS accepts. The ad-hoc signature was never the problem: an unsigned variant with resources/ is refused just the same.\n\nIf the game installs but crashes right after launching:\n\nIt now writes Documents/ror-trace.log - one line per startup phase, plus every OGRE log line and, if it dies, the reason (SIGSEGV, or the uncaught exception's message). That file is flushed line by line with write(2), so it is complete even when the process is killed mid-line. Open it on the phone: Files app -\u003e On My iPhone -\u003e Rigs of Rods -\u003e ror-trace.log. The last lines are the interesting ones. The same folder holds RigsOfRods/logs/RoR.log, which OGRE writes - but that one is buffered and loses its tail on a crash, so prefer ror-trace.log.\n\nHand the file itself to ESIGN / Sideloadly / SideStore - it is served as a plain file, nothing to unpack. An .ipa is a zip whose root contains Payload/.\n\nCHECK THE DOWNLOAD BEFORE INSTALLING.\n\nA truncated download makes every installer fail, and the error looks like a build problem (\"Truncated input file\", \"Unable to Install\"). Compare the byte size of the file you downloaded with the list below; if it differs by even one byte, download the file again.\n\nRoR-ios.ipa 114898722 sha256:18819e2e36f5fd24c0fdb519575148074fc85b4650347c2e334996733dbaabd4 RoR-ios-lite.ipa 43258671 sha256:088700530d9b465af5485808e896d4cd3adc38417dc984bee41d85b702a1ec04 RoR-ios-tiny.ipa 37864 sha256:f6567d291ffa8e8ff47d26c8bb91b1057e64e34f3bf1ddc0e75be6b4b3660d52 RoR-ios-bin.ipa 6767343 sha256:32d0cdbba6adf147b302e3bc52f088217ba3b5f31b24092e9e05799d1792bac4 RoR-ios-res0.ipa 6767807 sha256:4ef9dbffcec3b4fb51a09c661c13f5b32af7b696e4aa9fe251730533f612dfed RoR-ios-res0r.ipa 6767802 sha256:bfb5ff53ff4bec9d6d6cf69b0d6afb86729d19de0b072f18568114d1a90c8c27.",
-          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/rtss20/RoR-ios.ipa",
-          "size": 114898722,
-          "minOSVersion": "13.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "OpenStarbound",
       "bundleIdentifier": "com.devoflife.osbm.ios",
       "developerName": "RohanBhattacharyya",
@@ -4386,11 +4338,11 @@
       ],
       "versions": [
         {
-          "version": "3.16.0",
-          "date": "2026-10-18T18:59:22Z",
-          "localizedDescription": "• One mcp tool for all MCP servers. The agent no longer receives every MCP server's tools (named \u003cserver\u003e_\u003ctool\u003e) with their full schemas on each turn. It gets a single mcp tool: search finds tools by keywords and returns their input schemas, and call runs one by server, tool, and arguments. The tool's description lists each server with its tools, or its state when it isn't ready. Adding servers no longer makes every request larger, server tools can no longer clash with built-in tool names, and a server that finishes starting or reconnects is usable right away.\n• MCP in Plan mode. In Plan mode the agent can now search MCP tools and call the ones the server marks read-only (readOnlyHint). Other MCP tools stay blocked, as before.\n• Pair your phone with a QR code. While desktop Network access is on, show QR displays a code with the LAN addresses and the access key. Scanning it opens the mobile app's Backend connection dialog with the first reachable address and the key filled in and tests the connection; the phone connects only after you tap Save \u0026 Connect. The code hides when the key changes or Network access turns off.\n• Gemini works with more tools. Tools that take a free-form object argument no longer make Gemini reject the whole request.\n\nBreaking Changes:\n\n• Agent files that list MCP tool names (\u003cserver\u003e_\u003ctool\u003e) under tools: have those names removed on load. MCP servers are available through the mcp tool automatically, so nothing needs to replace them.\n• Plugins that match MCP tool calls by name now see the name mcp; the server and tool are in the call's server and tool arguments.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.16.0/OpenAgentd_3.16.0_iOS.ipa",
-          "size": 6686936,
+          "version": "3.17.0",
+          "date": "2026-10-19T07:04:59Z",
+          "localizedDescription": "• The agent knows who you are from the first turn. Your user.md memory page is now loaded in full (up to 1,000 characters) into every session, instead of appearing as a one-line catalog entry the agent had to open.\n• ~/.agents/AGENTS.md is the global instructions file. It applies to every workspace, ahead of the workspace's own AGENTS.md. ~/.config/openagentd/AGENTS.md is still read when the home file is missing.\n• Re-scanning the pairing QR code works again. Scanning the desktop's Network access QR code on an already-paired phone opens the prefilled connect dialog, and the dialog no longer reappears after Save \u0026 Connect.\n\nBreaking Changes:\n\n• openagentd transfer migrate openclaw|hermes has been removed. To bring over OpenClaw or Hermes prompts, copy their Markdown files into ~/.config/openagentd/agents/ by hand. transfer export and transfer import are unchanged.\n• The database gains a new migration for side questions. Once v3.17.0 opens it, v3.16.0 and earlier can no longer open it, so back up ~/.local/share/openagentd/openagentd.db before upgrading if you might downgrade.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.17.0/OpenAgentd_3.17.0_iOS.ipa",
+          "size": 6690408,
           "minOSVersion": "15.0"
         }
       ],
@@ -5006,10 +4958,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-17T03:32:16Z",
-          "localizedDescription": "Unsigned build of commit dc105cb961c027a07deb13d62b8efad7eeac38a1. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-58/EngiNote.ipa",
-          "size": 14515340,
+          "date": "2026-10-19T10:22:28Z",
+          "localizedDescription": "Unsigned build of commit be60be9291bb357e5ab23ad825c9b7d9a04f5a21. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-63/EngiNote.ipa",
+          "size": 14531536,
           "minOSVersion": "17.5"
         }
       ],
@@ -5414,11 +5366,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.3",
-          "date": "2026-10-19T01:13:31Z",
-          "localizedDescription": "tangoAW2 0.8.3: a crisp picture.\n\n• The game picture is sharp again on iPhone and iPad: the scaling shader blended every pixel half into its neighbour, which made the picture soft and smeared at any size. Each Game Boy pixel is now a clean block, with only a one-pixel edge where the scale is not a whole number. Mac, Windows and Linux use the same sharp scaling.\n• New setting: Settings \u003e Graphics \u003e Pixel scaling: Sharp (default), Smooth (the old soft look), or Pixel-perfect (whole-number scale only, with black bars).\n• The FPS / Metal panel some iPhones show at the top right is iOS's own: turn it off in iOS Settings \u003e Developer \u003e Graphics HUD (or the Game Mode overlay).\n\nOnline, everyone in a room needs the same version.",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.3/tangoaw2-ios.ipa",
-          "size": 31904884,
+          "version": "0.8.4",
+          "date": "2026-10-19T04:36:52Z",
+          "localizedDescription": "tangoAW2 0.8.4: Unranked rejoin after a crash, rules shown.\n\n• Unranked: if your app crashes (or is closed from the app switcher) during an Unranked match you can go back into it. Reopen tangoAW2 within 60 seconds: the ONLINE screen says \"Your Unranked match is still on. Rejoin?\" with A: Rejoin and B: Give up. A drops you back into the running match in the same seat, from the state your opponent's console holds (they wait for you behind the reconnect box; their screen goes back less than a second). B gives the match up at once: your army yields.\n• If you do not come back within 60 seconds your army yields and your opponent gets VICTORY, with STATS recorded. This works when either player drops, including the host: with only two players there is no one to hand the host's job to, so the player who stayed carries the match on alone, the leaver's army yields, and the match ends with VICTORY for the one still there (\"Your opponent left. The match is over.\"). The yield is played when the leaver's turn comes: if it is the winner's own turn, ending it brings VICTORY.\n• Reopening the app after the 60 seconds says once on the LOBBY menu: \"Your Unranked match ended: your army yielded.\" An Unranked match is never saved for RESUME.\n• The reconnect box of an Unranked match says \"If they do not return, their army yields and you win.\".\n• Unranked shows its rules: after SELECT YOUR ARMY the Rules page stays up for 3 seconds with the standard settings (fog off, clear weather, funds 1000, no turn or capture limit, powers on, visuals off) and a plate \"Unranked rules - Starting in N\", instead of flashing past. Nothing to set: Unranked rules are fixed.\n• Lobby rooms: on the Rules page the host sets the rules and goes on with A; guests see the same page read-only with a plate \" is setting the rules\". (Checked: a lobby's Rules page is never skipped on its own.).\n• The map name plate no longer stays over the Unranked results screens.\n• Fixed: a match resumed from a saved state could hang at \"Their game is still starting up\" when the guest was ready before the host had handed the link to the match (the guest's READY was read and thrown away).\n• Online peers must all run 0.8.4 (the simulation version changed: the Rules page timing).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.4/tangoaw2-ios.ipa",
+          "size": 31927404,
           "minOSVersion": "16.0"
         }
       ],
@@ -5783,11 +5735,11 @@
       ],
       "versions": [
         {
-          "version": "1.27.13",
-          "date": "2026-10-10T00:16:09Z",
-          "localizedDescription": "Released: v1.27.13+202:\n\nIncludes updates since the previous stable release, v1.27.9+198.\n\n✨ Features:\n\n• Add adaptive, collapsible side navigation with an edge style on newer Apple systems (#667).\n\n• Preserve navigation state, search, selection, and page actions across layout changes.\n\n• Apply app theme colors and custom palettes to the side navigation (#668).\n• Let users show or hide navigation destinations in the top toolbar when the Apple sidebar is collapsed (#671).\n• Adapt navigation and content safe areas for iPhone Duo and compact-height layouts (#674).\n• Scroll Habits and Today to the top when reselecting the active root tab (#675).\n\n• Return nested pages to the tab's root before scrolling on a subsequent tap.\n• Respect reduced motion preferences and pages that prevent back navigation.\n\n🐛 Fixes:\n\n• Improve adaptive interaction styling, keyboard focus, and action-menu behavior (#669).\n• Keep search filters available across layout changes (#669).\n• Align theme labels and Markdown typography (#669).\n• Refresh habit and group views as soon as synced changes are applied, while preserving sync progress and in-progress edits (#672).\n• Keep neutral action colors consistent across app bars, dialogs, search, sidebars, and group actions, and restore modal blur after nested navigation (#673).\n• Keep system status and navigation bars visible while the app launches.\n\n🌐 Localization:\n\n• Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.\n\n🧹 Others:\n\n• Pin Apple build and submission workflows to Xcode 27.0 (#674).\n• Raise the minimum supported macOS version to 12.0 (#674).\n• Centralize generated-code formatting in the Melos workflow (#674).",
-          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa",
-          "size": 15116961,
+          "version": "1.27.15",
+          "date": "2026-10-19T04:13:10Z",
+          "localizedDescription": "✨ Features:\n\n• Integrate native desktop title bars and keep app bars pinned while scrolling (#677).\n\n• Fuse macOS window controls with adaptive toolbars and handle fullscreen transitions.\n• Match native title bar colors to the app theme on Windows and Linux.\n\n• Keep a manually collapsed sidebar closed across layout and interface-style changes within the current session (#679).\n• Restore desktop window size and position before the window first appears (#681).\n\n• Save ordinary window geometry without treating fullscreen or maximized bounds as the preferred window size.\n\n🐛 Fixes:\n\n• Preserve open dialogs and their state while updating theme colors, and keep dialog app bars consistent with their local theme (#677).\n• Restore the Settings Back button when the sidebar and its collapsed toolbar navigation are hidden (#678).\n\n🧹 Others:\n\n• Add desktop native regression tests and integrate them into local and CI test workflows (#677).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+          "size": 15128625,
           "minOSVersion": "15.0"
         }
       ],
@@ -6428,17 +6380,17 @@
       "bundleIdentifier": "vn.qifi.gotchigalaxy",
       "developerName": "cuongpnh",
       "subtitle": "Gotchi Galaxy downloads and update channel",
-      "localizedDescription": "Gotchi Galaxy:\n\nA pixel-art pocket pet you raise, breed and take to far-away planets. Free, no account, no ads.\n\nChoose your way to play:\n\n• Mac (the full game, plays with friends on the same Wi-Fi).\n\n• Unzip it and drag Gotchi Galaxy to Applications.\n• The first time, right-click the app and choose Open, then Open again. After that it updates itself.\n\nAndroid (the full game, plays with friends on the same Wi-Fi).\n\n• Android asks to allow installs from this source: say yes once.\n• New versions are offered inside the game, in Settings.\n\niPhone app through SideStore (the full game, plays with friends on the same Wi-Fi).\n\n• About 15 minutes the first time, and a computer for the setup.",
+      "localizedDescription": "Gotchi Galaxy:\n\nA pixel-art pocket pet you raise, breed and take to far-away planets. Free, no account, no ads.\n\nChoose your way to play:\n\n• Mac (the full game, plays with friends on the same Wi-Fi).\n\n• Unzip it and drag Gotchi Galaxy to Applications.\n\nAndroid (the full game, plays with friends on the same Wi-Fi).\n\n• Android asks to allow installs from this source: say yes once.\n• New versions are offered inside the game, in Settings.\n\niPhone app through TestFlight (the full game, plays with friends on the same Wi-Fi).\n\n• Install Apple's TestFlight app from the App Store.\n• On your iPhone, open the Gotchi Galaxy invite, tap Accept, then Install.\n• New versions arrive in TestFlight; it offers each one.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/vn.qifi.gotchigalaxy.png",
       "tintColor": "#97a4cd",
       "category": "other",
       "versions": [
         {
-          "version": "0.8.29",
-          "date": "2026-10-19T03:47:47Z",
-          "localizedDescription": "• New game: Cloud Hop, tap to fly through the clouds, alone or in a duel.\n• Five new thinking games: Fuel Line, Pet Cafe, Constellations, Pattern Train, Market Day.\n• Friends online: see who is on, send quick messages, get a ping on your phone.\n• Add a friend by code: your request waits in their Mailbox.\n• New mail shows as a letter in your room, one tap to open.\n• Deep Mine: about four floors a day, and floors you left stay as they were.\n• Back from placing furniture returns you to where you were.",
-          "downloadURL": "https://github.com/cuongpnh/gotchi-galaxy-releases/releases/download/v0.8.29/gotchi-galaxy-0.8.29-ios.ipa",
-          "size": 3393608,
+          "version": "0.8.36",
+          "date": "2026-10-19T08:21:36Z",
+          "localizedDescription": "• The garden grows to two screens, with an orchard of fruit trees to plant, water and pick.\n• Sell fruit to Sesame, or tie a Fruit Basket to give.\n• A new garden set: the Orchard Picnic.\n• Five thinking games for young players: Constellations, Pattern Train, Fuel Line, Pet Cafe and Market Day.",
+          "downloadURL": "https://github.com/cuongpnh/gotchi-galaxy-releases/releases/download/v0.8.36/gotchi-galaxy-0.8.36-ios.ipa",
+          "size": 3418643,
           "minOSVersion": "15.0"
         }
       ],
@@ -6566,15 +6518,15 @@
       "subtitle": "A self-hosted personal music server with its own apps (web, iOS, Android, Windows)",
       "localizedDescription": "Opentify:\n\nA self-hosted personal music server with its own apps (web, iOS, Android, Windows). It plays your own music library, organises it with metadata from MusicBrainz and Deezer, and gives you a Spotify-like experience on your own hardware.\n\nOsobní hudební server pro vlastní hardware. Rozhraní appky je česky.\n\nStatus: a personal hobby project, not released for use by others yet (see License). The app's interface is in Czech, there is no support, and things change without notice.\n\nImportant: legal notice:\n\nThis repository contains software only — no music, no accounts, no keys.\n\nOpentify can optionally fetch tracks that are missing from your library through third-party tools (Soulseek via slskd, and.\n\nmusic without permission is illegal in many countries.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.opentify.png",
-      "tintColor": "#715dc1",
+      "tintColor": "#4367dc",
       "category": "other",
       "versions": [
         {
-          "version": "0.1.94",
-          "date": "2026-10-18T06:26:33Z",
-          "localizedDescription": "Nepodepsaná appka pro iPhone (verze 0.1.94). Aktualizace chodí samy přes zdroj v SideStore: https://raw.githubusercontent.com/krystofskala/Opentify/altstore/source.json",
-          "downloadURL": "https://github.com/krystofskala/Opentify/releases/download/ios-build-94/Opentify.ipa",
-          "size": 14692566,
+          "version": "0.1.95",
+          "date": "2026-10-19T06:39:09Z",
+          "localizedDescription": "Nepodepsaná appka pro iPhone (verze 0.1.95). Aktualizace chodí samy přes zdroj v SideStore: https://raw.githubusercontent.com/krystofskala/Opentify/altstore/source.json",
+          "downloadURL": "https://github.com/krystofskala/Opentify/releases/download/ios-build-95/Opentify.ipa",
+          "size": 16728709,
           "minOSVersion": "15.0"
         }
       ],
@@ -6592,15 +6544,12 @@
       "bundleIdentifier": "com.zarz.spotiflac",
       "developerName": "spotiflacapp",
       "subtitle": "Mobile music utility built with Flutter and Go. High-quality audio management for your personal library. - open source, no ads, no subscription",
-      "localizedDescription": "Extensions:\n\nExtensions let the community add new music sources and features without waiting for app updates. When a streaming service API changes or a new source becomes available, extensions can be updated independently.\n\nDeveloping Extensions:\n\nWant to build your own extension? The.\n\nDevelopment:\n\nSpotiFLAC Mobile combines a Flutter/Dart UI, a Rust backend from rust_backend/, and thin Android/iOS platform bridges.\n\nSee the Contributing Guide for setup, Android and iOS builds, Full/Lite variants, crash symbols, validation, and pull request guidelines.\n\nSpotiFLAC (Desktop):\n\nDownload music in true lossless FLAC from extension-provided sources on Windows, macOS \u0026 Linux.\n\nSpotiFLAC (Python Module):\n\nPython library for SpotiFLAC integration, maintained.\n\nContributors:\n\nThanks to everyone who has contributed to SpotiFLAC Mobile!\n\nInterested in contributing? Check out the Contributing Guide to get started!",
+      "localizedDescription": "Development:\n\nSpotiFLAC Mobile combines a Flutter/Dart UI, a Rust backend from rust_backend/, and thin Android/iOS platform bridges.\n\nSee the Contributing Guide for setup, Android and iOS builds, Full/Lite variants, crash symbols, validation, and pull request guidelines.\n\nSpotiFLAC (Desktop):\n\nDownload music in true lossless FLAC from extension-provided sources on Windows, macOS \u0026 Linux.\n\nSpotiFLAC (Python Module):\n\nPython library for SpotiFLAC integration, maintained.\n\nSpotiFLAC Mobile uses a decentralized extension repository system. Extensions are hosted independently rather than on a built-in server, so anyone can create and host a compatible repository. In the Repo tab, tap Add Repository and enter a GitHub repository URL that contains a registry.json file to browse and install its extensions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.zarz.spotiflac.png",
       "tintColor": "#199f48",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/spotiflacapp/SpotiFLAC-Mobile@main/assets/readme/1.jpg",
-        "https://cdn.jsdelivr.net/gh/spotiflacapp/SpotiFLAC-Mobile@main/assets/readme/2.jpg",
-        "https://cdn.jsdelivr.net/gh/spotiflacapp/SpotiFLAC-Mobile@main/assets/readme/3.jpg",
-        "https://cdn.jsdelivr.net/gh/spotiflacapp/SpotiFLAC-Mobile@main/assets/readme/4.jpg"
+        "https://cdn.jsdelivr.net/gh/spotiflacapp/SpotiFLAC-Mobile@main/assets/readme/showcase-light.png"
       ],
       "versions": [
         {
@@ -6789,17 +6738,17 @@
       "bundleIdentifier": "com.meleepad.MeleePad",
       "developerName": "chrissotraidis",
       "subtitle": "Super Smash Bros Melee, native on iOS and iPadOS",
-      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac.\n\nBuild a native Apple app from your own supported copy of Melee, with touch controls, physical-controller support, Metal rendering, and Slippi online play on iPhone and iPad. Game code is compiled ahead of time, so no JIT is required on iOS or iPadOS.\n\nBuilt with ModernGekko, DolRecomp, and the RecompCore / Dolphin runtime, with Apple integration based on SunPad. See credits and maintained sources.\n\n**Build and setup · Slippi profile setup ·.\n\nA physical-iPad development build running at 2x resolution. Performance varies by scene and device; this image is evidence from one observed match, not a universal performance guarantee.\n\nmakes the game part on your Mac from your own disc and adds it. See Get MeleePad.",
+      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac.\n\nBuild a native Apple app from your own supported copy of Melee, with touch controls, physical-controller support, Metal rendering, and Slippi online play on iPhone and iPad. Game code is compiled ahead of time, so no JIT is required on iOS or iPadOS.\n\nBuilt with ModernGekko, DolRecomp, and the RecompCore / Dolphin runtime, with Apple integration based on SunPad. See credits and maintained sources.\n\n**Build and setup · Slippi profile setup ·.\n\nmakes the game part on your Mac from your own disc and adds it. See Get MeleePad.\n\nGet MeleePad:\n\nYou need an Apple Silicon Mac with Xcode, your own GALE01 USA v1.00 or v1.02 disc image, and AltStore Classic, SideStore or Sideloadly.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.meleepad.MeleePad.png",
       "tintColor": "#6567bf",
       "category": "games",
       "versions": [
         {
-          "version": "0.2.2",
-          "date": "2026-10-04T11:15:36Z",
-          "localizedDescription": "MeleePad 0.2.2 for iPhone and iPad. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad IPA.\n\nWhat's new:\n\n• Opens on iOS and iPadOS 27. Apps built with Xcode 27 have to start through UIKit scenes, or iOS 27 stops them at launch. MeleePad now starts through a scene (#42); pausing, resuming and the save flush when you leave the app work as before. Checked: the app below declares its scene and passes the package checks; not yet checked on a physical iOS 27 device.\n\nGet it:\n\nOpen PadMint (0.3.9 or newer), choose MeleePad and your own disc image, and follow the page. The full steps are in the README. Already have MeleePad? Install the new copy over it with the same tool and Apple ID; your saves stay.\n\nFiles:\n\n• MeleePad-v0.2.2-ios-unsigned.ipa: the app without game code. PadMint uses it; it can't play by itself.\n• MeleePad-v0.2.2-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums.",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.2/MeleePad-v0.2.2-ios-unsigned.ipa",
-          "size": 15741134,
+          "version": "0.2.3",
+          "date": "2026-10-19T06:16:12Z",
+          "localizedDescription": "MeleePad 0.2.3 for iPhone, iPad and now Mac. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad copy.\n\nWhat's new:\n\n• Build it for this Mac. In PadMint 0.5.5, choose MeleePad, your disc image and This Mac. PadMint saves a zip with MeleePad.app; move it to Applications.\n• The iPhone/iPad build is unchanged apart from the version.\n\nGet it:\n\nOpen PadMint (0.5.5 or newer for the Mac build), choose MeleePad and your own disc image, and follow the page. The full steps are in the README. Already have MeleePad? Install the new copy over it with the same tool and Apple ID; your saves stay.\n\nFiles:\n\n• MeleePad-v0.2.3-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint uses it; it can't play by itself.\n• MeleePad-v0.2.3-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums.\n\nChecked: clean PadMint builds (Apple's Python, empty PadMint folder) for iPhone/iPad with this app, and for the Mac, whose app opened. Mac gameplay and a physical-device run of this version are not checked yet.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.3/MeleePad-v0.2.3-ios-unsigned.ipa",
+          "size": 15741116,
           "minOSVersion": "16.0"
         }
       ],
@@ -7080,11 +7029,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.36",
-          "date": "2026-10-18T02:40:23Z",
+          "version": "0.8.41",
+          "date": "2026-10-19T07:33:23Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.36/Gen2Recomped-0.8.36-ios.ipa",
-          "size": 30805363,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.41/Gen2Recomped-0.8.41-ios.ipa",
+          "size": 31106202,
           "minOSVersion": "14.0"
         }
       ],
@@ -7970,7 +7919,7 @@
       "bundleIdentifier": "com.modu.reader",
       "developerName": "sobranie2406",
       "subtitle": "An open-source, cross-platform ebook and PDF reader",
-      "localizedDescription": "Downloads:\n\nLatest release: 1.2.11 — adds PDF/scanned-page zoom, panning and per-page viewport memory; saves, edits, exports and syncs OCR text with its original book, with background prefetch; refines reflow menus, text selection and narration controls, and improves HarmonyOS sync and feedback diagnostics.\n\nSettings → Appearance lets you choose an app language or follow the system. Bundled AI prompts follow that language; your edited prompts retain their original text.\n\nHere, x64 means x86-64; ARM64 is also 64-bit. There is no x64 iPhone/iPad device package.\n\nDesktop apps use native installers. Download the installer for your platform, not GitHub's automatically generated source archive. Licenses are included in each package. See Release and installation instructions.\n\nFeatures:\n\nA library for your books, a workspace for your thoughts, and tools you can make your own.",
+      "localizedDescription": "Downloads:\n\nSettings → Appearance lets you choose an app language or follow the system. Bundled AI prompts follow that language; your edited prompts retain their original text.\n\nHere, x64 means x86-64; ARM64 is also 64-bit. There is no x64 iPhone/iPad device package.\n\nDesktop apps use native installers. Download the installer for your platform, not GitHub's automatically generated source archive. Licenses are included in each package. See Release and installation instructions.\n\nFeatures:\n\nA library for your books, a workspace for your thoughts, and tools you can make your own.\n\nOriginal pages, easier to read:\n\nKeep the original layout of a PDF or scanned image book while making the page fit your screen. Dedicated reading controls replace text-book typography settings only for PDFs and books classified as scans.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.modu.reader.png",
       "tintColor": "#c7a55c",
       "category": "other",
@@ -7983,11 +7932,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.11",
-          "date": "2026-10-18T03:12:52Z",
-          "localizedDescription": "Modu 1.2.11:\n\nBuild / 构建：10149 · Stable / 正式版.\n\nEnglish:\n\n• Feat(pdf): PDF and scanned books: 1–4× pinch zoom, desktop rectangle zoom, panning and per-page zoom/position memory. Crop, fit and rotation work together; the draggable zoom bar uses 80% transparency and hides after five idle seconds.\n• Feat(pdf): Organize PDF controls as Contents, Notes, Text, Page and Brightness. Group crop, panels, zoom, fit, rotation and image enhancement under Page; pin the crop preview above independently scrolling options and use illustrated panel choices.\n• Fix(reflow): Automatically use embedded text when available and OCR otherwise. Reflow shares ebook styles and menus, with horizontal alignment, balanced margins and larger original-page navigation buttons.\n• Feat(ocr): Optional serial background prefetch covers the current original page and up to four following pages in original and reflow reading. Reuse existing OCR and corrections, let the in-flight page finish across page turns, then update the queue from the latest page. Cache progress counts saved pages and corrections.\n\n• Fix(ocr): Confirm before re-recognizing a page. Replace recognition and corrections only after success; retain earlier notes and their original-image positions.\n• Fix(reader): Improve long-press word selection, round draggable handles and selection highlight height. Refine the draggable, transparent narration toolbar and its icon controls.\n• Fix(settings): Start bookshelf sync directly and restore global settings export with the legacy system-theme value. Feedback can preview and include sanitized current-session Advanced Logs, reset on restart.\n• Feat(ios): iOS: add optional volume-change paging through the existing reader controls.\n\nDownloads:\n\nNine packages, each with a SHA-256 checksum / 九个平台安装包及各自 SHA-256 校验文件：.\n\n• Android ARM64 — APK.\n• macOS ARM64 / x64 — DMG.\n• Windows ARM64 / x64 — EXE installer / 安装程序.\n• Linux ARM64 / x64 — DEB (Debian 13).\n• iOS ARM64 — unsigned IPA / 未签名 IPA.\n• HarmonyOS ARM64 — unsigned native HAP / 未签名原生 HAP.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.2.11/Modu-1.2.11-ios-arm64.ipa",
-          "size": 52950395,
+          "version": "1.2.12",
+          "date": "2026-10-19T07:39:55Z",
+          "localizedDescription": "Modu 1.2.12:\n\nBuild / 构建：10150 · Stable / 正式版.\n\nEnglish:\n\n• Feat(statistics): Add a daily check-in goal, defaulting to 10 minutes across all books; 0 minutes keeps the previous recorded-reading rule. Show today's progress and total qualified days, and recalculate history without changing reading records. Include the goal in settings backups and refresh after sync/settings changes. Thanks @1Cookie2gavh for.\n• Feat(tts): Highlight the current spoken sentence in text/OCR reflow using the ebook speech colour. Keep the highlight while paused and clear it on stop, page end or page change without changing selection, saved notes or page boundaries.\n• Fix(tts): Enable the Android 13+ vivo/iQOO notification stop-button fallback in regular builds, retaining the media-session action and removing the card when stopped. Leave other vendors, older Android versions and existing play/pause routing unchanged.\n• Fix(ocr): Accept validated integral page numbers returned as doubles by macOS WebView in shared text/OCR loading, restoring prefetch without replacing saved corrections. Add privacy-safe prefetch failure diagnostics.\n• Feat(tts): Add page-local narration to text/OCR reflow, reusing speech providers, voice/rate settings, playback controls and the floating toolbar. Read only the displayed original page's saved/corrected reflow text; stop at its end and when switching pages or leaving reflow. Reflow speech state stays in this session and is never saved or synced; original PDF/scanned pages have no narration, and ordinary ebook narration and reading-progress sync are unchanged.\n• Fix(reader): Route comparison keyboard controls to the active pane, restore focus to reflow after closing menus, and preserve text-selection and editor shortcuts without disabling original-page mouse gestures.\n• Fix(reader): Prevent dragging original PDF/scanned pages from turning pages; enlarged-page arrow keys pan within the current page. Preserve per-page zoom/position through resize, fix rotated rectangle zoom and keep rectangle mode active until dismissed. Raise reading zoom to 8× and remove the duplicate zoom slider from Page settings. Ordinary ebook/reflow controls are unchanged.\n• Feat(reader): Compare original PDF/scanned pages with reflow text above/below in portrait or side by side in landscape. Add comparison switches to Text/OCR tools, preserve each reader's controls, and follow original page numbers while reusing saved text and corrections.\n• Fix(statistics): Limit reading-history deletion and undo to the selected book and day/week/month/year, preserving records outside that interval when leaving statistics.\n\nDownloads:\n\nNine packages, each with a SHA-256 checksum / 九个平台安装包及各自 SHA-256 校验文件：.\n\n• Android ARM64 — APK.\n• macOS ARM64 / x64 — DMG.\n• Windows ARM64 / x64 — EXE installer / 安装程序.\n• Linux ARM64 / x64 — DEB (Debian 13).\n• iOS ARM64 — unsigned IPA / 未签名 IPA.\n• HarmonyOS ARM64 — unsigned native HAP / 未签名原生 HAP.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.2.12/Modu-1.2.12-ios-arm64.ipa",
+          "size": 53022453,
           "minOSVersion": "16.0"
         }
       ],
@@ -8531,18 +8480,21 @@
       ],
       "versions": [
         {
-          "version": "0.1.12",
-          "date": "2026-10-17T11:24:53Z",
-          "localizedDescription": "feat(ios): BrewLog backup export/import and grind remembered per grinder.\n\n• Settings → Backup \u0026 import: export everything as one JSON file in the format shared with web and Android ({app, format, exportedAt, data, samples, machine}, dates in ms, lowercase ids). Import merges by id and never replaces anything; it detects the wrapped format and the bare app data of Android exports. Non-UUID ids from the web app map to stable UUIDs. Everything is parsed leniently, sanitized and clamped (BrewLogBackup.swift).\n• Switching grinders restores that grinder's own setting (set by hand after the last brew, else the history recommendation, else a starting value from the preset's defaultGrind or the typical range), like Android. No filter starting value for espresso.\n• Tests for the format (Linux-runnable), SwiftData import/export round trip and grind memory.\n\nCo-Authored-By: Claude Opus 5.5.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.12/BrewLog.ipa",
-          "size": 2034694,
+          "version": "0.1.14",
+          "date": "2026-10-19T09:15:03Z",
+          "localizedDescription": "feat(ios): recipe filter, Switch valve countdown, widgets, Git backup, Ask Claude.\n\nFrom Feature-requests:\n\n• Recipes by gear type: filter chips on the Recipes tab and the recipe picker, which starts with the selected brewer's type.\n• Hario Switch: 3-2-1 ticks with haptics before every valve change.\n• Home and Lock Screen widgets (beans \u0026 last brew, quick start) via an App Group; ldid adds the entitlement to the unsigned IPA, SideStore rewrites ALTAppGroups; brewlog:// linkswhen changed, optional auto sync; token in the Keychain.\n• Ask Claude for a bean with the user's own API key: brewing advice from the bean, gear and brews, web search for community posts with sources.\n\nDocs: parity guide, data formats, SideStore, README, Feature-requests status.\n\nCo-Authored-By: Claude Opus 5.5.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.14/BrewLog.ipa",
+          "size": 2723705,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "BrewLog connects to your Bluetooth coffee scale to read the weight live while you brew.",
+          "NSCameraUsageDescription": "BrewLog uses the camera to photograph your coffee bag and read the details from its label. The photo stays on this device.",
           "NSLocalNetworkUsageDescription": "BrewLog connects to your espresso machine (GaggiMate) in your Wi-Fi to record pressure and temperature and to start shots."
         }
       }
@@ -8783,11 +8735,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.1",
-          "date": "2026-10-16T16:15:30Z",
-          "localizedDescription": "0.6.1-beta::\n\n• fix(ios): merge duplicate MetalLayer.nextDrawable overrides @luqmanfadlli.\n• fix(streams): adapt the party shared-stream header to fork pinning @luqmanfadlli.\n• fix(party): let only the host change what's playing @tapframe.\n• fix(home): update dynamic background for dark hero artwork @luqmanfadlli.\n\n0.6.0-beta::\n\n• feat add searchbar to livetv category bottomsheet (#195) @chrisk325.\n• fix(debrid) cache results and refresh in background @chrisk325.\n• feat(debrid) add torbox api key login #194 @chrisk325.\n• fix notification episode alerts not working in background #191 @chrisk325.\n• feat(iptv) persist cache live tv channels through restart @chrisk325.\n\n• feat(iptv): add new strings for iptv reload buttons @chrisk325.\n• fix(hero) flicker while launching the app (#187) @chrisk325.\n• perf(home): seamless dynamic background on hero changes @luqmanfadlli.\n• feat(android): minimize to mini player from a PiP button @luqmanfadlli.\n• fix(ios): sample artwork pixels directly for dominant color @luqmanfadlli.\n• fix(player): stop redundant volume writes and log volume once per gesture @luqmanfadlli.\n• fix(ios): recover inline video and hwdec after Notification Center @luqmanfadlli.\n• fix(ios): move audio session calls off the main thread @luqmanfadlli.\n• optimised libass for exoplayer (#186) @chrisk325.\n• fix: harden #183 startup preload, progress saves and timeouts @luqmanfadlli.\n• perf: faster startup, lazy-loaded Live TV, cached home rows, cancellable addon requests, fewer player redraws and background watch-progress saves (#183) @chrisk325.\n• fix(seekthumb): optimise seekbar thumbnails (#182) @chrisk325.\n• perf(details): show dominant color without the dark first frame @luqmanfadlli.\n• fix(ui): prefer bright swatches for dominant/dynamic artwork color @luqmanfadlli.\n• feat(party): add experimental watch parties (#2253) @tapframe.\n• fix(player): pause other apps audio on android @tapframe.\n• feat(mdblist): show dynamic and liked lists in the library (#2268) @kernexshadow.\n• i18n(el): translate new 0.5.10 strings (#2263) @nosvasedis.\n• Complete missing Italian translations (#2260) @WhiteGiso.\n• fix(ios): improve PiP transitions and recover playback after closing PiP (#2259) @WhiteGiso.\n• fix(ios): restore Now Playing by limiting audio mixing to calls (#2246) @WhiteGiso.\n• fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234) @jhojhocraazy.\n• feat(mdblist): show external lists in the library (#2172) @kernexshadow.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.1-beta/nuvio-0.6.1-enhanced-release.ipa",
-          "size": 72640851,
+          "version": "0.6.2",
+          "date": "2026-10-19T04:08:19Z",
+          "localizedDescription": "• feat(player): optional libmpv libass renderer for ASS/SSA on ExoPlayer @chrisk325.\n• fix(player): soften liquid glass on player controls @chrisk325.\n• fix(android): apply the player orientation toggle @luqmanfadlli.\n• feat(player): orientation toggle for portrait videos @luqmanfadlli.\n• fix(android): pinch zoom grows past the black bars in Fit on ExoPlayer @luqmanfadlli.\n• feat(player): pinch for a custom zoom that keeps the aspect ratio @luqmanfadlli.\n• feat(player): make Fill stretch on MPV and add pinch-to-zoom @luqmanfadlli.\n• fix(settings): show slider values live while dragging @luqmanfadlli.\n• fix(simkl): move explicitly watched series to Completed @luqmanfadlli.\n• fix(ios): offer external players when scheme probing is unavailable @luqmanfadlli.\n• more Enhanced strings into pt-BR (Brazilian Portuguese) (#209) @mikhaelvm.\n• feat Liquid Glass integration in the entire android UI including legacy player with a toggle to disable it all (#210) @chrisk325.\n• feat(player): tie the PiP button to the mini player setting on both platforms @luqmanfadlli.\n• feat(ios): bring mini player to iOS @luqmanfadlli.\n• fix(ios): keep iPad Liquid Glass tab bar setting device-local @luqmanfadlli.\n• feat(ios): Liquid Glass tab bar option on iPadOS 26+ @luqmanfadlli.\n• feat anime id mapper for trakt, mdblist and wetrackr (#205) @chrisk325.\n• feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#202) @mikhaelvm.\n• Revision and completion of pt-BR translation (#201) @mikhaelvm.\n• fixes related to watchparty (#200) @chrisk325.\n\n• Fix escaped apostrophes and missing Italian translations (#2312) @WhiteGiso.\n• fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308) @WhiteGiso.\n• i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292) @nosvasedis.\n• Filename and infoHash matching for binge group, prefetch fixes (#2278) @skoruppa.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.2-beta/nuvio-0.6.2-enhanced-release.ipa",
+          "size": 72991139,
           "minOSVersion": "16.1"
         }
       ],
@@ -9358,10 +9310,10 @@
       "versions": [
         {
           "version": "1.1.1",
-          "date": "2026-10-19T00:50:24Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit f1d4911. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-129/Ito-1.1.1-dev.129-unsigned.ipa",
-          "size": 10538497,
+          "date": "2026-10-19T07:07:26Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 7473ccb. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-132/Ito-1.1.1-dev.132-unsigned.ipa",
+          "size": 10688595,
           "minOSVersion": "15.4"
         }
       ],
@@ -11027,8 +10979,8 @@
       "name": "VortX",
       "bundleIdentifier": "com.stremiox.app.native",
       "developerName": "VortXTV",
-      "subtitle": "VortX, the native streaming app. Fully native Apple TV, iPhone, iPad, and Mac apps with a real player engine, no web wrapper. Android, Windows, and Linux next",
-      "localizedDescription": "VortX:\n\nThe Android APK is an early technical preview, not the finished app. VortX is Apple first: the Apple TV, iPhone, iPad, and Mac apps are the complete experience today. Android is just getting started, sharing the same native engine, and the preview exists so Android users can watch the port take shape and help steer it. Expect missing features, rough edges, and fast-moving builds. If you want the full VortX experience right now, use the Apple apps; if you try the Android preview, please report what you hit, because every report shapes the port.",
+      "subtitle": "Everything. VortXed",
+      "localizedDescription": "VortX:\n\nVortX is a native media app for Apple TV, iPhone, iPad and Mac, with an Android phone, tablet and TV app alongside them. Browse your add-ons and personal media, pick a source and keep your profiles and progress together with a VortX account. Apple uses SwiftUI with native playback engines, not a web wrapper.\n\nCurrent release:\n\nThese are targeted repairs. The full Swift 6 migration, wider performance work and remaining reported bugs are not finished. See the changelog for released changes and the roadmap for what remains.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stremiox.app.native.png",
       "tintColor": "#9f6013",
       "category": "entertainment",
@@ -11041,11 +10993,11 @@
       ],
       "versions": [
         {
-          "version": "0.5.5",
-          "date": "2026-10-17T08:57:05Z",
-          "localizedDescription": "VortX 0.5.5: Lighter Sync, Hero Trailers and Your Next Episode:\n\nBuild 274. VortX 0.5.5 fixes repeated conversion of unchanged 0.4 account data and reduces unnecessary background polling while live sync is healthy. These changes address a source of lag, stutter and delayed taps across the Apple apps. Hero trailers start again, Mac and iPad series pages open on your episode, and watched episode cards dim evenly. All packages are built by the public release workflow.\n\nFixed:\n\n• Repeated background conversion. 0.5.4's check for changed 0.4 account data could give a different answer for the same data because it rebuilt a preferences archive before fingerprinting it. This triggered unnecessary conversion and account uploads, including during playback. The check now fingerprints the original legacy fields consistently and ignores native fields rewritten by routine sync. Unchanged routine syncs skip conversion after it succeeds. Genuine legacy changes still convert, and separately linked Stremio profile accounts retain their periodic 30-minute refresh. Removing this repeated work also reduces competition with opening your account.\n• Hero trailers never started on Home and title pages on iPhone, iPad and Mac, or on title pages on Apple TV. The clip waited for a step that never ran. It runs now.\n• Mac and iPad open a series on your episode. A long season opened on episode 1. The episode grid now scrolls to the episode in progress, or the next one after the episode you last played.\n• Watched episode cards are dimmer and clean. The whole card darkens and loses its colour evenly, instead of fading into a smeared double image.\n\nChanged:\n\n• Less background polling, with live updates retained. A newer-change notification over the live sync connection still triggers a pull immediately. While that connection is responding, the fallback check runs every five minutes instead of every 3 seconds. If it disconnects or goes silent for 75 seconds, frequent fallback checks resume.\n• A bigger Home billboard on Mac, running down to just above Customize.\n\nAndroid:\n\nAndroid checks for missed changes every five minutes while its live sync connection is up, instead of every 3 seconds.\n\nVortX is Apple first. The Android APK is still an early technical preview rather than the finished app, so expect missing features and rough edges.\n\nPlease test:\n\n• Use the app for a few minutes after the first launch, then watch something and check menu, tap and player responsiveness. With unchanged legacy data, the diagnostics log should no longer repeatedly show legacy_conversion run reason=changed. A first conversion, genuine legacy edits or a linked-account refresh can still produce a conversion entry.\n• Close and reopen the app: the splash screen should be shorter than on 0.5.4.\n• Leave Home open: the featured billboard should play its trailer muted.\n• On Mac or iPad, open a series you are partway through: the episode list should open on your episode.\n• Check that watched episodes look dimmed and clean.\n\nAndroid phone, tablet and TV. VortX-0.5.5-full-mpv-universal.apk includes VortX Player. VortX-0.5.5-play-media3-universal.apk is the Media3 variant. Each APK contains both the phone and the Android TV interface. Choose the variant you already use so it installs over your current version. The Play bundle is also attached for its distribution workflow.\n\nThe Apple and Android packages were built by the release workflow from the v0.5.5-rc.1 tag, the same commit as v0.5.5. SHA256SUMS-ci.txt lists a SHA-256 checksum for each Apple package so you can confirm your download is intact; check the Android packages with SHA256SUMS-android.txt and SIGNING_PROVENANCE.txt.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.5/VortX-iOS-v0.5.5-ci.ipa",
-          "size": 52081677,
+          "version": "0.5.6",
+          "date": "2026-10-18T23:17:40Z",
+          "localizedDescription": "VortX 0.5.6 beta 2: Safer Profiles, Playback Recovery and Lighter TV Updates:\n\nBuild 276. This beta fixes more cases where older profiles could not open, stops the player getting stuck in repeated recovery after a seek, and cuts unnecessary work during Apple TV playback. It also updates intro and credit detection, fixes control auto-hide behaviour and makes switching profiles safer for Continue Watching and Watch Stats.\n\nFixed:\n\n• The player recovering again and again after skipping credits or seeking. Two recovery paths could each retry the same failing part of a video. They now share a retry limit, so one cannot keep restarting what the other has already tried. An unfinished episode keeps its resume position and is not marked watched or advanced to the next episode to hide the error. A source that ends before the video is actually finished can still fail; this change stops the recovery loop, not the remote source ending early.\n• Player controls staying on screen. The auto-hide timer now follows the current interaction rather than an earlier one. Covered playback preparation also runs away from the main interface thread, reducing work that competes with taps and remote input.\n• Switching profiles while history or statistics are loading. An older Continue Watching import or Watch Stats calculation keeps the profile it started with. Finishing that work cannot publish its results into a different profile or clear a newer import's loading state.\n• Mac playback-server shutdown and recovery. Quitting waits for the playback server started by that app to shut down, and restart attempts are limited. A server that fails to stop is reported instead of silently starting more copies.\n\nChanged:\n\n• Less repeated work while watching on Apple TV. Up Next checks that cannot show anything yet stop before sorting and building the episode list. Decorative seeking updates also do less work. These are targeted reductions, not a claim that every player-control delay is resolved.\n• Lighter Home, catalog and history updates. Home reads its hidden-section settings once when building its rows, and catalog sorting reads the saved order once per operation. Watched-history imports reuse repeated evidence and avoid redundant retry checks without dropping pending history. Discover listens more narrowly for the changes its screen needs.\n• More consistent controls. Shared glass and Effects Off rules, disabled buttons and Mac text colours are more consistent across the updated controls. This is not a complete visual redesign.\n\nAndroid:\n\nAndroid gets the IntroDB v4 update, matching-episode response handling and cached-result checks.\n\nVortX is Apple first. The Android APK is still an early technical preview rather than the finished app, so expect missing features and rough edges.\n\nPlease test:\n\n• Open the app with your existing account, especially if profiles failed to open on 0.5.5. Check that your profiles, add-ons, settings and history are present. If it still fails, export diagnostics; do not reset your account or delete Keychain items as a workaround.\n• On Apple TV, bring up the controls during playback, seek and use Skip Intro or Skip Credits where available. Check whether controls appear promptly and hide after you stop interacting. If there is still a delay, include your Apple TV model and a fresh diagnostic export in the report.\n• If a stream ends early, check that recovery does not keep reopening the same failing point and that the episode has not been marked watched or advanced incorrectly.\n• Switch profiles while Continue Watching or Watch Stats is loading, then check that each profile keeps its own results.\n• On Mac, check control auto-hide and normal quitting after playback.\n\nThis is a prerelease for testing, not a replacement for stable 0.5.5. The full Swift 6 migration and wider performance cleanup are not finished, and smoothness still needs testing on real devices. Profile recovery cannot restore an encryption key that has already been lost. Stable update feeds and download redirects are unchanged.\n\nMac (.dmg). Download VortX-macOS-v0.5.6-beta.2-ci.dmg and drag VortX into Applications. If macOS blocks the app downloaded from this official release, use System Settings \u003e Privacy \u0026 Security \u003e Open Anyway, or run:\n\nAndroid phone, tablet and TV. VortX-0.5.6-full-mpv-universal.apk includes VortX Player. VortX-0.5.6-play-media3-universal.apk is the Media3 variant. Each APK contains both the phone and the Android TV interface. Choose the variant you already use so it installs over your current version. The Play bundle is also attached for its distribution workflow.\n\nAll seven packages are built by the public release workflows from v0.5.6-beta.2. SHA256SUMS.txt lists the package checksums, and VortX-Hosted-Direct-Beta-Provenance.json records the source, build and package verification details.\n\nRelease verification. These are the unchanged packages from the successful beta 2 builds. Their final checks use a separately reviewed recovery verifier for a CI receipt-format mismatch. The original automated receipt check remains affected; its producer fix is reserved for beta 3. The attached provenance records the recovery verification separately from the app's build source.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.2/VortX-iOS-v0.5.6-beta.2-ci.ipa",
+          "size": 52435739,
           "minOSVersion": "16.0"
         }
       ],
@@ -11159,11 +11111,11 @@
       ],
       "versions": [
         {
-          "version": "2.5.2",
-          "date": "2026-10-08T15:08:48Z",
-          "localizedDescription": "The .ipa below is unsigned. There is no signing certificate in this repository and there should not be one, so it cannot be installed by tapping it: use AltStore, Sideloadly, or your own developer account.\n\nRequires iOS 26 or newer, on iPhone or iPad. Installs as Neechan X (pro.neechan.app-dev) and updates 2.5.1, or 2.5.2 build 9, in place.\n\nA post, or a whole thread, can be read in your own language, translated on the device. 2ch's likes and dislikes are shown and can be cast. The text in a picture can be selected and copied, and a picture can be looked up on Yandex, Google Lens, SauceNAO or iqdb. Files can be picked in the gallery grid and saved together, or every file in a thread saved at once. A clip plays slower or faster, steps one picture at a time while paused, and shows a picture of where the scrubber is while it is dragged. About links to the website, the privacy policy, the source and an address to write to.\n\nA link in a post to a video or a picture opens in the app's own viewer, and a file on another host is no longer sent your 2ch session. Some MP4s that played in silence are heard, an AVI renamed to .mp4 plays, and a seek no longer stops a downloading clip with an error or freezes one at its end. A tap in the gallery grid opens the file you tapped, not the one below it. Music from another app stops only while a clip is heard, and carries on when the clip is paused, muted or closed.\n\nPosting to 4chan goes out the way the site's own reply form sends it, from a browser view inside the app. Its new captcha, a few steps of pictures to slide through, is drawn by the app, and the waits between captchas are the ones the site sends.\n\nThreads:\n\n• Likes and dislikes on 2ch. The boards that count them, such as /news/, show each post's likes and dislikes under it, and a tap casts yours. It counts at once, and comes back off with the site's reason if the site refuses it. A vote is writing to the site, so it follows the same switch as posting: where posting is off, the counts are shown and cannot be tapped. The app had the request for this but never made it, and the answer it expected was not the one the site gives, so a vote that counted would have been reported as a failure.\n\nPosting:\n\n• 4chan posts go through the browser engine. 4chan's posting host refused the app's own requests, even with the cookies a web view had earned, so the reply form never got past the browser check. The captcha and the post now go out from a hidden web view on the board's own page, the way 4chan's quick reply sends them. When Cloudflare wants to check the browser first, its check appears inside the captcha box and is answered there.\n• 4chan's new captcha. Press Get Captcha, then on each step move the slider until the picture matches what the instructions ask for, and press Next. The instructions show with the picture they ask about, as on the site, and a short note under the captcha says how it works. The slider starts on the instructions, and nothing is picked for you.\n• The site's own waits. Get Captcha counts down whatever wait 4chan sends with each captcha, 30 seconds, a minute or five, and \"You have to wait a while before doing this again\" shows with it rather than as a bare error. A longer wait shows the site's own message. Its link to verify your email, and the one under the captcha, open in the app, so what the page sets counts for the captcha. A captcha is asked for only when you press for it, since each one starts the wait, and closing the form keeps the wait and a captcha you had started.\n• A post that may have gone through says so. When a post leaves and no answer comes back, the form says it may have been posted rather than that it failed, so it is not sent twice.\n\nLinks:\n\n• A link to a file opens in the viewer. A link straight to a video or a picture, such as 2ch.su/test/src/237957/17847495108690174855.mp4, opened a Safari sheet. Only boards and threads were recognised, and a file is neither. A link to an mp4, webm, mov, mkv, jpg, png, gif, webp or bmp now opens in the viewer, the way a file attached to a post does. This works in the thread, in a quote and in the replies window, and Go to post and Save treat it as part of the post that links to it. A file on any 2ch mirror (2ch.su, 2ch.hk, 2ch.pm, 2ch.life) is fetched from the mirror you have chosen, so a link to a mirror that has gone dark still plays. A file on another host plays from that host. Until you turn on Adult 18+, a file on a board for adults, or on a host other than the imageboard's, still opens in Safari, the same rule the in-app browser follows.\n\nGallery:\n\n• Text in a picture can be selected. A picture with words in it, a screenshot of a post most often, gets a Live Text button beside Save and Share. Tapped, the words are lifted out of the picture and can be selected, copied, translated or looked up, and a code or a thing Visual Look Up knows can be opened. The long press and the drag that closes the viewer are left to the text while it is lifted out, and come back when it is put away. The button appears only where something was found.\n• Look a picture up. Search for this image, in a file's long-press menu in the viewer, the grid and the feed, sends the picture's address to Yandex, Google Lens, SauceNAO or iqdb. A video is looked up by its thumbnail. The page opens in the app's browser or in Safari by the same rule as any other link, and a file from a thread saved on the device is not offered, since no engine can reach it there.\n• Save many files at once. Select, in the gallery grid, lets you tick files and save them together, with Select all for whatever the filter is showing. Save all files, in the thread's menu, saves every file in the thread after asking. The capsule counts them, \"Saving 3 of 42\", one failure does not stop the rest, and the alert at the end says how many did not make it. A save pressed while another was still running used to be dropped without a word; it now waits its turn.\n• Cancel stops a conversion. Cancelling a save while a WebM was being turned into an MP4 took the capsule away and left the conversion running to the end of the clip.\n• A file on another host is not sent your session. The player sent your 2ch cookies, including a passcode's, with every file it fetched, whatever host the file was on. In a 4chan thread they went to 4chan's file host. Only a file on the mirror you have chosen is sent them now.\n• A tap in the grid opens the file you tapped. Tapping a video could open the picture below it. A thumbnail is cropped to its square, but the cropped part still took taps, and later cells lie on top: a tall screenshot took the lower half of the cell above it, and a wide picture the edge of the cell to its left. Each thumbnail now answers only inside its own square, in the grid, in a thread, on a board and in the attachments of a new post.\n\nMedia:\n\n• Playback speed. The 1× under the viewer's scrubber picks a speed from half to double. Voices keep their pitch. The speed holds as you page from clip to clip, and the next viewer opens at normal speed. The feed is not affected.\n• One picture at a time. While a clip is paused, two buttons beside the speed step one picture back or forward, and holding one keeps stepping. A step from the end of a clip leaves it paused where it is.\n• A picture of where the scrubber is. Dragging the scrubber shows the picture at that point, from the keyframe at or before it, with the time under it. It is made only from what is already on the device, so it never competes with the clip for the connection; where the clip has not arrived, the post's own thumbnail stands in.\n• A seek while paused shows where it landed. The clock was left at the time asked for, which is nearly always a little before the picture there, and the old picture stayed on screen until the clip was played.\n• A seek is not answered with a picture from before it. A piece of the file read just as a seek began was taken for the first piece of the new position. The picture after the seek could be one from where the clip had been, and what came after it was decoded from the start of the clip.\n• Music from another app stops only while a clip is heard. Opening a video stopped Spotify, Music or a podcast even when the clip was muted or had no sound at all, and it stayed stopped until the gallery or the feed closed. It now stops only while a clip plays out loud, and carries on when the clip is paused, muted, finished or closed, or when the app goes to the background. After a pause it waits a second, so a swipe in the feed does not start and stop it. The feed starts muted, so music keeps playing until you turn the feed's sound on. A video in another app's picture-in-picture window stops the same way, but usually waits for a tap to carry on. A call, or music started from Control Centre, pauses a clip that was playing out loud. Before, the clip carried on with no sound.\n• Sound plays in an MP4 whose AAC only says it is stereo once it starts. HE-AAC v2 often declares just its core in the file's header, 22.05 kHz mono, and turns out to be 44.1 kHz stereo when the first packet is decoded. The player built everything from the header, refused every bit of sound that came out, and said nothing: the picture played and the clip was silent. What is played is now shaped by the first decoded sound, and a refusal is written to the log. Two of the four HE-AAC v2 clips in one /test/ thread were like this.\n• An AVI named .mp4 plays. A board checks a file's name, not its bytes, so an old XviD rip renamed to .mp4 is posted and served as an MP4. The app's FFmpeg could not read AVI or decode MPEG-4 Part 2 and the clip failed to open. neechan-ffmpeg 9.0.4, the same FFmpeg n9.0.2, adds both; the file is recognised by its bytes whatever it is called, and its 5.1 AC-3 sound comes out as stereo. Its last picture carries no time of its own and is now shown after the one before it; untimed, the clip never reached its end and the timeline counted on.\n\n• A seek past the last picture finishes the clip instead of freezing it. Dragging to the very end of any clip, or seeking into the missing part of a cut-off upload, found no picture at or after the target, and the player waited for one for as long as anyone watched. The last picture there is is shown and the clip is over. A cut-off file keeps an index for the whole of what it once was -- one in /test/ declares fifty seconds and holds thirteen -- so a seek it sends off the end goes back to the last keyframe read instead.",
-          "downloadURL": "https://github.com/leros1337/neechan/releases/download/v2.5.2/Neechan-2.5.2.ipa",
-          "size": 15424643,
+          "version": "2.5.3",
+          "date": "2026-10-19T05:56:51Z",
+          "localizedDescription": "The .ipa below is unsigned. There is no signing certificate in this repository and there should not be one, so it cannot be installed by tapping it: use AltStore, Sideloadly, or your own developer account.\n\nRequires iOS 26 or newer, on iPhone or iPad. Installs as Neechan X (pro.neechan.app-dev) and updates 2.5.2 in place.\n\nThe gallery fetches the next picture while you look at this one, so a swipe lands on the picture rather than on a spinner. Swiping between pictures is smooth again: one you have already seen no longer flashes and loads over at the end of every swipe. A muted video stays muted as you swipe to the next one. A long press on a file offers Save and Share, which sends a WebM on as an MP4 that other apps can play. In the reply form, the formatting bar sits under the comment field, and the 4chan report sheet stays on 4chan. A full endless thread now notifies about new posts and replies to you, and its badge in Favorites counts what is unread. With the app lock on, a fresh launch stays hidden until Face ID or the passcode lets you in.\n\nGallery:\n\n• The next picture is ready before you get there. While a picture is on screen, the one after it is fetched and decoded, so it is already drawn as you swipe onto it. A picture over 10 MB, or one whose size the site does not give, is left until you land on it, and nothing is fetched ahead where the app is set not to load media on the connection you are on. After a video, the picture waits until the clip has opened, so the two do not compete for the connection.\n• No flash at the end of a swipe. Every page you landed on threw its picture away, showed a spinner, and read and decoded the whole file again, even a picture you had looked at a moment before. The pictures either side of the one on screen are now kept, and landing on one shows it at once.\n• A swipe stays a swipe. One that began slightly downward pulled the whole viewer down and shrank it for the rest of the swipe, as if it were being closed. Which way a drag goes is now decided once, as it starts.\n• Muted stays muted. Muting a video and swiping to the next one played the next one out loud, under a button that still said it was muted. The mute now carries from clip to clip until the gallery closes.\n\nPosting:\n\n• The formatting bar stays under the comment. The buttons for bold, italic, spoilers and the rest, and for attaching pictures and files, used to float above the keyboard. They are now a fixed row right under the comment field and scroll with the form.\n\nReporting:\n\n• The 4chan report sheet stays on 4chan. It was meant to refuse any link that leads off the site, such as one to the rules, but the check never ran: its signature was missing the main-actor mark WebKit's now carries, so it did not count as the delegate method and WebKit never called it. A tap on a link took you browsing the rest of the site in a sheet with no address bar.\n\nNotifications:\n\n• Endless threads have news again. An endless thread drops its oldest post for each new one, so once it is full it always holds the same number of posts, and that number was all the watcher asked 2ch for. A full endless thread never had news: no notification about new posts or replies to you, and no count on its badge in Favorites. These threads are now checked by asking for the posts after the newest one seen, one request that a quiet thread answers with a single post, and the badge counts the posts that arrived since you last read the thread. The app learns that a thread is endless when you leave it, or else asks for its first post once per launch, the first time its count stops growing.\n\n• The lock covers a fresh launch. With the app lock on, opening the app fresh showed it, and let it be used, while Face ID was still scanning, and a failed or cancelled scan left it open. The lock screen was put up only when the lock changed its mind, and on a fresh launch the lock had made up its mind before the app knew which screen to draw on, so the one request was dropped and never made again. The request is now kept until the screen is known, and the lock screen is up from the first frame, before Face ID asks.\n\nUnder the hood:\n\n• The sound no longer stalls the interface. Taking the sound from other apps and handing it back both wait on the system's audio server, and were done on the main thread. They now run on a queue of their own, in the order they were decided.\n• The decoders do not wait behind a slower queue. The video and audio decoders run at the highest priority and wait for the renderers to take what they made, but the queue feeding the renderers ran at the default priority. It now runs at the decoders' own.\n• The compiler warnings are gone. An interruption reason iOS 16 stopped sending is no longer looked for, and the rest were small isolation fixes.\n\n• The internal TestFlight build carries its symbols. Neechan X.\n\n(Internal) archives Debug, which made no dSYM, and App Store Connect wants one for every build it takes. Debug now makes one.",
+          "downloadURL": "https://github.com/leros1337/neechan/releases/download/v2.5.3/Neechan-2.5.3.ipa",
+          "size": 15541283,
           "minOSVersion": "26.0"
         }
       ],
@@ -11710,18 +11662,18 @@
       "name": "IW4LJ",
       "bundleIdentifier": "dev.iw4j.iw4l",
       "developerName": "jesaias1",
-      "subtitle": "Phone ports of IW4L (by vladtrc) — an open-source runtime for",
-      "localizedDescription": "IW4LJ:\n\nPhone ports of IW4L (by vladtrc) — an open-source runtime for Call of Duty: Modern Warfare 2 (2009), written in Rust with Bevy — for Android and iOS. Android and iPhone players can play together on LAN and online.\n\nThe two folders are separate, complete copies of the engine so that each build stands on its own. A change to the game, the netcode or the menus must be made in both, or the two ports stop being able to play together — see.",
+      "subtitle": "Call of Duty: Modern Warfare 2 (2009) multiplayer on your phone — Android and iPhone",
+      "localizedDescription": "IW4LJ:\n\nCall of Duty: Modern Warfare 2 (2009) multiplayer on your phone — Android and iPhone.\n\nIW4LJ is a phone port of IW4L (by vladtrc), an open-source runtime for MW2 written in Rust with the Bevy engine. It is not a wrapper or an emulator: it reads the game data from a copy of MW2 you own and runs it in its own engine, with touch controls, controller support and a mod menu built for a phone. Android and iPhone players can play together over LAN and online.\n\nYou need your own copy of MW2 multiplayer. This repository contains source code only, no Activision game data. See No game files here.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.iw4j.iw4l.png",
       "tintColor": "#f86c22",
-      "category": "other",
+      "category": "games",
       "versions": [
         {
           "version": "0.2.0",
           "date": "2026-10-13T16:23:53Z",
           "localizedDescription": "Unsigned IPA: sign and install with Sideloadly or AltStore (see INSTALL-IOS.md). Not tested on a device yet. Includes the new icon and the final-killcam fix.",
           "downloadURL": "https://github.com/jesaias1/IW4LJ/releases/download/ios-v0.2.0/IW4LJ.ipa",
-          "size": 39130167,
+          "size": 39126882,
           "minOSVersion": "16.0"
         }
       ],
@@ -11779,11 +11731,11 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "1.9",
-          "date": "2026-10-09T10:45:06Z",
-          "localizedDescription": "🎬 Perfect A/V Lip-Sync \u0026 Strict 24.000 CFR Cinema Timeline:\n\n• Time-Quantized Constant Frame Rate (CFR): Frame timestamps are mathematically locked to the 24.000 FPS grid based on hardware optical capture time. Missing or delayed frames no longer cause video to drift behind audio.\n• Hold-Frame Slot Filling: Any missed CFR slots under load are automatically populated with the previous frame (up to 4 frames max), ensuring the output container remains 100.000% pure 24.000 CFR without VFR jitter in Premiere Pro or DaVinci Resolve.\n• Microsecond A/V Synchronization: Audio presentation timestamps are anchored to optical exposure start, and monotonic buffer advance eliminates audio packet overlap across long recordings (zero drift on 5+ minute takes).\n• Zero Tail Freeze: Container termination (writer.endSession(atSourceTime: videoEndTime)) cleanly cuts audio and metadata tracks exactly at the final video frame boundary.\n\n⚡ Zero-Stall Capture Pipelining \u0026 Frame Preservation:\n\n• Decoupled DMA Blit Queue: Bayer frame copy now runs on a private, dedicated Metal blit queue completely decoupled from the compute pipeline. Eliminates thread stalling on AVFoundation photo delivery.\n• Optimized Prepared Settings: Initial prepared photo settings expanded to 24, with throttled replenishment checking every 16 frames to eliminate mediaserverd IPC overhead and burst stalls.\n• Expanded Buffer Cushions: bayerBufferPool minimum count and RawFrameBuffer capacity expanded to 32 frames (1.33s buffer cushion) to absorb transient disk I/O and thermal transitions.\n• Hardened Sequencer Watchdog: Out-of-order frame delivery and timeout recovery hardened to discard stale frames and prevent orphaned keys from stalling the sequencer.\n\n🌟 Maximum Dynamic Range \u0026 Highlight Roll-off:\n\n• Log Headroom Shoulder: Mapped linear sensor input [0, 1] through LogCurve.defaultRMax to unlock full scene reflectance headroom in S-Log3 and Apple Log 2 without highlight clipping.\n• Active Defect Pixel Correction (DPC): Adaptive 4-element median filter cleans hot/stuck pixels during recording for pristine master files.\n• Hardware ProRes Detection: Dynamic runtime probing for Apple ProRes hardware encoder capability (available on A15 Bionic and newer / iPhone 13 Pro+), with informative UI guidance on unsupported hardware.\n\n📦 Sideloading:\n\nDownload OwLens.ipa attached below and install via Sideloadly, AltStore, or TrollStore.",
-          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/1.9/OwLens.ipa",
-          "size": 512292,
+          "version": "2.0",
+          "date": "2026-10-19T10:19:32Z",
+          "localizedDescription": "🎞️ Cinema-Calibrated Highlight Color Science \u0026 Roll-off:\n\n• Preserved Linear Diffuse Whites: Moved the linear preservation knee to zsh.90$ scene reflectance. Middle grey (\\%$) sits at \\%$ IRE, and diffuse whites (paper, shirts, clouds, walls) sit naturally at $\\sim 61\\% - 64\\%$ IRE, exactly matching Apple Log and Sony S-Log3 published standards.\n• Asymptotic Rational Highlight Shoulder: Specular highlights smoothly roll off with ^1$ derivative continuity toward an \\% - 88\\%$ IRE ceiling. Highlights no longer slam into a hard \\%$ digital white clipping plateau.\n• Highlight Chrominance Preservation: Removed harsh \\%$ monochrome desaturation bleaching. Sunsets, blue skies, incandescent lamps, and skin highlights maintain rich organic color rather than bleaching into chalky white blobs.\n\n🔍 Full 12MP Sensor Oversampling \u0026 Catmull-Rom Resampling:\n\n• Full 12MP Unbinned Demosaicing: Bypasses early Bayer pixel binning during normal operation, delivering imes$ optical super-sampling for Open Gate ( imes 1512$) and 1080p ( imes 1080$) with double the effective MTF and zero Bayer moiré.\n• 5-Tap Catmull-Rom Bicubic Resampling: Replaced bilinear downsampling with hardware-accelerated 5-tap Catmull-Rom bicubic interpolation, preserving sharp edge acutance and micro-contrast.\n• Tuned Micro-Contrast Unsharp Mask: Refined coring and shadow cutoff to extract delicate organic textures while protecting the deep sensor noise floor.\n\n🎛️ Restored Denoise Control \u0026 Refined Minimalist UI:\n\n• Dynamic Bayer Denoising (Default: 1.0): Restored dedicated status pill and smooth slider drawer (zsh.0 - 1.0$) linked directly to sensor ISO-calibrated Poisson-Gaussian defect pixel noise suppression.\n• Uncluttered Top Bar: Removed the static text marker from the right status group to eliminate pill overlap and horizontal crowding.\n• Clean Slider Adjustment: Removed preset buttons from the denoise drawer for fluid, continuous strength dialing.\n\n📦 Sideloading:\n\nDownload attached below and install via Sideloadly, AltStore, or TrollStore.",
+          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.0/OwLens.ipa",
+          "size": 521776,
           "minOSVersion": "17.0"
         }
       ],
@@ -11972,7 +11924,7 @@
       "bundleIdentifier": "com.j0shua.S5LBox",
       "developerName": "j0shua-SYSON",
       "subtitle": "Classic iPhone OS",
-      "localizedDescription": "S5LBox:\n\nClassic iPhone OS. On your iPhone.\n\nSlide to unlock. Open an old favorite. Make it yours again.\n\nS5LBox brings the iPhone 3G and its original iPhone OS 3.1.3 to your iPhone. It's the real operating system, running inside an app—not a theme or a recreation. Your iPhone doesn't need to be jailbroken.\n\nWhat you can do:\n\n• Rediscover the classics. Explore the familiar Home screen, built-in apps, and compatible apps from the early days of iPhone.\n\n• Bring your apps. Import .ipa files directly or put them in S5LBox's IPAs folder in Files. Choose what to install, one app at a time, without closing the running machine.",
+      "localizedDescription": "S5LBox:\n\nClassic iPhone OS. On your iPhone.\n\nSlide to unlock. Open an old favorite. Make it yours again.\n\nS5LBox brings the iPhone 3G and its original iPhone OS 3.1.3 to your iPhone. It's the real operating system, running inside an app—not a theme or a recreation. Your iPhone doesn't need to be jailbroken.\n\nWhat you can do:\n\n• Rediscover the classics. Explore the familiar Home screen, built-in apps, and compatible apps from the early days of iPhone.\n\n• Bring your apps. Import .ipa files directly or put them in S5LBox's IPAs folder in Files. Choose what to install, one app at a time, without closing the running machine.\n\n• Explore your files. Browse, preview, import, and export guest files from Machine Settings. Full filesystem access is available after guest jailbreak.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.j0shua.S5LBox.png",
       "tintColor": "#4070be",
       "category": "other",
@@ -11983,11 +11935,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "2026-10-14T15:20:59Z",
-          "localizedDescription": "Classic iPhone OS. On your iPhone.\n\nThe first public release of S5LBox: the iPhone 3G's iPhone OS 3.1.3 running inside an iOS app. This release is experimental; compatibility and performance are still being improved.\n\nFirmware and first-run setup:\n\n• Native first-run setup with progress, cancellation, errors and retry paths.\n\n• Import an existing IPSW as an alternative. Selection is handled immediately, without reopening Settings or choosing the file a second time.\n• Keep firmware details and manual overrides in Advanced settings. Skip setup once firmware is configured. No Apple firmware is bundled.\n\nMachines, storage and controls:\n\n• Create multiple independent machines, with long-press actions to rename, duplicate or delete them.\n• Save and resume running sessions, or shut down for a fresh boot. Keep machine files accessible through the Files app.\n• Use an 8 GiB virtual disk for new machines by default, with 2 and 4 GiB alternatives under Advanced. Sparse storage avoids allocating the full capacity immediately; guest data and saved sessions still use real storage.\n• Modern emulator toolbar and a separate device-controls sheet for Home, sleep/wake, silent mode, volume, pause, restart and Save \u0026 close.\n• Separate app settings from running-machine settings; keep the legacy interface available in Advanced.\n• Pause in the background by default. Provide Force Power Off for guests that cannot complete an ordinary shutdown, including during boot.\n• Use guest shutdown confirmation before restarting a running machine. Forced power-off remains an unclean stop and can lose unsaved work.\n\nGuest apps and jailbreak:\n\n• A Files-visible IPAs folder and in-app import, with individual app selection and real IPA icons, including supported legacy optimized PNG artwork.\n• Install apps while the guest is running through virtual USB, pairing, AFC and the guest's installation_proxy service—not by editing its live disk.\n• Installation progress, cancellation, guest verification errors and per-machine pairing identities.\n• Guided guest jailbreak with Cydia, centered preparation progress and automatic entry into the machine afterward.\n• First-boot setup performs a respring. The completion notice explains that Cydia may appear afterward and Packages may need a guest reboot.\n• Packages helper setup is included with jailbreak by default, with an Advanced opt-out and a setup path for existing jailbroken machines.\n\nBuilt-in Packages:\n\n• Native package browsing, categories, search, sources, installed packages and available updates.\n\n• Install, update and remove packages using the running guest's own dpkg and maintainer scripts. Unsupported dependency plans are refused rather than silently applied.\n• Handle supported package finish requests for respring or reboot after changes, with progress and connection-recovery feedback.\n• First-use helper setup and first-boot waiting are integrated into Packages; missing setup is not treated as a successful connection.\n\nEmulation, networking and audio:\n\n• ARMv6 guest execution with a no-JIT shipping path; no host jailbreak or JIT activation is required to run the emulator.\n• Experimental MBX graphics enabled by default for new machines, with the existing software-rendering configuration retained for machines that use it.\n\n• Experimental audio playback and microphone input, guest digital volume/mute, host audio-session handling and saved audio-device state.\n• Microphone access enabled by default subject to iOS permission, with an Advanced opt-out. Declining permission does not block setup or boot.\n\nReliability fixes included in 1.0.0:\n\n• Fix virtual USB reconnection after Save \u0026 close for both Packages and live IPA installation. Wake a sleeping guest for pending service work, and detect controller resets instead of mistaking cleared interrupts for a completed handshake.\n\n• Improve jailbreak/helper first-boot recovery, stale filesystem metadata handling and protection of referenced disk blocks during supported stopped maintenance operations.\n\n• Fix firmware picker/import state handling, setup progress presentation, retained setup state and the separation of everyday and Advanced controls.\n• Include regression coverage for USB transport, installation, storage, firmware preparation, input, audio and package operations.\n\nCompatibility and known limitations:\n\n• Host requirement: an arm64 iOS device running iOS 13 or later. Physical-device validation has focused on iPhone 6s Plus with iOS 15.8.5; it does not establish identical behavior on every supported host version or device.\n\n• Apps and tweaks must support this guest. Copy-protected IPAs cannot be installed; some otherwise compatible apps require AppSync inside the guest.\n• Graphics, audio, input latency and performance remain experimental. Not all hardware, apps, tweaks, media formats or audio routes are supported, and original-device animation speed is not guaranteed.\n• Packages is not a complete replacement for every Cydia/APT dependency plan. Unsupported plans may require Cydia. Guest scripts and initial jailbreak configuration can still take time; first boot may need a respring or reboot.\n• Back up important machine data before experimenting. An interrupted installation can have an uncertain outcome; reconnecting does not undo it.\n\nApple firmware, machine disks and test-device data are not part of the release assets.",
-          "downloadURL": "https://github.com/j0shua-SYSON/S5LBox/releases/download/v1.0.0/S5LBox.ipa",
-          "size": 2453156,
+          "version": "1.1.0",
+          "date": "2026-10-19T09:17:29Z",
+          "localizedDescription": "S5LBox 1.1.0:\n\nBrowse Legacy Store, manage guest files without leaving S5LBox, and enjoy a more reliable iPhone OS experience.\n\nWhat's new:\n\n• Guest Files: browse Media, preview and export files, import files, create folders, rename items, and delete empty folders or files over virtual USB. Jailbroken guests can also expose the full filesystem.\n• AppSync setup: new guest jailbreaks install AppSync for OS 3.1 by default, with an independent opt-out in Advanced settings.\n• Home-only interface: a minimal alternative to the Modern and Legacy layouts, with hidden controls available through the screen margin and VoiceOver.\n\nFixes and improvements:\n\n• Guest date and timezone follow the host iPhone, including after saved-session resume, background pauses, and timezone changes.\n• Silent mode is remembered separately for each machine across restarts and resume.\n• Audio buffering better handles uneven delivery and recovery without changing guest clocks or pitch. Microphone capture starts only when the guest requests input.\n• Home wakes a guest whose display is asleep, even when the rest of the guest is still running.\n• IPA and Packages controls become available when boot or restore finishes, without reopening Machine Settings.\n• Firmware preparation runs off the UI thread. Force Power Off remains available during startup, saving, and restart, canceling unfinished preparation work.\n• First-boot jailbreak setup initializes package dependency records, and Packages waits for setup to finish before offering operations.\n• Safe file links inside legacy IPAs are preserved; unsafe paths, cycles, missing targets, and directory links are rejected.\n• Cold-boot file connections allow stock AFC pairing to complete. Transfers have clearer state, preserve guest errors, and clean up temporary previews.\n\nAcknowledgements:\n\nA huge thanks to everyone who tested S5LBox, reported bugs, and shared suggestions! Your feedback has been incredibly helpful in improving the project, and I really appreciate all the support!",
+          "downloadURL": "https://github.com/j0shua-SYSON/S5LBox/releases/download/v1.1.0/S5LBox.ipa",
+          "size": 2531819,
           "minOSVersion": "13.0"
         }
       ],
@@ -12126,55 +12078,6 @@
           "NSCalendarsUsageDescription": "Spor bruger din kalender til at tilføje rejser og påmindelser.",
           "NSCalendarsWriteOnlyAccessUsageDescription": "Spor bruger din kalender til at tilføje rejser og påmindelser.",
           "NSLocationWhenInUseUsageDescription": "Spor bruger din placering til at finde stoppesteder og stationer i nærheden."
-        }
-      }
-    },
-    {
-      "name": "Unbound",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "unbound-app",
-      "subtitle": "🍎 Theos tweak that bridges Unbound into Discord's native layer to power addon management on iOS",
-      "localizedDescription": "Jailbroken:\n\n• Either add the apt repo to your package manager:.\n\nJailed:\n\nTrying to use non-ellekit tweak runtimes will likely break functionality. Ideally always use the pre-patched ipa when sideloading.\n\n• Either add the altsource to your on-device sideloading tool:.\n\nLive reload (HMR):\n\nWhen working on the JavaScript client you can have the app reload automatically whenever you rebuild the bundle, instead of relaunching by hand.\n\n• Run the client's dev server (bun scripts/dev in the client repo). It serves the bundle and a Server-Sent Events stream at /__hot.\n• In Unbound's settings, set:.\n\n• loader.update.url to your dev server's bundle URL, e.g. http://:3000/unbound.bundle\n• loader.update.hmr to true.\n\nloader.update.hmr is off by default, so this never runs for normal users. The HMR endpoint is derived from loader.update.url's origin — no separate setting needed.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.hammerandchisel.discord.png",
-      "tintColor": "#7c86f8",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "349.0",
-          "date": "2026-10-14T08:12:51Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/unbound-app/loader-ios/releases/download/v349.0/Unbound.ipa",
-          "size": 99639184,
-          "minOSVersion": "18.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "application-identifier",
-          "aps-environment",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.avfoundation.multitasking-camera-access",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.devicecheck.appattest-environment",
-          "com.apple.developer.networking.carrier-constrained.appcategory",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.team-identifier",
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.security.application-groups"
-        ],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
-          "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
-          "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
-          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
-          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
-          "NSLocationAlwaysUsageDescription": "To enable services that require location",
-          "NSLocationWhenInUseUsageDescription": "To enable services that require location",
-          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
-          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
-          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
-          "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
         }
       }
     },
@@ -12569,11 +12472,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.21",
-          "date": "2026-10-12T03:30:43Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.21/dsh-tether-0.1.21-ios-unsigned.ipa",
-          "size": 7118698,
+          "version": "0.1.22",
+          "date": "2026-10-19T07:42:33Z",
+          "localizedDescription": "English:\n\nThe Connect a phone button disappeared from the sidebar on dsh 0.2.1-rc, and never appeared at all in dsh desktop (). The button is mounted by copying the style of the sidebar Settings entry, and it simply did not mount when there was nothing to copy. dsh 0.2.1-rc moved that entry out of the sidebar, so the button vanished in the browser interface; dsh desktop keeps its settings in the application menu, so the sidebar there never had anything to copy and the button never showed up at all. First pairing was unaffected — a pairing code appears by itself while no device is paired — but switching phones or adding a second device needs this button, and without it the only way out was deleting the pairing record by hand. The button now falls back to copying the row at the bottom of the sidebar (the account row when signed in, the More row when not), and it mounts with its own styling when neither reference exists. The channel the interface is injected through changed as well: the dsh desktop interface comes from the frontend bundled into the application, which the old channel could never reach.\n\nIn local mode on the phone, the condition for skipping a directory fsync is now stricter. To work around the sandbox, 0.1.20 skipped fsync for any directory the app could not open; but \"cannot open\" and \"cannot write\" are different things, and a directory that is writable but not readable may genuinely hold entries this process just created, so skipping it quietly loses a durability step. The fallback now skips only when the directory can neither be opened nor written. Behaviour on the phone is unchanged, since /data/user/0 and everything above it grants an ordinary app execute only.\n\nThe dsh bundled into Android local mode moves from 0.2.0-rc.2 to 0.2.1-rc.2. The first local-mode start after this update unpacks the runtime again. Verified on a real device end to end — unpacking, choosing a workspace, sending a message, and sending an image. The arm64 APK grows from about 78 MB to about 83 MB because of the larger bundled runtime; the other ABIs carry no runtime and are unchanged.\n\nThe list of verified dsh versions gains 0.2.1-rc.2. The declared compatibility range already covered the 0.2.1 family, so nothing changes about whether the plugin installs.",
+          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.22/dsh-tether-0.1.22-ios-unsigned.ipa",
+          "size": 7117872,
           "minOSVersion": "14.0"
         }
       ],
@@ -12906,6 +12809,107 @@
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "Shalielie saves the styled photos to your library.",
           "NSPhotoLibraryUsageDescription": "Shalielie reads the original HEIC and Live Photo video of the photos you style, and replaces them when you ask it to."
+        }
+      }
+    },
+    {
+      "name": "Rigs of Rods",
+      "bundleIdentifier": "io.github.ror.ios",
+      "developerName": "wayl-t",
+      "subtitle": "Rigs of Rods on iPhone: native port built on free GitHub Actions macOS runners",
+      "localizedDescription": "Rigs of Rods — iOS:\n\nпод Apple/iOS (patches/ror/apply_ios_patches.py). Сборка — **без Mac и без Sideloadly).",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-19T10:03:36Z",
+          "localizedDescription": "This is a Hello-World iOS app. It exists only to prove the build-and-package pipeline works end to end on a free macOS runner. The game itself is in the latest-ipa release.",
+          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/pipeline-check/RoRNative.ipa",
+          "size": 18616,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Kinbits",
+      "bundleIdentifier": "com.gamertheartist.kinbits",
+      "developerName": "bunsoootchi",
+      "subtitle": "Private beta distribution source for Kinbits",
+      "localizedDescription": "Kinbits Beta:\n\nKinbits beta builds for personal testing through SideStore and AltStore Classic.\n\nRequirements:\n\n• iPhone running iOS 17 or later.\n• SideStore or AltStore Classic.\n• Your own Apple Account for free signing.\n\nImportant:\n\n• Free Apple signing normally requires refreshing the app before the 7-day provisioning period expires.\n• Update Kinbits over your existing installation.\n• Do not delete Kinbits before updating unless specifically instructed, because deleting the app can remove local pet data.\n\nSideStore One-Click Source:\n\nAdd to SideStore.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.gamertheartist.kinbits.png",
+      "tintColor": "#cb3b34",
+      "category": "other",
+      "versions": [
+        {
+          "version": "2.0",
+          "date": "2026-10-19T10:05:37Z",
+          "localizedDescription": "Kinbits 2.0 Beta 1.\n\nKinbits is now a 3D home your Kinbit roams and plays in.\n\n• 10 rooms to collect, life events, visitors, weddings, and new minigames.\n• Nearby: while Outside, your Kinbit can meet other players' Kinbits over Bluetooth.\n\n2.0 starts fresh: your 1.1 pet does not carry over. The home-screen widget is gone in 2.0.",
+          "downloadURL": "https://github.com/bunsoootchi/kinbits-beta/releases/download/v2.0-beta.1/Kinbits-2.0-b30.ipa",
+          "size": 27075304,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Kinbits uses Bluetooth so your Kinbit can meet other players' Kinbits nearby while it's Outside. Your location is never used."
+        }
+      }
+    },
+    {
+      "name": "Discord",
+      "bundleIdentifier": "com.hammerandchisel.discord.testflight",
+      "developerName": "unbound-app",
+      "subtitle": "🍎 Theos tweak that bridges Unbound into Discord's native layer to power addon management on iOS",
+      "localizedDescription": "Jailbroken:\n\n• Either add the apt repo to your package manager:.\n\nJailed:\n\nTrying to use non-ellekit tweak runtimes will likely break functionality. Ideally always use the pre-patched ipa when sideloading.\n\n• Either add the altsource to your on-device sideloading tool:.\n\nLive reload (HMR):\n\nWhen working on the JavaScript client you can have the app reload automatically whenever you rebuild the bundle, instead of relaunching by hand.\n\n• Run the client's dev server (bun scripts/dev in the client repo). It serves the bundle and a Server-Sent Events stream at /__hot.\n• In Unbound's settings, set:.\n\n• loader.update.url to your dev server's bundle URL, e.g. http://:3000/unbound.bundle\n• loader.update.hmr to true.\n\nloader.update.hmr is off by default, so this never runs for normal users. The HMR endpoint is derived from loader.update.url's origin — no separate setting needed.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.hammerandchisel.discord.testflight.png",
+      "tintColor": "#7c86f8",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "351.0",
+          "date": "2026-10-19T09:10:15Z",
+          "localizedDescription": "• chore(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2[bot].",
+          "downloadURL": "https://github.com/unbound-app/loader-ios/releases/download/v351.0_116041/Unbound.ipa",
+          "size": 99967971,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "beta-reports-active",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.networking.carrier-constrained.appcategory",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
+          "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
+          "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
+          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+          "NSLocationAlwaysUsageDescription": "To enable services that require location",
+          "NSLocationWhenInUseUsageDescription": "To enable services that require location",
+          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
+          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
+          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
+          "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
         }
       }
     }
