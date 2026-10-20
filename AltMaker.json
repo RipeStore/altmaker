@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.iptvnator.arc",
-    "de.wiredframe.comicreader",
-    "com.InputStreamPlayer"
+    "app.netfish.ios",
+    "com.soltheman.pocketlab",
+    "dev.jemsoftware.tanukistash"
   ],
   "apps": [
     {
@@ -97,11 +97,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.45",
-          "date": "2026-10-19T20:01:39Z",
-          "localizedDescription": "Bo1ZPocket 0.3.45: download Bo1ZPocket.ipa below and install it over the app you have.\n\n• Ragdolls: zombies fall and crumple from how they were moving when they died, as in BO1, and grenades throw the bodies.\n• Bodies stay on the floor for a while (up to 5 at a time, as BO1 keeps them) instead of vanishing.\n\nFull history: CHANGELOG.md.",
-          "downloadURL": "https://github.com/soltheman/pocket-lab/releases/download/v0.3.45/Bo1ZPocket.ipa",
-          "size": 54014596,
+          "version": "0.3.46",
+          "date": "2026-10-20T02:30:31Z",
+          "localizedDescription": "Bo1ZPocket 0.3.46: download Bo1ZPocket.ipa below and install it over the app you have.\n\n• Shooting feels instant: blood shows the frame you fire, gibs and deaths land a tick sooner, and the muzzle flash no longer stops after ~120 shots.\n• Zombies die with BO1's own varied death animations, and bodies disappear a few seconds after they fall.\n• Going down no longer makes the zombie on top of you spaz out; with Quick Revive they walk off as in BO1.\n\nFull history: CHANGELOG.md.",
+          "downloadURL": "https://github.com/soltheman/pocket-lab/releases/download/v0.3.46/Bo1ZPocket.ipa",
+          "size": 54003912,
           "minOSVersion": "15.0"
         }
       ],
@@ -485,17 +485,19 @@
       ],
       "versions": [
         {
-          "version": "1.0.4",
-          "date": "2026-10-15T11:57:13Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/gccammelli/meowstache/releases/download/v1.0.4/meowstache.ipa",
-          "size": 14403834,
+          "version": "1.1.0",
+          "date": "2026-10-19T23:52:38Z",
+          "localizedDescription": "• Local mode.\n• Exercise isolated sibling apps on iPhone.\n\nNew Contributors:\n\n• @gccammelli made their first contribution.",
+          "downloadURL": "https://github.com/gccammelli/meowstache/releases/download/v1.1.0/meowstache.ipa",
+          "size": 15441862,
           "minOSVersion": "14.1"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Local mode connects to your Home Assistant on your home network."
+        }
       }
     },
     {
@@ -641,11 +643,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "4dbb613",
-          "date": "2026-10-19T13:12:36Z",
+          "version": "ed41bdf",
+          "date": "2026-10-19T23:39:36Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/4dbb613/sealskin-v0.4.0.ipa",
-          "size": 1728524,
+          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/ed41bdf/sealskin-v0.4.0.ipa",
+          "size": 1728515,
           "minOSVersion": "26.0"
         }
       ],
@@ -1162,11 +1164,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.162.2",
-          "date": "2026-10-19T05:28:10Z",
-          "localizedDescription": "F1008 - Mega rarities now lists only species selected by the latest successful source response. A complete empty response removes stale index cards without discarding selected-species detail or historical evidence. Pending and failed requests keep their explicitly labelled cached answer.\n\nRegression protection: actual loaders and nearby/statewide section Refresh actions prove empty Mega cannot borrow Twitches and empty Twitches cannot borrow Mega. Legitimate overlapping species from independent sources remain allowed.\n\nValidation: complete local parity/report, 254 non-DOM and 1,319 DOM cases, plus two subsequently added isolation cases passing separately (final catalog: 1,575). All six real-Chrome profiles pass. Eight coherent production mutations are killed with two unchanged seven-case baselines. CI runs the complete final catalog before publication.\n\nUnverified on device: historical card provenance and the older named TWITCH recovery, native-window and Mass Flocks checks remain unclosed. This patch does not claim a native fix.\n\nInstallation: download BirdChaser-unsigned.ipa, then sign and sideload with your usual tool.\n\nThe .ipa below is UNSIGNED and was built by CI from 945a0f4, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.162.2/BirdChaser-unsigned.ipa",
-          "size": 143096864,
+          "version": "1.163.1",
+          "date": "2026-10-20T00:27:31Z",
+          "localizedDescription": "F1014: representative Stakeout fixture recovery:\n\nThe v1.163.0 IPA was valid and verified, but its independent gallery workflow correctly rejected two Stakeout screenshots. The representative fixture supplied a legacy Mega snapshot without verified current membership, while expecting a current MEGA badge. F1012 intentionally no longer treats retained history as proof of current membership.\n\nThis forward patch supplies membershipVersion: 1 for that representative current selection. It does not loosen production membership classification, change the screenshot requirements, move the v1.163.0 tag or replace its IPA. An actual-Chrome guard renders both mandatory Stakeout Notes states; removing the fixture membership assertion causes both actual surfaces to fail again.\n\nAll seven combined features are retained:\n\n• F995: redacted native hidden-window selection/rejection diagnostics, preserving window selection and cleanup. Instrumentation, not a recovery claim.\n• F1005: four distinguishable known reporting parties for Celebrity, preserving independent-visit/convoy gates and useful unknown-identity evidence.\n• F1006: actual matched Favorite Patch names in Recent Bird Gen.\n• F1009: bounded persisted RBA backfill, original dates and current-source precedence, with honest partial/capped/unsaved warnings. Current eligible source rows are not narrowed by the persisted archive's seven-day limit.\n• F1010: bounded redacted scheduling/launch/acquisition/qualification/publication tracing. Existing foreground banners and native background budgets/scope stay.\n• F1011: Menu pull-down and one accessible Refresh feed action perform the full scoped Bird Gen refresh, sharing overlapping work and publishing progressively.\n• F1012: Stakeout MEGA labels require current owned verified membership; retained history and lossy equal-acquisition snapshots cannot manufacture or erase it.\n\nValidation:\n\nThe final candidate passes 262 non-DOM controls (one explicit macOS-only skip), all 1,347 DOM controls, all six real-Chrome viewport/text profiles, wiring and the complete Python/parity suite. The new actual-browser gallery guard is mutation-proved by removing verified membership. CI repeats the app/layout gates, executes the production Foundation trace recorder on macOS, compiles the native device app and checks the packaged public-bundle contract.\n\nThe attached unsigned IPA requires signing with the owner's sideload tool; it is not a TestFlight/App Store upload. Use the attached beta guide and its digest.\n\nF995 failed-open readiness/recovery and F1010 actual background scheduling, acquisition and delivery remain explicit device checks. F979, F1007/Q1007, F932/F937 and older named Mass/source checks remain separate; none are silently closed here. F1013 remains research-only. Diagnostic compilation and recorder execution are not proof of observed native recovery or background delivery.\n\nThe .ipa below is UNSIGNED and was built by CI from 963181a, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.163.1/BirdChaser-unsigned.ipa",
+          "size": 143125686,
           "minOSVersion": "15.0"
         }
       ],
@@ -2144,11 +2146,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.0",
-          "date": "2026-10-19T16:05:53Z",
-          "localizedDescription": "Please note: this release adds the Japanese disc, and the Japanese disc has had only limited testing: one computer, one phone and automated checks. It may look or play wrong in places the European disc does not. If it does, keep the previous version and send the game's report file (the newest file in the logs folder that starts with report-, or ico-pc.log) with a short description of what you saw. Every report must say which disc it was made with, the European disc (SCES-50760) or the Japanese disc (SCPS-11003).\n\nNew:\n\n• On the Japanese disc, Circle confirms and Cross goes back in every menu, the game's own and the ones this port adds, as the Japanese disc did on the PlayStation 2. The Japanese disc always runs at 60 Hz, and its Options have no Video mode, Language or Circle goes back rows.\n• A Menu language row, on the first page of the Options menu, shows the port's own menus in English, French, German, Italian, Spanish or Japanese. It starts on Auto: Japanese with the Japanese disc, and with the European disc the game's language. The game's own signs, menus and subtitles are the disc's.\n• Each disc keeps its own game data, saves, texture packs and model packs, so you can set up both on the same device. Packs for the Japanese disc go in textures/SCPS-11003/replacements and models/SCPS-11003/replacements; a pack in textures/replacements or models/replacements shows on both discs. If both discs are set up, disc in the [game] part of config.toml (auto, pal or jpn) says which one starts.\n• Achievements, the music and model galleries, photo mode and the model viewer work with the Japanese disc.\n• The first lines of the log now name the disc the game is playing.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.8.0/ico-pc-v0.8.0-ios-unsigned.ipa",
-          "size": 6548643,
+          "version": "0.8.1",
+          "date": "2026-10-20T00:19:32Z",
+          "localizedDescription": "Please note: this release adds the Korean disc, and the Korean disc has had only limited testing: automated checks and one start to the title screen. Nobody has played it through yet. It may look or play wrong in places the other discs do not. If it does, keep the previous version and send the game's report file (the newest file in the logs folder that starts with report-, or ico-pc.log) with a short description of what you saw. Every report must say which disc it was made with, the European disc (SCES-50760), the Japanese disc (SCPS-11003) or the Korean disc (SCPS-56001).\n\nNew:\n\n• The Korean disc's menus, signs, memory card screens, stage names and subtitles are the disc's own, in Korean.\n• On the Korean disc, Circle confirms and Cross goes back in every menu, the game's own and the ones this port adds, as on the Japanese disc. The Korean disc always runs at 60 Hz, and its Options have no Video mode, Language or Circle goes back rows.\n• The Menu language row also offers Korean (한국어). On Auto it shows Korean with the Korean disc.\n• The Korean disc keeps its own game data, saves, texture packs and model packs, like the other discs. Packs for the Korean disc go in textures/SCPS-56001/replacements and models/SCPS-56001/replacements; a pack in textures/replacements or models/replacements shows on every disc. disc in the [game] part of config.toml now accepts kor as well as auto, pal and jpn.\n• Achievements, the music and model galleries, photo mode and the model viewer work with the Korean disc.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.8.1/ico-pc-v0.8.1-ios-unsigned.ipa",
+          "size": 6622858,
           "minOSVersion": "15.0"
         }
       ],
@@ -2796,11 +2798,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.12",
-          "date": "2026-10-19T06:21:41Z",
+          "version": "0.7.13",
+          "date": "2026-10-20T02:55:03Z",
           "localizedDescription": "The apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.12/Netfish-ios.ipa",
-          "size": 917500,
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.13/Netfish-ios.ipa",
+          "size": 920674,
           "minOSVersion": "16.0"
         }
       ],
@@ -3428,11 +3430,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.2",
-          "date": "2026-10-16T12:24:40Z",
-          "localizedDescription": "CyPort v1.2:\n\nRun your own copy of Cyberpunk 2077 for Mac natively on iPhone and iPad – no emulation, no streaming.\n\nNot affiliated with CD PROJEKT RED.\n\nThis release is about heat and frame times. On an iPhone the limit isn't raw speed, it's heat: the phone used to throttle within a minute or two of open-world play, and then the frame rate jumped around.\n\n❄️ Cool mode (always on):\n\n• The engine's 5 job worker threads ask for the highest thread priority, which kept them all on the A18 Pro's 2 performance cores next to the game and render threads – that is what made the phone hot so fast.\n• CyPort now runs 3 of them on the 4 efficiency cores, which do the same work for far less power. 2 stay on the performance cores, so the game thread doesn't wait on slow cores every frame (all 5 on the efficiency cores felt stuttery).\n• Tunable in macshim.plist: CoolFastWorkers (default 2), CoolMode = NO turns it off.\n\n🏙️ Steadier frame rate in the open world:\n\n• The engine streams the city in on the game thread, by default up to 12 ms and 300 objects per frame – desktop values. At 30 FPS a frame only has 33 ms, so on a phone that showed up as frame drops while driving.\n• CyPort now writes engine/config/platform/mac/user.ini at every start with 6 ms / 200 objects per frame: the work is spread over more frames. Things may appear a moment later.\n• StreamingTweaks = NO restores the engine defaults; StreamingMsPerFrame / StreamingNodesPerFrame set your own values. If you edit user.ini yourself, remove its first line and CyPort leaves it alone.\n\n🧹 Fewer hitches from CyPort itself:\n\n• The worker-thread profiler from v1.1 paused all job workers for 2 s every minute – a regular hitch. Now off by default (WorkerSampler = YES to turn on).\n• The log no longer forces a disk flush after every line (that blocked game threads). Crash reports are still written in full.\n• Periodic statistics lines are only logged with Diagnostics = YES.\n• With the performance overlay set to Off, its window is now removed completely, so iOS no longer has to composite it over the game.\n\n🛠️ Other:\n\n• The start screen marks the resolutions that make the phone hot quickly.\n• The log now shows how busy the GPU is (1 s sample every 30 s), to tell GPU heat from CPU heat. GPUSampler = NO turns it off.\n• Optional frame pacing for testing: FrameRate = 30 / 40 / 60 in macshim.plist. By default the frame rate is the game's own setting (Settings → Graphics → VSync / Maximum FPS).\n• CPUCount now also reports a matching number of performance cores.\n\nPerformance tips:\n\n• Resolution 1434 × 660 on the start screen – at 1912 × 880 an iPhone 16 Pro Max still throttles within about 1.5 minutes of driving.\n• Maximum FPS 30 in the game's graphics settings: a steady 30 looks smoother than a rate that jumps between 25 and 50, and the phone stays cool much longer.\n• Leave frame generation off.\n• A clip-on phone cooler helps more than any setting.\n\nUpgrading:\n\nRebuild the IPA with this version (./build.sh, see the README), then reinstall. Your game data, saves and settings stay in place.\n\nKnown issues:\n\n• The phone still throttles in long open-world sessions; expect ~20–30 FPS while driving once it's hot.\n• The streaming change and the 2-fast/3-efficient worker split are new and have only had short tests – please report pop-in or stutter.\n• The free Apple ID route (SideStore + GetMoreRam, compact memory layout) is still untested on a device.",
-          "downloadURL": "https://github.com/Thijs2004/CyPort/releases/download/v1.2/CyPort-unsigned.ipa",
-          "size": 62131590,
+          "version": "1.3",
+          "date": "2026-10-19T21:45:19Z",
+          "localizedDescription": "CyPort v1.3:\n\nRun your own copy of Cyberpunk 2077 for Mac natively on iPhone and iPad – no emulation, no streaming.\n\nNot affiliated with CD PROJEKT RED.\n\nThis release is about frame rate, smoothness and controllers.\n\n🖥️ 120 Hz:\n\n• iOS keeps a game's screen at 60 Hz unless the app asks for more, and the Mac game never asks. So VSync 40 showed as 30, and 120 / Off stopped at 60.\n• CyPort now switches the screen to 120 Hz whenever the game's frame cap needs it (VSync 40, 120 or Off), and back to normal for 30 / 60 to save battery. Menus now run at 120 FPS with VSync 120.\n\n🎞️ Smooth frame pacing (start screen, on by default):\n\n• When the phone can't keep up with the cap (e.g. VSync 120 but the phone manages 75), frames alternate between 17 and 25 ms – the FPS counter looks fine, but it feels choppy.\n• CyPort now holds the highest even rate the phone really keeps up with – 120, 60, 40 or 30 FPS, never above your in-game setting – and now and then tries the next step up. The FPS overlay shows actual/target.\n\n⚡ Low-latency input (start screen, off by default):\n\n• Controls react about a frame sooner: the game reads input only when at most one frame is still on the GPU.\n• The earlier version of this used 2 frame buffers, which halved the frame rate (120 → 60, 60 → 30). That is gone.\n\n🎮 Controller fixes:\n\n• Third-party controllers (EasySMX, 8BitDo, generic \"HID\" / MFi) are shown to the game as an Xbox controller – the game only knows Xbox, DualSense and DualShock 4, and often ignored others.\n• A controller that is already connected when the game starts now works right away (before, it did nothing at \"press space to continue\" until it was unplugged and plugged in again).\n• When a controller connects, the on-screen pad is withdrawn first, so the game always makes the real one active.\n• A Bluetooth controller that drops out for a second no longer brings the on-screen pad back.\n\nAlso:\n\n• TV out now shows the picture on the phone too, and the screen no longer dims while playing.\n• The start screen's switches can't be cut off any more.\n\nPerformance tips:\n\n• Resolution 1434 × 660 on the start screen.\n• VSync 40 for the open world: smooth on the 120 Hz screen and something the phone can hold. 60–120 for menus and short sessions – higher caps make the phone hot faster.\n• Leave frame generation off. A clip-on phone cooler helps more than any setting.\n\nUpgrading:\n\nRebuild the IPA with this version (./build.sh or Build CyPort.command, see the README), then reinstall. Your game data, saves and settings stay in place.\n\nKnown issues:\n\n• The phone still throttles in long open-world sessions; expect ~25–30 FPS while driving once it's hot.\n• Smooth frame pacing and low-latency input v2 are new and not yet tested in a full play session – please report stutter or wrong frame rates (the log says smooth pacing: / frame pacing: at each change).",
+          "downloadURL": "https://github.com/Thijs2004/CyPort/releases/download/v1.3/CyPort-unsigned.ipa",
+          "size": 62150666,
           "minOSVersion": "18.0"
         }
       ],
@@ -5034,11 +5036,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.18",
-          "date": "2026-10-14T16:51:39Z",
-          "localizedDescription": "• 标准版：WrapPin-Standard-1.0.18-build61-unsigned.ipa，供 SideStore 或其他自签方式使用。.\n• 隧道版：WrapPin-Tunnel-1.0.18-build61-unsigned.ipa，需要带 Packet Tunnel 权限的签名证书及描述文件。.\n\nSHA-256：.",
-          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.18/WrapPin-Standard-1.0.18-build61-unsigned.ipa",
-          "size": 4853475,
+          "version": "1.0.19",
+          "date": "2026-10-20T01:03:31Z",
+          "localizedDescription": "• 标准版：WrapPin-Standard-1.0.19-build63-unsigned.ipa，供 SideStore 或其他自签方式使用。.\n• 隧道版：WrapPin-Tunnel-1.0.19-build63-unsigned.ipa，需要带 Packet Tunnel 权限的签名证书及描述文件。.\n\nSHA-256：.",
+          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.19/WrapPin-Standard-1.0.19-build63-unsigned.ipa",
+          "size": 4910357,
           "minOSVersion": "27.0"
         }
       ],
@@ -5195,10 +5197,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-19T18:56:47Z",
-          "localizedDescription": "Immutable snapshot of alpha build 355 (8bad720).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 355, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-355/Non-Jailbroken.ipa",
-          "size": 97885140,
+          "date": "2026-10-19T23:36:14Z",
+          "localizedDescription": "Immutable snapshot of alpha build 356 (34a9570).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 356, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-356/Non-Jailbroken.ipa",
+          "size": 97894135,
           "minOSVersion": "17.0"
         }
       ],
@@ -5367,11 +5369,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.4",
-          "date": "2026-10-19T04:36:52Z",
-          "localizedDescription": "tangoAW2 0.8.4: Unranked rejoin after a crash, rules shown.\n\n• Unranked: if your app crashes (or is closed from the app switcher) during an Unranked match you can go back into it. Reopen tangoAW2 within 60 seconds: the ONLINE screen says \"Your Unranked match is still on. Rejoin?\" with A: Rejoin and B: Give up. A drops you back into the running match in the same seat, from the state your opponent's console holds (they wait for you behind the reconnect box; their screen goes back less than a second). B gives the match up at once: your army yields.\n• If you do not come back within 60 seconds your army yields and your opponent gets VICTORY, with STATS recorded. This works when either player drops, including the host: with only two players there is no one to hand the host's job to, so the player who stayed carries the match on alone, the leaver's army yields, and the match ends with VICTORY for the one still there (\"Your opponent left. The match is over.\"). The yield is played when the leaver's turn comes: if it is the winner's own turn, ending it brings VICTORY.\n• Reopening the app after the 60 seconds says once on the LOBBY menu: \"Your Unranked match ended: your army yielded.\" An Unranked match is never saved for RESUME.\n• The reconnect box of an Unranked match says \"If they do not return, their army yields and you win.\".\n• Unranked shows its rules: after SELECT YOUR ARMY the Rules page stays up for 3 seconds with the standard settings (fog off, clear weather, funds 1000, no turn or capture limit, powers on, visuals off) and a plate \"Unranked rules - Starting in N\", instead of flashing past. Nothing to set: Unranked rules are fixed.\n• Lobby rooms: on the Rules page the host sets the rules and goes on with A; guests see the same page read-only with a plate \" is setting the rules\". (Checked: a lobby's Rules page is never skipped on its own.).\n• The map name plate no longer stays over the Unranked results screens.\n• Fixed: a match resumed from a saved state could hang at \"Their game is still starting up\" when the guest was ready before the host had handed the link to the match (the guest's READY was read and thrown away).\n• Online peers must all run 0.8.4 (the simulation version changed: the Rules page timing).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.4/tangoaw2-ios.ipa",
-          "size": 31927404,
+          "version": "0.8.5",
+          "date": "2026-10-19T23:07:46Z",
+          "localizedDescription": "tangoAW2 0.8.5: private map picks, room names, refresh, rejoin a lobby match.\n\n• Map picks are private and simultaneous. Everyone picks at the same time, each on a SELECT MAP of their own: nobody sees another player's cursor, tab or pick any more, which is what makes the roulette a surprise. The picture shows a plate \"Pick a map: press A\" or \"Waiting for .\", \"Picks: 2 of 4\" and the clock (2:00, as before: when it runs out the map under your cursor is your pick); once you have picked, your list turns into the room's gamertags with a tick for each player who has (never which map). When everyone has picked, the roulette is exactly as before (????? per gamertag, the reveal, the 9 s hold). Unranked picks the same way.\n• Room names. CREATE now asks for a room name first, on the same QWERTY page (up to 12 characters; nothing typed is \"'s room\"), then the password as before. The name is listed in the lobby browser (name, players, padlock), in the room's heading and on the rejoin box. Older announcements without a name are listed by their host's gamertag.\n• Spaces. Gamertags and room names may contain spaces: a SPACE bar sits between Del and OK on those pages (and the keyboard's space bar works). Spaces are kept one at a time and never at the start or end. Room codes and passwords have no space bar.\n• Refresh. R in the lobby browser (LOBBY \u003e JOIN) looks at the relays again: \"Refreshing.\", then \"Updated\". At most one new look every 5 seconds: pressing R sooner shows the note and reuses the look already under way, so the relays see no extra load.\n• Rejoin a lobby match. Lobby matches now have the way back that Unranked got in 0.8.4, for guests and for the host, in rooms of 2 to 5. Close or lose the app during a match and reopen it within 60 seconds: \"Your match in is still on. Rejoin? A: Rejoin B: Give up START: Later\". The players who stayed wait behind the reconnect box, one of them makes the room for you from the state their consoles hold, and the match goes on from the same state in the same seat (state hashes equal). START: Later puts the box off and keeps \" - In progress\" at the top of the JOIN list, where A rejoins. B gives up: your army yields at once. After the 60 seconds the LOBBY menu says once: \"Your match in ended: your army yielded.\" Running matches are never listed to other players (there is no joining or watching one). One player is waited for at a time; with another seat already gone from the room the window simply ends in the yield.\n• Fixed: a player who dropped from a lobby match never had their army yielded while the other player was in their own turn: the yield only happened when the dropped player's turn came, so the match hung for as long as the player who stayed left their turn open (a 2-player lobby, the host staying, was the case reported). The army is now yielded the moment the 60 seconds are over, whoever's turn it is, and when that leaves one side the console ends the last army's turn by itself: VICTORY and the record follow at once, with the lobby message. (This is the same path for lobby matches and Unranked.).\n• Fixed: a 2-player lobby match whose host dropped was saved for RESUME instead of ending: the player who stayed now plays on alone like in Unranked (the host's army yields, VICTORY, no save).\n• Fixed: the CO SWAP of Dual Strike tag pairs (Change on the map menu) and the Tag Power's full-screen scenes did not show on the other players' windows; they now do, fog on or off, and the hand-off to the next player after a Change appears on their window too (it stayed on the old picture, so the next player could not press A).\n\n• Online peers must all run 0.8.5 (the simulation version changed: map picks and yields).\n• Limits: with a seat that left the room earlier in the match nobody can rejoin it (it could not be seated as it was); the yield still happens after the 60 seconds.",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.5/tangoaw2-0.8.5-ios.ipa",
+          "size": 31947764,
           "minOSVersion": "16.0"
         }
       ],
@@ -5963,10 +5965,10 @@
       "versions": [
         {
           "version": "10.0.3",
-          "date": "2026-10-19T13:05:10Z",
-          "localizedDescription": "Bug Fixes:\n\n• Fixed iOS tunnel memory logger that was excessively writing logs every second when device memory was constrained.\n\nImprovements:\n\nThis is a beta release from commit 024837b.\n\nBranch: v10.0.3-beta-8.\n\n• iOS: Uploaded to TestFlight.",
-          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-8/lantern-installer-beta.ipa",
-          "size": 91161799,
+          "date": "2026-10-20T01:23:04Z",
+          "localizedDescription": "Action Mode Improvements:\n\n• Enhanced Action Mode to display relayed data statistics for direct sharing.\n• Added sharing mode naming and improved country count reporting for direct-mode connections.\n\nBug Fixes:\n\n• Fixed stale network resets that occurred after reconnecting on macOS.\n\n• Prevented tunnel self-dial loops by rejecting TUN flows addressed to the tunnel's own subnet.\n\nCore Infrastructure Updates:\n\n• Improved peer connection handling with enhanced relay session tracking and epoch management.\n• Refined relay tally pruning and connection lifecycle management.\n• Enhanced connection context passing through multiplex sessions for better diagnostics.\n• Updated radiance and sing-box-minimal dependencies with relay improvements and session handling enhancements.\n\nThis is a beta release from commit 3f49a57.\n\nBranch: v10.0.3-beta-9.\n\n• iOS: Uploaded to TestFlight.",
+          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-9/lantern-installer-beta.ipa",
+          "size": 91190466,
           "minOSVersion": "15.6"
         }
       ],
@@ -6061,11 +6063,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.3",
-          "date": "2026-10-11T22:31:37Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/CaramelKat/Tanukis-Stash/releases/download/v0.4.3/Tanukis-Stash-unsigned.ipa",
-          "size": 3464532,
+          "version": "0.4.5",
+          "date": "2026-10-20T01:50:39Z",
+          "localizedDescription": "• Tanuki's Stash ver. 0.4.5.",
+          "downloadURL": "https://github.com/CaramelKat/Tanukis-Stash/releases/download/v0.4.5/Tanukis-Stash-unsigned.ipa",
+          "size": 3712116,
           "minOSVersion": "17.0"
         }
       ],
@@ -7030,11 +7032,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.41",
-          "date": "2026-10-19T07:33:23Z",
+          "version": "0.8.43",
+          "date": "2026-10-20T00:10:28Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.41/Gen2Recomped-0.8.41-ios.ipa",
-          "size": 31106202,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.43/Gen2Recomped-0.8.43-ios.ipa",
+          "size": 31135270,
           "minOSVersion": "14.0"
         }
       ],
@@ -7328,9 +7330,9 @@
         {
           "version": "1.4.2",
           "date": "2026-10-19T20:06:05Z",
-          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Bring back the reader settings menu and hold the chrome while it is open.\n• Drop two dashes from new comments and fix the German page suggestion.\n• Search bookmarks by their own story and group them by story.\n• Assign a bookmark to a story from the reader.\n• Suggest a story for a bookmark and allow naming stories by hand.\n• Let the comic detail labels grow with Dynamic Type.\n• Name the settings sliders for VoiceOver.\n• Drop the dashes from the comic folder error messages.\n• Stop caching paper render intermediates.\n• Keep a finished cover decode when its cell has scrolled away.\n• Write a new bookmark's thumbnail off the main actor.\n• Size page grid thumbnails to their cells and decode them off the main thread.\n• Hold the reader chrome while the reader settings are open.\n• Show a placeholder for a page that won't decode.\n• Swap in the new paper render without blanking the page.\n• Skip page renders for cells that have moved on.\n• Stop a lone page from shrinking when it is zoomed in double page mode.\n• Spend the tap that dismisses a Live Text selection in landscape.\n• Analyse Live Text only for landscape pages that stay and can be selected.\n• Re-fit the portrait strip when only its width changes.\n• Keep the resume page when a bookmark is only looked at.\n• Let VoiceOver turn pages and keep the reader controls in reach.\n• Show the cache size beside Clear Cache.\n• Say what a folder scan did, and keep deleted folder comics out of it.\n• Give list rows the same menu as gallery covers.\n• Follow the replacement file's page count after Choose Another File.\n• Give the resolve dialog a single file importer.\n• Run one import at a time.\n• Keep the ComicInfo fields read before a malformed spot.\n• Keep a comic's metadata when Re-read Metadata can't open it.\n\n• Limit Select All and batch actions to the comics on screen.\n• Show a spinner while a backup imports instead of a bar stuck at zero.\n• Create the storage directories once instead of on every URL.\n\n• Copy an imported comic through a temp file.\n• Restore two backup comics that share a title and page count as two.\n• Refuse a backup whose file names reach outside their folder.\n• Tell a full disk from the wrong file when importing a backup.\n• Fail a backup export that can't pack a file instead of shipping it short.\n• Never delete the library store when it fails to open.",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Show a comic's bookmarks in one grid again, with the story under each page.\n• Bring back the reader settings menu and hold the chrome while it is open.\n• Drop two dashes from new comments and fix the German page suggestion.\n• Search bookmarks by their own story and group them by story.\n• Assign a bookmark to a story from the reader.\n• Suggest a story for a bookmark and allow naming stories by hand.\n• Let the comic detail labels grow with Dynamic Type.\n• Name the settings sliders for VoiceOver.\n• Drop the dashes from the comic folder error messages.\n• Stop caching paper render intermediates.\n• Keep a finished cover decode when its cell has scrolled away.\n• Write a new bookmark's thumbnail off the main actor.\n• Size page grid thumbnails to their cells and decode them off the main thread.\n• Hold the reader chrome while the reader settings are open.\n• Show a placeholder for a page that won't decode.\n• Swap in the new paper render without blanking the page.\n• Skip page renders for cells that have moved on.\n• Stop a lone page from shrinking when it is zoomed in double page mode.\n• Spend the tap that dismisses a Live Text selection in landscape.\n• Analyse Live Text only for landscape pages that stay and can be selected.\n• Re-fit the portrait strip when only its width changes.\n• Keep the resume page when a bookmark is only looked at.\n• Let VoiceOver turn pages and keep the reader controls in reach.\n• Show the cache size beside Clear Cache.\n• Say what a folder scan did, and keep deleted folder comics out of it.\n• Give list rows the same menu as gallery covers.\n• Follow the replacement file's page count after Choose Another File.\n• Give the resolve dialog a single file importer.\n• Run one import at a time.\n• Keep the ComicInfo fields read before a malformed spot.\n• Keep a comic's metadata when Re-read Metadata can't open it.\n\n• Limit Select All and batch actions to the comics on screen.\n• Show a spinner while a backup imports instead of a bar stuck at zero.\n• Create the storage directories once instead of on every URL.\n\n• Copy an imported comic through a temp file.\n• Restore two backup comics that share a title and page count as two.\n• Refuse a backup whose file names reach outside their folder.\n• Tell a full disk from the wrong file when importing a backup.\n• Fail a backup export that can't pack a file instead of shipping it short.\n• Never delete the library store when it fails to open.",
           "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.2/PaperComicReader-1.4.2.ipa",
-          "size": 6246834,
+          "size": 6241164,
           "minOSVersion": "26.0"
         }
       ],
@@ -7870,11 +7872,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.14.0",
-          "date": "2026-10-19T11:18:34Z",
-          "localizedDescription": "Changes since v2.13.0:\n\n• The back of a turning page no longer shows the front through it.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/v2.14.0/Pageturner.ipa",
-          "size": 28952632,
+          "version": "2.15.0",
+          "date": "2026-10-19T21:22:16Z",
+          "localizedDescription": "Changes since v2.14.0:\n\n• Pull catalogue facts from BookMaster's shelf rows and push them up.\n• Read-aloud follows the page it is really on: word ranges index the page's text again.\n• Read-aloud: survive a call, say headings and notes right, stop hanging words.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/v2.15.0/Pageturner.ipa",
+          "size": 28968418,
           "minOSVersion": "17.0"
         }
       ],
@@ -7960,7 +7962,7 @@
       "bundleIdentifier": "org.d2rmobile.app",
       "developerName": "d2r-mobile",
       "subtitle": "Play Diablo II: Resurrected offline on iPhone, iPad and Apple silicon Mac",
-      "localizedDescription": "English and Chinese:\n\nSwitch the whole game between English and Chinese under Options → Custom; after a restart, the interface and the voice acting use the language you chose. In English, items, skills and monsters keep the original Diablo II wording, and everything we added (Greater Rift, Chronicle, the settings page, controller prompts) has English text too.\n\nHow it works:\n\nTests ship with the code. The project includes unit tests for the host and graphics layers, an equivalence check for every rewritten instruction, scripted walkthrough regression for the touch interface, and on-device smoke tests. Start with make -C dm/host/tests run, make -C dm/gfx/tests run and dm/verify/regress.sh (run them inside the Python environment from step 2 below; regress.sh also needs brew install llvm). CONTRIBUTING.md covers how to send changes.",
+      "localizedDescription": "English, Chinese and Spanish:\n\nThe whole game switches between English, Chinese and Spanish under Options → Custom; after a restart, the interface is in the language you chose. On first launch it follows your device language (Spanish from Spain uses the game's esES text, other Spanish regions use the Latin American esMX text). In English and Spanish, items, skills and monsters use the original Diablo II wording, and everything we added — Greater Rift, Chronicle, the settings page, controller prompts, item notes in Spanish — is translated too. Voice acting is Chinese for Chinese and English otherwise: the package only carries those two voice languages.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.d2rmobile.app.png",
       "tintColor": "#b84d28",
       "category": "games",
@@ -8594,11 +8596,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.5.1",
-          "date": "2026-10-19T20:22:18Z",
-          "localizedDescription": "Arc TV 2.5.1 for iPhone:\n\n• No more subtitle disclaimer. The \"External subtitles are not sent to AirPlay\" message is gone.\n• The Experimental subtitles switch turns on at once. A key you typed but did not save is saved for you; with no key the switch tells you so instead of springing back.\n\nSHA-256 bc810600e7100cd57218e6cbdafc66bcdb4b1e21ab9e38436acc86165753d926.",
-          "downloadURL": "https://github.com/divyegoswami/arc-tv-releases/releases/download/ios-2.5.1/arc-tv-ios-2.5.1.ipa",
-          "size": 3342447,
+          "version": "2.5.2",
+          "date": "2026-10-19T20:44:02Z",
+          "localizedDescription": "Arc TV 2.5.2 for iPhone:\n\n• No more \"English subtitles added\" message. Picking a subtitle no longer puts a message over the picture. VoiceOver still announces it.\n\nSHA-256 f3494b6763c6b14297eaab5c22ac76c33b7feff923fab31b455c8d8ad8d38175.",
+          "downloadURL": "https://github.com/divyegoswami/arc-tv-releases/releases/download/ios-2.5.2/arc-tv-ios-2.5.2.ipa",
+          "size": 3341192,
           "minOSVersion": "18.0"
         }
       ],
@@ -9383,11 +9385,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.3.0",
-          "date": "2026-10-09T11:26:48Z",
-          "localizedDescription": "NuggetVPN 2.3.0:\n\nA big one: a guided first start, a new home screen, iOS, updates that install themselves, a rebuilt Activity tab, and a lot of speed where it counts — connecting, the first seconds after it, and how much the app costs while it sits there.\n\nWindows (PowerShell).\n\nmacOS / Linux.\n\nBoth check the download against GitHub's SHA-256 before installing, and running them again updates. Or pick a file from the assets below.\n\nNew:\n\n• First start is a setup, not a sync-server form: language, a look (theme and where the navigation sits), your subscription, and the few settings worth deciding up front — launch at login, auto-connect, the kill switch. Every step but the first can be skipped, and Settings can run it again.\n• New home screen built around the connect button: what it will do, in words; the configuration and the server as one strip; live speed, latency and your public IP only while connected.\n• Updates install themselves. Windows runs the installer silently (one UAC prompt) and reopens the app; macOS swaps the app in place, safely, and relaunches.\n• Silent installer for Windows (…-silent-installer.exe): no pages, no questions.\n• Server flags, read from server names however providers write them (flag emoji, country or city in English, Russian or Ukrainian, ISO code). Bundled with the app — nothing fetched from the internet.\n• Servers a core can't run are marked (\"needs another core\") and can't be picked by mistake; settings a core ignores are locked with a note saying so.\n• Subscription announcements: a message from your provider shows on the home screen, with their link, and can be folded or dismissed until they say something new.\n• Activity tab: Statistics, Connections and Logs in one place.\n\n• Connections grouped by app: how many each has open, through which server, by which rule, received and sent with the speed right now. An app opens on its sites. System programs fold into one \"System\" group, which opens on its programs.\n• Statistics by app, with a day chart named by weekday or date, a legend, and a choice of charts in Appearance.\n• Program icons on macOS and Windows.\n\n• Routing: pick apps from a list on macOS, Windows and Linux (it was Android only), including programs running right now, so portable apps are there too. Typing a process name still works.\n• Routing: undo/redo on any keyboard layout (Ctrl+Z on a Russian layout works now), and Delete removes the selection.\n\n• Accent colour of your own over any theme, with a colour picker.\n• Exact corner radius, animation speed (0.25×–3×) and the delay between parts of a page.\n• An inset sidebar style.\n• Custom themes can start from any built-in theme.\n• Units: speed in bytes or bits per second, data in auto or fixed KB / MB / GB.\n\n• New setting, Connection → \"Try other servers if one fails\" (on by default).\n• Double-click a header to maximise or restore the window, like a native title bar.\n\n• Every notification can be closed.\n\nFaster and lighter:\n\n• Connecting with Automatic is much quicker: servers are ranked within 1.5 s instead of waiting out every unreachable one (50 dead servers took 16 s; now 1.5 s).\n\n• Idle while connected: 2–3 % CPU instead of 20–29 %. Animations play when something happens and then rest.\n• Nothing polls while the window is hidden in the tray.\n• Memory is handed back after connecting and refreshing subscriptions instead of staying in the app's footprint for minutes.\n\nFixed:\n\n• A failure that is your computer's, not the server's — the TUN adapter on Windows (\"The system cannot find the file specified\"), a port in use, permissions — stops at once with an explanation, instead of being tried on every server and blamed on them.\n• iOS reports the tunnel's real state, and a tunnel that drops is noticed; the tunnel's MTU and addresses match the config, so large packets aren't lost.\n• \"Update\" and other links open in your browser on Android and iOS, instead of replacing the app's own screen.\n• Windows: local socket paths with a drive letter are no longer mistaken for network addresses.\n\n• Statistics: switching period no longer blinks or shows the previous period's numbers; the page uses the window's full width.\n• Connections: rows no longer jump or re-animate every second; received and sent line up.\n• Routing: a block fills its frame while it's being resized.\n• Settings rows no longer run off the edge in a narrow window; the top bar's tabs no longer shift.\n\nRemoved:\n\n• Importing from Beam.\n\nUnder the hood:\n\n• Wails v3.0.0-beta.28.\n\nPsst. Type PROLIANT, then ↑ ↓. Turn your volume up first.",
-          "downloadURL": "https://github.com/Rigby-Foundation/NuggetVPN/releases/download/v2.3.0/NuggetVPN-v2.3.0-ios-unsigned.ipa",
-          "size": 108014774,
+          "version": "2.3.1",
+          "date": "2026-10-19T21:55:38Z",
+          "localizedDescription": "See the assets to download this version and install.",
+          "downloadURL": "https://github.com/Rigby-Foundation/NuggetVPN/releases/download/v2.3.1/NuggetVPN-v2.3.1-ios-unsigned.ipa",
+          "size": 108056034,
           "minOSVersion": "15.0"
         }
       ],
@@ -10735,11 +10737,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.0",
-          "date": "2026-10-12T19:27:21Z",
-          "localizedDescription": "Based on MuffinEMU by Void.",
-          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.0/EspressU-1.0.ipa",
-          "size": 36685110,
+          "version": "1.1",
+          "date": "2026-10-19T22:56:01Z",
+          "localizedDescription": "EspressU v1.1:\n\nA big update for iPhone, plus second-screen support and fixes.\n\niPhone:\n\n• New game library: two-column grid with a \"Continue playing\" card for your last game. Long-press a game for favourite and options.\n• Pull down to search. The keyboard opens right away; Cancel or a tap elsewhere closes it.\n• The in-game top bar hides itself. Swipe down from the top edge to bring it back.\n• Settings are a compact list that fits a phone screen.\n• iPad keeps its current layout.\n\nSecond screen:\n\n• External display support is on by default. The TV screen goes to the external display and your device works as the Wii U GamePad.\n• Pause and the FPS counter stay on your device.\n• On older iOS versions, AirPlay may still only mirror your screen.\n\nFixes and improvements:\n\n• Graphic pack options no longer close the game settings menu.\n• Vulkan: fewer GPU errors on Apple GPUs and no memory spikes when scenes load.\n• Fixed a crash when starting a game without JIT.\n• Zone is now the default control style for new players.\n• Better logging when the built-in JIT check fails.\n\nBased on MuffinEMU by Void.\n\n• Vulkan on iOS: fix GPU page faults and a memory spike (from MuffinEMU 10.1 and 10.2).\n• About screen: credit MuffinEMU in the app.\n• Make Zone the default control style for new players.\n• Fix the crash when launching a game without JIT (SIGTRAP in BreakGetJITMapping).\n• Log the reason when the built-in JIT preflight fails.\n• Improve iPhone UI, add AirPlay GamePad mode, fix graphic pack settings.\n\nNew Contributors:\n\n• @MuffinEMU made their first contribution.\n• @EspressU made their first contribution.",
+          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.1/EspressU-1.1.ipa",
+          "size": 36753445,
           "minOSVersion": "15.0"
         }
       ],
@@ -11645,7 +11647,7 @@
           "date": "2026-10-13T16:23:53Z",
           "localizedDescription": "Unsigned IPA: sign and install with Sideloadly or AltStore (see INSTALL-IOS.md). Not tested on a device yet. Includes the new icon and the final-killcam fix.",
           "downloadURL": "https://github.com/jesaias1/IW4LJ/releases/download/ios-v0.2.0/IW4LJ.ipa",
-          "size": 39126882,
+          "size": 39133342,
           "minOSVersion": "16.0"
         }
       ],
@@ -12191,11 +12193,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.6",
-          "date": "2026-10-18T17:46:28Z",
-          "localizedDescription": "• Fix: bug report 44c37397.\n• Fix: bug report 23f941a5.\n• Fix start-lead learning near zero without accepting seek outliers.\n• Own fonts: pick a face, not a family.\n• Syllables of one word: no gaps while they are still unsung.\n• Lyrics on time when fps drops, translations through our server with a shared cache, words of 3+ syllables grow as one.\n• Player choice: Auto (default), Spotify or Apple Music.\n• Star on GitHub row in Settings.\n• README: credit ONDA ANDAR on the player clip and banner.\n• README: show iPad and TV.\n• README: sharper iPad clip, iPad and TV side by side.\n• TV settings on the phone, Early Scroll, no full stops in translations.",
-          "downloadURL": "https://github.com/Sppqq/sweet-lyrics-ios/releases/download/v0.6.6/SpicyLyrics-0.6.6-unsigned.ipa",
-          "size": 2802105,
+          "version": "0.6.7",
+          "date": "2026-10-19T21:16:30Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Sppqq/sweet-lyrics-ios/releases/download/v0.6.7/SpicyLyrics-0.6.7-unsigned.ipa",
+          "size": 2979670,
           "minOSVersion": "17.0"
         }
       ],
@@ -12796,7 +12798,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-19T12:12:59Z",
+          "date": "2026-10-20T01:07:10Z",
           "localizedDescription": "This is a Hello-World iOS app. It exists only to prove the build-and-package pipeline works end to end on a free macOS runner. The game itself is in the latest-ipa release.",
           "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/pipeline-check/RoRNative.ipa",
           "size": 18616,
@@ -12806,57 +12808,6 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      }
-    },
-    {
-      "name": "Discord",
-      "bundleIdentifier": "com.hammerandchisel.discord.testflight",
-      "developerName": "unbound-app",
-      "subtitle": "🍎 Theos tweak that bridges Unbound into Discord's native layer to power addon management on iOS",
-      "localizedDescription": "Jailbroken:\n\n• Either add the apt repo to your package manager:.\n\nJailed:\n\nTrying to use non-ellekit tweak runtimes will likely break functionality. Ideally always use the pre-patched ipa when sideloading.\n\n• Either add the altsource to your on-device sideloading tool:.\n\nLive reload (HMR):\n\nWhen working on the JavaScript client you can have the app reload automatically whenever you rebuild the bundle, instead of relaunching by hand.\n\n• Run the client's dev server (bun scripts/dev in the client repo). It serves the bundle and a Server-Sent Events stream at /__hot.\n• In Unbound's settings, set:.\n\n• loader.update.url to your dev server's bundle URL, e.g. http://:3000/unbound.bundle\n• loader.update.hmr to true.\n\nloader.update.hmr is off by default, so this never runs for normal users. The HMR endpoint is derived from loader.update.url's origin — no separate setting needed.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.hammerandchisel.discord.testflight.png",
-      "tintColor": "#7c86f8",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "352.0",
-          "date": "2026-10-19T18:12:59Z",
-          "localizedDescription": "• chore(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2[bot].",
-          "downloadURL": "https://github.com/unbound-app/loader-ios/releases/download/v352.0_116047/Unbound.ipa",
-          "size": 99974412,
-          "minOSVersion": "18.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "application-identifier",
-          "aps-environment",
-          "beta-reports-active",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.avfoundation.multitasking-camera-access",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.devicecheck.appattest-environment",
-          "com.apple.developer.networking.carrier-constrained.appcategory",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.team-identifier",
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.security.application-groups",
-          "get-task-allow"
-        ],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
-          "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
-          "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
-          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
-          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
-          "NSLocationAlwaysUsageDescription": "To enable services that require location",
-          "NSLocationWhenInUseUsageDescription": "To enable services that require location",
-          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
-          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
-          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
-          "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
-        }
       }
     },
     {
@@ -12905,6 +12856,55 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "Unbound",
+      "bundleIdentifier": "com.hammerandchisel.discord",
+      "developerName": "unbound-app",
+      "subtitle": "🍎 Theos tweak that bridges Unbound into Discord's native layer to power addon management on iOS",
+      "localizedDescription": "Jailbroken:\n\n• Either add the apt repo to your package manager:.\n\nJailed:\n\nTrying to use non-ellekit tweak runtimes will likely break functionality. Ideally always use the pre-patched ipa when sideloading.\n\n• Either add the altsource to your on-device sideloading tool:.\n\nLive reload (HMR):\n\nWhen working on the JavaScript client you can have the app reload automatically whenever you rebuild the bundle, instead of relaunching by hand.\n\n• Run the client's dev server (bun scripts/dev in the client repo). It serves the bundle and a Server-Sent Events stream at /__hot.\n• In Unbound's settings, set:.\n\n• loader.update.url to your dev server's bundle URL, e.g. http://:3000/unbound.bundle\n• loader.update.hmr to true.\n\nloader.update.hmr is off by default, so this never runs for normal users. The HMR endpoint is derived from loader.update.url's origin — no separate setting needed.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.hammerandchisel.discord.png",
+      "tintColor": "#7c86f8",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "350.0",
+          "date": "2026-10-19T23:11:31Z",
+          "localizedDescription": "• chore(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2[bot].",
+          "downloadURL": "https://github.com/unbound-app/loader-ios/releases/download/v350.0/Unbound.ipa",
+          "size": 99565439,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.networking.carrier-constrained.appcategory",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
+          "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
+          "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
+          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+          "NSLocationAlwaysUsageDescription": "To enable services that require location",
+          "NSLocationWhenInUseUsageDescription": "To enable services that require location",
+          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
+          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
+          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
+          "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
+        }
       }
     }
   ]
