@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "io.github.ror.ios",
-    "com.getdieter.ios"
+    "com.jumatt.jsrf-unleashed",
+    "com.endless728.miremote",
+    "com.starfox.enhanced"
   ],
   "apps": [
     {
@@ -417,18 +417,18 @@
       "name": "Rosebed",
       "bundleIdentifier": "io.github.mdmrk.rosebed",
       "developerName": "mdmrk",
-      "subtitle": "Minecraft Beta 1.7.3 rewritten from scratch in Zig, with SDL3 and OpenGL 3",
+      "subtitle": "Minecraft Beta 1.7.3 rewritten from scratch in Zig",
       "localizedDescription": "Rosebed:\n\nMinecraft Beta 1.7.3 rewritten from scratch in Zig, with a client and a dedicated server. The goal is to match the original: same behavior, same worlds from the same seed, and multiplayer that works with it.\n\nIndex:\n\n• Extras not in b1.7.3.\n\nPlay:\n\nPlay in the browser.\n\nExtras not in b1.7.3:\n\n• A fullscreen option in Video Settings (vanilla only has F11).\n• Touch controls and auto-jump on Android and iOS.\n\nOther commands:\n\nDebug builds (plain zig build) may be too slow to play.\n\nWeb:\n\nThe site ends up in zig-out/www.\n\nAndroid:\n\nIf ANDROID_NDK_HOME and ANDROID_HOME are set, you can leave out the two -D options.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.mdmrk.rosebed.png",
       "tintColor": "#6156e2",
       "category": "games",
       "versions": [
         {
-          "version": "1.5",
-          "date": "2026-09-15T10:26:40Z",
-          "localizedDescription": "Added:\n\n• D-pad movement scheme for touch, picked in the options and saved as touchScheme.\n\n• Memory readout in the debug overlay on FreeBSD and iOS.\n\nFixed:\n\n• Touch buttons rescaled to 32x32, which mangled every glyph. They sit at their native 22x22 now and scale by whole multiples of it.\n• The inventory and pause touch buttons rendering as blank plates.\n• The touch layout, rebuilt to match Bedrock's: utility strip centred at the top, jump, sneak and interact down the right edge, sneak in the middle of the D-pad.\n• The Linux memory readout assuming a 4 KiB page size.",
-          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.5/rosebed-aarch64-ios.ipa",
-          "size": 4393971,
+          "version": "1.6",
+          "date": "2026-10-20T10:20:28Z",
+          "localizedDescription": "Changed:\n\n• Updated to Zig 0.17.0.\n• SDL updated to 3.4.18.\n\nFixed:\n\n• Nightly builds only run when something changed.",
+          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.6/rosebed-aarch64-ios.ipa",
+          "size": 4423309,
           "minOSVersion": "15.0"
         }
       ],
@@ -1865,20 +1865,20 @@
       "bundleIdentifier": "com.endless728.miremote",
       "developerName": "EndLess728",
       "subtitle": "Mi TV remote for macOS, Android and iOS: control Xiaomi TVs over Wi-Fi. MiLink protocol reverse engineered with REA",
-      "localizedDescription": "Mi TV Remote:\n\nRemote control apps for Xiaomi Mi TV (Android TV / PatchWall) on macOS, Android and iOS. They control the TV over Wi-Fi with no pairing and no ADB, using the TV's built-in MiLink remote service.\n\nThat service's protocol isn't documented, so it was reverse engineered with REA (Reverse Engineer Anything) from the TV's own firmware (see How it was reverse engineered).\n\nThe macOS app opened from the menu bar (left) and the TV screen, recorded at the same time over ADB (right). Watch the MP4.\n\nNot affiliated with or endorsed by Xiaomi. \"Mi\" and \"Xiaomi\" are trademarks of their respective owners.\n\nApps:\n\nThe iOS app (left: remote and TV picker) and the Android app (right), in the simulator and emulator, connected to a mock MiLink TV.",
+      "localizedDescription": "Mi TV Remote:\n\nRemote control apps for Xiaomi Mi TV (Android TV / PatchWall) on macOS, Android and iOS. They control the TV over Wi-Fi with no ADB, using a remote service built into the TV: Xiaomi's MiLink, with no pairing needed, or, on models without it, Google's Android TV remote service after a one-time pairing code.\n\nMiLink's protocol isn't documented, so it was reverse engineered with REA (Reverse Engineer Anything) from the TV's own firmware (see How it was reverse engineered).\n\nThe macOS app opened from the menu bar (left) and the TV screen, recorded at the same time over ADB (right). Watch the MP4.\n\nNot affiliated with or endorsed by Xiaomi. \"Mi\" and \"Xiaomi\" are trademarks of their respective owners.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.endless728.miremote.png",
       "tintColor": "#fc750f",
-      "category": "games",
+      "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/EndLess728/MiTV-Remote@main/docs/mobile.png"
       ],
       "versions": [
         {
-          "version": "1.1.1",
-          "date": "2026-10-15T02:33:56Z",
-          "localizedDescription": "First launch:\n\n• macOS: the app is not notarized. Open it once, then go to System Settings → Privacy \u0026 Security and click Open Anyway.\n• All platforms: allow Local Network access when asked; the app needs it to find and reach the TV.\n• iPhone: apps sideloaded with a free Apple ID expire after 7 days; refresh them in AltStore/SideStore, or reinstall.\n\nSee the README for step-by-step instructions.\n\nChanges:\n\n• fix: commit the MiLink native module sources (c36d769).",
-          "downloadURL": "https://github.com/EndLess728/MiTV-Remote/releases/download/v1.1.1/Mi-Remote-1.1.1-ios-unsigned.ipa",
-          "size": 11693202,
+          "version": "2.0.0",
+          "date": "2026-10-20T14:36:27Z",
+          "localizedDescription": "First launch:\n\n• macOS: the app is not notarized. Open it once, then go to System Settings → Privacy \u0026 Security and click Open Anyway.\n• macOS, after updating: if the app asks to use its key in your keychain, click Always Allow. That key is what the TV paired with.\n• All platforms: allow Local Network access when asked; the app needs it to find and reach the TV.\n• Mi TVs without MiLink (newer Android TV / Google TV models): the apps connect through the Android TV remote service instead. The first time, the TV shows a 6-character code; type it into the app.\n• iPhone: apps sideloaded with a free Apple ID expire after 7 days; refresh them in AltStore/SideStore, or reinstall.\n\nSee the README for step-by-step instructions.",
+          "downloadURL": "https://github.com/EndLess728/MiTV-Remote/releases/download/v2.0.0/Mi-Remote-2.0.0-ios-unsigned.ipa",
+          "size": 11728680,
           "minOSVersion": "16.4"
         }
       ],
@@ -2655,7 +2655,7 @@
       "bundleIdentifier": "org.floeagent.ios",
       "developerName": "JiangNanGenius",
       "subtitle": "Your models. Your files. Your machines",
-      "localizedDescription": "Get started:\n\nFor your first task: install → connect a model → create a task → open the result. Core Notes, file organization and Canvas work without an AI provider; AI features use your configured provider or a local model supported by your device.\n\nFeatures:\n\nModel requests go directly to your chosen provider; credentials stay in the device keychain. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.",
+      "localizedDescription": "Features:\n\nThe table below walks through the iOS app. The Android alpha currently supports basic cloud chat with your own provider key, plus configuration and history restore; it will grow toward iOS parity over time, alongside Android-specific features.\n\nModel requests go directly to your chosen provider; credentials stay in the device keychain. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha covers the basics described above.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
       "tintColor": "#3665ed",
       "category": "other",
@@ -4341,11 +4341,11 @@
       ],
       "versions": [
         {
-          "version": "3.20.0",
-          "date": "2026-10-19T19:47:38Z",
-          "localizedDescription": "• The agent can now search gitignored files. grep and glob include gitignored files such as build output, local notes, logs and plans, ranked after your source. Large ignored folders like target/ or dist/ are skipped unless you search them by name, and .env secrets stay excluded.\n• Ignore rules now match git. Nested .gitignore files, the .gitignore files in parent folders when you search a subfolder, .git/info/exclude and your global excludes all apply, so the agent treats the same files as ignored that the file panel does.\n• Live file panel for ignored folders. Files written to gitignored folders by a terminal, build or editor now show up right away in Quick Open, the @ picker and open file tabs.\n• Start a session in Plan mode. You can switch to Plan on the new-session screen before sending the first message, and the choice is kept when you change folders.\n• Subagent follow-ups reach the lead. When the lead sends a subagent a follow-up, it now gets that turn's answer instead of a repeat of the subagent's first report.\n• iOS: no more reconnect prompt after switching apps. Coming back to the app after connecting with a QR code no longer reopens the Backend connection dialog.\n• The README now has fresh screenshots in light and dark.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.20.0/OpenAgentd_3.20.0_iOS.ipa",
-          "size": 6708146,
+          "version": "3.21.0",
+          "date": "2026-10-20T13:55:12Z",
+          "localizedDescription": "• Workspace groups. Tag repositories into named, coloured groups with a short brief, from Settings → Workspaces → Groups or a repository's sidebar menu. Sidebar rows show a dot per group, and View options → Workspace group narrows the Project view to one group.\n\n• Scheduled tasks, Session settings and Keyboard shortcuts use the same layout. Scheduled tasks also fit phones: one header, a bottom bar for Run now and Pause, and full-width save buttons that clear the home indicator.\n• Command Palette. Arrow keys move between palette pages, one Switch Workspace/Session command replaces the separate ones, and the theme commands are now a single Theme… list.\n• Plans written for the reviewer. Plan-mode plans now lead with the outcome and the decisions you need to make, and put implementation detail in an Appendix that is collapsed but can still be commented on. While planning, the agent can add mockups and diagrams to the plan's attachments folder and check them in a look-only Preview. Project files stay unchanged until you approve.\n• Watch the plan being written. The Plan tab shows the plan as it streams, edits included. Links to mockups open in Preview.\n• Mermaid diagrams are back. mermaid code blocks in replies and plans render as diagrams again, with Diagram and Code views, using a lighter renderer that follows the app theme.\n• Recent activity follows use. Sessions sort by their last message, not by renames or model switches. Existing sessions are backfilled on upgrade. The sidebar reorders and updates ages live, with a smooth slide.\n\n• Telemetry counts every turn. Failed, stopped and compaction-only turns are now recorded, and spend from older telemetry is credited to its session's workspace instead of Not recorded.\n• /btw is offered in the slash menu during a new session's first turn, not only after the first reply finishes.\n• On phones, scrolling tables, code blocks or long plans inside a drawer no longer drags it closed.\n\nBreaking Changes:\n\nWorkspaces start ungrouped, so after upgrading a repository can only message Chat and its own worktrees. To let related repositories message each other again, add them to the same group in Settings → Workspaces → Groups.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.21.0/OpenAgentd_3.21.0_iOS.ipa",
+          "size": 6988927,
           "minOSVersion": "15.0"
         }
       ],
@@ -4369,11 +4369,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.2",
-          "date": "2026-10-18T08:28:47Z",
-          "localizedDescription": "Offdesk Dev v0.25.2: every component at 0.25.2, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.2/offdesk-0.25.2.ipa",
-          "size": 9355790,
+          "version": "0.25.3",
+          "date": "2026-10-20T11:35:15Z",
+          "localizedDescription": "Offdesk Dev v0.25.3: every component at 0.25.3, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.3/offdesk-0.25.3.ipa",
+          "size": 9356090,
           "minOSVersion": "15.0"
         }
       ],
@@ -5012,11 +5012,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.4.7",
-          "date": "2026-10-15T16:47:20Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the USA release): these downloads are the engine only.\n\nAndroid: on-screen controls and controllers on more phones:\n\nTwo players saw the intro play with no on-screen controls, and their Bluetooth controllers (an Xbox Series X controller, an 8BitDo Ultimate 2) did nothing. Many phones list one of their own parts as a gamepad: the device their fingerprint reader or side buttons send keys through declares gamepad buttons. The app counted it as a controller and hid the on-screen controls, and it was also opened first, as player 1's controller, so a real controller went in as player 2's, which the game does not read.\n\nA device now counts as a controller only if it has a stick, or a d-pad that reports as one. On those phones the on-screen controls show, and a controller connected to them is player 1's. The log (Android/data/com.jumatt.jsrfunleashed/files/Logs/last-run.log) now says what the app made of each device Android calls a gamepad, and whether the on-screen controls are showing: if your phone still misbehaves, those [PAD] lines are what to send.\n\nTested in the Android emulator with a stand-in for such a phone part, there from the start, and a controller connected 20 seconds in that pressed Start and A. With 0.4.6 the on-screen controls were missing and the controller did nothing; with 0.4.7 the controls showed, went away when the controller connected, and the controller started the game.\n\nThe APK installs over the previous one. Only the Android download is new: the others are 0.4.6's, unchanged (0.4.6 fixed the black city in the Skyscraper District and Pharaoh Park on every platform).",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.4.7/JSRF-Unleashed-iOS.ipa",
-          "size": 13257625,
+          "version": "0.4.8",
+          "date": "2026-10-20T14:55:10Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the USA release): these downloads are the engine only.\n\nThe robot at the future site of the Rokkaku Expo Stadium starts, so chapter 5's Urban Battle can be finished: until now it hung out of reach and never fought. The Rokkaku robots make their sounds too.\n\nThe Mac and iPhone downloads are here. Linux, Windows and Android follow shortly, then the full notes.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.4.8/JSRF-Unleashed-iOS.ipa",
+          "size": 13265655,
           "minOSVersion": "15.0"
         }
       ],
@@ -6208,7 +6208,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-19T14:23:16Z",
+          "date": "2026-10-20T12:33:49Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
           "size": 7484768,
@@ -7872,11 +7872,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.15.0",
-          "date": "2026-10-19T21:22:16Z",
-          "localizedDescription": "Changes since v2.14.0:\n\n• Pull catalogue facts from BookMaster's shelf rows and push them up.\n• Read-aloud follows the page it is really on: word ranges index the page's text again.\n• Read-aloud: survive a call, say headings and notes right, stop hanging words.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/v2.15.0/Pageturner.ipa",
-          "size": 28968418,
+          "version": "2.18.0",
+          "date": "2026-10-20T13:27:26Z",
+          "localizedDescription": "Changes since v2.15.0:\n\n• MetadataCandidate: Codable in an extension so the memberwise init stays.\n• BookSheets: close the Remove Cover branch.\n• Shelf checks: the row builder knows every field again, and jackets are checked in the new big-first order.\n• Covers load by falling through: one remote-cover stack, and picking a cover is picking the match.\n• Read-aloud: a lone line (a speaker's name) is no longer looked up by its text alone, which took the page and the highlight to its first occurrence in the chapter.\n• Drive: the automatic folder look asks the change feed first; checks and notes.\n• Lookup uses a book's ISBN and keeps its answers for two weeks; a Drive file that is a book already on the phone is linked to it.\n• Simulator run split in two parallel halves; one shared settings toolbar item; Together's title large like the other tabs.\n\n• Drive books already in the library (same file size, or the same title) are not added again.\n• Fix the build: the lookup's progress closure is passed by label (it was taken for stopWhen).\n• Sweep: a Drive sync adding books during a missing-files check keeps their cloud state; a failed book asks for no more parts; bulk lookup is capped at forty.\n• Lookup tries a name with the author in it as title and author, both ways round.\n• Lookup is quicker: sources race with short timeouts, results show as they arrive, bulk lookups stop at the first match and run three at a time.\n• Edit Details has a Cover section: choose from Photos, pick another match's art, or remove the cover.\n\n• Drive books are looked up online for author, year, blurb and cover when they are added.\n• Read-aloud: a lone word or one-word sentence no longer pulls the page back to its first occurrence.\n• Check: words after a spoken year range still map back onto the page.\n• Read-aloud says dates as dates: 1984-05-12, 5/12/1984, May 1805, 1914-1918, the 1990s, '80s.\n• Years are shown as 2026, not 2,026.\n• Books tab: select and add sit in the same order as in Library (select, add, settings).\n\n• The simulator run gets an hour: two more photographs took it past forty minutes.\n• Page curl: the leaf waits for the page beneath, and a turn back peels the page away like a turn forward.\n• Read-aloud keeps going when the reader is left, with a now-playing strip to control it.\n• Folders in the Drive browser can be ticked, subfolders and all.\n• Google Drive is just a login: the client ID is fixed, no setup on the phone.\n• Pageturner ships with its Google client ID, so signing in to Drive needs no pasting.\n• A homepage and a privacy policy for the site.\n• Pageturner's logo, at the sizes it is asked for.\n• Google Drive in the iPhone app: browse and import, watch a folder, back up and restore.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/v2.18.0/Pageturner.ipa",
+          "size": 29449516,
           "minOSVersion": "17.0"
         }
       ],
@@ -8846,11 +8846,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.3",
-          "date": "2026-10-16T16:47:36Z",
-          "localizedDescription": "Bug Fixes:\n\n• Fast-forward in Pokémon Re:Union and Rejuvenation (mateo-m/mkxp-z-apple-mobile#58) (7399328).\n• Games that sometimes started on a black screen, such as A Day and a Night (mateo-m/mkxp-z-apple-mobile#52) (0efdcba).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.7.3/Empo-0.7.3-unsigned.ipa",
-          "size": 64781762,
+          "version": "0.7.4",
+          "date": "2026-10-20T12:25:09Z",
+          "localizedDescription": "Bug Fixes:\n\n• White flashes after the Primal Kyogre fight in Pokémon Re:Union (mateo-m/mkxp-z-apple-mobile#61) (68efcd3).\n• Load the m4a sounds of mv games on the simulator (mateo-m/mvmz-apple-mobile#1) (c7917c8).\n\nChores:\n\n• Move to GPLv3 with additional terms for credit and origin (9ef0454).\n\n• Use mkxp engine v7, PSDK core v2, and MV/MZ core v2 (26d157f).\n• Sign the app as Mateo, not Grid (2e9116f).\n\nFeatures:\n\n• Fade single map tiles for project renaissance (mateo-m/psdk-apple-mobile#2) (2555223).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.7.4/Empo-0.7.4-unsigned.ipa",
+          "size": 66010733,
           "minOSVersion": "26.0"
         }
       ],
@@ -9284,10 +9284,10 @@
       "versions": [
         {
           "version": "1.1.1",
-          "date": "2026-10-20T09:01:32Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit e344fab. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-138/Ito-1.1.1-dev.138-unsigned.ipa",
-          "size": 11915915,
+          "date": "2026-10-20T11:12:23Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 1ab70c0. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-139/Ito-1.1.1-dev.139-unsigned.ipa",
+          "size": 11959033,
           "minOSVersion": "15.4"
         }
       ],
@@ -9850,7 +9850,7 @@
       "bundleIdentifier": "io.github.thatguymcd.dkrr.ios",
       "developerName": "ThatGuyMcd",
       "subtitle": "Diddy Kong Racing - Recompiled (By ThatGuyMcd)",
-      "localizedDescription": "DKR-R v1.0.7:\n\nRight, there is a LOT in this update! We have a proper Mod Store built into the launcher, a much more powerful modding SDK, custom trophy cups, a Dev Menu, ModernCamera++, and a much simpler save system. There have also been plenty of fixes to Online, custom tracks, portraits, water, the intro and the credits.\n\nDKR-R is a native static recompilation of Diddy Kong Racing. You need your own legally obtained US v1.0 or US Rev A/v1.1 ROM. No ROM or extracted game assets are included.\n\nGetting started:\n\n• On Windows, extract the WHOLE folder and open DKR-R.exe. Keep assets and libexec with it. The files inside libexec are helpers, not extra games to launch.\n• On Linux or Steam Deck, make the AppImage executable and launch it.",
+      "localizedDescription": "DKR-R v1.0.8:\n\nThis one fixes a nasty Windows startup issue. The game could stop before it even reached the graphics, with mods on or off. Windows was being asked to commit 4 GiB of memory instead of the 512 MiB we actually use. That is fixed, the guard region is still protected, and your saves/mods do not need reset. If memory really is unavailable, the log now gives us the Windows error too. All the 1.0.7 additions below are still here.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.thatguymcd.dkrr.ios.png",
       "tintColor": "#37a4ad",
       "category": "games",
@@ -9859,11 +9859,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.6",
-          "date": "2026-10-12T08:33:03Z",
-          "localizedDescription": "What's new in 1.0.6:\n\n• Skip intro logos in Play, then choose Start menu or Character select. The Start menu keeps its opening sequence and music. Online startup stays unchanged.\n• Enhanced water has had another stability pass, including effect popping, reflection handling and the Whale Bay Track Select crash. Waterfalls now have continuous flowing detail with corrected scrolling/interpolation, transparency and reflection masks. The river near Snowflake Mountain follows its authored flow.\n• There is much more control over the water! Original, Performance, Balanced, High and Custom presets are joined by separate reflection, wake and spray quality controls. Fine-tune reflection strength/range, roughness, ripples, foam, clarity, refraction, waterfall detail and water tint. Presets leave your game resolution, MSAA, FPS target and reflection method alone.\n• Hot Top Volcano has enhanced, glowing lava with moving molten cracks and rough hot-rock detail. Optional RTX lava lighting adds a pulsating glow to nearby walls and ground. Its own tickbox leaves the enhanced surface and water effects on; quality, intensity, pulse and range settings control the surrounding light. Lower-resolution lighting reduces the ray workload.\n• Every custom Track Select row now has a CUSTOM TRACKS header and cycles through six backgrounds. Future Fun Land restores its own artwork when you scroll back. Images, names and arrows stay with their wooden frames on wide screens, including the fix for brief horizontal stretching during transitions.\n• Custom .dkrmap artwork shares the correct texture/sprite namespace with character mods. Asset-table length, offset and allocation checks address Track Select failures when combining tracks and large character libraries. Very long in-game captions are shortened without renaming your installed mods.\n• Offline custom tracks can use the vehicles allowed by their headers. Track Lab can generate looping Track Select preview flights along the race line, while preserving flights placed by the author. Export validation warns about race starts that force a different vehicle. Online vehicle selection keeps its existing restrictions.\n• The Modern camera has revised corner, drift and wall-hit behaviour, less spring lag and no corner roll by default. Existing tuning files migrate while preserving changed values. The camera remains an offline feature.\n• Malformed graphics commands now have stronger bounds and execution-budget checks. Water rendering also has additional allocation, viewport and MSAA safety checks. Golden Balloon and Wave Race credits use the same tidy link rows as the other technology credits.\n\n• Developers now have a regression/performance harness with retained reports, private retail replay checks, repeatable build presets, faster incremental builds and CI caching, workflow linting and mobile compilation checks.\n\nBuilds available for Windows, Linux x86/x64, Linux ARM64 \u0026 Android!\n\nWARNING!:\n\nAndroid and MacOS and iOS Build is experimental and is only in Alpha stages of testing at the moment. Milage will drastically vary from device to device. We hope to smoothen this out in the very near future so that it performs better on a larger subset of devices.\n\nMy personal apologies if you run into issues with the these Alpha Builds. If you find anything wrong with any of the builds, let us know via the issue tickets!\n\nTo all you DKR-R Fans out there, Thank you all sooooooo much for all of your support!\n\nNow enjoy the latest update and happy racing! ThatGuyMcd.",
-          "downloadURL": "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.6/DKR-R-1.0.6-iOS-arm64.ipa",
-          "size": 36724034,
+          "version": "1.0.7",
+          "date": "2026-10-20T09:46:03Z",
+          "localizedDescription": "DKR-R v1.0.7 – Patch Notes:\n\n20 October 2026.\n\nThere is quite a lot in this update! Here are the main changes since v1.0.6.\n\nMods \u0026 Custom Cups.\n\n• Added support for importing Custom Magic Code mods as .nrm files.\n\n• Added custom trophy cups! Choose your tracks, laps and vehicles, then race them in order or shuffle the lineup.\n• Added cup import/export so you can share your creations. Any custom tracks used will still need to be installed separately.\n• Expanded the Dev Menu and improved controller navigation and on-screen text entry.\n\nMod Library.\n\n• Improved install, update and repair options, with automatic package checks and clearer installation status.\n• Improved backups and recovery if an installation is interrupted.\n\nSaves \u0026 Save Manager.\n\n• Your normal offline Adventure save now stays the same when changing mods. Dev Menu saves are still kept separate.\n\n• Improved Save Manager, including options to complete saves, finish individual Adventures and unlock content.\n• Improved save imports, exports and recovery. Older mod-specific saves are kept available to recover.\n• Online hosts now have a persistent Adventure save, with Continue selected by default. Joining someone else’s game keeps your personal save separate.\n\nOnline.\n\n• Added fullscreen and local-view options for supported experimental races.\n\n• Fixed custom portraits in Fire Mountain and Smokey Castle, including a related crash.\n\nCamera \u0026 Graphics.\n\n• Added the optional ModernCamera++ mod, with presets, profiles, custom controls and live camera tuning using F7.\n• Fixed vehicle shadow interpolation and improved river and waterfall animation.\n• Improved lava glow and added a separate toggle for it.\n• Improved HD water loading, the spinning logo, title screen and Start menu.\n• Updated the credits presentation and fixed a credits crash.\n\nLauncher \u0026 General Fixes.\n\n• Tidied up menus, mod cards, dialog boxes and wording.\n• Added an option to hide the lobby code when streaming. The Copy button still copies the invite code.\n• Added application update checks, with confirmation before updating and recovery support.\n• Simplified the Windows package to one main DKR-R.exe.\n• Improved memory and texture handling, along with some initial performance optimisation work.\n\nThank you all for playing and supporting DKR-R!\n\nThatGuyMcd.",
+          "downloadURL": "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.7/DKR-R-1.0.7-iOS-arm64.ipa",
+          "size": 37806609,
           "minOSVersion": "18.0"
         }
       ],
@@ -11028,11 +11028,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.0.8.7",
-          "date": "2026-10-16T19:15:30Z",
-          "localizedDescription": "Star Fox Enhanced 0.0.8.7:\n\nThis update includes the changes since 0.0.8.6. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS development remains paused, and no 3DS package is included.\n\nNew renderer and display options:\n\n• Added CarltonCracker's MODERN — Experimental renderer on desktop Windows and Linux. It draws the scene through the shared VR rendering path, reducing dependence on the per-pixel Super FX rendering layers. It remains optional; Software, GPU and GPU FAST are retained.\n• MODERN includes world-anchored ground, smoother background movement, native space horizons, 3D corridors for compatible artwork, and widescreen HUD and communications. Optional replacement model textures, portraits, HUD sprites and landscape textures can be loaded from a local textures directory.\n• Added a texture-dump tool for preparing your own replacement artwork.\n\n• Added a lightweight display-area guide to the pre-game menu and remembered desktop window dimensions.\n• Opening HUD/touch layout customization from F1 options now edits the paused live game without restarting the stage. Apply and Cancel return to the same options session without carrying button presses into it.\n\nGameplay and audio fixes:\n\n• Fixed sound-bank initialization when entering stages through Level Select.\n• Restored stage-results counting, completion and bonus-credit sound feedback, with consistent timing across presentation frame rates.\n• Fixed encounter music continuing through player death and preserved the replacement Player Down cue, including cockpit death paths.\n• Native boss stop/fade commands now also stop or fade replacement MSU music. The fade follows source timing and is shared with VR rather than being a desktop-only effect.\n• Fixed returning to the title after the ending, including restarting after the credits music has finished and preventing stale ending scroll state from leaking into subsequent screens and stages.\n• Reduced Android playback buffering without changing simulation or audio cadence.\n\nRendering fixes:\n\n• Improved alignment of banked native backgrounds and enhanced horizons across atlas wraps.\n• Fixed enhanced-sky sampling that could select unrelated atlas sections, repeat panoramas within a wide view, or stretch the sky's upper edge.\n• Improved distant planet continuation when looking downward, avoiding stretched photographic columns.\n• Expanded death/revival red and white screen fills to cover widescreen and supersampled corners.\n• Preserved ray-traced model shadows when enhanced ground replaces scenery, and corrected emissive-surface shadow handling.\n• Restored runtime-selected sprite materials, including enemy fire trails.\n• Ground-material overrides, including manually selected lava, no longer replace classified distant planets and starfields. Enhanced skies remain independently selectable.\n• Stopped native star/planet colours from being extruded downward as solid floor blocks after an atlas wrap.\n• Extended symmetric scanline-tunnel ceiling/floor diagonals into widescreen margins instead of stretching edge pixels into horizontal bars. The native 256-column view is preserved; incompatible decorated tunnels keep their existing rendering path.\n• Improved CPU layer-compositing performance while preserving material and coverage information.\n• Kept Metal ray-pipeline preparation off the macOS UI thread, with responsive loading feedback and cached preparation results.\n\nPlatform and packaging updates:\n\n• Fixed PS5 display uncovering after preview-off and loading screens.\n• Added complete Vita launcher/LiveArea artwork and improved VPK metadata and package validation.\n\n• Updated application/package versions to 0.0.8.7, including increasing Android and Quest version codes and the Apple and Xbox package build versions.\n\nKnown limits:\n\nMODERN is experimental and is not available on every platform. Some scenes, effects and stereo combinations still use the existing renderer or differ in appearance. PCVR, Quest, PS5 and Steam Frame still require device-specific testing; a successful build does not guarantee compatibility or performance.\n\nReports of intermittent white fades, some EX ground bars, Andross entrance stretching, native planet glitches at certain camera angles, and an EX ending animation issue remain under investigation. The tunnel-margin fix does not resolve every boss-room or corridor variant. Windows Defender reports against the previous x64 download are not considered resolved by this version bump; do not disable antivirus protection to install the game.",
-          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.7/StarFoxEnhanced-0.0.8.7-ios-arm64-unsigned.ipa",
-          "size": 85247559,
+          "version": "0.0.8.8",
+          "date": "2026-10-20T14:21:11Z",
+          "localizedDescription": "Star Fox Enhanced 0.0.8.8:\n\nThis update includes the changes since 0.0.8.7. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS development remains paused, and no 3DS package is included.\n\nBackgrounds and portraits:\n\n• Fixed thin vertical seams and stepped cloud tiles while steering in Mode 2 stages. Background columns now follow each scanline's horizontal scroll in both the Software and GPU renderers, including the GPU stereo sky path. Thanks to maiktheclaw for contributing this fix.\n• Removed the dialogue-only horizontal portrait stretch in widescreen. Original and EX dialogue portraits now use uniform source-pixel scaling, like the results-screen portraits, instead of duplicating uneven columns.\n\nTouch controls:\n\n• Enlarged the default on-screen controls relative to the display size for new and reset layouts. Existing saved layouts retain their previous base sizing.\n• Removed fixed pinch-size and viewport-fit limits. Controls can be made larger or smaller, and oversized D-pad/button groups can still be dragged and saved.\n\nGPU and Vita improvements:\n\n• Reworked compositor margin histograms to use small shared workgroup buffers instead of large private arrays. This targets excessive shader-compilation work while retaining the same output.\n• Substantially reduced Vita executable memory use by keeping enhanced backdrop artwork bundled in the VPK and loading it on demand, rather than mapping every image at startup. No extra artwork installation is required.\n• Set explicit Vita heap and main-thread stack reservations, and strengthened package checks for executable memory use and bundled artwork.\n\nKnown limits:\n\nReal-console Vita boot and sustained gameplay still need confirmation; a successful build does not establish hardware compatibility. The separate AMD Vulkan device-loss reports, Android/Pocket 6 audio crackling, some corridor and background variants, and intermittent space-scene brightening remain under investigation. These changes are not claimed to resolve every graphics report.\n\nAntivirus detections against earlier Windows downloads remain under investigation and are not considered resolved by this version bump. Do not disable antivirus protection to install the game.",
+          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8/StarFoxEnhanced-0.0.8.8-ios-arm64-unsigned.ipa",
+          "size": 85268393,
           "minOSVersion": "15.0"
         }
       ],
@@ -11648,7 +11648,7 @@
           "date": "2026-10-13T16:23:53Z",
           "localizedDescription": "Unsigned IPA: sign and install with Sideloadly or AltStore (see INSTALL-IOS.md). Not tested on a device yet. Includes the new icon and the final-killcam fix.",
           "downloadURL": "https://github.com/jesaias1/IW4LJ/releases/download/ios-v0.2.0/IW4LJ.ipa",
-          "size": 39133811,
+          "size": 39135093,
           "minOSVersion": "16.0"
         }
       ],
@@ -11664,7 +11664,7 @@
       "bundleIdentifier": "com.juananzzz.resonus",
       "developerName": "juananzzz",
       "subtitle": "A clean Android music player for your self-hosted server, and your local files",
-      "localizedDescription": "Android:\n\nAlso available on Obtainium for automatic updates.\n\niOS (experimental):\n\npage and sideload it with AltStore, Sideloadly or similar, or add Resonus as an AltSource to get updates. The build is unsigned, so it is not on the App Store or TestFlight.\n\nNot available on iOS yet: CarPlay, casting, the equalizer and gapless playback.\n\nFeatures:\n\n• Navidrome / OpenSubsonic / Jellyfin / Ampache: multi-profile login, multi-library support, plus several server addresses with automatic switching.\n• Local mode: play music straight from your device or a folder, no server needed.\n\n• Synced lyrics: karaoke view with tap-to-seek, word-by-word highlighting (TTML and enhanced LRC), full-screen mode, optional LRCLIB lookup.\n• Internet radio: browse and manage your stations.\n• Cast to speakers: UPnP/DLNA renderers and Sonos, with room grouping; local music streams to them too.",
+      "localizedDescription": "Android:\n\nAlso available on Obtainium for automatic updates.\n\niOS (experimental):\n\npage and sideload it with AltStore, Sideloadly or similar, or add Resonus as an AltSource to get updates. The build is unsigned, so it is not on the App Store or TestFlight.\n\nNot available on iOS yet: CarPlay, casting, the equalizer and gapless playback.\n\nFeatures:\n\n• Navidrome / OpenSubsonic / Jellyfin / Ampache: multi-profile login, multi-library support, plus several server addresses with automatic switching.\n• Local mode: play music straight from your device or a folder, no server needed.\n\n• Synced lyrics: karaoke view with tap-to-seek, word-by-word highlighting (TTML and enhanced LRC), full-screen mode, optional lookup on LRCLIB and lrc.red.\n• Internet radio: browse and manage your stations.\n• Cast to speakers: UPnP/DLNA renderers and Sonos, with room grouping; local music streams to them too.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.juananzzz.resonus.png",
       "tintColor": "#2cc043",
       "category": "entertainment",
@@ -12067,11 +12067,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.1",
-          "date": "2026-10-10T10:19:52Z",
-          "localizedDescription": "Added:\n\n• Desktop Spell-Checking: Added native spell-checking for desktop targets across supported languages (see the README for OS-specific language installation instructions).\n• File Tree Animations: Added expand and collapse animations for folders in the file tree.\n• New Translations: Added localization support for German and Mandarin Chinese.\n• Android Optimization: Enabled ProGuard for the Android build, reducing the final .apk file size by 70%.\n\nFixes:\n\n• Disabled global Git URL rewrite rules on the desktop version to resolve synchronization failures.\n• Fixed editor behavior so clicking the background no longer creates a redundant new block at the bottom if an empty block already exists.\n• Pressing Enter now correctly submits the repository clone dialog from any active text input field.\n\n• Windows app creates menu and desktop shortcut.",
-          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/v1.0.1/GitWriter-1.0.1-ios.ipa",
-          "size": 33877912,
+          "version": "1.0.2",
+          "date": "2026-10-20T13:37:58Z",
+          "localizedDescription": "Added:\n\n• Automatic sync: when the app starts/closes, when a notebook is opened, and every 10 minutes (it waits until you stop typing).\n• Images can be resized from the right-click menu on desktop. The syntax is the same as in Obsidian, e.g. ``.\n• The sync button now reacts to network connectivity. On mobile it uses the system's connection status, on desktop it checks the connection by pinging the remote repository URL every minute.\n• Image previews can now be zoomed (trackpad zoom might not work on Linux).\n• Full-width mode for the editor.\n• New Android home screen widget for quick access to notes.\n\nFixes:\n\n• Opening a notebook with the same name as another one, but from a different folder, no longer show error.\n• The scroll position of each tab is now saved precisely (before, it was still a bit off).\n• Fixed file sorting in the file tree (before, e.g. Zoo.md was listed before alphabet.md).\n• Reworked the libgit2 implementation on iOS, which fixes several sync bugs.\n\nThe macOS Intel (x86_64) version is not part of this release, because the database library doesn't support it (the previous version crashed on startup). There is also no native Windows ARM version yet, so on Windows ARM devices you have to run the x86_64 version through emulation for now.",
+          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.0.2/GitWriter-1.0.2-ios.ipa",
+          "size": 34239935,
           "minOSVersion": "18.2"
         }
       ],
@@ -12788,30 +12788,6 @@
       }
     },
     {
-      "name": "Rigs of Rods",
-      "bundleIdentifier": "io.github.ror.ios",
-      "developerName": "wayl-t",
-      "subtitle": "Rigs of Rods on iPhone: native port built on free GitHub Actions macOS runners",
-      "localizedDescription": "Rigs of Rods — iOS:\n\nпод Apple/iOS (patches/ror/apply_ios_patches.py). Сборка — **без Mac и без Sideloadly).",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
-      "tintColor": "#6156e2",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "date": "2026-10-20T08:59:55Z",
-          "localizedDescription": "This is a Hello-World iOS app. It exists only to prove the build-and-package pipeline works end to end on a free macOS runner. The game itself is in the latest-ipa release.",
-          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/pipeline-check/RoRNative.ipa",
-          "size": 18616,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "TinyFrens",
       "bundleIdentifier": "online.ionoi.tinyfrens",
       "developerName": "dutchiono",
@@ -12937,6 +12913,30 @@
           "NSLocalNetworkUsageDescription": "Connect to your music servers and network storage to browse and play your music.",
           "NSPhotoLibraryUsageDescription": "Mornye needs access to save album artwork"
         }
+      }
+    },
+    {
+      "name": "Rigs of Rods",
+      "bundleIdentifier": "org.rigsofrods.ror-ios",
+      "developerName": "wayl-t",
+      "subtitle": "Rigs of Rods on iPhone: native port built on free GitHub Actions macOS runners",
+      "localizedDescription": "Rigs of Rods — iOS:\n\nпод Apple/iOS (patches/ror/apply_ios_patches.py). Сборка — **без Mac и без Sideloadly).",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.rigsofrods.ror-ios.png",
+      "tintColor": "#e28e26",
+      "category": "games",
+      "versions": [
+        {
+          "version": "rtss28",
+          "date": "2026-10-20T14:09:07Z",
+          "localizedDescription": "Unsigned, ad-hoc-signed RoR IPA for arm64 iPhone/iPad, built from c9c024347.\n\nFiles (release-dependent):\n\n• RoR-ios.ipa - the full game, ~112 MB. Ships its data in RoR.app/rorres/ (not resources/ - see below).\n• RoR-ios-lite.ipa - the same app with the content-only archives dropped (meshes/textures/sounds/caelum/SkyX/ hydrax), ~40 MB. Every archive the startup path loads is kept, so it launches exactly like the full build - this is what makes it a usable launch diagnostic.\n• RoR-ios-tiny.ipa - NOT the game. Shares Info.plist/signature/packaging with the game. Installs and launches (green screen).\n• RoR-ios-bin.ipa - diagnostic (only on 'diag' tag). Real RoR binary, no data directory at all. The known-good baseline.\n• RoR-ios-res0.ipa - diagnostic (only on 'diag' tag). bin plus a single file in resources/. The known-BAD reference.\n• RoR-ios-res0r.ipa - diagnostic (only on 'diag' tag). bin plus the same single file, in rorres/ instead. What the fix does.\n\nWhy the directory is called rorres:\n\nAn .app whose bundle contains a top-level directory named resources (or Resources - the check is case-insensitive) is refused by the iOS installer with the generic \"Unable to Install\", while the very same directory under any other name (zzz/, Base.lproj/, rorres/) installs and runs. Measured on device: bin - no directory -\u003e installs zzz/rotest.txt -\u003e installs Base.lproj/rotest.txt -\u003e installs resources/rotest.txt -\u003e refused Resources/rotest.txt -\u003e refused.\n\ncodesign is what flips. With a resources/ (or Resources/) directory present it switches its resource rules to the macOS \"resource envelope\" set - rules=^Resources/, plus a '^[^/]+$ -\u003e nested' rule in rules2 - and iOS will not install a bundle sealed that way. With any other directory name it keeps the plain ^.* rules that iOS accepts. The ad-hoc signature was never the problem: an unsigned variant with resources/ is refused just the same.\n\nIf the game installs but crashes right after launching:\n\nIt now writes Documents/ror-trace.log - one line per startup phase, plus every OGRE log line and, if it dies, the reason (SIGSEGV, or the uncaught exception's message). That file is flushed line by line with write(2), so it is complete even when the process is killed mid-line. Open it on the phone: Files app -\u003e On My iPhone -\u003e Rigs of Rods -\u003e ror-trace.log. The last lines are the interesting ones. The same folder holds RigsOfRods/logs/RoR.log, which OGRE writes - but that one is buffered and loses its tail on a crash, so prefer ror-trace.log.\n\nHand the file itself to ESIGN / Sideloadly / SideStore - it is served as a plain file, nothing to unpack. An .ipa is a zip whose root contains Payload/.\n\nCHECK THE DOWNLOAD BEFORE INSTALLING.\n\nA truncated download makes every installer fail, and the error looks like a build problem (\"Truncated input file\", \"Unable to Install\"). Compare the byte size of the file you downloaded with the list below; if it differs by even one byte, download the file again.\n\nRoR-ios.ipa 114920088 sha256:ba79d3ac9b09a96eb006af4a136a85eb158d68e2ab224a268d0fbf04411d1368 RoR-ios-lite.ipa 43280043 sha256:e7899efbe2fef4255c3b6295dc99c6e2545e23abe2064d7597892b2701bafac2 RoR-ios-tiny.ipa 37864 sha256:785c106e07b41c9b60100006e50272e28fe93f4af505fc9179662eb583253350 RoR-ios-bin.ipa 6788935 sha256:c16fbc8b1e06341d3d79b81dba65ed88ec6132bdbe24fa861855798f2b6e1bd0 RoR-ios-res0.ipa 6789397 sha256:b337aa8bf72d9cf7b44b7504afdd00a0122ca052e16f75b3d490b04c9dd7d632 RoR-ios-res0r.ipa 6789391 sha256:5ce556df830627f77234f3a23c49f170302437a7e29fcf2018c6840ad02de132.",
+          "downloadURL": "https://github.com/wayl-t/ror-ios/releases/download/rtss28/RoR-ios.ipa",
+          "size": 114920088,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
