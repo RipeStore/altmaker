@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.nathanhanapps.styleport",
-    "io.github.matthewro2007blip.streetsofroanoke",
-    "com.jumatt.jsrf-unleashed"
+    "com.handtracker.mouse",
+    "com.handtracker.app",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -1275,11 +1275,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.2.0",
-          "date": "2026-10-16T20:23:38Z",
-          "localizedDescription": "Added touch controls for iPhone and iPad with automatic gamepad detection. Medium graphics is now the default to reduce memory use.",
-          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.0/FactorioPad-template.ipa",
-          "size": 2958312,
+          "version": "2.2.1",
+          "date": "2026-10-21T19:43:25Z",
+          "localizedDescription": "Fixed touch keyboard key binding. Fixed issue where the keyboard button would not move to the bottom-right corner.",
+          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.1/FactorioPad-template.ipa",
+          "size": 2958824,
           "minOSVersion": "17.0"
         }
       ],
@@ -1711,10 +1711,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-21T04:05:33Z",
-          "localizedDescription": "Built from 764e75b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-21T23:05:39Z",
+          "localizedDescription": "Built from 22314af on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14615754,
+          "size": 14620010,
           "minOSVersion": "15.0"
         }
       ],
@@ -2260,10 +2260,10 @@
       "versions": [
         {
           "version": "0.1.5",
-          "date": "2026-10-21T13:14:33Z",
-          "localizedDescription": "ios 0.1.5-nightly.20261021.19:\n\n• build(deps-dev): bump vite-plus from 0.3.3 to 1.1.0 (#312) (c5648aeb2).\n• build(deps): bump actions/setup-java from 6.0.1 to 6.1.0 (#310) (97eef0f43).\n• build(deps): bump the rust-dependencies group with 2 updates (#309) (4afde6415).\n\nChanges since ios/v0.1.5-nightly.20261021.18.",
-          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.5-nightly.20261021.19/conduit-0.1.5-nightly.20261021.19-ios-unsigned.ipa",
-          "size": 46416672,
+          "date": "2026-10-21T22:07:18Z",
+          "localizedDescription": "ios 0.1.5-nightly.20261021.21:\n\n• fix(mobile): reclaim watch party sidebar space (#316) (4212a231c).\n\nChanges since ios/v0.1.5-nightly.20261021.20.",
+          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.5-nightly.20261021.21/conduit-0.1.5-nightly.20261021.21-ios-unsigned.ipa",
+          "size": 46415115,
           "minOSVersion": "15.0"
         }
       ],
@@ -5369,11 +5369,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.5",
-          "date": "2026-10-19T23:07:46Z",
-          "localizedDescription": "tangoAW2 0.8.5: private map picks, room names, refresh, rejoin a lobby match.\n\n• Map picks are private and simultaneous. Everyone picks at the same time, each on a SELECT MAP of their own: nobody sees another player's cursor, tab or pick any more, which is what makes the roulette a surprise. The picture shows a plate \"Pick a map: press A\" or \"Waiting for .\", \"Picks: 2 of 4\" and the clock (2:00, as before: when it runs out the map under your cursor is your pick); once you have picked, your list turns into the room's gamertags with a tick for each player who has (never which map). When everyone has picked, the roulette is exactly as before (????? per gamertag, the reveal, the 9 s hold). Unranked picks the same way.\n• Room names. CREATE now asks for a room name first, on the same QWERTY page (up to 12 characters; nothing typed is \"'s room\"), then the password as before. The name is listed in the lobby browser (name, players, padlock), in the room's heading and on the rejoin box. Older announcements without a name are listed by their host's gamertag.\n• Spaces. Gamertags and room names may contain spaces: a SPACE bar sits between Del and OK on those pages (and the keyboard's space bar works). Spaces are kept one at a time and never at the start or end. Room codes and passwords have no space bar.\n• Refresh. R in the lobby browser (LOBBY \u003e JOIN) looks at the relays again: \"Refreshing.\", then \"Updated\". At most one new look every 5 seconds: pressing R sooner shows the note and reuses the look already under way, so the relays see no extra load.\n• Rejoin a lobby match. Lobby matches now have the way back that Unranked got in 0.8.4, for guests and for the host, in rooms of 2 to 5. Close or lose the app during a match and reopen it within 60 seconds: \"Your match in is still on. Rejoin? A: Rejoin B: Give up START: Later\". The players who stayed wait behind the reconnect box, one of them makes the room for you from the state their consoles hold, and the match goes on from the same state in the same seat (state hashes equal). START: Later puts the box off and keeps \" - In progress\" at the top of the JOIN list, where A rejoins. B gives up: your army yields at once. After the 60 seconds the LOBBY menu says once: \"Your match in ended: your army yielded.\" Running matches are never listed to other players (there is no joining or watching one). One player is waited for at a time; with another seat already gone from the room the window simply ends in the yield.\n• Fixed: a player who dropped from a lobby match never had their army yielded while the other player was in their own turn: the yield only happened when the dropped player's turn came, so the match hung for as long as the player who stayed left their turn open (a 2-player lobby, the host staying, was the case reported). The army is now yielded the moment the 60 seconds are over, whoever's turn it is, and when that leaves one side the console ends the last army's turn by itself: VICTORY and the record follow at once, with the lobby message. (This is the same path for lobby matches and Unranked.).\n• Fixed: a 2-player lobby match whose host dropped was saved for RESUME instead of ending: the player who stayed now plays on alone like in Unranked (the host's army yields, VICTORY, no save).\n• Fixed: the CO SWAP of Dual Strike tag pairs (Change on the map menu) and the Tag Power's full-screen scenes did not show on the other players' windows; they now do, fog on or off, and the hand-off to the next player after a Change appears on their window too (it stayed on the old picture, so the next player could not press A).\n\n• Online peers must all run 0.8.5 (the simulation version changed: map picks and yields).\n• Limits: with a seat that left the room earlier in the match nobody can rejoin it (it could not be seated as it was); the yield still happens after the 60 seconds.",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.5/tangoaw2-0.8.5-ios.ipa",
-          "size": 31947764,
+          "version": "0.8.6",
+          "date": "2026-10-21T21:21:17Z",
+          "localizedDescription": "tangoAW2 0.8.6: BH Campaign maps and music, Sturm's scenes between missions.\n\n• Music in the BH Campaign's story. Every story scene now has its own music, as in AW2's own campaign: the prologue, the briefings before each mission, the victory scenes, the scenes on the world map and the epilogues. Before, they were silent until the battle began. Each scene fades into the next and into the battle music the way AW2's scenes do. The world map always plays AW2's world-map theme (the first visit used to play another song).\n• A proper prologue. A new BH Campaign opens on AW2's own PROLOGUE card with its music, then the campaign's narration, the world map and the first mission's briefing.\n• Sturm between missions. 25 new scenes after a win, on the world map: Sturm and Von Bolt on how the last battle went and what comes next. They only mention COs you have already recruited, and they work whichever order you play the missions that can be swapped.\n• Map fixes in the BH Campaign:.\n\n• Rivers cut by roads now have bridges and run their whole length (Missions 19, 21 and 31).\n• A river that ended in the middle of the land now runs to the map's edge (Mission 10).\n• Two aircraft that started on the same square are apart (Mission 7).\n• The Carrier in Mission 20 no longer starts on a shoal.\n\n• Online peers must all run 0.8.6 (the simulation version changed: tangoAW2's maps moved in memory).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.6/tangoaw2-0.8.6-ios.ipa",
+          "size": 32174774,
           "minOSVersion": "16.0"
         }
       ],
@@ -6636,15 +6636,16 @@
       "bundleIdentifier": "app.mangatan.mangatan",
       "developerName": "KolbyML",
       "subtitle": "Seamless immersion language learning for anime, manga, novels on all platforms",
-      "localizedDescription": "Manatan:\n\nWebsite: https://manatan.com\n\n✨ Why Manatan?:\n\nTraditional setups for watching anime or reading manga with Japanese lookup can be complicated, often requiring users to install Python scripts, browser extensions (like userscripts), and configure local servers manually.\n\nManatan simplifies everything into a single app:\n\n• Zero Configuration: No need to install \"Monkey scripts,\" configure Optical Character Recognition (OCR) tools, or mess with command lines.\n• Universal Language Support: Manatan supports every language.\n• Built-in OCR for Manga: Just hover over text to get selectable text for dictionary lookups.\n• Anime Support: Subtitle parsing with popup dictionary lookups while you watch.\n• 1-Click Anime Cards: Generate Anki cards from anime sentences with a single click, with sentence audio.\n• Novel Support: Read EPUBs with sync across devices, instant dictionary lookups, and Anki card generation.",
+      "localizedDescription": "Watch anime and YouTube. Read manga and novels. Look up words and save useful sentences without leaving the story.\n\nOne app, from immersion to review:\n\n• Watch, read, and listen. Local videos, YouTube, manga, EPUBs, web novels, and podcasts in one app.\n• Understand in context. Look up words with your imported dictionaries, use on-device manga OCR, and work with interactive subtitles.\n• Keep what matters. Save sentences with audio and images where available. Review in Manatan SRS with account sync, or keep using Anki.\n\nYour first lookup:\n\n• Install and open Manatan. A dictionary is installed automatically.\n• Open a video with subtitles, a manga chapter, or an EPUB you want to understand.\n• Look up a word. Save a useful sentence to Manatan SRS or Anki, then keep going.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.mangatan.mangatan.png",
       "tintColor": "#1a71e4",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/dark/lookup.png",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/dark/podcasts.png",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/dark/manga.png",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/dark/books.png"
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/lookup.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/manga.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/books.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/podcasts.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/video-library.webp"
       ],
       "versions": [
         {
@@ -6979,11 +6980,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.39.1",
-          "date": "2026-10-21T17:20:37Z",
-          "localizedDescription": "Fixed:\n\n• Where you got to in a clip, and whether it's finished, now comes over in sync even when the other device has a different version of it (saved again or changed in Edit clips there, with its text not on GitHub, or its text not coming down this time). Before, such a clip kept its old place here, so Continue reading and a collection's chapters fell behind on the web copy.\n\nChanged:\n\n• The Highlights row in the sidebar no longer shows a count.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.39.1/Waypage.ipa",
-          "size": 10567879,
+          "version": "1.40.0",
+          "date": "2026-10-21T20:41:39Z",
+          "localizedDescription": "Added:\n\n• Settings › Sync › On mobile data has a third choice, \"Places and reading time only\". On mobile data, where you are in each clip, what you finished and your reading time keep syncing; new clips, their text, deletions, tags and collections wait for Wi-Fi, and go in the full sync as soon as you're on it.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.40.0/Waypage.ipa",
+          "size": 10568671,
           "minOSVersion": "15.5"
         }
       ],
@@ -9228,9 +9229,9 @@
       "versions": [
         {
           "version": "2.0.1",
-          "date": "2026-10-21T19:24:04Z",
-          "localizedDescription": "Unsigned iPhone build. Read downloads/iphone/IPHONE.txt before installing.",
-          "downloadURL": "https://github.com/matthewro2007-blip/Star-city-drift/releases/download/ios-v2.0.1/Streets-of-Roanoke-2.0.1.ipa",
+          "date": "2026-10-21T19:48:42Z",
+          "localizedDescription": "What's new:\n\n• Cutscene characters. A Blackriver scene used to leave a second Silas, and a second 2028 Matthew, standing on the street after the scene ended. Those copies now leave with the scene.\n• Prison guard designs. Cinder Hollow guards are redrawn: correctional officers, riot guards with shields, baton guards, and a sergeant, fielded in mixed squads.\n• Voss and the Lockkeeper. Tumbler Voss and the Lockkeeper each have their own art and their own lines.\n• 2028 guard lines. New shouts and taunts for the guards, the Lockkeeper's crew, Voss, and the Lockkeeper.\n\nSaves from 1.2 through 2.0.0 carry over. An install you already have updates itself from the website the next time you are online.\n\nWindows (64-bit). Download Streets-of-Roanoke-Setup-2.0.1.exe (294 MB) and run it. The app is not code-signed, so SmartScreen may say \"Windows protected your PC\". Click More info, then Run anyway. F11 or Alt+Enter toggles fullscreen. Esc pauses. Saves stay in %APPDATA%\\Star City Drift.\n\nChromebook (Intel or AMD). Download Streets-of-Roanoke-2.0.1-chromebook-amd64.deb (324 MB). Turn on Linux under Settings → Advanced → Developers → Linux development environment (that is the Linux container, not developer mode). In the Files app, move the .deb into Linux files. Double-click it and click Install, or in the Terminal app run:\n\nOpen Streets of Roanoke from Launcher → Linux apps. F11 toggles fullscreen. ARM Chromebooks, and school or work machines that block Linux, can install the web app from Chrome at https://matthewro2007-blip.github.io/Star-city-drift/ instead.\n\nAndroid. Download Streets-of-Roanoke-2.0.1-debug.apk (209 MB) and open it. If Android asks, turn on Install unknown apps for the app that opened the file, go back, and tap the .apk again. Tap Install, then Open. Play Protect may warn that the app is not from the Play Store: tap More details, then Install anyway. Free about 500 MB of storage before you start. If install stops with \"App not installed\" because an older copy was signed differently, uninstall that older Streets of Roanoke or Star City Drift app and install this file again.",
+          "downloadURL": "https://github.com/matthewro2007-blip/Star-city-drift/releases/download/v2.0.1/Streets-of-Roanoke-2.0.1.ipa",
           "size": 207811660,
           "minOSVersion": "15.0"
         }
@@ -9258,10 +9259,10 @@
       "versions": [
         {
           "version": "1.2.0",
-          "date": "2026-10-21T18:01:59Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit c6fcea3. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-148/Ito-1.2.0-dev.148-unsigned.ipa",
-          "size": 12115790,
+          "date": "2026-10-21T22:30:50Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 182fe20. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-150/Ito-1.2.0-dev.150-unsigned.ipa",
+          "size": 12129428,
           "minOSVersion": "15.4"
         }
       ],
@@ -10586,11 +10587,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.57",
-          "date": "2026-10-21T06:10:13Z",
-          "localizedDescription": "English.\n\n• Faster: the app no longer lags at startup with lists of thousands of channels (iOS, tvOS and Mac). Guide updates are batched on all platforms.\n\nEspañol.\n\n• Más rápido: la app ya no va a tirones al arrancar con listas de miles de canales (iOS, tvOS y Mac). Las actualizaciones de la guía se agrupan en todas las plataformas.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.57/InputStreamPlayer-iOS-0.9.57-111-unsigned.ipa",
-          "size": 17195739,
+          "version": "0.9.58",
+          "date": "2026-10-21T21:16:28Z",
+          "localizedDescription": "English.\n\n• Multiview: leaving a tile's full screen now takes you back to the grid, not to the list or the guide. Back (or the new ✕) inside the multiview now leaves it; go full screen from the tile menu.\n\nEspañol.\n\n• Multiview: al salir de la pantalla completa de un cuadro se vuelve a la cuadrícula, no a la lista ni a la guía. «Atrás» (o la nueva ✕) dentro del multiview sale de él; a pantalla completa se va desde el menú del cuadro.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.58/InputStreamPlayer-iOS-0.9.58-112-unsigned.ipa",
+          "size": 17206838,
           "minOSVersion": "16.0"
         }
       ],
@@ -10946,10 +10947,10 @@
       "versions": [
         {
           "version": "0.5.6",
-          "date": "2026-10-18T23:17:40Z",
-          "localizedDescription": "VortX 0.5.6 beta 2: Safer Profiles, Playback Recovery and Lighter TV Updates:\n\nBuild 276. This beta fixes more cases where older profiles could not open, stops the player getting stuck in repeated recovery after a seek, and cuts unnecessary work during Apple TV playback. It also updates intro and credit detection, fixes control auto-hide behaviour and makes switching profiles safer for Continue Watching and Watch Stats.\n\nFixed:\n\n• The player recovering again and again after skipping credits or seeking. Two recovery paths could each retry the same failing part of a video. They now share a retry limit, so one cannot keep restarting what the other has already tried. An unfinished episode keeps its resume position and is not marked watched or advanced to the next episode to hide the error. A source that ends before the video is actually finished can still fail; this change stops the recovery loop, not the remote source ending early.\n• Player controls staying on screen. The auto-hide timer now follows the current interaction rather than an earlier one. Covered playback preparation also runs away from the main interface thread, reducing work that competes with taps and remote input.\n• Switching profiles while history or statistics are loading. An older Continue Watching import or Watch Stats calculation keeps the profile it started with. Finishing that work cannot publish its results into a different profile or clear a newer import's loading state.\n• Mac playback-server shutdown and recovery. Quitting waits for the playback server started by that app to shut down, and restart attempts are limited. A server that fails to stop is reported instead of silently starting more copies.\n\nChanged:\n\n• Less repeated work while watching on Apple TV. Up Next checks that cannot show anything yet stop before sorting and building the episode list. Decorative seeking updates also do less work. These are targeted reductions, not a claim that every player-control delay is resolved.\n• Lighter Home, catalog and history updates. Home reads its hidden-section settings once when building its rows, and catalog sorting reads the saved order once per operation. Watched-history imports reuse repeated evidence and avoid redundant retry checks without dropping pending history. Discover listens more narrowly for the changes its screen needs.\n• More consistent controls. Shared glass and Effects Off rules, disabled buttons and Mac text colours are more consistent across the updated controls. This is not a complete visual redesign.\n\nAndroid:\n\nAndroid gets the IntroDB v4 update, matching-episode response handling and cached-result checks.\n\nVortX is Apple first. The Android APK is still an early technical preview rather than the finished app, so expect missing features and rough edges.\n\nPlease test:\n\n• Open the app with your existing account, especially if profiles failed to open on 0.5.5. Check that your profiles, add-ons, settings and history are present. If it still fails, export diagnostics; do not reset your account or delete Keychain items as a workaround.\n• On Apple TV, bring up the controls during playback, seek and use Skip Intro or Skip Credits where available. Check whether controls appear promptly and hide after you stop interacting. If there is still a delay, include your Apple TV model and a fresh diagnostic export in the report.\n• If a stream ends early, check that recovery does not keep reopening the same failing point and that the episode has not been marked watched or advanced incorrectly.\n• Switch profiles while Continue Watching or Watch Stats is loading, then check that each profile keeps its own results.\n• On Mac, check control auto-hide and normal quitting after playback.\n\nThis is a prerelease for testing, not a replacement for stable 0.5.5. The full Swift 6 migration and wider performance cleanup are not finished, and smoothness still needs testing on real devices. Profile recovery cannot restore an encryption key that has already been lost. Stable update feeds and download redirects are unchanged.\n\nMac (.dmg). Download VortX-macOS-v0.5.6-beta.2-ci.dmg and drag VortX into Applications. If macOS blocks the app downloaded from this official release, use System Settings \u003e Privacy \u0026 Security \u003e Open Anyway, or run:\n\nAndroid phone, tablet and TV. VortX-0.5.6-full-mpv-universal.apk includes VortX Player. VortX-0.5.6-play-media3-universal.apk is the Media3 variant. Each APK contains both the phone and the Android TV interface. Choose the variant you already use so it installs over your current version. The Play bundle is also attached for its distribution workflow.\n\nAll seven packages are built by the public release workflows from v0.5.6-beta.2. SHA256SUMS.txt lists the package checksums, and VortX-Hosted-Direct-Beta-Provenance.json records the source, build and package verification details.\n\nRelease verification. These are the unchanged packages from the successful beta 2 builds. Their final checks use a separately reviewed recovery verifier for a CI receipt-format mismatch. The original automated receipt check remains affected; its producer fix is reserved for beta 3. The attached provenance records the recovery verification separately from the app's build source.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.2/VortX-iOS-v0.5.6-beta.2-ci.ipa",
-          "size": 52435739,
+          "date": "2026-10-21T21:59:19Z",
+          "localizedDescription": "DO NOT INSTALL, CRITICAL BUG THAT STOPS ADDONS FROM WORKING.\n\nBuild 278 across Apple and Android. Beta 5 builds on beta 4 with Mac playback and player fixes, self-hosted add-ons and less background work while you watch.\n\nFixed and improved:\n\n• Mac playback that would not resume after a pause. A recovery after pausing could leave Play waiting indefinitely and show the replacement player's temporary position. Recovery now completes, keeps your original position, and Play is no longer held behind it.\n• Skip Intro and Skip Credits hidden by the controls. Moving the mouse brought up the controls and removed the Skip button. It now stays visible and sits above the controls as they appear.\n• Mac player controls use a lighter translucent glass instead of an opaque grey panel; the solid fallback for Reduce Transparency is kept.\n• Self-hosted add-ons. Add-ons on your home network, localhost or Tailscale install normally instead of being refused as private addresses, on Apple and Android, and they are no longer marked unreachable or dropped when restored from sync. Certificate checks and size limits stay in place.\n• Apple TV keyboard from iPhone. Typing into Apple TV search from an iPhone keyboard no longer erases what you typed (thanks to the contributor of PR #274).\n\n• Playback badges no longer publish a track list before the audio and subtitle choices have loaded.\n• Much less uploading while you watch. Your place was saved every 20 seconds, and each save uploaded your whole account, about every 25 seconds of playback. Saves now batch: while you keep watching the account uploads once every five minutes, and a pause or stop uploads it within a minute so your other devices pick up where you left off.\n• Mac quits reported as crashes. Every Mac launch recorded the previous session as ending unexpectedly after 0 seconds. Normal quits are now recorded as normal, and the session length is tracked, so diagnostics only flag real problems.\n\nAlso fixed since beta 2:\n\n• Interests saved to the right profile. Changing profile while the For You interests picker was open could save one profile's choices into another. The picker now saves only for the profile it opened for, and closes when the profile changes.\n• Saved Collections kept when storage cannot be read. Signed-out edits no longer replace unreadable saved Collections with an empty copy.\n• Top Shelf stayed static after re-signing. A signing service re-signs VortX under its own team and gives the app and its Top Shelf a shared group of its own, but VortX only looked for the group it ships with, so the two never found each other and the shelf showed the static image under every signing service. VortX now uses the group your signed copy was actually given. Movies and series that share an ID no longer collide, a long queue is trimmed to fit instead of being rejected, and progress, artwork and queue changes trigger an update. Full includes Top Shelf in the normal app; there is no separate extension to install.\n• Apple TV player controls. Up reveals the controls before checking Up Next and skip prompts, so less work runs first in the credits window.\n• TV previews and playback audio. Silent previews cannot reopen an audio output, and their wake-ups and recovery are bounded.\n• History updates. Trakt history reads follow every page before replacing the saved result, cancelled SIMKL reads keep the last complete snapshot, and account changes keep newer local edits.\n\nAlso new since beta 2:\n\n• Optional Xperience import and refresh. Bring in a compatible Xperience collection export and refresh it when you choose; your own edits are protected from an older refresh.\n• Playback badges with icons and the selected audio language, from the video and audio actually playing. They clear when a new item starts.\n\nAlso changed since beta 2:\n\n• Updated player components. Apple uses the updated custom mpv with FFmpeg 9.0.2. Android's native player includes mpv 0.41 and FFmpeg 8.1.3 with maintenance updates to its subtitle, font and codec libraries, and Media3 1.11.1.\n• Tighter certificate checks in the native player and engine.\n\nStill being worked on:\n\nThe main apps are not yet fully migrated to Swift 6, some component upgrades remain, and smoothness, Top Shelf and the open customer reports still need checking on real devices.\n\nPlease test:\n\n• On Mac, pause and resume a few times during playback, and check that Skip Intro or Skip Credits stays visible above the controls when you move the mouse.\n• If you use a self-hosted add-on on your home network or Tailscale, install it by URL.\n• Close and reopen the app: your profile should open within a few seconds, then pick up any changes from your other devices.\n• Connect Stremio using your existing VortX account, check add-ons, Library and watched history, then reopen the app and check they are still there. If something fails, export diagnostics before changing anything; do not reset the account or remove history as a workaround.\n• With VortX Full in the Apple TV top row, play something, return Home and check that Top Shelf now follows Continue Watching after signing with your usual service. If it stays static, export diagnostics and include the topshelf lines, the variant and the signer.\n• Change audio tracks, start another video and seek: the playback badges should follow the current item.\n• On Apple TV, check Settings search and moving in and out of each category.\n\nThis is a prerelease for testing, not a replacement for the current release. Stable update feeds and download redirects are unchanged.\n\nMac (.dmg). Download VortX-macOS-v0.5.6-beta.5-ci.dmg and drag VortX into Applications. If macOS blocks the app downloaded from this official release, use System Settings \u003e Privacy \u0026 Security \u003e Open Anyway, or run:\n\nAndroid phone, tablet and TV. VortX-0.5.6-full-mpv-universal.apk includes VortX Player. VortX-0.5.6-play-media3-universal.apk is the Media3 variant. Each APK contains both the phone and the Android TV interface. Choose the variant you already use so it installs over your current version. The Play bundle is also attached for its distribution workflow.\n\nAll seven packages are built by the public release workflows from v0.5.6-beta.5. SHA256SUMS.txt lists the package checksums, and VortX-Hosted-Direct-Beta-Provenance.json records the source, build and package verification details.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.5/VortX-iOS-v0.5.6-beta.5-ci.ipa",
+          "size": 54766449,
           "minOSVersion": "16.0"
         }
       ],
@@ -11030,10 +11031,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-21T04:05:33Z",
-          "localizedDescription": "Built from 764e75b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-21T23:05:39Z",
+          "localizedDescription": "Built from 22314af on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 48988783,
+          "size": 48993041,
           "minOSVersion": "15.0"
         }
       ],
@@ -11422,11 +11423,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "0.90",
-          "date": "2026-10-15T14:43:10Z",
-          "localizedDescription": "New:\n\n• Virtual Gamepad The on-screen controls can act as a game controller (two sticks, A/B/X/Y, D-pad, bumpers, triggers, Back/Start).\n\nFixed:\n\n• The game crashed at the main menu on a fresh install. The game's preview videos need a video library pziOS does not ship; pziOS now keeps the game's \"video effects\" option off.\n\nImproved:\n\n• Clearer JIT helper errors If the built-in JIT helper cannot start, the message now says what to check and shows an error number. The first lines of jvm.log now show the app's bundle ID, version, JIT method and helper ID, which makes problem reports much easier to read.",
-          "downloadURL": "https://github.com/onlyknt/pziOS/releases/download/0.90-beta.2/pziOS-0.9.0-beta.2-b42.21.ipa",
-          "size": 128815850,
+          "version": "0.9.0",
+          "date": "2026-10-21T19:40:08Z",
+          "localizedDescription": "New:\n\n• Mouse sensitivity (Controls → Edit touch layout). A Sensitivity slider sets how fast the on-screen cursor moves when you drag in PAD mode.\n• Saved touch layouts. The touch editor has a Saved menu: save the current layout under a name, load one, replace it with the current layout, or delete it.\n\n• Two-finger zoom switch (Settings → Controls). Turns the two-finger scroll that zooms the game on or off.\n• ZombieBuddy switch (Developer Tools → Tools). Starts the game with -javaagent:ZombieBuddy.jar for mods that need ZombieBuddy. Put ZombieBuddy.jar in the game folder (Files, pziOS, game); if the file is missing the switch is skipped.\n\n• iOS 17 and 18 Support. On iOS 26 and later pziOS gets its executable memory from the debugger as a mirror-mapped region. On iOS 17 and 18, pziOS now uses the JVM's classic code-cache path instead, chosen automatically and logged as settings: JIT path classic in jvm.log. Please report results on iOS 17 and 18 with your jvm.log.",
+          "downloadURL": "https://github.com/onlyknt/pziOS/releases/download/pziOS/pziOS-0.9.0-beta.5-b42.21.ipa",
+          "size": 135057730,
           "minOSVersion": "17.0"
         }
       ],
@@ -12172,11 +12173,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.7",
-          "date": "2026-10-19T21:16:30Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/Sppqq/sweet-lyrics-ios/releases/download/v0.6.7/SpicyLyrics-0.6.7-unsigned.ipa",
-          "size": 2979670,
+          "version": "0.6.8",
+          "date": "2026-10-21T20:06:17Z",
+          "localizedDescription": "• Explain a line or the whole song with Mercury, Liquid Glass everywhere.\n• Explanations: glass line menu, Genius and search, app language, reports.",
+          "downloadURL": "https://github.com/Sppqq/sweet-lyrics-ios/releases/download/v0.6.8/SpicyLyrics-0.6.8-unsigned.ipa",
+          "size": 3345381,
           "minOSVersion": "17.0"
         }
       ],
