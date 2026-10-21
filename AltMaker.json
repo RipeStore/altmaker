@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.jumatt.jsrf-unleashed",
-    "com.owenselles.CloudNow2",
-    "media.conduit.mobile"
+    "com.nathanhanapps.styleport",
+    "io.github.matthewro2007blip.streetsofroanoke",
+    "com.jumatt.jsrf-unleashed"
   ],
   "apps": [
     {
@@ -3027,7 +3027,7 @@
       "tintColor": "#5e71c8",
       "category": "games",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/TarbleFR/neostation-ios@main/assets/readme/neostation-ios-preview.png"
+        "https://cdn.jsdelivr.net/gh/TarbleFR/RewindBox@main/assets/readme/rewindbox-preview.png"
       ],
       "versions": [
         {
@@ -4844,11 +4844,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.1",
-          "date": "2026-10-16T04:48:43Z",
-          "localizedDescription": "A fixes release for 0.9.0: the equalizer and bass boost no longer depend on the phone's own audio effects, skipped songs stop counting as plays, playlists from Windows tools import in full, and the Map no longer crashes under a screen reader. Still fully on-device: no account, no catalogue, no network. Nothing about your listening leaves the phone.\n\nFixed:\n\n• 📥 Playlists that are not UTF-8. An M3U written by a Windows tool in the ANSI code page or in UTF-16 now finds its songs with accented names, instead of silently missing them. Escapes like %E9 match too. An imported playlist without a #PLAYLIST: title takes the file's name.\n• 🖼️ Covers the system can't read. On Android, a song whose cover the system can't provide now shows the picture embedded in the file, then the album's cover.\n• 🗺️ Map with TalkBack. The Map no longer crashes the app when TalkBack or another accessibility service reads it on a library with many regions.\n• An open Favorites page sorted by title, artist, album or duration no longer rebuilds itself after every play.\n• Cancelling a cover-colour read on Android no longer crashes the app.\n\nNew:\n\n• 🎛️ A clearer equalizer screen. The equalizer screen now shows the actual frequency response of your settings, with labelled bands and grouped presets. A live indicator shows when the limiter is reducing peaks. Volume normalization reports whether it has measured the track, how much it turned it down, or that it found nothing to reduce. It still only turns loud tracks down, never quiet ones up.\n• 📂 Open from a file manager. Android can open a local audio file with LatentJam and play it from your library.\n• ❤️ Favorite from the notification. An optional setting puts Favorite in Android's media notification in place of Repeat.\n\nDownload LatentJam-v0.9.1-arm64.apk (36 MB). It's right for virtually every phone from the last decade, so if unsure, pick this one. LatentJam-v0.9.1-armv7.apk exists for old 32-bit devices.\n\nOpen the file on your phone. It upgrades any earlier release from here in place, and your history, playlists, settings and analysed library stay. You'll need to allow installing unknown apps and tap through Play Protect's sideload warning. Requires Android 7.0+.\n\nLatentJam-v0.9.1-unsigned.ipa is an unsigned build. Sideload it with AltStore, Sideloadly or similar, which re-sign it with your Apple ID. Built for iOS 15.1+, arm64.\n\nThat build is signed with F-Droid's key, not the one used here, so the two can't upgrade each other. To switch:\n\n• Export your data (Settings → Local backup).\n• Uninstall the app.\n• Install from F-Droid and restore the backup.",
-          "downloadURL": "https://github.com/Nikita-sud/latentjam/releases/download/v0.9.1/LatentJam-v0.9.1-unsigned.ipa",
-          "size": 44653991,
+          "version": "0.9.2",
+          "date": "2026-10-21T16:28:31Z",
+          "localizedDescription": "Make LatentJam look the way you like: your own accent colour, pure black, rounder or sharper shapes, five page-header styles and a left-handed layout. Statistics now show how you listen, not only how much, several playlists import at once, and seeks and skips no longer click. Still fully on-device: no account, no catalogue, no network. Nothing about your listening leaves the phone.\n\nNew:\n\n• 📊 Statistics that tell how you listen. Besides how much: what is on repeat right now, favourites that are slipping away, what you played a year ago, songs you play in sequence, new versus familiar music, your sessions and the hours you listen. A playlist played on repeat counts as one row, and Your top lists playlists.\n• 👆 Presses you can feel. Buttons and cards sink under the finger and ease back, across the app and on the home-screen widgets.\n\nImproved:\n\n• 🔇 No clicks on seek or skip. The sound rises over a few milliseconds instead of starting with a click, on Android and iOS.\n• 💿 Albums play through. With crossfade on, an album that runs straight into its next track is no longer faded, and volume normalization changes smoothly at that seam. The next track's loudness is measured while the current one plays, so a loud song no longer starts at full volume.\n• 🗺️ A bigger Map. The Map now handles libraries of up to 10,000 tracks and keeps drawing while your library is still being analysed.\n• ✨ Smoother lists. List covers come from a small on-disk cache, and the code for scrolling long lists is prepared ahead of time.\n• 🧭 For You. A row keeps playing past its last card with similar songs, unless Repeat all is on. Rows move on once you have seen them, and a phase row follows how long you have actually been listening.\n\nFixed:\n\n• A media button from a controller without an app name no longer crashes the app.\n• Restoring an older backup no longer resets the look you chose.\n• A cover that could not be read once is tried again the next day instead of never.\n• Readable custom accents in the light theme, and readable titles over a pale cover in the dark player.\n• The alphabet rail selects the letter under your finger, and its bubble stays on screen in Arabic and Hebrew.\n• Pinching the album grid goes the way your fingers go.\n\nDownload LatentJam-v0.9.2-arm64.apk (36 MB). It's right for virtually every phone from the last decade, so if unsure, pick this one. LatentJam-v0.9.2-armv7.apk exists for old 32-bit devices.\n\nOpen the file on your phone. It upgrades any earlier release from here in place, and your history, playlists, settings and analysed library stay. You'll need to allow installing unknown apps and tap through Play Protect's sideload warning. Requires Android 7.0+.\n\nLatentJam-v0.9.2-unsigned.ipa is an unsigned build. Sideload it with AltStore, Sideloadly or similar, which re-sign it with your Apple ID. AltStore and SideStore users can also add the LatentJam source from the README to get updates. Built for iOS 15.1+, arm64.\n\nThat build is signed with F-Droid's key, not the one used here, so the two can't upgrade each other. To switch:\n\n• Export your data (Settings → Local backup).\n• Uninstall the app.\n• Install from F-Droid and restore the backup.",
+          "downloadURL": "https://github.com/Nikita-sud/latentjam/releases/download/v0.9.2/LatentJam-v0.9.2-unsigned.ipa",
+          "size": 45104282,
           "minOSVersion": "15.1"
         }
       ],
@@ -4920,6 +4920,7 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Knoks1111/TwitchPlusK@main/Assets/01-live-chat-and-subscriptions.png",
+        "https://cdn.jsdelivr.net/gh/Knoks1111/TwitchPlusK@main/Assets/02-chat-and-emote-picker.png",
         "https://cdn.jsdelivr.net/gh/Knoks1111/TwitchPlusK@main/Assets/03-chat-and-picker-customization.png",
         "https://cdn.jsdelivr.net/gh/Knoks1111/TwitchPlusK@main/Assets/04-settings-overview.png",
         "https://cdn.jsdelivr.net/gh/Knoks1111/TwitchPlusK@main/Assets/05-player-and-playback-settings.png"
@@ -5011,11 +5012,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5.1",
-          "date": "2026-10-21T14:41:42Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nWindows: sound that stutters when the PC is busy:\n\nThe game gives each of its threads a priority, as Xbox games do, and on Windows those priorities were applied to real Windows threads (on the Mac and Linux they never were). The thread that reads and decodes the music stream gets the lowest one, \"idle\". On the console that thread runs whenever the others are waiting, which is half of every frame. On a PC it runs only when nothing else at normal priority wants its processor core: the game's own threads, a browser, a chat app. So when the PC was busy, the music ran dry and stuttered.\n\nEvery game thread now runs at normal priority on Windows, as on the other platforms; the game still reads back the priorities it set. The engine's own sound thread, which mixes what the speakers play, runs at high priority on Windows, so that a busy moment delays the picture rather than the sound.\n\nTested under Wine: the game starts and runs its title screen as before. Wine does not apply thread priorities, so the stutter itself could not be reproduced there. If the sound still stutters for you, attach last-run.log (in %LOCALAPPDATA%\\JSRF Unleashed) to a bug report.\n\nOnly the Windows download is new: the others are 0.5.0's, unchanged (0.5.0 made new textures appear about six times faster and keeps shaders between sessions, on every platform).",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.1/JSRF-Unleashed-iOS.ipa",
-          "size": 13280779,
+          "version": "0.5.3",
+          "date": "2026-10-21T18:56:23Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nThanks to spriteice:\n\nThe fixes in this version were found by spriteice, who plays JSRF Unleashed on a ROG Xbox Ally X and went through the engine in his fork. Thank you! Each commit links the one of his it comes from, and says where it was adapted.\n\nThe graffiti you pick now shows:\n\nThe graffiti picker loads each design you choose into the same image, in place. The engine recognised a texture by 64 bytes sampled from it, and when those 64 bytes happened not to change, the preview and the posters on the walls kept the default graffiti. The engine now also compares the whole picture of the textures on screen, a few at a time at the end of each frame, so a texture rewritten in place is shown a few frames later. It costs nothing measurable.\n\nLess video memory:\n\nThe game frees an area's textures when it leaves it, but the engine kept them on the graphics card until 4,096 of them had piled up: on spriteice's Ally X, video memory went from 55 MB to 306 MB in a minute and a half. They are now let go as soon as the game frees them. This matters most on iPhone, iPad and Android, where memory is tighter.\n\nThe save folder is no longer 10 GB:\n\nThe engine stands in for the Xbox's hard disk with six image files in its save folder (Partition0.img to Partition5.img), created at the console's partition sizes: 9.77 GB together. On most disks they took almost no actual space, but the folder showed as 10 GB in Explorer, in Finder and in the iPhone's Files app, and a backup or a copy to a USB stick could write all of it. They now hold only what the game writes, about 120 KB, and the old ones shrink the first time 0.5.3 starts. Your saves are not in these files (they are in UDATA in the game folder) and are not touched.\n\nWindows:\n\nTwo values meant to be kept per thread were shared by every thread in the Windows build. One of them is the file the game has just opened, which the cutscene player reads back: another thread could replace it in between, and a cutscene not play.\n\nHow it was tested:\n\nOn a Mac, with Metal: New Game, then 99th Street for four minutes, against 0.5.2, run back to back: the same frame rate and the same number of slow frames, and the save folder's disk images at 120 KB. Windows (under Wine) and Linux (Mesa): the game starts and runs its title screen and attract demo. The Android and iPhone builds were built and checked, not run.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.3/JSRF-Unleashed-iOS.ipa",
+          "size": 13286231,
           "minOSVersion": "15.0"
         }
       ],
@@ -6748,11 +6749,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.18",
-          "date": "2026-10-21T11:01:22Z",
-          "localizedDescription": "iGhostVT 1.6.18 stops text copied on the Mac from pasting as a percent-encoded string, and switches to a tab when a drag rests on it.\n\n• On the Mac, text copied in iGhostVT could paste as a percent-encoded string such as Worker:%2004%0A%E6%9E%84… instead of the text. This happened when the text began with a word and a colon, such as Worker: 04, and also happened when such text was dragged onto the terminal. The text now pastes exactly as it was copied. Links and file paths paste as before.\n• Drag a file or text from another app and hold it over a tab in the sidebar or the tab bar. After a moment, that tab comes to the front. Drop on its terminal as usual. Releasing over the tab drops nothing.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.18-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.18.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.18/GhostRemote-1.6.18.ipa",
-          "size": 7010955,
+          "version": "1.6.19",
+          "date": "2026-10-21T18:36:47Z",
+          "localizedDescription": "iGhostVT 1.6.19 lets another app open a new terminal tab in a folder you choose.\n\n• Opening a project folder in iGhostVT from another app, such as Apelin's Open in iGhostVT, started the new tab in your home folder. A link of the form ighostvt://new?directory=\u003cpath\u003e now opens a new tab in that folder. The link can only name an existing local folder: it never carries a command, and a missing folder, a file or a relative path is refused.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.19-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.19.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.19/GhostRemote-1.6.19.ipa",
+          "size": 7013689,
           "minOSVersion": "15.0"
         }
       ],
@@ -6978,11 +6979,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.37.1",
-          "date": "2026-10-18T19:21:53Z",
-          "localizedDescription": "Fixed:\n\n• The percent stays on the right while reading aloud; the moon no longer hides it on a phone. The bar's sides are a little tighter there to fit both.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.37.1/Waypage.ipa",
-          "size": 10544832,
+          "version": "1.39.1",
+          "date": "2026-10-21T17:20:37Z",
+          "localizedDescription": "Fixed:\n\n• Where you got to in a clip, and whether it's finished, now comes over in sync even when the other device has a different version of it (saved again or changed in Edit clips there, with its text not on GitHub, or its text not coming down this time). Before, such a clip kept its old place here, so Continue reading and a collection's chapters fell behind on the web copy.\n\nChanged:\n\n• The Highlights row in the sidebar no longer shows a count.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.39.1/Waypage.ipa",
+          "size": 10567879,
           "minOSVersion": "15.5"
         }
       ],
@@ -7033,11 +7034,11 @@
       ],
       "versions": [
         {
-          "version": "2.9.3",
-          "date": "2026-10-21T12:00:46Z",
+          "version": "2.9.5",
+          "date": "2026-10-21T16:39:15Z",
           "localizedDescription": "Android Package (Android 8.0+):\n\n• Softify Android APK (~19 MB): Highly optimized 64-bit APK for modern Android devices running Android 8.0+.",
-          "downloadURL": "https://github.com/Sarthak-Cyb3r/softify/releases/download/v2.9.3/Softify-iOS-Universal.ipa",
-          "size": 12288543,
+          "downloadURL": "https://github.com/Sarthak-Cyb3r/softify/releases/download/v2.9.5/Softify-iOS-Universal.ipa",
+          "size": 12282079,
           "minOSVersion": "15.0"
         }
       ],
@@ -7062,11 +7063,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.7",
-          "date": "2026-10-13T01:33:38Z",
-          "localizedDescription": "Fixed:\n\n• Short swipes turn the page. In page-turn mode on phones and tablets, a quick flick now turns the page even when your finger slows down before lifting, and a slower drag turns it once it covers a quarter of the page. Before, a page turned only after dragging past half the screen, and a hard flick could skip a page; now a swipe moves exactly one page.\n• The app no longer zooms like a web page. A two-finger pinch or a double tap no longer magnifies the whole app on Android and iOS. PDFs and comics still zoom with a pinch, and text size stays in the reader's font settings.\n• The model list stays open on Android. In Settings → AI, the model picker no longer closes the moment you open it when the on-screen keyboard appears; the field moves above the keyboard so you can search and pick.",
-          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.7/ReadAware-ios-arm64.ipa",
-          "size": 15851123,
+          "version": "0.6.8",
+          "date": "2026-10-21T15:45:55Z",
+          "localizedDescription": "New:\n\n• Image backgrounds for reading. The built-in Image Background plugin turns any local PNG, JPEG or WebP into a reading theme. Pick an image, see a preview, then choose a base theme for colors and typography and set the image's opacity and dimming. You can keep up to twelve named themes, and the plugin page has its own Page color picker, so you can switch between image themes and regular page colors without leaving it.\n• Tap zones and volume keys turn pages. Settings → Reading → Page Turning adds tapping the sides of the page (or a one-handed forward zone) in three widths, and on Android the volume keys, with a choice of which key reads on. Both are off by default, and the Agent can change them for you.\n• Import a whole folder. Add every book in a folder at once on desktop, Android and iOS from the shelf menu, the command palette or the empty shelf. On desktop you can also drop a folder onto the window. Each book remembers which folder it came from, so you can ask the Agent to group your shelf by folder.\n• Your own fonts on every platform. Import TTF, OTF, WOFF, WOFF2 or TTC font files from the reading font menu on desktop, Android and iOS. Imported fonts sync to your other devices, and removing one sends affected settings back to their defaults.\n\nImproved:\n\n• One dropdown for reading fonts. Importing and removing fonts now happens inside the font dropdown, instead of in a separate list below it.\n• Plugin toolbars hide less. A plugin's \"More\" menu no longer appears with just one item; that action is shown as a button instead.\n\nFixed:\n\n• Sentence mode picks up where you left off on another device. After a sync, sentence and paragraph mode resume at the position you reached on the other device, instead of jumping back to an old chapter.\n• Swipe back in iOS Settings. The edge-swipe gesture now goes back a level in Settings on iPhone and iPad.\n• Agent menu entries respond across the whole row. Items in the Agent's overflow menu can be tapped anywhere on the row, not just on the label.",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.8/ReadAware-v0.6.8-ios-arm64.ipa",
+          "size": 15875296,
           "minOSVersion": "15.0"
         }
       ],
@@ -8759,11 +8760,11 @@
       ],
       "versions": [
         {
-          "version": "21.1.0",
-          "date": "2026-10-20T22:00:48Z",
-          "localizedDescription": "Added:\n\n• Swipe to close image.\n• Preferred hand setting.\n\nFixed:\n\n• Video player crashes.\n• Database export on iOS.\n• Blacklist not applying.",
-          "downloadURL": "https://github.com/clynamic/e1547/releases/download/21.1.0%2B104/e1547.ipa",
-          "size": 20042413,
+          "version": "21.1.1",
+          "date": "2026-10-21T17:54:06Z",
+          "localizedDescription": "Fixed:\n\n• Image pinch zoom.",
+          "downloadURL": "https://github.com/clynamic/e1547/releases/download/21.1.1%2B105/e1547.ipa",
+          "size": 20027960,
           "minOSVersion": "14.0"
         }
       ],
@@ -9226,11 +9227,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.9.0",
-          "date": "2026-10-15T11:50:48Z",
+          "version": "2.0.1",
+          "date": "2026-10-21T19:24:04Z",
           "localizedDescription": "Unsigned iPhone build. Read downloads/iphone/IPHONE.txt before installing.",
-          "downloadURL": "https://github.com/matthewro2007-blip/Star-city-drift/releases/download/ios-v1.9.0/Streets-of-Roanoke-1.9.0.ipa",
-          "size": 208436263,
+          "downloadURL": "https://github.com/matthewro2007-blip/Star-city-drift/releases/download/ios-v2.0.1/Streets-of-Roanoke-2.0.1.ipa",
+          "size": 207811660,
           "minOSVersion": "15.0"
         }
       ],
@@ -9257,10 +9258,10 @@
       "versions": [
         {
           "version": "1.2.0",
-          "date": "2026-10-21T12:16:58Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit bad1226. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-145/Ito-1.2.0-dev.145-unsigned.ipa",
-          "size": 12082758,
+          "date": "2026-10-21T18:01:59Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit c6fcea3. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-148/Ito-1.2.0-dev.148-unsigned.ipa",
+          "size": 12115790,
           "minOSVersion": "15.4"
         }
       ],
@@ -10810,11 +10811,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.9.0.95",
-          "date": "2026-10-21T07:03:53Z",
-          "localizedDescription": "Fixed:\n\nScrolling still ragged in large libraries — diagnosed from a screen recording, frame-by-frame: not a hard freeze, but a dropped-frame stutter during fast scrolling through a large grid (e.g. the Folders tab). The function every visible list row/grid cell calls to decode its artwork as it scrolls into view was running at .userInitiated — the highest background priority, competing directly with the scroll view's own rendering for CPU time. A fast fling surfaces several brand-new cells at once, each spawning one of these high-priority decodes, fighting the renderer frame by frame. Every other decode path in the same file already used the lower .utility priority; this was the one (and busiest) exception. Lowered to match — the same priority UIKit's own prefetch APIs use for scroll-driven image decode.\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HeavenlyXenusVR/Lumisound/releases/download/ios/v1.9.0.95/Lumisound-1.9.0.95-unsigned.ipa",
-          "size": 10998183,
+          "version": "1.9.0.98",
+          "date": "2026-10-21T18:15:46Z",
+          "localizedDescription": "Fixed:\n\n\"Save to\" dropdowns on the Pending Imports screen refreshing while open — same issue as the tracked-playlist fix in the previous release, confirmed on this screen too. Each row's folder picker and import-progress spinner read from dictionaries keyed by job ID on the parent view, which also holds two services with their own frequent, unrelated background activity — any of it re-rendering the parent rebuilt every row's dropdown along with it. Each row now owns its folder choice and importing state locally, seeded once from its own entry, so nothing about it depends on unrelated activity happening elsewhere in the app.\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HeavenlyXenusVR/Lumisound/releases/download/ios/v1.9.0.98/Lumisound-1.9.0.98-unsigned.ipa",
+          "size": 11001353,
           "minOSVersion": "26.0"
         }
       ],
@@ -10865,16 +10866,16 @@
       "bundleIdentifier": "org.reactjs.native.example.Musonic",
       "developerName": "DoodzProg",
       "subtitle": "A Spotify-like client for Navidrome, Subsonic \u0026 OctoFiesta — self-hosted music, done right. Built with React Native",
-      "localizedDescription": "Musonic:\n\nSelf-hosted music, beautifully played.\n\nA music app for Navidrome and any Subsonic-compatible server, on Android, iOS and in your browser. Your library, on your hardware, with an app that feels like it belongs on your phone.\n\nWhy Musonic:\n\n• Free and open source, no account, no ads, no tracking.\n• Your server only: Musonic plays what Navidrome serves; nothing is uploaded anywhere.\n• More than your library: recommendations and, with OctoFiesta, the online catalogue, side by side with your own music.\n• One ecosystem: the mobile app and the web client today, more tools to come, all in this repository.\n\nA new design:\n\n• Full-screen player with a softly blurred cover background, a quality badge (FLAC, MP3 320…) and drag-to-close.\n• Every screen has a landscape layout: two-column detail pages, wide grids, side-by-side player.",
+      "localizedDescription": "Musonic:\n\nYour music, your server, beautifully played.\n\nApps for Android, iOS and the browser, and Musonic Server to host your library yourself. Also works with Navidrome and any Subsonic-compatible server.\n\nMusonic for Android and iOS:\n\nA calm, fast music app: full-screen player with synced lyrics, a queue you can reorder, Shuffle Magic, Magic Mixes by genre, a home built from what you play, offline downloads (Wi-Fi first), separate streaming quality on Wi-Fi and mobile data, Android Auto (beta), English and French. → apps/mobile · changelog.\n\nMusonic Web:\n\nThe complete Musonic in a desktop browser: home, search, library, synced lyrics, full-screen player, floating mini player, keyboard and media keys. Import a Spotify or Deezer playlist from its address (with Musonic Server). Use it online, nothing to install, or host it yourself. → apps/web · changelog.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.reactjs.native.example.Musonic.png",
       "tintColor": "#eb6332",
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/home.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/home_for_you.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/magic_mix.jpg",
         "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/player.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/lyrics.jpg"
+        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/lyrics.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/search_results.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/library.jpg"
       ],
       "versions": [
         {
@@ -11641,7 +11642,7 @@
       "bundleIdentifier": "com.juananzzz.resonus",
       "developerName": "juananzzz",
       "subtitle": "A clean Android music player for your self-hosted server, and your local files",
-      "localizedDescription": "Android:\n\nAlso available on Obtainium for automatic updates.\n\niOS (experimental):\n\npage and sideload it with AltStore, Sideloadly or similar, or add Resonus as an AltSource to get updates. The build is unsigned, so it is not on the App Store or TestFlight.\n\nNot available on iOS yet: CarPlay, casting, the equalizer and gapless playback.\n\nFeatures:\n\n• Navidrome / OpenSubsonic / Jellyfin / Ampache: multi-profile login, multi-library support, plus several server addresses with automatic switching.\n• Local mode: play music straight from your device or a folder, no server needed.\n\n• Synced lyrics: karaoke view with tap-to-seek, word-by-word highlighting (TTML and enhanced LRC), full-screen mode, optional lookup on LRCLIB and lrc.red.\n• Internet radio: browse and manage your stations.\n• Cast to speakers: UPnP/DLNA renderers and Sonos, with room grouping; local music streams to them too.",
+      "localizedDescription": "Android:\n\nAlso available on Obtainium for automatic updates.\n\nF-Droid:\n\nResonus is not on F-Droid yet. Once it is, keep in mind that F-Droid builds the app itself and signs it with its own key, so the APK from GitHub (or Obtainium) and the one from F-Droid cannot update each other. Moving from one to the other means uninstalling first; Settings › About › Export settings keeps your settings to import afterwards. The F-Droid build is updated by F-Droid, a few days after each release here, so it has no update check of its own.\n\niOS (experimental):\n\npage and sideload it with AltStore, Sideloadly or similar, or add Resonus as an AltSource to get updates. The build is unsigned, so it is not on the App Store or TestFlight.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.juananzzz.resonus.png",
       "tintColor": "#2cc043",
       "category": "entertainment",
@@ -12738,29 +12739,29 @@
       }
     },
     {
-      "name": "Shalielie",
+      "name": "Palettify",
       "bundleIdentifier": "com.nathanhanapps.styleport",
       "developerName": "nathanatgit",
       "subtitle": "This is a personal repo for porting new Photographic Styles in iPhone to older model below 15",
-      "localizedDescription": "Photographic Style Port:\n\nCurrent version: v0.7.0.\n\nThis is an experimental tool that takes a HEIC from an iPhone older than the iPhone 16 (iPhone 15, 14, 13 … — any model whose photos match a supported tile layout) and adds the metadata an iPhone 16/17 photo carries, so that Apple Photos offers the Photographic Styles palette on it (风格 in Chinese; Apple calls the palette 调色板).\n\nSince v0.5 it also adds the iOS 27 Texture/Grain controls (质感/颗粒) that Apple introduced with the iPhone 18 Pro. Ported photos get them as part of the port; native iPhone 16/17 photos get only these controls, and their existing image data stays byte-identical.",
+      "localizedDescription": "Photographic Style Port:\n\nCurrent version: v0.7.1.\n\nThis is an experimental tool that takes a HEIC from an iPhone older than the iPhone 16 (iPhone 15, 14, 13 … — any model whose photos match a supported tile layout) and adds the metadata an iPhone 16/17 photo carries, so that Apple Photos offers the Photographic Styles palette on it (风格 in Chinese; Apple calls the palette 调色板).\n\nSince v0.5 it also adds the iOS 27 Texture/Grain controls (质感/颗粒) that Apple introduced with the iPhone 18 Pro. Ported photos get them as part of the port; native iPhone 16/17 photos get only these controls, and their existing image data stays byte-identical.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nathanhanapps.styleport.png",
-      "tintColor": "#2c7ee4",
+      "tintColor": "#519c86",
       "category": "photo-video",
       "versions": [
         {
-          "version": "0.7.0",
-          "date": "2026-10-10T15:28:11Z",
-          "localizedDescription": "The first public build of Shalielie (瞎咧咧), the iPhone app version of Photographic Style Port. It adds iPhone 16/17 Photographic Styles (and iOS 27 Texture \u0026 Grain) to photos from older iPhones, right on the phone.\n\nPre-release. Unsigned IPA for sideloading (Sideloadly, AltStore), which signs it with your own Apple ID. Keep originals.\n\nWhat's in it:\n\n• Library, Albums, Backup Bin and Settings tabs. Add a style to photos in your library, saved as new photos or replacing the original (the original goes to the Backup Bin first and can be restored).\n• Live Photos keep their motion. The app gives the video the style tracks and timed metadata Photos' editor needs on iOS 27, so a styled Live Photo opens in Edit with Style, Texture and Grain, and the video changes with the style.\n• Import HEIC (and MOV) Files… from the Files app; a HEIC that already has a style is saved as is, with its video.\n• Shortcuts action \"Add Photographic Style\".\n\nCredits:\n\nLive Photo support is (#7): on-device video styling with VideoToolbox, the iOS 27 video template, and the import fix for styled photos without Texture \u0026 Grain. Thank you!\n\nTested:\n\n• iPhone 17 Pro, iOS 27.0: Live Photos from an iPhone 13 imported from Files; Photos' editor opens them, Style and Texture present, video restyled (@lzh20025).\n• iPhone 15 Pro, iOS 27.0.1: still photos, save as new and replace.\n• Not yet tested on a phone: picking a Live Photo in the library, Replace mode for Live Photos, the Shortcuts action on Live Photos, Texture added to iPhone 16/17 Live Photos.",
-          "downloadURL": "https://github.com/nathanatgit/Shalielie/releases/download/ios-v0.7.0-beta.1/Shalielie-unsigned.ipa",
-          "size": 1960728,
+          "version": "0.7.1",
+          "date": "2026-10-21T19:31:21Z",
+          "localizedDescription": "New Contributors:\n\n• @lzh20025 made their first contribution.",
+          "downloadURL": "https://github.com/nathanatgit/Shalielie/releases/download/v0.7.1/Palettify-unsigned.ipa",
+          "size": 2942357,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSPhotoLibraryAddUsageDescription": "Shalielie saves the styled photos to your library.",
-          "NSPhotoLibraryUsageDescription": "Shalielie reads the original HEIC and Live Photo video of the photos you style, and replaces them when you ask it to."
+          "NSPhotoLibraryAddUsageDescription": "Palettify saves the styled photos to your library.",
+          "NSPhotoLibraryUsageDescription": "Palettify reads the original HEIC and Live Photo video of the photos you style, and replaces them when you ask it to."
         }
       }
     },
