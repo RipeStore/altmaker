@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.handtracker.mouse",
-    "com.handtracker.app",
-    "app.netfish.ios"
+    "dev.voxline.ios",
+    "moe.itoapp.ito",
+    "com.rebelancap.perfectdark"
   ],
   "apps": [
     {
@@ -1995,10 +1995,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-19T19:48:05Z",
+          "date": "2026-10-21T08:34:46Z",
           "localizedDescription": "",
           "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.0/Scripta-ios-unsigned.ipa",
-          "size": 10533319,
+          "size": 10545203,
           "minOSVersion": "15.0"
         }
       ],
@@ -2260,10 +2260,10 @@
       "versions": [
         {
           "version": "0.1.5",
-          "date": "2026-10-18T23:55:47Z",
-          "localizedDescription": "ios 0.1.5-nightly.20261018.15:\n\nChanges since ios/v0.1.5-nightly.20261017.1.",
-          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.5-nightly.20261018.15/conduit-0.1.5-nightly.20261018.15-ios-unsigned.ipa",
-          "size": 46412893,
+          "date": "2026-10-21T05:45:45Z",
+          "localizedDescription": "ios 0.1.5-nightly.20261021.18:\n\n• fix(mobile): wait for a source before switching episodes (#314) (6e77d2502).\n\nChanges since ios/v0.1.5-nightly.20261018.15.",
+          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.5-nightly.20261021.18/conduit-0.1.5-nightly.20261021.18-ios-unsigned.ipa",
+          "size": 46413106,
           "minOSVersion": "15.0"
         }
       ],
@@ -2667,11 +2667,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.41",
-          "date": "2026-10-20T19:19:52Z",
-          "localizedDescription": "English:\n\n• Improves live stroke rendering and two-finger zoom with drawing on or off, including when the assistant sidebar is open.\n\n• Fixes missing workspace bindings when creating or reopening a Notes assistant conversation.\n• Adds status, bounded waiting, cancellation and final text for the exact Shortcuts run, while preserving the legacy run action.\n\nRelevant local App builds, Simulator interactions and save/readback checks have passed. Physical Apple Pencil pressure, palm rejection and device feel remain subject to device feedback. The unsigned IPA requires signing for installation and supports iOS/iPadOS 26+.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.41/Floe-Agent-1.7.41-build282-unsigned.ipa",
-          "size": 800954813,
+          "version": "1.7.42",
+          "date": "2026-10-21T06:17:45Z",
+          "localizedDescription": "English:\n\n• The assistant can inspect sheets, cell ranges, pages and rectangles, including offscreen content. Ordinary messages no longer attach screenshots automatically.\n• Fixes white backgrounds and color shifts after lifting the Excel highlighter, preserving the text, grid and fill underneath.\n• PDF export and printing share settings before generation: XLSX supports sheet or cell scope, paper, orientation, fit and margins; Word/PowerPoint support final PDF page selection.\n\n• Reduces false conflicts and duplicate recovery copies during continuous Notes handwriting and recovery.\n• Online content enables Toutiao, Douyin encyclopedia and Moji weather together, without separate source switches. Professional datasets remains separate and off by default.\n\nRelevant local App builds and focused Simulator/save-readback checks passed. Physical Apple Pencil pressure, palm rejection and device feel remain subject to device feedback. The unsigned IPA requires signing for installation and supports iOS/iPadOS 26+.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.42/Floe-Agent-1.7.42-build283-unsigned.ipa",
+          "size": 801552098,
           "minOSVersion": "26.0"
         }
       ],
@@ -2801,11 +2801,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.21",
-          "date": "2026-10-21T04:01:17Z",
-          "localizedDescription": "Fixed:\n\n• Channel guide on TVs: a programme's window didn't fit the screen. Opening a programme still to come showed its picture across the whole window, and the rest (when it's on, the episode, the description) was cut off below with no way to scroll with the remote. On TVs the window is now wide, with the picture on the left and the details beside it, so it fits a Fire TV or Samsung screen.\n\n• Long descriptions: down on the remote scrolls the text first, then moves to the buttons; up scrolls back. The picture stays where it is while the text moves. This works in any window on a TV with more to read than fits.\n• Down when a window opens now goes to its buttons (Watch channel now, More info), not up to the close button. Back still closes it.\n• The window's picture also lost some stray padding it picked up from the Settings footer, which happened to share its name.\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.21/Netfish-ios.ipa",
-          "size": 926094,
+          "version": "0.7.22",
+          "date": "2026-10-21T06:02:18Z",
+          "localizedDescription": "Changed:\n\n• Forced subtitles count as \"Off\" in the player's menu. Some files carry a forced subtitle track next to the full one: it only shows signs and lines in another language. Jellyfin turns it on by itself when subtitles are off or set to Only when the audio isn't my language and the film is in your language. The menu then ticked \"English · Forced\", which looked as if subtitles had been set to forced. Now, as on Netflix:.\n\n• \"Off\" is ticked while only the forced track is showing, and the forced track isn't listed separately (unless it's the only one in its language).\n• Choosing \"Off\" keeps the forced track on (signs and other-language lines still show), matching what you get when a film starts.\n• The same in films, episodes and channels, on every device, and in the subtitles list on a phone used as a remote.\n• Checked against Jellyfin 12.2: with Only when the audio isn't my language, a film in English starts with its forced English track, and a film in Italian with the full English one.\n\nFixed:\n\n• A deleted show could stay in Shows. When a show's files are deleted, Jellyfin keeps listing it while its folder is still there (Sonarr leaves it, often with subtitles inside). Netfish only left such a show out when it knew the show was deleted: deleted all at once through Netfish, or unmonitored with a deletion in Sonarr's history. Otherwise the show stayed in Shows, with a page offering Request and nothing to play. Now Netfish also asks Jellyfin which shows have no episodes left (one request, its own count) and leaves those out of Shows, Home and search, however the files went. Checked against Jellyfin 12.2: a show counts 0 episodes as soon as its files are gone, with the folder and a leftover subtitle still there.\n• \"Forced\" said twice (\"English · Forced · Forced\") for forced tracks whose own name is \"Forced\".\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.22/Netfish-ios.ipa",
+          "size": 926144,
           "minOSVersion": "16.0"
         }
       ],
@@ -4341,11 +4341,11 @@
       ],
       "versions": [
         {
-          "version": "3.22.0",
-          "date": "2026-10-20T17:49:10Z",
-          "localizedDescription": "• New logo: the Seal. The app, browser tab, loading and crash screens, Settings → About, and every desktop, iOS, and Android icon now show the Seal instead of Octobot. Its Signal Blue dot pulses while the app loads.\n• No more macOS keychain prompts after updates. Desktop access keys now live in a file only your user can read, and the app is signed once in CI rather than on your machine.\n• Mermaid diagrams open full screen. A new Full screen button redraws the diagram at window width with zoom always on. Inline labels now match the reply text size, and the frame is flat with no border.\n\n• The Plan tab shows the saved plan. Plans no longer stream into the tab while they are being written. A saved plan call in the transcript has View plan.\n\n• The composer collapses after the first send from the new-session screen, like every other send on desktop.\n\nBreaking Changes:\n\n• Desktop remote server keys: keys that were saved in the OS keychain are not migrated. Re-enter them under Settings → Connection.\n• Desktop network access: the LAN access key is regenerated, so pair your phones and other devices again with the new key.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.22.0/OpenAgentd_3.22.0_iOS.ipa",
-          "size": 6439791,
+          "version": "3.23.0",
+          "date": "2026-10-21T07:30:00Z",
+          "localizedDescription": "• Previews in the mobile app and on remote servers. The Preview tab now works in the iOS and Android apps and in desktop windows connected to a remote server. The app relays the page from its own 127.0.0.1 port to the server, so the previewed page still never sees your access key. This needs a server with an access key, and any reverse proxy in front of it must pass WebSocket upgrades. Open in browser is unavailable in relayed previews, and a plain browser on another device shows a notice instead.\n\n• Consistent built-in instructions. The built-in prompt, runtime rules, Plan and Code notes, tool descriptions and member prompts no longer contradict each other or mention tools the agent doesn't have. The agent follows AGENTS.md files and loaded skills as working guidance. Delegated agents get their own Plan and Code notes. Member prompt files you never edited now pick up built-in prompt updates, while files you edited stay as they are.\n• Full session titles in more languages. Session titles in Vietnamese, Chinese, Japanese and Korean are no longer cut off mid-word.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.23.0/OpenAgentd_3.23.0_iOS.ipa",
+          "size": 5895191,
           "minOSVersion": "15.0"
         }
       ],
@@ -4408,11 +4408,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-10-13T02:05:36Z",
-          "localizedDescription": "Added:\n\n• Import SRT and VTT subtitles for associated audio or video on macOS and iOS. Adding MP4, MOV or M4V videos automatically imports an available tx3g text track.\n• Import translations with time-based matching and a preview; save unmatched entries and assign them later. Imported source subtitles use the existing translation, proofreading and export workflow without speech recognition.\n• Preserve overlapping subtitles in playback, proofreading and SRT output; display all simultaneous text in embedded and burned-in video exports.\n\n• Refreshed application icon and update settings.\n\nFixed:\n\n• Resume update checks after leaving and reopening the update page.\n• Keep subtitle import drafts consistent when reading fails or the task changes during preview.\n• Undo subtitle imports and speech-recognition switches with their complete source and checkpoint state.\n• Restore the Mac task menu's sync conflict recovery entry and keep unselected versions as separate tasks.\n\nDownloads:\n\n• macOS 15+: Voxline-1.1.0.zip (x86_64 arm64; ad-hoc signed; not notarized).\n• iOS / iPadOS 18+: Voxline-iOS-1.1.0.ipa (unsigned; sign with AltStore, SideStore or Xcode).\n\nKeep the same signing account and Bundle ID when reinstalling the IPA to preserve app data.",
-          "downloadURL": "https://github.com/yamakze/Voxline/releases/download/v1.1.0/Voxline-iOS-1.1.0.ipa",
-          "size": 6478477,
+          "version": "1.1.1",
+          "date": "2026-10-21T09:03:59Z",
+          "localizedDescription": "Improved:\n\n• Improved glass-style surfaces on macOS 15 with translucent fills, gradient highlights, and softer shadows.\n• Reduced idle interface work, processing progress updates, and word timestamp alignment overhead.\n• Streamlined iOS imports, playback cleanup, and temporary export ownership across previews and sharing.\n\nFixed:\n\n• Restored focused subtitle search and protected editing drafts when switching pages or media.\n• Recovered transcription text at chunk boundaries and kept whitespace and zero-duration words with adjacent speech.\n• Improved subtitle export cancellation and output validation, and rejected paths in temporary export file names.\n• Prevented opening another Mac window from interrupting active cloud processing with redundant service reloads.\n\nDownloads:\n\n• macOS 15+: Voxline-1.1.1.zip (x86_64 arm64; ad-hoc signed; not notarized).\n• iOS / iPadOS 18+: Voxline-iOS-1.1.1.ipa (unsigned; sign with AltStore, SideStore or Xcode).\n\nKeep the same signing account and Bundle ID when reinstalling the IPA to preserve app data.",
+          "downloadURL": "https://github.com/yamakze/Voxline/releases/download/v1.1.1/Voxline-iOS-1.1.1.ipa",
+          "size": 6539330,
           "minOSVersion": "18.0"
         }
       ],
@@ -4642,7 +4642,7 @@
         {
           "version": "1.2",
           "date": "2026-10-16T20:55:23Z",
-          "localizedDescription": "NotBlood Chosen 1.2:\n\nNotBlood Chosen is NotBlood (the Blood source port) with computer players (bots), new match types, co-op saves, internet play without port forwarding, a live game dashboard, a MODS menu and a LAN game finder. It runs on Windows, Linux, macOS, Android and iPad/iPhone, and all of them play together.\n\nYou need your own Blood files (One Unit Whole Blood: CD, GOG or Steam). The game files are not included.\n\nDownloads:\n\nNo install at all: if you or a friend runs a NotBlood server, open its address followed by /play/ in Safari, Chrome, Edge or Firefox. Pick your Blood files once, add it to the home screen and it works offline, with everything below except LAN games (more).\n\nEverybody in a network game needs 1.2. Older versions can't join a 1.2 game, and 1.2 can't join theirs.\n\nSetup:\n\nWindows / Linux.\n\n• Unzip into a folder of its own, for example NotBlood.\n• Copy your Blood files next to the game: BLOOD.INI, BLOOD.RFF, GUI.RFF, SOUNDS.RFF, SURFACE.DAT, TABLES.DAT, VOXEL.DAT and TILES000.ART to TILES017.ART.\n• Start notblood.exe (Windows) or ./notblood (Linux; if SDL2 is missing: sudo apt install libsdl2-2.0-0).\n\nmacOS.\n\n• Copy your Blood files into the folder, next to NotBlood.app.\n• The app isn't signed by Apple, so macOS blocks it the first time. Open Terminal and type xattr -dr com.apple.quarantine with a space at the end. Drag the NotBlood folder onto the Terminal window and press Return.\n• Double-click NotBlood.app.\n\nAndroid.\n\n• Install the APK and start it once. Allow it \"access to all files\".\n\n• 1.2 installs over NotBlood Chosen 1.0 and over the bots test builds, and keeps your files and settings.\n\niPad / iPhone.\n\n• Sign and install the IPA with Signulous, Sideloadly or AltStore, and start it once.\n• Copy your Blood files to Files \u003e On My iPad \u003e NotBlood.\n\nOptional extras (all platforms, in the game folder).\n\n• movie/: the cutscenes from the Blood CD's MOVIE folder.\n• addons/: add-on episodes, one folder each (for example Cryptic Passage in addons/cryptic).\n• mods/: mods as folders, .zip, .grp or .pk3 files. Pick them in the main menu under MODS.\n• CD music: save the CD audio tracks as blood02.ogg, blood03.ogg, and so on, then turn on OPTIONS \u003e SOUND \u003e REDBOOK AUDIO.\n\nWhat NotBlood Chosen adds to NotBlood:\n\nBots (new in 1.2).\n\n• Computer players that play like people. They hide, jump, chase, flee, ambush you at doorways, flank, take the high ground, ride lifts and open doors. They only know what a player could know: what they see and hear, and where they last saw you.\n• 4 difficulties (easy, normal, hard, nightmare) and 6 personalities (balanced, rusher, camper, trickster, coward, jumper), or a mix of them.\n• FINE TUNING for all bots: aim, reaction time, aggression, jumping, ambushes, flanking, camping, high ground, taunts, the cultist look, and how much damage they take. GRUDGES and ADAPTIVE DIFFICULTY are optional.\n• SET EACH BOT (new in 1.2): give each bot its own name, difficulty, personality, team, damage and fine tuning.\n• Offline: MULTIPLAYER \u003e PLAY WITH BOTS, plus a 10-match CAREER and WATCH BOTS (only bots play while you watch).\n• In LAN and online games (new in 1.2): the host adds bots in the MULTIPLAYER setup under BOTS. The host's computer plays them, so everybody sees the same bots.\n• BOT ORDERS (ESC): follow me, hold this spot, go ahead. These are for the bots on your side in co-op and teams.\n\nMatch types and mutators.\n\n• Bloodbath: normal, gun game, king of the hill, juggernaut, last man standing.\n• Teams (new in 1.2: all four modes): team bloodbath, capture the flag, king of the hill, last team standing.\n• Co-op: normal, survival (waves of monsters).\n• SET TEAMS (new in 1.2): put every player and bot on AUTO, BLUE or RED. Uneven teams are allowed.\n• Mutators: low or moon gravity, vampire, one-hit kills, random or single weapon.\n• MATCH STATS: frags, deaths, aim, best streak, favourite weapon, nemesis.\n\nCo-op saves.\n\n• 8 slots, saved on every player's machine.\n• Load where you saved (positions, keys, enemies) or restart the level with your gear.\n• Players get their saves by name. New players start with the pitchfork. When somebody leaves, the game saves itself.\n\nOnline and LAN.\n\n• Online lobbies through your own relay server (how to run it: SERVER.md). They are protected by a key and need no port forwarding. There is no default server: enter your own server's address and key.\n• A live dashboard in the browser: lobbies, players' health, armor, weapons and keys, a live level map and an event list.\n• FIND LAN GAMES. The host screen shows your address, and you get clear messages when versions or mods differ.\n\nEverything else.\n\n• MODS menu for add-on episodes and mods. A mod that breaks the start is switched off again.\n• Cutscenes from the CD's movie folder in any upper or lower case.\n• Touch controls, gyro aiming and render scale on Android and iPad. The touch buttons hide while a controller is connected.\n• A macOS app (Apple Silicon and Intel) that needs no administrator. Android keeps everything in the NotBlood folder.\n• Settings are saved whenever a menu closes. On Android there is a crash report in notblood.log.\n\nNew in 1.2 compared to 1.0:\n\n• Bots, the match types, mutators and match stats (all of these were only in the bots test builds before).\n• Bots in LAN and online games, SET EACH BOT and SET TEAMS.\n• Team bloodbath without flags, and last team standing.\n• MODE now sits right under GAME in GAME SETTINGS.\n• No default online server.\n• Android: the black sky, explosions turning the world black, settings not being kept and slow drawing are fixed.\n• macOS: faster drawing on Apple GPUs.\n\nQuick start:\n\nYou against bots: MULTIPLAYER \u003e PLAY WITH BOTS. Set BOTS, DIFFICULTY and PERSONALITY, then START MATCH. Change the map, mode and limits in MATCH SETTINGS.\n\n2 players on a LAN plus 2 bots.\n\n• Player 1: MULTIPLAYER \u003e HOST A GAME.\n• In the setup, set BOTS (under GAME) to 2.\n• Player 2: MULTIPLAYER \u003e FIND LAN GAMES and join.\n• Player 1: once player 2 has joined, START GAME.\n\nTeams: GAME SETTINGS \u003e GAME: TEAMS. Pick the MODE, then use SET TEAMS to choose who plays on which side.\n\nGame modes:\n\nEvery mode works with only people, only bots, or both. The README in the download explains every menu in more detail, and README - Bots.txt covers the bots.\n\nKnown issues:\n\n• Blood's demo files close the game: if the game folder has Blood's demo files (*.DEM, the gameplay behind the main menu), the game closes when a match with bots starts (seen on Windows). Remove the .DEM files from the game folder or start the game with -nodemo.\n• Co-op saves: they are off in games with bots.\n• Broadcast games: bots can't be added to games started with -broadcast.\n• Platform testing: Linux and Windows are tested most. Cross-platform games and the iPad build are less tested, so please report problems with notblood.log from the game folder.\n\nNotBlood Chosen is GPL 2, like NotBlood. Source: AdrianPol-projects/NotBlood-Chosen.\n\nThe web download was updated on its own in build 14 (commit 6881164); the other downloads are from the build in the title.",
+          "localizedDescription": "NotBlood Chosen 1.2:\n\nNotBlood Chosen is NotBlood (the Blood source port) with computer players (bots), new match types, co-op saves, internet play without port forwarding, a live game dashboard, a MODS menu and a LAN game finder. It runs on Windows, Linux, macOS, Android and iPad/iPhone, and all of them play together.\n\nYou need your own Blood files (One Unit Whole Blood: CD, GOG or Steam). The game files are not included.\n\nDownloads:\n\nNo install at all: if you or a friend runs a NotBlood server, open its address followed by /play/ in Safari, Chrome, Edge or Firefox. Pick your Blood files once, add it to the home screen and it works offline, with everything below except LAN games (more).\n\nEverybody in a network game needs 1.2. Older versions can't join a 1.2 game, and 1.2 can't join theirs.\n\nSetup:\n\nWindows / Linux.\n\n• Unzip into a folder of its own, for example NotBlood.\n• Copy your Blood files next to the game: BLOOD.INI, BLOOD.RFF, GUI.RFF, SOUNDS.RFF, SURFACE.DAT, TABLES.DAT, VOXEL.DAT and TILES000.ART to TILES017.ART.\n• Start notblood.exe (Windows) or ./notblood (Linux; if SDL2 is missing: sudo apt install libsdl2-2.0-0).\n\nmacOS.\n\n• Copy your Blood files into the folder, next to NotBlood.app.\n• The app isn't signed by Apple, so macOS blocks it the first time. Open Terminal and type xattr -dr com.apple.quarantine with a space at the end. Drag the NotBlood folder onto the Terminal window and press Return.\n• Double-click NotBlood.app.\n\nAndroid.\n\n• Install the APK and start it once. Allow it \"access to all files\".\n\n• 1.2 installs over NotBlood Chosen 1.0 and over the bots test builds, and keeps your files and settings.\n\niPad / iPhone.\n\n• Sign and install the IPA with Signulous, Sideloadly or AltStore, and start it once.\n• Copy your Blood files to Files \u003e On My iPad \u003e NotBlood.\n\nOptional extras (all platforms, in the game folder).\n\n• movie/: the cutscenes from the Blood CD's MOVIE folder.\n• addons/: add-on episodes, one folder each (for example Cryptic Passage in addons/cryptic).\n• mods/: mods as folders, .zip, .grp or .pk3 files. Pick them in the main menu under MODS.\n• CD music: save the CD audio tracks as blood02.ogg, blood03.ogg, and so on, then turn on OPTIONS \u003e SOUND \u003e REDBOOK AUDIO.\n\nWhat NotBlood Chosen adds to NotBlood:\n\nBots (new in 1.2).\n\n• Computer players that play like people. They hide, jump, chase, flee, ambush you at doorways, flank, take the high ground, ride lifts and open doors. They only know what a player could know: what they see and hear, and where they last saw you.\n• 4 difficulties (easy, normal, hard, nightmare) and 6 personalities (balanced, rusher, camper, trickster, coward, jumper), or a mix of them.\n• FINE TUNING for all bots: aim, reaction time, aggression, jumping, ambushes, flanking, camping, high ground, taunts, the cultist look, and how much damage they take. GRUDGES and ADAPTIVE DIFFICULTY are optional.\n• SET EACH BOT (new in 1.2): give each bot its own name, difficulty, personality, team, damage and fine tuning.\n• Offline: MULTIPLAYER \u003e PLAY WITH BOTS, plus a 10-match CAREER and WATCH BOTS (only bots play while you watch).\n• In LAN and online games (new in 1.2): the host adds bots in the MULTIPLAYER setup under BOTS. The host's computer plays them, so everybody sees the same bots.\n• BOT ORDERS (ESC): follow me, hold this spot, go ahead. These are for the bots on your side in co-op and teams.\n\nMatch types and mutators.\n\n• Bloodbath: normal, gun game, king of the hill, juggernaut, last man standing.\n• Teams (new in 1.2: all four modes): team bloodbath, capture the flag, king of the hill, last team standing.\n• Co-op: normal, survival (waves of monsters).\n• SET TEAMS (new in 1.2): put every player and bot on AUTO, BLUE or RED. Uneven teams are allowed.\n• Mutators: low or moon gravity, vampire, one-hit kills, random or single weapon.\n• MATCH STATS: frags, deaths, aim, best streak, favourite weapon, nemesis.\n\nCo-op saves.\n\n• 8 slots, saved on every player's machine.\n• Load where you saved (positions, keys, enemies) or restart the level with your gear.\n• Players get their saves by name. New players start with the pitchfork. When somebody leaves, the game saves itself.\n\nOnline and LAN.\n\n• Online lobbies through your own relay server (how to run it: SERVER.md). They are protected by a key and need no port forwarding. There is no default server: enter your own server's address and key.\n• A live dashboard in the browser: lobbies, players' health, armor, weapons and keys, a live level map and an event list.\n• FIND LAN GAMES. The host screen shows your address, and you get clear messages when versions or mods differ.\n\nEverything else.\n\n• MODS menu for add-on episodes and mods. A mod that breaks the start is switched off again.\n• Cutscenes from the CD's movie folder in any upper or lower case.\n• Touch controls, gyro aiming and render scale on Android and iPad. The touch buttons hide while a controller is connected.\n• A macOS app (Apple Silicon and Intel) that needs no administrator. Android keeps everything in the NotBlood folder.\n• Settings are saved whenever a menu closes. On Android there is a crash report in notblood.log.\n\nNew in 1.2 compared to 1.0:\n\n• Bots, the match types, mutators and match stats (all of these were only in the bots test builds before).\n• Bots in LAN and online games, SET EACH BOT and SET TEAMS.\n• Team bloodbath without flags, and last team standing.\n• MODE now sits right under GAME in GAME SETTINGS.\n• No default online server.\n• Android: the black sky, explosions turning the world black, settings not being kept and slow drawing are fixed.\n• macOS: faster drawing on Apple GPUs.\n\nQuick start:\n\nYou against bots: MULTIPLAYER \u003e PLAY WITH BOTS. Set BOTS, DIFFICULTY and PERSONALITY, then START MATCH. Change the map, mode and limits in MATCH SETTINGS.\n\n2 players on a LAN plus 2 bots.\n\n• Player 1: MULTIPLAYER \u003e HOST A GAME.\n• In the setup, set BOTS (under GAME) to 2.\n• Player 2: MULTIPLAYER \u003e FIND LAN GAMES and join.\n• Player 1: once player 2 has joined, START GAME.\n\nTeams: GAME SETTINGS \u003e GAME: TEAMS. Pick the MODE, then use SET TEAMS to choose who plays on which side.\n\nGame modes:\n\nEvery mode works with only people, only bots, or both. The README in the download explains every menu in more detail, and README - Bots.txt covers the bots.\n\nKnown issues:\n\n• Blood's demo files close the game: if the game folder has Blood's demo files (*.DEM, the gameplay behind the main menu), the game closes when a match with bots starts (seen on Windows). Remove the .DEM files from the game folder or start the game with -nodemo.\n• Co-op saves: they are off in games with bots.\n• Broadcast games: bots can't be added to games started with -broadcast.\n• Platform testing: Linux and Windows are tested most. Cross-platform games and the iPad build are less tested, so please report problems with notblood.log from the game folder.\n\nNotBlood Chosen is GPL 2, like NotBlood. Source: AdrianPol-projects/NotBlood-Chosen.\n\nThe web download was updated on its own in build 17 (commit 4853b5c); the other downloads are from the build in the title.",
           "downloadURL": "https://github.com/AdrianPol-projects/NotBlood-Chosen/releases/download/v1.2/NotBlood-Chosen-1.2-ios.ipa",
           "size": 16818680,
           "minOSVersion": "15.0"
@@ -6648,11 +6648,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.5",
-          "date": "2026-10-20T21:23:29Z",
-          "localizedDescription": "Release v6.2.5:\n\n• Improve YouTube subtitle study and comprehension controls (a3cf7803f).\n• Preserve dictionary images when exporting cards to Anki (191448f0d).\n• Fix mobile runtime package activation (8117d7266).\n• Fix novel title sorting and preserve imported filenames (c4dad13a4).\n• Let readers correct and remember novel languages (e26d0e311).\n• Refine SRS navigation, reviewer layout, and audio controls (5d164dcbe).\n• Recover diverged sidecar sync histories (cafc551f8).\n• Restore desktop YouTube playback and media capture (f7f9d717f).\n• Preserve extension settings through backup restore and sync (3ead2328f).\n• Keep expanded dictionary definitions within the screen (0ae226d8d).\n• Add configurable video click playback shortcuts (f20fe6b23).\n• Keep reader flashcard exports synchronized with the selected profile (ecba98c52).\n• Preserve SRS progress when importing official Manatan NoteType decks (316894cb5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.5/Manatan-v6.2.5-iOS.ipa",
-          "size": 406212777,
+          "version": "6.2.6",
+          "date": "2026-10-21T04:18:52Z",
+          "localizedDescription": "Release v6.2.6:\n\n• Keep video controls hidden during playback shortcuts (2bbe11a75).\n• Unify Shorts playback and eliminate subtitle transition jumps (703a11d0c).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.6/Manatan-v6.2.6-iOS.ipa",
+          "size": 406228112,
           "minOSVersion": "16.1"
         }
       ],
@@ -7319,17 +7319,17 @@
       "bundleIdentifier": "com.giovlnv.tarotreader",
       "developerName": "giovlnv",
       "subtitle": "your familiar knows the way",
-      "localizedDescription": "Familiar:\n\nyour familiar knows the way.\n\nA study companion for tarot, Lenormand, astrology and numerology on iPhone: books become two-voice audiobooks, your notes and readings live next to them, and a small witch's familiar walks the path with you.\n\nStudying esoteric systems means reading dense books, connecting symbols, and practising readings. Familiar puts that into one app:\n\n• Listen to a book read word for word, with a short spoken explanation after every section (archetypes, card meanings, everyday examples) in a second voice.\n• Think out loud: tie notes to the exact passage, or ask Claude about it and keep the answer as a numbered consult.\n• Practise: log tarot readings in the Journal with the spread, the cards and your interpretation.",
+      "localizedDescription": "Familiar:\n\nyour familiar knows the way.\n\nA study companion on iPhone for tarot, Lenormand, astrology, numerology, systems of your own and any subject you study: books become audiobooks read on the phone, your notes, readings and flashcards live next to them, and a small witch's familiar walks the path with you.\n\nStudying means reading dense books, connecting symbols and practising. Familiar puts that into one app:\n\n• Listen and read: a book is read aloud with the text following along, or read on real pages with \"Listen from here\".\n• Think out loud: notes tied to the exact passage, highlights and bookmarks, explanations on demand.\n• Practise: log readings in the Journal (tarot, Lenormand, your own decks), or keep notes and flashcards for a study subject.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.giovlnv.tarotreader.png",
       "tintColor": "#8d733b",
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.6.1",
-          "date": "2026-10-21T03:52:17Z",
+          "version": "1.7.0",
+          "date": "2026-10-21T07:46:31Z",
           "localizedDescription": "Download Familiar.ipa on your iPhone and open it with AltStore or Sideloadly.",
           "downloadURL": "https://github.com/giovlnv/ios_202610.familiar/releases/download/latest/Familiar.ipa",
-          "size": 21071852,
+          "size": 21286398,
           "minOSVersion": "17.0"
         }
       ],
@@ -7871,11 +7871,11 @@
       "tintColor": "#c7a55c",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/cross-platform/reading-en.png",
-        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/cross-platform/scanned-pdf-en.png",
-        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/cross-platform/ocr-en.png",
-        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/cross-platform/library-en.png",
-        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/cross-platform/styles-en.png"
+        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/v1.3.0/bookshelf-en.png",
+        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/v1.3.0/reading-en.png",
+        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/v1.3.0/scanned-pdf-en.png",
+        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/v1.3.0/ocr-en.png",
+        "https://cdn.jsdelivr.net/gh/sobranie2406/modureader@main/docs/images/showcase/v1.3.0/reflow-compare-en.png"
       ],
       "versions": [
         {
@@ -8682,11 +8682,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.2",
-          "date": "2026-10-19T04:08:19Z",
-          "localizedDescription": "• feat(player): optional libmpv libass renderer for ASS/SSA on ExoPlayer @chrisk325.\n• fix(player): soften liquid glass on player controls @chrisk325.\n• fix(android): apply the player orientation toggle @luqmanfadlli.\n• feat(player): orientation toggle for portrait videos @luqmanfadlli.\n• fix(android): pinch zoom grows past the black bars in Fit on ExoPlayer @luqmanfadlli.\n• feat(player): pinch for a custom zoom that keeps the aspect ratio @luqmanfadlli.\n• feat(player): make Fill stretch on MPV and add pinch-to-zoom @luqmanfadlli.\n• fix(settings): show slider values live while dragging @luqmanfadlli.\n• fix(simkl): move explicitly watched series to Completed @luqmanfadlli.\n• fix(ios): offer external players when scheme probing is unavailable @luqmanfadlli.\n• more Enhanced strings into pt-BR (Brazilian Portuguese) (#209) @mikhaelvm.\n• feat Liquid Glass integration in the entire android UI including legacy player with a toggle to disable it all (#210) @chrisk325.\n• feat(player): tie the PiP button to the mini player setting on both platforms @luqmanfadlli.\n• feat(ios): bring mini player to iOS @luqmanfadlli.\n• fix(ios): keep iPad Liquid Glass tab bar setting device-local @luqmanfadlli.\n• feat(ios): Liquid Glass tab bar option on iPadOS 26+ @luqmanfadlli.\n• feat anime id mapper for trakt, mdblist and wetrackr (#205) @chrisk325.\n• feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#202) @mikhaelvm.\n• Revision and completion of pt-BR translation (#201) @mikhaelvm.\n• fixes related to watchparty (#200) @chrisk325.\n\n• Fix escaped apostrophes and missing Italian translations (#2312) @WhiteGiso.\n• fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308) @WhiteGiso.\n• i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292) @nosvasedis.\n• Filename and infoHash matching for binge group, prefetch fixes (#2278) @skoruppa.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.2-beta/nuvio-0.6.2-enhanced-release.ipa",
-          "size": 72991139,
+          "version": "0.6.3",
+          "date": "2026-10-21T04:26:46Z",
+          "localizedDescription": "• feat(subtitle): add custom font and shadow (#227) @luqmanfadlli.\n• Translate new strings to pt-BR and some minor changes (#223) @mikhaelvm.\n• fix(player): liquid glass regression from the mpv libass layer @chrisk325.\n• feat(streams): liquid glass search bar @chrisk325.\n\n• fix text visibility on stream cards (#216) @chrisk325.\n• fix(details): reuse the hero artwork for the cinematic background @luqmanfadlli.\n• feat(streams): liquid glass stream filter field in cinematic mode @luqmanfadlli.\n• fix(navigation): fix nav bar glass shadow rendering @luqmanfadlli.\n• refactor(glass): fold small nav bar glass files into their owners @luqmanfadlli.\n• refactor(navigation): wire the unified nav bar glass and drop old strings @luqmanfadlli.\n• feat(settings): one Glass section for the nav bar @luqmanfadlli.\n• refactor(navigation): render the nav bar glass through one path @luqmanfadlli.\n• refactor(glass): one nav bar glass model (material + effect settings) @luqmanfadlli.\n• fix(trailer): keep iOS hero trailer zoomed after Fill became stretch @luqmanfadlli.\n• fix(settings): keep nav bar Liquid Glass and icon colour settings local @luqmanfadlli.\n• Feature/(Android): add configurable Liquid Glass and custom icon colors for navigation bar (#213) @jeff25steve.\n• fix(party): show the party's source as plain text @tapframe.\n• fix(player): keep center controls in place on pause @tapframe.\n• feat(player): show badges for what is playing @tapframe.\n\n• fix(player): move engine switch to top row with confirmation @tapframe.\n• feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288) @jhojhocraazy.\n\n• Update Hungarian translations (#2333) @emgeje.\n• Fix binge group initial state from stream args, apply custom posters in library see-all (#2332) @skoruppa.\n• i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297) @blueocean2308.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.3-beta/nuvio-0.6.3-enhanced-release.ipa",
+          "size": 73495899,
           "minOSVersion": "16.1"
         }
       ],
@@ -9250,17 +9250,18 @@
       "tintColor": "#64bd9e",
       "category": "entertainment",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/library.png",
         "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/details.png",
         "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/reader.png",
-        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/library.png"
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/novel.png"
       ],
       "versions": [
         {
-          "version": "1.1.1",
-          "date": "2026-10-21T02:29:03Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit bcef85a. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-140/Ito-1.1.1-dev.140-unsigned.ipa",
-          "size": 12049889,
+          "version": "1.2.0",
+          "date": "2026-10-21T08:52:15Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 9b23c13. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-144/Ito-1.2.0-dev.144-unsigned.ipa",
+          "size": 12069874,
           "minOSVersion": "15.4"
         }
       ],
@@ -9280,11 +9281,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.2",
-          "date": "2026-10-18T23:13:01Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
-          "size": 68666779,
+          "version": "0.6.3",
+          "date": "2026-10-21T04:42:34Z",
+          "localizedDescription": "• d45d4d36 fix(party): show the party's source as plain text @tapframe.\n• 37a6656a fix(player): keep center controls in place on pause @tapframe.\n• 344117e7 feat(player): show badges for what is playing @tapframe.\n\n• 18268427 fix(player): move engine switch to top row with confirmation @tapframe.",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+          "size": 68815810,
           "minOSVersion": "16.1"
         }
       ],
@@ -10525,11 +10526,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.420",
-          "date": "2026-10-20T08:40:56Z",
-          "localizedDescription": "Changed:\n\n• Inbox cards on Android and iOS lead with their project's color and initial and carry a status badge: a pulsing dot while the agent works, a dot for replies, an eye for review, a check for finished work and a cross for failures. Cards that need you, are running or wait for review are tinted in their status color, and Mark done is a compact chip beside the status.\n• Pin Inbox cards to keep them in a Pinned section at the top on Mac, Android and iOS. Pins follow your account through shared KV and sync once a machine is reachable; search and project filters still apply.\n• Updated the bundled agent tools (Claude Agent SDK, Codex, Oh My Pi and the AI SDK harnesses), WebRTC M155 on Apple and Android, and the Go, Swift, Kotlin, npm and Ruby dependencies.\n\nFixed:\n\n• The Mac app refreshes its sync when you switch back to it, and Inbox rows no longer keep stale content after they move to another section.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.420/Dieter-iOS.ipa",
-          "size": 60134985,
+          "version": "0.6.421",
+          "date": "2026-10-20T22:51:55Z",
+          "localizedDescription": "Added:\n\n• Inbox rules show or hide conversations by project and label. Open Inbox rules from the filter button on the Mac or the filter menu on Android and iOS. A rule hides the matching conversations or shows only them, can require a project and a label together or accept either, and can be switched off without deleting it. A conversation matching any hiding rule is left out; while a showing rule is on, only matching conversations are listed. Rules sync across your account, apply to the Inbox, widgets, island and menu bar, and the Inbox says how many conversations they hide.\n\nFixed:\n\n• Saving a project or board on Android no longer fails: the project sheet now edits the project's agent instructions (it showed the template override before), and the prompt template override is a separate, validated field that is sent only when you change it.\n• On the Mac, the project context sheet saves your instructions without waiting on workspace settings you did not change and shows a failed save in the sheet. Project and board prompt overrides in Settings explain what the daemon rejects before you save.\n• Claude turns that stop on an expired sign-in resume once after the token refreshes instead of failing.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.421/Dieter-iOS.ipa",
+          "size": 60300986,
           "minOSVersion": "18.0"
         }
       ],
@@ -10585,11 +10586,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.56",
-          "date": "2026-10-20T20:57:57Z",
-          "localizedDescription": "English.\n\n• Fixed: some live encrypted channels failed to open, or opened and then stalled, when the source answered with occasional errors. The app now retries.\n\nEspañol.\n\n• Arreglado: algunos canales cifrados en directo no abrían, o se paraban al poco, cuando el origen daba errores sueltos. La app ahora reintenta.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.56/InputStreamPlayer-iOS-0.9.56-110-unsigned.ipa",
-          "size": 17190638,
+          "version": "0.9.57",
+          "date": "2026-10-21T06:10:13Z",
+          "localizedDescription": "English.\n\n• Faster: the app no longer lags at startup with lists of thousands of channels (iOS, tvOS and Mac). Guide updates are batched on all platforms.\n\nEspañol.\n\n• Más rápido: la app ya no va a tirones al arrancar con listas de miles de canales (iOS, tvOS y Mac). Las actualizaciones de la guía se agrupan en todas las plataformas.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.57/InputStreamPlayer-iOS-0.9.57-111-unsigned.ipa",
+          "size": 17195739,
           "minOSVersion": "16.0"
         }
       ],
@@ -10810,11 +10811,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.9.0.92",
-          "date": "2026-10-21T03:43:15Z",
-          "localizedDescription": "Lumisound iOS v1.9.0.92:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HeavenlyXenusVR/Lumisound/releases/download/ios/v1.9.0.92/Lumisound-1.9.0.92-unsigned.ipa",
-          "size": 10998411,
+          "version": "1.9.0.95",
+          "date": "2026-10-21T07:03:53Z",
+          "localizedDescription": "Fixed:\n\nScrolling still ragged in large libraries — diagnosed from a screen recording, frame-by-frame: not a hard freeze, but a dropped-frame stutter during fast scrolling through a large grid (e.g. the Folders tab). The function every visible list row/grid cell calls to decode its artwork as it scrolls into view was running at .userInitiated — the highest background priority, competing directly with the scroll view's own rendering for CPU time. A fast fling surfaces several brand-new cells at once, each spawning one of these high-priority decodes, fighting the renderer frame by frame. Every other decode path in the same file already used the lower .utility priority; this was the one (and busiest) exception. Lowered to match — the same priority UIKit's own prefetch APIs use for scroll-driven image decode.\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HeavenlyXenusVR/Lumisound/releases/download/ios/v1.9.0.95/Lumisound-1.9.0.95-unsigned.ipa",
+          "size": 10998183,
           "minOSVersion": "26.0"
         }
       ],
@@ -10912,7 +10913,7 @@
           "date": "2026-10-08T13:11:34Z",
           "localizedDescription": "Extensions: besides Sora modules and Seanime providers, Modules now takes Stremio addons and Nuvio, Vega and SkyStream repos. Paste an addon's link to add it, or a repo's link to pick its providers from a list, one at a time or all at once. Each works like any module: search, the anime page, the player, downloads, Continue Watching and backups, on iPhone, iPad, Mac and Apple TV, and updates from its repo. Stremio addons find shows through the addon itself, Kitsu or Cinemeta; Nuvio scrapers through TMDB. From an anime page the right show and the right part of a split season come first.\n\nSafe for work only: adult addons and providers are never listed or installed, and are removed if their source later marks them adult; adult titles are left out of results. Torrent links are never played.\n\nStreams: links that are dead, web pages or ZIP files are left out before you pick, so the list only has ones that play. When a provider's site is behind Cloudflare (AnimePahe from Nuvio, for one), its row says so and offers Verify Cloudflare, including on MyAnimeList pages.\n\nDownloads: Shirox.ipa (iPhone, iPad), Shirox-macOS.dmg (Mac), Shirox-Catalyst.dmg (Mac, Catalyst build).",
           "downloadURL": "https://github.com/xibrox/Shirox/releases/download/latest/Shirox.ipa",
-          "size": 25473069,
+          "size": 25483783,
           "minOSVersion": "15.0"
         }
       ],
@@ -11388,11 +11389,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.3",
-          "date": "2026-10-04T04:44:46Z",
-          "localizedDescription": "Perfect Dark 1.0.3: Goldfinger 64 support and the latest Dab's Mod (v3.14.0), on top of 1.0.2.\n\nGoldfinger 64:\n\n• Goldfinger 64, the GoldenEye 007 ROM hack, now plays beside GE Plus with its own row in the Perfect Menu: its missions, arenas, guns and music, with its own folder screens. It always draws in the N64 look.\n• To add it: go to Settings → GoldenEye 007 → Goldfinger 64 and pick your file, or drop it into added-content/ in the Files app. Use either goldfinger64.zip (or the .xdelta patch inside it) beside your GoldenEye 007 (US) ROM, which the patch is applied to, or a Goldfinger 64 ROM you have already patched, in any byte order. The next launch converts it once (a few seconds).\n\nGoldenEye 007 (GE Plus):\n\n• GE Plus converts again once on the first start after updating. This is expected and only happens once.\n• Upstream GE Plus fidelity fixes, plus level and prop repairs for the GoldenEye XBLA art.\n\nFixes from upstream (Dab's Mod v3.14.0):\n\n• In GE Plus, a gun no longer freezes the game for up to a second the first time it appears.\n• Crash fixes, including in the randomizer and in mods, and randomizer fixes.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007 and Goldfinger 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.14.0), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
-          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.3/perfectdark-1.0.3-iOS.ipa",
-          "size": 8860854,
+          "version": "1.0.4",
+          "date": "2026-10-21T08:42:32Z",
+          "localizedDescription": "Perfect Dark 1.0.4 for iPhone and Apple Vision Pro brings the port up to Dab's Mod v3.15.1 (from v3.14.0). Everything below is Dab's Mod's work unless marked iOS.\n\nNew:\n\n• Tomorrow Never Dies 64: put tnd64.zip in added-content and its 14 missions and 11 arenas are converted at the next launch, with their own Perfect Menu row.\n• Surround: Sound Mode Surround works again, as Dolby Surround or Headphone Surround (sounds behind you on any headset). iOS: output stays stereo, so the 5.1 speakers option plays as Dolby Surround.\n• Mute When Unfocused (Extended Options \u003e Audio).\n• Kill feed in Combat Simulator and GoldenEye matches (on by default online).\n• Combat Simulator arena tabs per game (Perfect Dark, GoldenEye, GE-X, Goldfinger 64, TND64, Mods); ROM Hack Guns and GoldenEye Cheat Guns on the Weapons page.\n• Perfect Dark mods on the Perfect Menu, each with its own save, no restart.\n• Invert Right Stick X/Y (Extended Options, Controller).\n\nFixed and improved:\n\n• Above 60 FPS: guns, doors, lifts, escalators, enemies, helicopters, rain and HUD messages all move and act at the right rate; the closing cutscene no longer ends on a black screen.\n• Every stage after the first starts from clean memory; texture packs load in the background instead of freezing a level load.\n• Automatic guns no longer go quiet in a big firefight.\n• Dozens of GoldenEye, Goldfinger 64 and TND64 fixes (guards, endings, props, HD look), plus XBLA-look fixes (G5 guards, Beau, Falcon 2 silencer).\n\n• Crash fixes: a damaged mod sound bank, GoldenEye's death music in a big match, an empty GoldenEye gun in a Perfect Dark level, a rare \"Unknown GBI opcode\".\n• iOS: an online account with a 15-character name or 8-digit PIN signs in again after a restart.\n\nFull upstream notes: Dab's Mod patchnotes.txt, notes 38-68.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007, Goldfinger 64 and Tomorrow Never Dies 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.15.1), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
+          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.4/perfectdark-1.0.4-iOS.ipa",
+          "size": 9415159,
           "minOSVersion": "15.0"
         }
       ],
@@ -11405,7 +11406,8 @@
         ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Perfect Dark can connect to Bluetooth game controllers.",
-          "NSBluetoothPeripheralUsageDescription": "Perfect Dark can connect to Bluetooth game controllers."
+          "NSBluetoothPeripheralUsageDescription": "Perfect Dark can connect to Bluetooth game controllers.",
+          "NSLocalNetworkUsageDescription": "Perfect Dark uses the local network to find and join multiplayer games."
         }
       }
     },
@@ -12467,7 +12469,7 @@
       "bundleIdentifier": "com.jif.LANreader.3",
       "developerName": "Doraemoe",
       "subtitle": "LANreader is an iOS manga reader for LANraragi",
-      "localizedDescription": "LANreader:\n\nLANreader is an iOS/macOS(Apple silicon) manga reader for LANraragi.\n\nThe AppStore version is a paid app. You can still follow Test on your device section to install it on your device for free.\n\nAltStore:\n\n• Use AltStore Classic to install on your device.\n\nSource Code:\n\n• Clone this project.\n• Open it in Xcode.\n\nUse the repository commands so local development and Continuous Integration (CI) exercise the same checks:\n\n• ./scripts/verify-changes selects the quickest safe verification tier for the current diff.\n• ./scripts/verify runs repository validation, strict SwiftLint, and the complete iOS test suite.\n• ./scripts/check-repo runs fast structural checks for catalogs, data files, project files, workflows, scripts, and changed-line whitespace.\n\nInstall the local verification tools with brew install actionlint swiftlint.",
+      "localizedDescription": "LANreader:\n\nLANreader is an iOS/macOS(Apple silicon) manga reader for LANraragi.\n\nThe AppStore version is a paid app. You can still follow Test on your device section to install it on your device for free.\n\nDeep links:\n\nOther apps and shortcuts can open LANreader with links in the form lanreader://?=. Percent-encode every value.\n\nArchive IDs come from the LANraragi server LANreader is connected to.\n\nAltStore:\n\n• Use AltStore Classic to install on your device.\n\nSource Code:\n\n• Clone this project.\n• Open it in Xcode.\n\nUse the repository commands so local development and Continuous Integration (CI) exercise the same checks:\n\n• ./scripts/verify-changes selects the quickest safe verification tier for the current diff.\n• ./scripts/verify runs repository validation, strict SwiftLint, and the complete iOS test suite.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.jif.LANreader.3.png",
       "tintColor": "#79a9ca",
       "category": "entertainment",
@@ -12480,11 +12482,11 @@
       ],
       "versions": [
         {
-          "version": "3.11.4",
-          "date": "2026-10-16T07:34:33Z",
-          "localizedDescription": "• Dismiss category loading overlay on failure.\n• Send new flag updates immediately.\n• Preserve category order across screens.\n• Keep cached covers available offline.\n• Keep tag suggestions when refresh fails.\n• Remove unused database APIs and image helpers.\n• Update concurrency extras and bump build to 255.",
-          "downloadURL": "https://github.com/Doraemoe/LANreader/releases/download/3.11.4-255/LANreader.ipa",
-          "size": 12018022,
+          "version": "3.11.5",
+          "date": "2026-10-21T06:25:58Z",
+          "localizedDescription": "• Keep the reloaded half when reloading a split page.\n\n• Show recent searches in the Search tab.\n• Stop revalidating stored pages on every render.\n\n• Keep loading pages when hidden read archives fill them.\n• Stop checking the server version when opening the reader.",
+          "downloadURL": "https://github.com/Doraemoe/LANreader/releases/download/3.11.5-262/LANreader.ipa",
+          "size": 12046952,
           "minOSVersion": "17.2"
         }
       ],
@@ -12939,6 +12941,35 @@
         "privacy": {
           "NSCameraUsageDescription": "This app doesn't use the camera.",
           "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
+        }
+      }
+    },
+    {
+      "name": "AniWings",
+      "bundleIdentifier": "com.aniwings.app",
+      "developerName": "thehakaiben-cmyk",
+      "subtitle": "Total download counts breakdown across all official releases",
+      "localizedDescription": "Modern Anime Streaming for Android, iOS, Android TV \u0026 Desktop:\n\n-success?style=flat-square).\n\n🪽 What is AniWings?:\n\nAniWings is a modern anime streaming client designed for Android phones, tablets, iOS (iPhone \u0026 iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and Desktop (Windows \u0026 Linux).\n\nDiscover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop PCs.\n\nNo mandatory AniWings account. No intrusive advertising. Just anime.\n\nWhy AniWings?:\n\n• 🚫 No Mandatory Sign-up — Start browsing and watching without creating an AniWings account.\n• 🎨 Modern Interface — A redesigned experience built for phones, tablets, televisions, and desktop computers.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aniwings.app.png",
+      "tintColor": "#e42657",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.2.6",
+          "date": "2026-10-10T13:12:08Z",
+          "localizedDescription": "Android Mobile: AniWings v1.2.6 Update - Fixed bugs, episode cache faster and some UI changes done.\n\niOS (iPhone \u0026 iPad): AniWings iOS v1.2.6 Release - Brand new iOS app for AniWings with smooth streaming, episode cache, and modern UI.\n\n📱 iOS Users (AniWings-ios.ipa): Download the .ipa and install it using SideStore, AltStore, Sideloadly, Feather, or TrollStore.",
+          "downloadURL": "https://github.com/thehakaiben-cmyk/aniwings-app/releases/download/v1.2.6/AniWings-ios.ipa",
+          "size": 55921899,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "AniWings uses the camera to scan QR codes for quick login and sharing.",
+          "NSPhotoLibraryAddUsageDescription": "AniWings saves downloaded videos and images to your device.",
+          "NSPhotoLibraryUsageDescription": "AniWings accesses your photo library to customize your profile avatar and banner.",
+          "NSUserTrackingUsageDescription": "AniWings uses this identifier to deliver relevant rewarded support ads."
         }
       }
     }
