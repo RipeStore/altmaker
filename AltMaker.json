@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.syntheticae.rimba",
-    "com.handtracker.app",
-    "com.handtracker.mouse"
+    "com.openagentd.mobile",
+    "com.aone.Keka-iOS",
+    "com.your-company.DelightGames"
   ],
   "apps": [
     {
@@ -1164,11 +1164,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.166.0",
-          "date": "2026-10-21T12:24:08Z",
-          "localizedDescription": "• F1040: Ordinary menu tiles use the approved soft frosted finish. Compact blue-dashed shortcuts stay flat.\n• F1042: The owner-selected Bohemian Waxwing crop keeps the whole head and bill visible in the bundled square image.\n• F1044: Fresh default shortcuts are Today's patches, Twitches and Stakeout Birds. Saved custom and empty preferences are preserved.\n• F1046: Bird Gen counts successfully loaded logical sources, not merely settled attempts. Current source inspection and category tags distinguish loading, failed, incomplete and skipped work. Separate retry actions recover eligible failed work without restarting healthy sources or discarding useful retained alerts.\n• F1047: The Nemesis menu badge defaults hidden, with an explicit saved opt-in. The global Hide notification counts setting still wins.\n• F1048: Mass Flocks gains local Newest/Nearest ordering and a matching age/distance primary metric, retaining coverage and evidence.\n• F1049: The primary Bird Gen information button combines current context, section notes and the canonical alert/category guide. Missing bundled notes show useful help and can recover on a later attempt.\n• F1050: The PATAGONIA category tag uses its canonical picnic-table SVG alongside readable text.\n• F1051: Common birds' three-way sort uses the established control height and wraps complete labels at narrow/enlarged sizes.\n• F1052: Big days' four radius choices show distances only and use the shared control geometry. Filtering remains local.\n• F1053: Big days uses shared patch-style cards, preserving species ranking, numbered pins and distinct hotspot/checklist destinations. Its compact unseen list starts expanded, can collapse, and retains that choice during split hydration.\n• F1054: Common birds follows Favorite patches in Go birding.\n• F1055: Convoys uses the standard Unseen birds presentation, while recorded birds stay collapsed and unknown history stays distinct.\n\nVerification:\n\nAll 1,402 DOM cases pass. The remaining unit, syntax and tooling suite passes 265 cases with one platform-native skip on Windows. Complete app/report parity and all 20 wiring checks pass. Real Chrome passes all six viewport/text profiles, including narrow 320px High visibility. All 42 local High-visibility gallery shots render successfully using representative fixtures; Common birds, Big days and Convoys exercise their production renderers. Thirty-two distinct isolated behavior, geometry and image mutations are killed, with restored controls passing.\n\nDownload BirdChaser-unsigned.ipa and sideload with AltStore. The IPA is unsigned; normal Apple signing/refresh limits still apply. Read the attached beta guide for the build's separate expiry.\n\nThe .ipa below is UNSIGNED and was built by CI from 00c688b, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.166.0/BirdChaser-unsigned.ipa",
-          "size": 143134205,
+          "version": "1.167.0",
+          "date": "2026-10-22T05:25:36Z",
+          "localizedDescription": "F1057 - Stakeout Birds now has a labelled Refresh button beside Codes. It refreshes the selected bird's live sightings through the existing bounded request path, bypassing only that sightings cache. It preserves the selected bird, report/Home scope, sorting, range, Notes and Group preferences. Existing places remain useful while loading and on failure; a successful answer, including a successful empty response, replaces obsolete live sightings. Held responses cannot publish after their refresh scope or navigation changes. The control is disabled until a bird is selected and while acquisition is pending, and keeps a contained 44px minimum touch target.\n\nF1045 - Migration watch now orders its deduplicated species list by newest event date across evidence types instead of grouping by evidence priority. Existing strongest-evidence selection within each species remains intact. Observed and expected rows remain distinguished, expected dates are labelled seasonal estimates, and year-boundary ordering and existing filters are guarded.\n\nF1058 - Bird Gen now includes all qualifying observed migration arrivals and current expected arrival/departure opportunities instead of selecting only one arrival and one departure. Today's observation may say \"showing up now\"; older observations state when they were first reported. The existing 14-day first-report window is unchanged. Expected cards explicitly say they are not confirmed observations. Cached historical arrival evidence is available before Migration has ever opened, without new eBird calls or GBIF history sweeps. Future-only arrival windows are not promoted as current opportunities.\n\nValidation: the complete suite passes 1,671 tests with one native-only skip and no failures. Six real-Chrome viewport/text profiles, parity and 20 wiring checks pass. Ten behavioral mutations, the narrowed map-ownership mutation, and shared Codes-style mutations fail their intended guards with restored controls passing. Initial full-suite failures exposed overbroad/source-layout guards; their corrections are recorded in F1057.\n\nUnverified on device: this release does not claim a live-source diagnosis of the supplied missing-alert screenshot, newer actual bird reports, or native background execution. Existing separately named device checks remain open on their original records; this release does not close or rewrite them.\n\nThe .ipa below is UNSIGNED and was built by CI from ecea8e7, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.167.0/BirdChaser-unsigned.ipa",
+          "size": 143134889,
           "minOSVersion": "15.0"
         }
       ],
@@ -1906,11 +1906,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.2",
-          "date": "2026-10-20T04:59:24Z",
-          "localizedDescription": "iPhone and iPad 0.9.2: Skip less, watch faster:\n\nThe player now skips ads by itself and learns which shows you skip the intro on. You can also change the playback speed, and the app finds your server on the network more often. There was no iPhone and iPad 0.9.1.\n\nAds skip themselves, intros once you've skipped one:\n\nEvery recognized ad or intro used to wait for you to tap skip, episode after episode. Now ads and previews skip on their own, with Undo (撤回) next to the \"skipped\" notice for a few seconds. Skip an intro by hand once and the player remembers to skip it for the rest of that show; No thanks (不用) next to the notice takes that back. Undoing a skipped intro forgets the show too.\n\n• Skippable parts are marked in amber on the progress bar. Seeking or dragging into one only shows the skip button.\n• Learned shows belong to your account, so the web player and other updated apps skip them too.\n• There's no switch to turn automatic skipping off; every skip can be undone.\n• Outros and unclassified repeats are never skipped on their own. Share links skip ads but don't learn intros.\n• On a server older than 0.41.0, ads still skip but intros stay a manual button.\n\nWatch at your own pace:\n\nThere was no way to speed up a slow scene or a talk show except holding the screen for 2×. Now tap ⋯ (设置) in the player, then Speed (倍速), and pick from 0.5× to 2×.\n\n• The speed is remembered per title: it stays for the next episode of the same show and goes back to normal for anything else. Share links and clips (片段) don't remember it.\n• After holding for 2×, playback returns to the speed you picked.\n• If the buffer can't keep up, the player goes back to normal speed and says so.\n\nMore features and improvements:\n\n• A simpler ⋯ menu: the player's ⋯ menu is now a standard menu, with Quality (画质) and Speed (倍速) showing their current choice, plus Playback diagnostics (播放诊断).\n\n• Offline mode: buttons that need the server, such as the ▶ button (片段) at the top of the library, the library ⋯ menu, search and the quick AI input on Me (administrators), are hidden while offline.\n• Cloud-drive films away from home: when a film that lives only on a cloud drive fails to stream straight from the drive, the app tries again through your home server. This needs Server 0.40.0 with a cloud drive plugin.\n\nFixed:\n\n• In torrent search results, flinging to the end bounced back before the bottom, so the last results couldn't be reached.\n\nFull changes:.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.9.2/MovieClaw-iOS-unsigned.ipa",
-          "size": 27926936,
+          "version": "0.10.0",
+          "date": "2026-10-22T05:27:00Z",
+          "localizedDescription": "iPhone and iPad 0.10.0: Subscriptions that remember, addresses that follow you:\n\nSmart subscriptions now ask once whether you understand a language and remember how you like your quality. The app also picks your server's home or outside address on its own. Both need MovieClaw Server 0.42.0, released shortly after this app.\n\nSubscriptions that don't grab what you can't watch:\n\n• Only administrators are asked and can change quality. Members see the plan without questions.\n\n• Films and shows now share one set of settings: tap the smart selection summary to open Smart settings (智能设置), which keeps separate waits for films and for each episode.\n• The same page lists Languages I understand (看得懂的语言) and Quality habits (画质习惯); you can add a language there, or remove one you added and any habit.\n\nYour home address at home, your outside address away:\n\nThe app used only the address you signed in with: sign in with your domain and even at home everything went out and back through it. Now the app picks the home or outside address by itself, and Me (我的) shows which one it's on under the server, such as \"家里网络 · 192.168.1.10:3300\" or \"外网 · movie.example.com\". It works on its own once the server is on 0.42.0.\n\n• The server learns its addresses from the ones administrators use. An administrator can also add one on the web under Settings → Network → Access addresses (访问地址).\n• With only cellular data, the app doesn't try the home address. Over a VPN the line reads 外网（经 VPN）.\n• Your sign-in is sent only to an address that proves it's your server.\n• If you leave home during a film, the player may reconnect on the outside address and carry on.\n\n• On older servers the app keeps using the address you signed in with, as before.\n\nFull changes:.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.10.0/MovieClaw-iOS-unsigned.ipa",
+          "size": 28093872,
           "minOSVersion": "26.0"
         }
       ],
@@ -4346,11 +4346,11 @@
       ],
       "versions": [
         {
-          "version": "3.23.0",
-          "date": "2026-10-21T07:30:00Z",
-          "localizedDescription": "• Previews in the mobile app and on remote servers. The Preview tab now works in the iOS and Android apps and in desktop windows connected to a remote server. The app relays the page from its own 127.0.0.1 port to the server, so the previewed page still never sees your access key. This needs a server with an access key, and any reverse proxy in front of it must pass WebSocket upgrades. Open in browser is unavailable in relayed previews, and a plain browser on another device shows a notice instead.\n\n• Consistent built-in instructions. The built-in prompt, runtime rules, Plan and Code notes, tool descriptions and member prompts no longer contradict each other or mention tools the agent doesn't have. The agent follows AGENTS.md files and loaded skills as working guidance. Delegated agents get their own Plan and Code notes. Member prompt files you never edited now pick up built-in prompt updates, while files you edited stay as they are.\n• Full session titles in more languages. Session titles in Vietnamese, Chinese, Japanese and Korean are no longer cut off mid-word.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.23.0/OpenAgentd_3.23.0_iOS.ipa",
-          "size": 5895191,
+          "version": "3.24.0",
+          "date": "2026-10-22T06:17:31Z",
+          "localizedDescription": "• The agent knows it has memory. Asked whether it can remember things, it says yes and explains how. It saves facts you mention in passing (your name, your setup, your editor) before doing the task, and it now saves in Plan mode too. Rules that apply to one repository are not saved; the agent suggests adding them to that repo's AGENTS.md.\n• Compaction summaries read as a handoff. They quote your latest request word for word, keep the unfinished items of task lists you gave or approved, name the next action, and never copy secrets. The agent treats the summary as earlier context rather than a new message, so it carries on after compacting mid-turn.\n• Idle compaction is more reliable. The countdown resumes after a server or app restart when the turn ended less than 5 minutes earlier, it runs after turns longer than 30 minutes, and sessions owned by a scheduled task compact too.\n\n• View an image the agent read. A read of a workspace image gets a View image button that opens it in the side panel.\n• Long subagent jobs report back. A lead stays loaded while its subagents work, so a job longer than 30 minutes is no longer cancelled when the idle lead was unloaded.\n• Scheduled tasks keep the prompt cache warm. Every session lists the same tools on every turn; in a scheduled run, tools that wait for you (ask_user, submit_plan) refuse when called instead of disappearing. A task that runs in your own session no longer takes tools or idle compaction away from it, and sessions that lost them get them back on upgrade.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.24.0/OpenAgentd_3.24.0_iOS.ipa",
+          "size": 5896998,
           "minOSVersion": "15.0"
         }
       ],
@@ -12976,6 +12976,785 @@
           "NSPhotoLibraryAddUsageDescription": "AniWings saves downloaded videos and images to your device.",
           "NSPhotoLibraryUsageDescription": "AniWings accesses your photo library to customize your profile avatar and banner.",
           "NSUserTrackingUsageDescription": "AniWings uses this identifier to deliver relevant rewarded support ads."
+        }
+      }
+    },
+    {
+      "name": "Phoebus",
+      "bundleIdentifier": "com.pendo324.Phoebus",
+      "developerName": "pendo324",
+      "subtitle": "Radiant Reddit Browsing",
+      "localizedDescription": "Phoebus:\n\nPhoebus is a native iOS Reddit client that recreates the experience of.\n\nthe Apollo Reborn tweak, built entirely on Linux with xtool. It began as an attempt to rebuild Apollo's UX with modern tooling, as a standalone app, so that it can keep existing more sustainably.\n\n• The core app is written from scratch in SwiftUI, following Apollo's design. It contains none of Apollo's code.\n\nPhoebus is not affiliated with Apollo Reborn. It has no connection with, and is not endorsed or supported by, Apollo Reborn or its maintainers, Christian Selig or Apollo, or Reddit. Please don't contact any of them about Phoebus or ask them for help with it; open an issue in this repository instead.\n\nPhoebus is a personal, non-commercial project. It is not sold or advertised.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.pendo324.Phoebus.png",
+      "tintColor": "#5a75f1",
+      "category": "social",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-07T00:41:41Z",
+          "localizedDescription": "Features:\n\n• ai: add AI summary card, model browser and settings (391582f).\n• ai: add summary client, article extraction and on-device model (987b272).\n• api: add custom API keys and Imgur, Imgchest, Giphy clients (e4d370b).\n• api: add modmail web service and poll voting session (6259097).\n\n• api: add repository for listings, voting and comments (ef4f2c0).\n• app: add app target with sign-in and the account list (4d11673).\n• app: add session-expired recovery and rate-limit notice (ef23b12).\n• auth: add browser user agent and OAuth consent failure (45cc71e).\n• auth: add multi-account store (05fa085).\n• backup: add Backup \u0026 Restore with local and automatic backups (59781d3).\n• backup: import Apollo and Reborn backups (820c47c).\n\n• comments: add comment composer with a Markdown toolbar (f78227f).\n• comments: add comment tree with collapsing, sorting and search (70658d6).\n• comments: add comment vote insights and vote breakdown (a593191).\n• comments: add deleted and removed comment recovery (8c9722d).\n• core: add avatar and account-age caches (df8a66f).\n\n• crash: add local crash reporting with a review screen (838dc3f).\n• feed: add community highlights carousel to the feed header (f243136).\n• feed: add compact post rows (72ff0b3).\n\n• feed: add feed paging, sort memory and read tracking (86ae191).\n\n• feed: add Gallery View, a media grid of the feed (b851b65).\n• feed: add hidden posts, recently read and hide-read controls (dffe313).\n• feed: add info-row magnifier and info-row settings (dc75cb4).\n• feed: add large post rows with inline media (78c9c7a).\n\n• feed: add tag filters for NSFW, spoiler and flair (7276368).\n• gestures: add configurable row swipe actions (4e01570).\n• icons: add App Icon picker with community and Liquid Glass packs (b4f8364).\n• inbox: add Inbox tab with messages, replies, mentions and modmail (789ebf0).\n• inbox: add message model and inbox repository calls (63640e2).\n• intents: add App Intents and Shortcuts actions (03495cd).\n• intents: open the app when a Shortcuts intent runs (f1ab8a4).\n• links: add link preview cards for articles, tweets and social (ffe9fe4).\n• links: add link router and in-app Safari view (e90a980).\n• media: add floating picture-in-picture video window (3f1d374).\n• media: add fullscreen gallery viewer with scrubbing and dismissal (2e25cdf).\n• media: add gallery posts as a swipeable feed carousel (1d98433).\n• media: add GIF and video playback with a control panel (b750809).\n• media: add RedGifs, Streamable, Vimeo, YouTube and Imgur embeds (06fb054).\n• media: add zoomable images, album saving and media pager (ee6b8c9).\n• media: render media, GIFs and previews inline in bodies (b411bc1).\n• mod: add moderator actions, queues and logs to the repository (969abc7).\n• nav: add push navigation, forward swipe history and links (7c97072).\n• notifications: add notification settings, watchers and remind-me (aef616f).\n• open-in: add Open In share-sheet extension (df097f4).\n• post: add award gifting (a325d95).\n• post: add crossposting and crosspost cards (bb8e4f3).\n• post: add Devvit interactive posts (a677d92).\n• post: add floating post tabs (aab37d0).\n• post: add followed-thread activity tracking (050a048).\n• post: add hidden-content recovery and Save All Media (b221e30).\n• post: add polls with voting, results and a setting (b08f497).\n• post: add post composer with polls, images and flair (3afb0bd).\n• post: add post detail screen with a threaded comment list (e1774b7).\n• post: add Share as Image and share cards (cf2adc0).\n• post: add voting, saving and share actions (f98e3b8).\n• profile: add Badge Book and achievements (f321879).\n• profile: add Profile tab and open profiles from posts and comments (ae821e5).\n• profile: add user profile and moderator zone screens (5191675).\n• push: add push notification client and backend settings (58d1d4d).\n• safari: add Safari web extension (15faebe).\n\n• security: add passcode, app lock and portrait lock (d7bf958).\n• settings: add @Setting wrapper and settings row components (bbcee50).\n• settings: add Accounts \u0026 API Keys with sign-in help (32b2bcc).\n• settings: add Appearance settings (7e7b58a).\n• settings: add Comments settings (7b9ba47).\n• settings: add custom API keys for Imgur, Giphy and Imgchest (1eac2c0).\n• settings: add Filters \u0026 Blocks settings (e7d6c7a).\n• settings: add General settings (0861205).\n• settings: add Gesture and Mark Read settings (246c706).\n• settings: add info row settings (ad5b05f).\n• settings: add Interface, action menus and Settings Shortcuts (3200633).\n• settings: add link preview settings with a live preview (4e4e602).\n• settings: add Media settings (a9177de).\n• settings: add notification backend settings (2a617cd).\n• settings: add Open in App and external browser settings (403660f).\n• settings: add Picture-in-Picture settings (598d17c).\n• settings: add Posts \u0026 Feeds settings (ed0e01b).\n• settings: add Profile Layout settings (a4c7767).\n• settings: add saved categories (be357fb).\n• settings: add Settings tab with root list, About and search (536907d).\n\n• theme: add automatic theme switching and quick-switch gesture (3b66120).\n• theme: add theme gallery, generator and QR sharing (fe62931).\n• theme: add Theme Manager (076c667).\n• theme: add theme model, compiler and bundled gallery (a1809ec).\n• translate: add bulk translation client and translated text (6098fe8).\n• translate: add translation for posts, comments and titles (209ed2c).\n• ui: add list chrome, action sheets, toasts and image views (1b9b84c).\n• ui: add PhoebusUI target with theme colours and scaled fonts (30f9833).\n• widget: add WidgetKit extension with widgets and Live Activity (0b65a13).",
+          "downloadURL": "https://github.com/pendo324/Phoebus/releases/download/v0.1.0/Phoebus-v0.1.0-simulator.ipa",
+          "size": 65641955,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Used to reach a notification backend or Bark server you host on your own network.",
+          "NSLocationWhenInUseUsageDescription": "Your approximate location is checked once to calculate sunset and sunrise for automatic theme switching. It is not shared or sent.",
+          "NSPhotoLibraryAddUsageDescription": "Used to save images, GIFs, and videos you choose to your Photos library."
+        }
+      }
+    },
+    {
+      "name": "AirDash",
+      "bundleIdentifier": "com.airdash.ios",
+      "developerName": "zlimteck",
+      "subtitle": "Unofficial native AirVPN dashboard for iPhone and iPad, built with SwiftUI",
+      "localizedDescription": "AirDash:\n\nUnofficial native iOS dashboard and VPN client for AirVPN, built with SwiftUI and the iOS 26 Liquid Glass design.\n\n⭐ If you find this project useful, a star on GitHub is greatly appreciated!\n\nDisclaimer: this is an independent project with no affiliation to AirVPN. It uses the public AirVPN API with your personal API key.\n\nFeatures:\n\n• Network: full server list with load, users, health, ping latency, sort (load / name / ping), continent filter, search and favorites (scoped per account); a one-tap connect button on every row starts the native tunnel directly, no need to open the server detail screen (full build only).",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.airdash.ios.png",
+      "tintColor": "#3865df",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/zlimteck/AirDash@main/assets/screenshot-login.png",
+        "https://cdn.jsdelivr.net/gh/zlimteck/AirDash@main/assets/screenshot-network.png",
+        "https://cdn.jsdelivr.net/gh/zlimteck/AirDash@main/assets/screenshot-dashboard.png",
+        "https://cdn.jsdelivr.net/gh/zlimteck/AirDash@main/assets/screenshot-server-detail.png",
+        "https://cdn.jsdelivr.net/gh/zlimteck/AirDash@main/assets/screenshot-connect.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.15",
+          "date": "2026-10-07T11:59:06Z",
+          "localizedDescription": "Fixed:\n\n• Fixed the widget staying empty after re-signing by resolving the shared App Group with public APIs only.\n\nNotes:\n\n• AirDashLite-1.0.15.ipa: the Lite build. It doesn't include native VPN connect/disconnect, only profile generation and export. Sideloading tools re-sign the app with your own free Apple ID, which can't be granted the Personal VPN entitlement the native VPN feature needs, so this build stays installable for everyone.\n• AirDash-1.0.15.ipa: the full build (native VPN, Live Activity). It needs your own paid Apple Developer account to be re-signed with the VPN entitlements. It's also available through the AltStore source.\n\n• Alternate app icons, the widget, and native VPN are not supported via LiveContainer.\n• Building the full version from source requires a paid Apple Developer account, see the README's Full vs Lite build section.\n\nDownload the IPA below and install with AltStore or Sideloadly.",
+          "downloadURL": "https://github.com/zlimteck/AirDash/releases/download/v1.0.15/AirDash-1.0.15.ipa",
+          "size": 5660762,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "AirDash uses Face ID to protect access to your VPN profiles."
+        }
+      }
+    },
+    {
+      "name": "ezbeq",
+      "bundleIdentifier": "com.ezbeq.mobile",
+      "developerName": "3ll3d00d",
+      "subtitle": "for local remote control of a minidsp, HTP-1, StormAudio processor or other supported DSP",
+      "localizedDescription": "ezbeq:\n\nwith minidsp-rs for local remote control of a minidsp, HTP-1, StormAudio processor or other supported DSP.\n\nA companion mobile app (iOS/iPadOS + Android) is also available, covering the main BEQ workflow against an existing ezbeq server.\n\nFull documentation, including this README, is also published at.\n\nWindows / MacOS:\n\nPython is required so use an appropriate package manager to install it.\n\nchocolatey is a convenient choice for Windows.\n\nLinux:\n\nUse your distro package manager to install python.\n\nRunning in Docker:\n\nSet EZBEQ_ACCESS_LOG_STDOUT=1 in your container environment to echo every HTTP request to stdout so it appears in docker compose logs. This is independent of accessLogging: in ezbeq.yml (which controls the access log file).\n\nExample Config Files:\n\nSee examples.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.ezbeq.mobile.png",
+      "tintColor": "#8466af",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.12.2",
+          "date": "2026-10-18T12:18:24Z",
+          "localizedDescription": "• 1be65ca - Derive package version from git tag; drop detect-version-bump (#163).\n• b87d684 - bump version.",
+          "downloadURL": "https://github.com/3ll3d00d/ezbeq/releases/download/2.12.2/ezbeq-mobile-ios-unsigned.ipa",
+          "size": 11169381,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Allow ezbeq to access your camera",
+          "NSMicrophoneUsageDescription": "Allow ezbeq to access your microphone"
+        }
+      }
+    },
+    {
+      "name": "Delight Games Premium Library",
+      "bundleIdentifier": "com.your-company.DelightGames",
+      "developerName": "RipeStore",
+      "subtitle": "80+ interactive novels where your choices actually matter",
+      "localizedDescription": "12 YEARS. 80+ STORIES. 100% HUMAN-AUTHORED. NOW ON YOUR WRIST.\n\nDive into 80+ interactive novels where your choices actually matter. No \"pay-to-win\" decisions. No algorithms. Just deep, hand-crafted storytelling from a lifelong D\u0026D nerd. now on iPhone AND Apple Watch, because apparently your phone wasn't close enough to your face.\n\nFor over a decade, Delight Games has been building a universe. This is a massive collection of 1 million+ words across 80+ volumes. Every branching path, every stat-check, and every secret ending was written and balanced by a human hand to ensure a rewarding RPG experience.\n\n• THE DELIGHT GAMES DIFFERENCE:.\n• 80+ Interactive Volumes: High Fantasy, Noir Mystery, Gritty Horror, Sci-Fi, and more.\n• 100% Human-Authored: Every twist and every dungeon crawl was written and balanced by a human hand. No AI-generated filler.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.your-company.DelightGames.png",
+      "tintColor": "#b14f2e",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/delightgames@main/screenshots/screenshot_01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/delightgames@main/screenshots/screenshot_02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/delightgames@main/screenshots/screenshot_03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/delightgames@main/screenshots/screenshot_04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/delightgames@main/screenshots/screenshot_05.webp"
+      ],
+      "versions": [
+        {
+          "version": "4.8",
+          "date": "2026-10-22T05:58:14Z",
+          "localizedDescription": "Ranger’s Choice chapter 12 is here! Continue the hunt in the newest volume, plus smoother performance on older iPads and fixes.",
+          "downloadURL": "https://github.com/RipeStore/delightgames/releases/download/4.8/com.your-company.DelightGames_4.8.ipa",
+          "size": 184479371,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSUserTrackingUsageDescription": "Tapping Allow will help us to serve relevant ads that are tailored to you."
+        }
+      }
+    },
+    {
+      "name": "LogForge",
+      "bundleIdentifier": "Shizhihe.LogForge-For-iPhone",
+      "developerName": "HongHuo0728",
+      "subtitle": "Native Windows and iOS applications that convert BT.2020 HLG ProRes into Apple Log / BT.2020 ProRes for a consistent grading workflow",
+      "localizedDescription": "LogForge:\n\nNative Windows and iOS applications that convert BT.2020 HLG ProRes into Apple Log / BT.2020 ProRes for a consistent grading workflow.\n\nLogForge changes the pixels using published color mathematics. It does not restore clipped highlights, crushed shadows, tone-mapped-away detail, or information lost in a camera's ISP. It cannot turn processed phone footage into the original sensor capture.\n\niOS 1.3.1:\n\n• Native transparent Liquid Glass interface, layered glass icon, accessibility contrast handling and haptic feedback.\n• Import from Photos, files or folders; choose an export directory, process a queue, cancel and retry failed videos.\n• Automatically fall back from unavailable system ProRes decoding/encoding to the embedded software codecs. CPU color processing and Metal color processing remain selectable.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/Shizhihe.LogForge-For-iPhone.png",
+      "tintColor": "#416bc4",
+      "category": "other",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/86d66e08-2622-445b-895b-4fea46e3f689",
+        "https://github.com/user-attachments/assets/7faa616e-c574-4447-8793-190c2730e335",
+        "https://github.com/user-attachments/assets/ff2bacba-8a9b-4d23-a862-084e9b3a6ec2"
+      ],
+      "versions": [
+        {
+          "version": "1.3.1",
+          "date": "2026-10-07T15:44:32Z",
+          "localizedDescription": "LogForge v1.3.1:\n\nBuild 26107B.\n\nThis release is exclusively for the iOS platform. The Windows version remains at v1.3.0.\n\nLogForge v1.3.1 improves conversion reliability for supported ProRes footage, addresses audio and timecode preservation failures, adjusts the Liquid Glass license page, and restores release-build reporting.\n\nThe native Swift, SwiftUI, and Metal architecture is retained.\n\nAudio and Timecode Preservation:\n\n• Addressed conversion failures caused by AVFoundation passthrough changing AAC packet counts, audio timing, or timecode sample durations.\n• Added native MOV track restoration when strict validation detects a mismatch and no common timeline shift is required.\n• Preserved original retained sample payloads, sample descriptions, timing tables, edit lists, and supported track associations.\n• Updated chunk offsets and movie-clock durations while retaining the converted video.\n• Repeated video and retained-track validation after restoration, before publishing the output.\n• Preserved strict validation requirements; failed validation cannot publish an output.\n\nLiquid Glass License Page:\n\n• Preserved text selection, scrolling, and the existing transparent glass appearance.\n\nVersion and Build Reporting:\n\n• Updated the iOS application identity to 1.3.1 (26107B).\n\n• Updated package filenames, manifests, and bilingual installation instructions.\n\nVerification:\n\n• All 7 packaging checks passed.\n• All 32 XCTest unit tests passed.\n\n• Confirmed that the generated regression movie is excluded from the application.\n\nSuccessful iOS build and tests.\n\nCompatibility and Limits:\n\n• Requires iOS 26 or newer.\n• Supported input remains BT.2020 HLG ProRes 422 / 422 HQ MOV footage.\n• Output remains Apple Log ProRes 422 or ProRes 422 HQ.\n• CPU and Metal color processing, automatic codec fallback, batch conversion, and failed-item retry remain available.\n• Regression tests use generated media. The original reported camera recording was not supplied.\n• Original-footage conversion and visible background flicker still require physical-device verification.\n\nDownload:\n\nDownload LogForge-1.3.1-iOS-26107B-unsigned.ipa and sign it with your own valid Apple identity and provisioning profile before installation.\n\nMatching SHA-256 files are provided for integrity verification.\n\nKeep LogForge-1.3.1-iOS-26107B-RelinkKit.zip, corresponding source, and license notices when distributing the application.\n\nSource Provenance:\n\nThe iOS package was built from commit dd083b6545323354c01f26f9468e98497e5f73b6.\n\nDownload the matching source as ZIP or tar.gz.\n\nThe native iOS project is located under LogForgeMac/.\n\nThe existing v1.3.0 tag and Windows release remain unchanged.",
+          "downloadURL": "https://github.com/HongHuo0728/LogForge/releases/download/v1.3.1/LogForge-1.3.1-iOS-26107B-unsigned.ipa",
+          "size": 4846662,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Save converted videos to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Select videos to convert to Apple Log."
+        }
+      }
+    },
+    {
+      "name": "Chromasmith",
+      "bundleIdentifier": "com.tareq.chromasmith",
+      "developerName": "TareqAmeer",
+      "subtitle": "Chromasmith — free, offline photo editor with 133 film looks, grain, halation and RAW development. Mac, Windows, iOS, Android and web",
+      "localizedDescription": "Gallery. Studio. Film Lab.\n\nyour photos. your workflow. your app.\n\nMake a look in a click or take control of every detail. Chromasmith is a free photo studio with 133 calibrated film looks, real grain, halation and bloom, RAW development, masks and retouching, a local photo library and full-resolution export — running entirely on your own device. No account, no upload, no subscription. The web version is a single HTML file with no build step and no server behind it.\n\nA gallery for every shoot:\n\nFaces, pets, favourites and keywords are found for you, on your own machine. Click a photo to preview it, or try a filter.\n\nA studio for every frame:\n\nSix tools, one editor: pick a look, shape the light and colour, add texture, then crop and frame for output.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.tareq.chromasmith.png",
+      "tintColor": "#e4492d",
+      "category": "photo-video",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/TareqAmeer/Chroma-App@main/site/assets/story/main6-1600.webp",
+        "https://cdn.jsdelivr.net/gh/TareqAmeer/Chroma-App@main/site/assets/story/main1-1600.webp",
+        "https://cdn.jsdelivr.net/gh/TareqAmeer/Chroma-App@main/site/assets/story/main2-1600.webp",
+        "https://cdn.jsdelivr.net/gh/TareqAmeer/Chroma-App@main/site/assets/story/main3-1600.webp",
+        "https://cdn.jsdelivr.net/gh/TareqAmeer/Chroma-App@main/site/assets/story/main4-1600.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.2.11",
+          "date": "2026-10-07T14:21:11Z",
+          "localizedDescription": "macOS:\n\n• Drag Chromasmith into your Applications folder.\n• Right-click the app and choose Open, then Open again.\n\nmacOS asks that once because the app is not signed with a paid Apple developer certificate. After the first launch it opens normally.\n\nIntel build. On an Apple Silicon Mac it runs under Rosetta 2 — macOS offers to install that automatically the first time. This is because the bundled ONNX Runtime has no Apple Silicon build at the pinned version.\n\nWindows:\n\n• Windows SmartScreen will warn the app is from an \"unknown publisher\" — click More info, then Run anyway. This is because the installer is not code-signed (no paid certificate). It's the same trust gap as macOS's Gatekeeper warning above, just a different OS's version of \"the author isn't a company Microsoft/Apple has vetted.\".\n• The installer registers Chromasmith as a handler for TIFF/JPEG/PNG/RW2 files and for Adobe's OAuth sign-in redirect, so double-clicking a photo or signing in to Adobe from within the app both work immediately.\n\nBundled on-device AI models keep their own licences, two of which are non-commercial/research — see.\n\nA SHA-256 checksum file is published next to each installer. It can detect an incomplete or corrupted download, but does not authenticate the publisher. See the.",
+          "downloadURL": "https://github.com/TareqAmeer/Chroma-App/releases/download/v1.2.11/Chromasmith.ipa",
+          "size": 41579319,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Chromasmith saves exported copies to your photo library when you choose Photos.",
+          "NSPhotoLibraryUsageDescription": "Chromasmith imports your photos and can save a non-destructive edit back to the selected original in Photos."
+        }
+      }
+    },
+    {
+      "name": "Knight Music",
+      "bundleIdentifier": "com.knightabdo.knightmusic",
+      "developerName": "KNIGHTABDO",
+      "subtitle": "A native iOS \u0026 iPadOS client for Navidrome, built with Apple's Liquid Glass",
+      "localizedDescription": "Knight Music is an open-source, native client for Navidrome and OpenSubsonic personal music streaming servers. Designed around Apple's modern Liquid Glass paradigm on iOS and iPadOS 26, it pairs fluid animations, deep system integrations, and animated Apple Music artwork with an uncompromising offline-first architecture.\n\nFeatures:\n\n• Player: Audiophile-grade playback core built on AVQueuePlayer. Provides gapless playback with advance look-ahead item preparation, dynamic ambient palette backgrounds extracted from artwork (ArtworkPalette), time-synchronized lyrics with tap-to-seek and auto-scroll, comprehensive queue manipulation (drag reordering, swipe deletion, play next/later), customizable sleep timer with gentle audio fade-out and end-of-song pause, AirPlay route picker integration, ReplayGain volume normalization (track and album modes with peak clamping), and synced star and 5-star ratings.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.knightabdo.knightmusic.png",
+      "tintColor": "#cf2740",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-home.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-album.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player-animated.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-lockscreen.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.5.7",
+          "date": "2026-10-18T11:16:58Z",
+          "localizedDescription": "Move Kick Live widget into the existing KnightMusicWidgets extension.\n\nThe separate KickLiveWidget.appex never showed up in the widget gallery after a SideStore install; the existing widget extension does. Same sources, one less App ID.\n\nClaude-Session: https://claude.ai/code/session_01RvaaUk2JgUg7SdALHg46hb",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.5.7/KnightMusic.ipa",
+          "size": 5544305,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Knight Music connects to your Navidrome server on your local network.",
+          "NSMicrophoneUsageDescription": "Knight Music uses the microphone for dictating requests to Knight AI.",
+          "NSSpeechRecognitionUsageDescription": "Knight Music uses speech recognition to convert your voice into text for Knight AI."
+        }
+      }
+    },
+    {
+      "name": "PicStrip",
+      "bundleIdentifier": "com.northcutt.PicStrip",
+      "developerName": "northcutted",
+      "subtitle": "Simple iOS application to view and strip EXIF and other potentially sensitive metadata from photos before sharing",
+      "localizedDescription": "PicStrip:\n\nYour photos, your privacy. Strip metadata and redact sensitive text — 100% on your device.\n\nPicStrip removes EXIF location data, camera metadata, and visually redacts personally identifiable information (PII) from photos and videos before you share them. Scanning and image processing use Apple frameworks on the device. PicStrip has no developer photo server, analytics or advertising SDK. User-selected imports, saves and shares follow the chosen service settings; optional Apple models may need a download.\n\nWhat PicStrip Does:\n\nAvailable in English and 16 more localizations, including separate Spanish for Spain and Latin America.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.northcutt.PicStrip.png",
+      "tintColor": "#25a772",
+      "category": "photo-video",
+      "versions": [
+        {
+          "version": "1.7.0",
+          "date": "2026-10-07T00:57:07Z",
+          "localizedDescription": "1.7.0 (2026-10-07):\n\n• accessibility and Liquid Glass pass over every screen (31e7b1c).\n• add an isolated manual Rust signing canary (31fba7e).\n• adopt the final simulator recovery adapter (a6a1f0b).\n• consolidate repository guides and retire legacy tooling (ab3f88d).\n• declare the staged 1.7.0 draft build 105.1 as the one being replaced (b878e10).\n• finalize review flows and localized store evidence (973fd64).\n• include effective token bypass permission in diagnostics (f5f5262).\n\n• isolate screenshot devices on fresh runners (8be9c45).\n• new store screenshots in all 17 locales (29364e3).\n• pin platform with isolated hosted fixture policy (37e8d46).\n• pin the final native CLI canary revision (87dc9df).\n• pin the simulator recovery toolkit (e4c10d2).\n• pin the verified toolkit implementation (d09d642).\n\n• remove dead code, orphaned strings and stray files (922ad5a).\n• retain synthetic UI failure diagnostics (f4d3d8a).\n\n• share risk colours and category symbols (e5fe1cf).\n\n• store screenshots with the video editor, in all 17 locales (7afb4d7).\n• use the packaged Python iOS toolkit (f3504de).\n• batch: open photos and videos from files as one batch (871073e).\n• ci: adopt shared tools and native QA (21c092f).\n• core: share the metadata-only video clean with the extension (8d9715f).\n• home: describe each gradient blob as a value (9b169a8).\n• project: keep Xcode's ordering for the PhotoLibraryWriter entries (7bae20f).\n• screenshots: fictional photos and a street video drawn in code (1b980fd).\n• screenshots: keep the flyer's cover on the flyer (28831b1).\n• screenshots: recapture all 17 locales and store them in Git LFS (559a03e).\n• screenshots: scroll the video editor back from below its timeline (4c787e8).\n• screenshots: six store scenes that show what PicStrip does (b47d085).\n• share: cover the handoff notification and both actions (77ebbba).\n• share: drop the support code only the actions used (f1b7a39).\n• share: remove the Strip Metadata and Edit in PicStrip actions (1528f11).\n• store: new screenshot order and benefit headlines (d312cae).\n\nFeatures:\n\n• a video store screenshot; camera controls on the black, never half over the picture (6e4fb25).\n• before/after, saved summary, screenshots, videos and Live Photos (ae28a30).\n• cover regions with an emoji (b95cce4).\n• localize name detection and the live viewfinder (f58e62f).\n• partial covering, purpose presets and Always Cover (be9b2fe).\n• about: a Rate PicStrip row (8f965d3).\n• batch: clean batches to HEIC by default (f45228b).\n• camera: localize \"Take Photo\" into all 15 locales (9e0722e).\n• camera: name, track and steady the live viewfinder's findings (11ae062).\n• camera: record video at the Camera app's quality; home and store listing for 1.7 (a8de06e).\n• camera: show live in the viewfinder what will be redacted (af2043a).\n• camera: show match strength in the live viewfinder (affe65f).\n• camera: take a photo straight into the editor (380327a).\n• detection: find people's names with the on-device language model (619dbf6).\n• editor: preview every redaction in its real style, live (b82c6ac).\n• home: drift a mesh gradient behind the home screen (33a65fc).\n• home: lead with Take Photo (45156ab).\n• home: one Camera, one library button, and batches with videos (6f7816d).\n• home: only offer Paste while the pasteboard holds an image (2b7cf76).\n• home: show every way to import at once (1b8dc6c).\n• home: tell the hero's story with a little photo (27b77ce).\n• l10n: split Spanish into Spain (es) and Latin America (es-419) (c84c617).\n• redaction: add a blur style; fail closed when a pixel pass cannot run (3e1bada).\n• redaction: adjustable blur and pixelate strength; crosshatch that reads as crosshatch (862382a).\n\n• redaction: tap an object to redact it, with consent for the model (463e8ca).\n• review: a session-only gate for the App Store rating request (20939b7).\n• review: ask for a rating after clean saves, batches and videos (acd957c).\n• scan: real progress, a better scan animation, and nothing queued behind the preview (832f10e).\n\n• share: add Strip Metadata and Edit in PicStrip actions (59ac808).\n• share: open Edit in PicStrip items from a notification (7f3d99c).\n• share: open a handed-off video in the video cleaner (cc56752).\n• share: videos in the share sheet (48d77ae).\n• shortcuts: a \"Strip Metadata from Videos\" action (814e23f).\n• video: adjust the object box, zoom the timeline, bleep from a selection (bebb8c3).\n• video: both face detectors, smaller detection frames, a live scan view (a8f26ec).\n• video: cover faces in videos, with a preview and an emoji per face (c360511).\n• video: cover turned heads found by body pose (eaa78d8).\n• video: draw covers that follow their subject; a timeline to time every cover (885c5a9).\n• video: find, follow and cover faces in a video (853c840).\n• video: find, follow and cover text and codes in videos (7070792).\n• video: match the viewfinder's look while scanning; open videos faster (8592717).\n• video: object covers, a video-editor timeline, bleep and mute, and help (d99ee26).\n\nBug Fixes:\n\n• adopt corrected simulator readiness barrier (e93557f).\n• adopt simulator diagnostics and guarded startup recovery (500f1ad).\n• align privacy copy, camera limits and large-text review (80d9c8c).\n\n• complete privacy declarations and review UI checks (3f05d75).\n\n• keep redaction controls aligned in RTL layouts (b4d85f8).\n• keep sharing visible and bound photo picker transfers (ab0af3b).\n\n• verify private publisher controls without write permission (e8e26b7).\n• batch: don't recommend PNG over the HEIC default (a2854c6).\n• camera: build with Xcode 26.6; stop recording from anywhere on the button (5f7b706).\n• ci: build the simulator CPU fallback only with the iOS 27 SDK (19f8619).\n• ci: retain evidence after successful simulator recovery (5b6c186).\n• ci: synchronize the reviewed platform pin manifest (78793b3).\n• detect: a card number's first twelve digits are not an Aadhaar (64420a3).\n• detection: find names after the scan is published, not before (0cb1b7b).\n• emoji: make \"any other emoji\" a search field that opens the emoji keyboard (a62f262).\n• fixture: draw the business card's icons instead of missing glyphs (2f6f691).\n• home: keep the home screen still while it hosts unit tests (ae5a846).\n• home: move Paste into the navigation bar (92cb8d6).\n• home: size the hero's emoji cover to hide the hair too (39e5d6d).\n• home: split ContentView's body so Xcode 26.6 can type-check it (7737411).\n• home: stop the breathing gradient animating the button backgrounds (115aa88).\n• photo: render a blur pass well past its regions (e351a8e).\n• photo: turn a photo the same way in the scan, the preview and the export (28b9322).\n• redaction: blur and pixelate land on the box for rotated photos (814df1a).\n• redaction: pixelate and blur reach the very edge of the photo (0a35f9c).\n\n• review: fit iPad's short review sheet at large text sizes (75a40c8).\n• review: keep the compare hint on the preview so the iPad sheet stays short (d7cfe44).\n• save: stop crashing when saving to the photo library (cec10f1).\n• scan: finish every Vision check on the simulator (6e94b40).\n• scanner: only offer a scan where there is a camera (e58382a).\n• share: let a cancelled Edit in PicStrip clean up before it ends (b71a751).\n• share: save large photos as 12 MP copies in Strip Metadata, as HEIC (0add24a).\n• video: cut thumbnails from the frame their box was found in (fcb4683).\n• video: cut tiles out instead of using regionOfInterest (b5ffffb).\n• video: guard the simulator CPU fallback by iOS 27 at run time (7843797).\n• video: hold face covers longer and bridge longer misses (a410b8e).\n• video: scan ten frames a second as meant; find small and cheek-to-cheek faces (5358c1b).\n• video: stop a crowd of covers from overflowing Core Image's stack (9a8455e).\n• video: stop a sound-only copy without cancelling the reader under a pump (ec675c1).\n\nPerformance:\n\n• batch: load the next photo and save the last one while cleaning (dcb6266).\n• camera: give up the camera at once, and look less while held still (0801e73).\n• home: breathe the background at 15 frames a second (5b7cd5a).\n• photo: blur and pixelate only around the regions (3558b2a).\n• photo: keep the review's render while Review \u0026 Share is open (179c6de).\n• photo: match each distinct OCR reading of a line once (a36441f).\n• photo: redraw sideways photos into a plain bitmap, not the renderer (627ea17).\n• photo: scan each photo with one Vision handler, retries included (231340f).\n• photo: turn sideways photos upright in the decode, not a second redraw (ff6d14d).\n• photo: work out the review's removed metadata once per body (76c108a).\n• video: copy the frames when only the sound is edited (d96ec61).\n• video: count what the scan found only when it can change (83fed1f).\n• video: keep the playing video's time out of the editor's list (85bc533).\n• video: open the editor without waiting on each step in turn (04cc33e).\n• video: read each frame's text alongside the frames after it (b498dd4).\n• video: read the waveform off the main actor, in place (fb1b851).\n• video: rebuild the preview once a trim is let go, and seek one at a time (5cec300).\n• video: reuse shrunk and cut frame buffers from a pool (9bf238b).\n\nDocumentation:\n\n• describe only Clean with PicStrip and its Ready to Edit notification (0ebe24e).\n• describe the share-sheet actions and the Ready to Edit notification (5164b27).\n• live viewfinder analysis and on-device name detection (51d025d).\n\n• the simulator's scan fallbacks and the store fixtures (690e800).\n• videos in the share sheet and the video Shortcuts action (35f295f).\n• about: the share sheet help row without the actions (cc60252).\n• ci: add task guides and generated pipeline reference (304f9ae).\n• home: say plainly why the hero's flip waits a beat (fc8f6ef).\n\n• store: describe adjustable strength and the live redaction preview (2bc2142).\n• store: en-US name, subtitle and keywords for search (71e4851).\n• store: localized names, subtitles and keywords for search in 16 locales (bf63c3e).\n\n• store: say \"no network required\" instead of \"zero network calls\" (e761563).",
+          "downloadURL": "https://github.com/northcutted/picstrip/releases/download/v1.7.0-build-107.1/application.ipa",
+          "size": 11119468,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "PicStrip uses the camera to capture documents, photos and videos you want to clean. Captures are processed on your device.",
+          "NSMicrophoneUsageDescription": "PicStrip records sound with the videos you take in the app. Recordings stay on your device until you save or share a cleaned copy.",
+          "NSPhotoLibraryAddUsageDescription": "PicStrip saves cleaned photos and videos to your photo library.",
+          "NSPhotoLibraryUsageDescription": "PicStrip needs access to your photo library to replace an original photo or video when you ask it to."
+        }
+      }
+    },
+    {
+      "name": "Glory of Rome",
+      "bundleIdentifier": "com.danheskett.gloryofrome",
+      "developerName": "dannyheskett",
+      "subtitle": "OpenBounty: open-source engine for King's Bounty (1990) and other turn-based fantasy gamepacks",
+      "localizedDescription": "OpenBounty:\n\nA faithful raylib reimplementation of King's Bounty (1990, New World Computing), and the engine behind Glory of Rome, an original pack that has run on desktop, the web, iOS and Android.\n\nThis document has described how the game works, what it ships with, and how to build and run it.\n\nPre-built binaries have been published on the GitHub Releases page:\n\nEvery release has carried two desktop products for each of Linux x86_64, Windows x86_64 and i686, and macOS universal, plus the web and mobile builds.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.danheskett.gloryofrome.png",
+      "tintColor": "#ab7f3a",
+      "category": "games",
+      "versions": [
+        {
+          "version": "41",
+          "date": "2026-10-06T09:53:09Z",
+          "localizedDescription": "• Week-end budget shows what the week charged: a tenth of recruit cost, adding up to the balance.\n• Messages page by the room the map leaves them, not six lines.\n• Glory of Rome: river bridges carry the road between parapets; treasure-cache vistas per province.\n• Castle gate report: the castle named once, a troop's stacks on one line; shorter temporary-death text.\n• Glory of Rome: troops the week can't pay leave the army.\n• Answer row: single-answer pages answer along the foot, Navigate in four columns, the chest under its vista.\n• Battle menu: opens on its top page with Give up beside Close; Enter no longer opens it.\n• Combat log: no toast over the field, every attack logged in one form, cards wrap whole.\n• Road signs: no longer cut at 127 characters; Rome heads a sign with its title.\n• Autoplay search: the root is never freed while its descendants live (#150).\n• A foe that arrives on a gold chest waits for the chest's question (#136).\n• One art pipeline script: the ten art helpers folded into romeart.py (#143).\n• Glory of Rome Introduction (#154).\n• Glory of Rome magic: a limit for each spell, weekly renewal, no discard (#157).\n• Spells page tabs; foes keep off event tiles.\n• Modern map: the camera stops at the world's edge (#161).\n• Oriens: a boat-only Thracian road guarding the Scutum of Aeneas (#66).\n• Gallery tap checks: King's Bounty checked against what legacy registers (#160).\n• Glory of Rome battles: field obstacles at 20% a cell (#64).\n• Goto (#70): pick a seen tile on the world map, and the hero travels there.\n• Glory of Rome battles: field obstacles at 12% a cell, down from 20% (#64).",
+          "downloadURL": "https://github.com/dannyheskett/openbounty/releases/download/release-41/gloryofrome-build-41-ios-arm64.ipa",
+          "size": 23225805,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Recly",
+      "bundleIdentifier": "app.recly",
+      "developerName": "rokrokss",
+      "subtitle": "Your AI recorder is already on your wrist",
+      "localizedDescription": "Recly:\n\nYour AI recorder is already on your wrist.\n\nA Plaud-style AI notetaker, running on the watch and phone you already own.Your Drive keeps the audio, your own key transcribes it, your own AI writes the notes.\n\nA Plaud or a NotePin sells you three things: a recorder, transcription, and AI notes. You already wear the recorder, and you already pay for the AI. Recly supplies the one piece you are missing, transcription on a supported device or with your own API key, and keeps the original audio in your Google Drive, iCloud or a folder you pick. There is no Recly server, no bot joining your call, and no monthly fee.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.recly.png",
+      "tintColor": "#e43534",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/01-record-for-your-ai.png",
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/02-transcribe.png",
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/03-drive.png",
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/04-record.png"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-10-05T22:16:37Z",
+          "localizedDescription": "Recly 0.2.0 build 34 adds two new places for your recordings to go:\n\n• Local folder storage (iPhone, Mac, Windows, Android phone). Settings → Storage now offers \"Local folder\" next to Google Drive (and iCloud on Apple). Recordings, plus a .transcript.md for each transcript, go into a folder you pick on the device: an Obsidian vault, or a folder another tool syncs. No Google account is needed. The watches hand their recordings to their phone as before.\n\nAlso in this release:\n\n• Apple Watch and Galaxy Watch keep one status line: what is happening, or that recordings are still waiting to send, and nothing when there is nothing to say.\n\n• The app's own windows (the title prompt, alerts, Details, Settings) open in front of the Mac menu-bar popover and the Windows tray popup.\n\nThe release also carries both agent skill ZIPs, BUILDINFO.md, manifest.json and SHA256SUMS. Package signatures, versions and checksums were verified before publishing. BUILDINFO.md has the full change list, test results and signing status. Store uploads and review submissions are separate from this GitHub release.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.2.0-build.34/Recly-iOS-Watch-0.2.0-34.ipa",
+          "size": 24167283,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Recly records meetings and memos so they can be transcribed."
+        }
+      }
+    },
+    {
+      "name": "Mangatan",
+      "bundleIdentifier": "com.selxo.mangatan",
+      "developerName": "1Selxo",
+      "subtitle": "Mangayomi fork focused on Yomitan-style dictionary lookup, OCR overlays, subtitle mining, and Anki export",
+      "localizedDescription": "Mangatan is an open-source desktop app for reading manga and novels, watching anime, and learning languages through dictionary lookup, OCR, subtitle mining, and Anki export.\n\nFeatures include:\n\n• Reading manga, webtoons, comics, novels, animes, movies, and more.\n• Local reading of content.\n• A configurable reader with multiple viewers, reading directions and other settings.\n• Tracker support for anime and manga: MyAnimeList, AniList, SIMKL, trakt and Kitsu support.\n• Categories to organize your library.\n• Light and dark themes.\n• Create backups locally to read offline or to your desired cloud service.\n\nthen download the asset that matches your platform:\n\n• Windows — Mangatan--windows.exe (installer) or Mangatan--windows.zip (portable).\n• macOS — Mangatan--macos-arm64.dmg (Apple Silicon).\n• Linux — Mangatan--linux-x86_64.tar.gz.\n\nSee the desktop install guide for the full download-and-run steps on each platform.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.selxo.mangatan.png",
+      "tintColor": "#d7313f",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/media/screenshots/anki-card-export.webp",
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-shelf.jpg",
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-lookup.jpg",
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/anime-lookup.jpg",
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/novel-lookup.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.2.26",
+          "date": "2026-10-18T22:02:42Z",
+          "localizedDescription": "Mangatan v1.2.26 (build 214):\n\nPerformance, reliability and sync-safety release.\n\n• Anime: lay out seasons like Anikku and Animiru, fix YouTube timeouts and player robustness, and keep Jellyfin entries working when a source is renamed.\n\n• Mining: dictionaries, OCR and card export now fail safely.\n• Statistics: never erase history after a failed storage open.\n• Categories: close the order gap when a category is deleted.\n• Extensions: harden extension settings, repositories and uninstall, and manage the desktop extension server's lifetime.\n• iOS: keep the embedded Mihon bridge from crashing the app. Bump the build number to 214.\n\nKnown issues:\n\n• Anime seasons are not fully restored by Chimahon or Anikku. Their sync restorer restores each season entry with base data only, so episodes, watch progress, seen state, categories and tracking set on a season in Mangatan reach the synced backup but do not appear in those apps. This is an upstream bug; Chimahon-side changes still sync to Mangatan, and standalone entries.\n• Tracking does not work on season entries yet. Tracker linking and progress updates do not currently apply to anime season entries in Mangatan.",
+          "downloadURL": "https://github.com/1Selxo/Mangatan/releases/download/v1.2.26/Mangatan-v1.2.26-build.214-f32c5de-ios.ipa",
+          "size": 180264855,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSDocumentUsageDescription": "Mangatan needs access to your files to create and restore backups.",
+          "NSFaceIDUsageDescription": "Mangatan needs to authenticate using Face ID.",
+          "NSLocalNetworkUsageDescription": "Mangatan connects to extension, Hayai OCR, and AnkiConnect servers, and temporarily shares mined images and audio with AnkiMobile.",
+          "NSPhotoLibraryAddUsageDescription": "Mangatan needs permission to save exported images to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Mangatan needs access to your photo library to save and restore backups."
+        }
+      }
+    },
+    {
+      "name": "Naviamp",
+      "bundleIdentifier": "app.naviamp.ios",
+      "developerName": "goosepod",
+      "subtitle": "Windows, Mac, Linux, Android and Android TV player for Navidrome",
+      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nand share feedback.\n\nThe big hitters:\n\n• A real library experience. Browse albums, artists, tracks, genres, favorites, recently added and recently played music, random picks, and every credited artist on a track.\n• Powerful discovery. Build Artist, Album, and Genre mixes; use Sonic Mix and Sonic Path; start track radio; explore related music; and let sonic autoplay keep the queue moving when the server supports similarity data.\n• Playlists that go further. Create and edit regular playlists, add music from throughout the app, save generated queues, and build reusable smart playlists on compatible servers.\n• A full Now Playing experience. Manage Back To, Up Next, and related queues alongside waveform seeking, favorites, ratings, lyrics, repeat, shuffle, volume, and detailed audio metadata.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.naviamp.ios.png",
+      "tintColor": "#037ecf",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/compact-now-playing.png",
+        "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/mobile-queue.png",
+        "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/playlists.png",
+        "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/library-artists.png",
+        "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/search.png"
+      ],
+      "versions": [
+        {
+          "version": "2.9.0",
+          "date": "2026-10-06T19:05:08Z",
+          "localizedDescription": "Naviamp 2.9.0: desktop Cast and expanded downloads:\n\nNaviamp 2.9.0 brings Google Cast to desktop and lets you keep albums and artists downloaded. It also adds fullscreen, Linux media controls and easier account switching on Android TV.\n\nHighlights:\n\n• Cast online music from desktop and control playback from Naviamp.\n\n• Use fullscreen, Linux media controls and a remote-friendly TV account chooser.\n\nFeatures:\n\n• Cast online music and artwork from desktop to a reachable Google Cast receiver, control playback and seeking, and return to local listening at the current position. Closing the.\n\n• Use fullscreen on desktop and restore the prior window size when leaving fullscreen. Wide views show a fullscreen button; compact players keep it in the actions menu.\n• Control Linux playback, seeking, volume, shuffle and repeat through desktop media controls.\n• Switch saved Android TV accounts with large remote-friendly cards and reuse their stored.\n• Choose track or album artwork for individual albums while keeping the global default for.\n\nImprovements:\n\n• Browse multi-disc albums in disc sections and see separate album and track groups under.\n• Create DJs from Now Playing and select newly saved DJs without reopening the picker.\n• Place favorite hearts beside album titles and complete more German interface translations.\n• Keep track actions focused on the current track, with device choices in the Cast picker and.\n\nBug fixes:\n\n• Return the Library to the top after an explicit refresh and align artist appearance tracks.\n• Allow owners to delete Smart Playlists whose track editing is read-only.\n• Restore transparent animation surfaces on Linux X11 and improve Windows menu and dialog.\n• Keep macOS animation layers aligned after resize and prevent Stats for Nerds from redrawing.\n\nKnown issues:\n\n• Cast needs online provider media and a reachable local network. Physical macOS verification and broader offline, lyrics and audio-effect support remain follow-ups.\n• Further Linux popup performance and accessibility verification remain open, including the.\n• Android TV and Naviamp Connect remain beta. iOS is unsigned; Windows and macOS packages are not publisher-signed.",
+          "downloadURL": "https://github.com/goosepod/naviamp/releases/download/v2.9.0/Naviamp-v2.9.0-ios-unsigned.ipa",
+          "size": 18618601,
+          "minOSVersion": "17.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "NFCove",
+      "bundleIdentifier": "com.tiburonns.NFCove",
+      "developerName": "tiburonns",
+      "subtitle": "Read. Build. Automate",
+      "localizedDescription": "NFCove:\n\nRead. Build. Automate.\n\nNFCove is a native NFC utility for iPhone focused on a reliable NDEF workflow: read, inspect, save, create, write, and verify compatible NFC tags.\n\nDocumentation: English · Español.\n\nCurrent development version: 0.4.0 (build 8). Tagged releases are produced from the same tested IPA pipeline used by CI.\n\nCurrent foundation:\n\n• Native SwiftUI interface.\n• Core NFC NDEF reader using the current TAG NFC entitlement.\n• NDEF writer for Text, URL, Email, Phone, SMS, and Location records.\n• Human-readable payload parser.\n• Scan results can be saved as reusable library entries with the original NDEF TNF, type, identifier, payload, and record order when available.\n• Local library stored atomically in Application Support, with migration from the earlier preferences-backed format.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.tiburonns.NFCove.png",
+      "tintColor": "#1977bc",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.4.0",
+          "date": "2026-10-15T06:13:27Z",
+          "localizedDescription": "• Add in-app feedback and suggestions.",
+          "downloadURL": "https://github.com/tiburonns/NFCove/releases/download/altstore-0.4.0-8-3/NFCove-unsigned.ipa",
+          "size": 1617223,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Namma Wallet",
+      "bundleIdentifier": "com.nammaflutter.nammawallet",
+      "developerName": "Namma-Flutter",
+      "subtitle": "Namma Wallet is an open-source Flutter mobile application for managing digital travel tickets and passes",
+      "localizedDescription": "Namma Wallet:\n\nNamma Wallet is an open-source Flutter mobile application for managing digital travel tickets and passes. It provides a unified interface to save, organise, and view tickets from multiple sources, including SMS, PDFs, QR codes, and clipboard text. The app features intelligent parsing for Indian transport providers and generates beautiful digital ticket designs. Unlike Apple Wallet or Google Wallet, which support only specific formats, Namma Wallet is a flexible, community-driven solution that works with any ticket type and format.\n\nMulti-Source Ticket Management:\n\n• SMS Parsing – Automatically extract tickets from TNSTC, IRCTC, and SETC SMS messages.\n• PDF Processing – Parse TNSTC bus tickets from PDF files using Syncfusion PDF library.\n• Image Processing - Parse District movie tickets from Images.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nammaflutter.nammawallet.png",
+      "tintColor": "#4ca8ba",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Namma-Flutter/namma_wallet@main/assets/screenshots/home.png",
+        "https://cdn.jsdelivr.net/gh/Namma-Flutter/namma_wallet@main/assets/screenshots/all_tickets.png",
+        "https://cdn.jsdelivr.net/gh/Namma-Flutter/namma_wallet@main/assets/screenshots/ticket_view.png",
+        "https://cdn.jsdelivr.net/gh/Namma-Flutter/namma_wallet@main/assets/screenshots/import.png",
+        "https://cdn.jsdelivr.net/gh/Namma-Flutter/namma_wallet@main/assets/screenshots/calendar.png"
+      ],
+      "versions": [
+        {
+          "version": "0.0.8",
+          "date": "2026-10-06T13:22:45Z",
+          "localizedDescription": "• Added subtle haptic feedback when navigating and interacting with tickets.\n• Enhanced ticket parsing with support for newer layout styles.\n\n• Bug fixes and stability improvements.",
+          "downloadURL": "https://github.com/Namma-Flutter/namma_wallet/releases/download/v0.0.8%2B15/namma-wallet-v0.0.8%2B15.ipa",
+          "size": 51744517,
+          "minOSVersion": "17.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Camera access is required to scan QR codes",
+          "NSPhotoLibraryUsageDescription": "This app needs photo library access to scan barcodes from images."
+        }
+      }
+    },
+    {
+      "name": "Yet Another LuCI App",
+      "bundleIdentifier": "com.nightcode.luci",
+      "developerName": "nightcodex7",
+      "subtitle": "Modern OpenWrt \u0026 LuCI Router Manager",
+      "localizedDescription": "YALA (Yet Another LuCI App):\n\nYALA (Yet Another LuCI App) is an open-source mobile client for managing OpenWrt routers. It connects directly to your router using LuCI JSON-RPC, ubus, and standard OpenWrt system services, allowing you to monitor real-time bandwidth, manage connected devices, run network diagnostics, configure wireless radios, manage AdGuard Home DNS sinkhole, monitor VPN tunnels (WireGuard, OpenVPN, Tailscale), control Smart Queue Management (SQM/QoS), inspect storage, and update packages directly from your phone or tablet.\n\nYALA is purpose-built for mobile, tablet, and touch-first form factors:\n\n• Smartphones: Android (Android 8.0 Oreo up to Android 15/16) and Apple iPhone (iOS 14.0+).\n• Tablets \u0026 iPads: Android Tablets and Apple iPads with dedicated wide-screen multi-column layouts and adaptive split views.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nightcode.luci.png",
+      "tintColor": "#3b82f6",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/nightcodex7/yala@main/assets/screenshots/1_dashboard-light.jpeg",
+        "https://cdn.jsdelivr.net/gh/nightcodex7/yala@main/assets/screenshots/2_dashboard-dark.jpeg",
+        "https://cdn.jsdelivr.net/gh/nightcodex7/yala@main/assets/screenshots/3_login_page.jpeg",
+        "https://cdn.jsdelivr.net/gh/nightcodex7/yala@main/assets/screenshots/4_dashboard-2.jpeg",
+        "https://cdn.jsdelivr.net/gh/nightcodex7/yala@main/assets/screenshots/5_dashboard-3.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "2.5.1",
+          "date": "2026-10-18T08:45:20Z",
+          "localizedDescription": "This is an experimental community beta release of Yet Another LuCI App for Apple iOS devices (iPhone and iPad), built from version 2.5.1 (Build 229).\n\nHighlights:\n\n• AdGuard Home: Network-wide ad \u0026 tracker blocking, filter lists, query stats \u0026 DNS topology.\n• Advanced Firewall: Create new or manage firewall.\n• Device Access Controls: Granular per-device IPv4 \u0026 IPv6 internet toggles.\n• Bandwidth Monitoring: View live bandwidth for wireless clients.\n• Security \u0026 Reliability: Hardened privileged operations, self-lockout guardrails \u0026 certificate trust validation.\n\nThis is an unsigned iOS package (.ipa). It can be sideloaded onto compatible iPhones or iPads running iOS 14.0+ using standard sideloading tools such as:\n\n• AltStore / SideStore.\n• Personal Apple Developer account signing or enterprise signing.",
+          "downloadURL": "https://github.com/nightcodex7/yala/releases/download/v2.5.1-beta-ipa/Yet-Another-LuCI-App.ipa",
+          "size": 13083774,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Yet Another LuCI App requires local network access to discover, connect to, and manage your OpenWrt router."
+        }
+      }
+    },
+    {
+      "name": "atolla",
+      "bundleIdentifier": "com.tx3stn.atolla",
+      "developerName": "tx3stn",
+      "subtitle": "a beautiful jellyfin music player for android \u0026 ios",
+      "localizedDescription": "TOC:\n\n• home tab.\n• artist view.\n• search \u0026 settings.\n\n• How does atolla compare?\n• Feature Requests.\n• Bug Reports.\n\nFeatures:\n\n• Seamless offline experience, everything that works online also works offline (search, scrobbling, playlist creation and editing, mixes).\n• Gap-less playback.\n• Dynamic colour palettes generated from album artwork.\n• Local waveform generation for fancy progress bars.\n• Image focussed UI (featuring artist logos).\n• Playlist creation \u0026 editing.\n• Localised UI.\n\nplayer:\n\n• color palettes generated from album art.\n• track waveform progress bar.\n• artist logo front and center.\n\nhome tab:\n\n• recently added.\n• recently played.\n• various mixes.\n\nartist view:\n\n• artist most played tracks.\n• genre pills that link to the genre view (including offline).\n• artist bios in modal.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.tx3stn.atolla.png",
+      "tintColor": "#6064c7",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.12.2",
+          "date": "2026-10-16T17:57:42Z",
+          "localizedDescription": "fix thumbnail images missing on downloads in a few views.\n\nfeatures:\n\n• cli: add ability to co-ordinate playback start with a specified clock delay.\n• cli: add clock endpoint to co-ordinate syncronisation.\n• cli: ensure gapless playback from daemon.\n• app: native callback events to js to keep sending remote player events when phone is locked.\n• app: long poll remote players to show state on players tab.\n• app: route actual audio and actions to remote player.\n• app: this device toggle on player handles silencing audio without stopping playback.\n• cli: add initial clock sync scaffolding.\n\nfixes:\n\n• app: a few components missing the thumnail image.\n• e2e: test stability fixes.\n\nother:\n\n• deps: bump the github-actions group with 6 updates (#43).\n• deps-dev: bump the bun-dependencies group with 17 updates (#41).\n• e2e: speed up full suite runs.",
+          "downloadURL": "https://github.com/tx3stn/atolla/releases/download/0.12.2/atolla-0.12.2.ipa",
+          "size": 21147458,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "atolla finds and controls players on your network."
+        }
+      }
+    },
+    {
+      "name": "sqzd",
+      "bundleIdentifier": "com.example.sqzd",
+      "developerName": "icnahom",
+      "subtitle": "sqzd is a YouTube wrapper that extracts high-signal moments",
+      "localizedDescription": "sqzd (squeezed):\n\n🍋 Why \"sqzd\"?. Just like squeezing a piece of fruit to get the pure juice while leaving the rind behind, sqzd takes bloated videos and extracts only the concentrated, high-value information.\n\nhttps://github.com/user-attachments/assets/5a4439b4-ed05-4a95-9427-307af734a32e\n\nsqzd is a hands-free YouTube wrapper that extracts high-signal moments from long videos. Instead of reading long summaries or manually scrubbing through timelines, sqzd does the work for you—automatically skipping the filler so you can watch just the gold.\n\n✨ Features:\n\n• ⏭️ Auto-Skip: No manual clicking required. The app automatically jumps to the core takeaways.\n• 🎙️ Voice-Guided: A natural voice announces the topic, letting you stay informed without needing to look at your screen.\n• 🎧 Background Audio: Keep listening with your screen off, fully integrated with native media controls.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.example.sqzd.png",
+      "tintColor": "#6058e8",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.1.2",
+          "date": "2026-10-06T15:09:32Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/icnahom/sqzd/releases/download/v1.1.2/app.ipa",
+          "size": 45646432,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Squirrel",
+      "bundleIdentifier": "app.squirrel",
+      "developerName": "NatanRA",
+      "subtitle": "Native apps for iPhone, Android, Mac and Windows that run yt-dlp on your own device",
+      "localizedDescription": "Squirrel:\n\nNative apps for iPhone, Android, Mac and Windows that run the real yt-dlp on your own device, with no server involved. Paste or share a link, pick a quality (up to 4K) or audio only, and the file is saved: to Photos or the Gallery on a phone, or to your Downloads folder on a computer. A small browser extension sends links to the desktop app.\n\nNone of this can go in the App Store or Google Play: both stores reject apps that download from YouTube. The apps are sideloaded instead, as described below.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.squirrel.png",
+      "tintColor": "#dc9c79",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.10.0",
+          "date": "2026-10-05T21:13:36Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/NatanRA/squirrel/releases/download/v1.10.0/Squirrel.ipa",
+          "size": 27015763,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Save downloaded videos to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Put each playlist's videos in an album of its own, and delete videos from your photo library when you delete them in Squirrel."
+        }
+      }
+    },
+    {
+      "name": "Crumb",
+      "bundleIdentifier": "com.certlium.crumb",
+      "developerName": "boierito",
+      "subtitle": "Crumb lets you find App Store apps, choose a version and download its IPA on your",
+      "localizedDescription": "Crumb:\n\nCrumb lets you find App Store apps, choose a version and download its IPA on your iPhone or iPad. It is based on WaffleStore and runs as a normally sideloaded app, without jailbreak, TrollStore or external JIT.\n\nFeatures:\n\n• Sign in with your Apple ID and two-factor authentication. Sessions are stored in Keychain; passwords and verification codes are not saved.\n• Search by app name, App Store link, app ID or bundle ID, and save favourites.\n\nApp availability, licenses and installation remain subject to Apple's account and device restrictions. Browsing another region does not guarantee a download.\n\nOrigins and credits:\n\nCrumb builds on WaffleStore, whose roots include MuffinStore Jailed and PancakeStore. Its modern Apple authentication and download backend adapts logic from ipatool to run inside the iOS sandbox.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.certlium.crumb.png",
+      "tintColor": "#3776a4",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-07T00:08:46Z",
+          "localizedDescription": "Primera release de Crumb, basada en main: 1.0.0 · build 23022.\n\nFunciones:\n\n• Inicio de sesión con Apple ID y 2FA; sesión e identidad de máquina en Keychain.\n• SAP/ActionSignature adaptado de ipatool mediante un intérprete estático, sin JIT ni jailbreak.\n• Búsqueda, favoritos, selección de versiones por externalVersionId y comprobación del número/build real de la IPA.\n• Descarga con progreso, exportación individual, gestión de descargas e instalación mediante el mecanismo OTA heredado.\n• Corrección de la URL inicial de autenticación, presupuesto de recuperación compartido y conservación del código 2FA ante errores temporales.\n\nInstalación:\n\nDescargá Crumb-Release.ipa y firmala con ksign/certificado, SideStore, AltStore, Sideloadly u otro método convencional. Bundle ID: com.certlium.crumb. iOS mínimo: 16.4; el desarrollo prioriza iOS 27.\n\nPara actualizar Crumb, conservá el bundle ID y la identidad de firmado para mantener datos y acceso al Keychain. Crumb Test es una instalación separada: su sesión/descargas no se migran automáticamente.\n\nVerificación y límites:\n\nEl usuario confirmó el login en la rama de prueba 23023, que comparte el protocolo de autenticación de esta base. Eso no equivale a una prueba completa de todos los dispositivos y funciones de esta IPA. Apple controla cuándo pedir/enviar 2FA y puede devolver fallos temporales. La adquisición de apps de otras regiones puede seguir devolviendo 2059. No se automatizan compras pagas ni se descifra FairPlay. La instalación depende de la aceptación de iOS; exportar la IPA queda disponible.\n\nCréditos y procedencia:\n\nIntegración y pruebas en dispositivo: boierito. Base: WaffleStore, preservando a mineek, lunginspector, skadz, jailbreak.party y nxtcoreee3. Backend de referencia: Majd Alfhaily / ipatool (MIT).\n\nAI slop: código desarrollado con OpenAI Codex; icono generado con ImageGen.\n\nDocumentación: README · Implementación · Pruebas.\n\nSHA-256 de Crumb-Release.ipa: 786b0d73a689b70dba76d118ab11ea101146d19b56d85916e7646b3b52be2b2d.\n\nComprobación del artefacto publicado: build 23022, bundle com.certlium.crumb, arm64, Files habilitado, flag DEBUG desactivado y ausencia de controles/reset de prueba. SHA-256 de los assets cotejados con el artefacto de este workflow.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/v1.0.0/Crumb-Release.ipa",
+          "size": 8573523,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Keka",
+      "bundleIdentifier": "com.aone.Keka-iOS",
+      "developerName": "RipeStore",
+      "subtitle": "The file archiver",
+      "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\n\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\n\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\n\nCompression formats supported: 7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR).\n\nExtraction formats supported: 7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more.\n\nTerms of Use: https://www.keka.io/termsofuse",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aone.Keka-iOS.png",
+      "tintColor": "#aa6645",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/screenshots/screenshot_01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/screenshots/screenshot_02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/screenshots/screenshot_03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/screenshots/screenshot_04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/screenshots/screenshot_05.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.6.8",
+          "date": "2026-10-22T06:08:16Z",
+          "localizedDescription": "• Fully compatible with Duo.\n• This version needs iOS 18 or newer.\n• Fixed verification file access (Thanks to Alrosa-lucas).\n• Refined all Keka icons.\n• Using new mono icons for Clear and Tinted theme modes.\n• Czech translation updated (Thanks to @ferben) #1773.\n\n• File Picker Fix.",
+          "downloadURL": "https://github.com/RipeStore/Keka/releases/download/v1.6.8/com.aone.Keka-iOS_1.6.8.ipa",
+          "size": 21276636,
+          "minOSVersion": "18.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Tatakai",
+      "bundleIdentifier": "app.tatakai.me",
+      "developerName": "Snozxyx",
+      "subtitle": "Meet Tatakai. Watch, read, discover, track, and belong — one home for everything you love about anime. Made for the community",
+      "localizedDescription": "Overview:\n\nTatakai brings anime discovery, streaming, manga reading, and community features together in one customizable app. Instead of relying on a single built-in provider, its extension-first design lets users choose their sources.\n\nLegal and licensing:\n\nTatakai does not host media files on its servers. Users are responsible for accessing media legally and complying with the laws that apply to them. Extensions available through the app are unaffiliated with Tatakai and may be removed if they are found to violate copyright laws.\n\nContent accessed through third-party extensions, scraping integrations, or public APIs remains subject to the rights and terms of its respective owners. Tatakai does not claim ownership of third-party content or services.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.tatakai.me.png",
+      "tintColor": "#44b2ff",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "6.2.2",
+          "date": "2026-10-19T04:13:53Z",
+          "localizedDescription": "Fixed:\n\n• Install extensions from the web catalog by opening Tatakai and handing the selected catalog entry to the in-app installer, including Stremio and Seanime manifests.",
+          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.2.2/Tatakai-v6.2.2-ios-unsigned.ipa",
+          "size": 248503583,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Vice City Stories",
+      "bundleIdentifier": "io.github.vancevcs.vcsmobile",
+      "developerName": "vancevcs",
+      "subtitle": "GTA: Vice City Stories - PC version",
+      "localizedDescription": "GTA: Vice City Stories - PC version.\n\nGrand Theft Auto: Vice City Stories, the 2006 PSP game, made to play like a PC GTA. You get mouse look and mouse aiming, WASD, controls that change between walking, driving and flying, an HD texture pack, real-time shadows, shaded water and rain-soaked roads, and a GTA-style menu. The game's tutorial messages name your keys instead of PSP buttons.\n\nIt runs on Windows, macOS, Android and iOS. Bring your own copy of the game: no game files are included.\n\nWhat you need:\n\n• One of the following:.\n\nThe iOS build is a pre-release. It has been built and packaged but not yet tested on an iPhone.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.vancevcs.vcsmobile.png",
+      "tintColor": "#da7fa9",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2026.10.15",
+          "date": "2026-10-15T14:36:40Z",
+          "localizedDescription": "Both radio buttons working, a bike's lean, the forklift's forks and a way out of the water on the touch controls, plus the PC build's on-foot zoom and vehicle detail.\n\nThe changes below have not been played on an iPhone yet. Nothing has been tested on older iPhones, whose speed without a JIT is the open question (see below).\n\nNo disc image is included. Bring your own copy of the USA disc (ULUS10160), as .iso or .cso. It needs iOS 15 or later.\n\nWhat is new in this build:\n\n• Both radio buttons work. Only the left one reliably changed the station: the right one kept being let go of by the weapon icon's tap zone. The same fault was behind the forklift's forks not rising and NEXT TARGET while aiming.\n• Wheelie and stoppie buttons on a bike, under SHOOT on the left. Up leans forward, down leans back.\n• Fork buttons on the forklift. It has no radio, so the radio pair makes way for them.\n• A climb-out button in the water. The game climbs you out with its jump control, which on this overlay is a double tap on RUN. Nobody swimming would think to try that, so a button for it appears while you swim.\n• CAM zooms the camera on foot. It only worked in vehicles before.\n• VEHICLE DETAIL. OPTIONS -\u003e DISPLAY SETUP -\u003e ADVANCED -\u003e VEHICLE DETAIL sets how far away cars, bikes and boats keep their full model: PSP at 50 metres, HIGH at 120 (what the Liberty City Stories phone version uses), ULTRA at 240. It starts at HIGH.\n• ARRANGE CONTROLS shows the bike's buttons and SHOOT, so they can be moved.\n• A controller's left stick leans a bike too, with steering at full strength while you lean.\n\nWhat it is:\n\n• The same game as the Android build. Context-aware touch controls (on foot, aiming, driving, flying, the game's own map and stats pages), ARRANGE CONTROLS to drag every button where your thumbs are, the radar in the top-left, the phone-sized menu, and a Bluetooth controller with the PC build's pad layout.\n• The HD texture pack, converted so the phone's GPU can read it. OPTIONS -\u003e DISPLAY SETUP -\u003e ADVANCED -\u003e TEXTURE QUALITY switches between it and the PSP's own.\n• It plays in landscape only, either way up.\n\nSpeed without a JIT:\n\nAn app iOS did not install from the App Store is not allowed to generate code, which is how PPSSPP normally runs a PSP game fast, so a sideloaded install runs on PPSSPP's interpreter instead. Measured on an M1 Mac - whose cores are roughly an iPhone 12's - the interpreter holds the game's full 30 fps both standing in Vice Point and dragged across the bay to the mainland. An older iPhone will be slower, and a phone's GPU and heat are not something a Mac can stand in for.\n\nIf you have a JIT enabler set up for your iOS version, such as StikDebug, starting the game through it makes the interpreter question go away.\n\nSetting it up:\n\nUpdating from 6 October: install the new GTA Vice City Stories.ipa over the old one, with the same tool and Apple ID you used before, and your saves stay. The game files in the zip have not changed, so the memstick folder you copied in last time stays as it is.\n\nThe app and the game files are two separate downloads, as on Android: the zip holds only the game files, and the .ipa is the app on its own.\n\nA fresh install:\n\n• Install GTA Vice City Stories.ipa with a sideloading tool, which signs it with your own Apple ID: AltStore or SideStore on the phone, Sideloadly from a Mac or PC, or TrollStore if your iOS version has it. With a free Apple ID the signature lasts seven days; AltStore and SideStore refresh it for you, and refreshing keeps your saves.\n• Open it once, then close it (swipe it away). That gives it a folder - Vice City Stories under Files -\u003e On My iPhone.\n• Unzip GTA Vice City Stories iOS.zip and copy its memstick folder into that folder, replacing the one the app made. On the phone, the Files app does both; from a Mac, select the phone in Finder, open Files, and drag it onto Vice City Stories.\n• Put your disc image in the same folder, beside memstick.\n• Open the app. The game starts by itself once it finds the disc.\n\nCopy things in while the app is closed - it writes its settings into memstick as it goes to the background.\n\nBefore you start:\n\n• It ships at the cheap end. Shadows start off, water at MEDIUM, and anti-aliasing and 60 fps off (OPTIONS -\u003e DISPLAY SETUP, and its ADVANCED page). Turn them up once you know how the game runs on yours.\n• The game's help text still names PSP buttons rather than a control on screen.\n• The zip is large because the HD texture pack is in it. README.txt in the zip has the rest, including the controls that are not obvious.\n\nSource:\n\nThis build is PPSSPP, free software under the GNU GPL v2 or later. Its complete source is this repository, at the tag this release points to - ./b-ios-vcs.sh builds the app and python3 Tools/vcspackage.py --ios --zip packages it.",
+          "downloadURL": "https://github.com/vancevcs/VCSPC/releases/download/ios-2026.10.15/GTA.Vice.City.Stories.ipa",
+          "size": 32827689,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Your camera may be used to emulate Go!Cam, a camera accessory",
+          "NSLocalNetworkUsageDescription": "Your local network needs to be accessed by PPSSPP for network multiplayer support.",
+          "NSLocationWhenInUseUsageDescription": "Your location may be used to emulate Go!Explore, a GPS accessory",
+          "NSMicrophoneUsageDescription": "Your microphone may be used to emulate Go!Cam/Talkman, a microphone accessory",
+          "NSPhotoLibraryUsageDescription": "Access to your photos is needed to allow setting a background image."
+        }
+      }
+    },
+    {
+      "name": "GIFDeck Fresh",
+      "bundleIdentifier": "app.gifdeck.library",
+      "developerName": "wakeupbrk",
+      "subtitle": "A local GIF and photo library inside Messages, with Liquid Glass controls and animated previews",
+      "localizedDescription": "GIFDeck:\n\nYour GIFs, one tap away in Messages.\n\nSave GIFs and photos to your own Messages library, preview them as you browse, and tap to add the original image to a conversation. A light Liquid Glass interface keeps your collection close to the conversation.\n\nMade for your collection:\n\n• Import once, use across conversations. Add selected GIFs or photos through Photos or Files. Your copies stay saved inside the Messages extension.\n• See the motion before sending. Visible GIFs animate without an arbitrary 18-preview limit. Offscreen previews pause, and Reduce Motion is respected.\n• Send the original. Preview crops never change the file inserted into Messages. Tap an image, then press Send yourself.\n• Browse naturally. Compact and expanded libraries use native scrolling. A presentation button lets you expand or collapse the drawer.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.gifdeck.library.png",
+      "tintColor": "#3e7789",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/wakeupbrk/GIFDeck@main/Documentation/Screenshots/expanded-library.png"
+      ],
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "2026-10-06T17:04:50Z",
+          "localizedDescription": "GIFDeck Fresh is a local GIF and photo library inside Messages, with Liquid Glass controls, animated previews, Photos/Files import, and native scrolling.\n\nThis release uses neutral identifiers: app.gifdeck.library and app.gifdeck.library.messages. It carries no personal Apple certificate, team ID, device information, or provisioning profile.\n\nDownload GIFDeck-Fresh-Build-8.ipa, then use your installer to sign both the app and embedded Messages extension. The IPA has integrity signatures only and requires Apple re-signing before installation.\n\nThe interface matches the supplied build-7 screenshots. Build 8 changes the public app identity. All 25 core tests, the privacy audit, device Release archive, and IPA validation passed. Phone gesture and delivery behavior still require normal device acceptance.\n\nVerify the downloaded IPA using SHA256SUMS. Read SIGNING-STATUS.txt and the repository signing guide before installation.",
+          "downloadURL": "https://github.com/wakeupbrk/GIFDeck/releases/download/v1.1-build8/GIFDeck-Fresh-Build-8.ipa",
+          "size": 294822,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Phoebe",
+      "bundleIdentifier": "com.joetr.phoebe",
+      "developerName": "j-roskopf",
+      "subtitle": "Phoebe is a Compose Multiplatform music player for Plex, Jellyfin, Emby, Subsonic-compatible servers (Navidrome, etc.), Music Assistant, local folders, Android, iOS, desktop (JVM), and the browser (Kotlin/Wasm)",
+      "localizedDescription": "Phoebe:\n\nPhoebe is a Compose Multiplatform music player for Plex, Jellyfin, Emby, Subsonic-compatible servers (Navidrome, etc.), Music Assistant, local folders, Android, iOS, desktop (JVM), and the browser (Kotlin/Wasm).\n\nMusic providers:\n\nPhoebe can sign in to one remote music source at a time (plus optional local folders). Catalog IDs are prefixed (plex:, jellyfin:, emby:, navidrome:, music-assistant:) so items from different backends can be merged with local files in search and the library.\n\nSupport policy: Plex is the primary, best-tested integration. Jellyfin, Emby, Subsonic (Navidrome), and Music Assistant support also work, but are not my main hosting providers, so they get tested less frequently.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.joetr.phoebe.png",
+      "tintColor": "#6d60d3",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/j-roskopf/Phoebe@main/composeApp/src/screenshotTest/roborazzi/android-phone-home-expanded-dark.png",
+        "https://cdn.jsdelivr.net/gh/j-roskopf/Phoebe@main/composeApp/src/screenshotTest/roborazzi/android-phone-search-light.png",
+        "https://cdn.jsdelivr.net/gh/j-roskopf/Phoebe@main/composeApp/src/screenshotTest/roborazzi/android-phone-player-dark.png"
+      ],
+      "versions": [
+        {
+          "version": "2026.1006.1243",
+          "date": "2026-10-06T13:02:57Z",
+          "localizedDescription": "• Broaden Personal Mix artist variety and smooth playback start.",
+          "downloadURL": "https://github.com/j-roskopf/Phoebe/releases/download/release/2026.1006.1243/Phoebe-2026.1006.1243.ipa",
+          "size": 35909800,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Phoebe uses the local network to discover and connect to Chromecast devices and other Phoebe players on your Wi-Fi network."
+        }
+      }
+    },
+    {
+      "name": "freepiv",
+      "bundleIdentifier": "io.github.normalllll.freepiv",
+      "developerName": "normalllll",
+      "subtitle": "A cross-platform third-party Pixiv app for Android, iOS, macOS, Windows, and Linux",
+      "localizedDescription": "freepiv:\n\nAn open-source, cross-platform Pixiv browser with FANBOX and pixivision.\n\nBrowse illustrations and manga, read novels and articles, follow creators, and download artwork on Android, Windows, Linux, macOS, and iOS.\n\nFeatures:\n\n• Pixiv browsing: Recommendations, rankings, followed creators' updates, illustrations, manga, animated artwork, and novels.\n• Search and discovery: Search works and users, filter results, browse tags, and revisit recent searches.\n• Your library: Follow creators, bookmark works, and browse your account's collections.\n\n• pixivision: Discover articles by category, tag, or keyword, explore popular articles, and open featured works and creators in the app.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.normalllll.freepiv.png",
+      "tintColor": "#f172a9",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/normalllll/freepiv@main/screenshots/mobile/img0.webp",
+        "https://cdn.jsdelivr.net/gh/normalllll/freepiv@main/screenshots/mobile/img1.webp",
+        "https://cdn.jsdelivr.net/gh/normalllll/freepiv@main/screenshots/mobile/img2.webp",
+        "https://cdn.jsdelivr.net/gh/normalllll/freepiv@main/screenshots/mobile/img3.webp"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-10-07T17:03:32Z",
+          "localizedDescription": "What's New:\n\n• Redesigned interface: A new glass-style design with floating surfaces, spring animations, and artwork transitions across Pixiv, FANBOX, and pixivision.\n• Appearance settings: Choose neutral, cool, or warm tones; customize light and dark accent colors separately; and enable Reduce transparency for solid surfaces.\n• Search filters: Filter illustrations and manga by work type, shape, minimum size, and drawing tool. Search novels by tags, exact tags, body text, or keywords.\n• Popular previews: View a single batch of up to 30 popular works in search results. Work type, shape, size, and tool filters do not apply to this preview.\n• Novel reader: Added overlay controls, adjustable automatic scrolling, and optional volume-key navigation on Android.\n\nImprovements:\n\n• Search, FANBOX, and pixivision tabs now switch within the same page and retain their content. Tabbed pages also support mouse-drag navigation.\n\n• Windows window titles now reflect the current page, artwork, or image being viewed.\n\nFixes:\n\n• Fixed artwork flashing when completing a swipe-back gesture.\n• Fixed layout shifts when opening the keyboard, missing titles in Android sidebar layouts, and duplicate Android clipboard notifications.\n\n• Fixed image-loading errors not reaching retry handling, and corrected pixivision image placeholders and loading layouts.\n• Fixed embedded artwork images missing from novel image galleries.\n• Fixed an iOS Rust compilation failure caused by incompatible backtrace and libc dependencies.\n\nMaintenance:\n\n• Updated Flutter, Rust, Android build tools, and application dependencies.\n• Moved shared interface components into frost_ui for consistent styling and behavior.",
+          "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.2.0%2B6/ios-nosigned.ipa",
+          "size": 23457959,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "freepiv saves downloaded images to your photo library.",
+          "NSPhotoLibraryUsageDescription": "freepiv saves downloaded images to your photo library on older iOS versions."
         }
       }
     }
