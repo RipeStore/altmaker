@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.handtracker.mouse",
+    "com.syntheticae.rimba",
     "com.handtracker.app",
-    "moe.itoapp.ito"
+    "com.handtracker.mouse"
   ],
   "apps": [
     {
@@ -1711,10 +1711,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-21T23:05:39Z",
-          "localizedDescription": "Built from 22314af on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-22T03:09:04Z",
+          "localizedDescription": "Built from 341e9f2 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14620010,
+          "size": 14620035,
           "minOSVersion": "15.0"
         }
       ],
@@ -2149,11 +2149,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.2",
-          "date": "2026-10-20T19:20:39Z",
-          "localizedDescription": "Please note: this release has had only automated checks. The Linux files were checked by unpacking them, not by playing. Nobody has played it through, nobody has run it on an Android handheld, nobody has yet heard the sound on a Linux desktop, and the white-line fix below could not be tried, because the lines never appeared on the test machine. If something looks or sounds wrong, keep the previous version and send the game's report file (the newest file in the logs folder that starts with report-, or ico-pc.log) with a short description of what you saw.\n\nFixed:\n\n• Sound on Linux desktops that use PipeWire or PulseAudio. The game used to talk to the sound card directly and could play through the wrong output or none. It now plays through your desktop's sound system, and the list in Options \u003e Audio shows your system's outputs.\n• Android: the first start after installing a new version now prepares its graphics from nothing. The graphics the previous version prepared are dropped; saves and settings stay.\n• Android handhelds that run low on memory while the game prepares its graphics: the game now stops preparing when the system warns that memory is critically low and goes on, and the next start does not prepare again.\n• When the graphics driver stops answering while the game is drawing, the game now says so and names the report file to attach, instead of looking like a frozen game. On Android the next start has the graphics driver check every read, as after any time the graphics stop.\n• Thin white lines flickering along the edges of walls and floors while the camera moves. The game draws extra pictures between its own steps, and in those the pieces of a wall were placed by slightly different arithmetic, which left hairline gaps that the room's mist painted white. The game now places every unmoving piece the same way between its steps. This was not caused by the Japanese or Korean disc support. If lines still show, press F12 while they show and send the game's report file, the .zip that F12 saves and the picture it saves whose name ends in -present.png.\n• On phones and handhelds at some screen sizes, parts of the scenery could be missing and the log file grew to many megabytes, because the game prepared more drawing programs than it had room to keep. The room is now sized for all of them, and a program that cannot be made is reported once instead of on every frame.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.8.2/ico-pc-v0.8.2-ios-unsigned.ipa",
-          "size": 6631598,
+          "version": "0.8.3",
+          "date": "2026-10-22T01:15:06Z",
+          "localizedDescription": "Please note: this release has had only limited testing: one computer and automated checks. It may look or play wrong in places the previous version did not. If it does, keep the previous version and send the game's report file (the newest file in the logs folder that starts with report-, or ico-pc.log) with a short description of what you saw.\n\nNew:\n\n• Options \u003e Display \u003e Window size. Borderless can now be a window smaller than the screen, which programs that scale the game's window or add frames to it, such as Lossless Scaling, need. Pick a size under the Window mode row and the game sits in the middle of the screen without a frame. Display size, the default, keeps Borderless as it was: a window that fills the screen. The choice is saved as window_size in the settings file.\n\nFixed:\n\n• White wedges and lines along the edges of walls and floors while the camera moves, at 60 frames a second and above. The game draws extra pictures between its own steps. In the picture drawn right at one of the game's own steps, pieces of the world that had just come into view, or had just crossed the edge of the screen, were placed from the game's newest step while their neighbours were placed from the step before. The two stood a whole step apart, and the gap between them took the room's mist, which showed as a white wedge. Every piece in such a picture is now placed from the same viewpoint, and pieces that cross the screen's edge keep blending with the picture before instead of jumping. The Original frame rate never drew these extra pictures, so it never showed this. If lines still show, send the game's report file; on Windows, also press F12 while the lines show and send the .zip and the picture ending in -present.png that F12 saves. The message F12 writes in the log now says which moment between two steps the picture shows, so the picture can be drawn again exactly.\n• With Enhanced, a wide picture or a Resolution above 1x, thin hairline gaps could open along a wall within arm's reach of the camera, where one corner of the wall was placed in two slightly different spots by the two triangles that meet there. The corner is now one spot.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.8.3/ico-pc-v0.8.3-ios-unsigned.ipa",
+          "size": 6641666,
           "minOSVersion": "15.0"
         }
       ],
@@ -2667,21 +2667,26 @@
       ],
       "versions": [
         {
-          "version": "1.7.43",
-          "date": "2026-10-21T11:11:32Z",
-          "localizedDescription": "English:\n\n• Added Run Scheduled Task in Shortcuts. Select a saved plan and pass its exact run to status, wait and result actions.\n• Added a system automation setup entry with the plan’s time and timezone.\n• Duplicate triggers reuse the same run. Improved recovery after interruption, storage failures and task completion.\n• Fixed the system action summary and one-time setup instructions.\n\nSet up and enable time automations in the system Shortcuts app. Execution timing and background behavior are controlled by iOS.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.43/Floe-Agent-1.7.43-build284-unsigned.ipa",
-          "size": 801604177,
+          "version": "1.7.45",
+          "date": "2026-10-22T01:43:45Z",
+          "localizedDescription": "English:\n\n• Added a system share extension for links, text, images and files. Existing draft input is preserved; you choose when to send.\n\n• Added Shortcut import for saved schedules and cleanup reminders when a plan ends. Set up and enable time automations in Shortcuts.\n• Expanded contacts, local media, system alarms, read-only health queries and foreground NFC reading. Availability depends on the device, system version and permissions.\n\n• Expanded HDR, transparency and target frame-rate handling. Enhancement models are available according to their actual installation status in the model catalog.\n• Improved orderly Linux restarts, task-owned browser sessions and interrupted subagent recovery. Writes with uncertain outcomes are not replayed automatically.\n• Removed the incomplete chapter listing from internal prompt settings, retaining version, update and rollback controls.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.45/Floe-Agent-1.7.45-build286-unsigned.ipa",
+          "size": 809516422,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSAlarmKitUsageDescription": "Floe schedules the alarms and timers you create in the app.",
+          "NSAppleMusicUsageDescription": "Floe finds and plays items from your media library when you request them.",
           "NSBluetoothAlwaysUsageDescription": "Floe uses Bluetooth only when you ask it to connect to a nearby BLE serial device.",
           "NSCalendarsFullAccessUsageDescription": "Floe accesses calendars only when you ask the agent to read or edit events.",
           "NSCameraUsageDescription": "Floe opens the camera only when you choose to capture an image for a task.",
+          "NSContactsUsageDescription": "Floe reads the contacts you ask it to find.",
           "NSFaceIDUsageDescription": "Floe uses Face ID only to confirm when you enable unrestricted task access or unlock protected settings.",
+          "NSHealthShareUsageDescription": "Floe reads the Health data you request after you authorize access.",
+          "NSHealthUpdateUsageDescription": "Floe only reads the Health data you authorize; it does not save or modify Health data.",
           "NSHomeKitUsageDescription": "Floe accesses your Home only when you enable Home tools and request an automation action.",
           "NSLocalNetworkUsageDescription": "Floe scans your local network only when you ask the agent to discover nearby services and devices.",
           "NSLocationWhenInUseUsageDescription": "Floe uses your location only for a map or location task you request.",
@@ -4768,11 +4773,11 @@
       "category": "social",
       "versions": [
         {
-          "version": "1.0.6",
-          "date": "2026-10-18T18:52:57Z",
-          "localizedDescription": "English:\n\n• Fixed RisuAI account backup and restore not working.\n• Fixed restore problems with some backup files and improved restore failure notices.\n\n• Added a UI and popups that show sync status and errors.\n• Added a feature that delays loading plugins until sync has fully finished (prevents plugin data corruption).\n• Fixed and improved Sync server synchronization.\n\n• Fixed bugs in automatic input translation, toggle presets, and lorebooks.\n• Fixed a bug that could navigate the RisuNest app to an external page.\n\n• Improved the Windows installer.\n• Improved error messages and logging.",
-          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.0.6/RisuNest-1.0.6-ios-aarch64-unsigned.ipa",
-          "size": 78806152,
+          "version": "1.1.0",
+          "date": "2026-10-21T23:53:05Z",
+          "localizedDescription": "English:\n\n• Applied RisuAI v2026.10.211 changes.\n\n• Expanded image format support for personas, character icons, and more.\n• Improved tasks such as responses and sync to keep running after leaving the app on mobile.\n• Added progress and resuming to RisuAI account restores and improved their performance.\n• Fixed external storage sync showing as complete before it had finished.\n\n• Fixed a bug where the built-in translator could send translation requests repeatedly.\n\n• Fixed PocketRisu exports not working with some settings.\n\n• Replaced the Gemini/Gemma tokenizer with the Gemma 4 tokenizer.\n• Added a setting for the scroll navigation buttons.\n• Changed update checks to run at every app start.\n• Improved overall performance of storage, backups, restores, sync, rendering, and startup.\n• Improved error messages and logging.\n\n• RisuAI v2026.10.211 변경 사항 반영.",
+          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.1.0/RisuNest-1.1.0-ios-aarch64-unsigned.ipa",
+          "size": 77609969,
           "minOSVersion": "16.4"
         }
       ],
@@ -8268,7 +8273,7 @@
       "subtitle": "A SwiftUI Bilibili client for iOS 26+, powered by MPVKit",
       "localizedDescription": "NeoBili:\n\nA native, third-party Bilibili client for iPhone.\n\nBuilt with SwiftUI · Liquid Glass on iOS 26 · Powered by MPVKit.\n\nScreenshots:\n\nNeoBili is an unofficial client developed independently by an individual. It is not affiliated with, authorized, or endorsed by Bilibili. It is free, for personal and educational use only, and may not be used commercially. Please read the Disclaimer before use.\n\nWhy NeoBili:\n\nBilibili is one of the largest video and live-streaming communities in China. NeoBili is an iPhone client for it written entirely in SwiftUI and Swift 6. It follows iOS conventions and Liquid Glass instead of mirroring a cross-platform design, and it collects no data.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.elsterlee.NeoBili.png",
-      "tintColor": "#fe82bc",
+      "tintColor": "#fd79b5",
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/home.webp",
@@ -8278,11 +8283,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.3",
-          "date": "2026-10-12T11:20:03Z",
-          "localizedDescription": "构建信息：提交 1bfdb9a，Xcode 26.6 Build version 17F113，由 GitHub Actions 构建。.",
-          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.2.3/NeoBili-v1.2.3-unsigned.ipa",
-          "size": 59583317,
+          "version": "1.3.0",
+          "date": "2026-10-22T02:45:57Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.0/NeoBili-v1.3.0-unsigned.ipa",
+          "size": 53625361,
           "minOSVersion": "26.0"
         }
       ],
@@ -10082,11 +10087,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "1.432.0",
-          "date": "2026-10-12T18:09:04Z",
-          "localizedDescription": "Core:\n\n• 33333 (@nikomatt69).",
-          "downloadURL": "https://github.com/nikcli/nikcli/releases/download/v1.432.0/nikcli-1.432.0-983-unsigned.ipa",
-          "size": 17479441,
+          "version": "1.434.0",
+          "date": "2026-10-22T01:48:25Z",
+          "localizedDescription": "No notable changes.",
+          "downloadURL": "https://github.com/nikcli/nikcli/releases/download/v1.434.0/nikcli-1.434.0-985-unsigned.ipa",
+          "size": 17479424,
           "minOSVersion": "16.4"
         }
       ],
@@ -10489,15 +10494,15 @@
       "subtitle": "Better Screen Sharing for Apple systems",
       "localizedDescription": "Open Screen Sharing:\n\nOpen Screen Sharing aims to develop superior servers and clients based on the private protocol used by Apple VNC (macOS's Screen Sharing server and ScreenSharing.app).\n\niOS:\n\nThe App Store version is \\$1 through October 31, 2026, then \\$2. Your purchase supports my work.\n\nThe App Store version excludes the following features due to App Store restrictions:\n\n• Apple VNC server: relies on background keep-alive mechanisms and a lockdown exploit.\n• Dragging files directly from a remote Mac into other iOS/iPadOS apps: relies on a private API.\n\nNightly builds:\n\nYou can also switch to the Nightly track in the App settings of the macOS app and update directly.\n\nFeatures:\n\n• Compared to the original ScreenSharing.app:.\n\n• Optimized for local networks.\n• Optimized for public networks (runs smoothly with Tailscale P2P).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.nekohasekai.screensharing.png",
-      "tintColor": "#5695fd",
+      "tintColor": "#5796fd",
       "category": "other",
       "versions": [
         {
-          "version": "1.0.1",
-          "date": "2026-10-17T04:21:49Z",
-          "localizedDescription": "• Fixes and improvements.",
-          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.1/OpenScreenSharing.ipa",
-          "size": 12156799,
+          "version": "1.0.3",
+          "date": "2026-10-22T01:36:58Z",
+          "localizedDescription": "• Add native touch, microphone and keep-alive support for RDP.\n• Improve RDP performance.\n• Add cursor customization.\n• Press and hold to drag in trackpad mode.\n• Allow empty passwords for account logins.\n• Add automatic unlock support for iOS server.\n• Dim iOS server display during sessions.\n• Fixes and improvements.",
+          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.3/OpenScreenSharing.ipa",
+          "size": 13453754,
           "minOSVersion": "15.0"
         }
       ],
@@ -10506,7 +10511,7 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "Screen Sharing finds and connects to Macs on your local network.",
           "NSLocationWhenInUseUsageDescription": "Screen Sharing gets your approximate location only to keep sharing this device’s screen while you use other apps or the device is locked. It doesn’t keep your location or send it anywhere.",
-          "NSMicrophoneUsageDescription": "Screen Sharing sends your voice to the Mac.",
+          "NSMicrophoneUsageDescription": "Screen Sharing sends your voice to the computer you’re connected to.",
           "NSPhotoLibraryAddUsageDescription": "Screen Sharing saves screenshots to your photo library."
         }
       }
@@ -10804,7 +10809,7 @@
     {
       "name": "Lumisound",
       "bundleIdentifier": "com.lumisound.ios",
-      "developerName": "HeavenlyXenusVR",
+      "developerName": "HollowHeavenXR",
       "subtitle": "A full-featured, privacy-respecting music player for iOS, watchOS, and tvOS — stream from",
       "localizedDescription": "Repository layout:\n\nSee ios/README.md for installation (AltStore / Sideloadly), self-hosting the bridge, and build-from-source instructions.\n\nIn-app help:\n\nThe app includes a full Help \u0026 Feature Guide (Settings → Help) covering every feature above in detail, with usage tips for each.\n\nREAD IT!!!",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
@@ -10815,7 +10820,7 @@
           "version": "1.9.0.98",
           "date": "2026-10-21T18:15:46Z",
           "localizedDescription": "Fixed:\n\n\"Save to\" dropdowns on the Pending Imports screen refreshing while open — same issue as the tracked-playlist fix in the previous release, confirmed on this screen too. Each row's folder picker and import-progress spinner read from dictionaries keyed by job ID on the parent view, which also holds two services with their own frequent, unrelated background activity — any of it re-rendering the parent rebuilt every row's dropdown along with it. Each row now owns its folder choice and importing state locally, seeded once from its own entry, so nothing about it depends on unrelated activity happening elsewhere in the app.\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HeavenlyXenusVR/Lumisound/releases/download/ios/v1.9.0.98/Lumisound-1.9.0.98-unsigned.ipa",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v1.9.0.98/Lumisound-1.9.0.98-unsigned.ipa",
           "size": 11001353,
           "minOSVersion": "26.0"
         }
@@ -11031,10 +11036,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-21T23:05:39Z",
-          "localizedDescription": "Built from 22314af on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-22T03:09:04Z",
+          "localizedDescription": "Built from 341e9f2 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 48993041,
+          "size": 48998081,
           "minOSVersion": "15.0"
         }
       ],
@@ -12338,10 +12343,10 @@
       "versions": [
         {
           "version": "0.2.0",
-          "date": "2026-10-21T03:44:05Z",
-          "localizedDescription": "🌲 Rimba Mobile — Digital Garden \u0026 Focus World:\n\nIPA Build untuk Sideload SideStore / AltStore.\n\n📲 Cara Install di iPhone via SideStore / AltStore::\n\n• Buka halaman rilis ini di browser Safari iPhone Anda.\n• Unduh file Rimba.ipa dari bagian Assets di bawah.\n• Buka aplikasi SideStore (atau AltStore).\n• Tap tab My Apps, lalu tap ikon + di pojok kiri/kanan atas.\n• Pilih file Rimba.ipa yang baru diunduh.\n• SideStore akan menandatangani dengan akun Apple ID Anda, dan Rimba siap digunakan!\n\nCommit: f2587959e7fad2a4c7e7839de8e7fcd88e58b66b.",
-          "downloadURL": "https://github.com/jagarimbatetaplestari/Rimba-Mobile/releases/download/v0.2.0-build-79/Rimba.ipa",
-          "size": 89666569,
+          "date": "2026-10-22T03:49:22Z",
+          "localizedDescription": "🌲 Rimba Mobile — Digital Garden \u0026 Focus World:\n\nIPA Build untuk Sideload SideStore / AltStore.\n\n📲 Cara Install di iPhone via SideStore / AltStore::\n\n• Buka halaman rilis ini di browser Safari iPhone Anda.\n• Unduh file Rimba.ipa dari bagian Assets di bawah.\n• Buka aplikasi SideStore (atau AltStore).\n• Tap tab My Apps, lalu tap ikon + di pojok kiri/kanan atas.\n• Pilih file Rimba.ipa yang baru diunduh.\n• SideStore akan menandatangani dengan akun Apple ID Anda, dan Rimba siap digunakan!\n\nCommit: cb409e7b3c46dd6b2fd149dd4fa2cf5394c5ecf3.",
+          "downloadURL": "https://github.com/jagarimbatetaplestari/Rimba-Mobile/releases/download/v0.2.0-build-82/Rimba.ipa",
+          "size": 89666566,
           "minOSVersion": "13.0"
         }
       ],
