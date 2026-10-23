@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.meleepad.MeleePad",
-    "com.InputStreamPlayer",
-    "com.brownbear.app"
+    "com.openagentd.mobile",
+    "app.netfish.ios",
+    "com.686udjie.Trop"
   ],
   "apps": [
     {
@@ -1590,18 +1590,18 @@
       "bundleIdentifier": "com.xitrix.RPCS3",
       "developerName": "XITRIX",
       "subtitle": "Release repo for RPCS3 iOS port builds",
-      "localizedDescription": "RPCS3 iOS port:\n\nExperimental PS3 emulator, port of RPCS3.\n\nUsage:\n\n• Launch the app using StikDebug.\n• Press \"Start\" button.\n• Install PS3 Firmware selecting UPDATE.PUP file (not included).\n• Install dumped game and run it.\n\nFeatures:\n\n• Native iOS UI.\n• Installation of pkg, iso, zip and unpacked folders.\n• Game Patch manager.\n• Automatic game updater.\n• Per-game settings.\n• Multiple controllers support.\n• RPCN support (PSN online servers).\n• Game trophies screen.\n• Save data manager.\n• Per-game settings presets.\n\nMinimal device requirements:\n\n• iOS 17.4+.\n• 6 GB of RAM.\n\nTested on iPhone 15 Pro Max and iPad Pro M4.\n\niPhone 15 Pro Max::\n\n• ✅ Tekken 6 - Playable.\n• ✅ WRC FIA World Rally Championship - Playable.\n• ✅ Minecraft: Playstation 3 Edition (only v1.0) - Playable.",
+      "localizedDescription": "RPCS3 iOS port:\n\nExperimental PS3 emulator, port of RPCS3.\n\nUsage:\n\n• Launch the app using StikDebug.\n• Press \"Start\" button.\n• Install PS3 Firmware selecting UPDATE.PUP file (not included).\n• Install dumped game and run it.\n\nFeatures:\n\n• Native iOS UI.\n• Installation of pkg, iso, zip and unpacked folders.\n• Game Patch manager.\n• Automatic game updater.\n• Per-game settings.\n• Multiple controllers support.\n• RPCN support (PSN online servers).\n• Game trophies screen.\n• Save data manager.\n• Per-game settings presets.\n\nMinimal device requirements:\n\n• iOS 16.0+.\n• 4 GB of RAM.\n\nTested on iPhone 15 Pro Max and iPad Pro M4.\n\niPhone 15 Pro Max::\n\n• ✅ Tekken 6 - Playable.\n• ✅ WRC FIA World Rally Championship - Playable.\n• ✅ Minecraft: Playstation 3 Edition (only v1.0) - Playable.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.xitrix.RPCS3.png",
       "tintColor": "#7661cd",
       "category": "games",
       "versions": [
         {
-          "version": "0.11",
-          "date": "2026-10-08T10:49:12Z",
-          "localizedDescription": "What's new:\n\n• PS3-style XMB interface — familiar waves, icons and navigation sounds, with controller-friendly access to games, settings and trophies.\n• Customize XMB with themes, colors, fonts and wallpapers from Photos.\n• Game artwork and animated previews bring your library to life.\n• In-game XMB menu with Pause/Resume, Return to Game and access to performance information and logs.\n• ProMotion support for XMB on compatible displays.\n• Compact performance display with an expandable view and thermal warnings.\n\nImprovements:\n\n• Updated RPCS3 core.\n• Reduced rendering overhead, with performance improvements.\n• Improved controller rumble.\n• Faster JIT preparation.\n\nFixes:\n\n• Addressed games startup hangs.\n• Addressed Gran Turismo 6 freezes during shader-cache loading.\n• Fixed a graphics-resource race that could cause crashes in Devil May Cry 4.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.11/RPCS3.ipa",
-          "size": 32020392,
-          "minOSVersion": "17.4"
+          "version": "0.12",
+          "date": "2026-10-23T17:28:01Z",
+          "localizedDescription": "What's new:\n\n• iOS 16 support, with separate ARMv8.4-A and ARMv8-A builds for newer and older devices.\n• Implemented TrollStore as another JIT enabler for supported devices.\n• MetalFX upscaling for a sharper XMB interface on compatible displays.\n• Recommended settings and custom game configuration indicators in XMB.\n• Frame-skipping controls under GPU settings, with adjustable drawn and skipped frame counts.\n• Game failure and performance reporting, with separate controls in App settings.\n\nImprovements:\n\n• Updated RPCS3 core, including further ARM64 PPU and SPU improvements from the ARMSX3 team.\n• Improved texture caching, graphics memory management and GPU synchronization.\n\n• Automatic JIT memory allocation selection, with a manual override on supported systems.\n\nFixes:\n\n• Addressed UI freezes triggered by physical controller input.\n• Corrected ISO directory handling that could cause games to loop during startup.\n\nChoosing an iOS build:\n\n• ARMv8.4-A — iPhone 11 series, iPhone SE (2nd generation), iPad (9th generation), iPad Air (4th generation), iPad mini (6th generation), and M1 iPad Pro models or newer.\n\nBoth builds require iOS 16 or later. The app checks CPU compatibility before preparing JIT or loading the core.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.12/RPCS3-ios-arm64-armv8.4-a-unsigned.ipa",
+          "size": 35857718,
+          "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
@@ -1712,10 +1712,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-22T19:03:07Z",
-          "localizedDescription": "Built from d573f82 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-23T17:31:35Z",
+          "localizedDescription": "Built from b3a49ef on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14620042,
+          "size": 14620043,
           "minOSVersion": "15.0"
         }
       ],
@@ -1995,11 +1995,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "2026-10-22T19:27:16Z",
+          "version": "1.0.1",
+          "date": "2026-10-23T15:24:51Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.0/Scripta-ios-unsigned.ipa",
-          "size": 10404034,
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.1/Scripta-ios-unsigned.ipa",
+          "size": 10406947,
           "minOSVersion": "14.0"
         }
       ],
@@ -2807,11 +2807,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.30",
-          "date": "2026-10-23T06:57:49Z",
-          "localizedDescription": "New:\n\n• Netfish - New titles 720p (720p, then 1080p), Netfish - New titles 1080p (1080p, then 720p) and Netfish - New titles 4K (4K, then 1080p, then 720p). Never a remux or a disc image.\n\n• It puts a profile right if someone changes it, and never touches yours. The Film quality and Show quality menus are only there for Radarr's and Sonarr's choice now.\n\n• Kept New titles move to your own profile. When someone keeps a New title (or requests it in Seerr), it becomes the household's: Netfish moves it in Radarr/Sonarr to the profile your own titles use (the one Seerr adds requests with, else the one most of your library has), so it upgrades like the rest.\n\nFixed:\n\n• A restart just after adding a New title could lose it. Netfish noted a title added to Radarr/Sonarr only at the end of its check; restarted in those seconds, it found the title there \"added by someone else\" and dropped it, leaving it in Radarr/Sonarr for good. It now notes it straight away, and a title carrying Netfish's tag there is taken as its own.\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.30/Netfish-ios.ipa",
-          "size": 926999,
+          "version": "0.7.34",
+          "date": "2026-10-23T18:46:48Z",
+          "localizedDescription": "Fixed:\n\n• Netfish's own channel: no more empty evenings (and afternoons) with a smaller library.\n\n• The shows' own times get their shows first, before anything fills in. A filler earlier in the day can no longer take a cartoon that 6pm needs.\n• The evening takes other animation (anime) when there are too few grown-up cartoons, and the sitcoms take leftover animation.\n• A time no show is left for gets a film, or a show that fits, instead of staying empty.\n\n• Films are chosen to fill the stretch they're in (six hours: three of about two), not just one after the other.\n\nNew:\n\n• New titles fill what the guide lacks. When Netfish's own timetable has fewer grown-up cartoons, sitcoms or dramas than times for them (under four), every other new title it picks is one of those, the scarcest first.\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.34/Netfish-ios.ipa",
+          "size": 927039,
           "minOSVersion": "16.0"
         }
       ],
@@ -3064,7 +3064,7 @@
       "bundleIdentifier": "com.harkhowalia.smartshot",
       "developerName": "harkhowalia-1",
       "subtitle": "Bring iPhone Duo's Smart Take, on any iPhone and Mac",
-      "localizedDescription": "Features:\n\nCamera.\n\n• HEIF or Apple ProRAW at 12, 24 or 48 MP, as your device allows. 48 MP uses the main camera and switches lenses for .5× and telephoto automatically.\n• A clean, familiar interface with Liquid Glass controls (iOS 26 and later; a material look on earlier versions).\n• Zoom buttons and pinch to zoom, tap to focus and expose, flash, front and back cameras.\n• Icons turn with your phone; the camera recovers cleanly from calls, FaceTime and Split View.\n• On Mac: any built-in, external or iPhone camera. Press Space to start.\n\nPhotos.\n\n• Opens from the thumbnail with a zoom transition; swipe down to close.\n• Smooth paging and zoom: pinch, double-tap, momentum and bounce.\n• Scrubber, favourites, share the original file, hide and delete.",
+      "localizedDescription": "Features:\n\nCamera.\n\n• HEIF or Apple ProRAW at 12, 24 or 48 MP, as your device allows. 48 MP uses the main camera and switches lenses for .5× and telephoto automatically.\n• A clean, familiar interface with Liquid Glass controls (iOS 26 and later; a material look on earlier versions).\n• Zoom buttons and pinch to zoom, tap to focus and expose, flash, front and back cameras.\n• With the back camera, the flash light blinks after every automatic photo, so the group knows it was taken (like Smart Take on iPhone Duo).\n• Icons turn with your phone; the camera recovers cleanly from calls, FaceTime and Split View.\n• On Mac: any built-in, external or iPhone camera. Press Space to start.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.harkhowalia.smartshot.png",
       "tintColor": "#b4932e",
       "category": "other",
@@ -3499,11 +3499,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.80",
-          "date": "2026-10-22T21:57:21Z",
-          "localizedDescription": "Added:\n\n• Generation 3 trainers buried in ash now pop out with the ash puff and jump when revealed, then keep facing the way they turned.\n• Generation 3 objects now run every scripted movement, including the Pokémon Center nurse's bow, Cut trees and Rock Smash rocks breaking, and the Acro Bike's wheelies, timed by each sprite's own animation.\n• Generation 3 jump shadows now draw from cartridge graphics, follow objects at ground level and stop on landing or unsuitable terrain.\n• Generation 3 maps now take on their weather's colours: rain and shade darken the screen, fog lightens it, drought glares, and warps fade in and out the way each cartridge does.\n• Generation 3 rain, thunderstorms and downpours now fall and splash on the map, with lightning flashes, and the rain tapers off before the weather changes.\n• Generation 3 clouds, snow, fog, volcanic ash, sandstorms and underwater bubbles now drift over the map, fading in and out when the weather changes.\n• Generation 3 cartridges remain unplayable while field integration continues.\n\nFixed:\n\n• Generation 3 imports reject missing bridge reflection palettes and unterminated object palette tables.\n\nUpdating this release:\n\n• Cartridges must be reimported for the updated cache format. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.80-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
-          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.80/pokerecomp-0.1.80-ios.ipa",
-          "size": 26330894,
+          "version": "0.1.81",
+          "date": "2026-10-23T16:45:30Z",
+          "localizedDescription": "Added:\n\n• Generation 3 objects now play cartridge affine animations, including scaling and rotation during scripted movements, with the correct expanded sprite drawing area.\n• Generation 3 imports preserve every object graphics record's affine animation tables.\n• Generation 3 cartridges remain unplayable while field integration continues.\n\nFixed:\n\n• Generation 3 camera scrolling follows the player's pixel movement between map cells, keeping the background and sprites aligned.\n\nUpdating this release:\n\n• Cartridges must be reimported for the updated cache format. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.81-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
+          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.81/pokerecomp-0.1.81-ios.ipa",
+          "size": 26336119,
           "minOSVersion": "15.0"
         }
       ],
@@ -4347,11 +4347,11 @@
       ],
       "versions": [
         {
-          "version": "3.27.0",
-          "date": "2026-10-23T11:14:42Z",
-          "localizedDescription": "• Faster session switching. ⌘L opens Switch Workspace/Session…, and ⌘⇧L opens the current workspace's sessions with New Session highlighted. Both are also in the desktop View menu. In the browser, ⌘L no longer jumps to the address bar while the app has focus.\n• Keyboard picks stay put. In the Command Palette, workspace picker, dropdowns, and model and server pickers, a resting mouse no longer moves the highlight when a list opens or scrolls, so Enter opens the row you chose.\n• Tidier sidebar rows. Row buttons share one design. Sessions show Pin and a More menu, subagents show More, and folder actions appear on hover without reserving space, so folder names use the full width. Double-click, F2, Delete, and right-click still rename and delete directly.\n• Delegating sessions read as working. The sidebar and the macOS notch keep a session under Working until its subagents finish, and the notch shows \"Done\" once. A subagent asking its lead a question now reads \"waiting for lead\" in every window.\n\n• Claude Haiku 5 titles fixed. Haiku 5 now honors the \"none\" thinking level, so session titles and other no-thinking calls return text again.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.27.0/OpenAgentd_3.27.0_iOS.ipa",
-          "size": 5915837,
+          "version": "3.28.0",
+          "date": "2026-10-23T18:47:24Z",
+          "localizedDescription": "• Calmer session switches. Opening another session no longer flashes a blank pane or spinner. A recently viewed session shows its last transcript immediately, and the next one fades in.\n• Notch island puts finished work first. The pill shows unread Done or Failed ahead of Working, so you learn a job finished without waiting for everything else to stop.\n\n• Longer questions and plan summaries. Agents can ask questions of up to 1,000 characters, with option descriptions up to 400, and write plan summaries up to 600. They no longer get rejected and retry.\n• Smarter tool errors. A tool called by another harness's name (such as bash) gets a \"Did you mean …?\" suggestion. An absolute path like /DESIGN.md that exists in the workspace points to the workspace-relative path.\n• Steadier prompt cache. AGENTS.md and the skill list are read once per session, so editing them mid-session no longer re-sends the whole context uncached. Changes apply from the next session. Edited skill instructions still load right away.\n• Prompt-cache misses explained in telemetry. Model-call spans record what changed in the request (system prompt, tools, or messages) when the cache missed.\n• One TypeScript language server per project. .ts and .tsx files share a server, which halves memory and avoids a second cold start.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.28.0/OpenAgentd_3.28.0_iOS.ipa",
+          "size": 5917328,
           "minOSVersion": "15.0"
         }
       ],
@@ -4375,11 +4375,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.5",
-          "date": "2026-10-23T12:23:19Z",
-          "localizedDescription": "Offdesk Dev v0.25.5: every component at 0.25.5, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.5/offdesk-0.25.5.ipa",
-          "size": 9355853,
+          "version": "0.25.6",
+          "date": "2026-10-23T16:18:55Z",
+          "localizedDescription": "Offdesk Dev v0.25.6: every component at 0.25.6, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.6/offdesk-0.25.6.ipa",
+          "size": 9359345,
           "minOSVersion": "15.0"
         }
       ],
@@ -5707,24 +5707,24 @@
     {
       "name": "Trop",
       "bundleIdentifier": "com.686udjie.Trop",
-      "developerName": "686udjie",
+      "developerName": "SwiftyMedia",
       "subtitle": "YouTube Music client for iOS",
-      "localizedDescription": "Trop:\n\nA free and open source YouTube Music client for iOS.\n\nFeatures:\n\n• No ads.\n• Stream songs and videos from YouTube Music.\n• Synced lyrics (Musixmatch, Netease, Kugou, LRCLIB, Genius).\n• Library sync (playlists, albums, artists, podcasts).\n\n• Custom app icons and themes.\n• Queue management and listening history.\n\nAdd the Trop source, then install the nightly IPA (unsigned — your client re-signs it with your Apple ID):\n\nNote: AltStore PAL is not supported.\n\nNotable mentions:\n\n• InnerTubeX — eXtended InnerTube API library for Kotlin.\n• zemer-cipher — YouTube cipher deobfuscation and PoToken generation.\n• Metrolist — YouTube Music client for Android.",
+      "localizedDescription": "Trop:\n\nA free and open source YouTube Music client for iOS.\n\nFeatures:\n\n• No ads.\n\n• Stream songs and videos from YouTube Music.\n• Synced lyrics (Musixmatch, Netease, Kugou, LRCLIB, Genius).\n• Library sync (playlists, albums, artists, podcasts).\n\n• Custom app icons and themes.\n• Queue management and listening history.\n\nAdd the Trop source, then install the latest stable release (unsigned - your client re-signs it with your Apple ID):\n\nNote: AltStore PAL is not supported.\n\nManual Installation:\n\nTo build an unsigned IPA locally, run ./build_ipa.sh; the output is build/Trop.ipa.\n\nNotable mentions:\n\n• InnerTubeX - eXtended InnerTube API library for Kotlin.\n• zemer-cipher - YouTube cipher deobfuscation and PoToken generation.\n• Metrolist - YouTube Music client for Android.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.686udjie.Trop.png",
       "tintColor": "#1a88ff",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/686udjie/Trop@main/.github/assets/1.png",
-        "https://cdn.jsdelivr.net/gh/686udjie/Trop@main/.github/assets/2.png",
-        "https://cdn.jsdelivr.net/gh/686udjie/Trop@main/.github/assets/3.png"
+        "https://cdn.jsdelivr.net/gh/SwiftyMedia/Trop@main/.github/assets/1.png",
+        "https://cdn.jsdelivr.net/gh/SwiftyMedia/Trop@main/.github/assets/2.png",
+        "https://cdn.jsdelivr.net/gh/SwiftyMedia/Trop@main/.github/assets/3.png"
       ],
       "versions": [
         {
-          "version": "0.0.3",
-          "date": "2026-10-09T15:43:30Z",
-          "localizedDescription": "• Playlists over 100 tracks now load completely, including private playlists.\n• Library sync engine moved into the SwiftyTube package, with pagination guards and orphan repair.\n• Video mode improvements - gapless song/video flips and refactored song rows.\n• Lyrics upgrades - display polish, navigation, swipe gestures, and a red like button.\n• Radio upgrades - big player opens on similar-tap, options persist, pinned quick picks deduped.\n• Explore - region-aware Trending from country charts, refreshed skeleton, and shimmer on Home refresh.\n• Player artwork loads in full resolution instead of upscaled thumbnails.\n\n• Artist pages - singles, videos, playlists, fans-also-like sections, and copy-link button.\n• Albums and podcasts sync with save/subscribe actions, sort controls, and podcast redesign.",
-          "downloadURL": "https://github.com/686udjie/Trop/releases/download/v0.0.3/Trop.ipa",
-          "size": 47374429,
+          "version": "0.0.4",
+          "date": "2026-10-23T18:33:24Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/SwiftyMedia/Trop/releases/download/v0.0.4/Trop.ipa",
+          "size": 47611605,
           "minOSVersion": "26.2"
         }
       ],
@@ -5954,10 +5954,10 @@
       "versions": [
         {
           "version": "10.0.4",
-          "date": "2026-10-23T04:40:44Z",
-          "localizedDescription": "Bug Fixes:\n\n• Fixed sing-box panics and guarded crash paths in core VPN infrastructure.\n• Improved VPN flow closure during mode switches to prevent connection leaks.\n• Enhanced peer verification after credential rotation.\n\nImprovements:\n\n• Enabled data cap feature for iOS users.\n• Improved Russian translation.\n• Validated affiliate links before referral processing to prevent invalid referrals.\n• Refined action mode UI.\n• Optimized identity handling and icon resources as part of stealth mode enhancements.\n\nPerformance \u0026 Infrastructure:\n\n• Disabled trace-level logging in production builds to reduce overhead.\n• Upgraded to Go 1.26.10 and applied security updates for affected CA roots.\n• Removed redundant stream leaks in Soar implementation.\n• Added support for reaching Freddie through kindling's proxyless transport.\n\n• Updated lantern-box to v0.0.169 for enhanced peer pairing functionality.\n\nThis is a beta release from commit 223204f.\n\nBranch: v10.0.4-beta.1.\n\n• iOS: Uploaded to TestFlight.",
-          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.1/lantern-installer-beta.ipa",
-          "size": 91201585,
+          "date": "2026-10-23T18:07:25Z",
+          "localizedDescription": "UI Improvements:\n\n• Added per-server latency display in the server list to help users choose the fastest servers.\n• Added translations for server latency labels across supported languages.\n\nInfrastructure:\n\n• Updated macOS minimum system requirements.\n\nThank you for testing Lantern beta! Please report any issues you encounter.\n\nThis is a beta release from commit 5960057.\n\nBranch: v10.0.4-beta.2.\n\n• iOS: Uploaded to TestFlight.",
+          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.ipa",
+          "size": 91210159,
           "minOSVersion": "15.6"
         }
       ],
@@ -6638,11 +6638,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.7",
-          "date": "2026-10-22T08:48:18Z",
-          "localizedDescription": "Release v6.2.7:\n\n• Fix SRS editor button clicks and match the app background (0452afaab).\n• Load current SRS web builds on normal refresh (d65bda19b).\n• Use app colors and group subtitle source controls (b366f6452).\n• Default YouTube subtitles to the profile target language (757cb0a4f).\n• Render rich SRS fields and Japanese text in the browser (de9f11b4c).\n• Keep large EPUB subtitle matching responsive (da8f5b970).\n• Show YouTube subtitle segments beside landscape video (59330663d).\n• Hide screen lookup cursor when switching to directional navigation (7e6182285).\n• Add compact learning progress cards to Home (f201ed770).\n• Load required browser APIs on older Android WebViews (6229688f5).\n• Keep novel pages visible when the reader viewport changes (893c8e4b8).\n• Fix backup settings navigation (69ec30fc5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.7/Manatan-v6.2.7-iOS.ipa",
-          "size": 407548756,
+          "version": "6.2.9",
+          "date": "2026-10-23T15:21:03Z",
+          "localizedDescription": "Release v6.2.9:\n\n• Reduce idle iOS work and preserve CPU diagnostic evidence (3c9a40f26).\n• Add desktop and mobile immersion activity previews (3b2548c66).\n\n• Fix generated PWA symbol staging (a6ed9c4d0).\n• Keep immersion calendars, goals, and title history consistent (57d73460d).\n\n• Change audio preparation and narration timing (e73276dd2).\n• Change audiobook alignment and illustration playback (8d6ee81fe).\n• Change subtitle matching and illustration handling (e908fe3f1).\n• Restore AnkiMobile media handoff and isolate Apple signing keychains (c32780ba5).\n• Restore card creation from Windows screen lookup (73c998e0b).\n• Fix navigation lifecycles and Linux connectivity startup (8a19fee38).\n• Preserve actionable failure details across app and backend (422c6df18).\n\n• Preserve dictionary SVG formatting in popups and Anki cards (8277a5770).\n• Make pure black dark mode available to everyone (9dc261084).\n• Keep playback menus aligned and readable in light mode (1c23c7b39).\n• Fix browser Anki package uploads and note type conflicts (d77e41024).\n• Adapt schedule layouts to window shape (8395436b2).\n• Remove video playback instruction banners (b42172b5b).\n• Keep SRS field scrolling aligned and reuse browse editors (cf3ee7e8d).\n• Improve SRS browse responsiveness and Japanese bold text (8897c98a1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.9/Manatan-v6.2.9-iOS.ipa",
+          "size": 409046759,
           "minOSVersion": "16.1"
         }
       ],
@@ -7869,11 +7869,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.1",
-          "date": "2026-10-22T07:39:46Z",
-          "localizedDescription": "Modu 1.3.1:\n\nBuild / 构建：10152 · Stable / 正式版.\n\nEnglish:\n\n• Feat(appearance): Make the Remote library navigation tab optional and reorder navigation visibility switches. Thanks @1Cookie2gavh for.\n• Feat(settings): Move CSS settings into Reading and rename Model settings to Offline local model settings; make built-in CSS template labels follow the app language without changing user-created names or CSS.\n• Feat(history): Add a book-tap preference while editing History: open book details or read directly. Hide the option after editing, preserve save/discard behavior and restore the blurred long-press preview for details mode.\n• Fix(ocr): Accept finite, integral text offsets returned as doubles by Apple's web bridge, restoring PDF text-layer reflow, split-view loading and prefetch while retaining geometry validation and saved corrections.\n\n• Fix(tts): Exclude invisible chapter notes from visible-page calculations so narration can turn from the first page within the current paragraph instead of waiting for the next highlight.\n• Fix(reader): Align chapter-opening prose to the normal bottom margin while preserving heading styling and spacing; keep natural spacing on short endings, title-only pages and complex layouts.\n\n• Fix(ai): Copy only the AI answer, excluding reasoning and tool output; disable copying while generating or when no answer is available, without changing saved conversations.\n• Fix(bookshelf): Keep search-entry press feedback inside its rounded surface, removing the rectangular grey overlay while preserving the soft outer shadow.\n\nDownloads:\n\nNine packages, each with a SHA-256 checksum / 九个平台安装包及各自 SHA-256 校验文件：.\n\n• Android ARM64 — APK.\n• macOS ARM64 / x64 — DMG.\n• Windows ARM64 / x64 — EXE installer / 安装程序.\n• Linux ARM64 / x64 — DEB (Debian 13).\n• iOS ARM64 — unsigned IPA / 未签名 IPA.\n• HarmonyOS ARM64 — unsigned native HAP / 未签名原生 HAP.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.1/Modu-1.3.1-ios-arm64.ipa",
-          "size": 53143285,
+          "version": "1.3.2",
+          "date": "2026-10-23T17:40:01Z",
+          "localizedDescription": "Modu 1.3.2:\n\nBuild / 构建：10157 · Stable / 正式版.\n\nEnglish:\n\n• Feat(appearance): Add Auto / Wide / Narrow interface layout choices, preserving the existing automatic width threshold and reader column settings.\n• Feat(reader): Add an Auto-align scrolling switch, enabled by default. Preserve the existing directional alignment when enabled; when disabled, stop freely without forced line snapping. Apply changes immediately and include the preference in settings backup.\n• Feat(bookshelf): Long-press and drag books to create a named folder, move into an existing folder, or drop outside an open folder to return to the shelf. Dragging a checked book carries all checked books with a count badge. Preserve normal taps, batch menus and book data; failed moves retain the selection.\n• Feat(reader): Customize top-toolbar visibility and order in Reading settings. Fit enabled actions and More within 40% of the reading area's usable width, adapting to rotation and window resizing without shrinking touch targets; place remaining actions in More, with Back separate. Add Classical Chinese ↔ Modern Chinese translation using AI, Baidu's official API or Microsoft Translator, configured under Translation. Ordinary and PDF/OCR reflow reading support translation-only/bilingual output, visible-paragraph loading and immediate cancellation; reflow translations never overwrite OCR edits or notes.\n• Feat(translation): Split Translation settings into Language translation and Classical Chinese translation entries using the shared settings-card style. Add independent Classical Chinese output font (including imported fonts), size, bold and italic controls with a preview and settings backup support. Update existing and future output in ordinary and PDF/OCR reflow reading without changing source styling or making another translation request.\n• Feat(translation): Add separate font, size, bold, italic and preview controls for ordinary language translation. Keep language and Classical Chinese appearance preferences independent, applying them only to their own output in ordinary and PDF/OCR reflow reading; preserve original text and update cached output without another translation request.\n• Fix(harmony): Raise the native loopback HTTP response limit from 5 MiB to 100 MiB for local book loading; keep remote requests and other platforms unchanged.\n• Fix(harmony): Connect file sharing to the HarmonyOS system share sheet, retaining temporary file snapshots for receiving apps instead of using the unsupported plugin path.\n• Fix(harmony): Keep database reads and writes on the same native transaction so saved reading progress does not return a stale revision and pull the reader back after a page turn. Preserve conflict protection and other platforms.\n• Fix(reader): Keep the home screen's safe-area geometry stable while the reader hides system bars and during return, avoiding the late bookshelf jump when bars reappear. Preserve cover transitions, reader fullscreen behavior, keyboard insets and window resizing.\n\n• Fix(translation): Keep Classical Chinese and language translation controls and running indicators separate, including reflow reading. Accept integral numeric session IDs from Apple's web bridge instead of silently dropping paragraph requests; preserve cancellation and reject malformed IDs. Keep cached translations when AI keys rotate and retain the active display mode when reopening translation settings.\n• Fix(translation): Reflow text when paragraph translations appear, switch display mode or stop. Clear stale page-alignment offsets and keep translated pages in natural flow so original and translated lines do not overlap; preserve alignment on untranslated pages.\n• Fix(selection): Use one pair of touch-selection handles on Android and iOS. Keep cross-page endpoints re-grabbable outside system edge gestures, preserve the opposite anchor and leave desktop mouse selection and fixed-layout PDF interaction unchanged.\n• Perf(reader): Scope page-progress and bookmark refreshes to reader controls, reuse the reader during menu updates, skip duplicate menu visibility rebuilds, cache reading themes with edit/restore invalidation, and share battery polling across metadata slots with background suspension. Preserve navigation animations, pagination, narration and progress persistence.\n• Ci(tooling): Include the vendored analyzer's required generated visitor in clean checkouts so lint checks do not depend on local build leftovers.\n\nDownloads:\n\nNine packages, each with a SHA-256 checksum / 九个平台安装包及各自 SHA-256 校验文件：.\n\n• Android ARM64 — APK.\n• macOS ARM64 / x64 — DMG.\n• Windows ARM64 / x64 — EXE installer / 安装程序.\n• Linux ARM64 / x64 — DEB (Debian 13).\n• iOS ARM64 — unsigned IPA / 未签名 IPA.\n• HarmonyOS ARM64 — unsigned native HAP / 未签名原生 HAP.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.2/Modu-1.3.2-ios-arm64.ipa",
+          "size": 53253395,
           "minOSVersion": "16.0"
         }
       ],
@@ -7901,11 +7901,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.2",
-          "date": "2026-10-17T00:22:05Z",
-          "localizedDescription": "Added:\n\n• Pick several music folders per server (#64).\n• Play, pause and skip buttons have softly rounded corners.\n• Home offers to continue the queue another device left on the server.\n• Shuffle lives in library and home's corner rearranges its rows.\n• A server's libraries are picked under it in the servers list.\n• Home rows are set in settings, appearance.\n• Library lists its sections as pages, with history in its corner.\n\n• Going back follows the finger and leaves at its speed, swiped anywhere on a page.\n\nFixed:\n\n• The player keeps its colours when the server's address changes.\n• Audio output and start a jam look like the other rows of play on.",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.6.2/nori-ipod-0.6.2.ipa",
-          "size": 6484135,
+          "version": "0.7.0",
+          "date": "2026-10-23T18:20:52Z",
+          "localizedDescription": "nori has a new look. It's called Nori Seasons, and every app wears it: Android, the desktop, the terminal and the iPod. It's the biggest change to how nori looks so far, so we'd really like to hear what you think. If something looks off, is harder to use than before, is broken, or you just don't like.\n\nlot.\n\nMany settings were removed or merged. Most were rarely changed, so where one well-tuned behavior serves everyone, nori now just uses it. Your old choices carry over to the new options where they exist. The list is under \"Removed\" below. If you relied on one that's gone, open an issue and tell us how you used it.\n\nNew:\n\n• Nori Seasons, the new look. Pages are paper in a season (Spring 春, Summer 夏, Autumn 秋, Winter 冬) that follows the calendar or one you pick, in System, Day, Night or Midnight (true black). New icons, and a favorite is now the seal 好 instead of a heart. On Android, home, the library, album and artist pages, menus and the player are reworked. The desktop, terminal and iPod keep their own layouts in the new style, and the terminal was redesigned to feel like a terminal app.\n• Lyrics from eleven services, asked at once and checked against the singing, so the timing lines up with the voice. You can nudge a song's timing in 50 ms steps.\n\n• The server can go away mid-song. An unreachable server no longer pauses playback: the song waits and goes on, and the offline queue hands back to yours as soon as the server is back.\n• Albums, playlists and mixes offer Play next and Add to queue.\n• Search leads with the top song's artist and album, then what you play most.\n• Albums can be sorted into a row of covers per artist.\n• Burn-in protection: shifts the screen, dims it and hides the bars while nori keeps the screen on.\n• E-ink motion: the seek bar fills in blocks and counts whole minutes, nothing else moves.\n\n• The desktop's song and player menus have everything Android's do (sleep timer, lyrics timing and more), and its artist pages shelve singles, EPs and live albums apart.\n• Linux media controls show the cover and follow seeks.\n\nBetter:\n\n• Songs start sooner, especially on a slow connection, and seeks land faster.\n• Less work while playing, less memory and fewer requests.\n• Settings that depend on another switch stay in place, grayed out, instead of jumping around.\n\nRemoved:\n\nThese settings are gone. Where something replaces them, it's named here.\n\n• Pure black and Cover colors. Pick the Midnight appearance for true black (it turns cover colors off). In every other appearance cover colors are always on.\n• Volume leveling's preamp, gain boost and untagged gain. Leveling is now Off, Song, Album or Auto (album in order, song in shuffle), at a Quiet, Normal or Loud level. Untagged songs are measured and clipping is always prevented. Volume boost stays.\n• Loudness compensation and the noise gate. Removed. Bass boost is now an equalizer preset.\n• The compressor's knobs. It's a switch with Light, Car and Night presets.\n• Crossfeed presets and the virtualizer slider. Now one choice, Headphone sound: Off, Natural or Wide.\n• AutoMix's sub-switches and the crossfade curve. AutoMix is one switch (plus better beat detection), and crossfade is Off or 1 to 12 seconds on a fixed curve.\n• Reduce motion, E-ink screen and Animate anyway. Now one choice, Motion: Full, Reduced or E-ink. nori's choice wins over Android's animation setting.\n• UI scale. nori follows Android's display size.\n• The favorite notice. Removed.\n• Lyrics prefetch and skip on error. Always on now.\n• Playlist descriptions and hide import notes. Merged into one switch.\n\n• Lyrics from Genius, Megalobiz, Portato, SimpMusic and YouTube captions. Dropped after measuring them on hundreds of songs; the other services find more, with better timing.\n• The separate Keys section. BetterLyrics takes its key on its own row.\n\nFixed:\n\n• Dozens of fixes, mostly playback that stuck on loading, remote control and jams, scrobbles a proxy refused, lyrics after quick skips or a lost network, and the Linux desktop app.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.7.0/nori-ipod-0.7.0.ipa",
+          "size": 7819269,
           "minOSVersion": "12.2"
         }
       ],
@@ -8205,17 +8205,18 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.0.7",
-          "date": "2026-10-11T07:56:59Z",
+          "version": "0.0.8",
+          "date": "2026-10-23T16:42:36Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/unbill-project/unbill/releases/download/v0.0.7/unbill-apple-ios.ipa",
-          "size": 9392180,
+          "downloadURL": "https://github.com/unbill-project/unbill/releases/download/v0.0.8/unbill-apple-ios.ipa",
+          "size": 10489032,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "unbill uses Bluetooth to discover nearby devices and sync your ledgers.",
           "NSCameraUsageDescription": "unbill uses the camera to scan invitation QR codes.",
           "NSLocalNetworkUsageDescription": "unbill syncs your ledgers directly between your devices over the local network."
         }
@@ -10289,11 +10290,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.114",
-          "date": "2026-10-22T18:02:27Z",
+          "version": "0.8.116",
+          "date": "2026-10-23T17:19:03Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.114/NicotinD-0.8.114-unsigned.ipa",
-          "size": 1568987,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.116/NicotinD-0.8.116-unsigned.ipa",
+          "size": 1575650,
           "minOSVersion": "15.0"
         }
       ],
@@ -10960,15 +10961,15 @@
       "subtitle": "Star Fox Enhanced source and portable platform builds (Assisted by Codex AI)",
       "localizedDescription": "Star Fox Enhanced:\n\nA native C++/SDL3 port of UltraStarFox, with Original Star Fox and Star Fox EX experiences, high-frame-rate presentation, widescreen support, and optional visual enhancements using Codex AI (5.6 Sol, 6 Astra, 6 Sol).\n\nTHIS PROJECT WAS PORTED AND CODED BY AI/CODEX:\n\nAI disclosure: This project is made with AI assistance, including OpenAI Codex and AI tools used for programming, testing, documentation and some visual assets.\n\nThis is an alpha release, not a cycle-accurate SNES emulator. A supported, unmodified retail ROM supplied by you is required. No retail ROM is included.\n\nGet started:\n\n• Launch the game. On desktop, place your supported .sfc/.smc ROM beside the executable, or set STARFOX_RETAIL_ROM to its path. Mobile apps provide a first-launch file picker.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.starfox.enhanced.png",
-      "tintColor": "#6156e2",
+      "tintColor": "#4472bc",
       "category": "games",
       "versions": [
         {
-          "version": "0.0.8.8",
-          "date": "2026-10-20T14:21:11Z",
-          "localizedDescription": "Star Fox Enhanced 0.0.8.8:\n\nThis update includes the changes since 0.0.8.7. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS development remains paused, and no 3DS package is included.\n\nBackgrounds and portraits:\n\n• Fixed thin vertical seams and stepped cloud tiles while steering in Mode 2 stages. Background columns now follow each scanline's horizontal scroll in both the Software and GPU renderers, including the GPU stereo sky path. Thanks to maiktheclaw for contributing this fix.\n• Removed the dialogue-only horizontal portrait stretch in widescreen. Original and EX dialogue portraits now use uniform source-pixel scaling, like the results-screen portraits, instead of duplicating uneven columns.\n\nTouch controls:\n\n• Enlarged the default on-screen controls relative to the display size for new and reset layouts. Existing saved layouts retain their previous base sizing.\n• Removed fixed pinch-size and viewport-fit limits. Controls can be made larger or smaller, and oversized D-pad/button groups can still be dragged and saved.\n\nGPU and Vita improvements:\n\n• Reworked compositor margin histograms to use small shared workgroup buffers instead of large private arrays. This targets excessive shader-compilation work while retaining the same output.\n• Substantially reduced Vita executable memory use by keeping enhanced backdrop artwork bundled in the VPK and loading it on demand, rather than mapping every image at startup. No extra artwork installation is required.\n• Set explicit Vita heap and main-thread stack reservations, and strengthened package checks for executable memory use and bundled artwork.\n\nKnown limits:\n\nReal-console Vita boot and sustained gameplay still need confirmation; a successful build does not establish hardware compatibility. The separate AMD Vulkan device-loss reports, Android/Pocket 6 audio crackling, some corridor and background variants, and intermittent space-scene brightening remain under investigation. These changes are not claimed to resolve every graphics report.\n\nAntivirus detections against earlier Windows downloads remain under investigation and are not considered resolved by this version bump. Do not disable antivirus protection to install the game.",
-          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8/StarFoxEnhanced-0.0.8.8-ios-arm64-unsigned.ipa",
-          "size": 85268393,
+          "version": "0.0.8.8.1",
+          "date": "2026-10-23T17:21:06Z",
+          "localizedDescription": "Star Fox Enhanced 0.0.8.8.1:\n\nThis update includes the changes since 0.0.8.8. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS development remains paused, and no 3DS package is included.\n\nIn-game updates:\n\n• Added numeric hotfix-version support so 0.0.8.8.1 is displayed and compared.\n\nGraphics and performance:\n\n• Corrected corridor backdrop extensions and closed-tunnel ceilings, including the unwanted top bar and moving-atlas edge seams. Authored background margins are used before extending an image beyond its original coverage.\n• Restored the default removal behavior of allocated map objects, preventing earlier space-scene objects from persisting into enclosed areas.\n• Reduced software-renderer CPU work by sharing persistent presentation workers across background rendering and upscaled brightness/contrast processing. Native-resolution output and serial rendering retain their existing behavior.\n• Rendered independent music and sound-effect stems concurrently, joining them within the same simulation tick to preserve game/audio timing.\n• Hardened worker error handling so all outstanding work is joined before an error is returned to the calling thread.\n\nAudio and mobile:\n\n• Restored the correct instrument-bank setup when launching Original stages through the pre-game LEVEL SELECT menu, fixing incorrect weapon sounds.\n• Increased Android startup audio headroom and let the audio device select its callback size to target crackling reported on handheld devices. Source audio cadence is unchanged; affected-device confirmation is still needed.\n\nKnown limits:\n\nAntivirus detections against earlier Windows downloads remain under review. Do not disable antivirus protection to install the game.",
+          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.1/StarFoxEnhanced-0.0.8.8.1-ios-arm64-unsigned.ipa",
+          "size": 85284181,
           "minOSVersion": "15.0"
         }
       ],
@@ -10989,10 +10990,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-22T19:03:07Z",
-          "localizedDescription": "Built from d573f82 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-23T17:31:35Z",
+          "localizedDescription": "Built from b3a49ef on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 49002178,
+          "size": 49002573,
           "minOSVersion": "15.0"
         }
       ],
@@ -11545,11 +11546,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.2.6",
-          "date": "2026-10-22T18:43:20Z",
-          "localizedDescription": "Everything since v0.2.5. The tap change in 0.2.5 is withdrawn: it made a camera drag walk your character, and a press-and-hold act before its menu opened. This build also fixes the search text that stayed in the chatbox, the Android GPU renderer's stray geometry and screenshot freeze, and a frozen iOS login screen in GPU mode. It adds a one-tap switch to Resizable - Modern and lets you move the minimap.\n\nFixed:\n\n• Android, GPU renderer: stray geometry. A translucent triangle could sit across part of the screen for seconds, and wall pieces dropped out for a frame while the camera turned.\n• Android, GPU renderer: a screenshot stopped the game. Taking one (the Screenshot plugin takes one on a level-up) stopped the game, and reopening the app showed a black game area.\n• iOS, GPU renderer: the login screens froze on their first frame, so a refused login and the game's \"Try Again\" were invisible behind a Play Now button that no longer did anything.\n• An account saved in Resizable - Classic logged in with no usable side panel. On Android every tab opened into an invisible panel, and on iOS neither the tab stones nor the panel showed. Classic and Fixed now get the game's own HUD.\n\n• iOS: an audio route change (AirPods connecting, a car stereo) stopped the background keepalive until the app next went to the background, so iOS could end a session that should have stayed alive. It now restarts at once.\n• iOS: every launch left a 172 KB file behind in the app's caches. The ones already there are removed.\n\nAdded:\n\n• A \"Switch to Resizable - Modern\" button at the top of the screen when your account is in Resizable - Classic or Fixed. One tap changes the setting the way the game's own Settings \u003e Display does; the layout is saved to your account by the game, not by the app.\n\n• iOS keeps a small record of how each session ended (durations, counters and a memory figure) to tell apart what ends a session in the background. It stays on the phone; see PRIVACY.md.\n\nChanged:\n\n• The GPU renderer's vsync starts on. On Android, frames follow the display instead of a 60 fps sleep that drifted against it; iOS keeps its frame limiter, because its presents take no swap interval. A change in the plugin panel survives relaunch.\n• Android, CPU renderer: frames are presented on the display's refresh instead of after a fixed 16 ms sleep, which ran under 60 Hz on a 90 Hz screen.\n• Less work per frame: the relocated HUD is re-laid only when it moves, snapshots are republished only when they change, and on iOS the frame copy for the screen runs off the main thread.\n\n• iOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding drops the game session. Sending the app to the background (or locking the screen) pauses the client; on return you may need to log in again, and the first resume-login can occasionally need one retry.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/runemobile/releases/download/v0.2.6/RuneMobile-0.2.6.ipa",
-          "size": 160300579,
+          "version": "0.2.7",
+          "date": "2026-10-23T17:11:14Z",
+          "localizedDescription": "Everything since v0.2.6. The 117 HD settings screen shows 117HD's own settings again: since 0.2.0 it showed Entity Hider's, and its reset button reset Entity Hider. This build also stops the Notes settings screen from being able to erase your notes, and draws the plugin side panels in RuneLite's own look.\n\nFixed:\n\n• The 117 HD settings screen showed Entity Hider's settings (Hide others, Hide NPCs, …) instead of its own, and its \"Reset all settings\" reset Entity Hider. This had been the case since 0.2.0. 117HD needs Entity Hider to load, and the app took the settings Entity Hider shares with it for 117HD's own. The screen shows 117HD's settings again: resolution, anti-aliasing, shadows, lights, normal mapping and draw distance.\n• The Notes plugin had a settings screen with nothing on it but \"Reset all settings\", and one tap of that erased your notes. A plugin whose settings are all hidden no longer gets a settings screen; Notes keeps its switch and its side panel.\n• The plugin side panels were drawn in Swing's default look instead of RuneLite's: a white border round every scroll pane, and text that ignored its font and colour (the Info panel's \"Sign in\" line came out in black serif). They now look as they do on desktop.\n\nChanged:\n\n• iOS: the XP Tracker screen reads the same once-a-second snapshot as Android's, built on the game's own thread, instead of reading the plugin's state from the screen's thread.\n\nUnder the hood:\n\n• iOS, 117HD: no more shader errors at start-up. 117HD's calibration and debug overlay shaders are now ported to the phone's shading language, as Android's already were.\n\n• iOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding drops the game session. Sending the app to the background (or locking the screen) pauses the client; on return you may need to log in again, and the first resume-login can occasionally need one retry.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.2.7/RuneMobile-0.2.7.ipa",
+          "size": 160302414,
           "minOSVersion": "17.0"
         }
       ],
@@ -12347,35 +12348,6 @@
       }
     },
     {
-      "name": "mLabeler",
-      "bundleIdentifier": "io.github.megageorgio.mlabeler",
-      "developerName": "Megageorgio",
-      "subtitle": "Cross-platform editor for singing voice labels: phonemes, notes, pitch and UTAU oto. Works with DiffSinger datasets, supports automatic labeling. Windows, macOS, Linux, Android, iOS",
-      "localizedDescription": "mLabeler:\n\nA labeling editor for singing voice data: phoneme and word tiers, notes and pitch, UTAU oto. One codebase for Windows, macOS, Linux, Android and iOS (Kotlin, Compose Multiplatform).\n\nDownload:\n\n• Windows — a .zip that needs no installation (unpack and run mLabeler.exe), the .msi installer, or the fully portable -portable.zip: the settings, the toolkit, its Python and models all stay in the program folder and nothing is written anywhere else (a USB stick or a separate disk will do; the toolkit and models take several gigabytes);\n• macOS — .dmg;\n• Linux — .deb for Debian and Ubuntu, or a .tar.gz for any distribution (unpack and run bin/mLabeler);\n• Android — .apk;\n• iOS — unsigned .ipa (see below).",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.megageorgio.mlabeler.png",
-      "tintColor": "#57c52d",
-      "category": "other",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/Megageorgio/mlabeler@main/docs/screenshot.png"
-      ],
-      "versions": [
-        {
-          "version": "0.1.1",
-          "date": "2026-10-13T15:45:08Z",
-          "localizedDescription": "Quick labelling: the built-in MCFL model (13 languages) right in the app, no toolkit, on computers (Windows 7 included) and phones; language picker next to the button. Boundary refinement now uses the built-in model, no toolkit; removed from auto-labeling. Auto-labeling: multilingual WFL-ASR models (several languages in one song), model authors, filter by model kind, Whisper recognition errors shown in the window. Auto-labeling model comparison: PER, boundary errors, speed, charts; without phonemes, with the labels' phonemes or both; aligners via Whisper + G2P. Unsure phoneme check with percent and threshold (off by default); a manual edit clears the mark. Sound editing: spectrogram brush with a soft edge. Dataset summary: phoneme chart. Settings: all sections expanded, Expand all / Collapse all. Phones: scale button on by default, pinch no longer grabs boundaries.",
-          "downloadURL": "https://github.com/Megageorgio/mlabeler/releases/download/v0.1.1/mLabeler-0.1.1-ios-unsigned.ipa",
-          "size": 23408303,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSMicrophoneUsageDescription": "mLabeler records samples for voicebanks and datasets."
-        }
-      }
-    },
-    {
       "name": "DSH Tether",
       "bundleIdentifier": "cc.zexa.dshtether",
       "developerName": "zexadev",
@@ -12992,7 +12964,7 @@
       "bundleIdentifier": "Shizhihe.LogForge-For-iPhone",
       "developerName": "HongHuo0728",
       "subtitle": "Native Windows and iOS applications that convert BT.2020 HLG ProRes into Apple Log / BT.2020 ProRes for a consistent grading workflow",
-      "localizedDescription": "LogForge:\n\nNative Windows and iOS applications that convert BT.2020 HLG ProRes into Apple Log / BT.2020 ProRes for a consistent grading workflow.\n\nLogForge changes the pixels using published color mathematics. It does not restore clipped highlights, crushed shadows, tone-mapped-away detail, or information lost in a camera's ISP. It cannot turn processed phone footage into the original sensor capture.\n\niOS 1.3.1:\n\n• Native transparent Liquid Glass interface, layered glass icon, accessibility contrast handling and haptic feedback.\n• Import from Photos, files or folders; choose an export directory, process a queue, cancel and retry failed videos.\n• Automatically fall back from unavailable system ProRes decoding/encoding to the embedded software codecs. CPU color processing and Metal color processing remain selectable.",
+      "localizedDescription": "LogForge:\n\nNative Windows and iOS applications that convert BT.2020 HLG ProRes into Apple Log / BT.2020 ProRes for a consistent grading workflow.\n\nLogForge changes the pixels using published color mathematics. It does not restore clipped highlights, crushed shadows, tone-mapped-away detail, or information lost in a camera's ISP. It cannot turn processed phone footage into the original sensor capture.\n\niOS 1.3.2:\n\n• Adaptive Duo workspace: queue/progress/results and conversion parameters split across the inner display or fold, with a complete compact workspace on the outer display. Root-owned queue and drafts survive resizing.\n• Native system toolbars adapt to side placement where appropriate; import sheets and parameter rows resize for available space and larger text. iOS 26 retains the compatible layout path.\n• Native transparent Liquid Glass interface, layered glass icon, accessibility contrast handling and haptic feedback.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/Shizhihe.LogForge-For-iPhone.png",
       "tintColor": "#416bc4",
       "category": "other",
@@ -13499,17 +13471,17 @@
       "bundleIdentifier": "app.tatakai.me",
       "developerName": "Snozxyx",
       "subtitle": "Meet Tatakai. Watch, read, discover, track, and belong — one home for everything you love about anime. Made for the community",
-      "localizedDescription": "Overview:\n\nTatakai brings anime discovery, streaming, manga reading, and community features together in one customizable app. Instead of relying on a single built-in provider, its extension-first design lets users choose their sources.\n\nLegal and licensing:\n\nTatakai does not host media files on its servers. Users are responsible for accessing media legally and complying with the laws that apply to them. Extensions available through the app are unaffiliated with Tatakai and may be removed if they are found to violate copyright laws.\n\nContent accessed through third-party extensions, scraping integrations, or public APIs remains subject to the rights and terms of its respective owners. Tatakai does not claim ownership of third-party content or services.",
+      "localizedDescription": "Overview:\n\nTatakai brings anime discovery, streaming, manga reading, and community features together in one customizable app. Instead of relying on a single built-in provider, its extension-first design lets users choose their sources.\n\nHost your own sources with Tatakai Extension Server: setup, built-in proxy, live logs, and deployment buttons for Vercel, Cloudflare, Heroku and Render. Set its API in Settings → Extension Hub → Extension Servers, or configure a connection.\n\nThe service is maintained independently in Snozxyx/TatakaiServer and included here as the tatakai-server/ Git submodule. Initialize it in an existing checkout:\n\nFor a new Tatakai checkout, use git clone --recurse-submodules.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.tatakai.me.png",
       "tintColor": "#44b2ff",
       "category": "entertainment",
       "versions": [
         {
-          "version": "6.2.2",
-          "date": "2026-10-19T04:13:53Z",
-          "localizedDescription": "Fixed:\n\n• Install extensions from the web catalog by opening Tatakai and handing the selected catalog entry to the in-app installer, including Stremio and Seanime manifests.",
-          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.2.2/Tatakai-v6.2.2-ios-unsigned.ipa",
-          "size": 248503583,
+          "version": "6.3.0",
+          "date": "2026-10-23T17:44:51Z",
+          "localizedDescription": "Tatakai 6.3.0 - 2026-10-23:\n\nExtension compatibility, translation tools, community features, and playback improvements. Native runtime additions require updated app packages; extension compatibility depends on the platform and source.\n\nExtensions and community servers:\n\n• Publish moderated community-server listings in the extension portal, with public HTTPS addresses, owner artwork, and a Connect in Tatakai action. Server credentials and pairing codes stay outside published listings.\n• Connect community-hosted extension servers through URL/password or pairing links, including remote anime, manga, and novel sources. Show each connected server's name, logo, current health, and running time when supplied by the host.\n• Integrate the desktop home server with extension hosting and its setup dashboard while retaining household library sharing.\n• Add community extension stacks and language-based catalog filtering. The separate extension portal's stack picker includes supported and limited-compatible entries across ecosystems, paginates the eligible catalog, and preserves selections across searches, with a maximum of 20 extensions per stack.\n• Apply the global adult-content preference to extension descriptors, browsing, and stack installation without treating unclassified content as verified safe.\n• Repair native Install from File using the desktop file picker and bounded package reads. Improve extension artwork handling, install feedback, failure deadlines, and diagnostics.\n\n• Add a shared translation settings panel for community posts, comments, subtitles, and novel chapters, with a target language, per-surface controls, optional automatic translation, and an original-text toggle.\n• Support free translation endpoints, configured cloud providers, compatible custom endpoints, and the existing on-device engine. Bound retries and automatic attempts so failed providers do not leave content translating indefinitely.\n• Add subtitle translation and optional track pretranslation to desktop and mobile playback, and paragraph translation in the novel reader.\n• Add an experimental desktop manga translation workspace with project/page management, image/folder/archive/PDF import, text detection and OCR, editable text and image layers, cleanup tools, font controls, translator credits, backups, and PNG/layered PSD export.\n\n• Add community and discussion-thread following, with database-generated notifications for supported activity.\n• Add post previews and locally saved drafts to feed and forum composers, including restoring draft images before publishing.\n• Add translated comment rendering and richer supported-link previews. Decode legacy escaped comment text while retaining timestamp links.\n• Add notification sound preferences, deduplicate realtime notification presentation, and apply the sound preference to activity and Watch Party messages.\n• Hide deleted posts from normal feed results, add general-community language guidance, and refresh community banners and notification layouts.\n\nPlayback and readers:\n\n• Add MPEG-DASH playback through the shared player and on-device header proxy, preserving original manifest URLs for relative media requests.\n• Add preferred audio-language selection and carry extension, provider, and community-server identity through playback controls and diagnostics.\n• Return playable extension results progressively, bound concurrent provider lookups, and add controls to stop lookups or search remaining sources. Avoid letting an unresolved source hide results already returned by other sources.\n• Rework custom-source detail, watch, and read pages with provider switching, catalog context, library actions, progress, and clearer failure states.\n• Share manga reader controls between catalog and custom sources. Improve fullscreen exit controls, page-size handling, and reading-position restoration when changing reading modes.\n• Improve desktop fullscreen transitions when entering from a maximized window. Coalesce concurrent local-proxy startup requests and defer noncritical startup work.\n\nDiscovery, profiles, and TV:\n\n• Introduce Tatakai Translate on the landing page, with its desktop editing workflow and model requirements.\n\n• Use a Read icon on manga and novel continue-reading cards while keeping Play for video.\n• Cycle the mobile catalog header from Novel back to Anime, including its long-press shortcut, without opening the landing page.\n• Resolve trending entries through current catalog identifiers and omit unresolved legacy entries instead of showing numeric titles and broken placeholder posters. Use the correct monthly view counter.\n• Add manga and novel view counters to supported cards and detail pages, with delayed view recording, duplicate suppression, and bounded per-session counting.\n• Allow guests to browse public playlists and tier lists while retaining protected editing and private-content checks. Separate query caches by viewer identity.\n\n• Improve mobile anime, manga, and novel detail layouts, chapter/episode shortcuts, and hero title artwork.\n\n• Replace native selects and checkboxes with app-themed controls across settings, admin, extension, discovery, and TV screens.\n\nAdministration and service status:\n\n• Add an admin content-catalog manager with poster previews, search, format filters, pagination, entry creation/editing, and reversible archiving that preserves user references.\n• Replace browser-only status probes with Better Stack categories, service states, all-time and 30-day uptime, downtime, response times, and recent incidents. Make the public status page responsive and accessible without signing in.\n• Use bounded monitoring requests with a second public origin as fallback. Display missing or stale health as unknown and preserve recorded historical downtime.\n• Correct database, AniList GraphQL, and operations readiness monitoring. Keep operations controls protected and publish only allowlisted monitoring fields.\n\nBuild and documentation:\n\n• Update Windows portable packaging and record startup timing for future performance comparisons.",
+          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.3.0/Tatakai-v6.3.0-ios-unsigned.ipa",
+          "size": 250773305,
           "minOSVersion": "15.0"
         }
       ],
@@ -13748,6 +13720,36 @@
           "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
           "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
           "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
+        }
+      }
+    },
+    {
+      "name": "mLabeler",
+      "bundleIdentifier": "pw.msan.mlabeler",
+      "developerName": "Megageorgio",
+      "subtitle": "Cross-platform editor for singing voice labels: phonemes, notes, pitch and UTAU oto. Works with DiffSinger datasets, supports automatic labeling. Windows, macOS, Linux, Android, iOS",
+      "localizedDescription": "mLabeler:\n\nA labeling editor for singing voice data: phoneme and word tiers, notes and pitch, UTAU oto. One codebase for Windows, macOS, Linux, Android and iOS (Kotlin, Compose Multiplatform).\n\nDownload:\n\n• Windows — a .zip that needs no installation (unpack and run mLabeler.exe), the .msi installer, or the fully portable -portable.zip: the settings, the toolkit, its Python and models all stay in the program folder and nothing is written anywhere else (a USB stick or a separate disk will do; the toolkit and models take several gigabytes);\n• macOS — .dmg;\n• Linux — .deb for Debian and Ubuntu, or a .tar.gz for any distribution (unpack and run bin/mLabeler);\n• Android — .apk;\n• iOS — unsigned .ipa (see below).",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/pw.msan.mlabeler.png",
+      "tintColor": "#57c52d",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Megageorgio/mlabeler@main/docs/screenshot.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.2",
+          "date": "2026-10-23T15:43:45Z",
+          "localizedDescription": "• Auto-oto: preview additions, replacements and removals before applying; select individual changes, review alias conflicts and undo the result in one step.\n• Auto-oto profiles: saved settings, prefix/suffix and separate marker corrections for initial, CV, VC, VV, VCV and ending entries; original defaults remain available.\n• CVVC: VV transitions are generated alongside standalone vowels, without a separate VCV pass.\n• Aliases: kana, romaji or both; bulk conversion with optional copies to keep the original aliases.\n• Japanese alias coverage: missing and duplicate aliases, missing recordings and invalid timings; OpenUtau JA VCV/CVVC legacy conventions with fallback checks. This is a static check, without running the phonemizer.\n• Oto playback: listen as a note (J) through WORLD, the DiffSinger vocoder or an UTAU resampler; audition transitions between two entries, with A/B comparison of original and edited markers. Transition playback requires an updated mVocalToolkit.\n• Saving: preserve pending edits across multiple files and unfinished text input; failed saves keep changes available for retry. Recording and karaoke wait for pending audio saves when closing.\n• Project opening: background folder scanning, loading indicator and correct selection of dropped recordings.\n• macOS: reworked file dialogs, microphone permission description, bundled legacy encodings and safer quit handling.\n• iOS: improved audio sessions, sample-rate conversion, interruption handling, audio decoding, file writes and background saving; local-network toolkit connections.\n\n• App identifier changed to pw.msan.mlabeler on Android and Apple platforms. On Android this installs as a separate app; previous settings and permissions are not transferred automatically.",
+          "downloadURL": "https://github.com/Megageorgio/mlabeler/releases/download/v0.1.2/mLabeler-0.1.2-ios-unsigned.ipa",
+          "size": 23659202,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "mLabeler connects to mVocalToolkit on your local network.",
+          "NSMicrophoneUsageDescription": "mLabeler records samples for voicebanks and datasets."
         }
       }
     }
