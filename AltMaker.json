@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "org.floeagent.ios",
-    "com.softify.softify",
-    "com.zarz.mornye"
+    "com.meleepad.MeleePad",
+    "com.InputStreamPlayer",
+    "com.brownbear.app"
   ],
   "apps": [
     {
@@ -4347,11 +4347,11 @@
       ],
       "versions": [
         {
-          "version": "3.26.0",
-          "date": "2026-10-22T17:20:40Z",
-          "localizedDescription": "• Agent status in the notch (macOS). While you work in another app, a pill grows out of the MacBook notch whenever an agent is busy (or hangs from the middle of the menu bar on displays without a notch). It shows \"Working\", turns orange with \"Needs input\" when an agent waits on a question or plan review, and keeps finished sessions marked \"Done\" or \"Failed\" until you open or dismiss them. Hover to list sessions; click one to open it. It's on by default and you can change it in Settings → General.\n\n• Long turns show every step. The \"Show N earlier steps\" button is gone; the whole turn renders.\n\n• Idle compaction no longer marks sessions unread.\n\n• The tray popup no longer offers New session; use ⌘N in the app window.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.26.0/OpenAgentd_3.26.0_iOS.ipa",
-          "size": 5914737,
+          "version": "3.27.0",
+          "date": "2026-10-23T11:14:42Z",
+          "localizedDescription": "• Faster session switching. ⌘L opens Switch Workspace/Session…, and ⌘⇧L opens the current workspace's sessions with New Session highlighted. Both are also in the desktop View menu. In the browser, ⌘L no longer jumps to the address bar while the app has focus.\n• Keyboard picks stay put. In the Command Palette, workspace picker, dropdowns, and model and server pickers, a resting mouse no longer moves the highlight when a list opens or scrolls, so Enter opens the row you chose.\n• Tidier sidebar rows. Row buttons share one design. Sessions show Pin and a More menu, subagents show More, and folder actions appear on hover without reserving space, so folder names use the full width. Double-click, F2, Delete, and right-click still rename and delete directly.\n• Delegating sessions read as working. The sidebar and the macOS notch keep a session under Working until its subagents finish, and the notch shows \"Done\" once. A subagent asking its lead a question now reads \"waiting for lead\" in every window.\n\n• Claude Haiku 5 titles fixed. Haiku 5 now honors the \"none\" thinking level, so session titles and other no-thinking calls return text again.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.27.0/OpenAgentd_3.27.0_iOS.ipa",
+          "size": 5915837,
           "minOSVersion": "15.0"
         }
       ],
@@ -4375,11 +4375,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.4",
-          "date": "2026-10-23T04:35:19Z",
-          "localizedDescription": "Offdesk Dev v0.25.4: every component at 0.25.4, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.4/offdesk-0.25.4.ipa",
-          "size": 9356174,
+          "version": "0.25.5",
+          "date": "2026-10-23T12:23:19Z",
+          "localizedDescription": "Offdesk Dev v0.25.5: every component at 0.25.5, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.5/offdesk-0.25.5.ipa",
+          "size": 9355853,
           "minOSVersion": "15.0"
         }
       ],
@@ -6170,10 +6170,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-22T12:49:36Z",
+          "date": "2026-10-23T12:26:24Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484764,
+          "size": 7484768,
           "minOSVersion": "16.4"
         }
       ],
@@ -6710,11 +6710,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.2.3",
-          "date": "2026-10-19T06:16:12Z",
-          "localizedDescription": "MeleePad 0.2.3 for iPhone, iPad and now Mac. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad copy.\n\nWhat's new:\n\n• Build it for this Mac. In PadMint 0.5.5, choose MeleePad, your disc image and This Mac. PadMint saves a zip with MeleePad.app; move it to Applications.\n• The iPhone/iPad build is unchanged apart from the version.\n\nGet it:\n\nOpen PadMint (0.5.5 or newer for the Mac build), choose MeleePad and your own disc image, and follow the page. The full steps are in the README. Already have MeleePad? Install the new copy over it with the same tool and Apple ID; your saves stay.\n\nFiles:\n\n• MeleePad-v0.2.3-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint uses it; it can't play by itself.\n• MeleePad-v0.2.3-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums.\n\nChecked: clean PadMint builds (Apple's Python, empty PadMint folder) for iPhone/iPad with this app, and for the Mac, whose app opened. Mac gameplay and a physical-device run of this version are not checked yet.",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.3/MeleePad-v0.2.3-ios-unsigned.ipa",
-          "size": 15741116,
+          "version": "0.2.4",
+          "date": "2026-10-23T14:14:39Z",
+          "localizedDescription": "MeleePad 0.2.4:\n\nFixes Mac builds from a Melee USA v1.02 disc that stopped after compilation with modules-macos14/GALE01/active-module.txt: No such file or directory (#49). The packager now uses the module prepared from your disc without requiring a previous v1.00 build. Each revision keeps its own module directory, and the legacy v1.00 fallback never contains v1.02 code.\n\nIn PadMint, choose MeleePad, your own supported disc, and This Mac again. PadMint fetches the latest MeleePad release; this fix does not require a new PadMint version. The iPhone/iPad app is rebuilt with the new version number; its behavior is unchanged.\n\nThe release contains the unsigned iPhone/iPad app without game code, the PadMint recipe, and checksums. PadMint builds the game module locally from your disc. The resulting personal IPA or Mac app must not be shared.\n\nThis packaging repair does not establish new gameplay, audio, or performance acceptance. Install over an existing copy with the same signing identity to preserve its data.\n\nValidation: fresh PadMint builds with Apple’s Python 3.9 and empty PadMint folders completed for Mac and iPhone/iPad using Melee USA v1.02. The public app shell, recipe, and checksums passed both publication audits.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.4/MeleePad-v0.2.4-ios-unsigned.ipa",
+          "size": 15741173,
           "minOSVersion": "16.0"
         }
       ],
@@ -7291,11 +7291,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.2",
-          "date": "2026-10-19T20:06:05Z",
-          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Show a comic's bookmarks in one grid again, with the story under each page.\n• Bring back the reader settings menu and hold the chrome while it is open.\n• Drop two dashes from new comments and fix the German page suggestion.\n• Search bookmarks by their own story and group them by story.\n• Assign a bookmark to a story from the reader.\n• Suggest a story for a bookmark and allow naming stories by hand.\n• Let the comic detail labels grow with Dynamic Type.\n• Name the settings sliders for VoiceOver.\n• Drop the dashes from the comic folder error messages.\n• Stop caching paper render intermediates.\n• Keep a finished cover decode when its cell has scrolled away.\n• Write a new bookmark's thumbnail off the main actor.\n• Size page grid thumbnails to their cells and decode them off the main thread.\n• Hold the reader chrome while the reader settings are open.\n• Show a placeholder for a page that won't decode.\n• Swap in the new paper render without blanking the page.\n• Skip page renders for cells that have moved on.\n• Stop a lone page from shrinking when it is zoomed in double page mode.\n• Spend the tap that dismisses a Live Text selection in landscape.\n• Analyse Live Text only for landscape pages that stay and can be selected.\n• Re-fit the portrait strip when only its width changes.\n• Keep the resume page when a bookmark is only looked at.\n• Let VoiceOver turn pages and keep the reader controls in reach.\n• Show the cache size beside Clear Cache.\n• Say what a folder scan did, and keep deleted folder comics out of it.\n• Give list rows the same menu as gallery covers.\n• Follow the replacement file's page count after Choose Another File.\n• Give the resolve dialog a single file importer.\n• Run one import at a time.\n• Keep the ComicInfo fields read before a malformed spot.\n• Keep a comic's metadata when Re-read Metadata can't open it.\n\n• Limit Select All and batch actions to the comics on screen.\n• Show a spinner while a backup imports instead of a bar stuck at zero.\n• Create the storage directories once instead of on every URL.\n\n• Copy an imported comic through a temp file.\n• Restore two backup comics that share a title and page count as two.\n• Refuse a backup whose file names reach outside their folder.\n• Tell a full disk from the wrong file when importing a backup.\n• Fail a backup export that can't pack a file instead of shipping it short.\n• Never delete the library store when it fails to open.",
-          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.2/PaperComicReader-1.4.2.ipa",
-          "size": 6241164,
+          "version": "1.4.3",
+          "date": "2026-10-23T11:46:04Z",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Paper effect: all sliders at zero leave the page untouched.",
+          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.3/PaperComicReader-1.4.3.ipa",
+          "size": 6241099,
           "minOSVersion": "26.0"
         }
       ],
@@ -10539,17 +10539,17 @@
       "bundleIdentifier": "com.InputStreamPlayer",
       "developerName": "jopsis",
       "subtitle": "A player for your own playlists of live TV, movies and series on iPhone,",
-      "localizedDescription": "InputStream Player:\n\nA player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac and Android/Google TV. In app launchers it appears as ISPlayer.\n\nisplayer.joplabs.app · Español.\n\nIt ships no playlists, credentials or third-party keys. It is meant for content you are entitled to access.\n\nThis repository is for distribution only: verifiable releases, documentation, sample playlists and issues.\n\nSideStore:\n\nOn the iPhone, tap the button; or in SideStore → Sources → +: https://jopsis.github.io/InputStreamPlayer/sidestore/apps.json.\n\nWith LiveContainer, turn on “Fix file picker” in the app's settings, or importing a playlist from a file will do nothing.\n\nWhat it does:\n\n• Live TV with a guide (XMLTV), remote-control zapping and catch-up.\n• Movies and series from your lists, with “Continue” and watched marks.",
+      "localizedDescription": "InputStream Player:\n\nA player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac and Android/Google TV. In app launchers it appears as ISPlayer.\n\nisplayer.joplabs.app · Español.\n\nIt ships no playlists, credentials or third-party keys. It is meant for content you are entitled to access.\n\nThis repository is for distribution only: verifiable releases, documentation, sample playlists and issues.\n\nSideStore:\n\nOn the iPhone, tap the button; or in SideStore → Sources → +: https://jopsis.github.io/InputStreamPlayer/sidestore/apps.json.\n\nWith LiveContainer, turn on “Fix file picker” in the app's settings, or importing a playlist from a file will do nothing.\n\nWhat it does:\n\n• Live TV with a guide (XMLTV), remote-control zapping and catch-up.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.InputStreamPlayer.png",
       "tintColor": "#098355",
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.62",
-          "date": "2026-10-23T09:04:56Z",
-          "localizedDescription": "• Nueva vista Grupos en Emisiones: la lista de grupos con su número de canales; al entrar en uno salen sus canales. Si tu lista trae group-logo, el grupo se pinta con ese logo.\n• Miniaturas de lo que echan ahora en Tarjetas y Rejilla, cuando la guía trae imágenes (el \u003cicon\u003e estándar de XMLTV). La guía fullEPG ya las incluye.\n• La Rejilla es más compacta.\n• Con varias guías, un canal se enseña con la que tiene programación vigente, miniaturas y logo, en vez de la primera aunque esté caducada.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.62/InputStreamPlayer-iOS-0.9.62-116-unsigned.ipa",
-          "size": 17242369,
+          "version": "0.9.64",
+          "date": "2026-10-23T13:57:56Z",
+          "localizedDescription": "Novedades:\n\n• Logos SVG: los logos en formato SVG (por ejemplo los de RTVE) ya se ven en todas las plataformas.\n• Logos que no cargan: si un logo no existe o no llega, no se queda el indicador de carga girando: simplemente no se pinta.\n• Iconos nuevos en Android TV y Apple TV: el banner, el icono y la imagen de fondo ya no muestran bandas a los lados.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.64/InputStreamPlayer-iOS-0.9.64-118-unsigned.ipa",
+          "size": 17285611,
           "minOSVersion": "16.0"
         }
       ],
@@ -12622,11 +12622,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.123",
-          "date": "2026-10-16T12:30:40Z",
-          "localizedDescription": "Ozen.ipa is the iPhone and iPad app: an unsigned device build for sideloading (Impactor, SideStore or AltStore re-sign it with your own Apple ID; it won't install any other way). Ozen.apk is the Android app, for Android 8 or later: open it on the phone and allow installing from that source when asked. Built from commit e68eb60dd9bc670ef76bfc077b855d651d570552; Settings shows 123 in brackets after the version on the iPhone, and 0.2.123 as the version on Android.\n\nChanges since build 122:\n\n• Android: the reuse test now starts from the shorter encoding.\n• Android: drop a phone-test result that arrives as captions start, and say telemóvel in Portuguese.\n• Android: reuse the speech encoding when a pass is retried at a higher temperature.\n• Android: the phone test waits for captions to stop, and the model rating knows the phone's memory.\n• iPhone: Test this phone ignores timing taken on another phone.\n• Android: use the same wording as the iPhone for the phone check labels.\n• Android: choose the speech model on the phone, and test how fast the phone is.\n• iPhone: choose the speech model on first run, and test the phone.\n• iPhone: big letters restore tests wait for the reply button to be tappable.\n• iPhone: big letters UI tests pull the reply button on screen.\n• iPhone: big letters UI tests wait for the reply button to be reachable.\n• iPhone: Restore takes Clear's place so the big letters editor keeps its room.\n• iPhone: restore-room test checks the composer opened.\n• iPhone: restore-room test finds the typing field at any size.\n• iPhone: test that Restore leaves the big letters editor room.\n• iPhone: big letters Clear can be undone.",
-          "downloadURL": "https://github.com/arbelonson-source/ozen/releases/download/v0.2.123/Ozen.ipa",
-          "size": 18303959,
+          "version": "0.2.126",
+          "date": "2026-10-23T11:57:39Z",
+          "localizedDescription": "Ozen.ipa is the iPhone and iPad app: an unsigned device build for sideloading (Impactor, SideStore or AltStore re-sign it with your own Apple ID; it won't install any other way). Ozen.apk is the Android app, for Android 8 or later: open it on the phone and allow installing from that source when asked. Built from commit 95d917c979e0971b51f175fb752f4782f5c99141; Settings shows 126 in brackets after the version on the iPhone, and 0.2.126 as the version on Android.",
+          "downloadURL": "https://github.com/arbelonson-source/ozen/releases/download/v0.2.126/Ozen.ipa",
+          "size": 18538562,
           "minOSVersion": "17.0"
         }
       ],
@@ -13071,11 +13071,11 @@
       ],
       "versions": [
         {
-          "version": "0.5.7",
-          "date": "2026-10-18T11:16:58Z",
-          "localizedDescription": "Move Kick Live widget into the existing KnightMusicWidgets extension.\n\nThe separate KickLiveWidget.appex never showed up in the widget gallery after a SideStore install; the existing widget extension does. Same sources, one less App ID.\n\nClaude-Session: https://claude.ai/code/session_01RvaaUk2JgUg7SdALHg46hb",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.5.7/KnightMusic.ipa",
-          "size": 5544305,
+          "version": "0.5.8",
+          "date": "2026-10-23T12:13:07Z",
+          "localizedDescription": "Merge main (Kick Live widget) into feat/polish.\n\nClaude-Session: https://claude.ai/code/session_013346CrYCAcUWR1vBdh32Rk",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.5.8/KnightMusic.ipa",
+          "size": 8586967,
           "minOSVersion": "26.0"
         }
       ],
