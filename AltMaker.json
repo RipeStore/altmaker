@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.saschb2b.cyberworldendless",
-    "com.theboisclub.gen1recompplusplus",
-    "org.floeagent.ios"
+    "io.github.rkoh46.tangoaw2",
+    "app.mangatan.mangatan",
+    "org.getlantern.lantern"
   ],
   "apps": [
     {
@@ -578,10 +578,10 @@
       "bundleIdentifier": "software.iridium",
       "developerName": "intraducine",
       "subtitle": "Experimental iOS Windows-game runtime. Source monorepo; original Iridium code under AGPL-3.0",
-      "localizedDescription": "Iridium:\n\nIridium is an iPhone and iPad frontend for Madeira with an experimental multi-runtime library on this branch. Its library, game options, settings, Steam pages, setup, and player menus share Iridium's artwork and Apple-style navigation. Madeira provides game launch, JIT, input, Steam, downloads, saves, and the runtime. Compatibility varies by game and device.\n\nWindows games still use Madeira's original backend, options, saves and JIT flow. After a Windows session has run, restart Iridium before switching to another runtime. Other console and Android candidates remain unavailable pending implementation, validation and redistribution review. See runtime architecture and validation.",
+      "localizedDescription": "Iridium:\n\nIridium is an iPhone and iPad game launcher with Windows support through Madeira and console emulation through SameBoy, PPSSPP, Dolphin, Azahar, Play!, and Flycast.\n\nIt provides a shared library, artwork, touch controls, controller and keyboard input, Steam access, and per-game settings. Compatibility varies by game and device. Play! and Flycast still need device validation.\n\nFor Windows, GB/GBC, and PSP, use an Apple Silicon Mac with Xcode 27, Homebrew, Python 3.11+, and Rust:\n\nFor Dolphin, Azahar, Play!, and Flycast, continue with the console build steps. The build guide also covers manual Actions builds and library replacement.\n\nDocumentation:\n\n• Runtime integration.\n• Console engines.\n\nOriginal Iridium code is AGPL-3.0-only. Third-party components keep their own licenses. See LICENSING.md and upstream changes.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/software.iridium.png",
       "tintColor": "#6058e8",
-      "category": "other",
+      "category": "games",
       "versions": [
         {
           "version": "0.2.0",
@@ -704,13 +704,16 @@
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/xyz.scooom.pkr.png",
       "tintColor": "#ab5087",
       "category": "games",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/e4ec56fc-7162-4526-9e0b-af75002cb9c4"
+      ],
       "versions": [
         {
-          "version": "1.12.1.3",
-          "date": "2026-10-19T04:18:50Z",
-          "localizedDescription": "Gameplay:\n\n• The game will not crash when recalling Dondozo and Tatsugiri before a fixed battle or biome change.\n• Life dew no longer fails if only one target in doubles is at full HP.\n• Salt Cure's damage over time effect will deal 1/16 max HP in damage (1/8 vs Water and Steel types) per turn again, matching the balance change from Champions.\n\nUI/UX:\n\n• Shiny icons will not be covered by the background in the starter select screen when using the legacy UI.\n• When selecting the random button, starter icons will not start jumping.\n• When leaving the starter select menu while on the random button, then opening the menu again, the cursor will be correctly reset.\n• Renaming a Pokémon from the party icons will apply to the starter.\n• Pokémon such as Zygarde, which may not have their base form unlocked when caught, will correctly have the first caught form as their default in the Starter Select screen.\n• Candy upgrade animations will work again.\n\nFiles:\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).",
-          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.1.3-279/PokeRogueOffline.ipa",
-          "size": 539482217,
+          "version": "1.12.2.0",
+          "date": "2026-10-24T00:09:02Z",
+          "localizedDescription": "Update 1.12.2, A Pitiful Night:\n\n• Candy Egg Pity for Variants!\n\n• After hatching many shinies from Candy Eggs without a new variant unlocked, one will eventually be guaranteed.\n• Egg discounts by hatch ### have been replaced by a massive decrease in the cost of eggs for everyone, regardless of how many have been hatched previously.\n• Those who had already hit the discount points have been given substantial progress to the next guaranteed variant from candy bought eggs.\n\nNew Variants for 67 New Species across __30+ Evolutionary Lines __!\n\n• Some old variants have been reworked and adjusted!\n• Many mons have entirely new sprites!\n\nSome minor fixes and other things, check the#changelog on the discord for the rest.\n\nEVENT!!\n\nGaze upon our spooky celebrations!:\n\n• Runs from October 23, 2026 at 19:00 to November 9, 2026 at 19:00.\n• Introducing shiny variants for TOO MANY lines! Sandshrew, Tentacool, Shellder, Onix, Drowzee, Cyndaquil, Snubbull, Remoraid, Treecko, Mudkip, Lotad, Surskit, Duskull, Glameow, Basculin, Ducklett, Chespin, Bunnelby, Helioptile, Buzzwole, Pheromosa, Blacephalon, Nickit, Toxel, Eiscue, Hisui Qwilfish, Sprigatito, Tarountula, Klawf, Veluza, Great Tusk, Scream Tail, Brute Bonnet, Iron Treads, Roaring Moon.\n• Reworked and Adjusted some previous shinies for many lines! Gastly, Sewaddle, Phantump, Pumpkaboo, Marshadow, Applin, Eternatus, Rellor, Tinkatink, Gimmighoul, Alolan Vulpix.\n• 2x Shiny Rate on Wild Encounters!\n• 3x Shiny Catch Rate on Wild Encounters!\n• As usual your rival will gift you a Shiny Charm, Ability Charm, and Catching Charm on Wave 8, and a second Shiny Charm on Wave 25!\n\n• As an extra treat, your Rival will give you a **Candy Jar **on Wave 25!\n\nDaily Runs are tricked out with an additional Shiny Charm and Ability Charm on Wave 1, and a Candy Jar too!\n\n+1 Candy with any Wild Catch!\n\nSoothe Bells are slightly more likely!\n\nEvent-themed Pokémon featured Mystery Encounters!\n\n• Find them in the Uncommon Breed, Berries Abound, Fight or Flight, Pokémon Salesman, The GTS (Wonder Trade), and The Safari Zone encounters!\n• 50% chance to show up in these encounters.\n• Featured Pokémon get an extra shiny roll as well These Pokémon (and their evolutions unless stated otherwise) are featured: Tentacool, Onix, Drowzee, Cyndaquil, Snubbull, Remoraid, Treecko, Mudkip, Lotad, Surskit, Duskull, Glameow, Ducklett, Chespin, Spritzee, Swirlix, Binacle, Helioptile, Phantump, Pumpkaboo, Nickit, Toxel, Eiscue, Sprigatito, Tarountula, Klawf, Veluza, Hisui Qwilfish, Hisui Basculin, Blacephalon, Brute Bonnet, and Roaring Moon Remember to clear your browser cache, enjoy the event, and to have fun!!\n\nPokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n\nPokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n\nPokeRogueOffline.AppImage — Linux AppImage.\n\nPokeRogueOffline.exe — Windows Portable EXE.\n\nPokeRogueOffline-x64.dmg — macOS (Intel).\n\nPokeRogueOffline-arm64.dmg — macOS (Apple Silicon).",
+          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.2.0-284/PokeRogueOffline.ipa",
+          "size": 555326745,
           "minOSVersion": "15.0"
         }
       ],
@@ -1621,7 +1624,7 @@
       "bundleIdentifier": "uk.gleissner.c64commander",
       "developerName": "chrisgleissner",
       "subtitle": "Control and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network",
-      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Search: Find any page, setting, action, tune or disk by name. Three ways in — the field at the top of Home, the Quick menu, or the 7 key. A result you cannot use yet is still listed, with the reason.\n\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.\n• Remote Input and Live View: Use an on-screen joystick or keyboard, and stream audio or video from the running machine.",
+      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Search: Find any page, setting, action, tune or disk by name. Three ways in — the field at the top of Home, the Quick menu, or the 7 key. A result you cannot use yet is still listed, with the reason.\n• Guided tour: A first-run walk through every part of the app.\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/uk.gleissner.c64commander.png",
       "tintColor": "#bea85c",
       "category": "games",
@@ -1634,11 +1637,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.2",
-          "date": "2026-10-22T10:58:13Z",
-          "localizedDescription": "• SID Radio history is limited: A running station keeps the playing tune, the upcoming tunes, your own additions and a limited amount of played history: 200 tunes by default, adjustable from 20 to 1000 in Settings. Next and Previous still reach the right tune. (#544).\n• Shuffle and Repeat as two icon buttons: They sit on the volume row and replace the old Shuffle, Repeat and Reshuffle rows. Shuffle off and on makes a fresh order without restarting the tune and still reaches every song. Repeat cycles Off, Playlist and Song. While a station runs, Shuffle asks before turning the queue into a playlist. (#544).\n\n• Playlist View all scrolls as one list: Title and filter scroll away with the rows. (#544).\n• Cancelling Android's file picker on keypad phones: The guide and manuals now explain that the right soft key is Back there, and that it may need repeating. (#544).\n• Smoother large playlists: Background cleanup no longer blocks the screen on playlists with thousands of entries. (#544).\n• Maintenance: Updated vite, vitest and other dependencies. (#541 to #549).",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.1.2/c64commander-1.1.2-ios.ipa",
-          "size": 7525179,
+          "version": "1.1.3",
+          "date": "2026-10-24T00:24:20Z",
+          "localizedDescription": "• More reliable playback: Switching playback engines now handles failures properly, without leaving playback controls in the wrong state. Outdated restart requests no longer interrupt newer playback actions. (#550).\n• Better handling of interrupted folder scans: When a device disconnects or a folder cannot be read, the app now reports an incomplete scan instead of silently showing partial results. (#550).\n• Improved device connections: Saving connection settings now handles timeouts and connection errors more reliably, with clearer messages when something goes wrong. (#550).\n• Device switching keeps settings separate: Folders, categories and playback overrides now stay associated with the correct device. Folders that no longer exist are handled properly. (#581).\n• More reliable songlength lookups: Failed lookups no longer trigger unnecessary requests, and interrupted scans can retry when the device becomes available again. (#581).\n• Improved navigation and error messages: Fixed Back button behaviour, notifications covering focused controls, and tab layouts with larger system fonts. Failed online archive searches now show clearer errors. (#550).\n• Disk library and playback fixes: Fixed duplicate disk entries after removing and re-adding a device, and prevented incorrect song positions from being saved during automatic track changes. (#581).\n• Other fixes: Corrected printer output labels and improved stream address display on narrow screens. (#581).\n• Maintenance: Updated dependencies and expanded regression testing, including testing on real hardware. (#548, #550, #571, #581).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.1.3/c64commander-1.1.3-ios.ipa",
+          "size": 7531548,
           "minOSVersion": "15.0"
         }
       ],
@@ -1712,10 +1715,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-23T17:31:35Z",
-          "localizedDescription": "Built from b3a49ef on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-24T00:46:25Z",
+          "localizedDescription": "Built from 5811cd2 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14620043,
+          "size": 14620039,
           "minOSVersion": "15.0"
         }
       ],
@@ -1995,11 +1998,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.2",
-          "date": "2026-10-23T19:43:05Z",
+          "version": "1.0.4",
+          "date": "2026-10-24T00:59:35Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.2/Scripta-ios-unsigned.ipa",
-          "size": 10562406,
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.4/Scripta-ios-unsigned.ipa",
+          "size": 10567351,
           "minOSVersion": "14.0"
         }
       ],
@@ -5001,11 +5004,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.6",
-          "date": "2026-10-15T02:44:38Z",
-          "localizedDescription": "IW4 Pocket 0.3.6:\n\nTested on one phone (iPhone 13 Pro Max, about 3 GB for the app): the lobby and in-match bot rows work and mp_rust loads, but a match still ends when iOS closes the app for memory after a few minutes. This release does not fix that. It adds bots you can add in the lobby and during a match, an option to leave out weapon camo skins, a shorter options menu, and new bot names.\n\nBots (issues #4 and #6).\n\n• Lobby: a BOTS row in game setup, before the match (0 to 10).\n• During a match: open the Options menu (Start) and tap Add 1 bot or Add 5 bots. Only the host adds bots; for everyone else the rows do nothing. If the rows do not show up, send iw4l-boot.log: it lists the menus it looked at.\n• IW4L_BOTS=5 in iw4l-env.txt still sets how many bots a match starts with, and IW4L_CMDS=map mp_rust; bot add 5 works as before (only map, bot, and set/seta on match and bot rules). Neither has a row in the options menu.\n• New bot names (2009-2010 style and a few memes), up to 15 characters.\n• Credits: IW4L_BOTS by LemonMoo (Cade Palmer), the lobby bot row by AdrianTomasDiez. Both cherry-picked with their authorship, changed to share one value.\n\nOptions menu.\n\n• IW4 Pocket options now has two pages: the first with the settings that matter most (profile, render scale, frame limit, texture size, lean shaders, weapon camo skins) and a second with the rest. \"Free spare memory\" is gone: in tests it gave back 0 MiB. Old IW4L_HEAP_RELIEF lines in iw4l-env.txt are ignored.\n• Weapon camo skins (Auto keeps them, Skip leaves them out). The log has a camouflage: line saying what was kept or left out. Measured on the 13 Pro Max with the same map: Skip removed all 8360 + 8360 camo models, but memory after loading was the same (2511 MiB with Skip, 2512 MiB with the camos kept). So it is not a memory saver; it only leaves the camos out. Idea and first code by mk2rs2000.\n\nSideStore source.\n\n• Add https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json in SideStore (Sources, +). Test versions say TEST.\n\nFor phones with about 3 GB for the app: set Render scale to 0.67 or 0.5. That helps a little; the app can still be closed by iOS during a match.\n\nPlease send iw4l-boot.log (and iw4l-boot.crash.log if the app closes) and say how you installed the app.",
-          "downloadURL": "https://github.com/MarkusSela/IW4-Pocket/releases/download/v0.3.6/IW4.Pocket.ipa",
-          "size": 38919279,
+          "version": "0.3.9",
+          "date": "2026-10-22T22:49:58Z",
+          "localizedDescription": "IW4 Pocket 0.3.9 — build 23:\n\nStable release, with a known limit: memory. Tried on an iPhone 13 Pro Max (about 3 GB granted): 17 bots, one match of about 9 minutes, then iOS closed the app. Tried on an M1 iPad (5.1 GB granted): 4-5 matches in a row on a small map held, but big maps (Afghan, Terminal) left only 40-290 MiB free, and one Afghan load ended with the app closed. About 1 GB stays in use after the first match and does not grow with later ones; 0.4.0 works on both numbers first.\n\n0.3.9 is a stability release. It fixes problems found by reading the 0.3.8 code and its first real logs. Selective weapon loading now starts (it never did in 0.3.8), but it saves little: the weapon models skipped were about 10% of the total.\n\nSelective weapon loading (it never ran in 0.3.8):\n\n• In the 0.3.8 log the feature fell back to loading everything: selective weapons FAILED -\u003e full preload: unknown weapon \"t5:weapon/spectre_mp\". The class presets name weapons of games that are not installed, and one such name cancelled the whole selection. Weapons of a game that is not installed are now skipped (one log line lists them); an unknown weapon of an installed game is still an error and still falls back, visibly.\n• Airdrop markers, insertion flares, launchers and the riot shield are always loaded, so give and pickups no longer refuse them. Names missing from the catalog are logged.\n• Auto means on when iOS grants less than 4 GB or the amount is unknown (the Low tier; IW4L_TIER overrides it). Options \u003e Selective weapon loading \u003e Off loads everything.\n• Choosing a class whose weapon is not loaded now tells the client, so the class screen does not wait. Bots fall back to the default class instead of staying without one. A weapon that is not loaded stays unavailable until the next match: these limits come from the code and have not been tried.\n• One plan per set of inputs: the match no longer rebuilds it and logs it twice.\n\nMemory:\n\n• On iOS the app now hands free memory back to the system (malloc_zone_pressure_relief). Before 0.3.9 that call existed only for Linux and did nothing on iPhone, while the heap held about 490 MiB more than it used. It runs before the match is installed, after the load, and when less than 400 MiB are left (at most every 2 s). The log lines say how many MiB came back; the real gain is not measured yet.\n\nText/UI sharpness:\n\n• Auto is now Medium. Menus, HUD and text are drawn at half the screen resolution or better while the 3D scene stays at your render scale. It only does something when the 3D scale is below 0.6; at 0.6 or more nothing changes. Off restores the old behaviour (everything at the 3D scale). If the screen goes black, set it to Off.\n• Native and High are sharper and use more memory.\n\nPlayers and bots:\n\n• Client ids are reused: the lowest free id below 18 is given, so many joins and leaves no longer push ids into the corpse entities (18 and up).\n• A human enrolled in the same frame a bot is created no longer receives that bot's id.\n• The simulation no longer panics on a client id of 1024 or more, or on a player position that is not finite. It refuses that one link and logs it.\n\nDiagnostics and release:\n\n• A match that ends now writes a closing match summary line. Before, matches shorter than 30 s left none.\n\n• CI runs the source tests and has a guard against the mistake that broke the first 0.3.8 build (memory_settings.rs is compiled alone and cannot use other modules).\n\nVersion:\n\n• Label 0.3.9; Cargo 0.3.9; bundle build 23.\n\nVerification scope: Python source-contract checks run on the server. The Rust crates are compiled and tested only by the iOS CI.",
+          "downloadURL": "https://github.com/MarkusSela/IW4-Pocket/releases/download/v0.3.9/IW4.Pocket.ipa",
+          "size": 39026789,
           "minOSVersion": "15.0"
         }
       ],
@@ -5382,11 +5385,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.6",
-          "date": "2026-10-21T21:21:17Z",
-          "localizedDescription": "tangoAW2 0.8.6: BH Campaign maps and music, Sturm's scenes between missions.\n\n• Music in the BH Campaign's story. Every story scene now has its own music, as in AW2's own campaign: the prologue, the briefings before each mission, the victory scenes, the scenes on the world map and the epilogues. Before, they were silent until the battle began. Each scene fades into the next and into the battle music the way AW2's scenes do. The world map always plays AW2's world-map theme (the first visit used to play another song).\n• A proper prologue. A new BH Campaign opens on AW2's own PROLOGUE card with its music, then the campaign's narration, the world map and the first mission's briefing.\n• Sturm between missions. 25 new scenes after a win, on the world map: Sturm and Von Bolt on how the last battle went and what comes next. They only mention COs you have already recruited, and they work whichever order you play the missions that can be swapped.\n• Map fixes in the BH Campaign:.\n\n• Rivers cut by roads now have bridges and run their whole length (Missions 19, 21 and 31).\n• A river that ended in the middle of the land now runs to the map's edge (Mission 10).\n• Two aircraft that started on the same square are apart (Mission 7).\n• The Carrier in Mission 20 no longer starts on a shoal.\n\n• Online peers must all run 0.8.6 (the simulation version changed: tangoAW2's maps moved in memory).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.6/tangoaw2-0.8.6-ios.ipa",
-          "size": 32174774,
+          "version": "0.8.7",
+          "date": "2026-10-24T03:39:52Z",
+          "localizedDescription": "tangoAW2 0.8.7: Emerald Sun, a sixth army, and a fix for online games.\n\n• Emerald Sun is a sixth army. Any player can pick it instead of one of the five usual colours, on any map from 2P to 5P, with any mix of the other armies: in Unranked's colour pick, in Lobby rooms and in Offline VS. The CPU plays it too, and every CO can lead it.\n\n• Its colours are pale emerald grey, with steel trim and red plumes.\n• Its infantry and mech wear a closed Roman helmet with a face guard and a long red plume, on the map, in battle and on the unit panel.\n• It has its own domed HQ and its own sun emblem.\n• Every unit, building and screen shows it, including the Dual Strike units and the tilted Dual Strike map.\n\n• Crumb's HQ is the Emerald Sun HQ for now.\n• Fixed: online games were sometimes reported as out of sync for no reason. About every second 2-player Unranked game was flagged, but the game itself never actually diverged.\n• Online peers must all run 0.8.7.\n• Emerald Sun is inspired by the Jade Sun army of Advance Wars By Web. Its art is drawn for tangoAW2 (see CREDITS.md).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.7/tangoaw2-0.8.7-ios.ipa",
+          "size": 32259064,
           "minOSVersion": "16.0"
         }
       ],
@@ -5954,10 +5957,10 @@
       "versions": [
         {
           "version": "10.0.4",
-          "date": "2026-10-23T18:07:25Z",
-          "localizedDescription": "UI Improvements:\n\n• Added per-server latency display in the server list to help users choose the fastest servers.\n• Added translations for server latency labels across supported languages.\n\nInfrastructure:\n\n• Updated macOS minimum system requirements.\n\nThank you for testing Lantern beta! Please report any issues you encounter.\n\nThis is a beta release from commit 5960057.\n\nBranch: v10.0.4-beta.2.\n\n• iOS: Uploaded to TestFlight.",
-          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.ipa",
-          "size": 91210159,
+          "date": "2026-10-24T02:52:03Z",
+          "localizedDescription": "UI/UX Improvements:\n\n• Fixed latency indicator alignment in server list rows for better visual consistency.\n• Right-aligned latency labels on rows without expansion chevrons for improved layout.\n\nFeatures:\n\n• Added web-based licensing support for enhanced account management.\n\nNote: This is a beta release. Please report any issues you encounter.\n\nThis is a beta release from commit 82eb0f7.\n\nBranch: v10.0.4-beta.4.\n\n• iOS: Uploaded to TestFlight.",
+          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.4/lantern-installer-beta.ipa",
+          "size": 91214204,
           "minOSVersion": "15.6"
         }
       ],
@@ -6321,10 +6324,10 @@
       "versions": [
         {
           "version": "4.3.0",
-          "date": "2026-10-18T02:02:43Z",
-          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit 98e4590 on master.\n\n🔄 Commits Since App Store Release (v4.2.2)::\n\n• d8bad7a Add toggle to mute videos by default (#61).\n• a649c34 mute videos by default cleanup.\n• d336b19 simplify the way the player is passed to the video overlay.\n• 4fe3412 media viewer performance improvements on ios.\n• 85567cf adds a setting for inbox replies when creating a new post.\n• 946a496 text bodies in blurred nsfw or spoiler posts would sometimes not be blurred correctly due to rendering optimizations.\n• 9b77258 pan gestures on zoomed in images would sometimes be counted as a tap by the media viewer overlay.\n• b68627d fixed login breaking due to malformed user agents.\n\n• 4b443c3 adds setting to hide the floating scroll to next comment button.\n• 19a0a88 update info.\n• 91a40cb Add optional feed vote buttons and vote tap haptics (#71).\n• ae01460 vote button ui refinement.\n• 98e4590 Add the comment count to the post details (#72).\n\nBugfixes:\n\n• In certain conditions, the login page could end up frozen.\n• When changing device orientation while watching a video, the audio track could end up cutting out.",
-          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.3.0-98e4590/Hydra-v4.3.0-98e4590-unsigned.ipa",
-          "size": 33712214,
+          "date": "2026-10-24T02:30:04Z",
+          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit 8f02fb6 on master.\n\n🔄 Commits Since App Store Release (v4.2.2)::\n\n• d8bad7a Add toggle to mute videos by default (#61).\n• a649c34 mute videos by default cleanup.\n• d336b19 simplify the way the player is passed to the video overlay.\n• 4fe3412 media viewer performance improvements on ios.\n• 85567cf adds a setting for inbox replies when creating a new post.\n• 946a496 text bodies in blurred nsfw or spoiler posts would sometimes not be blurred correctly due to rendering optimizations.\n• 9b77258 pan gestures on zoomed in images would sometimes be counted as a tap by the media viewer overlay.\n• b68627d fixed login breaking due to malformed user agents.\n\n• 4b443c3 adds setting to hide the floating scroll to next comment button.\n• 19a0a88 update info.\n• 91a40cb Add optional feed vote buttons and vote tap haptics (#71).\n• ae01460 vote button ui refinement.\n• 98e4590 Add the comment count to the post details (#72).\n\nBugfixes:\n\n• In certain conditions, the login page could end up frozen.\n• When changing device orientation while watching a video, the audio track could end up cutting out.",
+          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.3.0-8f02fb6/Hydra-v4.3.0-8f02fb6-unsigned.ipa",
+          "size": 33711048,
           "minOSVersion": "16.4"
         }
       ],
@@ -6638,11 +6641,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.9",
-          "date": "2026-10-23T15:21:03Z",
-          "localizedDescription": "Release v6.2.9:\n\n• Reduce idle iOS work and preserve CPU diagnostic evidence (3c9a40f26).\n• Add desktop and mobile immersion activity previews (3b2548c66).\n\n• Fix generated PWA symbol staging (a6ed9c4d0).\n• Keep immersion calendars, goals, and title history consistent (57d73460d).\n\n• Change audio preparation and narration timing (e73276dd2).\n• Change audiobook alignment and illustration playback (8d6ee81fe).\n• Change subtitle matching and illustration handling (e908fe3f1).\n• Restore AnkiMobile media handoff and isolate Apple signing keychains (c32780ba5).\n• Restore card creation from Windows screen lookup (73c998e0b).\n• Fix navigation lifecycles and Linux connectivity startup (8a19fee38).\n• Preserve actionable failure details across app and backend (422c6df18).\n\n• Preserve dictionary SVG formatting in popups and Anki cards (8277a5770).\n• Make pure black dark mode available to everyone (9dc261084).\n• Keep playback menus aligned and readable in light mode (1c23c7b39).\n• Fix browser Anki package uploads and note type conflicts (d77e41024).\n• Adapt schedule layouts to window shape (8395436b2).\n• Remove video playback instruction banners (b42172b5b).\n• Keep SRS field scrolling aligned and reuse browse editors (cf3ee7e8d).\n• Improve SRS browse responsiveness and Japanese bold text (8897c98a1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.9/Manatan-v6.2.9-iOS.ipa",
-          "size": 409046759,
+          "version": "6.2.12",
+          "date": "2026-10-24T02:54:43Z",
+          "localizedDescription": "Release v6.2.12:\n\n• Make battery capture controls compact and available app-wide (8408c81).\n• Recover stale macOS CI locks (ec2edf0).\n• Add battery diagnostics with verified capture status (8493e34).\n• Add opt-in playback diagnostics to shared debug info (9d231a5).\n• Add daily immersion goal previews for desktop and mobile (51a1bbd).\n• Reuse the prebuilt iOS Rust backend (37fb891).\n• Count podcast and audiobook listening toward immersion (b423df1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.12/Manatan-v6.2.12-iOS.ipa",
+          "size": 409171566,
           "minOSVersion": "16.1"
         }
       ],
@@ -9249,10 +9252,10 @@
       "versions": [
         {
           "version": "1.2.0",
-          "date": "2026-10-23T03:06:05Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit c0779ac. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-152/Ito-1.2.0-dev.152-unsigned.ipa",
-          "size": 12193658,
+          "date": "2026-10-24T01:04:44Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 60a1803. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-154/Ito-1.2.0-dev.154-unsigned.ipa",
+          "size": 12212963,
           "minOSVersion": "15.4"
         }
       ],
@@ -9272,11 +9275,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.3",
-          "date": "2026-10-21T04:42:34Z",
-          "localizedDescription": "• d45d4d36 fix(party): show the party's source as plain text @tapframe.\n• 37a6656a fix(player): keep center controls in place on pause @tapframe.\n• 344117e7 feat(player): show badges for what is playing @tapframe.\n\n• 18268427 fix(player): move engine switch to top row with confirmation @tapframe.",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
-          "size": 68815810,
+          "version": "0.6.4",
+          "date": "2026-10-23T23:20:42Z",
+          "localizedDescription": "• 8683505d fix(details): animate ratings on tablet @tapframe.\n• e6a05d1d feat(ios): support duo layout @tapframe.\n• b6287380 fix(deps): update haze to 1.7.3 @tapframe.\n• 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe.\n• d9046775 feat(home): show ratings and age rating on hero @tapframe.\n• b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe.\n• 83e528f0 feat(player): choose a badge pack for the player @tapframe.",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+          "size": 67805794,
           "minOSVersion": "16.1"
         }
       ],
@@ -10990,10 +10993,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-23T17:31:35Z",
-          "localizedDescription": "Built from b3a49ef on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-24T00:46:25Z",
+          "localizedDescription": "Built from 5811cd2 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 49002573,
+          "size": 49002574,
           "minOSVersion": "15.0"
         }
       ],
@@ -11542,15 +11545,21 @@
       "subtitle": "Unofficial native iOS and Android client that runs real RuneLite — the full, unmodified plugin ecosystem — on an on-device OpenJDK 21 JVM. Sideload only; not affiliated with or endorsed by Jagex or RuneLite",
       "localizedDescription": "RuneLite on Mobile — iOS \u0026 Android (unofficial):\n\n⚠️ Unofficial fan project. Not affiliated with, endorsed, sponsored, or approved by Jagex Ltd or the RuneLite project. This is a sideload-only, personal / technical build. It is not on Jagex's approved-client list and not on the App Store, Google Play, TestFlight, or F-Droid. Logging into live Old School RuneScape with an unapproved third-party client can violate Jagex's Terms of Service and carries a real risk of an account ban — use a throwaway account you can afford to lose, never your main. Provided as-is, without warranty, at your own risk. See Legal notice and Risk \u0026 disclaimer.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.audaro.runemobile.png",
-      "tintColor": "#6156e2",
+      "tintColor": "#9d6734",
       "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/overlays.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/plugins.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/renderers.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/panels.jpg"
+      ],
       "versions": [
         {
-          "version": "0.2.7",
-          "date": "2026-10-23T17:11:14Z",
-          "localizedDescription": "Everything since v0.2.6. The 117 HD settings screen shows 117HD's own settings again: since 0.2.0 it showed Entity Hider's, and its reset button reset Entity Hider. This build also stops the Notes settings screen from being able to erase your notes, and draws the plugin side panels in RuneLite's own look.\n\nFixed:\n\n• The 117 HD settings screen showed Entity Hider's settings (Hide others, Hide NPCs, …) instead of its own, and its \"Reset all settings\" reset Entity Hider. This had been the case since 0.2.0. 117HD needs Entity Hider to load, and the app took the settings Entity Hider shares with it for 117HD's own. The screen shows 117HD's settings again: resolution, anti-aliasing, shadows, lights, normal mapping and draw distance.\n• The Notes plugin had a settings screen with nothing on it but \"Reset all settings\", and one tap of that erased your notes. A plugin whose settings are all hidden no longer gets a settings screen; Notes keeps its switch and its side panel.\n• The plugin side panels were drawn in Swing's default look instead of RuneLite's: a white border round every scroll pane, and text that ignored its font and colour (the Info panel's \"Sign in\" line came out in black serif). They now look as they do on desktop.\n\nChanged:\n\n• iOS: the XP Tracker screen reads the same once-a-second snapshot as Android's, built on the game's own thread, instead of reading the plugin's state from the screen's thread.\n\nUnder the hood:\n\n• iOS, 117HD: no more shader errors at start-up. 117HD's calibration and debug overlay shaders are now ported to the phone's shading language, as Android's already were.\n\n• iOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding drops the game session. Sending the app to the background (or locking the screen) pauses the client; on return you may need to log in again, and the first resume-login can occasionally need one retry.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.2.7/RuneMobile-0.2.7.ipa",
-          "size": 160302414,
+          "version": "0.3.1",
+          "date": "2026-10-24T01:13:36Z",
+          "localizedDescription": "Everything since v0.3.0. 117 HD on Android now draws the shadows the sun casts, so it looks like it does on the iPhone, and the iPhone gets 117 HD's terrain shadows.\n\nFixed:\n\n• Android 117 HD had no sun shadows and looked flat and dark next to the iPhone at the same settings. 117 HD asks for its shadow map in a format the Android graphics driver refuses, so the map was never made and the whole scene was drawn as if in shadow. The app now asks for a format the driver accepts.\n• iOS: 117 HD's terrain shadows were missing for the same reason. The fix for the main shadow map did not cover the terrain map, which uses a different format.\n\nShadows cost frames on Android. They were already switched on (Detailed) but drew nothing; now they do the work. On a Pixel 7a that is about 38 fps against 47 with shadows off. If you would rather have the frames, set Shadow mode to Off in the 117 HD settings.\n\n• iOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding drops the game session. Sending the app to the background (or locking the screen) pauses the client; on return you may need to log in again, and the first resume-login can occasionally need one retry.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.3.1/RuneMobile-0.3.1.ipa",
+          "size": 166745171,
           "minOSVersion": "17.0"
         }
       ],
