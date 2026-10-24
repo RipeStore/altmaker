@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.rkoh46.tangoaw2",
-    "app.mangatan.mangatan",
-    "org.getlantern.lantern"
+    "org.floeagent.ios",
+    "ar.kevinroberts.nicotind",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -1167,11 +1167,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.169.0",
-          "date": "2026-10-23T07:23:33Z",
-          "localizedDescription": "F1067 — Guided first-time setup Replace the all-at-once setup checklist with four resumable steps: connect the eBird website account, obtain and verify the separate personal API key, explicitly choose a birding region with optional Home, and fetch the exact seen-bird list. Reuse the existing eBird browser, key-generation, region, Home and import paths. Keep key rejection actionable and reject delayed verification after the profile, identity or saved credentials change. A changed context can verify again rather than becoming stuck. Location discovery remains an explicit action.\n\nThe final summary reports each capability independently. Skipping, bundled sample data and an imported annual CSV do not pretend to be an exact regional seen list. Setup can be finished later and reopened in Settings; already configured users are not forced through a new first-run flow.\n\nF1068 — Fetch first; CSV is a fallback Drive both setup and the main-page banner from the existing owner-bound exact personal-list evidence and shared preparation/acquisition state. Pending fetches do not offer CSV. Complete positive and zero-species lists suppress the prompt. After an unsuccessful attempt without usable matching evidence, offer an eBird retry first and optional CSV import second. Preserve matching last-good evidence when a refresh fails, isolate obsolete account/period responses, and avoid extra main-page reads while the guide or its Home-settings detour is active.\n\nValidation: complete unfiltered app unit/DOM suites, Python/report parity and repository guards, wiring smoke checks, all six real-Chrome width/text profiles, and 30 assertion-killed behavioral mutations. Earlier intermittent Stakeout reading-anchor failures are preserved with unchanged recovery controls in F1066; the production invariant, thresholds and fixtures have not been weakened. The combined local invocation also recorded an F937-class canceled fixture-photo failure. Its exact unchanged control and complete non-DOM partition passed; the failed invocation remains recorded, and the cancellation cause remains open.\n\nUnverified on device: the new first-run flow has not been exercised on the owner's iPhone or VoiceOver. Automated browser controls and representative-data captures are not a claim of device verification. Existing separately named device checks, including F1059's delivery confirmation, remain unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from 02a6800, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.169.0/BirdChaser-unsigned.ipa",
-          "size": 143138879,
+          "version": "1.170.0",
+          "date": "2026-10-24T05:47:12Z",
+          "localizedDescription": "Not exercised on a physical device:\n\n• Named owner check (F1078): Use one Connect action on native iOS, complete any first-time API request yourself, and confirm the actual signed-in result page is recognized, its key is verified, and setup advances. Authenticated key-result markup has not been observed; synthetic native-bridge tests do not establish vendor/device success.\n• New Home approval flows with real GPS permissions and location accuracy.\n• Native notification delivery and real-world source latency. Controlled handoff measurements are not live-network timings, and the initiating native transport failure remains unproven.\n\nBirdChaser-unsigned.ipa is unsigned and requires your own sideload signing; it is not directly installable by tapping the download. TestFlight delivery is separate, and a successful upload/VALID processing state alone does not establish tester eligibility.\n\nThe .ipa below is UNSIGNED and was built by CI from 4568fa8, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.170.0/BirdChaser-unsigned.ipa",
+          "size": 143148816,
           "minOSVersion": "15.0"
         }
       ],
@@ -2671,11 +2671,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.50",
-          "date": "2026-10-23T21:48:18Z",
-          "localizedDescription": "English:\n\n• Improved enhanced voice loading, continuous playback and stop response.\n• Fixed Volcengine Agent Plan speech playback and added a configurable OpenAI-compatible speech service address.\n• Office printing and PDF export are grouped in the upper-right menu, with automatic previews and an option to include handwriting.\n• Improved Excel gridlines, print ranges and scaling, and added paper, orientation and print scaling options for Word and PowerPoint.\n• Search provider names now follow catalog updates automatically while preserving custom names.\n• Fixed skill update feedback and the synced-device list.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.50/Floe-Agent-1.7.50-build291-unsigned.ipa",
-          "size": 812005690,
+          "version": "1.7.51",
+          "date": "2026-10-24T09:21:01Z",
+          "localizedDescription": "English:\n\n• Fixed microphone startup, recognition renewal and playback state handling in voice conversations.\n\n• Added speed and pitch controls and improved playback after pausing, stopping and interruptions.\n• Online speech services offer a voice list and authenticated viewing of saved keys.\n• Improved table reading to preserve relationships between headings, rows and numbers.\n• Fixed Volcengine search result decoding and stale waiting-for-keychain status after configuration sync.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.51/Floe-Agent-1.7.51-build292-unsigned.ipa",
+          "size": 812094430,
           "minOSVersion": "26.0"
         }
       ],
@@ -5213,10 +5213,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-22T21:57:00Z",
-          "localizedDescription": "Immutable snapshot of alpha build 388 (8fc454c).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 388, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-388/Non-Jailbroken.ipa",
-          "size": 98369738,
+          "date": "2026-10-24T04:15:32Z",
+          "localizedDescription": "Immutable snapshot of alpha build 389 (086907f).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 389, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-389/Non-Jailbroken.ipa",
+          "size": 98482537,
           "minOSVersion": "17.0"
         }
       ],
@@ -5889,7 +5889,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\nKey CLI capabilities:\n\n• Interactive REPL: Arrow-key navigation, format selectors, and 21 slash commands (/history, /play, /delete, /config, /stats, /update, /clear, etc.).",
+      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n💡 Why Desktop GUI Deleted? Desktop GUI builds (.dmg, .exe, .msi) previously built with Tauri have been retired and consolidated into the standalone Mori CLI (@coflyn/mori).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6058e8",
       "category": "utilities",
@@ -8676,11 +8676,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.3",
-          "date": "2026-10-21T04:26:46Z",
-          "localizedDescription": "• feat(subtitle): add custom font and shadow (#227) @luqmanfadlli.\n• Translate new strings to pt-BR and some minor changes (#223) @mikhaelvm.\n• fix(player): liquid glass regression from the mpv libass layer @chrisk325.\n• feat(streams): liquid glass search bar @chrisk325.\n\n• fix text visibility on stream cards (#216) @chrisk325.\n• fix(details): reuse the hero artwork for the cinematic background @luqmanfadlli.\n• feat(streams): liquid glass stream filter field in cinematic mode @luqmanfadlli.\n• fix(navigation): fix nav bar glass shadow rendering @luqmanfadlli.\n• refactor(glass): fold small nav bar glass files into their owners @luqmanfadlli.\n• refactor(navigation): wire the unified nav bar glass and drop old strings @luqmanfadlli.\n• feat(settings): one Glass section for the nav bar @luqmanfadlli.\n• refactor(navigation): render the nav bar glass through one path @luqmanfadlli.\n• refactor(glass): one nav bar glass model (material + effect settings) @luqmanfadlli.\n• fix(trailer): keep iOS hero trailer zoomed after Fill became stretch @luqmanfadlli.\n• fix(settings): keep nav bar Liquid Glass and icon colour settings local @luqmanfadlli.\n• Feature/(Android): add configurable Liquid Glass and custom icon colors for navigation bar (#213) @jeff25steve.\n• fix(party): show the party's source as plain text @tapframe.\n• fix(player): keep center controls in place on pause @tapframe.\n• feat(player): show badges for what is playing @tapframe.\n\n• fix(player): move engine switch to top row with confirmation @tapframe.\n• feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288) @jhojhocraazy.\n\n• Update Hungarian translations (#2333) @emgeje.\n• Fix binge group initial state from stream args, apply custom posters in library see-all (#2332) @skoruppa.\n• i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297) @blueocean2308.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.3-beta/nuvio-0.6.3-enhanced-release.ipa",
-          "size": 73495899,
+          "version": "0.6.4",
+          "date": "2026-10-24T05:16:57Z",
+          "localizedDescription": "• feat backup export and import under advanced settings (#254) @chrisk325.\n• fix padding for legacy layout player (#253) @chrisk325.\n• fix(player): let the player controls use the full screen width @luqmanfadlli.\n• fix(player): fade the controls out instead of dropping them @luqmanfadlli.\n\n• feat(player): tap the duration to show the time left @luqmanfadlli.\n• feat(player): show when the stream will end above the seek bar @luqmanfadlli.\n• fix(nav): improve selected tab visibility without the glass lens @luqmanfadlli.\n• feat(ios): darker glass pill with an edge for the selected tab @luqmanfadlli.\n• feat(settings): collapse the theme picker in Layout settings @luqmanfadlli.\n• feat(settings): show the active profile as a card with its avatar @luqmanfadlli.\n• feat(settings): add a DNS picker to Advanced @luqmanfadlli.\n• feat(network): move remaining HttpURLConnection users to OkHttp @luqmanfadlli.\n• feat(network): route every Android HTTP client through NuvioDns @luqmanfadlli.\n• feat(network): add a DNS-over-HTTPS resolver for Android @luqmanfadlli.\n• feat(settings): add Skip Backward and Skip Forward to Playback @luqmanfadlli.\n• feat(player): use the chosen skip durations when seeking @luqmanfadlli.\n• feat(player): add skip backward/forward duration settings @luqmanfadlli.\n• Update Shadow Layer Value (#250) @3l-franco.\n• fix(ios): keep hardware decoding through transient VideoToolbox failures @luqmanfadlli.\n• fix legacy player seekbar padding (#251) @chrisk325.\n• Hi10p and 10 bit h264 decoder for exoplayer (#247) @chrisk325.\n• fix episode navigator having a black background for vertical list mode (#246) @chrisk325.\n• feat Rating map (#239) @chrisk325.\n• feat(settings): add an in-app rating switch to Tracking @luqmanfadlli.\n• feat(ratings): let in-app rating be switched off per profile @luqmanfadlli.\n• feat(player): swap volume and brightness slider position on gesture @luqmanfadlli.\n• feat(player): reorder the legacy toolbars and add switch engine @luqmanfadlli.\n• feat(player): rearrange the new layout's toolbars @luqmanfadlli.\n• feat(player): bring the legacy seek bar closer to the bottom bar @luqmanfadlli.\n• feat(player): align top toolbar spacing with the bottom bar @luqmanfadlli.\n• fix selected page visibility in the bottom nav bar (#232) @chrisk325.\n• perf(ios): stop republishing identical Now Playing info every second @luqmanfadlli.\n• fix(details): animate ratings on tablet @tapframe.\n• feat(ios): support duo layout @tapframe.\n• fix(deps): update haze to 1.7.3 @tapframe.\n• fix(trakt): keep continue watching when a progress request fails (#2366) @kernexshadow.\n• perf(streams): compile badge rules once per change (#2365) @kernexshadow.\n• perf(debrid): cache stream filter regexes and reuse stream facts (#2362) @kernexshadow.\n\n• feat(i18n): complete pt-BR player badges and watch party strings (#2338) @jhojhocraazy.\n• Replace libass renderer with atlas pipeline from Plezy (#2346) @skoruppa.\n• Update Hungarian translations (#2341) @emgeje.\n• i18n(vi): update strings.xml and strings_party.xml (#2339) @blueocean2308.\n• fix(ratings): use real imdb logo and grey label @tapframe.\n• feat(home): show ratings and age rating on hero @tapframe.\n• fix(player): keep side panels clear of the navigation bar @tapframe.\n• feat(player): choose a badge pack for the player @tapframe.\n• Complete Spanish mobile translations (#2344) @IberianSoldierPC.\n• fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306) @WhiteGiso.\n• fix(android): scale ExoPlayer subtitles with the PiP window size (#2314) @sap6.\n• feat(player): auto-sync add-on subtitles on the libmpv engine (#2275) @kernexshadow.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.4-beta/nuvio-0.6.4-enhanced-release.ipa",
+          "size": 72679701,
           "minOSVersion": "16.1"
         }
       ],
@@ -9252,10 +9252,10 @@
       "versions": [
         {
           "version": "1.2.0",
-          "date": "2026-10-24T01:04:44Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 60a1803. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-154/Ito-1.2.0-dev.154-unsigned.ipa",
-          "size": 12212963,
+          "date": "2026-10-24T06:48:07Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 5a92ca5. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-156/Ito-1.2.0-dev.156-unsigned.ipa",
+          "size": 12328333,
           "minOSVersion": "15.4"
         }
       ],
@@ -10293,11 +10293,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.116",
-          "date": "2026-10-23T17:19:03Z",
+          "version": "0.8.117",
+          "date": "2026-10-24T08:51:38Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.116/NicotinD-0.8.116-unsigned.ipa",
-          "size": 1575650,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.117/NicotinD-0.8.117-unsigned.ipa",
+          "size": 1578978,
           "minOSVersion": "15.0"
         }
       ],
@@ -10318,10 +10318,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-16T07:44:55Z",
-          "localizedDescription": "Unsigned iOS build of master at 07dbe75. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
+          "date": "2026-10-24T06:33:51Z",
+          "localizedDescription": "Unsigned iOS build of master at fbe749a. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
           "downloadURL": "https://github.com/anoff/tensaiasobi/releases/download/ios-latest/tensaiasobi-unsigned.ipa",
-          "size": 1545772,
+          "size": 1546137,
           "minOSVersion": "15.0"
         }
       ],
@@ -10489,11 +10489,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.421",
-          "date": "2026-10-20T22:51:55Z",
-          "localizedDescription": "Added:\n\n• Inbox rules show or hide conversations by project and label. Open Inbox rules from the filter button on the Mac or the filter menu on Android and iOS. A rule hides the matching conversations or shows only them, can require a project and a label together or accept either, and can be switched off without deleting it. A conversation matching any hiding rule is left out; while a showing rule is on, only matching conversations are listed. Rules sync across your account, apply to the Inbox, widgets, island and menu bar, and the Inbox says how many conversations they hide.\n\nFixed:\n\n• Saving a project or board on Android no longer fails: the project sheet now edits the project's agent instructions (it showed the template override before), and the prompt template override is a separate, validated field that is sent only when you change it.\n• On the Mac, the project context sheet saves your instructions without waiting on workspace settings you did not change and shows a failed save in the sheet. Project and board prompt overrides in Settings explain what the daemon rejects before you save.\n• Claude turns that stop on an expired sign-in resume once after the token refreshes instead of failing.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.421/Dieter-iOS.ipa",
-          "size": 60300986,
+          "version": "0.6.423",
+          "date": "2026-10-23T23:13:24Z",
+          "localizedDescription": "Fixed:\n\n• Returning to the Android or iOS app no longer marks every Inbox row's machine as not responding while the app reconnects. A machine is only reported offline or not responding for what happens while the app is connected.\n• An open conversation keeps updating across reconnects. Before, it could stop refreshing without saying so after the app returned from the background, until you reopened it.\n• Android keeps its connection when the screen rotates or the theme changes, and iOS keeps it while Control Center, the app switcher or a system prompt covers the app.\n• The Mac app exports Markdown to PDF and renders Mermaid and Vega diagrams again. Markdown files open in Files and conversation tabs reload when they change on disk; unsaved edits stay and offer Reload from Disk or Overwrite Disk.\n• Go 1.26.10 fixes GO-2026-6809 in crypto/x509.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.423/Dieter-iOS.ipa",
+          "size": 60340634,
           "minOSVersion": "18.0"
         }
       ],
@@ -10774,11 +10774,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.9.0.105",
-          "date": "2026-10-22T22:54:51Z",
-          "localizedDescription": "Lumisound iOS v1.9.0.105:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v1.9.0.105/Lumisound-1.9.0.105-unsigned.ipa",
-          "size": 11019345,
+          "version": "1.9.0.107",
+          "date": "2026-10-24T06:03:20Z",
+          "localizedDescription": "Lumisound iOS v1.9.0.107:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v1.9.0.107/Lumisound-1.9.0.107-unsigned.ipa",
+          "size": 11023423,
           "minOSVersion": "26.0"
         }
       ],
@@ -12372,11 +12372,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.22",
-          "date": "2026-10-19T07:42:33Z",
-          "localizedDescription": "English:\n\nThe Connect a phone button disappeared from the sidebar on dsh 0.2.1-rc, and never appeared at all in dsh desktop (). The button is mounted by copying the style of the sidebar Settings entry, and it simply did not mount when there was nothing to copy. dsh 0.2.1-rc moved that entry out of the sidebar, so the button vanished in the browser interface; dsh desktop keeps its settings in the application menu, so the sidebar there never had anything to copy and the button never showed up at all. First pairing was unaffected — a pairing code appears by itself while no device is paired — but switching phones or adding a second device needs this button, and without it the only way out was deleting the pairing record by hand. The button now falls back to copying the row at the bottom of the sidebar (the account row when signed in, the More row when not), and it mounts with its own styling when neither reference exists. The channel the interface is injected through changed as well: the dsh desktop interface comes from the frontend bundled into the application, which the old channel could never reach.\n\nIn local mode on the phone, the condition for skipping a directory fsync is now stricter. To work around the sandbox, 0.1.20 skipped fsync for any directory the app could not open; but \"cannot open\" and \"cannot write\" are different things, and a directory that is writable but not readable may genuinely hold entries this process just created, so skipping it quietly loses a durability step. The fallback now skips only when the directory can neither be opened nor written. Behaviour on the phone is unchanged, since /data/user/0 and everything above it grants an ordinary app execute only.\n\nThe dsh bundled into Android local mode moves from 0.2.0-rc.2 to 0.2.1-rc.2. The first local-mode start after this update unpacks the runtime again. Verified on a real device end to end — unpacking, choosing a workspace, sending a message, and sending an image. The arm64 APK grows from about 78 MB to about 83 MB because of the larger bundled runtime; the other ABIs carry no runtime and are unchanged.\n\nThe list of verified dsh versions gains 0.2.1-rc.2. The declared compatibility range already covered the 0.2.1 family, so nothing changes about whether the plugin installs.",
-          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.22/dsh-tether-0.1.22-ios-unsigned.ipa",
-          "size": 7117872,
+          "version": "0.1.23",
+          "date": "2026-10-24T05:21:32Z",
+          "localizedDescription": "English:\n\nWith the sidebar collapsed to a strip, the Connect a phone label was still crammed next to the icon. The dsh row above it draws only its icon in that state, and the button did not follow. The button now drops its label whenever the row it copies has none; its accessible name stays in place, so screen readers are unaffected.",
+          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.23/dsh-tether-0.1.23-ios-unsigned.ipa",
+          "size": 7117830,
           "minOSVersion": "14.0"
         }
       ],
