@@ -10,8 +10,8 @@
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.thenetaji.pawse",
-    "org.floeagent.ios",
-    "com.nazcarbon.music.ios"
+    "com.getdieter.ios",
+    "org.floeagent.ios"
   ],
   "apps": [
     {
@@ -2981,9 +2981,9 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Resume_Tab.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Sync.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Settings.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
       ],
       "versions": [
         {
@@ -10458,11 +10458,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.426",
-          "date": "2026-10-25T02:48:46Z",
-          "localizedDescription": "Fixed:\n\n• Turning agent channels on in the app lists the project's channel right away; before, the list could stay empty for up to a minute.\n\n• CLI help names the flags machine actions need (--name, --confirm), the hex format of board label --color, what card context and card archive do, and the --direct-network option of daemon start; the project, board, workspace, screen resolution, kv and peer help is corrected. card context also returns the card title, and board label list prints `` for a board without labels.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.426/Dieter-iOS.ipa",
-          "size": 61259333,
+          "version": "0.6.427",
+          "date": "2026-10-25T08:55:39Z",
+          "localizedDescription": "Changed:\n\n• A machine stays responsive while many agent turns run at once: running turns write to the daemon's storage only when their state changes, and repeated reads share a small cache. The Homebrew service now uses Standard instead of Background scheduling; brew services restart dieter applies it after an upgrade (this restarts the daemon).\n\nFixed:\n\n• DSH lists its models again. Model discovery looked for DSH in the wrong directory, so apps showed only a default model.\n• A late or duplicate quota reply no longer disconnects a machine's control connection.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.427/Dieter-iOS.ipa",
+          "size": 61259340,
           "minOSVersion": "18.0"
         }
       ],
