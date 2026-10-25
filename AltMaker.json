@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.thenetaji.pawse",
-    "com.getdieter.ios",
-    "org.floeagent.ios"
+    "dev.kartpad.app",
+    "moe.itoapp.ito",
+    "com.mxfia19.TwitchUnblock.test"
   ],
   "apps": [
     {
@@ -2671,11 +2671,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.57",
-          "date": "2026-10-25T08:39:46Z",
-          "localizedDescription": "English:\n\n• Improved turn endings, interruptions and playback recovery in voice conversations.\n• Smoothed the central voice animation.\n• Earlier tool activity now loads as you scroll.\n• Unified the professional dataset search entry.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.57/Floe-Agent-1.7.57-build298-unsigned.ipa",
-          "size": 812266024,
+          "version": "1.7.58",
+          "date": "2026-10-25T11:39:09Z",
+          "localizedDescription": "English:\n\n• Fixed access to installed Skills' bundled scripts, templates and reference files in tasks.\n• Kept each task on its selected Skill version and verified resource integrity.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.58/Floe-Agent-1.7.58-build299-unsigned.ipa",
+          "size": 812299112,
           "minOSVersion": "26.0"
         }
       ],
@@ -3496,17 +3496,15 @@
       "tintColor": "#bf6887",
       "category": "games",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/Decryptu/pokerecomp@main/assets/brand/launcher.webp",
-        "https://cdn.jsdelivr.net/gh/Decryptu/pokerecomp@main/assets/brand/mods.webp",
-        "https://cdn.jsdelivr.net/gh/Decryptu/pokerecomp@main/assets/brand/settings.webp"
+        "https://cdn.jsdelivr.net/gh/Decryptu/pokerecomp@main/assets/brand/launcher.webp"
       ],
       "versions": [
         {
-          "version": "0.1.81",
-          "date": "2026-10-23T16:45:30Z",
-          "localizedDescription": "Added:\n\n• Generation 3 objects now play cartridge affine animations, including scaling and rotation during scripted movements, with the correct expanded sprite drawing area.\n• Generation 3 imports preserve every object graphics record's affine animation tables.\n• Generation 3 cartridges remain unplayable while field integration continues.\n\nFixed:\n\n• Generation 3 camera scrolling follows the player's pixel movement between map cells, keeping the background and sprites aligned.\n\nUpdating this release:\n\n• Cartridges must be reimported for the updated cache format. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.81-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
-          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.81/pokerecomp-0.1.81-ios.ipa",
-          "size": 26336119,
+          "version": "0.1.82",
+          "date": "2026-10-25T10:45:40Z",
+          "localizedDescription": "Added:\n\n• Generation 3 field objects now display trainer reaction icons and emotes, tall and long grass, short-grass overlays, and buried-trainer ash puffs.\n• Generation 3 jumps now produce terrain-specific landing dust and splashes, while completed steps on supported water terrain leave ripples.\n\nChanged:\n\n• Generation 3 cartridges remain experimental and unplayable while field integration continues.\n\nUpdating this release:\n\n• Cartridges must be reimported for the updated cache format. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.82-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
+          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.82/pokerecomp-0.1.82-ios.ipa",
+          "size": 26349817,
           "minOSVersion": "15.0"
         }
       ],
@@ -4350,11 +4348,11 @@
       ],
       "versions": [
         {
-          "version": "3.29.0",
-          "date": "2026-10-24T17:43:47Z",
-          "localizedDescription": "What’s changed:\n\n• Desktop windows now stay on the built-in backend at launch; saved servers connect only when selected. The notch, tray usage, and notifications follow the server used by each window, and the notch has native context menus.\n• Long sessions open at the latest prompt, keep that prompt visible while older history loads, and allow workspace files to be opened from the Preview address bar.\n• Running subagents now show their own live transcript and keep the lead turn active until reports arrive.\n• Settings → Providers can filter hidden providers. Grok Build uses the current upstream model and routing behavior, and DeepSeek usage reflects peak/off-peak pricing.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.29.0/OpenAgentd_3.29.0_iOS.ipa",
-          "size": 5917498,
+          "version": "3.30.0",
+          "date": "2026-10-25T10:38:06Z",
+          "localizedDescription": "• The lead controls its subagents. The lead can now stop, interrupt, or list a single subagent without stopping the rest, and it learns why a subagent failed or stalled (rate limit, revoked key, long quota wait) instead of a generic error.\n• Renamed lead tools. schedule_task, send_to_workspace, delegate, and todo_manage are now schedule, workspace, team, and todo. Old transcripts render as before; an older session is told the new name the first time it calls an old one.\n• Reader transcript. The work summary names each tool group (plan updates, delegations, previews, MCP calls, …) and no longer shows failure counts. Open folds (compaction summary, long prompts, subagent reports, tool details, changed files) keep their header pinned and close in place.\n• A turn that hits a provider's monthly spend limit now ends right away with a clear error instead of waiting up to a day.\n• Changing an agent's default model, thinking level, prompt, or tools no longer affects a run in progress; it applies from your next message.\n• Subagents no longer keep running after their lead is stopped, deleted, or the app shuts down.\n• Member reports no longer show up as your own queued steer, and Stop no longer returns them to the composer.\n• Local dev-server links in responses open in Preview.\n• The MCP tool description stays the same as servers connect or fail, so the prompt cache is no longer invalidated.\n• Signing out of an OAuth provider keeps pasted tokens stored beside its accounts.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.30.0/OpenAgentd_3.30.0_iOS.ipa",
+          "size": 5921995,
           "minOSVersion": "15.0"
         }
       ],
@@ -5028,11 +5026,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5.5",
-          "date": "2026-10-24T19:00:15Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nSharper in the distance:\n\nBuildings and windows far away shimmered as you moved, and could look like they were fighting with each other: every texture was drawn from its full-size image. The game ships smaller copies of its textures for distance (mipmaps), as the console used them; they are used now, with 16× anisotropic filtering.\n\nAnti-aliasing:\n\nTwo kinds, either or both, off by default: SMAA, a quick pass over each frame, and MSAA 2×, 4× or 8×, which draws every edge with that many samples. On the Mac: Video › Anti-aliasing. Windows: the Video menu or F8. Linux: F8. iPhone and iPad: the ⚙ button. Not on Android yet. MSAA and anisotropic filtering first appeared in spriteice's fork -- thank you again!\n\nReflective glass:\n\nGlass and other reflective surfaces -- Dogenzaka Hill's footbridge, for one -- showed dark bars and stripes that shimmered. Their reflections are now made the way the console made them.\n\nAlso:\n\n• A texture the game reads in two ways (clamped in one place, repeated in another) was read the first way everywhere for the rest of the session. The characters' shading texture is one of them.\n\nHow it was tested:\n\nOn a Mac, with Metal: Dogenzaka Hill, free and in the race against Beat, with each change compared on consecutive frames of one run, with and without it; then the release build on the title screen and on Dogenzaka Hill with SMAA and MSAA 4×, on Metal and on OpenGL. Windows (under Wine) and Linux (Mesa): the game starts and runs its title screen. The Android and iPhone builds were built and checked, not run.",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.5/JSRF-Unleashed-iOS.ipa",
-          "size": 13351565,
+          "version": "0.5.6",
+          "date": "2026-10-25T12:52:23Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nShadows:\n\nSkaters now cast their shadows on the ground, and buildings and bridges shade the streets -- and whoever skates through the shade. None of it was drawn before, on any platform. The game works out where its shadows fall every frame, then darkens those places in one last step, and that step uses a way of drawing the renderer did not handle: it drew nothing. Thanks to the Windows player who reported it!\n\nHow it was tested:\n\nOn a Mac, with Metal and with OpenGL: the title's attract demo and Dogenzaka Hill, free and in the race against Beat, with the shadow areas the game works out painted in for checking (the same on Metal and OpenGL), and with the characters' or the scenery's shadows left out; then the release build on the title screen and on Dogenzaka Hill with SMAA and MSAA 4×, on Metal and on OpenGL. Linux (Mesa): the attract demo, with its shadows. Windows (under Wine): the game starts and runs its title screen. The Android and iPhone builds were built and checked, not run.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.6/JSRF-Unleashed-iOS.ipa",
+          "size": 13354057,
           "minOSVersion": "15.0"
         }
       ],
@@ -6173,10 +6171,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-24T11:53:05Z",
+          "date": "2026-10-25T12:21:57Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484768,
+          "size": 7484763,
           "minOSVersion": "16.4"
         }
       ],
@@ -6641,11 +6639,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.14",
-          "date": "2026-10-24T21:45:15Z",
-          "localizedDescription": "Release v6.2.14:\n\n• Remove unnecessary episode progress polling (c9f7e35).\n• Refine page titles and iOS Liquid Glass navigation (97666d2).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.14/Manatan-v6.2.14-iOS.ipa",
-          "size": 409248258,
+          "version": "6.2.16",
+          "date": "2026-10-25T12:18:17Z",
+          "localizedDescription": "Release v6.2.16:\n\n• Preserve anime identity and progress when refreshing (81f4ac86c).\n• Reject damaged manga archives before importing (8a221674f).\n• Align screen lookup taps with recognized characters (efdcdd90f).\n• Reveal shared files reliably on Linux (ff705d2c2).\n• Capture Linux video images on demand (dee2d2544).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.16/Manatan-v6.2.16-iOS.ipa",
+          "size": 409539588,
           "minOSVersion": "16.1"
         }
       ],
@@ -9221,10 +9219,10 @@
       "versions": [
         {
           "version": "1.3.0",
-          "date": "2026-10-25T07:32:55Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b9b2b53. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-169/Ito-1.3.0-dev.169-unsigned.ipa",
-          "size": 12518290,
+          "date": "2026-10-25T13:19:43Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit d83abdf. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-176/Ito-1.3.0-dev.176-unsigned.ipa",
+          "size": 12525897,
           "minOSVersion": "15.4"
         }
       ],
@@ -11197,8 +11195,8 @@
       "name": "Pawse",
       "bundleIdentifier": "com.thenetaji.pawse",
       "developerName": "thenetaji",
-      "subtitle": "🐾 A free, open-source music player for iPhone and Android. Streams YouTube Music with lyrics, offline songs and a cat in your Dynamic Island",
-      "localizedDescription": "What it does:\n\nAlso: word-by-word lyrics, a sleep timer, the same loudness for every song, songs that keep playing offline, and a little mouse that keeps teasing the cat.\n\nWhich file do I need?:\n\nSizes are from version 1.0.2. The computer apps are big because each one carries its own copy of Chromium (they are built with Electron).\n\nNot sure which Mac you have? Open the Apple menu, then About This Mac. If you see Chip (Apple M…), you have Apple silicon. If you see Processor (Intel…), you have an Intel Mac.\n\niPhone:\n\nYou need iOS 16.4 or newer. The Dynamic Island and the Lock Screen card need iOS 17 or newer.\n\n• In SideStore, open Sources → tap + → paste:.\n• Tap Pawse → Install.",
+      "subtitle": "🐾 A free, open-source music and video app for iPhone, Android and computers. YouTube Music and YouTube without Shorts or ads: lyrics, offline songs, SponsorBlock, DeArrow and a cat in your Dynamic Island",
+      "localizedDescription": "What it does:\n\nAlso: word-by-word lyrics, crossfade, a sleep timer, the same loudness for every song, songs that keep playing offline, and a little mouse that keeps teasing the cat.\n\nMusic and videos share one Home and one Search. It's YouTube the way you'd want it:\n\n• A Home that ends. Pick up the video or song you left, see who you follow with a dot for anything new, then the latest from your channels, your mixes and your likes. Then it says you're caught up. YouTube's own suggestions stay off unless you switch them on, and Edit Home turns any section on or off and changes the order.\n• No Shorts, no ads, no mixes. Search has a YouTube filter for videos and channels. Block channels, and words in titles, and they're gone everywhere.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.thenetaji.pawse.png",
       "tintColor": "#3b82f6",
       "category": "entertainment",
@@ -11211,11 +11209,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.0",
-          "date": "2026-10-25T08:56:13Z",
-          "localizedDescription": "Added:\n\n• YouTube videos, without the noise (Experimental). Turn on Settings → Experimental → YouTube videos and a Watch tab appears: your subscriptions when you're signed in, a feed when you're not, and video search. Shorts, ads and mixes never show up. Videos play in the phone's own player, with full screen, picture in picture and background play.\n• When a video ends, nothing starts by itself: Replay, Next or Done. Play the next video in Experimental turns autoplay back on.\n• On a video: chapters you can tap to jump to, the description, Up next, and Listen, which hands the video's sound to Pawse's music player so it plays like a song.\n• Watch video in a song's menu opens its video when YouTube videos is on.\n• Channel pages show a channel's videos, newest first, and never its Shorts.\n• A calmer Home (Experimental). Home → Calm keeps Home to what you play, a few picks and your mixes, and it ends with the cat asleep instead of scrolling forever. Only my music shows nothing suggested at all.\n• Search suggestions have an arrow on the right that puts the words in the search box so you can keep typing. Recent searches show while you type, and each one has its own × to remove it.\n\nFixed:\n\n• Long songs (over about 11 minutes) play on iPhone, Android and computers. YouTube slows any single request for more than about 10 MB to the speed of the song itself, and Pawse asked for long songs in one request, so they stalled before starting or partway through. Long songs now play from a playlist of small pieces, which also makes jumping ahead instant. On computers each request asks for at most 10 MB.\n• Pulling a page down past the top no longer shows a black band above the colour; the colour carries on up.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
-          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.6.0/Pawse.ipa",
-          "size": 22446558,
+          "version": "1.9.0",
+          "date": "2026-10-25T12:50:23Z",
+          "localizedDescription": "Fixed:\n\n• Videos play on iPhone. iPhone's player won't open a playlist saved on the phone, so videos never started. Pawse now hands playlists to the player through a tiny server that only the phone itself can reach.\n• Long songs on iPhone get the same fix. The faster path for songs over about 10 minutes, from 1.6.0, never actually ran on iPhone; it does now.\n\nAdded:\n\n• Videos keep playing when you leave them, like YouTube. Drag a video down (or go back) and it shrinks into the mini player above the tabs, still playing. Tap it to grow it back; ✕ closes it. Starting a song closes it too, since only one plays at a time. On computers it floats above the player bar, and Esc shrinks it.\n• The video page loads with its shape already there: the title and picture from the card you tapped show at once, with placeholders for the rest instead of a black box.\n• Every quality, and Auto. Videos come in every H.264 quality YouTube has (144p to 1080p60). Auto moves between them as your connection allows and shows the one playing (Auto · 720p60). Change it on any video with the Quality button; the video carries on from the same moment. Set the default in Experimental → Video quality.\n• Song | Video switch in the player for YouTube songs. Video shows the song's video in place of the cover, muted and in time with the music; it plays, pauses and seeks with the song. The ⤢ button opens the full video. Turn the switch off in Experimental.\n• Experimental has its own page in Settings, so Settings stays short.\n• Share on a video, and a ⋯ menu on every video card.\n• Video problems go into Settings → About → Diagnostics, so a report says what went wrong.\n\nChanged:\n\n• Watch looks like YouTube. No big title or bar at the top: the search box sits under the clock, videos run edge to edge on phones, and computers get a grid.\n• The video page is full screen, not a card over the page behind it, so there's no gap or rounded edge above the video. It slides up when it opens. The Edge-to-edge setting is gone; this is how it always looks now.\n• The video page puts the channel first, then a row of buttons: likes, Quality, Listen and Share.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
+          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.9.0/Pawse.ipa",
+          "size": 24622065,
           "minOSVersion": "16.4"
         }
       ],
@@ -12231,11 +12229,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.5",
-          "date": "2026-10-21T02:06:27Z",
-          "localizedDescription": "KartPad 0.8.5 (build 267) updates Retro Rewind to 6.13.4 and adds the requested rumble-strength and stick-click controls on Android, plus a quicker touch item hold on Android and iPhone/iPad.\n\nAdded:\n\n• Android rumble strength: in Controls → Controller Button Mapping…, adjust Rumble strength from 0% to 200%. 100% is the standard setting; lower it for gentler feedback or raise it for stronger feedback. It applies to controller motors and the device-vibration fallback for handheld controls. The existing Rumble switch still turns both off. Devices without amplitude control may not change physical strength.\n• L3 and R3 mappings on Android: either stick click is now a mapping option. Map D-pad Up — Trick / Wheelie to L3 or R3 to trick without reaching for the D-pad. Existing mappings stay the same until you change them.\n\nUpdating:\n\n• Android: Update available → Update Now, or install the APK over your current KartPad. Don't uninstall first. Then update Retro Rewind to 6.13.4 in KartPad.\n• Apple Silicon Mac: rebuild through PadMint, choose Mario Kart Wii → This Mac, and select the matching 6.13.4 Retro Rewind data produced by that build. Your saves stay.\n\nValidation scope:\n\nGameplay, emulator and physical-device testing were skipped at the owner's request. This release does not claim a graphics or performance fix. Existing missing-character reports remain open. Android and iOS compiled from the clean release commit. The Android APK passed both package audits, two independent signed derivations were byte-identical, and its signing identity matches 0.8.4. The iOS PadMint input passed the final package audit and contains no game code. The compiled Android package contains the new control UI and matching Retro Rewind 6.13.4 pack.\n\nThe source archive includes reviewed translator marker strings and synthetic test fixtures. The Android-only translated-code findings are the documented KartPad release exception; no private game inputs or signing material are packaged.\n\nMac: the required clean PadMint player build passed before tagging, using Apple Python 3.9 and an empty PadMint folder. Its 0.8.5/build 267 app passed deep signature verification.\n\nThe clean PadMint player check also passed from the published release, with no checkout override; its Mac app passed deep signature verification. All six hosted assets were downloaded anonymously and matched the local files and published checksums. The hosted Android signature and iOS content audits passed.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.5/KartPad-v0.8.5-ios-for-padmint.ipa",
-          "size": 9303796,
+          "version": "0.8.6",
+          "date": "2026-10-25T13:38:20Z",
+          "localizedDescription": "KartPad 0.8.6 (build 268) fixes PadMint builds, which had stopped for everyone after an upstream change, gives the game your country for the online flag and globe, adds two speed options for slower Android phones and custom GPU drivers for Snapdragon phones, brings in WiiCompiled's fixes through v0.9.0, makes the Android game code faster, and lets Android players try WiiCompiled 0.9's new graphics engine. Retro Rewind stays at 6.13.4.\n\nNew:\n\n• Simpler Computer Karts (Android): ⋯ → Graphics \u0026 Performance → Simpler Computer Karts gives computer karts the simpler models the game uses in split-screen. They look less detailed and their drivers don't animate; your kart, ghosts and online players are unchanged. Off by default. Thanks to DriftDroid, where this idea comes from.\n• Custom GPU drivers (Android, Snapdragon): ⋯ → Graphics \u0026 Performance → GPU Driver installs a driver package (the AdrenoTools .zip format other Android emulators use, such as Turnip) and uses it with either graphics engine. Many Adreno graphics faults are driver bugs, and a newer driver is the only fix for those. If a driver doesn't load, or graphics can't start with it, or the game closes twice while starting, KartPad goes back to the phone's own driver by itself. Problem reports say which driver was running.\n\nFixed:\n\n• Android Start button under the ⋯ button: on phones where Android reserves room for a hidden status bar, the touch Start button sat partly under the ⋯ menu button. Start now always sits just below it, in the default layout and in custom layouts.\n• After installing Retro Rewind on Android, the install screen offers Back to Game Selection, where Retro Rewind is ready to play, instead of leaving you on the finished screen.\n• Android 9: the game no longer stops as soon as it starts with \"Runtime context failure\". Android 9 ships a second copy of a system function the game uses to find its thread data, and the game code and the app were each using a different copy. Both now use KartPad's own.\n• iPhone and iPad Mii import: a file of the wrong size is rejected before KartPad reads it.\n• Android diagnostic logs: each session is labelled with the game it actually ran, so a Retro Rewind session isn't listed as Original.\n\nChanged:\n\n• A clearer ⋯ menu: the in-game menu has the same main list and Display page on Android, iPhone and iPad. Show FPS Counter moved into Display, next to FPS Counter Size, Aspect Ratio, Render Resolution and App Icon. On Android, the graphics engine, 30 FPS Races, Simpler Computer Karts, GPU Driver and Graphics Diagnostics have their own Graphics \u0026 Performance page. On/off settings now show a switch and a short description, and tapping one flips it without closing the menu; other settings show their current choice.\n\nUpdating:\n\n• Android: Update available → Update Now, or install the APK over your current KartPad. Don't uninstall first. Retro Rewind 6.13.4 stays installed.\n• Apple Silicon Mac: build 0.8.6 through PadMint (Mario Kart Wii → This Mac) and replace your current app. Your saves stay.\n\nValidation scope:\n\n• Android fresh install: on new emulators, KartPad imported an extracted game folder and created a licence, and switching engines from the in-game menu and from the start screen took effect after the restart, including switching back to Classic. The WiiCompiled engine resumed its race after the app went to the background. The final APK, installed over an earlier 0.8.6 build, kept all 2,079 player files identical. With it, the WiiCompiled engine reached a VS race on Mushroom Gorge and started again cleanly afterwards, and Classic reached a Luigi Circuit race.\n• Android 9: on an Android 9 emulator, 0.8.5 stopped with \"Runtime context failure\" as soon as the game started, on both engines. 0.8.6 gets past that point. That emulator has no working Vulkan driver, so it then stops at \"Graphics Unavailable\", which a phone with Vulkan doesn't. On a newer emulator, both engines still reach races at 60 FPS with this change.\n• Country: on an Android emulator, the game's log changed from Can't get SimpleAddressData to the chosen country's code and globe position (United States, Mexico and Japan). Original and Retro Rewind saves made before the fix loaded with no \"create new save data\" prompt, and rksys.dat stayed byte-identical after starting with a new country. Retro WFC sign-in worked with a country set.\n• 30 FPS Races and Simpler Computer Karts: on an Android emulator, in a VS race on Luigi Circuit, the game thread used 455 and 438 ms of CPU per second with both off, 336 ms with 30 FPS Races (about a quarter less, with the race clock at normal speed) and 294 ms with both. With both on, all 11 computer karts loaded their split-screen models in Original and Retro Rewind 6.13.4 races, and the player's kart kept its full model. No phone was measured.\n• GPU drivers: an emulator can't run a Snapdragon driver, so only the fallback was tested. With a package selected that isn't a working driver, both engines logged the fallback and reached the title screen at 60 FPS on the emulator's own driver, and switching back to the phone's driver cleared the choice.\n• Final candidate: installed over the previous 0.8.6 build on an emulator, it kept all 6,078 player and Retro Rewind files identical, and Classic reached Original and Retro Rewind races and the WiiCompiled engine a Luigi Circuit race.\n• Pixel 9 Pro XL: 0.8.6 candidates installed over the KartPad already on a Pixel 9 Pro XL as updates and kept its saves and settings. On the WiiCompiled engine, Mario Kart Wii played without problems, Retro Rewind installed and signed in to Retro WFC, and the menu changes and the Start position were checked on the phone.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.6/KartPad-v0.8.6-ios-for-padmint.ipa",
+          "size": 9442192,
           "minOSVersion": "16.0"
         }
       ],
@@ -12733,33 +12731,6 @@
           "NSCalendarsUsageDescription": "Add a concert to your calendar after you review and save it.",
           "NSLocalNetworkUsageDescription": "Connect to your music servers and network storage to browse and play your music.",
           "NSPhotoLibraryUsageDescription": "Mornye needs access to save album artwork"
-        }
-      }
-    },
-    {
-      "name": "TwitchUnblock",
-      "bundleIdentifier": "com.mxfia19.TwitchUnblock",
-      "developerName": "MXFia19",
-      "subtitle": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and",
-      "localizedDescription": "🟣 TwitchUnblock:\n\nTwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality. Native iOS app built with SwiftUI — also available in your browser.\n\n🤖 Vibe-coded project. TwitchUnblock is built with AI coding assistants (prompted, reviewed and tested by a human). Expect rough edges: bug reports on Discord help a lot.\n\nInstall it and it works. There is nothing to configure, no server to set up, no key to paste. The backend is already hosted and shared by every install.\n\n📲 Installation:\n\nTwitchUnblock isn't on the App Store, so it has to be sideloaded.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mxfia19.TwitchUnblock.png",
-      "tintColor": "#9b5ab8",
-      "category": "other",
-      "versions": [
-        {
-          "version": "1.6.0",
-          "date": "2026-10-20T20:58:03Z",
-          "localizedDescription": "Automatic build of the master branch on 2026-10-20.\n\n• Channel points: the app now joins raids with your Twitch session, so you get the raid bonus like on twitch.tv.\n• Player: with Higher qualities on and no sub or Turbo, 1440p now plays through your account, switching by itself to the ad-free 1080p source during Twitch ad breaks and back afterwards.\n• Settings: the top streams language list (and the Categories language menu) scrolls again while a VOD or a live plays in the background.\n\n• Player: when the installer removed Live Activity support, the app stops asking for one until its next launch instead of filling the log.\n• Player: new Higher qualities setting (off by default) asks Twitch for 1440p and above, in HEVC or AV1 when the device decodes them, on the ad-free stream through your account.\n• Settings → About now credits the people who contribute to the app.\n• Japanese interface language (thanks to kinboy56).\n• Player: the zoom level no longer shows up under the pause button.\n• Smoother swipe-down to minimize the player (thanks to dwojc6).\n• Italian interface language (thanks to Domenico-lel).\n\n• Customize: reorder and hide the tabs of a channel page (VODs, Highlights, Playlists, Clips, Schedule, About); the page opens on the first one shown.\n• Tap the tab you're on again to scroll back to the top (Home, Search, My VODs) or to Discover's first page.\n• Home: pinned channels' live streams stay on top of Following, now sorted by viewers among themselves (Settings → Customize → Pinned sorted by viewers).\n• Channel schedule now loads without an account (Twitch's public schedule query).\n\n• Search: typing text now shows results in tabs (Channels, Categories, Live by title or tags, VODs); live streams and VODs from hidden channels or categories are left out, and links or IDs still open directly.\n• Search: your last 10 searches are listed under the search field, each removable, or clear them all.\n• Channels: a Schedule tab lists a channel's upcoming streams in your local day and time, with length, title, category, weekly ones and vacation.\n• Channels: an offline channel's page shows its next scheduled stream (or its vacation) right under its name.\n• Player: Share in the ⋯ menu sends a VOD (or a rewound live) at the current time, the channel during a live, or the clip's link.\n• Player: Create a clip during a live from the ⋯ menu, with your Twitch web session (connect it from there if needed), then copy or share its link.\n• Notifications: live notifications show the stream's thumbnail, are grouped per channel, and offer Watch and Stop notifying for this channel.\n\n• Home: a new \"Continue watching\" row shows the VODs you started (up to 10, latest first) with their progress; a tap resumes where you stopped (hide it in Settings → General → Customize the app).\n• Player: when the connection comes back after a drop, a player stopped on Retry (or on a loading error) and failed multi-live tiles restart on their own, once.\n\n• Apple TV: a \"Continue watching\" row at the top of Following lists the VODs started on this Apple TV, with their progress.\n• Apple TV: during a channel's ad break, a banner explains the purple screen with a countdown to the stream's return.\n• Discover: hiding a channel or a category now removes it from the feed right away, and the ⋯ menu no longer offers to hide channels or categories you follow.\n• Discover: coming back to the tab keeps your place, mode and sound (the top is reloaded after 10 minutes).\n• Discover: the Clips tab no longer spins forever when the top is empty, and Retry reloads it.\n• Discover: clip durations show as m:ss instead of \"0min\".\n• Discover: the unfollow confirmation shows the channel's display name.\n\n• Discover: with the mini player or the multi-live bar shown, the game, tags and ⋯ button stay above them.\n• Home: without an account, the automatic refresh no longer drops the streams loaded with \"Load more\".\n• Your account's followed channels and categories are now loaded at launch whatever the start tab, so Discover never hides them and backups include them.\n\n• Logs: the log screen no longer slows down while something is playing.\n\n• Player: a second \"slow connection\" notice now stays its full 4 seconds.\n• Settings → Channel points: the per-channel list stays smooth with many channels.\n• Player: the landscape view forced by the rotate button is kept when the stream reloads (refresh, Retry, followed raid, next VOD).\n• Player: the Live Activity no longer disappears when following a raid or moving to the next VOD with the screen locked.\n• Player: a recent VOD opened while AirPlay is on resumes where you left off instead of restarting from 0:00.\n• Player: dragging the full-broadcast bar to the very start now opens the recording at its beginning instead of the present.\n• Player: after a playback error, Play from the lock screen or headphones no longer keeps the screen awake or shows the video as playing.\n• Player: the \"live via your account\" notice no longer comes back after each \"slow connection\" quality drop.\n• Player: a speed forced by the player (caught up with a live recording, AirPlay) no longer resets later VODs to 1x.\n• Player: the starting quality no longer changes, reloading the stream, when switching between Wi-Fi and cellular.\n• Player: changing quality during AirPlay no longer leaves the receiver unable to play.\n• Player: after stalls on cellular, the Live button no longer jumps to the very start of the live window.\n• Player: a VOD stopped by a muted segment before resuming now restarts at your saved position instead of 0:00.\n• Multi-live: the screen can sleep again when no tile is playing (all paused, offline, failed or finished).\n• Multi-live: a tile cut off mid-playback now gets its 3 retries instead of 1 or 2.\n• Multi-live: on cellular, tiles follow the cellular quality setting instead of starting in 1080p.\n• Discover: music from another app resumes after closing the player, even when a preview starts right away.\n• New Settings → General → Customize the app: show, hide and reorder the tabs, and pick the tab the app opens on.\n• Customize the Home screen: reorder or hide the Followed / Top / Offline tabs, hide the announcement, poll, sign-in and web session cards or the Categories view.\n• Customize the player's bottom bar: reorder or hide its buttons, add sleep timer, multi-live and rewind buttons, hide AirPlay.\n\n• Other improvements and fixes.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/nightly-352/TwitchUnblock.ipa",
-          "size": 4381486,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "This app doesn't use the camera.",
-          "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
         }
       }
     },
@@ -13753,6 +13724,33 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "TU Test",
+      "bundleIdentifier": "com.mxfia19.TwitchUnblock.test",
+      "developerName": "MXFia19",
+      "subtitle": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and",
+      "localizedDescription": "🟣 TwitchUnblock:\n\nTwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality. Native iOS app built with SwiftUI — also available in your browser.\n\n🤖 Vibe-coded project. TwitchUnblock is built with AI coding assistants (prompted, reviewed and tested by a human). Expect rough edges: bug reports on Discord help a lot.\n\nInstall it and it works. There is nothing to configure, no server to set up, no key to paste. The backend is already hosted and shared by every install.\n\n📲 Installation:\n\nTwitchUnblock isn't on the App Store, so it has to be sideloaded.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mxfia19.TwitchUnblock.test.png",
+      "tintColor": "#9b5ab8",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.6.42",
+          "date": "2026-10-25T13:05:20Z",
+          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-10-25.\n\n• Other improvements and fixes.",
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-360/TwitchUnblock.ipa",
+          "size": 4415376,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This app doesn't use the camera.",
+          "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
+        }
       }
     }
   ]
