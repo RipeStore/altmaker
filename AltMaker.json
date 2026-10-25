@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.kartpad.app",
+    "com.thenetaji.pawse",
     "moe.itoapp.ito",
-    "com.mxfia19.TwitchUnblock.test"
+    "com.wyatthoutz.birding"
   ],
   "apps": [
     {
@@ -683,10 +683,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-19T12:31:06Z",
-          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.7.0 Commit: 062fec82033b554b9eb3b5da069518c0c96a354e Short SHA: 062fec8.",
+          "date": "2026-10-25T14:30:48Z",
+          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.7.0 Commit: 9f07adef2eb5d559777f9bf59a67b756875cb24f Short SHA: 9f07ade.",
           "downloadURL": "https://github.com/xmoezzz/rfvp/releases/download/pre-release/RFVPLauncher.ipa",
-          "size": 19877648,
+          "size": 19877647,
           "minOSVersion": "14.0"
         }
       ],
@@ -1167,11 +1167,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.172.0",
-          "date": "2026-10-25T02:47:11Z",
-          "localizedDescription": "Changes:\n\n• F1094: compact Bird Gen category tags retain identity/count, warning symbols, independent dependency retries and real loading hourglasses. Expanded Source status distinguishes Partially loaded from Failed; limited coverage is never relabelled success.\n• F1095: rejected Mega selection checks now emit bounded canonical/parameter counts and match Booleans only. Missing, duplicate and wrong-selection pages remain rejected and prior snapshots are retained. This is diagnostic instrumentation, not a demonstrated fix for the intermittent rejection.\n• F1096: Setup location progress, candidates and errors appear beside the initiating Here/Find/approval control. Explicit Home/region approval, manual alternatives and stale-result protection remain intact.\n• F1097: SENSITIVE uses peer badge typography/padding inside a separate 44px evidence button, retaining its safe-blue border, focus, keyboard semantics and privacy-safe details.\n• F1098: direct annual-first rejections gain bounded parser classifications/counts and validation flags without page contents or identities. Source, membership, year/region and browser-ownership checks are unchanged. The earlier intermittent payload/root cause remains unknown.\n• F1099: supported detected-region recommendations offer an explicit named Use action. Nothing is auto-accepted, Home is not silently approved, and stale account/recommendation actions are rejected.\n• F1100: first-time API guidance starts collapsed, exposing eBird's actual task, while local Get feedback explains waiting and the next action. Close and independent reopen remain usable. No application fields or terms are read, filled or submitted.\n• F1101: visual loading tracks exist only during current-owned pending work. Finished, finished-with-failures, failed and cancelled outcomes use truthful text while retaining source counts, coverage and retries. Cancellation settles immediately before obsolete callbacks.\n• F1102: every qualifying same-day annual-first bird survives admission, including 25+ on January 1. Compact date-based groups reuse shared names/photos/+N presentation and expose every member's evidence; merged reasons, unique counts and FOY filtering remain complete.\n\nValidation:\n\nPrivate/parity, all app unit/DOM partitions, wiring, all six real-Chrome layout profiles and 22 assertion-killed mutations were exercised against final behavior source. Full DOM: 1,469 passed. Non-DOM: 285 passed, with the existing non-macOS Foundation-recorder skip. Wiring: 20 checks. Every mutation restored identical source bytes.\n\nActual 402x874 previews cover normal/enlarged SENSITIVE geometry, local location feedback and 26 same-day FOY members including merged evidence. The compact painted SENSITIVE height matches peers while its independent target remains 44px.\n\nThe first complete CI attempt correctly failed one older F1048 fixture at UTC 00:48: \"one hour ago\" was on the previous date and therefore older than today's date-only record. The exact failure was reproduced with a controlled clock. This follow-up commit changes only that fixture to use yesterday's local noon as its common date basis, retaining every existing assertion. It passes midnight, midday and late-day UTC controls plus local-midnight America/Los_Angeles. The app behavior source is byte-identical; the new exact-source CI run remains the publication gate.\n\nUnverified on device:\n\nF1095/F1098 ship diagnostics only; intermittent real-response root causes remain unclassified. Independent Apple processing and tester eligibility must be verified separately and are not implied by this source commit.\n\nThe .ipa below is UNSIGNED and was built by CI from cd5c8e5, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.172.0/BirdChaser-unsigned.ipa",
-          "size": 143151054,
+          "version": "1.173.0",
+          "date": "2026-10-25T17:37:02Z",
+          "localizedDescription": "Common birds: a flat personal opportunity feed (F1104):\n\nCommon birds keeps its existing menu name but now presents a separate Twitch-style entry for each personally eligible bird at each reported public hotspot. Two places for one bird remain two entries, and two birds at one place remain two entries. Every entry links its own hotspot and source checklist, with source sighting time and straight-line distance. Standard and High visibility use the actual shared Twitch card and matching list wrappers.\n\nDiscovery uses the last seven days of ordinary geographic observations, not just notable birds or a county-frequency threshold. Newest source sighting is the default; Nearest globally reorders the same bird/place pairs. Entries reveal 25 at a time without another source fetch. Actual deduplicated report/date evidence and literal source validation/review states remain visible; no flag is promoted to reviewer confirmation or a probability of finding the bird.\n\nUseful results before optional enrichment:\n\nCompatible saved evidence displays first and recent geographic results appear progressively. One public-hotspot request and up to three geographic requests precede a bounded initial batch of seven nearest-species checks. Find more places explicitly continues another batch. Checklist-note details load on demand unless inline Notes is enabled. Failed refreshes retain successful saved evidence and expose retryable errors instead of caching failure as an empty result.\n\nThe three-circle discovery footprint reaches about 35.9 straight-line miles. Larger selected radii explicitly disclose the narrower discovery area; every admitted place must still pass the selected radius and source-supported region. Representative feeds and response caps are not exhaustive surveys, and public hotspot listing is not permission to enter or a driving-time estimate.\n\nOwnership and evidence safeguards:\n\nSaved observations belong to the exact account/list scope, taxonomy, anchor and radius and are requalified against current personal membership. Obsolete account, period, credential and anchor work cannot repaint another scope. Private/sensitive source rows, rejected observations, escapees and stale observations are withheld. Ordinary public owl reports are not blanket-labelled Sensitive. Missing source counts remain absent rather than becoming invented X counts.\n\nNot verified on device:\n\nThe .ipa below is UNSIGNED and was built by CI from eeb1023, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.173.0/BirdChaser-unsigned.ipa",
+          "size": 143153218,
           "minOSVersion": "15.0"
         }
       ],
@@ -2147,7 +2147,7 @@
       "bundleIdentifier": "com.defnf.icopc",
       "developerName": "nathanialf",
       "subtitle": "This is ICO (Sony Computer Entertainment, 2001) made to run as a normal",
-      "localizedDescription": "ico-pc:\n\nThis is ICO (Sony Computer Entertainment, 2001) made to run as a normal program on a Windows or Linux PC, the Steam Deck, 64-bit ARM Linux handhelds, Android phones and tablets, iPhones and Apple-silicon Macs. It runs the game's own code, so it plays, sounds and feels like the PlayStation 2 game, from the European disc or the Japanese one. There are extras, such as a sharper picture, widescreen and smoother motion. The sharper picture, widescreen and the other picture extras stay off until you turn them on, and the frame rate is not held to the PS2's unless you choose Original. The mouse camera starts on.",
+      "localizedDescription": "ico-pc:\n\nThis is ICO (Sony Computer Entertainment, 2001) made to run as a normal program on a Windows or Linux PC, the Steam Deck, 64-bit ARM Linux handhelds, Android phones and tablets, iPhones and Apple-silicon Macs. It runs the game's own code, so it plays, sounds and feels like the PlayStation 2 game, from the European, Japanese, Korean, North American or Asian disc, or from the August 2001 preview disc or the June 2001 magazine demo. There are extras, such as a sharper picture, widescreen and smoother motion. The sharper picture, widescreen and the other picture extras stay off until you turn them on, and the frame rate is not held to the PS2's unless you choose Original. The mouse camera starts on.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
       "tintColor": "#6156e2",
       "category": "games",
@@ -2895,11 +2895,11 @@
       ],
       "versions": [
         {
-          "version": "0.16.0",
-          "date": "2026-10-24T18:02:05Z",
-          "localizedDescription": "[0.16.0] — 2026-10-24:\n\n• native Review \u0026 Refine vertical panel, skill prepend, and execution drawer.\n• relay Flow Review \u0026 Refine through Broker and enforce peer hard gate.\n• add plan-refine-v1 wire contract and mobile sdk state machine.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.16.0，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.16.0/maestro-mobile-unsigned-0.16.0.ipa",
-          "size": 9606501,
+          "version": "0.16.1",
+          "date": "2026-10-25T16:52:22Z",
+          "localizedDescription": "[0.16.1] — 2026-10-25:\n\n• execution sheet scroll containment, todo numbering, TUI-style glyphs and strikethrough.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.16.1，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.16.1/maestro-mobile-unsigned-0.16.1.ipa",
+          "size": 9607453,
           "minOSVersion": "15.1"
         }
       ],
@@ -4975,10 +4975,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-22T17:07:53Z",
-          "localizedDescription": "Unsigned build of commit fb5d1fcf7bfd71e1b522bfa32b88a84d5ecabaed. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-66/EngiNote.ipa",
-          "size": 14537614,
+          "date": "2026-10-25T16:29:04Z",
+          "localizedDescription": "Unsigned build of commit a5ffd81862cb22be5ab790461a6295fe8947daef. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-70/EngiNote.ipa",
+          "size": 14558177,
           "minOSVersion": "17.5"
         }
       ],
@@ -7992,11 +7992,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.27",
-          "date": "2026-10-11T18:45:54Z",
-          "localizedDescription": "Bluetooth background recovery: log CoreBluetooth disconnect/connect error codes and retry failed keep-alive connections with bounded backoff. No firmware update required. Physical iPhone/Flipper acceptance remains pending.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.27/TumoCompanion-unsigned.ipa",
-          "size": 25894921,
+          "version": "1.11.29",
+          "date": "2026-10-25T17:15:08Z",
+          "localizedDescription": "TumoCompanion 1.11.29 (282):\n\n• Restore the Home Flipper preview height to match the device name and action grid on its right. Preview width, two-column layout and 44pt action targets stay unchanged at normal text sizes.\n• Keep the large-text adaptation, light/dark appearance and explicit Last frame badge. This is a height-only correction, not a full-width dashboard redesign.\n\nNo breaking change, data migration, pairing reset, firmware/FW Packages/ESP32 update or automatic device installation is required. Refresh the Feather source and update TumoCompanion only.\n\nThe approved layout has light/dark geometry regressions that require aligned bottom edges within 1pt while keeping the original width and right-hand buttons. Physical iPhone/Flipper acceptance remains separate from Simulator/CI validation.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.29/TumoCompanion-unsigned.ipa",
+          "size": 25953346,
           "minOSVersion": "17.0"
         }
       ],
@@ -8061,11 +8061,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.3",
-          "date": "2026-10-11T21:19:19Z",
-          "localizedDescription": "• What's new:.\n• Updated to YouTube 21.41.5.\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too.\n\nFixed:\n\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI.\n• Pinch to fullscreen in Shorts freezing or starting the next Short.\n• Loop button not looping when Local Queue is on.\n\n• Chapter pill in the player sometimes not getting Liquid Glass.\n\n• YouTube 21.41.5 requires iOS 17, so there are two IPAs:.\n• YTKACE_1.1.3_YouTube_21.41.5.ipa for iOS 17 and newer.\n• YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa for iOS 16.",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
-          "size": 134130360,
+          "version": "1.1.4",
+          "date": "2026-10-25T17:33:06Z",
+          "localizedDescription": "• What's new:.\n• Updated to YouTube 21.42.4.\n\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu.\n• Added Clean Copied Links to remove tracking like si= from links you copy or share.\n• Added options to remove items from the ⋯ menu.\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off.\n• Added Keep Shorts in Home, Search and on Channels.\n\n• Remove Previous/Next not working in playlists.\n• Blank space left when fullscreen actions are hidden.\n• Remove Mixes missing some mixes.\n\n• YouTube 21.42.4 requires iOS 17, so there are two IPAs:.\n• YTKACE_1.1.4_YouTube_21.42.4.ipa for iOS 17 and newer.\n• YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa for iOS 16.",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
+          "size": 134178929,
           "minOSVersion": "16.0"
         }
       ],
@@ -9206,7 +9206,7 @@
       "bundleIdentifier": "moe.itoapp.ito",
       "developerName": "AtiinLabs",
       "subtitle": "Open source manga, Anime and Novel viewer for iOS",
-      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList, MyAnimeList and MangaBaka tracking, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS. A source can mark single chapters as text, so a series can mix page volumes with novel volumes; each opens in the reader that fits it.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.\n• Progress tracking — Connect AniList, MyAnimeList or MangaBaka to track what you read and watch. MangaBaka covers manga and novels.",
+      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList, MyAnimeList and MangaBaka tracking, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS. A source can mark single chapters as text, so a series can mix page volumes with novel volumes; each opens in the reader that fits it. Known locked chapters stop Start/Resume and adjacent navigation rather than being loaded or skipped.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
       "tintColor": "#64bd9e",
       "category": "entertainment",
@@ -9219,10 +9219,10 @@
       "versions": [
         {
           "version": "1.3.0",
-          "date": "2026-10-25T13:19:43Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit d83abdf. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-176/Ito-1.3.0-dev.176-unsigned.ipa",
-          "size": 12525897,
+          "date": "2026-10-25T18:05:29Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 4cfe8fd. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-181/Ito-1.3.0-dev.181-unsigned.ipa",
+          "size": 12536283,
           "minOSVersion": "15.4"
         }
       ],
@@ -10129,8 +10129,8 @@
       "name": "Foxlations",
       "bundleIdentifier": "com.foxlations.mangaReader",
       "developerName": "Foxlations",
-      "subtitle": "A manga, manhwa, light‑novel and video reader for Android and iOS with an",
-      "localizedDescription": "Foxlations:\n\nA manga, manhwa, light‑novel and video reader for Android and iOS with an extension‑based source system. Add sources from any site with the built‑in RepoForge generator (beta), sync progress to AniList / MyAnimeList / Kitsu, back up and restore your library, and read behind Cloudflare‑protected sites.\n\nPlease note that I do school and work full time, so updates might be slow. I do see your messages and issues — it just might take me a bit to get to them!\n\nRepoForge is in beta. It won't always generate a correct source — check what it produces and adjust the selectors if a site doesn't come out right.\n\nFoxlations is a reader only. It does not host any content — you add your own sources.",
+      "subtitle": "A manga, manhwa, light-novel and video reader for Android and iOS with an",
+      "localizedDescription": "Foxlations:\n\nA manga, manhwa, light-novel and video reader for Android and iOS with an extension-based source system. Add source repositories, sync progress to AniList / MyAnimeList / Kitsu, back up and restore your library, and read behind Cloudflare-protected sites.\n\nPlease note that I do school and work full time, so updates might be slow. I do see your messages and issues, it just might take me a bit to get to them!\n\nFoxlations is a reader only. It does not host any content. You add your own sources.\n\nlillq.me/foxlations. Same builds either way:\n\n• foxlations--arm64.apk (Android).\n• foxlations-.ipa (iOS, unsigned, for sideloading).\n\niOS users can add the page's AltStore/SideStore source instead and get updates automatically. The in-app About → Check for Updates reads the same manifest.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.foxlations.mangaReader.png",
       "tintColor": "#f0965a",
       "category": "entertainment",
@@ -10456,11 +10456,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.427",
-          "date": "2026-10-25T08:55:39Z",
-          "localizedDescription": "Changed:\n\n• A machine stays responsive while many agent turns run at once: running turns write to the daemon's storage only when their state changes, and repeated reads share a small cache. The Homebrew service now uses Standard instead of Background scheduling; brew services restart dieter applies it after an upgrade (this restarts the daemon).\n\nFixed:\n\n• DSH lists its models again. Model discovery looked for DSH in the wrong directory, so apps showed only a default model.\n• A late or duplicate quota reply no longer disconnects a machine's control connection.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.427/Dieter-iOS.ipa",
-          "size": 61259340,
+          "version": "0.6.428",
+          "date": "2026-10-25T15:17:06Z",
+          "localizedDescription": "Added:\n\n• Agent channels (experimental) are account-wide: a project has one channel, shared by all your machines. Messages, delivery receipts, pins and file claims travel between machines with peer sync, end to end encrypted; the gateway stores none of it. Each machine delivers to the agents it runs, and another machine's claims show as advisory (\"also being changed … on machine M\"), since they block writes only in their own checkout.\n• @here: a person's post with dieter channel post --here, or @here in the composer, interrupts every running agent of the project on every machine.\n\n• Android and iOS highlight a channel message that joined an agent's turn, like the Mac, with its author, channel and a link to open it, and label a turn that a channel message started From agent channels.\n\nChanged:\n\n• A channel post without recipients no longer interrupts running agents; they read it when their next turn starts (posts from the last 24 hours). Direct messages and @here still reach running agents at once. Done and archived cards are no longer channel members.\n• dieter channel inbox marks messages delivered only on the machine that runs the card; on another machine, add --peek or --machine.\n• Turning agent channels on or off saves on the next reachable machine when one cannot, for example when this device is not yet trusted there.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.428/Dieter-iOS.ipa",
+          "size": 61477087,
           "minOSVersion": "18.0"
         }
       ],
@@ -11209,11 +11209,11 @@
       ],
       "versions": [
         {
-          "version": "1.9.0",
-          "date": "2026-10-25T12:50:23Z",
-          "localizedDescription": "Fixed:\n\n• Videos play on iPhone. iPhone's player won't open a playlist saved on the phone, so videos never started. Pawse now hands playlists to the player through a tiny server that only the phone itself can reach.\n• Long songs on iPhone get the same fix. The faster path for songs over about 10 minutes, from 1.6.0, never actually ran on iPhone; it does now.\n\nAdded:\n\n• Videos keep playing when you leave them, like YouTube. Drag a video down (or go back) and it shrinks into the mini player above the tabs, still playing. Tap it to grow it back; ✕ closes it. Starting a song closes it too, since only one plays at a time. On computers it floats above the player bar, and Esc shrinks it.\n• The video page loads with its shape already there: the title and picture from the card you tapped show at once, with placeholders for the rest instead of a black box.\n• Every quality, and Auto. Videos come in every H.264 quality YouTube has (144p to 1080p60). Auto moves between them as your connection allows and shows the one playing (Auto · 720p60). Change it on any video with the Quality button; the video carries on from the same moment. Set the default in Experimental → Video quality.\n• Song | Video switch in the player for YouTube songs. Video shows the song's video in place of the cover, muted and in time with the music; it plays, pauses and seeks with the song. The ⤢ button opens the full video. Turn the switch off in Experimental.\n• Experimental has its own page in Settings, so Settings stays short.\n• Share on a video, and a ⋯ menu on every video card.\n• Video problems go into Settings → About → Diagnostics, so a report says what went wrong.\n\nChanged:\n\n• Watch looks like YouTube. No big title or bar at the top: the search box sits under the clock, videos run edge to edge on phones, and computers get a grid.\n• The video page is full screen, not a card over the page behind it, so there's no gap or rounded edge above the video. It slides up when it opens. The Edge-to-edge setting is gone; this is how it always looks now.\n• The video page puts the channel first, then a row of buttons: likes, Quality, Listen and Share.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
-          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.9.0/Pawse.ipa",
-          "size": 24622065,
+          "version": "1.11.0",
+          "date": "2026-10-25T18:05:43Z",
+          "localizedDescription": "Added:\n\n• Focus mode (Settings, or Edit Home). One switch takes away comments, view and like counts, Up next, autoplay and YouTube's suggestions, and Home ends when you're caught up. Each part also has its own switch: hide comments, hide counts, hide Up next, plain thumbnails (a still from the middle of the video instead of the clickbait picture), honest titles, hide search suggestions, and a break reminder that pauses the video every 15 to 90 minutes. It replaces the Calm watch page.\n• Full or Focus Home. Edit Home starts with the two: Full has everything and ends in a feed that keeps going, with YouTube videos between the music; Focus keeps only what you follow, play and pin.\n• Pin to Home. Pin any video, channel, playlist, album, artist or song from its ⋯ menu, and it sits in a Pinned row near the top of Home. Press and hold a pin to move it or unpin it.\n• Subscribe without signing in. The Subscribe button is on every channel page and watch page. Signed out, your subscriptions live on the phone and fill Your people and New from your channels; signed in, they go to YouTube too.\n• Unsubscribe from Your people. Press and hold a channel or artist there to open it, pin it or unsubscribe.\n• Channel pages have a Subscribe button, a ⋯ menu (pin, share, don't show this channel) and pull to refresh.\n• A music mark (♪) on videos YouTube files as music.\n• Menus for albums, artists and playlists. Press and hold one to save it, follow, pin it or share it.\n• Remove from history in a watched video's menu, and the Watched and Liked videos rows open the menu on a long press.\n• Landscape full screen. Swipe up on a video, or tap the full-screen button, and it turns sideways and fills the screen; swipe down or tap the button again to come back.\n• A small DeArrow mark (a blue arrow in a circle) next to a video's views when DeArrow changed its title or picture. On the watch page, tap it to see the original title.\n\nFixed:\n\n• The Video side of the player shows the real music video. Most YouTube Music songs are audio uploads whose \"video\" is the album cover. Pawse now finds the song's official music video, and when a song has none, Video is struck through instead of showing a still picture. Watch video in a song's menu opens the music video too.\n• Tapping Home (or Explore, Library) again goes back to the top, and from the top it refreshes, like YouTube.\n• Pull to refresh shows that it's working and waits for the new feed.\n• Tapping a playing video shows the controls every time. Before, taps stopped working after a few seconds until you minimised the video.\n• Opening a video while music plays, then minimising it, no longer closes the video. The music used to start again by itself and push the video out.\n• The mini player on iPhone shows one picture instead of two copies fighting over the video.\n• A minimised video stays minimised when autoplay moves on to the next one.\n• The end card goes away when you play the video again from the mini player, a chapter or a comment's timestamp.\n\n• Pull down on Home now refreshes the video rows and mixes, not only the YouTube Music picks.\n• Search filters come back after you tap into the search box and close the keyboard.\n• Comments that fail to load say so, with a tap to try again, instead of loading forever.\n• The song's lock-screen info on iPhone is no longer cleared when the Video side opens or closes.\n• Minimising a video keeps your exact spot for Continue, and sharing a video on iPhone no longer pastes the link twice.\n• The tiny video server on iPhone turns away any connection that isn't from the phone itself.\n\nChanged:\n\n• Search's All tab searches YouTube, videos and channels, and loads more as you scroll. When YouTube says the results are music, the matching songs sit on top, ready to play. Songs, Albums, Artists and Playlists still search YouTube Music.\n• Home starts as Full: Suggested videos and the endless feed are on unless you changed Home before. Choose Focus in Edit Home for a Home that ends.\n• No bar at the top when you scroll Home, Explore or Library: the page runs to the top of the screen.\n• New icons throughout, from one set (Lucide), in place of hand-drawn ones.\n\n• Smoother minimise and expand, with the video easing down and fading into the mini player.\n• The Video side of the player has rounded corners instead of a hard-edged box.\n• A calmer mini player swipe. Swiping to skip moves less and settles without the bounce.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
+          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.11.0/Pawse.ipa",
+          "size": 24707972,
           "minOSVersion": "16.4"
         }
       ],
@@ -13737,11 +13737,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.6.42",
-          "date": "2026-10-25T13:05:20Z",
+          "version": "1.6.50",
+          "date": "2026-10-25T16:10:04Z",
           "localizedDescription": "Automatic build of the test-17d298 branch on 2026-10-25.\n\n• Other improvements and fixes.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-360/TwitchUnblock.ipa",
-          "size": 4415376,
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-362/TwitchUnblock.ipa",
+          "size": 4439779,
           "minOSVersion": "16.0"
         }
       ],
