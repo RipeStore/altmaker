@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.danielnoam.waypage",
+    "com.certlium.crumb",
     "com.bep1s.nfsmwios",
-    "com.wyatthoutz.birding"
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -2531,18 +2531,18 @@
       "bundleIdentifier": "com.bep1s.nfsmwios",
       "developerName": "bep1s69",
       "subtitle": "A static recompilation port of Need for Speed Most Wanted (Xbox 360 version) for iOS with various tweaks and QoL fixes",
-      "localizedDescription": "NFSMW Recompiled for iOS:\n\nNeed for Speed: Most Wanted (2005), Xbox 360, running natively on iPhone and iPad.\n\nThis is not an emulator. The game's PowerPC code is translated ahead of time into C++ and compiled for Apple's arm64 chips with the ReXGlue SDK. The SDK supplies everything around the game's code: the Xbox 360 kernel calls, the file system, audio, input, and a translation of the console's Xenos GPU to Vulkan, which runs on Metal through MoltenVK.\n\nYou need your own copy of the game. The app on the.\n\nfiles: no textures, models, sounds, music, videos or tracks. It reads all of them from your own ISO of the USA Xbox 360 game. This repository contains no game files and no translated game code. See Legal.",
+      "localizedDescription": "NFSMW Recompiled for iOS:\n\nNeed for Speed: Most Wanted (2005), Xbox 360, running natively on iPhone and iPad.\n\nRequires iOS / iPadOS 26 or later; iOS / iPadOS 18 is experimental (untested).\n\nThis is not an emulator. The game's PowerPC code is translated ahead of time into C++ and compiled for Apple's arm64 chips with the ReXGlue SDK. The SDK supplies everything around the game's code: the Xbox 360 kernel calls, the file system, audio and input. The picture is drawn by the game's own shaders translated to Metal (the native renderer, on by default); the SDK's emulated Xenos GPU on Vulkan, through MoltenVK, is still there as a fallback.\n\nYou need your own copy of the game. The app on the.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.bep1s.nfsmwios.png",
       "tintColor": "#ab8242",
       "category": "games",
       "versions": [
         {
-          "version": "0.4.0",
-          "date": "2026-10-27T19:01:59Z",
-          "localizedDescription": "• Import PC saves. The save manager's Import also takes a save from the PC game (v1.3, the file inside the profile's folder, or a .zip of it): it is converted to the Xbox 360 layout. Needs one career of this game on the device already (its options are reused).\n• Motion blur switch. Motion blur can be turned off in the launcher and in the in-game options; off, the picture stays sharp when driving fast.\n• Save sync between devices fixed. Part of a Black Edition career was kept in a separate file the save manager ignored, so a newer save (for example one more challenge event) did not show as newer on the other device, and could arrive incomplete. That file now travels with the save everywhere, and saves are copied to your iCloud Drive folder shortly after the game saves, not only when the launcher opens.\n\n• Simpler save manager. One list of careers. Each shows its cash, bounty and when and on which device it was last saved, including careers only in iCloud. When another device has a newer save, the career says so and tapping it offers \"Use the save from iPad\" first. Sync now is the button at the top right.\n• Import saves from the internet. The save manager's Import button takes an Xbox 360 save file, a Xenia save folder or .zip, a .zip exported from the app, or the bare save file.\n• Achievements follow you between devices. With an iCloud Drive folder chosen, an achievement unlocked on one device now shows as unlocked on the others too.\n• Black Edition content now actually turns on. The switch set the wrong byte of the game's memory, so the content stayed hidden. Now the 70th Challenge Series event (the Camaro) and the Black Edition cars in Quick Race appear, and starting a career works. It is always on now: the launcher no longer has a switch for it.\n• Smoother frame pacing with the FPS counter on. Each counter update delayed a frame, a small stutter up to twice a second; the counter is now drawn into the game's picture (a square dark box). At the 60 fps cap frames are also made in step with the screen's refresh, as at 30 and 40.\n• 120 Hz simulation switch. The game can move its world 120 times a second instead of 60 (Advanced tab, off by default; always on with the 120 fps cap).\n• Options while playing. In a menu or the pause screen, tap the gear at the top right (or press L3+R3 on a controller) to change the render resolution, MetalFX, the 30/60 fps cap, anti-aliasing and the battery settings without restarting. Settings that need a restart (40/120 fps, MSAA) are marked \"next launch\".\n• HUD size and position. New HUD settings (launcher Graphics tab and the options while playing): the race HUD's size and safe zone (how close to the screen's edges it sits), and the minimap, the speedometer and the race info (standings, laps, times) moved left, right, up or down on their own.\n• Post-processing switch fixed. Turning it off now really removes the colour filter, bloom and vignette; it can also be changed while playing.\n• Battery mode now caps the game at 30 fps, along with its other savings.\n• New setting: reflection and mirror resolution. The reflections on the cars and the rear-view mirror are drawn at the Xbox 360's size (the default, lighter) or follow the render resolution (a sharper mirror).\n• About a quarter less battery drain while playing, with the same picture, resolution and frame rate: the game's threads ask iOS for a lower priority, so the CPU runs at cheaper speeds (measured on an iPad Pro M4 at 1.5x / 60 fps). On by default on devices with at least 6 efficiency cores (M-series iPads); off on iPhones, where it made the game stutter. Override with --ios_utility_qos=true|false --ios_utility_qos_guest=true|false.\n• Smoother police pursuits on iPhones. Pursuits dropped to about 22 fps because some game threads stayed on the slow cores when the game sped the others up; now they all speed up together. Turn off with --ios_adaptive_qos_workers=false.\n• Less battery and heat on iPhones in pursuits: the game and GPU threads now sleep while they wait instead of checking hundreds of times a second. An iPhone 17 Pro Max police chase at 1x / 40 fps went from about 30 to about 22 % battery an hour, cooler, still at 40 fps (one test so far). Undo with --ios_ring_wait_ms=1 --ios_cp_idle_spins=64.\n• The sun no longer flickers or shines through buildings and tunnels with the native renderer: it counts how much of the sun is visible again. Turn off with --nfsmw_native_occlusion=false.",
-          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.4.0/NFSMW.ipa",
-          "size": 30093267,
-          "minOSVersion": "26.0"
+          "version": "0.4.1",
+          "date": "2026-10-27T22:07:31Z",
+          "localizedDescription": "• Engine sound no longer fades. The game's sound engine dropped the engine, turbo and skid sounds when its mixing thread was held up for a moment, and they only came back at the next gear change. That no longer happens. Fix ported from SpeedBreaker (SpeedBreakerProject/speedbreaker).\n• Steadier 60 fps. The thread that keeps the game's 60 Hz timing now runs at real-time priority, so it wakes on time; frame timing on 120 Hz screens turns itself off if the screen does not keep to it. From SpeedBreaker.\n\n• iOS 18, experimental. The app now installs on iOS / iPadOS 18 (it needed 26). Nobody has tested it on iOS 18 yet: reports welcome.",
+          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.4.1/NFSMW.ipa",
+          "size": 30101026,
+          "minOSVersion": "18.0"
         }
       ],
       "appPermissions": {
@@ -4784,11 +4784,11 @@
       "category": "social",
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-10-21T23:53:05Z",
-          "localizedDescription": "English:\n\n• Applied RisuAI v2026.10.211 changes.\n\n• Expanded image format support for personas, character icons, and more.\n• Improved tasks such as responses and sync to keep running after leaving the app on mobile.\n• Added progress and resuming to RisuAI account restores and improved their performance.\n• Fixed external storage sync showing as complete before it had finished.\n\n• Fixed a bug where the built-in translator could send translation requests repeatedly.\n\n• Fixed PocketRisu exports not working with some settings.\n\n• Replaced the Gemini/Gemma tokenizer with the Gemma 4 tokenizer.\n• Added a setting for the scroll navigation buttons.\n• Changed update checks to run at every app start.\n• Improved overall performance of storage, backups, restores, sync, rendering, and startup.\n• Improved error messages and logging.\n\n• RisuAI v2026.10.211 변경 사항 반영.",
-          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.1.0/RisuNest-1.1.0-ios-aarch64-unsigned.ipa",
-          "size": 77609969,
+          "version": "1.2.0",
+          "date": "2026-10-27T21:22:17Z",
+          "localizedDescription": "Breaking Changes:\n\n• The sync data format of the Sync server and external storage changes (Sync server update required). After updating every device, switch the format in the sync settings; after the switch, only the same or newer versions can sync with each other.\n\nNew Features:\n\n• Added an app lock (if you forget the PIN, you may need to restore your data from a backup).\n• Added author's note presets.\n• Added binary data support to plugin local storage (getLocalPluginStorage).\n• Added a separate permission for plugin tool calls.\n\nImprovements:\n\n• Changed deleting a character, module, or similar item to also delete its assets.\n• Responses being generated are now kept if the app closes.\n• Added execution time limits to regex scripts and triggers, and made Lua stop properly on timeout (prevents endless loading).\n\n• Removed the Keep Session Alive setting (a web-only feature).\n• Changed Lua scripts to run in a Worker and CBS to run compiled.\n• Improved performance and memory usage of regex, rendering, lorebooks, storage, restores, and more.\n• Improved error messages and logging.\n\nFixes:\n\n• Fixed plugins not loading when the Sync server is unavailable.\n\n• Fixed YouTube embeds not playing.\n• Fixed Google Translate failures and content that could disappear when translation failed.\n\n• Fixed RisuAI/PocketRisu compatible exports failing.\n• Fixed Separate Parameters overwriting saved values.",
+          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.2.0/RisuNest-1.2.0-ios-aarch64-unsigned.ipa",
+          "size": 78466287,
           "minOSVersion": "16.4"
         }
       ],
@@ -4796,6 +4796,7 @@
         "entitlements": [],
         "privacy": {
           "NSCameraUsageDescription": "Scan a QR code you choose to connect RisuNest.",
+          "NSFaceIDUsageDescription": "RisuNest uses Face ID to unlock the app.",
           "NSLocalNetworkUsageDescription": "Connect to a local AI provider or RisuNest sync server that you choose."
         }
       }
@@ -7723,11 +7724,11 @@
       ],
       "versions": [
         {
-          "version": "3.0",
-          "date": "2026-10-17T21:34:58Z",
-          "localizedDescription": "Husk 3.0:\n\nThe coolest and biggest Husk release yet. Hundreds of new Android games, PS4 support, and more.\n\nWhat's new?:\n\n• Console-style home screen.\n• New library UI.\n• Proper first run.\n\n• Contains full setup guide + optional walkthrough.\n\nPS4 Games:\n\n• Add a game with the + button. Either a PKG, a folder of PKG's, or an extracted game folder. Updates install with their game.\n• Tested: Bloodborne, Minecraft: PlayStation 4 Edition, Sonic Mania.\n• Shaders are kept inbetween launches with Shader Cache.\n• If a game requires keyboard input, it'll open the iOS keyboard.\n\nAndroid:\n\n• Unofficial ports: Sonic Robo Blast 2, Nethack, PokeWilds and more.\n• GoDot 4.\n\n• Typing works in all games.\n• Optional language fonts (chinese, japanese, etc).\n\nAlso:\n\n• Lots of fixes.\n• TrollStore JIT fully complete.\n• iOS 15.5 support.\n\nKnown Issues:\n\n• Bloodborne runs, but very poorly.\n• Some Unity 6 games can render slowly.\n\nFinal notes:\n\nThank you all. Enjoy ❤️.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.0/Husk.ipa",
-          "size": 140126095,
+          "version": "3.1",
+          "date": "2026-10-27T21:36:06Z",
+          "localizedDescription": "What's new?:\n\n• New UI, all over.\n\n• New Home, Library, Store and game pages.\n• Every screen, Settings included, uses the same navy look.\n\n• Husk accounts.\n\n• Sign in from the top of Settings.\n• Your profile, playtime and library sync with itslevii.dev.\n\n• New Import screen: APK, split APKs (.xapk, .apkm, .apks), OBBs and PS4 game folders. On iPad you can drag files onto it.\n• Small icon size for the library.\n• Chinese (Simplified) for all of Husk. The language you pick in setup is used by Husk and your apps.\n\nStore:\n\n• New app page.\n\n• Proper descriptions (bold, lists, links).\n\n• Tap screenshots to view them full screen, with zoom.\n• Trailers, What's New, Highlights, tags and developer links.\n\nAndroid:\n\n• Keyboard button for apps and games. Typing works even when there's no text box.\n• In-app file picker: when an app asks for a file, the iOS file picker opens.\n• Fullscreen games are centered and use the whole screen (Plants vs. Zombies and more).\n• Cocos Creator games start.\n• Godot 4.7 games can save.\n• Flutter apps find their fonts.\n• .NET apps run much further.\n• Apps protected with Dex2C work.\n• Android system pop-ups (Bluetooth, NFC…) don't break apps anymore.\n• XAPKs with OBB files inside install correctly.\n• Battery, 24-hour clock, time zone and language follow your phone.\n\nAlso:\n\n• TrollStore and Dopamine on iOS 15–16 get JIT even when iOS refuses the usual way.\n• The TrollStore build opens on devices it didn't before.\n• Built-in StikJIT finds the pairing port by itself.\n• Crash reports tell you when iOS closed Husk for using too much memory.\n\n• Lots of fixes.\n\n• fix: Bypass W^X restrictions.\n• Fix base APK selection using split manifests.\n• Cocos Creator games start: V8 runs without its JIT (--jitless).\n• Godot 4.7: answer the directory/file handlers for the objects the engine holds.\n• fix: discover the dynamic RemotePairing port for Built-in StikJIT.\n• Fix Flutter font discovery under the Java Android root.\n• Reserve aligned compressed-heap space before JIT prewarming.\n\nNew Contributors:\n\n• @TakatoSey made their first contribution.\n• @stellar099 made their first contribution.\n• @xinerqu made their first contribution.\n• @cklsit made their first contribution.\n• @muzhi1991 made their first contribution.\n\nKnown Issues:\n\n• Hollow Knight and Cuphead have no sound.\n• Some games (Disco Elysium, Muse Dash) don't take touch input.\n• 32-bit only apps don't run.\n\nFinal notes:\n\nThank you all, especially everyone who sent a PR this time. Enjoy ❤️.\n\nLinks::\n\n• X Profile: https://x.com/leviidev01",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.1/Husk.ipa",
+          "size": 140540013,
           "minOSVersion": "15.5"
         }
       ],
@@ -8208,11 +8209,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.7",
-          "date": "2026-10-17T19:59:37Z",
+          "version": "0.11.8",
+          "date": "2026-10-27T20:38:46Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.7/rust-dicom-station-0.11.7-ios.ipa",
-          "size": 26448101,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.8/rust-dicom-station-0.11.8-ios.ipa",
+          "size": 26544621,
           "minOSVersion": "15.0"
         }
       ],
@@ -10458,11 +10459,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.430",
-          "date": "2026-10-27T07:19:38Z",
-          "localizedDescription": "Added:\n\n• Mail reports render Mermaid diagrams and inline-data Vega-Lite and Vega charts on the Mac, Android, iPhone and iPad, using the same bundled offline renderer as the Mac Files preview. Graphics fit narrow screens and follow the app's light or dark appearance; Mac PDF and HTML exports keep them as static graphics.\n• Invalid or unsupported diagrams keep readable source without hiding the rest of the report. Remote images, external chart data and scripts remain blocked; charts use inline data and their controls are read-only.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.430/Dieter-iOS.ipa",
-          "size": 64712596,
+          "version": "0.6.431",
+          "date": "2026-10-27T20:14:22Z",
+          "localizedDescription": "Fixed:\n\n• Mail charts on the Mac and iPhone now blend with the reader in light and dark appearance. Charts with an explicitly white background keep that background, and selected Mac mailbox rows remain readable.\n• Mac Mail and Files keep chart text and paths sharp in large reports. Bounded parallel rendering, faster source lookups and cached chart reuse reduce rendering time and speed up reopening messages.\n• Wide tables in Mac Mail stay below their headings when charts finish loading, including after scrolling, changing appearance and reopening a message.\n• Android Mail keeps its reader background stable during fast scrolling, and the Inbox title now aligns with the toolbar actions.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.431/Dieter-iOS.ipa",
+          "size": 64724888,
           "minOSVersion": "18.0"
         }
       ],
@@ -10769,25 +10770,25 @@
     {
       "name": "Musonic",
       "bundleIdentifier": "org.reactjs.native.example.Musonic",
-      "developerName": "DoodzProg",
+      "developerName": "DoodzDev",
       "subtitle": "A Spotify-like client for Navidrome, Subsonic \u0026 OctoFiesta — self-hosted music, done right. Built with React Native",
       "localizedDescription": "Musonic:\n\nYour music, your server, beautifully played.\n\nApps for Android, iOS and the browser, and Musonic Server to host your library yourself. Also works with Navidrome and any Subsonic-compatible server.\n\nMusonic for Android and iOS:\n\nA calm, fast music app: full-screen player with synced lyrics, a queue you can reorder, Shuffle Magic, Magic Mixes by genre, a home built from what you play, offline downloads (Wi-Fi first), separate streaming quality on Wi-Fi and mobile data, Android Auto (beta), English and French. → apps/mobile · changelog.\n\nMusonic Web:\n\nThe complete Musonic in a desktop browser: home, search, library, synced lyrics, full-screen player, floating mini player, keyboard and media keys. Import a Spotify or Deezer playlist from its address (with Musonic Server). Use it online, nothing to install, or host it yourself. → apps/web · changelog.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.reactjs.native.example.Musonic.png",
       "tintColor": "#eb6332",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/home.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/player.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/lyrics.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/search_results.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzProg/Musonic@main/docs/assets/img/screenshots/library.jpg"
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/home.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/player.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/lyrics.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/search_results.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/library.jpg"
       ],
       "versions": [
         {
           "version": "2.0.1",
           "date": "2026-10-17T13:05:48Z",
           "localizedDescription": "Android Auto (beta) and a security fix. Musonic now shows up in Android Auto, the server credentials no longer reach other apps, and two small player touches.\n\nSecurity:\n\n• Credentials no longer reach other apps — the cover of the playing track was published to the system media session (notification, lock screen) as a server address carrying the account username and password. Apps allowed to read the playing media (notification access, smartwatch companions, Android Auto) could read it. The player now only gets an address internal to Musonic, which reads the cover itself. Changing your Navidrome password after updating is advised.\n\nAdded:\n\n• Swipe the full player's cover — left for the next track, right for the previous one, like the mini player. Dragging the player down to close it still works.\n\nFixed:\n\n• Mini player tint — on very colourful covers, the blurred cover behind the mini player stopped in a hard vertical line next to the play button; it now fades out smoothly.\n\nAndroid Auto only lists apps installed from the Play Store. Musonic is installed from GitHub, so it stays hidden until you allow it once:\n\n• On the phone, open the Android Auto settings and tap Version ten times, then accept developer mode.\n• Menu ⋮ → Developer settings → Unknown sources: turn it on.\n• Open Musonic once on the phone, then connect to the car.\n\nGrapheneOS: also open Settings → Apps → Sandboxed Google Play → Android Auto and grant the permissions it asks for, otherwise Android Auto stops as soon as the car connects.\n\nDownload: Musonic.apk below (Android 7+). iPhone: Musonic.ipa, to sideload with AltStore or Sideloadly (no CarPlay yet).",
-          "downloadURL": "https://github.com/DoodzProg/Musonic/releases/download/mobile-v2.0.1/Musonic.ipa",
+          "downloadURL": "https://github.com/DoodzDev/Musonic/releases/download/mobile-v2.0.1/Musonic.ipa",
           "size": 8711395,
           "minOSVersion": "15.1"
         }
@@ -13323,10 +13324,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-27T16:14:45Z",
-          "localizedDescription": "Crumb 23052 — validación de modelos nativos y CAS ARM64. IPA Release sin firmar, para actualizar con tu método habitual conservando los datos y la misma identidad de firma.\n\nEl diagnóstico 23051 no intentó validar el SINF: agotó visitas al punto nativo antes de obtener un checkpoint Source/Frame. Su repetición genérica se detuvo en CASAL, text+0x9885a0. Ninguno de esos resultados demostró una clave válida.\n\nCambios generales:\n\n• La validación contra el SINF original se realiza independientemente del checkpoint auxiliar. Las visitas repetidas con material idéntico no consumen el límite; se acotan 256 comprobaciones criptográficas distintas y toda la ejecución.\n• Se conserva privadamente el modelo exacto que el SINF acepta. El motor sigue exigiendo Source/Frame coherentes antes de devolverlo; no reconstruye después un modelo diferente desde memoria transitoria.\n• El intérprete ejecuta toda la familia escalar CAS de ARM64: byte, halfword, 32/64 bits y variantes de ordenamiento. Usa instrucciones del texto inmutable verificado, nunca código modificable del invitado. No hay JIT ni excepciones por dirección.\n• La repetición genérica sigue siendo única, desde estado limpio, y también cubre límites de ejecución. Sus intentos de SINF se informan por separado. No repite la autorización de red.\n\nEstas pruebas no demuestran una inscripción móvil real ni una IPA descifrada. La credencial válida, la compatibilidad del productor nativo y el primer descifrado completo siguen sin verificarse en el iPhone. Se mantienen los controles del SINF original, Source/Frame, selectores, Mach-O, páginas y exportación.\n\nPrueba con los mismos recursos del diagnóstico anterior:\n\n• Actualizá Crumb sin desinstalarlo y comprobá que muestra 23052.\n• Abrí Settings → FairPlay Laboratory. Reutilizá la IPA original ya seleccionada. Si la selección no persiste, elegí Import existing encrypted IPA from Files y seleccioná el mismo archivo; conservá la captura anterior.\n• Pulsá Authorize account and validate this IPA una vez. Dejá Crumb abierto y el iPhone desbloqueado hasta que termine. No hace falta comprar ni descargar otra aplicación para esta comprobación.\n• Prepare exports → Share diagnostic. Compartí el JSON diagnóstico. El intento puede seguir siendo rechazado: no se declara éxito sin validar la licencia y el contenido completo.\n\nCódigo: https://github.com/boierito/Crumb/pull/16 Commit: f29f5b05d504f508a2a39ac95ecbe17a25301c45 Árbol verificado, idéntico al merge de prueba del PR: 50bc282021eb9345ed2e6f4aeccda7d44b951ebf Tests: https://github.com/boierito/Crumb/actions/runs/40536492586 Build: https://github.com/boierito/Crumb/actions/runs/40536492601 IPA SHA256: ddd686adb7d243402510a850534b6d97018510cfb4fa63bb75629af44352818b.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/test-23052-atomic-license-validation/Crumb-23052-Release.ipa",
-          "size": 41097604,
+          "date": "2026-10-27T23:49:35Z",
+          "localizedDescription": "Unsigned IPA compiled from commit d0e3e22, build 23052. This experimental build does not establish SINF validation or successful decryption. CI passed, including native loop and hotspot comparisons and portable tests. Re-sign using your usual method. SHA-256: ed8288ce620d1ec4b1048350d53f648eaac972d00ec2b3e39d119adc60d13fb7.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/test-hotblocks-20261027-2346-utc/Crumb-2026-10-27-2346-UTC.ipa",
+          "size": 41130647,
           "minOSVersion": "16.4"
         }
       ],
