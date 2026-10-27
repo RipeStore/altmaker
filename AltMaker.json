@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.lumisound.ios",
-    "io.github.ror.ios",
-    "com.nuvio.media"
+    "com.wrngwrld.Chanyan",
+    "io.github.decryptu.pokerecomp",
+    "io.github.danielnoam.waypage"
   ],
   "apps": [
     {
@@ -1279,11 +1279,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.2.2",
-          "date": "2026-10-24T09:00:55Z",
-          "localizedDescription": "Move the touch toggle and fix release version handling.",
-          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.2/FactorioPad-template.ipa",
-          "size": 2957931,
+          "version": "2.2.3",
+          "date": "2026-10-26T21:18:23Z",
+          "localizedDescription": "Add hold-to-drop and compact Pad controls.",
+          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.3/FactorioPad-template.ipa",
+          "size": 2961562,
           "minOSVersion": "17.0"
         }
       ],
@@ -1637,11 +1637,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.3",
-          "date": "2026-10-24T00:24:20Z",
-          "localizedDescription": "• More reliable playback: Switching playback engines now handles failures properly, without leaving playback controls in the wrong state. Outdated restart requests no longer interrupt newer playback actions. (#550).\n• More reliable songlength lookups: Failed lookups no longer trigger unnecessary requests, and interrupted scans can retry when the device becomes available again. (#581).\n• Improved device connections: Saving connection settings now handles timeouts and connection errors more reliably, with clearer messages when something goes wrong. (#550).\n• Device switching keeps settings separate: Folders, categories and playback overrides now stay associated with the correct device. Folders that no longer exist are handled properly. (#581).\n• Improved navigation and error messages: Fixed Back button behaviour, notifications covering focused controls, and tab layouts with larger system fonts. Failed online archive searches now show clearer errors. (#550).\n• Disk library and playback fixes: Fixed duplicate disk entries after removing and re-adding a device, and prevented incorrect song positions from being saved during automatic track changes. (#581).\n• Better handling of interrupted folder scans: When a device disconnects or a folder cannot be read, the app now reports an incomplete scan instead of silently showing partial results. (#550).\n• Other fixes: Corrected printer output labels and improved stream address display on narrow screens. (#581).\n• Maintenance: Updated dependencies and expanded regression testing, including testing on real hardware. (#548, #550, #571, #581).",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.1.3/c64commander-1.1.3-ios.ipa",
-          "size": 7531548,
+          "version": "1.1.4",
+          "date": "2026-10-27T08:20:16Z",
+          "localizedDescription": "• Feature flags: mark six experimental flags as stable.\n• Use the plain icon in every card header.\n• Manual: move the spectrum and audio processing section and break it into short parts.",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.1.4/c64commander-1.1.4-ios.ipa",
+          "size": 7531720,
           "minOSVersion": "15.0"
         }
       ],
@@ -2153,11 +2153,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.9.2",
-          "date": "2026-10-26T22:50:26Z",
-          "localizedDescription": "Please note: Several things in this version have not been tried on real hardware, because nothing was run on a real machine while it was made. These are the whole reorganised and scrolling Options menu, Downsampling, the time to rescue Yorda, the change to how the game holds back extra pictures (including OpenGL), and Direct3D 11 on a real graphics card. If something looks wrong, please send logs/ico-pc.log and say what you chose in Options.\n\nDirect3D 11 may still show a black screen on some graphics cards. Running the game's drawing tests on Microsoft's software renderer found a cause of the black screen: Direct3D 11 threw away the settings every drawing step needs, so nothing was drawn. This version fixes that and two smaller faults the same tests found. The fixed version then passed the drawing tests on Microsoft's software renderer, but Direct3D 11 has still not been seen drawing the game on a real graphics card. If it stays black for you, choose Vulkan or Direct3D 12 in Options \u003e Graphics \u003e Graphics API and send logs/ico-pc.log from a start with Direct3D 11.\n\nNew:\n\n• Options \u003e Gameplay \u003e Time to rescue Yorda sets how long a shadow takes to pull Yorda into a pit: Half, Original, Longer, Double or Triple. It starts at Original, the game's own time.\n• Options \u003e Picture \u003e Downsampling, To original size: the picture is drawn at the Resolution you chose and then shrunk evenly to the game's own size, for a clean picture at the original size with smooth edges. It needs Resolution 2x or more and changes nothing with the CRT filter or at Resolution Window.\n• Options is reorganised: a Picture page (anti-aliasing, filtering, CRT, texture and model packs) and a Developer page (developer mode, dumps) take rows from Display, Effects and the first page.\n• The longer Options pages (the first page, Controls and Characters) now show ten rows at a time with more room between them, and scroll as you move down or up. Back stays at the bottom, and a small arrow at the right edge shows there are more rows above or below. Click or tap an arrow, or turn the mouse wheel, to move a row.\n• When Direct3D 11 draws nothing, the game's log now says exactly how its start-up drawing checks drew, so one log shows what goes wrong.\n• The Anti-aliasing note in Options now says what supersampling costs (2x draws four times the pixels, 4x sixteen times) and to lower it if the frame rate counter drops to 30 at Frame rate 60.\n\nFixed:\n\n• At an uncapped or high frame rate, one slow moment no longer holds the game at 60 pictures a second for the rest of the session. When the game does hold back the extra pictures because the graphics card cannot keep up, it now goes back to the full rate within about two seconds once the card has the time again.\n• With OpenGL, waiting for the screen no longer counts as a slow graphics card. Before, at Frame rate 60 with Vsync on, scenes the card draws easily could still run at 30 pictures a second.\n• With anti-aliasing off and a Resolution that draws more detail than the window can show, the picture is now shrunk evenly to the window instead of skipping some of that detail, so fine lines and edges shimmer less.\n• With Direct3D 11, the screen could stay black because the settings every drawing step needs never reached the graphics card. This is fixed, along with some of the game's models never reaching the graphics card. The fixed version passed the drawing tests on Microsoft's software renderer; it has not yet been seen working on a real graphics card.\n• On the Asian disc and the August 2001 preview, the game no longer crashes right after you climb the chains and jump out of the window at the start. The same fault could also stop the game on entering a few later areas on the Asian disc, and as the ending credits begin on the Korean disc; those are fixed too.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.2/ico-pc-v0.9.2-ios-unsigned.ipa",
-          "size": 7418483,
+          "version": "0.9.3",
+          "date": "2026-10-27T04:29:20Z",
+          "localizedDescription": "Please note: The fix below has not been tried on a real AMD Radeon RX 7000 graphics card, because no such card was available while it was made. The cause was found in the graphics driver's own source code, and the game's drawing tests pass on the software graphics driver they run on. If the picture is still striped for you with Vulkan, please send logs/ico-pc.log from a start with Vulkan.\n\nFixed:\n\n• On AMD Radeon RX 7000 graphics cards on Linux with the Mesa 25 drivers, Vulkan drew every other column of the picture black with bright dots, on every screen from the title on. The game left a blending setting from the previous drawing step in place while blending was off, and that driver treated the step as two-colour blending, which these cards handle by pairing neighbouring pixels. The game now clears the setting, so the picture is whole on those drivers too. OpenGL was not affected, and Mesa drivers from 26.2.4 on already drew it right. The game's start-up drawing check now also looks for this fault, and if a driver still shows it, the game switches to a slower way of blending that avoids it.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.3/ico-pc-v0.9.3-ios-unsigned.ipa",
+          "size": 7418933,
           "minOSVersion": "15.0"
         }
       ],
@@ -2661,8 +2661,8 @@
       "name": "Floe Agent",
       "bundleIdentifier": "org.floeagent.ios",
       "developerName": "JiangNanGenius",
-      "subtitle": "Open source on device AI agent workspace designed for iOS iPadOS and Android: Linux environments, code execution, local web previews and supported local models. Notes, Office, creative tools and BYOK cloud AI. iPad",
-      "localizedDescription": "Features:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in the device keychain. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha covers the basics described above.",
+      "subtitle": "Open source AI agent workspace for iOS iPadOS and Android. On device Linux, terminal, code, Git and local web previews; BYOK cloud AI. iOS adds Notes, Canvas, CAD 3D, voice, Skill Hub and supported local models. Android alpha includes Office viewing and editing. iPad",
+      "localizedDescription": "Features:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal and IDE workflows and keeps growing.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
       "tintColor": "#3665ed",
       "category": "other",
@@ -2810,11 +2810,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.39",
-          "date": "2026-10-26T01:48:33Z",
-          "localizedDescription": "Update:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.39/Netfish-ios.ipa",
-          "size": 927708,
+          "version": "0.7.40",
+          "date": "2026-10-27T05:09:58Z",
+          "localizedDescription": "New:\n\n• When it ends, in the player. Next to the time: \"0:42 / 1:58 · ends 9:43 PM\" (when it'd be over watched from here, in your device's time). The channel player says it too: \"12 min left · ends 9:30 PM\".\n• The guide has no holes. Each programme's card now reaches the next one's start, the break after it included, so every channel's line is filled end to end. In the break, the card says when the next one starts (\"Next at 9:00 PM\") instead of \"0 min left\".\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.40/Netfish-ios.ipa",
+          "size": 927794,
           "minOSVersion": "16.0"
         }
       ],
@@ -2895,11 +2895,11 @@
       ],
       "versions": [
         {
-          "version": "0.16.4",
-          "date": "2026-10-27T02:46:42Z",
-          "localizedDescription": "[0.16.4] — 2026-10-27:\n\n• add real Simulator UI tap E2E probe.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.16.4，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.16.4/maestro-mobile-unsigned-0.16.4.ipa",
-          "size": 9612473,
+          "version": "0.16.5",
+          "date": "2026-10-27T06:56:50Z",
+          "localizedDescription": "[0.16.5] — 2026-10-27:\n\n• resolve JS runtime executable in pi-bolt environment.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.16.5，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.16.5/maestro-mobile-unsigned-0.16.5.ipa",
+          "size": 9612471,
           "minOSVersion": "15.1"
         }
       ],
@@ -3315,11 +3315,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.0",
-          "date": "2026-10-19T03:56:47Z",
+          "version": "0.8.0",
+          "date": "2026-10-27T06:08:53Z",
           "localizedDescription": "Versioned build with every platform's binaries.\n\nAndroid (APK):\n\nThe desktop installers aren't code-signed: Windows SmartScreen warns on first run (More info → Run anyway).",
-          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/v0.7.0/comical-unsigned.ipa",
-          "size": 21121797,
+          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/v0.8.0/comical-unsigned.ipa",
+          "size": 21388160,
           "minOSVersion": "16.4"
         }
       ],
@@ -3500,11 +3500,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.84",
-          "date": "2026-10-26T15:21:18Z",
-          "localizedDescription": "Added:\n\n• Export .sav on the save screen writes a Red, Blue, Yellow, Gold, Silver or Crystal slot into a cartridge save you choose, ready for an emulator or a flash cart. Gold, Silver and Crystal carry the trainer and party. Red, Blue and Yellow also carry boxes, items, money, the Pokédex, position and story progress.\n\nUpdating this release:\n\n• No reimport is needed. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.84-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
-          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.84/pokerecomp-0.1.84-ios.ipa",
-          "size": 26432437,
+          "version": "0.1.85",
+          "date": "2026-10-27T08:59:32Z",
+          "localizedDescription": "Fixed:\n\n• Export and Export .sav on iPhone and iPad now open the system's Save to Files sheet, so the save can go to iCloud Drive, On My iPhone or another app. Before, the save dialog was taller than the screen and its Save button could not be reached.\n• File dialogs are now sized to the screen on every platform. On a screen too narrow for one, the launcher's own file browser opens instead, with a Save here button.\n\nUpdating this release:\n\n• No reimport is needed. Saves are preserved.\n\nWhich file:\n\nEvery download is one file. sha256sums.txt covers all of them.\n\nFirst launch:\n\n• Windows may show a blue \"Windows protected your PC\" box, because the build is not signed by a paid certificate. Click More info, then Run anyway.\n• macOS: the app is ad-hoc signed and not notarized, so double-clicking it is refused. Right-click the app, choose Open, then Open again. Only the first launch needs this.\n• Linux: chmod +x pokerecomp-0.1.85-linux-x86_64 and run it.\n• Android: your phone will ask you to allow installing from this source.\n• Switch: extract the zip at the root of your microSD, so the file lands at switch/pokerecomp.nro, and launch pokerecomp from the homebrew menu. It needs a console that already runs homebrew; nothing here installs one.\n\nUpdating:\n\nThe launcher's about page tells you when a newer release exists. It does not install it: download the new file and replace the old one. Your saves are kept separately and survive it, on every platform.",
+          "downloadURL": "https://github.com/Decryptu/pokerecomp/releases/download/v0.1.85/pokerecomp-0.1.85-ios.ipa",
+          "size": 26435333,
           "minOSVersion": "15.0"
         }
       ],
@@ -3663,12 +3663,12 @@
       ],
       "versions": [
         {
-          "version": "0.11.5",
-          "date": "2026-10-17T18:48:48Z",
-          "localizedDescription": "A full visual redesign of the app, plus a few small features.\n\nHighlights:\n\n• New dashboard. The home tab is now a dashboard with a hero summary, a feed card, a Continue row for recently opened threads, favorite and recent boards, and a searchable list of all boards.\n• Redesigned saved attachments. Summary card with counts and total size, All / Images / Videos filters, newest or oldest first, large cards with type chips, and bulk delete in selection mode.\n\nNew:\n\n• Continue and Recent boards. The dashboard remembers the last threads and boards you opened.\n• Track history setting. Settings → Privacy → Track history turns this off and clears what is stored.\n• Clear recently visited. Settings → Data clears the dashboard history without turning tracking off.\n• Pull to refresh on the dashboard.\n• Dropdown menus and custom dialogs replace the stock iOS pop-ups and alerts, and the confirmation messages are now a floating pill.\n\nChanged:\n\n• Settings are rebuilt as card groups, with an about card showing the version and a GitHub link.\n• Board, feed, thread and bookmark cards share the new card style, with board colours on tags and avatars.\n• The board list on the dashboard is one flat, alphabetical list with a heart toggle on each board instead of swipe-to-favorite.\n• Page transitions use the iOS slide with native swipe back on iOS and macOS. On Android it runs faster (about 250 ms) than the stock transition.\n• The Saved tab is labelled \"Saved\" in the tab bar.\n\nRemoved:\n\n• The liquid_glass_widgets dependency and its setup.\n• Swipe-to-favorite on board rows.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5%2B286/Runner.ipa",
-          "size": 32755655,
-          "minOSVersion": "17.6"
+          "version": "0.12.0",
+          "date": "2026-10-27T09:37:10Z",
+          "localizedDescription": "🚫 Thread filters:\n\nHide threads you don't want to see by keyword or regex.\n\n• Manage filters under Settings → Threads → Hidden threads.\n• Long-press any thread in a board to hide it by its title or comment.\n• \"Add \u0026 add another\" lets you enter several filters in a row.\n• Matching is case-insensitive and checks both the title and the comment.\n\n🏠 Home screen:\n\n• Slimmer greeting card at the top.\n• \"Your feed\" now lives in the Favorites section.\n• Continue cleans itself up: threads that were deleted disappear, and archived ones get an Archived badge.\n• Removed the \"Recent boards\" row.\n\n🖼️ Media viewer:\n\n• Removed the page dots on the right; the \"3 of 12\" counter in the top bar shows your position.\n\nFixes:\n\n• Fixed a crash on launch on iOS 17.0–17.5, and the minimum iOS version is now 17.0 (was 17.6).\n• The filter input no longer autocorrects or swaps in smart quotes/dashes, which could break regex patterns.\n• Long-press filters now match text literally, even when titles contain characters like |,? or ().\n\nThanks to @CannibalToast for the thread filters and the iOS 17 fix!",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.0%2B288/Runner.ipa",
+          "size": 32762436,
+          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
@@ -5385,11 +5385,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.8",
-          "date": "2026-10-26T22:36:20Z",
-          "localizedDescription": "tangoAW2 0.8.8: the Emerald Sun Campaign, five new COs, and a round of fixes.\n\nNew: the Emerald Sun Campaign (needs the Dual Strike pack).\n\n• A 16-mission campaign as Emerald Sun, the Roman army, conquering across Dual Strike's Omega Land. It is the last entry under Campaign; a \"BH2 Campaign\" entry under the BH Campaign is marked Coming soon.\n• Every mission has its own map, built to the design principles of the community's best maps: properties everywhere, contested middles, forward bases, several crossings.\n• Four looks (normal, snow, desert, wasteland) and weather: rain (with fog) in missions 3 and 8, sandstorm in 5 and 11, snow in 10 and 12.\n• Missile silos, pipelines with seams to break, airports on the islands of Mare Nostrum, Black Hole and its inventions in two missions, and a volcano on the last map.\n• Story scenes with music, a prologue and an epilogue. The final battle against Eagle and Hachi is the hardest mission in the campaign.\n\nNew COs.\n\n• Klaus, the Legate: all units +10% attack and defence (Infantry and Mech +20%). Testudo: 20% less damage taken, foot units move 1 more, counterattacks weaker. Legio Aeterna: all units heal 3 HP, move 1 more and hit 20% harder; foot units much stronger.\n• Aurelia, the siege engineer: indirect units hit harder and reach 1 farther. Ballista and Onager (her indirect hits also cost the units beside the target 1 HP).\n• Cassius, the cavalry rival: vehicles move 1 more and hit harder, with thinner armour. Charge and Triumph (a vehicle that attacked may move again).\n• Livia, the senator: 25% more income, units cost 10% more. Tribute and Mare Nostrum (funds per property, a stronger navy).\n• Asuka, Black Hole's intelligence chief. Day to day (Black Insight): +5% attack and defence, +1 vision, hidden HP, enemy cover 1 star lower, good luck, every terrain costs 1. Dark Intel: her units +1 HP, enemies -1 HP, enemy ammo and fuel halved, more vision. Event Horizon: +2 / -2 HP, ammo and fuel halved, and she strikes first when attacked.\n• Each has original art, a theme of their own (Asuka's is the guitar rock \"Iron Verdict\") and Tag Powers (Pax Romana, Siege of Iron, Vault Breakers and more). The four Roman COs use the Emerald Sun HQ; Asuka uses Black Hole's.\n\nChanged.\n\n• Clone Andy has his own look (black clothes, blue skin) and numbers: +2% attack and defence; Hyper Repair heals 2 HP with +10% attack and defence; Hyper Upgrade heals 4 HP with +30% attack and +20% defence.\n• The CO Power quote of the new COs matches the power used.\n\nFixed.\n\n• Emerald Sun soldiers could draw garbage in battle and in the build menu when the army sat in the fifth colour with the Dual Strike pack.\n• Clone Andy's powers healed nothing.\n• Cassius-style \"move again\" and tag changes: the computer uses it, it survives suspend, and a tag change ends it.\n• Cut-off rivers in BH Campaign missions 10 and 31; ports and rivers in Crystal Isles, Dune Fork, Cinder Flats, Black Wastes and Pentagon Atoll.\n• The new COs' faces in the battle-scene header.\n\n• Online peers must all run 0.8.8 (the simulation version changed).\n• Portrait art of the new COs provided by the project owner. Emerald Sun is inspired by Advance Wars By Web's Jade Sun.",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.8/tangoaw2-0.8.8-ios.ipa",
-          "size": 32466254,
+          "version": "0.8.9",
+          "date": "2026-10-27T07:00:03Z",
+          "localizedDescription": "tangoAW2 0.8.9: Emerald Sun and two-front fixes.\n\nFixed.\n\n• The CO page's unit chart no longer shows garbage for the Infantry and Mech of Emerald Sun COs.\n• In battle scenes, the Emerald Sun helmet no longer appears on the other army's soldiers.\n• Capturing an Emerald Sun property (city, base, airport, port, HQ) now shows Emerald Sun instead of Orange Star. The soldier wears the plumed helmet, and an Emerald Sun HQ is the domed one.\n• The TAG page's stars no longer stay on the map after the CO page is closed.\n• Versus: backing out of the Teams screen after choosing Emerald Sun takes the choice back, so the next match's armies (and the Versus menus) no longer wear Emerald Sun units with other COs.\n• Versus on two fronts: each army keeps its colour and team from the first front on the second front.\n• Online peers must all run 0.8.9 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.9/tangoaw2-0.8.9-ios.ipa",
+          "size": 32470762,
           "minOSVersion": "16.0"
         }
       ],
@@ -6941,11 +6941,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.41.0",
-          "date": "2026-10-22T21:23:10Z",
-          "localizedDescription": "Added:\n\n• Clips' minutes and minutes left go by your own reading pace. Waypage measures the words you read by eye (not read aloud) against the time they take, over the last 30 days and across your synced devices, and shows it at the bottom of the Reading place. Until it has seen about 2,000 words, it uses the usual 230 words a minute.\n\nChanged:\n\n• Time read stops counting sooner when you stop scrolling: after half again the time the words on screen should take you, between 20 s and 90 s, instead of a flat two minutes.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.41.0/Waypage.ipa",
-          "size": 10571227,
+          "version": "1.42.1",
+          "date": "2026-10-27T08:51:11Z",
+          "localizedDescription": "Changed:\n\n• Translate this clip has its own button in the reader's top bar, beside Highlights, instead of a row in ⋯. L opens it with a keyboard.\n• On a phone the Contents button is the list icon again; the name of the section being read got cut off there. A computer still shows the name.\n• A translation's Show is a choice of Off, Under the text, or Instead of the text, which shows only the translation where there is one.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.42.1/Waypage.ipa",
+          "size": 10594874,
           "minOSVersion": "15.5"
         }
       ],
@@ -10458,11 +10458,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.429",
-          "date": "2026-10-26T10:56:59Z",
-          "localizedDescription": "Changed:\n\n• Android, iPhone and iPad have a Mail tab with unread badges. The iPhone tab bar keeps five tabs, so the experimental Channels tab is not shown there for now.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.429/Dieter-iOS.ipa",
-          "size": 62755361,
+          "version": "0.6.430",
+          "date": "2026-10-27T07:19:38Z",
+          "localizedDescription": "Added:\n\n• Mail reports render Mermaid diagrams and inline-data Vega-Lite and Vega charts on the Mac, Android, iPhone and iPad, using the same bundled offline renderer as the Mac Files preview. Graphics fit narrow screens and follow the app's light or dark appearance; Mac PDF and HTML exports keep them as static graphics.\n• Invalid or unsupported diagrams keep readable source without hiding the rest of the report. Remote images, external chart data and scripts remain blocked; charts use inline data and their controls are read-only.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.430/Dieter-iOS.ipa",
+          "size": 64712596,
           "minOSVersion": "18.0"
         }
       ],
@@ -10818,7 +10818,7 @@
           "date": "2026-10-08T13:11:34Z",
           "localizedDescription": "Settings has a new General page: light, dark or system appearance, an accent color (Monochrome, Blue, Purple, Pink, Orange, Green or Brown) for buttons, switches and highlights, a new app icon (Realistic), and the tab to open on. Customize Tabs reorders or hides tabs on iPhone, iPad and Mac (Settings always stays); on iPhone the labels can be hidden and, on iOS 26, the tab bar shrinks while you scroll. Pull to refresh can be Gooey, Glass or None. Cinematic layout, Hide Titles on Cards and the new Home \u0026 Search Buttons option (Icon \u0026 Name, Icon Only or Hidden) are on this page too, and every new setting is kept in backups.\n\nThe main Settings page has section titles and icons on the legal rows, and tapping Platform or Version copies it for bug reports. The profile row has glass on its avatar and says Manage Profiles once a profile is renamed or has a photo. In Providers, the provider icons are rounded and the Primary pill stays on one line. Advanced Network's explanations are shorter and sit under their switches.\n\nShirox speaks 13 languages: English, German, Spanish, Brazilian Portuguese, French, Italian, Indonesian, Turkish, Vietnamese, Polish, Russian, Simplified Chinese and Japanese. Pick one in Settings › General › Change Language, or request another there. A change applies the next time Shirox opens. The translations are machine-made, so corrections from native speakers are welcome.\n\nIcon packs: swap the app's icons for Font Awesome, Iconoir or any pack published by link, in Settings › General › Icon Packs. Packs update from the same link.\n\nDiscord: show what you watch and read as your Discord status, with the title, the episode or chapter and the cover. Sign in with Discord in Settings › Providers › Discord; no token to paste, nothing to install. A test button shows a sample status. Not available on Apple TV.\n\nSubtitles: pick any font on your device for text subtitles, in Settings › Subtitles and the player's subtitle sheet. A preview shows your settings over a test image, the shadow is actually visible now, and the background has its own section with color, opacity and rounding. Size is one Font Size slider instead of a slider and a picker for the same value; Apple TV keeps the size presets.\n\nMac: the search field sits in the toolbar on Search and Library; ⌘F opens it, and Library filters as you type. The bars fade softly over scrolling content on Mac and iPad.\n\nAlso: the Contributors page lists developers, contributors and inspirations, and its links open; the bookmark button sits over the search tab on detail pages, with glass on the cover; the adult content blocklist uses about a tenth of the memory and loads faster at launch; and the app download is about 2 MB smaller.\n\nFixes: the Mac player's New Window works in every language, Jellyfin movies keep their label in German, and Unlink current series has an icon.\n\nDownloads: Shirox.ipa (iPhone, iPad), Shirox-macOS.dmg (Mac), Shirox-Catalyst.dmg (Mac, Catalyst build).",
           "downloadURL": "https://github.com/xibrox/Shirox/releases/download/latest/Shirox.ipa",
-          "size": 24496578,
+          "size": 27270775,
           "minOSVersion": "15.0"
         }
       ],
@@ -11184,11 +11184,11 @@
       ],
       "versions": [
         {
-          "version": "1.12.1",
-          "date": "2026-10-26T08:27:03Z",
-          "localizedDescription": "Added:\n\n• Your videos stay in step with YouTube. Signed in, a video you watch in Pawse goes to your YouTube history with your spot, so the YouTube app offers to pick it up where you stopped. Videos you watched in the YouTube app show up in Pawse too, with their red bars and in Continue, whenever you open Pawse.\n• Red bars from your YouTube account on video cards. Feeds show how far you got in videos you watched anywhere, not just in Pawse.\n\nFixed:\n\n• Songs you play reach your YouTube history again. YouTube had started turning the report away, so plays quietly stopped showing up there.\n• Videos you remove from history in Pawse, or a history you clear, stay gone instead of coming back from YouTube.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
-          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.12.1/Pawse.ipa",
-          "size": 24773883,
+          "version": "1.12.3",
+          "date": "2026-10-27T08:36:50Z",
+          "localizedDescription": "Fixed:\n\n• Videos play when YouTube asks \"Sign in to confirm you're not a bot\". Videos only ever asked YouTube one way, and when YouTube started bot-checking it on your network, every video failed while music kept playing. Videos now ask the same ways music does, starting with the one music gets through with, so they keep playing.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
+          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.12.3/Pawse.ipa",
+          "size": 24783461,
           "minOSVersion": "16.4"
         }
       ],
@@ -13001,17 +13001,17 @@
       "bundleIdentifier": "com.danheskett.gloryofrome",
       "developerName": "dannyheskett",
       "subtitle": "OpenBounty: open-source engine for King's Bounty (1990) and other turn-based fantasy gamepacks",
-      "localizedDescription": "OpenBounty:\n\nA faithful raylib reimplementation of King's Bounty (1990, New World Computing), and the engine behind Glory of Rome, an original pack that has run on desktop, the web, iOS and Android.\n\nThis document has described how the game works, what it ships with, and how to build and run it.\n\nPre-built binaries have been published on the GitHub Releases page:\n\nEvery release has carried two desktop products for each of Linux x86_64, Windows x86_64 and i686, and macOS universal, plus the web and mobile builds.",
+      "localizedDescription": "OpenBounty:\n\nA faithful raylib reimplementation of King's Bounty (1990, New World Computing), and the engine behind The Glory of Rome, an original pack that has run on desktop, the web, iOS and Android.\n\nThis document has described how the game works, what it ships with, and how to build and run it.\n\nPre-built binaries have been published on the GitHub Releases page:\n\nEvery release has carried two desktop products for each of Linux x86_64, Windows x86_64 and i686, and macOS universal, plus the web and mobile builds.\n\n• OpenBounty (openbounty-build-N-*): King's Bounty, the binary with assets/kings-bounty.openbounty beside it; it has started with no flags. ./openbounty --extract has also built the same pack from a copy of the DOS distribution (§3).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.danheskett.gloryofrome.png",
       "tintColor": "#ab7f3a",
       "category": "games",
       "versions": [
         {
-          "version": "41",
-          "date": "2026-10-06T09:53:09Z",
-          "localizedDescription": "• Week-end budget shows what the week charged: a tenth of recruit cost, adding up to the balance.\n• Messages page by the room the map leaves them, not six lines.\n• Glory of Rome: river bridges carry the road between parapets; treasure-cache vistas per province.\n• Castle gate report: the castle named once, a troop's stacks on one line; shorter temporary-death text.\n• Glory of Rome: troops the week can't pay leave the army.\n• Answer row: single-answer pages answer along the foot, Navigate in four columns, the chest under its vista.\n• Battle menu: opens on its top page with Give up beside Close; Enter no longer opens it.\n• Combat log: no toast over the field, every attack logged in one form, cards wrap whole.\n• Road signs: no longer cut at 127 characters; Rome heads a sign with its title.\n• Autoplay search: the root is never freed while its descendants live (#150).\n• A foe that arrives on a gold chest waits for the chest's question (#136).\n• One art pipeline script: the ten art helpers folded into romeart.py (#143).\n• Glory of Rome Introduction (#154).\n• Glory of Rome magic: a limit for each spell, weekly renewal, no discard (#157).\n• Spells page tabs; foes keep off event tiles.\n• Modern map: the camera stops at the world's edge (#161).\n• Oriens: a boat-only Thracian road guarding the Scutum of Aeneas (#66).\n• Gallery tap checks: King's Bounty checked against what legacy registers (#160).\n• Glory of Rome battles: field obstacles at 20% a cell (#64).\n• Goto (#70): pick a seen tile on the world map, and the hero travels there.\n• Glory of Rome battles: field obstacles at 12% a cell, down from 20% (#64).",
-          "downloadURL": "https://github.com/dannyheskett/openbounty/releases/download/release-41/gloryofrome-build-41-ios-arm64.ipa",
-          "size": 23225805,
+          "version": "44",
+          "date": "2026-10-27T08:31:43Z",
+          "localizedDescription": "• Promote: re-upload a stalled screenshot; retry \"not ready yet\" on submit.",
+          "downloadURL": "https://github.com/dannyheskett/openbounty/releases/download/release-44/gloryofrome-build-44-ios-arm64.ipa",
+          "size": 25019364,
           "minOSVersion": "15.0"
         }
       ],
@@ -13323,10 +13323,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-07T00:08:46Z",
-          "localizedDescription": "Primera release de Crumb, basada en main: 1.0.0 · build 23022.\n\nFunciones:\n\n• Inicio de sesión con Apple ID y 2FA; sesión e identidad de máquina en Keychain.\n• SAP/ActionSignature adaptado de ipatool mediante un intérprete estático, sin JIT ni jailbreak.\n• Búsqueda, favoritos, selección de versiones por externalVersionId y comprobación del número/build real de la IPA.\n• Descarga con progreso, exportación individual, gestión de descargas e instalación mediante el mecanismo OTA heredado.\n• Corrección de la URL inicial de autenticación, presupuesto de recuperación compartido y conservación del código 2FA ante errores temporales.\n\nInstalación:\n\nDescargá Crumb-Release.ipa y firmala con ksign/certificado, SideStore, AltStore, Sideloadly u otro método convencional. Bundle ID: com.certlium.crumb. iOS mínimo: 16.4; el desarrollo prioriza iOS 27.\n\nPara actualizar Crumb, conservá el bundle ID y la identidad de firmado para mantener datos y acceso al Keychain. Crumb Test es una instalación separada: su sesión/descargas no se migran automáticamente.\n\nVerificación y límites:\n\nEl usuario confirmó el login en la rama de prueba 23023, que comparte el protocolo de autenticación de esta base. Eso no equivale a una prueba completa de todos los dispositivos y funciones de esta IPA. Apple controla cuándo pedir/enviar 2FA y puede devolver fallos temporales. La adquisición de apps de otras regiones puede seguir devolviendo 2059. No se automatizan compras pagas ni se descifra FairPlay. La instalación depende de la aceptación de iOS; exportar la IPA queda disponible.\n\nCréditos y procedencia:\n\nIntegración y pruebas en dispositivo: boierito. Base: WaffleStore, preservando a mineek, lunginspector, skadz, jailbreak.party y nxtcoreee3. Backend de referencia: Majd Alfhaily / ipatool (MIT).\n\nAI slop: código desarrollado con OpenAI Codex; icono generado con ImageGen.\n\nDocumentación: README · Implementación · Pruebas.\n\nSHA-256 de Crumb-Release.ipa: 786b0d73a689b70dba76d118ab11ea101146d19b56d85916e7646b3b52be2b2d.\n\nComprobación del artefacto publicado: build 23022, bundle com.certlium.crumb, arm64, Files habilitado, flag DEBUG desactivado y ausencia de controles/reset de prueba. SHA-256 de los assets cotejados con el artefacto de este workflow.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/v1.0.0/Crumb-Release.ipa",
-          "size": 8573523,
+          "date": "2026-10-27T08:37:33Z",
+          "localizedDescription": "Crumb 23048 — experimental authorization routing correction. Unsigned Release IPA; install using your usual authorized iPhone signing method while preserving Crumb's app data.\n\nChanges:\n\n• Honor Apple's live Bag guid-urls policy in the authorization URL, using the same virtual identity as the signed plist and retained producer. Preserve encoded routing parameters.\n• Follow bounded, explicitly validated Apple authorization redirects while preserving the exact POST and SAP signature. No automatic HTTP-error or ADI-challenge retry.\n• Do not reject valid reply bags merely because customerMessage is present or empty. Native import, account query, source/frame, all original SINFs and whole-IPA validation remain required.\n• Record only HTTP status, response format and a bounded/redacted Apple failure code. No tokens, identities, URLs, messages or private reply bytes enter the diagnostic.\n\nTest using the existing saved original IPA and its matching capture:\n\n• Open Crumb and sign in with the same Apple Account.\n• Settings → FairPlay Laboratory.\n\n• Section 3 → Import an older capture ZIP for offline research.\n• Section 4 → Authorize account and validate this IPA. Tap once, keep Crumb open and the iPhone unlocked.\n• Section 5 → Prepare exports → Share diagnostic (no secret blobs). Share only the new diagnostic JSON.\n\nNo new app download is required. Do not run SIDB mutation experiments. The capture and original IPA stay on the phone. If you do not have saved files, Download and capture transaction creates both locally; continue at step 5 in the same session and save the originals before closing.\n\nThis installer is published from the exact successful CI artifact with pinned provenance, SHA256, corresponding native sources and license notices.\n\nSource commit: 7b6e72117fff5943f58ff5437aa86fc8d7211ca4 IPA SHA256: bdcb12021ee807bf9138cfd01bc4276e340df06176133a699d6fa79b255bf70b.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/test-23048-authorization-routing/Crumb-23048-Release.ipa",
+          "size": 29149478,
           "minOSVersion": "16.4"
         }
       ],
@@ -13555,11 +13555,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.0",
-          "date": "2026-10-26T04:35:41Z",
-          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n✨ New Features:\n\n• Added a desktop layout for Updates, with a grid of covers per day and chapters grouped by series (@aaronbamblett).\n• Added a desktop layout for History, with a filter and right-click menu (@aaronbamblett).\n• Added a desktop layout for Browse, with source and extension cards and a bar for each source's catalogue (@aaronbamblett).\n\n• Added a desktop layout for Migrate, with sources and their series side by side and one migration window (@aaronbamblett).\n• Added a settings window on desktop, with search and a page list (@aaronbamblett).\n\n• Added custom covers with Edit cover, from your sources, AniList, MyAnimeList, Kitsu, MangaUpdates or an image link, shown on all your devices (@aaronbamblett).\n• Added missing server settings, including Sign-in, OPDS, Database, WebView and the server image cache (@aaronbamblett).\n• Added series notes and saved source searches, shared with the Suwayomi web interface (@aaronbamblett).\n\n⚙️ Changes:\n\n• Changed migration to leave the series' own source out of the destinations (@aaronbamblett).\n• Changed the desktop sidebar to show Incognito and Settings in place of More (@aaronbamblett).\n• Changed the icons throughout the app and animated the main menu (@aaronbamblett).\n• Reorganised settings and More into grouped pages, with a new Sync page (@aaronbamblett).\n\n• Changed Suggestions in the web version to use only AniList as other sources are blocked by the browser (@aaronbamblett).\n\n🚀 Improvements:\n\n• Made failed migrations show why and offer Retry (@aaronbamblett).\n• Made Migrate now, Copy now, restores, data deletion and server-wide changes ask first (@aaronbamblett).\n• Added a right-click menu that opens at the pointer on desktop pages, with the same actions on a long-press in History on phones (@aaronbamblett).\n• Added a hand cursor and hover highlight to everything clickable on desktop and in the browser (@aaronbamblett).\n• Made browser tabs show page names and support links opening in a new tab (@aaronbamblett).\n\n• Made Suggestions show results without waiting for slow services and match series more accurately (@aaronbamblett).\n• Made adding a single series from a source ask for categories and check for duplicates (@aaronbamblett).\n• Made dark theme highlights easier to read (@aaronbamblett).\n• Added sharing, saving and deleting covers from the full cover view (@aaronbamblett).\n\n• Made registration codes show the permissions they grant (@aaronbamblett).\n• Added Push progress to KOReader and Pull progress from KOReader (@aaronbamblett).\n• Added permissions when creating a user or a registration code (@aaronbamblett).\n• Added Hide entries already in library for browsing sources (@aaronbamblett).\n• Added Duplicate chapters, Status and Source library filters and Open random entry (@aaronbamblett).\n• Added App language, Fuzzy search, Ignore filters when searching and Forget manga categories settings (@aaronbamblett).\n• Added Update all for extensions (@aaronbamblett).\n• Added a choice of what backups include (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed a series being migrated onto itself and removed from the library (@aaronbamblett).\n• Fixed interrupted or overlapping migrations removing a series before its progress was copied (@aaronbamblett).\n• Fixed migration on desktop stretching covers, waiting forever on a source and showing no details for Search manually picks (@aaronbamblett).\n• Fixed covers not updating after a library update changed them on the server (@aaronbamblett).\n\n• Fixed changes to a series not showing straight away while viewing offline (@aaronbamblett).\n• Fixed Test connection in setup checking forever on an address it cannot read (@aaronbamblett).\n• Fixed Outstanding codes freezing the app on desktop and in the browser (@aaronbamblett).\n• Fixed account options showing on servers without user accounts (@aaronbamblett).\n• Fixed tracker icons not loading (@aaronbamblett).\n• Fixed tracker sign-in completing sign-ins you did not start (@aaronbamblett).\n• Fixed disabled text buttons looking pressable (@aaronbamblett).\n• Fixed the phone menu bar ignoring dark themes (@aaronbamblett).\n• Fixed the More page running into the bottom bar on phones (@aaronbamblett).\n• Fixed History opened from More having no back button on desktop (@aaronbamblett).\n• Fixed setting descriptions being cut off (@aaronbamblett).\n\nThanks to our Weblate translators: Kisnov for the full Catalan translation, 無情天 for Chinese, JayDisastrue for French and Andrei Stepanov for Russian.\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-x64.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.0/tsumiru-v1.6.0-ios.ipa",
-          "size": 18262510,
+          "version": "1.6.1",
+          "date": "2026-10-27T07:47:54Z",
+          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n⚙️ Changes:\n\n• Added Split tall images to Reader settings, shown only on devices with a low GPU texture limit (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed very tall webtoon pages looking squashed on devices with a low GPU texture limit (@aaronbamblett).\n• Fixed More doing nothing on medium-width desktop windows and tablets, which left Settings out of reach (@aaronbamblett).\n• Fixed series opened from a source's full results in Global Search showing a black screen (@aaronbamblett).\n• Fixed Quick Search leaving the reader on screen when opening a series or Global Search while reading (@aaronbamblett).\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-x64.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.1/tsumiru-v1.6.1-ios.ipa",
+          "size": 18278152,
           "minOSVersion": "15.0"
         }
       ],
