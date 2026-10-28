@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.certlium.crumb",
-    "com.bep1s.nfsmwios",
-    "com.husk.app"
+    "wiki.qaq.GhostRemote",
+    "io.github.ror.ios",
+    "sg.bamboozled.bamboozled"
   ],
   "apps": [
     {
@@ -971,10 +971,10 @@
       "versions": [
         {
           "version": "1.0.4",
-          "date": "2026-10-12T23:14:25Z",
-          "localizedDescription": "See CHANGELOG.md attachment for details.",
-          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.4/lampcord-ios-1.0.4.ipa",
-          "size": 28379306,
+          "date": "2026-10-28T00:16:57Z",
+          "localizedDescription": "Automated nightly build generated from commit 235185a8d80b846f3777a907027e8a98d6280b15 on 2026-10-28 00:16 UTC.\n\nWhat's new:\n\nfix(ui): make guild mute update local state immediately.",
+          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.4-nightly.155/Lampcord.ipa",
+          "size": 36618994,
           "minOSVersion": "17.0"
         }
       ],
@@ -1303,11 +1303,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.5.0",
-          "date": "2026-10-10T09:36:14Z",
-          "localizedDescription": "• Trivia: 3 lives, two tries a day, the better try counts.\n• Bump actions/upload-artifact from 4 to 6[bot].",
-          "downloadURL": "https://github.com/Keegan4/BamBoozled/releases/download/v1.5.0/BamBoozled-1.5.0-ios-unsigned.ipa",
-          "size": 9877530,
+          "version": "1.8.1",
+          "date": "2026-10-28T04:02:29Z",
+          "localizedDescription": "This release adds the personal photo card collection and theme stories, with fixes that restore passing CI and release builds.\n\n• Collect personal photo cards and unlock the stories for completed themes.\n• Celebrate Epic and Legendary pulls and browse every card finish in the binder.\n• Preserve longer card messages in the binder, with stories supporting up to 400 characters.\n\nValidation: 716 Flutter tests passed locally with 98.8% coverage; static analysis and the eight Canvas proxy tests passed. GitHub CI also verifies database migrations and builds all six supported platforms before this release.\n\nDownloads include Android, Windows, macOS, Linux, web, and unsigned iOS packages. The iOS package requires signing before installation.\n\nWeb app: https://keegan4.github.io/BamBoozled/",
+          "downloadURL": "https://github.com/Keegan4/BamBoozled/releases/download/v1.8.1/BamBoozled-1.8.1-ios-unsigned.ipa",
+          "size": 25310506,
           "minOSVersion": "15.0"
         }
       ],
@@ -1362,11 +1362,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.8",
-          "date": "2026-04-21T22:36:45Z",
-          "localizedDescription": "v0.2.8:\n\nThere's been a lot of rapid changes in Navigator's capabilities so this release UX quality-of-life series of fixes since the Discord style chat introduced a new UX paradigm which inevitable had some loose ends.\n\nDisconnects are detected in seconds instead of minutes, chat icons no longer fall back to gray letter placeholders for emotes or for users who chatted before their info loaded, and! / / commands now appear above the bot's response instead of below it. News browsing also works on multi-tier servers like VesperNet, where top-level entries are folders of folders.\n\nNext release will be new feature bound.\n\nBugfixes and Improvements:\n\n• Faster disconnect detection — When a server vanishes silently (peer crash, network drop, NAT timeout), the client now notices in ~60s on macOS/Linux and ~130s on Windows, down from the OS TCP retransmit default of 15+ minutes. Auto-reconnect kicks in correspondingly faster.\n\n• News browsing on nested servers — On servers like VesperNet where the top-level news entries are folders containing more folders, navigation no longer dead-ends with an empty article pane. The client now dispatches based on the clicked item's actual type (bundle vs. category) rather than assuming any non-root path holds articles.\n\nTechnical:\n\n• TCP SO_KEEPALIVE configured on the control channel via socket2: idle=30s, interval=10s, retries=3 on macOS/Linux. Windows uses the OS default retry count.\n• App-level keepalive failure now emits StatusChanged(Disconnected) and clears the transport, instead of silently breaking.\n\n• Optimistic insert tagged with pending: true and optimisticKey; echo dedup matches by userName + message text within a 10s window. /me and /em are preformatted as *** name action to match the server echo. 30s safety timeout clears the pending flag if no echo arrives.\n• News load effect dispatches on a tracked newsLeafType (2 = bundle → get_news_categories; 3 = category → get_news_articles). Going back always sets leaf type to bundle, since non-leaf path segments are bundles by invariant.\n\nDownload the installer for your platform from the release assets.\n\n.dmg = macOS, .msi/.exe = Windows, .apk = Android, .ipa = iOS/iPadOS, Linux hippies can figure it out.",
-          "downloadURL": "https://github.com/bourbonicfisky/Hotline-Navigator/releases/download/v0.2.8/hotline-navigator-unsigned.ipa",
-          "size": 9625078,
+          "version": "0.3.1",
+          "date": "2026-10-28T03:17:45Z",
+          "localizedDescription": "v0.3.1:\n\nThis release cleans up saved logins and date formatting: bookmarks keep their password settings when they cross between Rust and the interface, reconnects retrieve saved credentials, and news timestamps follow your system’s locale and time zone.\n\nNew Features:\n\n• GitHub-hosted builds for every platform — macOS universal, Windows x64, Linux x64 and ARM64, Android, and unsigned iOS / iPadOS packages are available below.\n• Individual platform rebuilds — The Apple and Android workflow can build all three platforms together or retry just macOS, iOS, or Android.\n\nBugfixes and Improvements:\n\n• Dates that follow your system — Threaded news and file-info dates use your locale and time zone instead of a fixed US format.\n• Saved credentials survive reconnects — Bookmark password flags now match the interface’s field names, and manual and automatic reconnects retrieve passwords from encrypted storage. Explicitly empty passwords remain valid.\n\n• Frontend cleanup — Media callbacks update after rendering, icon state initializes before its reset effect, and inline-media preference failures are logged.\n• Consistent mobile versioning — The iOS project template and packaged app both report version 0.3.1.\n\nTechnical:\n\n• Bookmark serialization uses camelCase fields while accepting older snake_case saved files.\n\n• Raw TCP login tests verify password field 106 and the XOR encoding for admin, a, and empty passwords.\n\n• Linux builds use native x64 and ARM64 runners. Android installs its Java, SDK, and NDK dependencies explicitly and includes ARM64, ARMv7, x86, and x64 libraries.\n• Validation includes 151 Rust tests, 98 frontend tests, TypeScript, ESLint, and successful GitHub-hosted builds for every platform. The macOS installer is signed and notarized.\n\nCurrent Limitations:\n\n• Existing bookmarks whose password flag was already lost may need their password re-entered once.\n\n• The iOS / iPadOS IPA is unsigned and requires signing with a sideloading tool before installation.\n• Android currently uses a temporary signing key for each build. Installing over an older APK may require uninstalling it first, which can remove its local app data.\n\nDownload the universal .dmg below for macOS, open it, and drag Hotline Navigator into Applications. It supports Intel and Apple Silicon Macs running macOS Big Sur or later.\n\nWindows users can use the x64 installer. Linux packages are available as .deb and AppImage files for x64 and ARM64. Android users can install the APK; iOS / iPadOS users should extract the IPA from its ZIP and sign it with their sideloading tool.\n\nThis release includes the macOS installer. Windows, Android, iOS / iPadOS, Linux hippies, figure it out;).",
+          "downloadURL": "https://github.com/bourbonicfisky/Hotline-Navigator/releases/download/v0.3.1/hotline-navigator-unsigned.ipa",
+          "size": 10118985,
           "minOSVersion": "15.0"
         }
       ],
@@ -4978,10 +4978,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-25T16:29:04Z",
-          "localizedDescription": "Unsigned build of commit a5ffd81862cb22be5ab790461a6295fe8947daef. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-70/EngiNote.ipa",
-          "size": 14558177,
+          "date": "2026-10-28T00:23:21Z",
+          "localizedDescription": "Unsigned build of commit 1a3e040f8cca55481721967b7163339eb5c0c6e7. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-73/EngiNote.ipa",
+          "size": 14574509,
           "minOSVersion": "17.5"
         }
       ],
@@ -5214,10 +5214,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-26T22:48:23Z",
-          "localizedDescription": "Immutable snapshot of alpha build 399 (5afb5de).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 399, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-399/Non-Jailbroken.ipa",
-          "size": 98842553,
+          "date": "2026-10-28T02:17:18Z",
+          "localizedDescription": "Immutable snapshot of alpha build 402 (f6a1555).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 402, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-402/Non-Jailbroken.ipa",
+          "size": 98871997,
           "minOSVersion": "17.0"
         }
       ],
@@ -5381,16 +5381,18 @@
       "tintColor": "#466eb2",
       "category": "games",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/bh-story.png",
-        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/black-hole-versus.png"
+        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/es-campaign-story.png",
+        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/es-versus.png",
+        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/asuka-co.png",
+        "https://cdn.jsdelivr.net/gh/rkoh46/tangoAW2@main/docs/screenshots/bh-story.png"
       ],
       "versions": [
         {
-          "version": "0.8.9",
-          "date": "2026-10-27T07:00:03Z",
-          "localizedDescription": "tangoAW2 0.8.9: Emerald Sun and two-front fixes.\n\nFixed.\n\n• The CO page's unit chart no longer shows garbage for the Infantry and Mech of Emerald Sun COs.\n• In battle scenes, the Emerald Sun helmet no longer appears on the other army's soldiers.\n• Capturing an Emerald Sun property (city, base, airport, port, HQ) now shows Emerald Sun instead of Orange Star. The soldier wears the plumed helmet, and an Emerald Sun HQ is the domed one.\n• The TAG page's stars no longer stay on the map after the CO page is closed.\n• Versus: backing out of the Teams screen after choosing Emerald Sun takes the choice back, so the next match's armies (and the Versus menus) no longer wear Emerald Sun units with other COs.\n• Versus on two fronts: each army keeps its colour and team from the first front on the second front.\n• Online peers must all run 0.8.9 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.9/tangoaw2-0.8.9-ios.ipa",
-          "size": 32470762,
+          "version": "0.8.10",
+          "date": "2026-10-28T00:47:11Z",
+          "localizedDescription": "tangoAW2 0.8.10: themes for Crumb and Clone Andy.\n\nNew.\n\n• Crumb has a theme of his own, \"Marching Off-Step\": a stomping comic march with rock underneath.\n\nChanged.\n\n• Crumb uses Black Hole's HQ tower again (it was Emerald Sun's domed HQ as a placeholder).\n• The README has new pictures from the current version.\n• Online peers must all run 0.8.10 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.8.10/tangoaw2-0.8.10-ios.ipa",
+          "size": 32479292,
           "minOSVersion": "16.0"
         }
       ],
@@ -6743,11 +6745,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.19",
-          "date": "2026-10-21T18:36:47Z",
-          "localizedDescription": "iGhostVT 1.6.19 lets another app open a new terminal tab in a folder you choose.\n\n• Opening a project folder in iGhostVT from another app, such as Apelin's Open in iGhostVT, started the new tab in your home folder. A link of the form ighostvt://new?directory=\u003cpath\u003e now opens a new tab in that folder. The link can only name an existing local folder: it never carries a command, and a missing folder, a file or a relative path is refused.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.19-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.19.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.19/GhostRemote-1.6.19.ipa",
-          "size": 7013689,
+          "version": "1.6.20",
+          "date": "2026-10-28T04:39:41Z",
+          "localizedDescription": "iGhostVT 1.6.20 lets the app reach the network on an iPhone or iPad sold in China, and keeps the tab overview button working after the ⋯ menu.\n\n• On an iPhone or iPad sold in China, iGhostVT could fail to connect to a paired device, directly or through the relay, as if there were no network. iOS keeps a WLAN \u0026 Cellular setting for each app and never asks about one a package manager installed, so it could stay off. iGhostVT now turns on Wi-Fi and cellular data for itself when it opens. Shells, remote access to this device and ighostvt-cli were never affected.\n• Tapping ⋯ and then the tab overview button quickly could leave that button doing nothing until iGhostVT was restarted. It now opens the overview every time.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.20-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.20.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.20/GhostRemote-1.6.20.ipa",
+          "size": 7016693,
           "minOSVersion": "15.0"
         }
       ],
@@ -8622,11 +8624,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.2",
-          "date": "2026-10-17T19:32:04Z",
-          "localizedDescription": "• fix(player): resolve GL entry points from OpenGL.framework on macOS.\n\nNew Contributors:\n\n• @mathieu-rahab made their first contribution.",
-          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v1.6.2/proton-stream-1.6.2-ios.ipa",
-          "size": 25529661,
+          "version": "1.7.0",
+          "date": "2026-10-28T02:24:07Z",
+          "localizedDescription": "Subtitles are no longer stuck with mpv's thin white default. Settings → Subtitles is a new section with full control over how plain-text (SRT) subtitles look:\n\n• Size, position, font, bold and italic.\n• Free colours with opacity for the text, outline, background box and shadow.\n• Outline thickness, shadow distance and shadow blur.\n• A live preview that draws a sample line on a bright and a dark picture, in the font you picked (Linux).\n\nEvery change reaches the playing file at once, so you can tune the style while watching. The defaults are mpv's own: nothing changes until you open the section.\n\nStyled (ASS) subtitles keep their own size, look and placement by default, and only move to stay clear of the player controls. Turn on Restyle styled subtitles to repaint ASS dialogue with your style too.\n\nThe player's subtitle menu gains size, position and a per-file delay, and Z / X shift subtitles by 0.1 s, as in mpv.\n\nThe subtitle style syncs between installations with the other playback settings.\n\nFixes:\n\n• Folders of films are one title per film. A folder holding several films, such as numbered film series with names like - 1.11, was read as one series with episodes. Each film now gets its own title and matches its own AniList entry. A search that finds nothing is retried without the version number.\n• Installing a subtitle font no longer drops the CJK fallback font, and the other way round.\n\nNotes:\n\n• The background-box options need libmpv from mpv 0.38 or newer. An older libmpv plays on without the box.\n• The font preview uses fontconfig, so on Windows and macOS it draws in the app's own font.",
+          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v1.7.0/proton-stream-1.7.0-ios.ipa",
+          "size": 25538675,
           "minOSVersion": "17.0"
         }
       ],
@@ -13556,11 +13558,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.1",
-          "date": "2026-10-27T07:47:54Z",
-          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n⚙️ Changes:\n\n• Added Split tall images to Reader settings, shown only on devices with a low GPU texture limit (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed very tall webtoon pages looking squashed on devices with a low GPU texture limit (@aaronbamblett).\n• Fixed More doing nothing on medium-width desktop windows and tablets, which left Settings out of reach (@aaronbamblett).\n• Fixed series opened from a source's full results in Global Search showing a black screen (@aaronbamblett).\n• Fixed Quick Search leaving the reader on screen when opening a series or Global Search while reading (@aaronbamblett).\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-universal.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.1/tsumiru-v1.6.1-ios.ipa",
-          "size": 18278152,
+          "version": "1.6.2",
+          "date": "2026-10-28T02:29:20Z",
+          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n🚀 Improvements:\n\n• Added back the chapter grid view on the series page, saved per series (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed the Filter button covering the selection bar when selecting titles in a source (@aaronbamblett).\n• Fixed the Reset and Filter buttons being cut off in the source filter sheet (@aaronbamblett).\n\nThanks to our Weblate translators Andrei Stepanov, Constantin Piber and Kisnov for the Catalan, German and Russian updates.\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-universal.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.2/tsumiru-v1.6.2-ios.ipa",
+          "size": 18312147,
           "minOSVersion": "15.0"
         }
       ],
@@ -13666,7 +13668,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-27T15:15:55Z",
+          "date": "2026-10-28T04:20:26Z",
           "localizedDescription": "This is a Hello-World iOS app. It exists only to prove the build-and-package pipeline works end to end on a free macOS runner. The game itself is in the latest-ipa release.",
           "downloadURL": "https://github.com/wayl-t/Rigs-of-Rods-for-iOS/releases/download/pipeline-check/RoRNative.ipa",
           "size": 18635,
