@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "wiki.qaq.GhostRemote",
-    "io.github.ror.ios",
-    "sg.bamboozled.bamboozled"
+    "app.mangatan.mangatan",
+    "dev.maestromobile.app",
+    "ikemen-engine.I-K-E-M-E-N-Go"
   ],
   "apps": [
     {
@@ -1167,11 +1167,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.173.2",
-          "date": "2026-10-27T18:34:41Z",
-          "localizedDescription": "Five fixes:\n\n• F1118: Today's patches now applies the existing measured ferry/bridge costs to the local chase budget, including the direct shortlist and temporary Find origin. Costly crossings remain available as Day trips, pelagic outings retain their explicit trip exception, rarity discovery is not filtered, and displayed distances remain true straight-line miles. The obsolete adaptive-widening explanation is replaced with the actual travel-budget rule.\n• F1119: Automatic personal seen-list preparation rearms on the next local day after success or failure. Returning to Menu in the foreground reevaluates stale evidence. Pending reads are shared across repaints and midnight, failed same-day attempts do not loop, explicit import/skip intent is retained, and failed refreshes preserve matching last-good membership.\n• F1121: Full and Recent Bird Gen use the same concise, ordinary-weight migration activity headline and visible estimated county count. Forecast and measured nights remain distinct; detailed source freshness stays in the information view instead of repeating the title and estimate.\n• F1122: BirdCast selects the forecast entry matching the required local date even when it is not the first response row, while rejecting absent or malformed current-night evidence. Source status explains BirdCast subfeed errors and distinguishes capped or retained Mega/Patagonia coverage from a generic retryable failure.\n• F1123: Timeout warnings name their work owner. Known hotspot work retains its independent retry; other Menu/Bird Gen failures wait for the full owner and reacquire in the same context. Navigation or Home changes suppress obsolete retries, and generic Retry no longer cancels unrelated useful work. The measured 30-second limit is unchanged.\n\nVerification and limits:\n\nFocused regression guards are mutation-verified, including an actual new-source-wave retry control rather than counting additional pages from the original acquisition. Release gates include the complete unit/DOM catalog, six real-Chrome viewport/text profiles, report/app parity, and private wiring checks.\n\nF1120 is not a classification change: the investigated Purple Finch had exact-site notable-source evidence. No species blacklist, new runtime GitHub dependency, upstream-cap removal or guarantee against future network timeouts is introduced.\n\nUnverified on device:\n\nThe owner's installed Home/Here/Find, overnight foreground refresh and native timeout recovery have not been replayed on the device. Offline controls and artifact verification are not an owner-device smoke test. Existing named device checks remain with their original feature records.\n\nDownload BirdChaser-unsigned.ipa from this Release and sign/install it with AltStore or the existing sideloading workflow. The unsigned IPA is independent of Apple processing and the asynchronous mockup gallery.\n\nFinal candidate corrections:\n\nScope ordinary-weight and locationless evidence specifically to BirdCast activity/count cards; preserve named arriving-bird formatting. Update real-gallery guards for source-night evidence and retain existing non-forecast facts. Stabilize the daily lifecycle fixture across year boundaries and preserve the bundled travel configuration in the older-evidence control.\n\nComplete local catalog passes: 1,499 DOM controls and the complete non-DOM partition (286 passed, one existing skip), plus complete report/app parity, six real-Chrome layout profiles and wiring. The recorded fixture-photo cancellation recovered on unchanged complete-partition replay; no image or timeout workaround was added.\n\nThe .ipa below is UNSIGNED and was built by CI from 736209e, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.173.2/BirdChaser-unsigned.ipa",
-          "size": 143156600,
+          "version": "1.174.0",
+          "date": "2026-10-28T06:59:49Z",
+          "localizedDescription": "• Automatic recovery (F1125): owned stalled requests retry automatically by default. Advanced settings can opt into the complete manual Retry/Cancel panel. Recovery preserves healthy sibling work and rejects obsolete owners.\n• Normal feed limits (F1126): expected Mega and Patagonia caps are normal loaded snapshots, not failure alerts. Coverage notes remain in menu Info. Real acquisition and persistence failures remain actionable.\n• Patagonia history (F1127): qualified dated history remains usable without false acquisition warnings. Complete, successful empty results still clear normally. This does not expand source coverage or weaken qualification.\n• Patches order (F1128): Today's, Day trip, Nearby, Favorite, Cold and Hot.\n• Bird alerts (F1129): Common birds follows Mega rarities; FOY Ticks is last. Existing destinations, eligibility and saved shortcut identities stay.\n• Menu organization (F1130): shorter Stakeouts, Rankings and Settings \u0026 Help headings. Rankings precedes Birding Insights, which contains Twitch weather, Migration, Dawn and dusk, Iconic Patches, Convoys, Recent checklists and Break a record.\n• Default shortcuts (F1132): Today's patches, Twitches and Year List for absent or unreadable preferences. All saved/custom selections, including the former default trio, remain unchanged.\n• Rotating tip (F1133): Birder Jargon remains an inline tip after the complete Stakeouts group, before Rankings. Rotation and caching remain.\n\nCollapsed menus are parked, not enabled. The original cause of the reported network stall remains unknown; automatic recovery is not a claim that the network fault itself was fixed.\n\nValidation and delivery:\n\nFull local gates passed: parity, the complete non-DOM catalog (286 pass, one skipped), all 1,504 DOM tests, all six real-Chrome viewport/text profiles, and 20 wiring checks. Behavioral guards were mutation-verified. CI exposed a timezone-dependent migration test fixture, corrected without changing runtime source. The corrected candidate also passed full parity, the complete 1,790-test app catalog (one existing skip), all six real-Chrome viewport/text profiles and all 20 wiring checks. Exact-source unsigned CI 40642110720 and signed CI 40647255073 both succeeded. App source candidate: f6be3c27b181dcba911273b196ccfb1da25edc3f.\n\nBoth downloaded IPAs contain the exact committed runtime. The unsigned IPA's SHA-256 is b661e560445190170f1905803d61eda27083a4aa9180149c6603e53af0fdcf93; the signed IPA's is f3c93c34ffe5330f4e74732dfdaf69deff8335a5504fb12464652043b6b254e3. Public/native bundle contracts pass. The published gallery ZIP and all 168 PNGs are verified, with 42 shots in each of four device/text variants: https://wyatthoutz.github.io/birding-app/mockups/v1.174.0/\n\nThe unsigned IPA requires sideloading. Signed TestFlight build 14.1 is VALID and IN_BETA_TESTING, not merely uploaded. Group lookup is permission-limited (HTTP 403), so individual account/device visibility is not independently confirmed. TestFlight dashboard: https://appstoreconnect.apple.com/apps/6825611448/testflight/ios\n\nUnverified on device:\n\nAutomatic/manual timeout recovery, menu organization, new shortcut defaults and rotating-tip placement have not been independently exercised on the owner's installed device for this version.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.174.0/BirdChaser-unsigned.ipa",
+          "size": 143156100,
           "minOSVersion": "15.0"
         }
       ],
@@ -2895,11 +2895,11 @@
       ],
       "versions": [
         {
-          "version": "0.16.6",
-          "date": "2026-10-27T09:54:33Z",
-          "localizedDescription": "[0.16.6] — 2026-10-27:\n\n• fallback to managed Pi SDK runtime.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.16.6，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.16.6/maestro-mobile-unsigned-0.16.6.ipa",
-          "size": 9612473,
+          "version": "0.17.0",
+          "date": "2026-10-28T10:31:32Z",
+          "localizedDescription": "[0.17.0] — 2026-10-28:\n\n• 补齐 /maestro-mobile manager-fav 命令自动补全断言.\n\n• 声明 Herdr capability 并区分 unknown/failed 启动结果.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.17.0，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.17.0/maestro-mobile-unsigned-0.17.0.ipa",
+          "size": 9634777,
           "minOSVersion": "15.1"
         }
       ],
@@ -5203,7 +5203,7 @@
       }
     },
     {
-      "name": "iCube SL",
+      "name": "iCube",
       "bundleIdentifier": "com.joemattiello.iCube",
       "developerName": "Provenance-Emu",
       "subtitle": "Dolphin for iOS, re-reborn",
@@ -5214,10 +5214,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-28T02:17:18Z",
-          "localizedDescription": "Immutable snapshot of alpha build 402 (f6a1555).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 402, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-402/Non-Jailbroken.ipa",
-          "size": 98871997,
+          "date": "2026-10-28T05:43:08Z",
+          "localizedDescription": "Immutable snapshot of alpha build 404 (cea6608).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 404, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-404/Non-Jailbroken.ipa",
+          "size": 98869234,
           "minOSVersion": "17.0"
         }
       ],
@@ -5891,7 +5891,7 @@
       "name": "Mori",
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
-      "subtitle": "Client-side media downloader app and CLI built with Capacitor and Node.js",
+      "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js",
       "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n💡 Why Desktop GUI Deleted? Desktop GUI builds (.dmg, .exe, .msi) previously built with Tauri have been retired and consolidated into the standalone Mori CLI (@coflyn/mori).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6058e8",
@@ -6386,10 +6386,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-10-24T15:52:44Z",
+          "date": "2026-10-28T10:15:06Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56170636,
+          "size": 56170596,
           "minOSVersion": "17.0"
         }
       ],
@@ -6644,11 +6644,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.19",
-          "date": "2026-10-27T15:15:10Z",
-          "localizedDescription": "Release v6.2.19:\n\n• Keep Android screen lookup aligned around punctuation (4291b07ad).\n• Generate podcast transcripts incrementally with resumable progress (d5615822b).\n• Avoid forced layout when restoring dictionary popup scroll (910364bc6).\n• Reduce dictionary popup layout and rendering overhead (44d6c56ab).\n• Add opt-in manga OCR support diagnostics (f87027e5c).\n• Keep dictionary lookups fast with live settings updates (349d7655e).\n• Keep subtitle hover lookups responsive during rapid movement (ca4a57c53).\n• Make macOS screen lookup responsive without stealing focus (d1caaf968).\n• Add bulk dictionary updates to WebUI and Flutter (c2e2dd802).\n• Make animated video clips fast and reliable (72b7518f0).\n• Restore podcast player controls and transcript layout (1407dca31).\n• Fix Windows podcast transcript generation (f84960395).\n• Analyze cached OCR across entire manga chapters (4a2663d26).\n• Restore playback after dictionary lookups in study modes (cab41fd18).\n• Fix title wording (1d1ebbb72).\n• Use supplied podcast transcripts before generating new ones (37dfe8393).\n• Refresh tracker score displays after saving (0ab9da611).\n• Resume manga immersion tracking safely after backgrounding (4c720ef13).\n• Preserve Android screen lookup character positions (4ff0b9d5b).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.19/Manatan-v6.2.19-iOS.ipa",
-          "size": 411778577,
+          "version": "6.2.20",
+          "date": "2026-10-28T10:59:30Z",
+          "localizedDescription": "Release v6.2.20:\n\n• Improve manga OCR resource diagnostics (341fcdc2b).\n• Open Screen lookup cards in the native SRS editor (f22cc6091).\n• Keep episodes and progress during library refreshes (b37634bfc).\n• Avoid hidden Home refreshes and unnecessary source updates (d27e0da7e).\n• Honor daily study limits and show complete collection statistics (2fd5eb880).\n• Keep YouTube playback awake while buffering (717318433).\n• Keep SRS editor fields aligned on phones (6f6bbd775).\n• Improve YouTube subtitle layouts and reclaim Shorts letterboxing (13c5fbe6c).\n• Keep saved source credentials out of settings responses (f9ae0aa05).\n• Keep MyAnimeList tracking working after session expiry (c59ad8d03).\n• Open card lookup links in the browser without overlapping controls (b27c21221).\n• Keep reviewer shortcuts active between cards (db4edd630).\n• Align subtitle underlines without changing their appearance (9a75bb502).\n• Keep dictionary popups attached to the selected character (b32aae3ec).\n• Keep rapid subtitle lookups responsive through the final hovered word (eee2647f2).\n• Keep video gestures out of playback settings (17c6ab8fd).\n• Make Home hide confirmations brief and dismissible (56be98d1f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.20/Manatan-v6.2.20-iOS.ipa",
+          "size": 411975050,
           "minOSVersion": "16.1"
         }
       ],
@@ -7844,11 +7844,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.3",
-          "date": "2026-10-25T02:59:26Z",
-          "localizedDescription": "Modu 1.3.3:\n\nBuild / 构建：10163 · Stable / 正式版.\n\nEnglish:\n\n• Feat(logs): Include device model, OS, installed Modu version/build and Android WebView provider/version in startup and exported logs, without device identifiers.\n\n• Feat(translation): Add independent output colours for language and Classical Chinese translation, with presets, a custom picker and confirmed reset. Both reader translation panels use consistent settings rows and expose output-appearance controls; source text keeps its existing Style settings.\n• Feat(translation): Match the body-size slider with a 0.5–3.0 scale in 0.1 steps for translations and allow restoring the original size. Preview the same Analects passage in the selected target language; keep the two translation appearance settings independent.\n• Fix(plugins): Preserve edited contributions during upgrades and retain the installed package on failure. Serialize lifecycle operations, bound decompression output, and prevent settings restore from granting plugin consent.\n\n• Fix(webview): Make the reader bootstrap parseable by older WebViews, transpile the legacy PDF scripts and load required polyfills. Report unsupported WebViews and script failures promptly; recognize both ModuUA and legacy AnxUA logs.\n• Fix(selection): Restrict selection-menu pointer interception to visible controls so transparent menu space no longer blocks cross-page selection handles.\n• Fix(harmony): Keep the reading toolbar clear of notches and camera cutouts with system bars hidden, including rotation, without adding duplicate safe-area spacing or changing pagination.\n• Fix(reader): Recover an invalid saved EPUB text position at the same chapter’s start so shelf entry can finish loading the TOC and annotations. Preserve valid note-entry positions and annotation anchors.\n• Fix(windows): Reject unsupported /S silent-install arguments before opening the installer wizard and report the supported Inno Setup command, preventing unattended installations from waiting indefinitely.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.3/Modu-1.3.3-ios-arm64.ipa",
-          "size": 53468243,
+          "version": "1.3.4",
+          "date": "2026-10-28T06:06:33Z",
+          "localizedDescription": "Modu 1.3.4:\n\nBuild / 构建：10165 · Stable / 正式版.\n\nEnglish:\n\n• Feat(tts): Use compact minus/value/plus controls for pitch (0.5–2.0×) and speed (0.1–4.0×), with direct input and 0.1 steps. Give each half the row, centering labels above their controls on narrow screens and beside them when space allows.\n• Fix(tts): Apply Xiaomi MiMo pitch through Android playback so individual levels affect buffered speech without resynthesis; retain pitch and speed across pause, resume and segment changes. Other platforms send distinct pitch instructions where supported.\n• Perf(reader): Batch adjacent generated text-run measurements, remove duplicate position refreshes after layout and skip unchanged continuous-reading styles; preserve text, selection and navigation behavior.\n\n• Perf(reader): Coalesce Android and HarmonyOS continuous-scroll position measurements while keeping chapter preloading responsive and flushing the final position.\n• Fix(sync): Restore newer synchronized reading and narration positions when resuming a paused reader; preserve active narration and retry deferred background jumps.\n• Feat(bookshelf): Support opening supported books from system file associations and import dropped books without repeated confirmation dialogs, preserving originals and isolating per-file failures.\n• Fix(ocr): Remember forced OCR per book and replace embedded-text cache results when OCR is requested, preserving saved revisions and note anchors.\n• Fix(pdf): Improve continuous-reading backing-image clarity while bounding decoded pixels and retaining visible or selected pages; allow enhancement throughout the supported 8 MP backing-image budget.\n• Feat(reader): Add an optional move-and-resize switch for selection-tool popups, visible only in popup display mode and off by default. Drag the top to move, or the sides, bottom and corners to resize; every opening restores the default position and size.\n• Feat(translation): Add Baidu Translation API and Microsoft Translator to ordinary language translation, sharing service credentials with Classical Chinese translation. Translate visible paragraphs progressively and support cancellation while keeping each translation mode’s language and appearance preferences independent.\n• Feat(translation): Show separate character-use estimates and editable reference-allowance progress for Baidu and Microsoft only. Aggregate updated devices through encrypted settings sync without double-counting repeated syncs; AI and Google usage are excluded. Estimates count successful Modu requests in UTC calendar months and are not official balances; Microsoft Key 1 and Key 2 are counted separately.\n• Fix(bookshelf): Size folder dialogs around the configured cover width and available screen space, avoiding oversized covers in partially filled rows.\n• Fix(sync): Refresh shelf and open-folder ordering after reading-position synchronization when sorting by last read, using the synchronized reading timestamp and preserving pinning.\n\n• Fix(sync): Synchronize translation service configuration and credentials through the existing encrypted settings channel while keeping language, translation direction and output appearance local, including when importing older snapshots.\n• Ci(tests): Align folder-menu fixtures with synchronized group membership so full regression covers folder selection and reader-return transitions.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS / Windows / Linux ARM64 \u0026 x64 · HarmonyOS ARM64. Every package includes a SHA-256 sidecar. / 每个安装包均提供 SHA-256 校验文件。.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.4/Modu-1.3.4-ios-arm64.ipa",
+          "size": 53524240,
           "minOSVersion": "16.0"
         }
       ],
@@ -8211,11 +8211,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.8",
-          "date": "2026-10-27T20:38:46Z",
+          "version": "0.11.9",
+          "date": "2026-10-28T08:59:53Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.8/rust-dicom-station-0.11.8-ios.ipa",
-          "size": 26544621,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.9/rust-dicom-station-0.11.9-ios.ipa",
+          "size": 26563708,
           "minOSVersion": "15.0"
         }
       ],
@@ -13326,10 +13326,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-27T23:49:35Z",
-          "localizedDescription": "Unsigned IPA compiled from commit d0e3e22, build 23052. This experimental build does not establish SINF validation or successful decryption. CI passed, including native loop and hotspot comparisons and portable tests. Re-sign using your usual method. SHA-256: ed8288ce620d1ec4b1048350d53f648eaac972d00ec2b3e39d119adc60d13fb7.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/test-hotblocks-20261027-2346-utc/Crumb-2026-10-27-2346-UTC.ipa",
-          "size": 41130647,
+          "date": "2026-10-28T07:39:32Z",
+          "localizedDescription": "Unsigned IPA compiled from commit 3879780, build 23053. Adds explicit private licensing-state export for host replay; no upload is automatic. This experimental build does not establish SINF validation or successful decryption. CI passed, including native loop and hotspot comparisons and portable tests. Re-sign using your usual method. SHA-256: 607dc276aa5ec0425c21bc4ab05b1214dee01535a840212496ae3f1d78fc5593.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/test-state-export-23053-20261028-0359-utc/Crumb-23053-2026-10-28-0359-UTC.ipa",
+          "size": 41139118,
           "minOSVersion": "16.4"
         }
       ],
@@ -13668,7 +13668,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-28T04:20:26Z",
+          "date": "2026-10-28T05:17:25Z",
           "localizedDescription": "This is a Hello-World iOS app. It exists only to prove the build-and-package pipeline works end to end on a free macOS runner. The game itself is in the latest-ipa release.",
           "downloadURL": "https://github.com/wayl-t/Rigs-of-Rods-for-iOS/releases/download/pipeline-check/RoRNative.ipa",
           "size": 18635,
