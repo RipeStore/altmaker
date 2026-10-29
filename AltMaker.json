@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "org.omarchy.flux.ios",
-    "com.openagentd.mobile",
-    "com.surfrpt1.procraft"
+    "gitlab.httpanimations.newtube",
+    "cn.bobochang.sonar",
+    "com.modu.reader"
   ],
   "apps": [
     {
@@ -1167,11 +1167,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.174.0",
-          "date": "2026-10-28T06:59:49Z",
-          "localizedDescription": "• Automatic recovery (F1125): owned stalled requests retry automatically by default. Advanced settings can opt into the complete manual Retry/Cancel panel. Recovery preserves healthy sibling work and rejects obsolete owners.\n• Normal feed limits (F1126): expected Mega and Patagonia caps are normal loaded snapshots, not failure alerts. Coverage notes remain in menu Info. Real acquisition and persistence failures remain actionable.\n• Patagonia history (F1127): qualified dated history remains usable without false acquisition warnings. Complete, successful empty results still clear normally. This does not expand source coverage or weaken qualification.\n• Patches order (F1128): Today's, Day trip, Nearby, Favorite, Cold and Hot.\n• Bird alerts (F1129): Common birds follows Mega rarities; FOY Ticks is last. Existing destinations, eligibility and saved shortcut identities stay.\n• Menu organization (F1130): shorter Stakeouts, Rankings and Settings \u0026 Help headings. Rankings precedes Birding Insights, which contains Twitch weather, Migration, Dawn and dusk, Iconic Patches, Convoys, Recent checklists and Break a record.\n• Default shortcuts (F1132): Today's patches, Twitches and Year List for absent or unreadable preferences. All saved/custom selections, including the former default trio, remain unchanged.\n• Rotating tip (F1133): Birder Jargon remains an inline tip after the complete Stakeouts group, before Rankings. Rotation and caching remain.\n\nCollapsed menus are parked, not enabled. The original cause of the reported network stall remains unknown; automatic recovery is not a claim that the network fault itself was fixed.\n\nValidation and delivery:\n\nFull local gates passed: parity, the complete non-DOM catalog (286 pass, one skipped), all 1,504 DOM tests, all six real-Chrome viewport/text profiles, and 20 wiring checks. Behavioral guards were mutation-verified. CI exposed a timezone-dependent migration test fixture, corrected without changing runtime source. The corrected candidate also passed full parity, the complete 1,790-test app catalog (one existing skip), all six real-Chrome viewport/text profiles and all 20 wiring checks. Exact-source unsigned CI 40642110720 and signed CI 40647255073 both succeeded. App source candidate: f6be3c27b181dcba911273b196ccfb1da25edc3f.\n\nBoth downloaded IPAs contain the exact committed runtime. The unsigned IPA's SHA-256 is b661e560445190170f1905803d61eda27083a4aa9180149c6603e53af0fdcf93; the signed IPA's is f3c93c34ffe5330f4e74732dfdaf69deff8335a5504fb12464652043b6b254e3. Public/native bundle contracts pass. The published gallery ZIP and all 168 PNGs are verified, with 42 shots in each of four device/text variants: https://wyatthoutz.github.io/birding-app/mockups/v1.174.0/\n\nThe unsigned IPA requires sideloading. Signed TestFlight build 14.1 is VALID and IN_BETA_TESTING, not merely uploaded. Group lookup is permission-limited (HTTP 403), so individual account/device visibility is not independently confirmed. TestFlight dashboard: https://appstoreconnect.apple.com/apps/6825611448/testflight/ios\n\nUnverified on device:\n\nAutomatic/manual timeout recovery, menu organization, new shortcut defaults and rotating-tip placement have not been independently exercised on the owner's installed device for this version.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.174.0/BirdChaser-unsigned.ipa",
-          "size": 143156100,
+          "version": "1.175.0",
+          "date": "2026-10-28T23:33:58Z",
+          "localizedDescription": "F1135 - Compact migration headlines distinguish the forecast from the separately measured previous-night count. Saved/current provenance and source-night details remain available without repeating the long headline.\n\nF1137 - Nearby patches uses click-only progressive loading, retains the existing 32-km API scan without a second five-mile cutoff, and adds All/Unseen filtering. Today's patches and chase/travel policies are unchanged.\n\nF1140 - Contain the transparent region label so it cannot intercept Refresh taps in any menu, with permanent real-browser all-menu hit-target coverage. Preserve Stakeout reading position during the coupled progress-bar reflow.\n\nF1142 - Sensitive alerts use an immutable first-detected-by-the-app timestamp for each region/species/source month. Advance cached timeago, expire visibility after 24 elapsed hours, and retain the monthly record to prevent repeats. Existing monthly presence is silently baselined rather than assigned a fabricated observation date; eBird's withheld date and location remain undisclosed.\n\nF1143 - Temporarily disable Nemesis entry/loading without deleting saved data. F1144 - Add Stakeout Birds as the fourth default shortcut while preserving custom and empty saved selections. F1145 - Rename Common birds to Birds I Need and move detailed calculations into Info while retaining useful loading/error feedback. F1146 - Exchange Birds I Need and Nemesis icons without reenabling Nemesis.\n\nInstall the unsigned IPA with AltStore/AltServer; free Apple signing requires periodic refresh. TestFlight delivery is independent and subject to Apple processing and testing eligibility.\n\nThe .ipa below is UNSIGNED and was built by CI from 8100b0d, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.175.0/BirdChaser-unsigned.ipa",
+          "size": 143392673,
           "minOSVersion": "15.0"
         }
       ],
@@ -1910,11 +1910,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.0",
-          "date": "2026-10-25T21:35:02Z",
-          "localizedDescription": "iPhone and iPad 0.11.0: Your language, your picture:\n\nUse MovieClaw in English or Chinese and adjust the picture to suit your screen.\n\n• The interface now supports Simplified Chinese and English. The language entry opens the system's per-app language settings; Server 0.43.0 adds matching server messages.\n• Adjust video display modes and restore the original presentation. Subtitles follow the picture, including after rotation while paused.\n• Rule groups can exclude Dolby Vision Profile 5 with DV P5; use Server 0.43.0 for this rule.\n\nFull changes:.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.11.0/MovieClaw-iOS-unsigned.ipa",
-          "size": 28976875,
+          "version": "0.12.0",
+          "date": "2026-10-29T03:27:54Z",
+          "localizedDescription": "iPhone and iPad 0.12.0: Pull down for clips:\n\nThe library home opens clips with a pull, series show an air schedule, and the download queue can be reordered.\n\nPull down on the library home to watch clips:\n\nKeep pulling down on the library home. When it says Release to start watching, let go and Clips opens. The first time, a tip explains the gesture.\n\n• The top bar no longer has a Clips button. With VoiceOver on, the Clips button stays, because a pull is not available.\n• The entry is hidden while the library is offline.\n\nSee when the next episode airs:\n\nOn a series, open Air schedule under the season. It shows what has aired, what is missing, and the next date. Follow new episodes subscribes from there.\n\n• The card stays hidden offline, and on a server that does not send a schedule.\n\nPut the next download first:\n\nIn Downloads, drag the queue to reorder it, or choose Prioritize download. On cellular, a hotspot, or Low Data Mode, a download shows Waiting for Wi-Fi until you choose Download over cellular or join Wi-Fi.\n\nMore features and improvements:\n\n• iPhone Duo. On the inner screen, playback can sit in a tabletop console: previous and next episode are on their own row, and diagnostics move to the top bar. iPad wide layouts use the wider card metrics. Other iPhones are unchanged.\n\nFull changes:.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.0/MovieClaw-iOS-unsigned.ipa",
+          "size": 30352425,
           "minOSVersion": "26.0"
         }
       ],
@@ -1998,11 +1998,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.5",
-          "date": "2026-10-24T15:49:33Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.5/Scripta-ios-unsigned.ipa",
-          "size": 10579854,
+          "version": "1.0.6",
+          "date": "2026-10-28T23:49:04Z",
+          "localizedDescription": "fix sync.",
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.6/Scripta-ios-unsigned.ipa",
+          "size": 10586061,
           "minOSVersion": "14.0"
         }
       ],
@@ -2514,10 +2514,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-28T13:00:32Z",
-          "localizedDescription": "• Track.rawPayload 增加解码缓存（TrackPayloadCache），长列表不再每行重复解析 JSON。.",
-          "downloadURL": "https://github.com/can4hou6joeng4/Sonar/releases/download/v1.0.0-preview.4/Sonar-1.0-build26-unsigned.ipa",
-          "size": 2937187,
+          "date": "2026-10-29T03:46:48Z",
+          "localizedDescription": "此前累计变更见 CHANGELOG。.",
+          "downloadURL": "https://github.com/can4hou6joeng4/Sonar/releases/download/v1.0.0-preview.5/Sonar-1.0-build27-unsigned.ipa",
+          "size": 2936112,
           "minOSVersion": "17.0"
         }
       ],
@@ -2537,11 +2537,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.4.1",
-          "date": "2026-10-27T22:07:31Z",
-          "localizedDescription": "• Engine sound no longer fades. The game's sound engine dropped the engine, turbo and skid sounds when its mixing thread was held up for a moment, and they only came back at the next gear change. That no longer happens. Fix ported from SpeedBreaker (SpeedBreakerProject/speedbreaker).\n• Steadier 60 fps. The thread that keeps the game's 60 Hz timing now runs at real-time priority, so it wakes on time; frame timing on 120 Hz screens turns itself off if the screen does not keep to it. From SpeedBreaker.\n\n• iOS 18, experimental. The app now installs on iOS / iPadOS 18 (it needed 26). Nobody has tested it on iOS 18 yet: reports welcome.",
-          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.4.1/NFSMW.ipa",
-          "size": 30101026,
+          "version": "0.4.2",
+          "date": "2026-10-28T23:01:31Z",
+          "localizedDescription": "• \"Appears to be damaged\" careers load. A career saved on another device or install carries another player ID, and the game refused it as damaged although the file was fine. It now loads, and is saved with this device's ID from then on.\n• Black Edition cars no longer invisible after loading a career. The extra car records kept beside a save were only put back if the career matched them exactly, so one changed record left the cars invisible and without their upgrades. They now come back whenever the records that need them match.\n• Smooth motion at 60 fps. The game world and camera could judder, as if running at 30 fps, even though the fps counter showed a steady 60: worst in places you visit for the first time and right after restarting the device. The game timed each frame unevenly and moved the world by those uneven steps while the screen showed the frames evenly. Each frame now moves the world by exactly one screen refresh.\n• Smoother 40 fps. At the 40 fps cap the world moved in alternating short and long steps (the game's 60 Hz steps do not divide into 40), so it looked closer to 30 than the mirror and the map. The 40 cap now runs the game's simulation at 120 Hz: three even steps per frame.\n• Battery mode lets you choose 30 or 40 fps (it always forced 30).\n• Custom HUD switch. The HUD size and position settings now sit behind one Custom HUD switch, off by default: the game's own HUD unless you turn it on (your earlier changes come back when you do).\n• No more stutter from the touch controls. Steering or pressing the on-screen controls made a frame arrive one refresh late, so donuts and quick steering stuttered. The controls are now drawn as part of the game's picture.\n• extra_args.txt saved as UTF-16 now works. A file that went through the Mac (TextEdit, the clipboard) could be UTF-16, and every argument in it was ignored.",
+          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.4.2/NFSMW.ipa",
+          "size": 30121770,
           "minOSVersion": "18.0"
         }
       ],
@@ -3031,7 +3031,7 @@
       "bundleIdentifier": "com.neogamelab.neostation",
       "developerName": "TarbleFR",
       "subtitle": "Your games, consoles and library on iPhone and iPad",
-      "localizedDescription": "Your games, consoles and library on iPhone and iPad:\n\nRewindBox is an independently maintained iOS/iPadOS fork of NeoStation, maintained. This is not an official.\n\nNeoStation support, for help with this fork.\n\nRewindBox combines a game library with embedded emulation runtimes for compatible systems. Libretro cores run inside RewindBox, as do the integrated MeloNX Nintendo Switch engine, Dolphin, ARMSX2 and RPCS3. A separate MeloNX app is not used to launch games from RewindBox. Users provide their own compatible games, firmware, keys and BIOS where required.\n\nLatest release — fix 0.0.9 (Build 530):\n\nPublished 25 October 2026 · GitHub tag 0.0.9-fix.1.",
+      "localizedDescription": "Your games, consoles and library on iPhone and iPad:\n\nRewindBox is an independently maintained iOS/iPadOS fork of NeoStation, maintained.\n\nRewindBox brings your game library and embedded emulators into one sideloaded app: Libretro, MeloNX for Nintendo Switch, Dolphin, ARMSX2 and RPCS3. Compatible games run inside RewindBox with its menus and controls; a separate RetroArch or MeloNX installation is not required.\n\nWhat's new in 0.0.10:\n\nPublic release · Build 559 · Changes since 0.0.9-fix.1 (Build 530).\n\n• Refined Liquid Glass interface: updated headers and menus, a working Interface preview with Apply/Revert, and more appearance options in all twelve supported languages.\n• Embedded Nintendo Switch / MeloNX: backend threading enabled by default, game FPS in the RAM overlay, in-game MoltenVK selection with automatic fallback, and fixes for imports, updates, audio and closing games.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.neogamelab.neostation.png",
       "tintColor": "#5e71c8",
       "category": "games",
@@ -3725,11 +3725,11 @@
       ],
       "versions": [
         {
-          "version": "0.30.1",
-          "date": "2026-10-23T21:38:54Z",
+          "version": "0.31.0",
+          "date": "2026-10-29T04:23:26Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/justacalico/newtube/releases/download/v0.30.1/newtube-0.30.1-ios.ipa",
-          "size": 16424270,
+          "downloadURL": "https://github.com/justacalico/newtube/releases/download/v0.31.0/newtube-0.31.0-ios.ipa",
+          "size": 16361544,
           "minOSVersion": "15.0"
         }
       ],
@@ -5203,7 +5203,7 @@
       }
     },
     {
-      "name": "iCube",
+      "name": "iCube SL",
       "bundleIdentifier": "com.joemattiello.iCube",
       "developerName": "Provenance-Emu",
       "subtitle": "Dolphin for iOS, re-reborn",
@@ -5214,10 +5214,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-28T05:43:08Z",
-          "localizedDescription": "Immutable snapshot of alpha build 404 (cea6608).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 404, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-404/Non-Jailbroken.ipa",
-          "size": 98869234,
+          "date": "2026-10-28T23:44:18Z",
+          "localizedDescription": "Immutable snapshot of alpha build 407 (de88c80).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 407, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-407/Non-Jailbroken.ipa",
+          "size": 98869532,
           "minOSVersion": "17.0"
         }
       ],
@@ -6326,11 +6326,11 @@
       ],
       "versions": [
         {
-          "version": "4.3.0",
-          "date": "2026-10-28T17:53:09Z",
-          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit ba07295 on master.\n\n🔄 Commits Since App Store Release (v4.3.0)::\n\n• 91a40cb Add optional feed vote buttons and vote tap haptics (#71).\n• ae01460 vote button ui refinement.\n• 98e4590 Add the comment count to the post details (#72).\n\n• ba07295 new api.\n\nFeatures:\n\n• Mute videos by default.\n\n• Hide next comment button.\n• Hide popular \u0026 all.\n• Disable inbox replies.\n• Media viewer performance.\n\nBugfixes:\n\n• The login page could sometimes freeze or report a browser error, causing login to fail.\n• The audio track on videos could stutter after rotating the device.\n• Pan gestures on zoomed in images would sometimes be counted as a tap by the media viewer overlay.\n• Text bodies in spoiler posts would sometimes not be blurred correctly.\n• In certain cases, Hydra would fail to indicate when a user is banned.\n• Certain gestures would cause Hydra to crash after backgrounding the app.",
-          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.3.0-ba07295/Hydra-v4.3.0-ba07295-unsigned.ipa",
-          "size": 33720339,
+          "version": "4.4.0",
+          "date": "2026-10-29T03:25:12Z",
+          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit df845c9 on master.\n\n🔄 Commits Since App Store Release (v4.3.0)::\n\n• 91a40cb Add optional feed vote buttons and vote tap haptics (#71).\n• ae01460 vote button ui refinement.\n• 98e4590 Add the comment count to the post details (#72).\n\n• ba07295 new api.\n• fc1ee9e add login button to pages that get not logged in error.\n• 81b5741 update info.\n• df845c9 post and comment message previews sometimes rendered links incorrectly.\n\nFeatures:\n\n• Mute videos by default.\n\n• Hide next comment button.\n• Hide popular \u0026 all.\n• Disable inbox replies.\n• Media viewer performance.\n\nBugfixes:\n\n• The login page could sometimes freeze or report a browser error, causing login to fail.\n• The audio track on videos could stutter after rotating the device.\n• Pan gestures on zoomed in images would sometimes be counted as a tap by the media viewer overlay.\n• Text bodies in spoiler posts would sometimes not be blurred correctly.\n• In certain cases, Hydra would fail to indicate when a user is banned.\n• Certain gestures would cause Hydra to crash after backgrounding the app.",
+          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.4.0-df845c9/Hydra-v4.4.0-df845c9-unsigned.ipa",
+          "size": 33722672,
           "minOSVersion": "16.4"
         }
       ],
@@ -6944,11 +6944,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.43.0",
-          "date": "2026-10-27T19:09:28Z",
-          "localizedDescription": "Added:\n\n• Newsletters, a place of its own under Feeds in the sidebar. Make an email address for newsletters in it (from Kill the Newsletter, a free service), copy it, and sign up to newsletters with it. Each email arrives in Newsletters and is saved as a clip into a collection named after the address, titled by its subject, so it reads offline and syncs. Unread emails have a dot; a \"please confirm\" email has a Confirm button that opens its link in the browser and is never saved.\n• Several addresses, one per newsletter or per group, each a chip. An address's Settings has Copy address, whether new emails save themselves, and Delete the address, which makes its emails bounce.\n• On a computer the browser can't reach the addresses: Newsletters shows the emails your phone saved, through sync, and a new address can be made on Kill the Newsletter's page and its feed link pasted in.\n• G then N goes to Newsletters.\n\nChanged:\n\n• Newsletter addresses aren't in Feeds, the Feeds widget or the OPML export (their links are their keys).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.43.0/Waypage.ipa",
-          "size": 10601540,
+          "version": "1.43.1",
+          "date": "2026-10-28T22:32:43Z",
+          "localizedDescription": "Changed:\n\n• Newsletters looks like Feeds and the library: a new address is named and made from the field at the bottom, an address's settings open by holding its chip (even when it's the only one), and Copy address sits on the line over the emails, beside the address, in place of New address and Settings.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.43.1/Waypage.ipa",
+          "size": 10601732,
           "minOSVersion": "15.5"
         }
       ],
@@ -7111,10 +7111,10 @@
       "versions": [
         {
           "version": "2.0.0",
-          "date": "2026-10-22T10:52:32Z",
-          "localizedDescription": "New Features:\n\n• Multiple accounts: sign in to several accounts on the same instance, switch between them from Home, the sidebar or the toolbar, rename them, and sync them to your other devices through iCloud; the switcher shows when an account needs attention and can be hidden outside Settings.\n• Subscriptions, feed, playlists and watch history now follow the selected account, and accounts can be set inactive without signing out.\n• Manage Invidious and Piped account playlists: create, rename, edit the description, delete, and add or remove videos; set privacy on Invidious.\n• Invidious watch history: videos you play are saved to the selected account's history on the server, and the History screen shows that history and can remove videos from it.\n• Choose where a subscription or playlist addition goes: Subscribe On in the channel menu and an account picker in Add to Playlist, covering local storage and every signed-in account.\n• Redesigned player details panel with pages (Info, Comments, Queue and more), configurable presets, per-page element customization, per-orientation visibility and section ordering.\n• New corner player layout on iPad and macOS, now the default for built-in presets.\n• iPhone Duo support: tabletop layout with the video above the hinge, split layout in book posture, sidebar on the inner screen, exterior display support and Foldable playback settings.\n• Shortcuts and Siri support, including voice commands for player controls and sections.\n\n• Open Link handles more YouTube link types including playlists and at handle channels, opens a single link straight into its details and shows several links as mixed results.\n• Play direct media links without Yattee Server.\n• Hide Shorts toggle in view options.\n• Navigation setting to keep the tab bar on large screens.\n• Toolbar layout for video info actions with a configurable primary action; the macOS toolbar now shows every action.\n• Remote Servers and File Sources sections on Home.\n• Share videos via privacy frontend URLs, with an optional frontend URL for Piped instances.\n• Refresh, accounts and link actions in the instance browse menu.\n• Currently Playing toggle and empty-queue placeholder in the queue page.\n• Player notifications (toasts) for actions and errors.\n• Build date in About.\n• Keyboard shortcuts on iPad and macOS to toggle the corner layout panels (⌥⌘I info, ⌥⌘S side column, ⌥⌘P both).\n• macOS: Copy Link in the video context menu (#972).\n\nImprovements:\n\n• Playlist Play starts at a random video in shuffle mode (#988).\n• Comments are configured from their row in details panel settings.\n• Ask Play Now or Play Next when a video is still playing and the queue is empty.\n• Redesigned video info header with collapsible chapters and related videos sections; empty descriptions are hidden.\n• Video details load failures are now shown instead of a blank view.\n• Smooth video resizing during animations on iOS, such as corner layout panel toggles and rotation.\n• Volume and mute respond immediately with the AVFoundation audio output, now preferred on iOS and macOS.\n• Instance subscription imports let you choose where subscriptions go.\n• Playback prefers the active instance.\n\n• Data is re-fetched from iCloud when the local store was recreated.\n• VoiceOver reads the title, channel and duration for video rows.\n• Basic auth credentials moved to the Security section when editing an instance.\n• Channel strip is used when the subscriptions column is too narrow.\n• Pinch to pan \u0026 scan in the tabletop and corner layouts.\n• macOS: Command-Enter opens links.\n• tvOS: Apple TV stays awake during audio-only playback, darker player with solid focused controls, link confirmations shown as alerts, Cancel offered while slow pages load.\n\nBug Fixes:\n\n• Fix a crash opening Search when a video is in history under several sources.\n• Fix the app being killed while saving playback progress during suspension.\n• Fix a crash rendering video after the app went to the background.\n\n• Fix Sync Now dropping unsent history, progress and bookmark changes (#978).\n\n• Fix the subscription feed not updating after subscribing or unsubscribing (#968).\n• Fix Now Playing reporting playback as audio (#969).\n• Fix being locked out of Settings on tvOS after hiding it from the sidebar (#986).\n• Fix missing comment avatars with newer Invidious versions.\n• Fix player controls covered by the camera cutout on the iPhone Duo exterior display.\n• Fix the landscape panel opening on every rotation on the iPhone Duo exterior display.\n• Fix a crash when syncing watch history for videos with very long IDs.\n• Fix white text in video info with the light tvOS color scheme.\n• Fix macOS inline player aspect resizing and playback continuing after its window closes.\n• Fix macOS player window oscillating when resizing across the corner layout threshold.\n• Fix macOS Picture in Picture sizing and the PiP window staying open after closing the video.\n• Fix clipped top controls in corner layout fullscreen.\n• Fix video jumping when dismissing the portrait details panel.\n• Fix portrait panel tabs blocked by the drag handle.\n• Fix the player dismiss gesture starting from side sliders and the panel resize handle.\n• Fix landscape panel moving while Notification Center is open.\n• Fix video info thumbnails and cards misaligned after resizing or rotation.\n• Fix search field not activating when selecting the Search tab on iOS 27.\n• Fix tvOS focus lost after removing a Continue Watching entry.\n• Fix darker edges beside narrow pages like the empty Search on macOS.\n• Fix sheets staying open when opening a link from outside the app.\n• Fix Video Info and Go to Channel from rows inside the player not collapsing the player.",
-          "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.275/Yattee-2.0.0-iOS.ipa",
-          "size": 40018206,
+          "date": "2026-10-28T21:57:49Z",
+          "localizedDescription": "New Features:\n\n• Add performance logging and background diagnostics.\n\nImprovements:\n\n• Update AltStore source for 2.0.0 (275).\n\nBug Fixes:\n\n• Fix player brightness controls on iPhone Duo.\n\nOther:\n\n• Don't animate the video info carousel into place when it first opens.\n• Stop decoding video during background playback on iOS.\n• Scroll mini player marquee with Core Animation on iOS and tvOS.\n• Cut foreground CPU while playing and paused.\n• Read the Duo status column's occlusion regions from a full-bleed reader.\n• Cut foreground CPU during audio-only playback.\n• Stop re-rendering hidden player UI during background playback.\n• Use production CloudKit environment for Xcode builds.\n• Raise Open Link URL limit from 20 to 200.",
+          "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.276/Yattee-2.0.0-iOS.ipa",
+          "size": 39755120,
           "minOSVersion": "18.0"
         }
       ],
@@ -7844,11 +7844,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.4",
-          "date": "2026-10-28T06:06:33Z",
-          "localizedDescription": "Modu 1.3.4:\n\nBuild / 构建：10165 · Stable / 正式版.\n\nEnglish:\n\n• Feat(tts): Use compact minus/value/plus controls for pitch (0.5–2.0×) and speed (0.1–4.0×), with direct input and 0.1 steps. Give each half the row, centering labels above their controls on narrow screens and beside them when space allows.\n• Fix(tts): Apply Xiaomi MiMo pitch through Android playback so individual levels affect buffered speech without resynthesis; retain pitch and speed across pause, resume and segment changes. Other platforms send distinct pitch instructions where supported.\n• Perf(reader): Batch adjacent generated text-run measurements, remove duplicate position refreshes after layout and skip unchanged continuous-reading styles; preserve text, selection and navigation behavior.\n\n• Perf(reader): Coalesce Android and HarmonyOS continuous-scroll position measurements while keeping chapter preloading responsive and flushing the final position.\n• Fix(sync): Restore newer synchronized reading and narration positions when resuming a paused reader; preserve active narration and retry deferred background jumps.\n• Feat(bookshelf): Support opening supported books from system file associations and import dropped books without repeated confirmation dialogs, preserving originals and isolating per-file failures.\n• Fix(ocr): Remember forced OCR per book and replace embedded-text cache results when OCR is requested, preserving saved revisions and note anchors.\n• Fix(pdf): Improve continuous-reading backing-image clarity while bounding decoded pixels and retaining visible or selected pages; allow enhancement throughout the supported 8 MP backing-image budget.\n• Feat(reader): Add an optional move-and-resize switch for selection-tool popups, visible only in popup display mode and off by default. Drag the top to move, or the sides, bottom and corners to resize; every opening restores the default position and size.\n• Feat(translation): Add Baidu Translation API and Microsoft Translator to ordinary language translation, sharing service credentials with Classical Chinese translation. Translate visible paragraphs progressively and support cancellation while keeping each translation mode’s language and appearance preferences independent.\n• Feat(translation): Show separate character-use estimates and editable reference-allowance progress for Baidu and Microsoft only. Aggregate updated devices through encrypted settings sync without double-counting repeated syncs; AI and Google usage are excluded. Estimates count successful Modu requests in UTC calendar months and are not official balances; Microsoft Key 1 and Key 2 are counted separately.\n• Fix(bookshelf): Size folder dialogs around the configured cover width and available screen space, avoiding oversized covers in partially filled rows.\n• Fix(sync): Refresh shelf and open-folder ordering after reading-position synchronization when sorting by last read, using the synchronized reading timestamp and preserving pinning.\n\n• Fix(sync): Synchronize translation service configuration and credentials through the existing encrypted settings channel while keeping language, translation direction and output appearance local, including when importing older snapshots.\n• Ci(tests): Align folder-menu fixtures with synchronized group membership so full regression covers folder selection and reader-return transitions.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS / Windows / Linux ARM64 \u0026 x64 · HarmonyOS ARM64. Every package includes a SHA-256 sidecar. / 每个安装包均提供 SHA-256 校验文件。.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.4/Modu-1.3.4-ios-arm64.ipa",
-          "size": 53524240,
+          "version": "1.3.5",
+          "date": "2026-10-29T03:37:23Z",
+          "localizedDescription": "Modu 1.3.5:\n\nBuild / 构建：10167 · Stable / 正式版.\n\nEnglish:\n\n• Feat(reader): Add device-local popup height limits (40–80%, default 80%) and reading popup opacity (20–100%, default 100%); E-Ink mode keeps popups opaque.\n• Fix(reader): Prevent clipping in narration controls and nested reading menus; keep narration and zoom floating bars at their original opacity.\n• Fix(sync): Refresh retained readers after unlocking and apply newer synchronized page and paused narration positions.\n• Fix(sync): Save the visible page anchor when leaving ordinary reading; preserve resumable narration anchors and highlights without starting playback or initializing an unconfigured engine.\n• Feat(tts): Continue PDF reflow narration onto the next original page, preferring cached and corrected text and waiting for extraction or OCR when needed; PDF narration remains session-only.\n• Fix(tts): Restore playback from paused vivo/iQOO media notifications.\n• Fix(windows): Remove the permission plugin’s unnecessary startup location subscription.\n\n• Fix(appearance): Use fixed 50% opacity for transient messages, independently of reading popup settings.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS / Windows / Linux ARM64 \u0026 x64 · HarmonyOS ARM64. Every package includes a SHA-256 sidecar. / 每个安装包均提供 SHA-256 校验文件。.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.5/Modu-1.3.5-ios-arm64.ipa",
+          "size": 53550205,
           "minOSVersion": "16.0"
         }
       ],
@@ -9210,7 +9210,7 @@
       "bundleIdentifier": "moe.itoapp.ito",
       "developerName": "AtiinLabs",
       "subtitle": "Open source manga, Anime and Novel viewer for iOS",
-      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList, MyAnimeList and MangaBaka tracking, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS. Vertical/Webtoon reading preserves the page position as images load and chapters enter or leave the loaded window. Failed page images wait for Try Again, rather than retrying whenever they return on screen. A source can mark single chapters as text, so a series can mix page volumes with novel volumes; each opens in the reader that fits it. Known locked chapters stop Start/Resume and adjacent navigation rather than being loaded or skipped.",
+      "localizedDescription": "Features:\n\n• Native manga and novel readers, plus video playback.\n• One library with local history and backups.\n• AniList discovery and progress tracking with AniList, MyAnimeList or MangaBaka.\n• Extensible .ito source plugins with search and source settings.\n\nBuild from source:\n\nRequires Xcode 26.2 or later. Supports iOS and iPadOS 15.4+.\n\nLet Swift packages resolve, select your signing team and device, then run with ⌘R.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
       "tintColor": "#64bd9e",
       "category": "entertainment",
@@ -9223,10 +9223,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-10-27T17:53:26Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit bb24cfc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-188/Ito-1.4.0-dev.188-unsigned.ipa",
-          "size": 12612156,
+          "date": "2026-10-29T01:35:16Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit a204363. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-190/Ito-1.4.0-dev.190-unsigned.ipa",
+          "size": 12858855,
           "minOSVersion": "15.4"
         }
       ],
@@ -10134,7 +10134,7 @@
       "bundleIdentifier": "com.foxlations.mangaReader",
       "developerName": "Foxlations",
       "subtitle": "A manga, manhwa, light-novel and video reader for Android and iOS with an",
-      "localizedDescription": "Foxlations:\n\nA manga, manhwa, light-novel and video reader for Android and iOS with an extension-based source system. Add source repositories, sync progress to AniList / MyAnimeList / Kitsu, back up and restore your library, and read behind Cloudflare-protected sites.\n\nPlease note that I do school and work full time, so updates might be slow. I do see your messages and issues, it just might take me a bit to get to them!\n\nFoxlations is a reader only. It does not host any content. You add your own sources.\n\nlillq.me/foxlations. Same builds either way:\n\n• foxlations--arm64.apk (Android).\n• foxlations-.ipa (iOS, unsigned, for sideloading).\n\niOS users can add the page's AltStore/SideStore source instead and get updates automatically. The in-app About → Check for Updates reads the same manifest.",
+      "localizedDescription": "Foxlations:\n\nA manga, manhwa, light-novel and video reader for Android and iOS with an extension-based source system. Add source and/or local repositories, sync progress to AniList / MyAnimeList / Kitsu, back up and restore your library.\n\nPlease note that I do school and work full time, so updates might be slow. I do see your messages and issues, it just might take me a bit to get to them!\n\nFoxlations is a reader only. It does not host any content. You add your own sources.\n\nlillq.me/foxlations. Same builds either way:\n\n• foxlations--arm64.apk (Android).\n• foxlations-.ipa (iOS, unsigned, for sideloading).\n\niOS users can add the page's AltStore/SideStore source instead and get updates automatically. The in-app About → Check for Updates reads the same manifest.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.foxlations.mangaReader.png",
       "tintColor": "#f0965a",
       "category": "entertainment",
@@ -11492,18 +11492,19 @@
       "tintColor": "#9d6734",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/overlays.jpg",
-        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/plugins.jpg",
-        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/renderers.jpg",
-        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/panels.jpg"
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/quest-helper.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/shortest-path.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/plugin-hub.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/menu.jpg",
+        "https://cdn.jsdelivr.net/gh/audaro/runemobile@master/docs/screenshots/menu-entry-swapper.jpg"
       ],
       "versions": [
         {
-          "version": "0.5.0",
-          "date": "2026-10-27T03:25:33Z",
-          "localizedDescription": "Everything since v0.4.0. The iOS app runs on iPad, and on foldables and Android tablets the game fills the big screen with the chat, minimap and buttons at phone size, and resizes itself when you fold or unfold.\n\nAdded:\n\n• iOS and iPadOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding drops the game session. Sending the app to the background (or locking the screen) pauses the client; on return you may need to log in again, and the first resume-login can occasionally need one retry.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.5.0/RuneMobile-0.5.0.ipa",
-          "size": 166765765,
+          "version": "0.6.0",
+          "date": "2026-10-28T21:39:29Z",
+          "localizedDescription": "Everything since v0.5.0. You can play with the phone held upright, or let Screen: Auto turn the game with the phone. The chat and tab buttons now match the official mobile app, plugin boxes keep off the HUD, and there is a developer guide for anyone who wants to build or change the app.\n\nAdded:\n\n• Screen: Auto turns the game with the phone. The game lays itself out again for the new shape mid-game and keeps a camera zoom for each way up. On iPhone, Auto reads the motion sensor, so it turns even with Portrait Orientation Lock on, and Landscape and Portrait act as the in-game lock. On Android it follows the phone's own auto-rotate setting.\n\nFixed:\n\n• Plugin Hub descriptions written in HTML show as plain text, instead of raw markup such as \u003chtml\u003e.\n• iOS: plugin settings section headers work with VoiceOver, which reads each one as a button that is collapsed or expanded.\n\n• iOS and iPadOS: install the IPA with AltStore or SideStore, which re-signs it on device. JIT must be attached with StikDebug at each launch. For one-tap updates, add this source to AltStore/SideStorere-signs the build you already have without changing its version, so the feed is what makes the real version visible on both sides.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown — by design, to keep the frame rate up.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT. That is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.6.0/RuneMobile-0.6.0.ipa",
+          "size": 166804075,
           "minOSVersion": "17.0"
         }
       ],
@@ -13325,10 +13326,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-28T16:01:47Z",
-          "localizedDescription": "IPA experimental de Crumb. Compilación finalizada el 28/10/2026 a las 15:43 UTC.\n\nFuente: ff6da948f64300b40308b8d4edd750d436be7951, PR #22. Versión 1.0.0, número interno 23053 (conservado), ARM64, iOS 16.4 o posterior. IPA sin firmar: requiere la firma habitual de sideloading.\n\nRestaura el estado de cuenta antes del KBSync del flujo retenido de FairPlay Lab y conserva ese productor para consumir la respuesta. Todavía no demuestra descifrado real del SINF ni de una IPA.\n\nAlcance de prueba: repetir la recuperación offline de la captura antigua no ejercita el generador corregido. El cambio se utiliza al iniciar una nueva transacción desde FairPlay Lab con estado de cuenta guardado. Si ya hay una IPA cargada, el botón de descarga está deshabilitado. Aún no existe una acción separada para solicitar solamente la licencia de la IPA existente, sin repetir la descarga. No se solicita repetir una descarga para confirmar las verificaciones locales ya realizadas.\n\nInstalar encima de la app existente, con el mismo identificador y firma, para conservar el estado; no desinstalar previamente. Conservar las exportaciones privadas existentes.\n\nCI completo aprobado: https://github.com/boierito/Crumb/actions/runs/40717316053 https://github.com/boierito/Crumb/actions/runs/40717316339\n\nSe adjuntan fuentes correspondientes y licencias de Unicorn TCI e ipatool. No contienen capturas ni secretos del usuario.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/experimental-authorized-download-20261028-1543-utc/Crumb-2026-10-28-1543-UTC-ff6da948.ipa",
-          "size": 41203043,
+          "date": "2026-10-29T01:27:46Z",
+          "localizedDescription": "IPA experimental de Crumb. Compilación Release finalizada el 29/10/2026 a las 01:23 UTC.\n\nFuente: ee25a7875aea6405d0101a3c1916d281d80d44ae, PR #24, apilado sobre los PR #23 y #22. Versión 1.0.0; número interno 23053 conservado; ARM64; iOS 16.4 o posterior. IPA sin firmar; requiere la firma habitual de sideloading.\n\nCorrige una omisión de la descarga: conserva el diversitybag cuando Apple lo incluye, lo vincula al mismo productor KBSync, importa keybag y diversitybag en orden y guarda sólo el resultado completo aceptado. Rechaza bolsas ambiguas o inválidas y conserva la evidencia privada de ambas importaciones.\n\nNo se ha validado el SINF real ni descifrado la IPA TT. Las pruebas locales reprodujeron el retorno -42057 y confirmaron la coincidencia de los 432 bytes del buffer rechazado entre la rutina nativa y la derivación móvil independiente. La captura TT anterior no permite saber si Apple había enviado un diversitybag descartado.\n\nInstalar encima de Crumb con el mismo identificador y firma para conservar la autorización. No desinstalar. Conservar las exportaciones originales. Este cambio no recupera retroactivamente material omitido por una captura anterior.\n\nCI aprobado: https://github.com/boierito/Crumb/actions/runs/40799098176 https://github.com/boierito/Crumb/actions/runs/40799098166\n\nSHA-256: 7b71cb3f077d9a1b11570f94f9946bfc13cc03da6a8004c7d7bbca8dc2a1a794 Se adjuntan fuentes correspondientes y licencias. No contienen archivos privados del usuario.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/experimental-complete-license-20261029-0123-utc/Crumb-2026-10-29-0123-UTC-ee25a787.ipa",
+          "size": 41211893,
           "minOSVersion": "16.4"
         }
       ],
