@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "gitlab.httpanimations.newtube",
-    "cn.bobochang.sonar",
-    "com.modu.reader"
+    "com.knightabdo.knightmusic",
+    "me.lampu.lampcord",
+    "io.linuxserver.sealskinisolation"
   ],
   "apps": [
     {
@@ -418,17 +418,17 @@
       "bundleIdentifier": "io.github.mdmrk.rosebed",
       "developerName": "mdmrk",
       "subtitle": "Minecraft Beta 1.7.3 rewritten from scratch in Zig",
-      "localizedDescription": "Rosebed:\n\nMinecraft Beta 1.7.3 rewritten from scratch in Zig, with a client and a dedicated server. The goal is to match the original: same behavior, same worlds from the same seed, and multiplayer that works with it.\n\nIndex:\n\n• Extras not in b1.7.3.\n\nPlay:\n\nPlay in the browser.\n\nExtras not in b1.7.3:\n\n• A fullscreen option in Video Settings (vanilla only has F11).\n• Touch controls and auto-jump on Android and iOS.\n\nOther commands:\n\nDebug builds (plain zig build) may be too slow to play.\n\nWeb:\n\nThe site ends up in zig-out/www.\n\nAndroid:\n\nIf ANDROID_NDK_HOME and ANDROID_HOME are set, you can leave out the two -D options.",
+      "localizedDescription": "Rosebed:\n\nMinecraft Beta 1.7.3 rewritten from scratch in Zig, with a client and a dedicated server. The goal is to match the original: same behavior, same worlds from the same seed, and multiplayer that works with it.\n\nIndex:\n\n• Extras not in b1.7.3.\n\nPlay:\n\nPlay in the browser.\n\nExtras not in b1.7.3:\n\n• A fullscreen option in Video Settings (vanilla only has F11).\n• Touch controls and auto-jump on Android and iOS.\n• Gamepad support on every platform.\n\nOther commands:\n\nDebug builds (plain zig build) may be too slow to play.\n\nWeb:\n\nThe site ends up in zig-out/www.\n\nAndroid:\n\nIf ANDROID_NDK_HOME and ANDROID_HOME are set, you can leave out the two -D options.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.mdmrk.rosebed.png",
       "tintColor": "#6156e2",
       "category": "games",
       "versions": [
         {
-          "version": "1.6",
-          "date": "2026-10-20T10:20:28Z",
-          "localizedDescription": "Changed:\n\n• Updated to Zig 0.17.0.\n• SDL updated to 3.4.18.\n\nFixed:\n\n• Nightly builds only run when something changed.",
-          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.6/rosebed-aarch64-ios.ipa",
-          "size": 4423309,
+          "version": "1.6.1",
+          "date": "2026-10-29T09:45:08Z",
+          "localizedDescription": "Added:\n\n• Gamepad support on every platform.\n\nChanged:\n\n• Faster chunk meshing: mesh buffers are reused between rebuilds and unused per-block work is skipped.\n• Faster smooth lighting: each block's light is looked up only once per chunk rebuild.\n• Faster block lookups: the last chunk accessed is cached.",
+          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.6.1/rosebed-aarch64-ios.ipa",
+          "size": 4429191,
           "minOSVersion": "15.0"
         }
       ],
@@ -643,11 +643,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.4.0",
-          "date": "2026-10-20T17:57:05Z",
-          "localizedDescription": "SealSkin 0.4.0:\n\nSealSkin works from any browser now. The server serves the web app at /, users sign in with an identity provider or the reverse proxy in front of it, sessions open under the web app's own name and install as apps of their own, and several servers can run as one cluster over an object store. Everything the extension and the mobile app did still works: they sign in with an application key made on the web, or, on a single server, with their key files as before.\n\nHighlights:\n\n• The web app. https://\u003cserver\u003e:8443/ is the launcher, the file manager, and the admin pages, with nothing installed. A launch takes the tab, shows its progress, and opens the session when it is ready; a checkbox opens it in a new tab instead. The app installs as a PWA, and every application has a pinned address, /app/\u003capp id\u003e/, that attaches to its running session or launches one, with its options in the query, so a bookmark or a home-screen icon lands straight in a desktop.\n• Sign in with what you have. OpenID Connect, SAML, or a reverse proxy that signs users in through its forward-auth (Authelia, Authentik, Keycloak, oauth2-proxy, Pocket ID, Tinyauth, and the guides for Caddy, Traefik, SWAG, and Nginx Proxy Manager). The provider's groups make administrators and set limits; a new user in no group is held until an administrator approves them into groups. The sign-in page can send the browser straight to the provider, with #root as the way to the server's own page.\n• The built-in administrator. The first start writes two files for one account, admin: /config/admin.json, the key file of the companion apps, and /config/root_key, the root key that signs the web app in. Its desktops, files, and keys are one set whichever way in you take, and SEALSKIN_ROOT_SIGN_IN=false switches the root key off once the provider's administrators are in.\n• Application keys. The extension and the mobile app are companions of the web app: a user makes a key per device on the web, shown as text and as a QR code, pastes or scans it into the app, and an administrator sets how long keys live, which apps may hold one, when a key goes dormant, and revokes any of them.\n• Sessions on one origin. SealSkin serves the Selkies web client itself, taken out of each image at pull time, and the container answers only its API, so sessions live at /\u003csession id\u003e/ under the web app's name: one certificate, permissions granted once, audio that plays, no wildcard DNS. SEALSKIN_SESSION_ISOLATION keeps every session on a name of its own for images you do not trust.\n• Kubernetes. One manifest installs the server in any namespace you administer, with no cluster-scoped objects; every session is a pod beside it, with GPUs, pod templates, resource quotas, and pull secrets honored.\n• Clusters. Servers share users, groups, applications, and settings through an object store, an S3 bucket or the built-in file store, with pools of nodes, placement of sessions, GPU slots, home directories pinned to a node and moved between them, shared files kept in the store and encrypted under SEALSKIN_STORE_KEY, limits that hold across nodes, and an append-only audit log.\n\n• Branding. A name, logo, accent, wallpaper, home links, and the store links of the companion apps, set from the dashboard with a live preview.\n• PRoot Apps catalogs. Catalogs of portable applications assigned to users and groups, fetched on every node and mounted into sessions, from GitHub repositories or any host and registry built the same way.\n\n• A new logo. assets/logo.svg is the source of every icon.\n• The home page. Sessions show live screenshots, applications are favorites or hidden per user, and the sidebar folds away.\n\nServer:\n\n• The web sign-in is a cookie on the web app's origin; every route it authenticates asks the browser where the request came from, the cookie is dropped before a request reaches a session container, and a session's pages may be framed by the web app alone.\n• /companion/ is the lane of the companion apps, which a reverse proxy that signs users in leaves unguarded; /internal/* answers the proxy's own sub-requests alone, wherever the API port is reachable.\n• A plain HTTP listener (SEALSKIN_HTTP_PORT) for a proxy that terminates TLS, answering the addresses in SEALSKIN_TRUSTED_PROXIES alone, with HTTP/3 advertised only where browsers reach the session port directly.\n\n• Nodes call each other with signed requests over a peer listener on 8444, trusting the approved nodes' certificates alone; a bucket's credentials make a node a member, a file store asks an administrator to approve it or takes a join code.\n• Per-user launch leases keep a user with a session limit from racing it.\n• Every picture a page shows comes from the server: application, PRoot, and home-link logos are fetched once and served from /api/logos/\u003cname\u003e; nothing loads from a third party.\n• A user in no group is in default, a built-in group the Groups table shows read-only: the server's defaults, which a user's own record overrides. Applications, VPN profiles, and pools may name default to reach exactly those users, where all reaches everyone; no group may be named default, all, or none. Approve on a held user opens the groups to place them in, with the groups the provider named beside; turning SEALSKIN_SSO_HOLD_NEW_USERS off lets new users in at once and leaves the held ones held.\n• Groups now restrict: where a user and their groups disagree, the stricter switch and the smaller limit win.\n\n• NVIDIA sessions want the NVIDIA Container Toolkit v1.20.1 or higher, whose refresh service creates the modeset device; the server mounts it itself only as the fallback for a runtime that injects none.\n\nClient:\n\n• The web app, the extension, and the mobile app share one served UI; the shells frame the same pages and add their privileged pieces.\n• The connect page offers an application key first and a key file second; a key carries the server's address, so the page fills it in, and the mobile app reads it from the QR code the web app shows.\n• The extension no longer frames a server over plain HTTP once it has answered over HTTPS, unless the user says so, and a page framed over plain HTTP says so above it. A served page can no longer read the connect page's draft or have the shell fetch an address on its behalf.\n• In-page modals replace every browser alert; stopping a session asks nothing, since the home directory stays.\n• The mobile app's pages fit a phone in portrait, and its APKs carry the icons.\n• Translations for every page in all seventeen other languages.\n\nOn the linuxserver/sealskin container nothing on disk needs changing: users, groups, installed_apps.yml, templates, and sessions load as before, and key files keep signing in while SEALSKIN_LEGACY_AUTH stays on (its default). What is new:\n\n• The first start writes /config/root_key, an application key of the administrator admin whose key file is /config/admin.json. Open https://\u003cserver\u003e:8443/, sign in with it, then copy it somewhere safe and delete the file.\n• The server's identity in its own records is the container's name. Give the container a stable name (sealskin, which the server needs anyway) or set SEALSKIN_NODE_NAME; a server recreated under another name is another node.\n• /config/.config/sealskin/node/ holds the node's own peer certificate and /config/.config/sealskin/cluster/ the shared records. Port 8444 is the peer listener; publish it only to join a cluster.\n• To put the server behind a reverse proxy, set SEALSKIN_PUBLIC_URL, SEALSKIN_TRUSTED_PROXIES, and, for a proxy that terminates TLS, SEALSKIN_HTTP_PORT; the reverse proxy pages show each proxy.\n\n• VPN profiles need the ghcr.io/selkies-project/sealskin-vpn image to be pullable by every node; pin its version with SEALSKIN_VPN_IMAGE.\n• NVIDIA hosts need the NVIDIA Container Toolkit v1.20.1 or higher.\n• A group that set a limit of -1 to lift a user's own limit no longer does: the stricter of the two holds. A group file named default, all, or none is refused.\n• A user in no group gets the server's defaults, shown as the default group. Nothing changes for them; what they get is now in plain view.\n\nThe extension and the mobile app from 0.3 keep working against this server with their key files over HTTPS; their tokens are refused on the plain HTTP API port on 8000, which the 0.4.0 shells sign for the session they use. The store releases of 0.4.0 add the application-key sign-in, the QR scanner, and the HTTPS hold.\n\nDocumentation:\n\n• .oss-scanner/threat_model.md states what SealSkin does, its principals, its entry points, and the rules the code is held to; the scanner, CodeQL, and the other checkers' findings are fixed in code, never dismissed.",
-          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/0.4.0/sealskin-v0.4.0.ipa",
-          "size": 1728522,
+          "version": "fbd4ca2",
+          "date": "2026-10-29T15:43:42Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/fbd4ca2/sealskin-v0.4.0.ipa",
+          "size": 1730925,
           "minOSVersion": "26.0"
         }
       ],
@@ -971,10 +971,10 @@
       "versions": [
         {
           "version": "1.0.4",
-          "date": "2026-10-28T00:16:57Z",
-          "localizedDescription": "Automated nightly build generated from commit 235185a8d80b846f3777a907027e8a98d6280b15 on 2026-10-28 00:16 UTC.\n\nWhat's new:\n\nfix(ui): make guild mute update local state immediately.",
-          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.4-nightly.155/Lampcord.ipa",
-          "size": 36618994,
+          "date": "2026-10-29T16:05:15Z",
+          "localizedDescription": "Automated nightly build generated from commit 55035b6a1e53e034a3e55b39a51d3391be1eea15 on 2026-10-29 16:05 UTC.\n\nWhat's new:\n\nfix(i18n): use existing string resources in UI.",
+          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.4-nightly.157/Lampcord.ipa",
+          "size": 36644627,
           "minOSVersion": "17.0"
         }
       ],
@@ -2153,11 +2153,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.9.3",
-          "date": "2026-10-27T04:29:20Z",
-          "localizedDescription": "Please note: The fix below has not been tried on a real AMD Radeon RX 7000 graphics card, because no such card was available while it was made. The cause was found in the graphics driver's own source code, and the game's drawing tests pass on the software graphics driver they run on. If the picture is still striped for you with Vulkan, please send logs/ico-pc.log from a start with Vulkan.\n\nFixed:\n\n• On AMD Radeon RX 7000 graphics cards on Linux with the Mesa 25 drivers, Vulkan drew every other column of the picture black with bright dots, on every screen from the title on. The game left a blending setting from the previous drawing step in place while blending was off, and that driver treated the step as two-colour blending, which these cards handle by pairing neighbouring pixels. The game now clears the setting, so the picture is whole on those drivers too. OpenGL was not affected, and Mesa drivers from 26.2.4 on already drew it right. The game's start-up drawing check now also looks for this fault, and if a driver still shows it, the game switches to a slower way of blending that avoids it.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.3/ico-pc-v0.9.3-ios-unsigned.ipa",
-          "size": 7418933,
+          "version": "0.9.4",
+          "date": "2026-10-29T07:28:58Z",
+          "localizedDescription": "Please note: This version draws the picture with fewer steps with every Graphics API choice. Two picture changes are on by default. Above the Original resolution, the soft edges of shadows are drawn with the game's own simpler smoothing, which is very slightly sharper. At frame rates above Original, the in-between pictures reuse the glow from the picture before them, so the glow can trail very slightly during a fast camera turn. Both can be put back by adding shadow_bspline = true (shadow edges) or glow_redraw = true (glow) to the [dev] section of the config file.\n\nOn Android: the frame rate scales with the phone's speed at Resolution 1x. At 2x and Auto most phones need longer than a screen refresh for each picture, so the frame rate stays at or near the game's own 30 there, with occasional dips where a picture takes longer than a game step. This version removes the holds that kept the rate at 30 even where the phone had room; the picture's own cost at 2x and above is still being worked on.\n\nNew:\n\n• Above the Original resolution, the soft edges of shadows use the game's own smoothing and look very slightly sharper.\n• At frame rates above Original, the in-between pictures reuse the glow of the picture before them. It can trail very slightly during a fast camera turn.\n• When nothing on screen moves between two game steps, the in-between picture is shown again instead of being drawn twice.\n• With Direct3D 11, the game no longer copies its whole drawing buffer to the graphics card for every picture, only the part it wrote.\n\nFixed:\n\n• At wide aspect ratios on phones, tablets and Macs, the glow's left edge could keep a thin strip from an earlier blur step.\n• Changing the display settings while playing could leave the game slower until a restart, and on phones switching to a resolution that is not a whole multiple could stop the game while it prepared its graphics. The game now prepares them with a progress screen right after the change.\n• With the frame rate on Uncapped and vsync off, the game showed fewer pictures than the graphics card could draw: a card that can draw more than 60 but fewer than 120 pictures a second was held at exactly 60 during play after the first few seconds. It now shows as many pictures as the card can draw in time. The same applies with vsync on where the system lets a newer picture replace one not yet shown, up to one picture each screen refresh.\n• On Android with vsync off, the game presented pictures as fast as it could where the phone offers no such mode, which made the phone block each picture, hold the game back and slip its clock. It now presents one picture a screen refresh there.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.4/ico-pc-v0.9.4-ios-unsigned.ipa",
+          "size": 8135967,
           "minOSVersion": "15.0"
         }
       ],
@@ -2662,7 +2662,7 @@
       "bundleIdentifier": "org.floeagent.ios",
       "developerName": "JiangNanGenius",
       "subtitle": "Open source AI agent workspace for iOS iPadOS and Android. On device Linux, terminal, code, Git and local web previews; BYOK cloud AI. iOS adds Notes, Canvas, CAD 3D, voice, Skill Hub and supported local models. Android alpha includes Office viewing and editing. iPad",
-      "localizedDescription": "Features:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal and IDE workflows and keeps growing.",
+      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal and IDE workflows and keeps growing.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
       "tintColor": "#3665ed",
       "category": "other",
@@ -2671,11 +2671,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.61",
-          "date": "2026-10-27T11:33:56Z",
-          "localizedDescription": "English:\n\n• Fixed duplicate sends of one spoken utterance while preserving intentional repeats and manual sends.\n\n• Added multiple selection and persistent pinning through conversation context menus, removed per-row More buttons and adopted native selection toolbars.\n• Added a browser shortcut in web-service run terminals, reusing the selected port and page.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.61/Floe-Agent-1.7.61-build302-unsigned.ipa",
-          "size": 815893958,
+          "version": "1.7.63",
+          "date": "2026-10-29T15:15:32Z",
+          "localizedDescription": "English:\n\n• Added a complete setup guide with four recommendations for models, search, voice, workspaces, memory and sync.\n• Voice packs, models and environment preparation no longer hold up setup; continue and check progress later.\n• Apple Intelligence is off by default for new users, while existing choices are preserved.\n• Fixed skill installation approvals within tasks, keeping required approvals and installation in the current conversation.\n• Improved Skill Hub list artwork, covers and detail pages.\n• Improved file export and delivery for web-based creative work.\n• Added optional same-Mac terminal access through Floe Bridge, with terminal jobs, file sync and storage management.\n• Mac connections can install original skills and retain the version used by running tasks.\n• The assistant can transcribe audio files and generate playable audio, with separate service priorities.\n• Improved local Chinese–English speech and added a local Read Links option while preserving answer and caption content.\n• Volcengine Agent Plan and Alibaba Cloud Token Plan are configured separately from pay-as-you-go services.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.63/Floe-Agent-1.7.63-build304-unsigned.ipa",
+          "size": 816885637,
           "minOSVersion": "26.0"
         }
       ],
@@ -2810,11 +2810,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.40",
-          "date": "2026-10-27T05:09:58Z",
-          "localizedDescription": "New:\n\n• When it ends, in the player. Next to the time: \"0:42 / 1:58 · ends 9:43 PM\" (when it'd be over watched from here, in your device's time). The channel player says it too: \"12 min left · ends 9:30 PM\".\n• The guide has no holes. Each programme's card now reaches the next one's start, the break after it included, so every channel's line is filled end to end. In the break, the card says when the next one starts (\"Next at 9:00 PM\") instead of \"0 min left\".\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.7.40/Netfish-ios.ipa",
-          "size": 927794,
+          "version": "0.8.0",
+          "date": "2026-10-29T08:01:15Z",
+          "localizedDescription": "New:\n\n• Shows look after themselves. For the shows you're watching:.\n\n• The next season comes by itself. When you're 2 episodes from the end of a season (and have watched a few of it lately), Netfish asks for the next one, through Seerr as you, so approvals still apply. Without Seerr, Sonarr looks for it. It's usually there before you finish, and you get the usual \"ready to watch\" notification. In Activity it says Asked for by itself.\n• New episodes as they air, for a show still running that you're up to date with: Sonarr watches it, and the seasons announced later.\n• Missing episodes are looked for again: an aired one missing ahead of where you are in a season.\n• You're asked once, the first time it would get something for you (on Home or the show's page). Your answer counts for all your shows until you change it in Settings → Playback on this device. Admins turn it on or off for everyone in Settings → Shows.\n• Nothing is asked for while the shows' disk has less than 20 GB free; the log says so.\n• It looks when someone starts an episode in Netfish, and every half hour for everyone, so people watching in Jellyfin's own apps count too (with Jellyfin's API key in Connections).\n\n• Settings → Shows sets how long to wait (7 to 180 days), makes it only a suggestion in Settings → Storage, or turns it off.\n• Never touched: anything kept, anything someone is partway through, New titles, and the latest season of a show still running.\n• Needs Jellyfin's API key (Connections), to see what everyone has watched.\n• Storage's Could go to free space can list single seasons now, each with its own Delete and Keep.\n\n• Android: the fish from the first moment. On a slow TV box (a Raspberry Pi, say) the app showed a black screen for up to 10 seconds while it started. Now Netfish's fish is there straight away.\n\nChanged:\n\n• The channel guide no longer explains New titles in a programme's details or on its New badge. Settings → Channels does.\n\nUpdate:\n\n• Server. Nothing is deleted in the first day: what would go is listed in Settings → Storage first.\n• Android app (phones, tablets, Fire TV, Android TV), for the fish at start.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.0/Netfish-ios.ipa",
+          "size": 928792,
           "minOSVersion": "16.0"
         }
       ],
@@ -2839,11 +2839,11 @@
       ],
       "versions": [
         {
-          "version": "2026.10.26",
-          "date": "2026-10-26T08:43:22Z",
-          "localizedDescription": "• Add missing game language options for GFN.\n• Reconcile session status and cleanup.",
-          "downloadURL": "https://github.com/owenselles/CloudNow/releases/download/v2026.10.26-1a33bce/CloudNow.ipa",
-          "size": 16322893,
+          "version": "2026.10.29",
+          "date": "2026-10-29T14:14:27Z",
+          "localizedDescription": "• GFN fix: Restore native streaming capabilities.",
+          "downloadURL": "https://github.com/owenselles/CloudNow/releases/download/v2026.10.29-4042dbd/CloudNow.ipa",
+          "size": 16375748,
           "minOSVersion": "26.2"
         }
       ],
@@ -3664,10 +3664,10 @@
       "versions": [
         {
           "version": "0.12.0",
-          "date": "2026-10-27T14:25:48Z",
-          "localizedDescription": "🖼️ Thread gallery:\n\n• New gallery button in every thread: see all of its images and videos as a grid.\n• Tap any tile to open it fullscreen and swipe through the rest.\n\n🔴 Live threads:\n\n• Open threads now update on their own; new posts appear at the bottom without moving what you're reading.\n• A \"new posts\" pill takes you straight to them.\n• Updates pause while the app is in the background and stop once a thread is archived or closed.\n\n🔔 New replies at a glance:\n\n• Bookmarks and Continue now show \"+N new\" for replies posted since you last read a thread.\n\n🎬 More video controls:\n\n• Playback speed in fullscreen: 1×, 1.25×, 1.5×, 2× or 0.5×.\n• Auto-advance: let fullscreen move on to the next item when a video ends, instead of looping (remembered between sessions).\n\n🔍 Reverse image search:\n\n• New search button in the fullscreen viewer: look up any image on Google Lens, Yandex, SauceNAO or Bing.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.0%2B291/Runner.ipa",
-          "size": 32556154,
+          "date": "2026-10-29T10:31:18Z",
+          "localizedDescription": "🎬 No more crash when leaving a video:\n\n• Leaving the app while a video plays in fullscreen could make it crash (\"closed unexpectedly\").\n• Fullscreen videos now pause while the app is in the background and continue where they left off when you come back.\n\n🔔 Update notice on iPhone:\n\n• The \"new version available\" notice now waits until the update can actually be installed from TestFlight, instead of showing up a day or two early.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.0%2B293/Runner.ipa",
+          "size": 33123987,
           "minOSVersion": "17.0"
         }
       ],
@@ -4861,11 +4861,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.2",
-          "date": "2026-10-21T16:28:31Z",
-          "localizedDescription": "Make LatentJam look the way you like: your own accent colour, pure black, rounder or sharper shapes, five page-header styles and a left-handed layout. Statistics now show how you listen, not only how much, several playlists import at once, and seeks and skips no longer click. Still fully on-device: no account, no catalogue, no network. Nothing about your listening leaves the phone.\n\nNew:\n\n• 📊 Statistics that tell how you listen. Besides how much: what is on repeat right now, favourites that are slipping away, what you played a year ago, songs you play in sequence, new versus familiar music, your sessions and the hours you listen. A playlist played on repeat counts as one row, and Your top lists playlists.\n• 👆 Presses you can feel. Buttons and cards sink under the finger and ease back, across the app and on the home-screen widgets.\n\nImproved:\n\n• 🔇 No clicks on seek or skip. The sound rises over a few milliseconds instead of starting with a click, on Android and iOS.\n• 💿 Albums play through. With crossfade on, an album that runs straight into its next track is no longer faded, and volume normalization changes smoothly at that seam. The next track's loudness is measured while the current one plays, so a loud song no longer starts at full volume.\n• 🗺️ A bigger Map. The Map now handles libraries of up to 10,000 tracks and keeps drawing while your library is still being analysed.\n• ✨ Smoother lists. List covers come from a small on-disk cache, and the code for scrolling long lists is prepared ahead of time.\n• 🧭 For You. A row keeps playing past its last card with similar songs, unless Repeat all is on. Rows move on once you have seen them, and a phase row follows how long you have actually been listening.\n\nFixed:\n\n• A media button from a controller without an app name no longer crashes the app.\n• Restoring an older backup no longer resets the look you chose.\n• A cover that could not be read once is tried again the next day instead of never.\n• Readable custom accents in the light theme, and readable titles over a pale cover in the dark player.\n• The alphabet rail selects the letter under your finger, and its bubble stays on screen in Arabic and Hebrew.\n• Pinching the album grid goes the way your fingers go.\n\nDownload LatentJam-v0.9.2-arm64.apk (36 MB). It's right for virtually every phone from the last decade, so if unsure, pick this one. LatentJam-v0.9.2-armv7.apk exists for old 32-bit devices.\n\nOpen the file on your phone. It upgrades any earlier release from here in place, and your history, playlists, settings and analysed library stay. You'll need to allow installing unknown apps and tap through Play Protect's sideload warning. Requires Android 7.0+.\n\nLatentJam-v0.9.2-unsigned.ipa is an unsigned build. Sideload it with AltStore, Sideloadly or similar, which re-sign it with your Apple ID. AltStore and SideStore users can also add the LatentJam source from the README to get updates. Built for iOS 15.1+, arm64.\n\nThat build is signed with F-Droid's key, not the one used here, so the two can't upgrade each other. To switch:\n\n• Export your data (Settings → Local backup).\n• Uninstall the app.\n• Install from F-Droid and restore the backup.",
-          "downloadURL": "https://github.com/Nikita-sud/latentjam/releases/download/v0.9.2/LatentJam-v0.9.2-unsigned.ipa",
-          "size": 45104282,
+          "version": "0.9.3",
+          "date": "2026-10-29T13:58:59Z",
+          "localizedDescription": "Crossfades that really overlap, a SMART engine retrained on licence-clean data that can now learn from your own habits, and your ListenBrainz history imported in one go. Still fully on-device: no account, no catalogue, no network.\n\nNew:\n\nstart of the next, met at their sound rather than their silent edges. Track changes and seeks fade instead of cutting, for every source on Android: the app, the notification, headphones and Android Auto.\n\n• 📥 Import your ListenBrainz history (Settings → Local backup). Listens are matched to the songs in your library on the device. They feed Statistics and For You, and SMART when Learn from my habits is on.\n• 🔒 Player on the lock screen (Android, optional, Settings → Appearance).\n• 🗺️ The Map keeps its regions when your library changes, instead of redrawing from scratch.\n\nChanged:\n\n• Artist variety → Off now really means off: SMART no longer caps how many songs of one artist a queue holds.\n• Never played and Rediscover left the Playlists page; such suggestions live in For You.\n• Recently played lists songs you listened to, not ones skipped at once.\n\nFixed:\n\n• Analysis no longer stalls on a file that never decodes; the settings name the track it is waiting on.\n• A crossfade into a track of another format or sample rate, or after a seek near the end, no longer cuts or stutters.\n• Restoring a backup of this phone no longer doubles the listening history.\n• The duplicate finder pairs copies that differ only in silence at the ends, and uses matching MusicBrainz recording IDs and ISRCs.\n• Many smaller fixes.\n\n⚠️ First start after the update: the library is analysed once again (new audio model). Your history, playlists and settings stay; SMART queues get better as the analysis finishes.\n\nDownload LatentJam-v0.9.3-arm64.apk (37 MB). It's right for virtually every phone from the last decade, so if unsure, pick this one. LatentJam-v0.9.3-armv7.apk exists for old 32-bit devices.\n\nOpen the file on your phone. It upgrades any earlier release from here in place, and your history, playlists and settings stay. You'll need to allow installing unknown apps and tap through Play Protect's sideload warning. Requires Android 7.0+.\n\nLatentJam-v0.9.3-unsigned.ipa is an unsigned build. Sideload it with AltStore, Sideloadly or similar, which re-sign it with your Apple ID. AltStore and SideStore users can also add the LatentJam source from the README to get updates. Built for iOS 15.1+, arm64.\n\nF-Droid:\n\nLatentJam is on F-Droid. F-Droid builds this version from source on its own schedule.\n\nThat build is signed with F-Droid's key, not the one used here, so the two can't upgrade each other. To switch:\n\n• Export your data (Settings → Local backup).\n• Uninstall the app.\n• Install from F-Droid and restore the backup.\n\nBeta, pre-1.0. Screens and settings can still change between releases. Tag editing writes to your real files, so back up the music you care about before a big edit. Found a bug?",
+          "downloadURL": "https://github.com/Nikita-sud/latentjam/releases/download/v0.9.3/LatentJam-v0.9.3-unsigned.ipa",
+          "size": 41746122,
           "minOSVersion": "15.1"
         }
       ],
@@ -5029,11 +5029,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5.9",
-          "date": "2026-10-27T12:46:08Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nThank you to spriteice, whose findings while working on his own PC port of the game are behind the sound, OpenGL, half-pixel and depth changes below!\n\nThe camera on the right stick turns smoothly:\n\nIt turned by the clock while the game moves by its frames, so a slow pan came out in uneven steps whenever the frames were not exactly evenly spaced (\"like a really bad V-Sync\", a player wrote). It now turns by the game's frames, as the game's own camera does, and the stick's response is softer: a third of the way turns it about 7 degrees a second instead of under 1. Thanks to the player who reported it!\n\nA hang a few seconds into a level:\n\nThe game's sound library (CRI) protects its data with a lock that, on the console, nothing can interrupt. Here, another thread could slip into the middle of it, which sometimes left the game's main thread stuck at the highest priority: the picture stopped a few seconds after a level appeared. It can no longer be interrupted there, as on the console.\n\nCloser to the console's timing:\n\n• The sound chip runs a frame at a time (every 0.67 ms, as on the console) instead of eight frames at once and then a 5 ms rest, so the game no longer waits up to 5 ms each time it starts or stops a sound -- which added up in crowds like Shibuya Terminal's.\n• The game's vertical-blank handler, which holds every other game thread back while it waits, is ended within a millisecond every frame.\n• OpenGL: the renderer no longer asks the driver for errors after every draw (which made it wait for the driver hundreds of times a frame), and every platform sorts the game's GPU commands a little quicker.\n\nHalf a pixel, and depth:\n\nThe scenery and the menus were drawn half a pixel off from the characters and the traffic; they now line up. With reversed depth (Metal, and OpenGL where the driver allows it), the far end of the scene gets the full precision of the 32-bit depth buffer. Polygon offset is applied when the game asks for it. On AMD graphics under Linux (Mesa), the vertex programs go without the invariant position, which has been found to cause trouble there.\n\nHow it was tested:\n\nOn a Mac, with Metal and with OpenGL: Shibuya Terminal from an empty save folder (the camera turning by exactly the same step at every frame, the sound never running dry, 60 frames a second) and loaded there 23 more times, with and without the hang's fix; the Garage; then the release build on the title, on Dogenzaka Hill with SMAA and MSAA 4x, in the Fortified Residential Zone and at Shibuya Terminal. Linux (Mesa): the attract demo, and the new sound and vertical-blank timing against 0.5.8's on that slow software renderer (a little faster, and the game's main thread waiting less than half as long). Windows (under Wine): the title as an upgrade from 0.5.8, F7 and the Controls menu. The Android and iPhone builds were built and checked, not run.",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.9/JSRF-Unleashed-iOS.ipa",
-          "size": 13382507,
+          "version": "0.5.10",
+          "date": "2026-10-29T12:41:13Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nThank you to Marice, whose pull request (#46) found where this hang was hiding!\n\nA hang where the picture stopped for good:\n\nWhen the game needs a lot of room for its drawing commands, it asks the GPU to call it back once it has caught up, and waits. Now and then that callback was lost: the engine's GPU thread checked that no callback was in flight and then cleared the GPU's interrupt status, in two steps, and a callback raised between the two was wiped with it. Nothing answered it, and the game waited for good: the picture stopped, usually in a busy scene. The GPU thread now reads the status first and clears only what it read, so a callback raised in between is kept. With Marice's changes, every change to those interrupt bits is atomic, and a callback that goes missing anyway is raised again after a few milliseconds, with a line in the log.\n\nHow it was tested:\n\nOn a Mac, with Metal and with OpenGL, against 0.5.9 back to back on the same machine: the Fortified Residential Zone four times, Dogenzaka Hill with SMAA and MSAA 4x, and Shibuya Terminal from an empty save folder -- 60 frames a second, the camera and the sound exactly as in 0.5.9. Then a test build that holds the GPU thread in that gap on purpose: the old way, the game stopped for good at the first callback, just as Marice found; 0.5.10's way, not one went missing. Linux (Mesa) and Windows (under Wine): the attract demo against 0.5.9 on the same machine, F7 and the portable switch. The Android and iPhone builds were built and checked, not run.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.5.10/JSRF-Unleashed-iOS.ipa",
+          "size": 13382510,
           "minOSVersion": "15.0"
         }
       ],
@@ -6176,7 +6176,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-28T13:51:42Z",
+          "date": "2026-10-29T13:58:08Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
           "size": 7484767,
@@ -6644,11 +6644,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.20",
-          "date": "2026-10-28T10:59:30Z",
-          "localizedDescription": "Release v6.2.20:\n\n• Improve manga OCR resource diagnostics (341fcdc2b).\n• Open Screen lookup cards in the native SRS editor (f22cc6091).\n• Keep episodes and progress during library refreshes (b37634bfc).\n• Avoid hidden Home refreshes and unnecessary source updates (d27e0da7e).\n• Honor daily study limits and show complete collection statistics (2fd5eb880).\n• Keep YouTube playback awake while buffering (717318433).\n• Keep SRS editor fields aligned on phones (6f6bbd775).\n• Improve YouTube subtitle layouts and reclaim Shorts letterboxing (13c5fbe6c).\n• Keep saved source credentials out of settings responses (f9ae0aa05).\n• Keep MyAnimeList tracking working after session expiry (c59ad8d03).\n• Open card lookup links in the browser without overlapping controls (b27c21221).\n• Keep reviewer shortcuts active between cards (db4edd630).\n• Align subtitle underlines without changing their appearance (9a75bb502).\n• Keep dictionary popups attached to the selected character (b32aae3ec).\n• Keep rapid subtitle lookups responsive through the final hovered word (eee2647f2).\n• Keep video gestures out of playback settings (17c6ab8fd).\n• Make Home hide confirmations brief and dismissible (56be98d1f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.20/Manatan-v6.2.20-iOS.ipa",
-          "size": 411975050,
+          "version": "6.2.21",
+          "date": "2026-10-29T12:42:17Z",
+          "localizedDescription": "Release v6.2.21:\n\n• Automatically update vocabulary from Anki connections (75d3cdf37).\n• Restore mouse wheel scrolling in Android readers and settings (ffb1f525a).\n• Keep extension lists clear of navigation controls (deac9dce9).\n• Restore mouse hover for Android manga dictionary lookups (073ac6923).\n• Keep account vocabulary synced with shared normalization and status (fb78ca586).\n• Keep screen lookup popups anchored without flashing (caaefbe51).\n• Keep screen lookup controller movement smooth (47e102cfc).\n• Fix importing Apple Podcasts share links (525725979).\n• Open dictionary cards in the native SRS editor (cb66acb2e).\n• Fix dictionary camera sheets and photo orientation (afe9ccac0).\n• Preserve player controls visibility through study pauses (1e8978627).\n• Restore descriptions on every playback mode card (be928ed98).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.21/Manatan-v6.2.21-iOS.ipa",
+          "size": 412490523,
           "minOSVersion": "16.1"
         }
       ],
@@ -6745,11 +6745,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.20",
-          "date": "2026-10-28T04:39:41Z",
-          "localizedDescription": "iGhostVT 1.6.20 lets the app reach the network on an iPhone or iPad sold in China, and keeps the tab overview button working after the ⋯ menu.\n\n• On an iPhone or iPad sold in China, iGhostVT could fail to connect to a paired device, directly or through the relay, as if there were no network. iOS keeps a WLAN \u0026 Cellular setting for each app and never asks about one a package manager installed, so it could stay off. iGhostVT now turns on Wi-Fi and cellular data for itself when it opens. Shells, remote access to this device and ighostvt-cli were never affected.\n• Tapping ⋯ and then the tab overview button quickly could leave that button doing nothing until iGhostVT was restarted. It now opens the overview every time.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.20-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.20.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.20/GhostRemote-1.6.20.ipa",
-          "size": 7016693,
+          "version": "1.6.21",
+          "date": "2026-10-29T12:46:03Z",
+          "localizedDescription": "iGhostVT 1.6.21 is made for iPhone Duo.\n\n• iGhostVT is now built against the iOS 27.1 SDK. On iPhone Duo it used to sit in the middle of the inner display; it now fills it, with the tabs in a sidebar beside the terminal. Folding or unfolding resizes the shell you are in, and what it printed stays as it was.\n• In the sidebar on a wide display, tabs can be dragged to reorder them; before, that worked only on iPad.\n• In right-to-left languages the sidebar's title no longer moves along by the width of the bar at the side.\n• The keyboard is measured on the display the window is on, rather than the main one.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.21-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.21.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.21/GhostRemote-1.6.21.ipa",
+          "size": 7031698,
           "minOSVersion": "15.0"
         }
       ],
@@ -7112,7 +7112,7 @@
         {
           "version": "2.0.0",
           "date": "2026-10-28T21:57:49Z",
-          "localizedDescription": "New Features:\n\n• Add performance logging and background diagnostics.\n\nImprovements:\n\n• Update AltStore source for 2.0.0 (275).\n\nBug Fixes:\n\n• Fix player brightness controls on iPhone Duo.\n\nOther:\n\n• Don't animate the video info carousel into place when it first opens.\n• Stop decoding video during background playback on iOS.\n• Scroll mini player marquee with Core Animation on iOS and tvOS.\n• Cut foreground CPU while playing and paused.\n• Read the Duo status column's occlusion regions from a full-bleed reader.\n• Cut foreground CPU during audio-only playback.\n• Stop re-rendering hidden player UI during background playback.\n• Use production CloudKit environment for Xcode builds.\n• Raise Open Link URL limit from 20 to 200.",
+          "localizedDescription": "New Features:\n\n• Add performance logging and background diagnostics.\n\nBug Fixes:\n\n• Fix player brightness controls on iPhone Duo.\n\nOther:\n\n• Don't animate the video info carousel into place when it first opens.\n• Stop decoding video during background playback on iOS.\n• Scroll mini player marquee with Core Animation on iOS and tvOS.\n• Cut foreground CPU while playing and paused.\n• Read the Duo status column's occlusion regions from a full-bleed reader.\n• Cut foreground CPU during audio-only playback.\n• Stop re-rendering hidden player UI during background playback.\n• Use production CloudKit environment for Xcode builds.\n• Raise Open Link URL limit from 20 to 200.",
           "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.276/Yattee-2.0.0-iOS.ipa",
           "size": 39755120,
           "minOSVersion": "18.0"
@@ -8210,11 +8210,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.9",
-          "date": "2026-10-28T08:59:53Z",
+          "version": "0.11.10",
+          "date": "2026-10-29T09:53:55Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.9/rust-dicom-station-0.11.9-ios.ipa",
-          "size": 26563708,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.10/rust-dicom-station-0.11.10-ios.ipa",
+          "size": 29029638,
           "minOSVersion": "15.0"
         }
       ],
@@ -8316,11 +8316,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.19.0",
-          "date": "2026-10-28T19:53:14Z",
-          "localizedDescription": "• Open an agent in its agents window on Windows while that window is open by Bjarne Oeverli (@bjarneo) (180b411).\n\n• Give the sample desk computer of the Android demo a last seen time in the past by Bjarne Oeverli (@bjarneo) (d8464ae).\n• Keep an agent from Control above Control on an Android tablet by Bjarne Oeverli (@bjarneo) (55bfc06).\n\n• Read the photo of the tray with toUri by Bjarne Oeverli (@bjarneo) (6a74434).",
-          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.19.0/flux-ios-0.19.0.ipa",
-          "size": 10582605,
+          "version": "0.19.1",
+          "date": "2026-10-29T09:47:47Z",
+          "localizedDescription": "• Keep a numbered list at the end of an agent reply in the thread by Bjarne Oeverli (@bjarneo) (c0c831b).",
+          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.19.1/flux-ios-0.19.1.ipa",
+          "size": 10583725,
           "minOSVersion": "17.0"
         }
       ],
@@ -9084,7 +9084,7 @@
       "bundleIdentifier": "org.moonfin.app",
       "developerName": "Moonfin-Client",
       "subtitle": "A premium Jellyfin Client for Android Mobile, Android TV, iOS, Linux, MacOS, tvOS, Web, and Windows",
-      "localizedDescription": "← Back to main Moonfin project.\n\nMoonfin is a media client for Jellyfin and Emby servers, built with Flutter. One shared codebase powers phones and tablets, Windows, macOS, and Linux, Android TV, Fire TV, and Apple TV, and the browser. It's made for people who want a modern, customizable experience on every screen they own.\n\nPlatform Support:\n\nAndroid TV, Fire TV, and Apple TV ship from this same codebase with a TV-tuned interface and D-pad navigation. Fire TV runs the same native backend as Android TV. Web runs as an installable PWA through the Moonbase server plugin.\n\nFeatures:\n\n• One codebase, every screen. Phones, tablets, desktop, Android TV, Apple TV, and web, with navigation tuned for touch, pointer, and remote.",
+      "localizedDescription": "← Back to main Moonfin project.\n\nMoonfin is a media client for Jellyfin, Emby, and Plex servers, built with Flutter. One shared codebase powers phones and tablets, Windows, macOS, and Linux, Android TV, Fire TV, and Apple TV, and the browser. It's made for people who want a modern, customizable experience on every screen they own.\n\nPlatform Support:\n\nAndroid TV, Fire TV, and Apple TV ship from this same codebase with a TV-tuned interface and D-pad navigation. Fire TV runs the same native backend as Android TV. Web runs as an installable PWA through the Moonbase server plugin.\n\nFeatures:\n\n• One codebase, every screen. Phones, tablets, desktop, Android TV, Apple TV, and web, with navigation tuned for touch, pointer, and remote.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.moonfin.app.png",
       "tintColor": "#4c7cc6",
       "category": "entertainment",
@@ -10786,11 +10786,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.1",
-          "date": "2026-10-17T13:05:48Z",
-          "localizedDescription": "Android Auto (beta) and a security fix. Musonic now shows up in Android Auto, the server credentials no longer reach other apps, and two small player touches.\n\nSecurity:\n\n• Credentials no longer reach other apps — the cover of the playing track was published to the system media session (notification, lock screen) as a server address carrying the account username and password. Apps allowed to read the playing media (notification access, smartwatch companions, Android Auto) could read it. The player now only gets an address internal to Musonic, which reads the cover itself. Changing your Navidrome password after updating is advised.\n\nAdded:\n\n• Swipe the full player's cover — left for the next track, right for the previous one, like the mini player. Dragging the player down to close it still works.\n\nFixed:\n\n• Mini player tint — on very colourful covers, the blurred cover behind the mini player stopped in a hard vertical line next to the play button; it now fades out smoothly.\n\nAndroid Auto only lists apps installed from the Play Store. Musonic is installed from GitHub, so it stays hidden until you allow it once:\n\n• On the phone, open the Android Auto settings and tap Version ten times, then accept developer mode.\n• Menu ⋮ → Developer settings → Unknown sources: turn it on.\n• Open Musonic once on the phone, then connect to the car.\n\nGrapheneOS: also open Settings → Apps → Sandboxed Google Play → Android Auto and grant the permissions it asks for, otherwise Android Auto stops as soon as the car connects.\n\nDownload: Musonic.apk below (Android 7+). iPhone: Musonic.ipa, to sideload with AltStore or Sideloadly (no CarPlay yet).",
-          "downloadURL": "https://github.com/DoodzDev/Musonic/releases/download/mobile-v2.0.1/Musonic.ipa",
-          "size": 8711395,
+          "version": "2.2.0",
+          "date": "2026-10-29T15:29:38Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/DoodzDev/Musonic/releases/download/mobile-v2.2.0/Musonic.ipa",
+          "size": 8760310,
           "minOSVersion": "15.1"
         }
       ],
@@ -12813,11 +12813,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.12.3",
-          "date": "2026-10-22T20:28:50Z",
-          "localizedDescription": "• e2fa37f - Compare an entry with its device optimised coefficients (web + mobile) (#165).",
-          "downloadURL": "https://github.com/3ll3d00d/ezbeq/releases/download/2.12.3/ezbeq-mobile-ios-unsigned.ipa",
-          "size": 11172314,
+          "version": "2.12.4",
+          "date": "2026-10-29T11:05:33Z",
+          "localizedDescription": "• 6853384 - Reconnect websockets after the browser drops them (Safari) (#169).\n• f0ec45b - Bump ty from 0.0.86 to 0.0.90 (#168).\n• 69319f7 - Readme custom catalogue (#166).",
+          "downloadURL": "https://github.com/3ll3d00d/ezbeq/releases/download/2.12.4/ezbeq-mobile-ios-unsigned.ipa",
+          "size": 11172301,
           "minOSVersion": "16.4"
         }
       ],
@@ -12946,11 +12946,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.0",
-          "date": "2026-10-24T17:23:05Z",
-          "localizedDescription": "Merge branch 'feat/v0.6'.",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.7.0/KnightMusic.ipa",
-          "size": 21756923,
+          "version": "0.7.1",
+          "date": "2026-10-29T16:36:58Z",
+          "localizedDescription": "Merge branch 'feat/v0.6': YouTube Music Discover \u0026 Browse, frontend fixes.",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.7.1/KnightMusic.ipa",
+          "size": 21830944,
           "minOSVersion": "26.0"
         }
       ],
@@ -13041,16 +13041,16 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/01-record-for-your-ai.png",
         "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/02-transcribe.png",
-        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/03-drive.png",
-        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/04-record.png"
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/03-notes.png",
+        "https://cdn.jsdelivr.net/gh/rokrokss/recly@main/docs/design/screenshots/en/04-list.png"
       ],
       "versions": [
         {
-          "version": "0.2.0",
-          "date": "2026-10-05T22:16:37Z",
-          "localizedDescription": "Recly 0.2.0 build 34 adds two new places for your recordings to go:\n\n• Local folder storage (iPhone, Mac, Windows, Android phone). Settings → Storage now offers \"Local folder\" next to Google Drive (and iCloud on Apple). Recordings, plus a .transcript.md for each transcript, go into a folder you pick on the device: an Obsidian vault, or a folder another tool syncs. No Google account is needed. The watches hand their recordings to their phone as before.\n\nAlso in this release:\n\n• Apple Watch and Galaxy Watch keep one status line: what is happening, or that recordings are still waiting to send, and nothing when there is nothing to say.\n\n• The app's own windows (the title prompt, alerts, Details, Settings) open in front of the Mac menu-bar popover and the Windows tray popup.\n\nThe release also carries both agent skill ZIPs, BUILDINFO.md, manifest.json and SHA256SUMS. Package signatures, versions and checksums were verified before publishing. BUILDINFO.md has the full change list, test results and signing status. Store uploads and review submissions are separate from this GitHub release.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
-          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.2.0-build.34/Recly-iOS-Watch-0.2.0-34.ipa",
-          "size": 24167283,
+          "version": "0.3.0",
+          "date": "2026-10-29T13:52:05Z",
+          "localizedDescription": "What's new:\n\nRecly 0.3.0 adds ChatGPT. Sign in with your own ChatGPT account and Recly organizes each recording into notes, while you record and again after you stop. There is still no Recly server, and audio never goes to ChatGPT; only the transcript text does, after you agree.\n\nChatGPT (iPhone, Mac, Android phone, Windows).\n\n• Notes. Each recording gets an overview, decisions, to-dos and questions, and each item links to the moment it was said. While you record, every 5-minute part is transcribed and organized as soon as it is saved, so the notes fill in under the waveform on the phones. After Stop, the whole transcript is organized once more. In Settings → Notes you can rename, describe or remove the built-in groups (key points, decisions, to-dos, questions) and add up to three sections of your own, and you can edit the notes. On Google Drive or iCloud, notes and their edits reach your other devices.\n• Ask about this recording. Answers cite times that play from the moment cited.\n• Titles and speaker names. An empty title and unnamed speakers are filled in when the transcript is published.\n\nTranscripts.\n\n• Import audio and video files on every phone and desktop app, or share them to Recly from other apps on the phones.\n• Speakers are separated on the device when transcription runs on the device (iPhone, Mac, Android phone, Windows), and a vocabulary of your own words helps transcription.\n• Edit a transcript and rename speakers, transcribe again with other settings, search every recording and find words inside one.\n• Export a transcript as text, Markdown or subtitles, or the audio. Play at other speeds and skip silence.\n• Long recordings. A recording longer than the transcription service accepts goes in overlapping pieces, joined by voice. A recording that stops writing, ten minutes without speech, or a low battery each gets a reminder or a safe stop.\n\nWatches.\n\n• Galaxy Watch and Apple Watch send each part while they record, and the phone shows that the watch is recording.\n• Apple Watch hands recordings to the iPhone without opening the iPhone app.\n• Galaxy Watch follows the phone app's language, and its quick-start launcher item is now \"Recly Quick Rec\" with its own icon.\n\nAlso.\n\n• The apps are in 23 languages, with Portuguese as pt-BR and pt-PT.\n• A list row opens its recording, with the transcript's first line under the title.\n• Record widgets on the iPhone, Shortcuts actions on the iPhone and Mac, a Live Update recording notification on Android, and echo cancellation on the Mac's built-in speakers.\n• A recording can be deleted while it uploads.\n• Google Drive and iCloud keep recordings in monthly folders; the folder template applies only to a local folder.\n\nRemoved.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.0-build.38/Recly-iOS-Watch-0.3.0-38.ipa",
+          "size": 61794905,
           "minOSVersion": "17.0"
         }
       ],
@@ -13059,6 +13059,7 @@
           "application-identifier",
           "beta-reports-active",
           "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
           "get-task-allow",
           "keychain-access-groups"
         ],
@@ -13380,11 +13381,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "6.4.2",
-          "date": "2026-10-27T18:33:26Z",
-          "localizedDescription": "[6.4.2] - 2026-10-27:\n\n• Remove duplicate mobile status-bar and header safe-area spacing.\n• Recover failed video manifests by reloading the transport, bound loading timeouts, and keep retry and server switching usable after playback errors.\n• Offer the Hoko cloud video proxy after eight seconds of stalled loading, with explicit consent before routing a video through the cloud.\n• Add a Use cloud proxy by default option in Mobile App Settings. It is off until enabled and can be turned off at any time.\n• Keep local files, torrents, debrid streams and watch-party shares on their existing playback paths.",
-          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.2/Tatakai-v6.4.2-ios-unsigned.ipa",
-          "size": 84860256,
+          "version": "6.4.3",
+          "date": "2026-10-29T13:01:31Z",
+          "localizedDescription": "[6.4.3] - 2026-10-29:\n\n• Preserve genuine upgrades from previous stable versions and 6.4.3 betas, with correctly ordered Android and iOS build versions.\n\nDownloads:\n\nWindows: installer or portable EXE. macOS: choose the arm64 or x64 DMG/ZIP. Linux: AppImage or DEB. Android phone and Android TV have separate APKs. The iOS IPA requires sideload signing.\n\nProduction release.",
+          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.3/Tatakai-v6.4.3-ios-unsigned.ipa",
+          "size": 105871998,
           "minOSVersion": "15.0"
         }
       ],
