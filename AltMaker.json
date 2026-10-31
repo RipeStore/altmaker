@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "ikemen-engine.I-K-E-M-E-N-Go",
-    "com.defnf.icopc",
-    "dev.saeed.tourplanner"
+    "app.seanime.server",
+    "app.seanime.tenji",
+    "com.knightabdo.knightmusic"
   ],
   "apps": [
     {
@@ -294,11 +294,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.3.0",
-          "date": "2026-07-25T14:33:11Z",
-          "localizedDescription": "Seanime Tenji:\n\nThis is a release build. Features may still be incomplete or unstable.\n\n• ⚡️ Player: Buffered progress in seek bar.\n• ⚡️ Player (Android): SubRip subtitles now get a usable fallback font.\n• ⚡️ Player: Playback stats.\n• ⬆️ Upgraded to React Native 0.85 / Expo SDK 56.\n\nAndroid:\n\n• Version code: 23.\n• SHA-256: d10939cb2ea23cec00753037448345800b1a1c74679f55dbbce7d1a43cc9fd30.\n\nAndroid TV:\n\n• Version code: 23.\n• SHA-256: e3326e20795a979800ba54e8d0384f347fdc38fb506fbeec8a20914b0c998f21.\n\niOS:\n\n• Build number: 23.\n• SHA-256: 647b70c0a90b96b67927337f7bf672262abc44ab4691978098612b3752600061.\n\ntvOS:\n\n• Build number: 23.\n• SHA-256: bc9ce4e5a9936030bbbd73e698c6b85c6f1f86ca28528fd7ed6659e2f0b49e92.\n\nBuild:\n\n• Commit: c8f8db6.",
-          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.3.0-23.23-20260725-c8f8db6/seanime-tenji-v0.3.0-23-20260725-c8f8db6.ipa",
-          "size": 35117815,
+          "version": "0.4.0",
+          "date": "2026-10-31T18:58:14Z",
+          "localizedDescription": "Seanime Tenji:\n\nThis is a release build. Features may still be incomplete or unstable.\n\n• ⚡️ TV: Added Discover and Settings shortcuts to the empty library screen.\n• 🦺 Player(Android TV): Fixed controls and dialogs hidden behind video.\n• 🦺 Player(Android TV): Fixed playback getting stuck after quick seeks.\n• 🦺 Player(Android): Fixed https streams failing to open.\n• 🦺 Player(Android): Fixed black screen when resuming playback.\n• 🦺 Player(tvOS): Fixed crash when playing AV1 files.\n• 🦺 Player(TV): Fixed Play and Pause buttons on the remote.\n• 🦺 Player: Fixed the app freezing when a video stalls.\n• 🦺 Player: Fixed stream request headers containing commas.\n• 🦺 Player: Fixed preferred subtitle language not applying to subtitles added after the video loads.\n• 🦺 Player: Fixed Up next countdown cancelling at the end of an episode.\n• 🦺 Playback: Fixed episodes marked as watched when a stream fails.\n\n• 🦺 Server: Fixed getting sent back to the setup screen after connecting.\n• 🦺 TV: Fixed focus getting lost after leaving a text field.\n• 🦺 Android: Fixed navigation bar scrim.\n• ⬆️ Player(Android): Upgraded mpv.\n• ⬆️ Upgraded to React Native 0.88 / Expo SDK 58.\n\nAndroid:\n\n• Version code: 24.\n• SHA-256: 2977b37a29caac939216145a71704740dceee351a22fe3b401ce0340ea89ce05.\n\nAndroid TV:\n\n• Version code: 24.\n• SHA-256: 06a92ba58ccaa51637c2b918f5589ce2d89ed2172c916a85c8804748e3b85d55.\n\niOS:\n\n• Build number: 24.\n• SHA-256: ae54f72632c4672d44baaca53793d98d4eefab76570936cb963c0c7bd7b6e13c.\n\ntvOS:\n\n• Build number: 24.\n• SHA-256: 64c0a45295a6a19764539c2100e9d92f3d83b3f56f2f1aee9acc540bb45275ce.\n\nBuild:\n\n• Commit: cc29022.",
+          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.4.0-24.24-20261031-cc29022/seanime-tenji-v0.4.0-24-20261031-cc29022.ipa",
+          "size": 33505178,
           "minOSVersion": "16.4"
         }
       ],
@@ -1715,10 +1715,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-31T06:34:47Z",
-          "localizedDescription": "Built from ab42e98 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-31T16:00:55Z",
+          "localizedDescription": "Built from 7757fa4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625209,
+          "size": 14625212,
           "minOSVersion": "15.0"
         }
       ],
@@ -1910,11 +1910,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.1",
-          "date": "2026-10-30T15:58:42Z",
-          "localizedDescription": "iPhone and iPad 0.12.1: The right address with a VPN on:\n\nA system VPN that only proxies your traffic no longer sends MovieClaw to the home address first. The Discover title also stays put when its menu closes.\n\nFixed:\n\n• With a system VPN on, MovieClaw used to try the home address before anything had answered, so a proxy VPN looked like a tunnel home and the first requests waited. It now uses the public https address first. The home address is used only after it answers. On Me, the line External network (via VPN) appears only then.\n• Turning the VPN on or off, or switching from one VPN to another, picks an address again immediately.\n• On Discover, the large title Movie or Series stays in place when you close its menu. It no longer shifts right and then slides back.\n\nFull changes:.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.1/MovieClaw-iOS-unsigned.ipa",
-          "size": 30360823,
+          "version": "0.12.2",
+          "date": "2026-10-31T15:36:19Z",
+          "localizedDescription": "iPhone and iPad 0.12.2: The air schedule is easier to scan:\n\nOn a series, the season progress bar is gone. Episodes opens with what airs today or next.\n\nThe air schedule reads as two lines:\n\nOpen a series that still has an air date today or later. Under Episodes, the progress bar and its legend are gone. The first line names what airs today or next, such as S02E03–E04 airs, with the expected arrival on the right. The second line is the cadence, how many episodes are left, and the finale. Air schedule opens the sheet: a large remaining count, a collapsed summary of what already aired with Find this episode, and rows grouped into This week, Next week, and Later. The weekday sits on its own line. The date, the dot, the episode number, and the status share one row. A gap appears only when a real break skips a cadence weekday. The same layout is on the website in Server 0.46.0. On an older server the schedule still uses the dates that server already sends.\n\nFull changes:.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.2/MovieClaw-iOS-unsigned.ipa",
+          "size": 30368233,
           "minOSVersion": "26.0"
         }
       ],
@@ -1969,11 +1969,11 @@
       ],
       "versions": [
         {
-          "version": "0.18.0",
-          "date": "2026-10-31T01:54:07Z",
-          "localizedDescription": "🎮 The Switch:\n\nA Switch with custom firmware (Atmosphère) starts cyberworld-endless.nro from the Homebrew Menu. Copy it into sdmc:/switch/cyberworld-endless/, and your ROM into its rom/ folder or where you keep GBA games (sdmc:/roms/gba/). Open the Menu by holding R while you start a game: the game gets a title's whole memory that way. The button marked A is the GBA's A, Plus START and Minus SELECT. Online is as everywhere, NetBattles included.\n\n🎮 The PS Vita:\n\nA PlayStation Vita or PlayStation TV with custom firmware (HENkaku or h-encore) installs cyberworld-endless.vpk from VitaShell, with its own bubble and LiveArea. Your ROM goes in ux0:data/cyberworld-endless/rom/ or ux0:roms/gba/. Cross is the GBA's A, Circle its B, and a touch on the front screen shows the touch controls. The game runs the CPU at 444 MHz and the GBA on a core of its own. Closing it from the LiveArea ends it at once, so a run goes on from its last checkpoint.\n\n🎮 The PS4:\n\nA PS4 with GoldHEN installs cyberworld-endless.pkg from its Package Installer; a PS5 whose etaHEN installs PS4 packages takes it too. Your ROM goes in /data/cyberworld-endless/rom/ (GoldHEN's FTP reaches it) or stays on a USB drive. Cross is the GBA's A. Online is as everywhere; this build sends no anonymous statistics and never asks.\n\n🎮 The PS5:\n\nA jailbroken PS5 gets a native app of its own: unzip cyberworld-endless-ps5.zip and copy its CWEN00001/ folder into /data/homebrew/, where ShadowMountPlus registers it, or install it from Prospero Store once it lists the game. Your ROM goes where the PS4's does, and the saves sit beside it, outside the app, so an update keeps them.",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.18.0/cyberworld-endless.ipa",
-          "size": 2095108,
+          "version": "0.18.1",
+          "date": "2026-10-31T14:22:32Z",
+          "localizedDescription": "🎮 The PS5:\n\nIf Prospero Store installed 0.18.0, update it there, or copy the new cyberworld-endless-ps5.zip's CWEN00001/ folder over the old one in /data/homebrew/. Your ROM goes in /data/cyberworld-endless/rom/, and the saves stay beside it.\n\nWhat kept it from starting, all of it on the PS5's side: a part of the app the console's loader refused, the libraries a PS5 game may use, the memory it is given and how it reads its folders. Closing it from the system no longer reports a crash.\n\nPlayed on a PS5 this time, which turned up three more:\n\n• Online works. The Net Square's gate connects, and the link holds instead of dropping every few seconds.\n• SELECT is the touchpad's press, BN6's map among it: the Create button is the PS5's own, for its screenshots.\n• Fast forward no longer starts on and stays on. The PS5's media remote, which the console lists as a controller, had held its button down.\n\nNothing else changes: the other systems' builds are 0.18.0's.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.18.1/cyberworld-endless.ipa",
+          "size": 2095172,
           "minOSVersion": "14.0"
         }
       ],
@@ -1998,11 +1998,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.7",
-          "date": "2026-10-29T20:45:16Z",
-          "localizedDescription": "UI polish and packaging improvements.",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.7/Scripta-ios-unsigned.ipa",
-          "size": 12576794,
+          "version": "1.0.8",
+          "date": "2026-10-31T14:08:02Z",
+          "localizedDescription": "Security hardening for sessions, authentication, sync isolation, and release inputs.",
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.0.8/Scripta-ios-unsigned.ipa",
+          "size": 12579003,
           "minOSVersion": "14.0"
         }
       ],
@@ -2810,11 +2810,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.0",
-          "date": "2026-10-29T08:01:15Z",
-          "localizedDescription": "New:\n\n• Shows look after themselves. For the shows you're watching:.\n\n• The next season comes by itself. When you're 2 episodes from the end of a season (and have watched a few of it lately), Netfish asks for the next one, through Seerr as you, so approvals still apply. Without Seerr, Sonarr looks for it. It's usually there before you finish, and you get the usual \"ready to watch\" notification. In Activity it says Asked for by itself.\n• New episodes as they air, for a show still running that you're up to date with: Sonarr watches it, and the seasons announced later.\n• Missing episodes are looked for again: an aired one missing ahead of where you are in a season.\n• You're asked once, the first time it would get something for you (on Home or the show's page). Your answer counts for all your shows until you change it in Settings → Playback on this device. Admins turn it on or off for everyone in Settings → Shows.\n• Nothing is asked for while the shows' disk has less than 20 GB free; the log says so.\n• It looks when someone starts an episode in Netfish, and every half hour for everyone, so people watching in Jellyfin's own apps count too (with Jellyfin's API key in Connections).\n\n• Settings → Shows sets how long to wait (7 to 180 days), makes it only a suggestion in Settings → Storage, or turns it off.\n• Never touched: anything kept, anything someone is partway through, New titles, and the latest season of a show still running.\n• Needs Jellyfin's API key (Connections), to see what everyone has watched.\n• Storage's Could go to free space can list single seasons now, each with its own Delete and Keep.\n\n• Android: the fish from the first moment. On a slow TV box (a Raspberry Pi, say) the app showed a black screen for up to 10 seconds while it started. Now Netfish's fish is there straight away.\n\nChanged:\n\n• The channel guide no longer explains New titles in a programme's details or on its New badge. Settings → Channels does.\n\nUpdate:\n\n• Server. Nothing is deleted in the first day: what would go is listed in Settings → Storage first.\n• Android app (phones, tablets, Fire TV, Android TV), for the fish at start.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.0/Netfish-ios.ipa",
-          "size": 928792,
+          "version": "0.8.1",
+          "date": "2026-10-31T17:34:28Z",
+          "localizedDescription": "Fixed:\n\n• Go on the on-screen keyboard puts it away when you search, and you stay on the results (they come as you type). Phone keyboards show a search key there now.\n• Android: Back closes the keyboard and stays on the page. On Android 16 (some TV boxes) the Back that closed the keyboard also went back a page, so searching on a TV left the search.\n\nUpdate:\n\n• Server, for the keyboard's Go.\n• Android app (phones, tablets, Fire TV, Android TV), for Back.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.1/Netfish-ios.ipa",
+          "size": 928793,
           "minOSVersion": "16.0"
         }
       ],
@@ -4111,11 +4111,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.3",
-          "date": "2026-10-22T17:20:40Z",
-          "localizedDescription": "Upgrade notes. Back up config/ and keep the existing data/ mount. v0.9.2 databases advance from schema 088 through migration 089; fresh installs use baseline/089_v0.9.3.sql. The migration clears stored ratings outside one to five stars, so a rating of 0 that a Kikoeru import used for \"unrated\" becomes unrated. The first start after upgrading finishes without a background rebuild.\n\nPersonal ratings, including those imported from Kikoeru, now shape recommendations. Existing recommendation sessions are renewed on the next visit. Upgrade with docker compose up -d --pull always; update KIKOTO_IMAGE first if it is pinned.\n\nKikoto v0.9.3 lets you rate works from one to five stars and makes the rating the main evidence for recommendations, redesigns Metadata's work views around a work inspector with separate metadata and source status, and streams compatibility playback as continuous HLS so long or unsupported audio starts within about a second. The Android and iOS apps give each bottom tab its own back stack, and the phone Favorites and work detail layouts are reworked.\n\n• Work detail shows your rating beside its Quick mark as a star with its number, which opens a popover to rate the work from one to five stars or clear the rating.\n• On a phone, work detail shows Resume as its icon, so the Resume, Mark, rating, and List actions stay on one row.\n• Recommendations take your rating as the main taste evidence: four and five stars count as liking a work, one and two stars as disliking it, and three stars as neutral. Quick marks count only for unrated works and weigh less: Relisten counts half a favorite, and Shelved counts lightly against similar works. One disliked work is enough to lower similar works.\n• Recommendation settings set how much evidence each rating and unrated Favorite, Relisten, or Shelved work carries. The Avoid shelved preset is now Avoid dislikes, and the shelved penalty now applies to disliked similarity.\n• The work directory, playback order, and the fetch, folder edit, delete, display name, and lyrics lists order names numbered with kanji after 第 by their number, so 第二話 comes before 第十話 in every interface language.\n\n• On wide screens Metadata's views start as a row above the list, so the tables keep the full width; Show tabs beside returns them to the column, and Metadata remembers the choice.\n• Metadata's rail shows how many works each works view lists, with the attention views in the attention color, and a line under the header says what the current view lists. Rows show the title first with the code and circle below it.\n\n• Selected Metadata works get a selection bar with Retry metadata, Check sources, and Delete local information and their counts, instead of count buttons in the header.\n\n• Activity and run details name what a run acts on, so a failed circle, series, or voice actor catalog sync shows which one failed, such as Sync a circle catalog · RG00000000. Runs for one work, a circle- or voice-scoped metadata sync, and runs for one remote source show it the same way, workflow run lists show it beside the run number, and Activity search finds runs by it.\n\n• On wide screens Settings starts with its tabs as a row above the settings, as Metadata does; Show tabs beside returns them to the column, and Settings remembers the choice.\n\n• The phone Favorites shelf strip and the circle and voice filter chips follow the theme style's corner radius instead of always drawing pills.\n• On a phone, Favorites reaches its works sooner and reads like the Library: the shelf header fits on one row with the finished share as a percentage, search gets its own row, the sort button names the current order, the listening-status filters scroll as one chip row instead of being cut off, and a caption with the result count and page replaces the top page bar.\n• The account menu behind the avatar drops its Your data shortcut; Your data stays at the end of Settings → Account and in Quick actions.\n• On a phone, work detail is tidier: the metadata language chip shows only the language code, such as JA, without the original marker; an arrow on the selected Directory tab opens source tab visibility with Check sources below it, so the source tab row holds only the sources; and long file and folder names stop at two lines until Full names shows them in full.\n• The Android and iOS apps navigate like a tabbed app. Each bottom tab keeps its own back stack, so switching tabs is no longer a Back step and Back no longer jumps into another tab's pages. Changing a list's tab, filter, or page is not a Back step either, and returning from a resumed detail no longer leaves an extra entry behind. A link into another tab, such as a work's circle or voice actor, starts that tab's own stack, so Back from it goes up to that tab's list and the tab it came from keeps its place. The Android back button goes from another tab's root to Library, then asks for a second press before leaving the app.\n• Changing the page on Favorites, on the circle and voice actor lists, and on circle and voice actor detail returns to the top of the new results, as the Library does, instead of staying at the bottom of the page.\n\n• Contributing describes the AI-assisted contribution policy.\n• A daily Dependency Audit workflow runs govulncheck, npm audit, and npm audit signatures against main through the new make dependency-audit target.\n• The build toolchain is updated to Node.js 24.22.1 with npm 11.19.1, which carry the October Node.js security fixes and distrust a compromised intermediate certificate authority.\n• make sensitive-check reports every changed file that the repository's ignore rules match, including tracked and force-added files, instead of keeping its own list of runtime and credential paths.",
-          "downloadURL": "https://github.com/yexca/kikoto/releases/download/v0.9.3/kikoto-0.9.3-unsigned.ipa",
-          "size": 5445669,
+          "version": "0.10.0",
+          "date": "2026-10-31T18:17:24Z",
+          "localizedDescription": "Back up config/ and keep the existing data/ mount. Databases from v0.9.3 advance from schema 089 through migrations 090–096; fresh installs use baseline/096_v0.10.0.sql. Existing data is upgraded in place; do not replace it with a fresh-install baseline.\n\nLLM translation previews still waiting for review are discarded during the upgrade, and an LLM translation still queued, or retried after it, stops without sending its request. Translate those works again with Translate with AI, whose results take effect as soon as they finish.\n\nA transcription queued before the upgrade, or a failed one retried after it, stops because the service settings changed. Start it again from Manage lyrics → Transcribe.\n\nA metadata sync schedule that uses Selected works switches itself off the next time it is due, with a message on the trigger. Edit it to another scope, or run the selected works from Workflows instead.\n\nThe popular collections become Rankings, and their triggers are removed. Each DLsite popular and Remote popular trigger becomes the ranking of its period, year, or source in Discover → Rankings. Triggers for the same ranking, including one limited to new releases, become one ranking, which is pulled automatically when any of them was enabled, at the shortest interval among the enabled ones; a Startup trigger counts as the ranking's default interval. An interval outside what the ranking offers moves to the nearest choice, and a remote ranking keeps at least 10 places. An earlier year's annual ranking is pulled once and does not continue with the next year. A Remote popular trigger whose source was removed or is no longer a compatible remote source is dropped. Every ranking is pulled once right after the upgrade, also those of paused triggers. Collections no longer add tags, sync metadata, Track, or Fetch, and collection runs still queued or running when the upgrade starts are stopped. Tags they added earlier stay with their works.\n\nAvailability Watch only monitors. A watch configured to Track, Fetch, or Track and Fetch available works becomes monitor only, and its stored Fetch extension exclusion is dropped. Works already tracked or fetched keep their runs. Track and Fetch available works by hand in Discover → Watch, where the Fetch confirmation asks for the extensions to leave out.\n\nKikoto v0.10.0 adds Discover with For you, rankings, and monitor-only Watch, gives local works a full Manage files workspace, and brings reviewed AI translation and transcription flows together. It also hardens scans, Fetch recovery, storage pools, playback, and CI for large personal libraries.\n\n• Manage files on a local work opens the file workspace that Edit files was: the folder's own files, the work's other folders and remote editions, the folder as it will be, and a To be deleted view of everything the edit deletes, each with Keep. Find identical files, choosing files by format, the folder choice, and Delete folder and forget work move into it. On wide screens it has three fixed columns: the work's other folders and remote editions on the left, behind one prompt for each kind, the edited folder in the middle, and To be deleted on the right, with drag and drop into the edited folder. There the folder choice and Refresh sit in the edited folder's head, Delete folder and forget work below To be deleted, and only the files the edit changes carry a mark. Another local folder chooses Copy or Merge in place of the Merge into this folder switch, and a remote edition is marked Read-only. Undo all changes drops the whole edit, and Restore brings it back until the next change. Manage as lyrics is replaced by a note in the workspace that opens Manage lyrics on the folder's other lyrics. Manage cache and viewers who do not manage local files keep the list that selects files to delete.\n• Refresh local files moves from the source actions into Manage files as Refresh, above the workspace or in the edited folder's head on wide screens. It reads only the edited folder from disk again, waits until the edit has no changes, and leaves a folder deeper than the scan depth as it is instead of marking its files missing.\n• Manage files, Manage lyrics, Edit display names, and Translate with AI open at one width and at their full height, so loading or switching tabs no longer resizes them.\n• Manage lyrics → Assignments shows the selected track's lyrics beside the list on wide screens, with its timed lines and timing check, instead of opening a preview under the row. Each folder and the language strip show how many tracks have lyrics, a language with unsaved changes is marked, and a dashed choice marks a track left to a file-name match or without lyrics. Lyrics files marks its places like Manage files: the work folder's managed and other lyrics as Edited, a remote edition as Read-only. Managed lyrics lists how many files each language holds, the language and copy-or-move choices sit together with the folder the lyrics go to, and a language still to choose for selected lyrics is highlighted.\n• Edit display names groups the files under their folders, with each folder's own name in its head, and filters by name. Each language shows how many entries it names and marks unsaved changes, a changed row can be undone on its own, and Enter moves to the next name. Text replaces Copy real names and Paste names: the names become one text, a line per entry beside its real name, to paste a translated list into or edit in place, and it says when the lines and the entries differ in number. On wide screens the selected file or folder shows its names in every language beside the list, where any of them can be edited.\n• Find identical files sits in the head of This folder and says what it does before it starts. Its result is one line with how many files have an identical copy and how much the suggested deletions free; marked files carry a badge with the number of copies and where the other copy is, folders count their identical files, and Only identical files filters the folder. Review identical files lists each set with every copy, keeps the copy you choose of a set repeated in the folder (suggesting the one without a copy mark such as (1) or - Copy), and replaces Delete them and Keep them. In the wide workspace a badge opens the other copy's folder at that file.\n\n• Switching accounts clears retained workflow details, logs, and review items; a permission denial also clears protected data already displayed in Activity.\n• Library and Favorites cards show your rating beside the Quick mark and rate a work, or clear its rating, without opening it.\n• The list button on Library, Favorites, Discover, and Rankings cards names the list that holds the work, as on work detail, when the card footer has room for the name; a narrower card keeps the lit list icon alone.\n• The work detail stat strip shows your rating beside the DLsite rating, also for custom works.\n• Work detail labels the unrated star Rate, so it no longer reads as a favorite toggle. The list button of a work in no list shows a list icon with a plus, labeled List on work detail. On phones, the work detail actions stay on one row that scrolls sideways instead of wrapping.\n• A desktop page about as tall as the window, such as a short last Library page with the player open, no longer shakes endlessly as the scrollbar appears and disappears.\n• Remote source cards for works already in the library show the Local, Tracked, or Cached marks and the personal tags of their Library card, so Always cover source marks no longer show only the remote source.\n• Work cards leave out a rating or sales figure they do not know instead of showing --, and a work without either has no metric line.\n\n• Subscriptions becomes Discover, where you find what to listen to next: picks from your library, new works from your subscriptions, rankings, and the works Availability Watch waits for. Its address is /discover, links to /subscriptions open it, and its navigation icon is a compass; the bell stays on the subscribe buttons. Subscribing and the subscription settings keep their names.\n\n• History shows a ranking as it was on a chosen day and update, in your time zone, says when no pull confirmed that order, and does not mark the ranking as seen.\n• The Rankings tab of the subscription settings has a row for every DLsite ranking, the annual ranking of the year in progress and of added earlier years, and each compatible remote source, in the order of the chips. Each ranking is shown, pulled automatically in all of its orders, and given its interval and depth on its own; the default interval follows how often DLsite updates that ranking. The annual ranking is finalized from 3 January in Japan once both of its orders are pulled, and can continue with the next year. The annual rankings share one chip with a year choice, and a finished year reads as its final order.\n• Ranking history keeps every change for 30 days and then one order per day for a year by default, both set in the Rankings settings. The database cleanup applies the same rule.\n• Workflows lists Pull DLsite rankings and Pull remote source rankings under Collect with their run history, configured from the Rankings settings.\n• Refresh requests made during a ranking pull stay queued for the next run. Cancelling a pull or recovering an interrupted one preserves the automatic schedule without immediately repeating the cancelled pull.\n• On a wide screen the subscription settings open in a panel beside the feed or the rankings, which narrow to make room and stay usable; narrower screens keep the drawer, and phones the sheet.\n• Rankings keeps its ranking, order, filter, and update controls in a compact toolbar that stays in reach while scrolling, states above each work's card only the facts worth stating, and opens History and the comparison from the toolbar. The Rankings settings show one line per ranking with relative pull times and expand a row in place to edit it, and deleting a ranking with its history asks first.\n\n• The top right of Discover always shows Actions, Display options, and the settings in the same places; Actions is unavailable on For you.\n\n• Not in library on Rankings follows whether the library has files for a work, which the cover's source marks show, and On a source keeps the works a remote source is known to have.\n\n• Watch cards offer Track and Fetch on available works, named after the edition found when a source offers another edition, Check now on waiting and failed works, and Remove with a second press; without a remote permission the button stays disabled and says why. Select adds a selection bar with Fetch, Track, Check now, and Remove, each counting the works it applies to. Actions on Watch has Check now, Fetch all available, and Clean up, which removes the works already in the library and those whose Track or Fetch is done after a confirmation with both counts.\n• Fetch from Watch confirms how many works it fetches, which ones come as another edition, the sources, and the file extensions to leave out, which the device remembers. It queues up to 100 works through the same bulk Fetch as a remote source's selection, and each work then shows its own run.\n• Add in Watch accepts DLsite links and mixed text and previews the new codes, those already watched, and text that is not a code before adding.\n\n• The Availability Watch settings tab moves after Rankings and keeps only the remote source; the settings open on the tab of the current view. Workflows and the way back from a watched work open the Watch view, and existing links to the pool in the settings open it too.\n\n• Fetch rejects linked staging, target, and backup directories during copying, publication, recovery, and cleanup, and keeps filesystem operations within the data root when a directory changes after validation. A link or special file inside the folder a Fetch published does not stop its recovery.\n• A Fetch or folder edit that replaces a file keeps a file of the user's own beside it named like a temporary copy, such as track.wav.tmp beside track.wav, instead of deleting it.\n• Startup recovery of an interrupted Fetch waits while the target's storage pool is offline instead of reading the empty mount point, which could leave the next attempt stopped on a pending backup; retrying the Fetch once the pool is back finishes the publication.\n\n• Full local scans reconcile changes made inside indexed work folders while the server is stopped, including added, removed, and replaced files, while keeping folders outside the visible scan scope unchanged. A work folder the scan cannot read completely, or a storage pool that goes offline during the scan, is left as it was and reported, and the rest of the scan completes.\n\n• The metadata editor is larger and easier to scan. Description and Age rating have their own sections, and Metadata source is renamed Links. The universal title is the Fallback row of the Title section, shown in every language without a manual title of its own. Tags form a table with a column for each language and the fallback name. The Metadata language strip appears only in the Title, Description, and Tags sections, where its Fallback option and each language show only that title, description, and tag name column. Each field shows its status, current source, and Revert on one line. The footer keeps Refresh metadata and moves Fetch for edit and Translate with AI under More.\n• A work's description can be written for each language, like its title. The editor's Description section lists every language and a Fallback description, which is the former all-language description. A language with only its own description gets a choice in the metadata language menu, and translation coverage counts it as Manual.\n\n• Metadata view counts load faster on large libraries.\n• Metadata sync Selected works accepts codes the library does not have yet: with DLsite it adds those works and their language editions, and counts a code DLsite does not list as unavailable. A remote metadata source still refreshes only works in the library. Selected works runs only on demand, so schedules no longer offer it.\n\n• Transcription and translation text previews carry the signed-in session on mobile and cross-origin web clients, and discard results after the session changes or the caller cancels.\n• Translate with AI replaces Translate with LLM and the lyrics manager's Translate tab. One dialog translates a work's title, description, shared tag names, file and folder display names, and lyrics into several languages at once, and sends only what each language lacks. Each result takes effect as soon as it finishes, after its source, the content policy, the requester's permission and the provider are checked again. Tag names show how many works they affect. Lyrics are translated from a lyrics file the track has; a track without lyrics links to Manage lyrics → Transcribe. Its Translate tab sets categories against languages, Lyrics sets tracks against lyrics languages, every missing cell or a Custom choice cell by cell, and Results records what each item wrote as before and after, with links to where it can be changed or undone. A model limited to declared directions is checked against the work's original language for its text and against each lyrics file's own language for lyrics; what it cannot translate shows × and is not sent.\n• Display names of local files and folders can be translated with AI. Names in the original language and names without words, such as Track01, are left as they are. A display name or lyrics someone sets while a translation waits are kept, and the translation says so.\n• A new Translation page in the sidebar follows running and queued translations by work and language, resends stopped ones, lists what each translation wrote with a link to its work, and holds the translation coverage that was under Metadata. Everyone who can translate sees every account's translations. Sending a stopped translation again asks for confirmation only when its request may already have been charged. Coverage counts a Fallback title or description as Manual, since every language shows it, and Translate with AI does not offer to translate it. Demo shows the page read-only.\n• Manage lyrics → Transcribe chooses the audio language first, then the model, and the model decides the lyrics language: a model that transcribes writes the audio language, a model that translates is offered only for its source language and names its direction, and a model whose languages the service does not declare lets the lyrics language be chosen. Kikoto Helper models are offered only for the languages they hear. A transcription the service reports in another language than the lyrics language is not kept.\n• Accounts with library write permission can cancel their own translations from the Translation page; workflow administrators can cancel other accounts' runs. Shared tag translations apply without stalling the queue on a single database connection.\n• Lyrics written by speech recognition or translation start with a line naming the models, in the lyrics' language, and the player marks them as AI-made. Settings → ASR \u0026 LLM → AI lyrics turns the line off.\n• Settings → LLM \u0026 ASR is renamed ASR \u0026 LLM and lists speech services before LLM providers.\n• Notifications about translation and transcription runs open the Translation page or the work instead of Activity.\n\n• Database writes wait for one dedicated writer connection, and reads use a separate pool of eight connections, so queued writes no longer leave browsing and sign-in waiting for a free connection. KIKOTO_DB_READ_CONNECTIONS sets the number of readers; each connection may use up to 16 MiB of page cache.\n• Playback, transcription, loudness analysis, cover selection, and media probing accept files when the data or cache root, or one of its parent directories, is a symbolic link. A link inside the root that leaves it is still refused. They open the location they checked, and refuse a dangling link.\n\n• CI validation finishes sooner: planned jobs start without waiting for Style, the backend race suite runs as six slices balanced by test durations recorded in CI (make RACE_RUN=\u003crun id\u003e backend-race-durations refreshes them), backend tests copy a schema migrated once per test process instead of migrating a database for each test, each browser test shard runs three workers in the pinned Playwright image, and no browser job installs system packages.\n• Make runs every Go target with the toolchain backend/go.mod pins, so a newer locally installed Go no longer breaks make backend-lint; set GOTOOLCHAIN to override it. This works from Git Bash and PowerShell on Windows as well as on Linux.",
+          "downloadURL": "https://github.com/yexca/kikoto/releases/download/v0.10.0/kikoto-0.10.0-unsigned.ipa",
+          "size": 5551203,
           "minOSVersion": "16.4"
         }
       ],
@@ -4348,11 +4348,11 @@
       ],
       "versions": [
         {
-          "version": "3.38.0",
-          "date": "2026-10-30T20:45:15Z",
-          "localizedDescription": "• The desktop pet keeps moving while an agent works. It no longer sits beside its laptop for the whole turn. It folds the laptop, carries it on its back while it walks, and opens it again when it sits down. It also stops turning to follow the pointer; the pounce stays.\n• A session read in one place is read everywhere in the desktop app. Reading or dismissing a session in the notch, the pet or the sidebar clears it in all three. Pet question bubbles stay until you answer them, and turning off finished sessions in the notch only empties the notch.\n• The model name always shows under a prompt. Before, replies that ended on a question, a plan or a tool call showed no model name, and some prompts lost it after a reload. Now it shows in both cases.\n• Thinking traces show as muted italics instead of a quote block.\n• The review panel's Open button is a compact \"+\" on desktop.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.38.0/OpenAgentd_3.38.0_iOS.ipa",
-          "size": 6177091,
+          "version": "3.39.0",
+          "date": "2026-10-31T12:02:37Z",
+          "localizedDescription": "• Restarting OpenAgentd no longer re-runs agent turns, including scheduled-task turns, that had already finished before the restart.\n• The sidebar lists each workspace's sessions in activity order. An older session moves to the top of its repository when it gets new activity or a queued message, without waiting for a refresh.\n• Long URLs and file paths in the ask_user question card now wrap instead of overflowing.\n• Thinking traces show inline in a monospace font again, with no italics or quote bar.\n• On touch screens, view toolbar controls stay inside the toolbar.\n• On a minimized composer, the side-questions chip is shortened to \"btw\".",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.39.0/OpenAgentd_3.39.0_iOS.ipa",
+          "size": 6177103,
           "minOSVersion": "15.0"
         }
       ],
@@ -4911,12 +4911,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.3.1",
-          "date": "2026-07-30T15:26:49Z",
-          "localizedDescription": "Seanime Server:\n\nThis is a release build. Keep in mind that features may be incomplete or unstable.\n\n• ⚡️ Core(Android): Improved server process logging.\n• 🦺 iOS: Fixed app crashes.\n\nAndroid Installation:\n\n• Open the file to install it (you may need to grant your browser or file manager permission to \"Install unknown apps\").\n• Launch Seanime Server, start the server, and copy its URL.\n\n• Version Code: 5.\n• SHA-256 Checksum: 297940eebcb5a92824fb14afd20d2d4738692247ddfab4e47a2542d091c01c80.\n\niOS Installation:\n\nThis build is distributed as an unsigned .ipa package for sideloading.\n\n• Sideload the app using your preferred signing tool.\n• Launch Seanime Server, start the server, and copy its URL.\n\n• Build Number: 5.\n• SHA-256 Checksum: 3c661f260b50a598be72bb976d101e6175d046bd14f1275b7c71af9e0cf62808.\n\nBuild Details:\n\n• Commit: 9776e88.",
-          "downloadURL": "https://github.com/5rahim/seanime-server-mobile/releases/download/v0.3.1-5.5-20260730-9776e88/seanime-server-v0.3.1-5-20260730-9776e88.ipa",
-          "size": 40849790,
-          "minOSVersion": "15.1"
+          "version": "0.4.0",
+          "date": "2026-10-31T18:58:20Z",
+          "localizedDescription": "Seanime Server:\n\nThis is a release build. Keep in mind that features may be incomplete or unstable.\n\n• ⚡️ Core: Crash reports for server failures.\n• 🦺 Core: Failed server starts no longer close the app.\n• 🦺 Core: Invalid config.toml files are rejected before saving.\n• 🦺 Android: Fixed crashes when Android limits the background service.\n• 🦺 Core: Restarting the server now starts it again when the app is reopened.\n• ⬆️ Upgraded to Seanime 3.10.4-1.\n\nAndroid Installation:\n\n• Open the file to install it (you may need to grant your browser or file manager permission to \"Install unknown apps\").\n• Launch Seanime Server, start the server, and copy its URL.\n\n• Version Code: 7.\n• SHA-256 Checksum: 1c3c688f66a6ed849e072a819308a3782b01a5657a30a4fb66346e989b99dcce.\n\niOS Installation:\n\nThis build is distributed as an unsigned .ipa package for sideloading.\n\n• Sideload the app using your preferred signing tool.\n• Launch Seanime Server, start the server, and copy its URL.\n\n• Build Number: 7.\n• SHA-256 Checksum: 5ea3aae1601fa1dfeddcf60724fb49cd8010f100741f2fc7767da2c0aeb24d89.\n\nBuild Details:\n\n• Commit: d5a9557.",
+          "downloadURL": "https://github.com/5rahim/seanime-server-mobile/releases/download/v0.4.0-7.7-20261031-d5a9557/seanime-server-v0.4.0-7-20261031-d5a9557.ipa",
+          "size": 41502644,
+          "minOSVersion": "16.4"
         }
       ],
       "appPermissions": {
@@ -6176,10 +6176,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-30T13:53:53Z",
+          "date": "2026-10-31T13:20:22Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484763,
+          "size": 7484764,
           "minOSVersion": "16.4"
         }
       ],
@@ -6386,10 +6386,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-10-31T10:36:17Z",
+          "date": "2026-10-31T15:49:58Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56178213,
+          "size": 56177874,
           "minOSVersion": "17.0"
         }
       ],
@@ -6952,11 +6952,11 @@
       ],
       "versions": [
         {
-          "version": "1.45.7",
-          "date": "2026-10-30T19:54:37Z",
-          "localizedDescription": "Removed:\n\n• Sidebar on a computer: the \"Add a feed\" link. Add a feed from the Feeds place (type or paste its address in the bar at the bottom).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.45.7/Waypage.ipa",
-          "size": 10619902,
+          "version": "1.45.11",
+          "date": "2026-10-31T17:51:23Z",
+          "localizedDescription": "Changed:\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.45.11/Waypage.ipa",
+          "size": 10628942,
           "minOSVersion": "15.5"
         }
       ],
@@ -7479,10 +7479,10 @@
       "versions": [
         {
           "version": "2.0.0",
-          "date": "2026-10-26T14:36:42Z",
-          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget and the iPhone build. Please report problems in Issues.\n\nWhat's new:\n\n• LecCheck for Linux is a Flatpak, from its own repository (signed with its own key): flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref, or open that file in GNOME Software or Discover. It runs on the freedesktop runtime (about 300 MB, shared with other Flatpak apps) and updates itself from then on. This is the last version for install.sh.\n• Move to the Flatpak: LecCheck installed with install.sh offers the move on Today, in Settings and in a window when it starts. Signed in, everything syncs first and you sign in again in the Flatpak; otherwise save a backup and choose Import backup on the Flatpak's welcome screen. Then it installs the Flatpak, removes the old version (its data stays as one more backup) and opens the new one.\n• Updates through Flatpak: the update window shows Flatpak's progress, then Verified by Flatpak (the repository is signed), and Restart starts the new version. The first time, your desktop asks whether LecCheck may update itself. If you chose Deny, or a new version needs new permissions, the window says what to run instead.\n\n• Check now opens the update window when there's a new version.\n\nSmaller things:\n\n• Import backup on the welcome screen, for a new device or the Flatpak.\n• A sign-in kept by the keyring while the data folder was gone (a new install, or the Flatpak finding the old version's sign-in) looked signed in while nothing synced: an empty device now gets the account's data back, and one with data of its own stays signed out until you sign in.\n• The update window that opens at startup no longer closes again by itself when LecCheck moves on from its splash screen.\n• Linux no longer needs WebKitGTK or libsoup.\n• Settings → Developer → Copy diagnostics says how LecCheck was installed on Linux.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.15-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.15-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? Update from inside LecCheck, then choose Move to the Flatpak.",
-          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.15/LecCheck-2.0.0-beta.15-ios.ipa",
-          "size": 11423143,
+          "date": "2026-10-31T16:38:40Z",
+          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget and the iPhone build. Please report problems in Issues.\n\nWhat's new:\n\n• A calmer way to mark a session. One Attended button with a menu for the other statuses replaces the green and red buttons; the color only shows once it's marked.\n• Today is less crowded: the session in the big card isn't listed again in the schedule.\n• Stats starts with your courses: overall attendance, then each course with its requirements under it. On phones the charts fold under More details.\n• Settings on phones is a short list of categories, each on its own page.\n• Days off stand out on Week: the whole day is tinted with its name at the top, and a new icon replaces the umbrella. The date stays visible.\n• A saved recording is one tap away: \"Recording link\" opens it, and Edit changes it.\n• Reception hours: turn them on in Settings → Courses, add them to a course like a meeting, and they show on Week as an outline. They never count toward attendance.\n\n• Clearer Hebrew: statuses read as nouns, like נוכחות and היעדרות, and other awkward wording is fixed.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.17-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.17-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? 2.0.0-beta.15 offers Move to the Flatpak; from an older one, install the Flatpak as above and sign in or import a backup.",
+          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.17/LecCheck-2.0.0-beta.17-ios.ipa",
+          "size": 11479753,
           "minOSVersion": "15.0"
         }
       ],
@@ -7724,10 +7724,10 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
       "subtitle": "Run Android on iOS. Natively or Emulated",
-      "localizedDescription": "Husk:\n\nAndroid apps and games on your iPhone.\n\nAdd an APK, tap it, and it opens full-screen. Husk runs it in one of two ways, shown as the two sides of its Library:\n\n• Translation Layer. The game's own 64-bit Android code runs directly on the iPhone's processor, and Husk stands in for Android around it: the C library, the Java calls the game makes, OpenGL ES (through ANGLE), Vulkan (through MoltenVK), sound, touch and controllers. No Android boots, so a game starts in seconds, and its code is never emulated.\n• Emulation. A full Android system (LineageOS) boots under QEMU inside Husk, for apps the translation layer cannot run yet and for using Android itself. iOS gives apps no hypervisor, so the processor is emulated, and this is much slower than the translation layer.",
+      "localizedDescription": "·.\n\n·.\n\n·.\n\nAdd an APK, tap it, and it opens full-screen.\n\n• Translation layer — the game’s own 64-bit Android code runs on the iPhone. Husk stands in for Android around it (C library, Java, GL, Vulkan, audio, input). No Android boot; a game starts in seconds.\n• Emulation — a full LineageOS guest under QEMU, for apps the translation layer cannot run yet.\n• PS4 — fake packages and game folders on iOS 17.4+.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#6d5bef",
-      "category": "developer",
+      "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Leviidev/Husk@main/Screenshots/library.png",
         "https://cdn.jsdelivr.net/gh/Leviidev/Husk@main/Screenshots/game-settings.png",
@@ -7879,8 +7879,8 @@
       "tintColor": "#0284c7",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/album-casiopea.png",
-        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/player-space-road.png"
+        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-album-page.png",
+        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-full-player.png"
       ],
       "versions": [
         {
@@ -8632,11 +8632,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.0",
-          "date": "2026-10-31T03:23:15Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.0.0/proton-stream-2.0.0-ios.ipa",
-          "size": 26176952,
+          "version": "2.0.1",
+          "date": "2026-10-31T14:05:55Z",
+          "localizedDescription": "Fixes:\n\n• Android: the player's choosers no longer close on their own. The episode list, and the track, speed, chapter and sleep choosers, closed a few seconds after opening while a video played: the player's controls hid themselves and took the open chooser with them. The controls now stay up while a chooser is open.",
+          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.0.1/proton-stream-2.0.1-ios.ipa",
+          "size": 26176300,
           "minOSVersion": "17.0"
         }
       ],
@@ -8793,16 +8793,18 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-10-24T14:34:26Z",
-          "localizedDescription": "Bug Fixes:\n\n• Stop the launch freeze and the wrong button margins on iPhone Duo (#207) (4e6f4a1).\n\nFeatures:\n\n• Announce iPhone Duo support in What's new (#208) (10fc6b8).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.8.1/Empo-0.8.1-unsigned.ipa",
-          "size": 66261834,
+          "version": "0.9.1",
+          "date": "2026-10-31T17:00:33Z",
+          "localizedDescription": "Release:\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.9.1/Empo-0.9.1-unsigned.ipa",
+          "size": 65457726,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Empo uses Bluetooth so you can play with a wireless game controller.",
           "NSCameraUsageDescription": "Take a photo to use as custom game artwork or banner.",
@@ -9174,11 +9176,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.6",
-          "date": "2026-10-16T18:52:24Z",
-          "localizedDescription": "• Hardcode languages list to switcher.\n\n• New Crowdin updates.",
-          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.6/Palladium-v1.4.6.ipa",
-          "size": 39482614,
+          "version": "1.5.0",
+          "date": "2026-10-31T13:17:53Z",
+          "localizedDescription": "• Fix package manager version comparison.\n• Add yt-dlp-ejs as managed package \u0026 fix urlib3 _PERCENT_RE crash.\n• Use Icon Composer app icon.\n\n• Add cancel and progress details to package update overlay.\n• Check curl cffi payload matches bundled python version.\n\n• Added Spanish translations by Juan En.",
+          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.5.0/Palladium-v1.5.0.ipa",
+          "size": 41833789,
           "minOSVersion": "17.0"
         }
       ],
@@ -9531,7 +9533,7 @@
       }
     },
     {
-      "name": "MeloCafé",
+      "name": "MeloCafe",
       "bundleIdentifier": "com.stossy11.MeloCafe",
       "developerName": "stossy11",
       "subtitle": "MeloCafe - iOS Cemu based Wii U emulator",
@@ -9541,11 +9543,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.0",
-          "date": "2026-09-14T12:54:41Z",
-          "localizedDescription": "• Full iOS Support.\n• Metal Argument Buffers.\n• Cached Threaded Interpreter.\n\nThis is the first release of MeloCafe, there WILL be bugs, glitches, performance issues and unintended behavior which will get fixed in the future.\n\nMake sure to assign the Universal Script in StikDebug.",
-          "downloadURL": "https://github.com/stossy11/MeloCafe/releases/download/1.0/MeloCafe.ipa",
-          "size": 23433272,
+          "version": "1.1",
+          "date": "2026-10-31T14:23:56Z",
+          "localizedDescription": "• Updated Threaded Interpreter.\n• Pre-decode Interpreter Cache.\n• Single Core CPU Mode options.\n• Guest RAM NSExtension offloading.\n\n• Move Virtual Controller to Safe Area.\n• Add No ROMs View.\n• Direct Jumping support for the JIT Recompiler.\n• Fix Page Fault with older GPUs.\n• Make Statistics Overlay Asynchronous.\n• Improved Cube map support.\n• Fix Controllers with analogue triggers triggering incorrectly.\n• UI bug fixes.\n\nMake sure to assign the Universal Script in StikDebug.",
+          "downloadURL": "https://github.com/stossy11/MeloCafe/releases/download/1.1/MeloCafe.ipa",
+          "size": 23558287,
           "minOSVersion": "15.0"
         }
       ],
@@ -9558,6 +9560,7 @@
           "keychain-access-groups"
         ],
         "privacy": {
+          "NSCameraUsageDescription": "MeloCafe uses the camera when Wii U software requests the GamePad camera.",
           "NSMicrophoneUsageDescription": "MeloCafe uses the microphone when Wii U software requests GamePad microphone input."
         }
       }
@@ -10297,10 +10300,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-24T06:33:51Z",
-          "localizedDescription": "Unsigned iOS build of master at fbe749a. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
+          "date": "2026-10-31T15:10:13Z",
+          "localizedDescription": "Unsigned iOS build of master at c6f7dc6. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
           "downloadURL": "https://github.com/anoff/tensaiasobi/releases/download/ios-latest/tensaiasobi-unsigned.ipa",
-          "size": 1546137,
+          "size": 3866675,
           "minOSVersion": "15.0"
         }
       ],
@@ -10945,10 +10948,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-31T06:34:47Z",
-          "localizedDescription": "Built from ab42e98 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-31T16:00:55Z",
+          "localizedDescription": "Built from 7757fa4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 52738796,
+          "size": 52741242,
           "minOSVersion": "15.0"
         }
       ],
@@ -10978,11 +10981,11 @@
       ],
       "versions": [
         {
-          "version": "2.5.3",
-          "date": "2026-10-19T05:56:51Z",
-          "localizedDescription": "The .ipa below is unsigned. There is no signing certificate in this repository and there should not be one, so it cannot be installed by tapping it: use AltStore, Sideloadly, or your own developer account.\n\nRequires iOS 26 or newer, on iPhone or iPad. Installs as Neechan X (pro.neechan.app-dev) and updates 2.5.2 in place.\n\nThe gallery fetches the next picture while you look at this one, so a swipe lands on the picture rather than on a spinner. Swiping between pictures is smooth again: one you have already seen no longer flashes and loads over at the end of every swipe. A muted video stays muted as you swipe to the next one. A long press on a file offers Save and Share, which sends a WebM on as an MP4 that other apps can play. In the reply form, the formatting bar sits under the comment field, and the 4chan report sheet stays on 4chan. A full endless thread now notifies about new posts and replies to you, and its badge in Favorites counts what is unread. With the app lock on, a fresh launch stays hidden until Face ID or the passcode lets you in.\n\nGallery:\n\n• The next picture is ready before you get there. While a picture is on screen, the one after it is fetched and decoded, so it is already drawn as you swipe onto it. A picture over 10 MB, or one whose size the site does not give, is left until you land on it, and nothing is fetched ahead where the app is set not to load media on the connection you are on. After a video, the picture waits until the clip has opened, so the two do not compete for the connection.\n• No flash at the end of a swipe. Every page you landed on threw its picture away, showed a spinner, and read and decoded the whole file again, even a picture you had looked at a moment before. The pictures either side of the one on screen are now kept, and landing on one shows it at once.\n• A swipe stays a swipe. One that began slightly downward pulled the whole viewer down and shrank it for the rest of the swipe, as if it were being closed. Which way a drag goes is now decided once, as it starts.\n• Muted stays muted. Muting a video and swiping to the next one played the next one out loud, under a button that still said it was muted. The mute now carries from clip to clip until the gallery closes.\n\nPosting:\n\n• The formatting bar stays under the comment. The buttons for bold, italic, spoilers and the rest, and for attaching pictures and files, used to float above the keyboard. They are now a fixed row right under the comment field and scroll with the form.\n\nReporting:\n\n• The 4chan report sheet stays on 4chan. It was meant to refuse any link that leads off the site, such as one to the rules, but the check never ran: its signature was missing the main-actor mark WebKit's now carries, so it did not count as the delegate method and WebKit never called it. A tap on a link took you browsing the rest of the site in a sheet with no address bar.\n\nNotifications:\n\n• Endless threads have news again. An endless thread drops its oldest post for each new one, so once it is full it always holds the same number of posts, and that number was all the watcher asked 2ch for. A full endless thread never had news: no notification about new posts or replies to you, and no count on its badge in Favorites. These threads are now checked by asking for the posts after the newest one seen, one request that a quiet thread answers with a single post, and the badge counts the posts that arrived since you last read the thread. The app learns that a thread is endless when you leave it, or else asks for its first post once per launch, the first time its count stops growing.\n\n• The lock covers a fresh launch. With the app lock on, opening the app fresh showed it, and let it be used, while Face ID was still scanning, and a failed or cancelled scan left it open. The lock screen was put up only when the lock changed its mind, and on a fresh launch the lock had made up its mind before the app knew which screen to draw on, so the one request was dropped and never made again. The request is now kept until the screen is known, and the lock screen is up from the first frame, before Face ID asks.\n\nUnder the hood:\n\n• The sound no longer stalls the interface. Taking the sound from other apps and handing it back both wait on the system's audio server, and were done on the main thread. They now run on a queue of their own, in the order they were decided.\n• The decoders do not wait behind a slower queue. The video and audio decoders run at the highest priority and wait for the renderers to take what they made, but the queue feeding the renderers ran at the default priority. It now runs at the decoders' own.\n• The compiler warnings are gone. An interruption reason iOS 16 stopped sending is no longer looked for, and the rest were small isolation fixes.\n\n• The internal TestFlight build carries its symbols. Neechan X.\n\n(Internal) archives Debug, which made no dSYM, and App Store Connect wants one for every build it takes. Debug now makes one.",
-          "downloadURL": "https://github.com/leros1337/neechan/releases/download/v2.5.3/Neechan-2.5.3.ipa",
-          "size": 15541283,
+          "version": "2.5.4",
+          "date": "2026-10-31T15:15:18Z",
+          "localizedDescription": "The .ipa below is unsigned. There is no signing certificate in this repository and there should not be one, so it cannot be installed by tapping it: use AltStore, Sideloadly, or your own developer account.\n\nRequires iOS 26 or newer, on iPhone or iPad. Installs as Neechan X (pro.neechan.app-dev) and updates 2.5.3 in place.\n\nTapping a notification opens the thread again, instead of closing the app. Favorites show how many replies to you each thread has.\n\nFavorites:\n\n• Replies to you get their own badge. Next to the count of new posts, a red badge shows how many of them answer your posts, so a thread where someone replied to you stands out from one that is only busy. It counts until you open the thread, and sorting by unread puts these threads first. It needs a post of yours in the thread, and for now it works on 2ch only: 4chan's watcher sees post counts, not the posts themselves.\n\nNotifications:\n\n• A tapped notification no longer crashes the app. Tapping a banner, or its entry in Notification Centre, closed the app instead of opening the thread. The app answered the system's tap from the wrong thread, which iOS does not allow. It now opens the thread at the reply the notification was about, whether the app was already open in the background or not running at all.",
+          "downloadURL": "https://github.com/leros1337/neechan/releases/download/v2.5.4/Neechan-2.5.4.ipa",
+          "size": 15695823,
           "minOSVersion": "26.0"
         }
       ],
@@ -12123,17 +12126,24 @@
       "bundleIdentifier": "com.aminewallah.colon3",
       "developerName": "AmineWallah",
       "subtitle": "iOS music player with Soulseek support",
-      "localizedDescription": "A native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library. No server or desktop client in between.\n\n• Library: albums and loose songs in a 2-column grid, A–Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps.\n• Playlists: your own (reorder, rename, .m3u8 import/export), plus Favorite Songs and Most Played.\n\n• Player: Apple Music-style full screen with synced lyrics (a .lrc next to the song, else LRCLIB), queue editing, shuffle and repeat, playback speed, AirPlay, and the Liquid Glass mini player on iOS 26+.\n\n• Sound: 10-band EQ with presets, and a bit-perfect mode for USB DACs. Multichannel and Dolby Atmos files play through AVPlayer with spatial audio instead, with no EQ.",
+      "localizedDescription": "A native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library. No server or desktop client in between.\n\n• Library: albums and loose songs in a 2-column grid, A–Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps.\n• Playlists: your own (reorder, rename, .m3u8 import/export), plus Favorite Songs and Most Played.\n\n• Player: Apple Music-style full screen with synced lyrics (a .lrc next to the song, else LRCLIB), queue editing, shuffle and repeat, playback speed, AirPlay, and the Liquid Glass mini player on iOS 26+.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aminewallah.colon3.png",
       "tintColor": "#6058e8",
       "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/AmineWallah/colon3@main/docs/screenshots/player.jpg",
+        "https://cdn.jsdelivr.net/gh/AmineWallah/colon3@main/docs/screenshots/lyrics.jpg",
+        "https://cdn.jsdelivr.net/gh/AmineWallah/colon3@main/docs/screenshots/autoplay.jpg",
+        "https://cdn.jsdelivr.net/gh/AmineWallah/colon3@main/docs/screenshots/search.jpg",
+        "https://cdn.jsdelivr.net/gh/AmineWallah/colon3@main/docs/screenshots/library.jpg"
+      ],
       "versions": [
         {
-          "version": "1.2.0",
-          "date": "2026-10-24T16:36:06Z",
-          "localizedDescription": "New:\n\n• Backup files: export the same backup as a file and import it on any phone, no Google account needed.\n\nFixed:\n\n• Non-square covers: wide or tall album art (like a photo of a CD and its case) is now shown whole on a square, with a blurred copy of itself filling the sides, everywhere including the Lock Screen. Before, it was cropped, and in Now Playing it pushed the title and controls off the edges of the screen.",
-          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.2.0/colon3-1.2.0-unsigned.ipa",
-          "size": 2735640,
+          "version": "1.3.0",
+          "date": "2026-10-31T13:01:27Z",
+          "localizedDescription": "Everything new since 1.2.0.\n\nNew:\n\n• Siri and Shortcuts: control colon3 by voice, with no setup:.\n\n• \"Play music in colon3\" resumes, or shuffles your library if nothing was queued.\n• \"Play a song in colon3\": Siri asks what you want to hear. Name a song, an album or an artist from your library, or say \"song by artist\".\n• \"Play playlist in colon3\" and \"Shuffle playlist in colon3\". Siri learns your playlist names as you make them.\n• \"Shuffle colon3\", \"Play my favourites in colon3\", \"Pause colon3\", \"Next song in colon3\", \"Previous song in colon3\" and \"What's playing in colon3\".\n• Every action is also in the Shortcuts app, and Siri can start music without opening colon3. The full list is in Settings › Siri \u0026 Shortcuts.\n\nFixed:\n\n• Other apps' audio: opening colon3 no longer stops a video or music playing in another app.\n• Voice messages and calls: after you pause colon3, a voice message (in Instagram and other apps) picks up your voice straight away, and colon3 no longer starts playing by itself when you send or cancel it. colon3 now hands the audio back when you pause, and after an interruption it only resumes if it was playing when the interruption started.",
+          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.3.0/colon3-1.3.0-unsigned.ipa",
+          "size": 5876979,
           "minOSVersion": "18.0"
         }
       ],
@@ -12725,7 +12735,7 @@
     {
       "name": "AniWings",
       "bundleIdentifier": "com.aniwings.app",
-      "developerName": "thehakaiben-cmyk",
+      "developerName": "aniwingsofficial-app",
       "subtitle": "Total download counts breakdown across all official releases",
       "localizedDescription": "Modern Anime Streaming for Android, iOS, Android TV \u0026 Desktop:\n\n-success?style=flat-square).\n\n🪽 What is AniWings?:\n\nAniWings is a modern anime streaming client designed for Android phones, tablets, iOS (iPhone \u0026 iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and Desktop (Windows \u0026 Linux).\n\nDiscover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop PCs.\n\nNo mandatory AniWings account. No intrusive advertising. Just anime.\n\nWhy AniWings?:\n\n• 🚫 No Mandatory Sign-up — Start browsing and watching without creating an AniWings account.\n• 🎨 Modern Interface — A redesigned experience built for phones, tablets, televisions, and desktop computers.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aniwings.app.png",
@@ -12734,9 +12744,9 @@
       "versions": [
         {
           "version": "1.2.6",
-          "date": "2026-10-10T13:12:08Z",
-          "localizedDescription": "Android Mobile: AniWings v1.2.6 Update - Fixed bugs, episode cache faster and some UI changes done.\n\niOS (iPhone \u0026 iPad): AniWings iOS v1.2.6 Release - Brand new iOS app for AniWings with smooth streaming, episode cache, and modern UI.\n\n📱 iOS Users (AniWings-ios.ipa): Download the .ipa and install it using SideStore, AltStore, Sideloadly, Feather, or TrollStore.",
-          "downloadURL": "https://github.com/thehakaiben-cmyk/aniwings-app/releases/download/v1.2.6/AniWings-ios.ipa",
+          "date": "2026-10-31T18:29:55Z",
+          "localizedDescription": "AniWings iOS v1.2.6 Release - Brand new iOS app for AniWings with smooth streaming, episode cache, and modern UI.\n\n📱 iOS Users (AniWings-ios.ipa): Download the .ipa and install it using SideStore, AltStore, Sideloadly, Feather, or TrollStore.",
+          "downloadURL": "https://github.com/aniwingsofficial-app/aniwings-app/releases/download/ios-v1.2.6/AniWings-ios.ipa",
           "size": 55921899,
           "minOSVersion": "15.0"
         }
@@ -12956,11 +12966,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.3",
-          "date": "2026-10-30T22:48:49Z",
-          "localizedDescription": "feat(recognition): continuous 20s matching stream with non-interrupting audio session.",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.8.3/KnightMusic.ipa",
-          "size": 22087637,
+          "version": "0.8.6",
+          "date": "2026-10-31T18:36:15Z",
+          "localizedDescription": "Knight Music v0.8.6.\n\n• Recognized songs in history now use the same local-library and YouTube Music lookup as fresh matches, with Play, Play Next, Add to Queue, Add to Library and Share actions.\n• Library imports report success only after the requested song appears in the active account's library. Completed imports offer Play, and switching servers stops pending verification.\n• Shared-playlist additions consistently offer Create Copy \u0026 Add from song menus, the playlist picker and drag and drop. Copies fetch the complete current source playlist first.",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.8.6/KnightMusic.ipa",
+          "size": 22238744,
           "minOSVersion": "26.0"
         }
       ],
