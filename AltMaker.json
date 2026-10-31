@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.mxfia19.TwitchUnblock",
-    "com.nuvio.media",
-    "com.knightabdo.knightmusic"
+    "com.omrajput.wyrmios",
+    "com.joemattiello.iCube",
+    "wiki.qaq.GhostRemote"
   ],
   "apps": [
     {
@@ -1969,11 +1969,11 @@
       ],
       "versions": [
         {
-          "version": "0.17.0",
-          "date": "2026-10-26T21:50:25Z",
-          "localizedDescription": "A battle on every layer:\n\nEvery layer without a guardian now has at least one random battle. BN6's own roll still decides when: on a layer that has had none, it gets BN6's best odds once MegaMan has walked about a quarter of it, and on the few that still have none the exit pad waits for one as MegaMan steps on it. An act is no longer a walk to its guardian.\n\nBN5's End Area walks one wide:\n\nBN5's End Area draws no floor two panels wide but its pads, and its layers had been worn into rings and stubs, a junction at every other panel. Its rooms are now drawn whole as its pads and its ways stay one wide, as BN5 draws them: the junctions on the way to the exit fell from eleven a layer to two.\n\nFewer words on the way:\n\nLines that change no decision are gone. An act's first layer says two boxes where it said five to seven, a guardian's layer three or four where it said nine or ten, and the next guardian is named once at each place you decide: the act card, the Net Dealer, MegaMan at the portal, L on his own layer; his full tips wait in Dad's mail. After a guardian, BN6's own \"MegaMan got:\" boxes carry two things each and the call to install a program moves into the draft's ask: seven boxes where there were twelve. L still warns of EraseMan's erase and DiveMan's wave.\n\nMegaMan reads the way ahead:\n\nAt a layer's two ways (the exit pad beside a dark warp, the warp itself, and each portal of Lan's HP) MegaMan says what he senses on the layer behind it: a strong virus signal, someone selling programs, a trader's call, the Net Dealer, a dark board. Choose the way the run needs.\n\nA Server pays a pick:\n\nA won Server challenge offers three chips on the vault's screen, one to take, instead of one rolled chip. B leaves them at the Server until you take one.\n\nBugFrags buy programs:\n\nThe NaviCust vendor now stands on every act's middle layer and sells for BugFrags in BN6's own shop screen: four programs and a rare chip from the BugFrag Trader's pool. A battle won with bugs on the board pays a BugFrag a bug level, five at most. Skipping a guardian's NaviCust draft for BugFrags now buys a program of your choosing at the next vendor.\n\nFinds vary again:\n\nA Mystery Data's chip is no longer rolled again until it comes in your folder's codes. The chip stays as the net rolled it and takes one of your folder's codes where it comes in one, more often the deeper you go; a battle's rare find does the same. The net holds more kinds of chips (a tenth more by act 4, a quarter more by act 6, Megas among them), and your folder still gathers by code. Act 1's Net Dealer says so.\n\nThe requests on one board:\n\nAll three askers' requests go up on BN6's own Request BBS at AsterLand, so one walk reads them all, and the courier in Lan's HP says what each one asks and pays before you jack out. The askers still pay where they stand.\n\nGuardians remember how it ended:\n\nA guardian's arena intro names how your last battle with him went: a close call, his own Cross worn against him, a Beast Out, a Cross by name, or the runs since you met.\n\nThree more starting folders:\n\nZ-Canon (Cannon A A B B C for GigaCan1), Busting (TankCan1, HiCannon and swords in L and R, no Recovery chip) and Lean join Standard, Blade and Storm in the setup, each a different way to play rather than a stronger one, each opened by a milestone that teaches its style.\n\n🛡️ ProtoMan's netbattle no longer ends the dive:\n\nWhere ProtoMan's blow would delete MegaMan, Lan stops the battle: it ends at once, MegaMan back on the layer at 1 HP, the duel lost and Chaud's full clearance still to win. The netbattle had become the most common end of a run (30 of 88 lost runs in the anonymous statistics since 6 October, most of them on layer 8, where it first waits), an hour's dive lost to one optional fight. A race's viruses still delete MegaMan as any battle's do.\n\n📊 The statistics count a run's choices:\n\nLayers made before this release continue afresh at a CONTINUE.",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.17.0/cyberworld-endless.ipa",
-          "size": 2095115,
+          "version": "0.18.0",
+          "date": "2026-10-31T01:54:07Z",
+          "localizedDescription": "🎮 The Switch:\n\nA Switch with custom firmware (Atmosphère) starts cyberworld-endless.nro from the Homebrew Menu. Copy it into sdmc:/switch/cyberworld-endless/, and your ROM into its rom/ folder or where you keep GBA games (sdmc:/roms/gba/). Open the Menu by holding R while you start a game: the game gets a title's whole memory that way. The button marked A is the GBA's A, Plus START and Minus SELECT. Online is as everywhere, NetBattles included.\n\n🎮 The PS Vita:\n\nA PlayStation Vita or PlayStation TV with custom firmware (HENkaku or h-encore) installs cyberworld-endless.vpk from VitaShell, with its own bubble and LiveArea. Your ROM goes in ux0:data/cyberworld-endless/rom/ or ux0:roms/gba/. Cross is the GBA's A, Circle its B, and a touch on the front screen shows the touch controls. The game runs the CPU at 444 MHz and the GBA on a core of its own. Closing it from the LiveArea ends it at once, so a run goes on from its last checkpoint.\n\n🎮 The PS4:\n\nA PS4 with GoldHEN installs cyberworld-endless.pkg from its Package Installer; a PS5 whose etaHEN installs PS4 packages takes it too. Your ROM goes in /data/cyberworld-endless/rom/ (GoldHEN's FTP reaches it) or stays on a USB drive. Cross is the GBA's A. Online is as everywhere; this build sends no anonymous statistics and never asks.\n\n🎮 The PS5:\n\nA jailbroken PS5 gets a native app of its own: unzip cyberworld-endless-ps5.zip and copy its CWEN00001/ folder into /data/homebrew/, where ShadowMountPlus registers it, or install it from Prospero Store once it lists the game. Your ROM goes where the PS4's does, and the saves sit beside it, outside the app, so an update keeps them.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.18.0/cyberworld-endless.ipa",
+          "size": 2095108,
           "minOSVersion": "14.0"
         }
       ],
@@ -4556,11 +4556,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.3.0",
-          "date": "2026-10-18T19:16:18Z",
-          "localizedDescription": "ADDED:\n\n• Shed: a new page that makes fresh skins for you from a short recipe.\n• 19 new arena backgrounds.\n\n• New Boost choice in Modes: show the boost glow on your snake only, or on everyone's.\n• Arrow Sensitivity (Controls › Customise arrow movement): 0% moves like the original slither, 100% moves the arrow furthest for a small finger move.\n• Trails: a new camera and gallery, and a better editor.\n• Trails feed tells you when new trails arrive and when you are all caught up.\n\nCHANGED:\n\n• Much smoother frame rate when the arena is full of long snakes.\n• The game always runs at your screen's fastest refresh rate.\n• Snake names are easy to read on every arena background.\n• The boost glow is lighter.\n• Photos in Trails, Share run and Share skin now use a proper cropper: the whole picture with a box you move, resize and zoom.\n• Video trails are turned off for now.\n\nREMOVED:\n\n• Settings › Performance (no longer needed).\n• The Boost strength slider.\n• The Arrow lag slider (replaced by Sensitivity).\n\nFIXED:\n\n• The game no longer freezes while you touch the Rain panel.\n• The Seafoam background no longer overflows its tile in the background picker.",
-          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.3.0-build-135/Wyrm-2.3.0-build-135.ipa",
-          "size": 55169489,
+          "version": "2.4.0",
+          "date": "2026-10-31T03:53:25Z",
+          "localizedDescription": "A new update is out: Android 8.5.0 and iPhone 2.4.0.\n\nThe app now supports 22 languages (Portuguese, Spanish, Russian, Arabic, Hindi, Japanese, Korean, Chinese, and more). By default, it uses your phone's language, but you can change it anytime in Settings \u003e Language.\n\nGlobal chat and DMs got a full rework. You can now reply to messages, edit them, search, @mention people, and see who's typing. DMs now show when your message has been seen. You can also react to messages: press and hold a message to react. Global chat now supports GIFs and stickers powered by KLIPY.\n\nOther updates in this release:\n\n• Events are now integrated directly into the app. Every Battledome event can be accessed from Wyrm: you can see event schedules, check which events are live, and view who is playing.\n\n• Added new food textures, skin textures, and bead styles, along with a new Skin page featuring animated previews just like the original game.\n• Arrow mode now works like the original game: use a second finger or double-tap to boost.\n• The leaderboard now displays every player instead of limiting it to the top 200.\n• Smoother gameplay when many snakes are on screen; updated mipmap rendering allows Wyrm to automatically adjust rendering based on snake density.\n• Fixed teammates missing from the minimap and the missing boost glow.\n• A bunch of bug fixes and performance improvements.\n\nTags: Wyrm now supports all tags. Your private tags work too: go to Skin \u003e Tags, type your tag id and its password provided by NTL and tap Fetch tag. Your tag shows up on your snake and everyone can see it. If something's off, the app tells you why, like a wrong password or a tag that has no picture right now.\n\nUpdate from inside the app or download it from https://wyrm.web.app\n\nThanks for playing Wyrm!",
+          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.4.0-build-144/Wyrm-2.4.0-build-144.ipa",
+          "size": 58528963,
           "minOSVersion": "15.0"
         }
       ],
@@ -5214,10 +5214,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-28T23:44:18Z",
-          "localizedDescription": "Immutable snapshot of alpha build 407 (de88c80).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 407, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-407/Non-Jailbroken.ipa",
-          "size": 98869532,
+          "date": "2026-10-31T03:28:14Z",
+          "localizedDescription": "Immutable snapshot of alpha build 411 (322f8d9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 411, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-411/Non-Jailbroken.ipa",
+          "size": 98875146,
           "minOSVersion": "17.0"
         }
       ],
@@ -5782,10 +5782,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-10-29T22:46:59Z",
+          "date": "2026-10-31T03:19:17Z",
           "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
           "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
-          "size": 4411530,
+          "size": 4433365,
           "minOSVersion": "14.0"
         }
       ],
@@ -6386,10 +6386,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-10-28T13:45:24Z",
+          "date": "2026-10-31T00:52:28Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56172811,
+          "size": 56178232,
           "minOSVersion": "17.0"
         }
       ],
@@ -6746,11 +6746,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.23",
-          "date": "2026-10-30T05:28:48Z",
-          "localizedDescription": "iGhostVT 1.6.23 draws terminal text on the Mac as thin as Ghostty draws it.\n\n• On the Mac, terminal text looked heavier than in Ghostty or another terminal using the same font, and Chinese in particular looked bold and soft, as on Linux. iGhostVT no longer thickens the strokes. To keep the heavier look, add font-thicken = true in Settings ▸ Configuration.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.23-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.23.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.23/GhostRemote-1.6.23.ipa",
-          "size": 7034006,
+          "version": "1.6.24",
+          "date": "2026-10-31T03:23:41Z",
+          "localizedDescription": "iGhostVT 1.6.24 tells a program already running in a terminal whether this device is light or dark when a tab opens it.\n\n• A program that follows the system's light and dark, such as Claude Code, kept the colours it chose when it started after a tab reconnected to it — opening the app again, or opening the terminal from another device — until the appearance was switched by hand. Now it is told the current appearance as soon as the tab connects. A Mac or device on 1.6.21 or earlier may still not pass this on.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.24-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.24.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.24/GhostRemote-1.6.24.ipa",
+          "size": 7040041,
           "minOSVersion": "15.0"
         }
       ],
@@ -7734,11 +7734,11 @@
       ],
       "versions": [
         {
-          "version": "3.1",
-          "date": "2026-10-27T21:36:06Z",
-          "localizedDescription": "What's new?:\n\n• New UI, all over.\n\n• New Home, Library, Store and game pages.\n• Every screen, Settings included, uses the same navy look.\n\n• Husk accounts.\n\n• Sign in from the top of Settings.\n• Your profile, playtime and library sync with itslevii.dev.\n\n• New Import screen: APK, split APKs (.xapk, .apkm, .apks), OBBs and PS4 game folders. On iPad you can drag files onto it.\n• Small icon size for the library.\n• Chinese (Simplified) for all of Husk. The language you pick in setup is used by Husk and your apps.\n\nStore:\n\n• New app page.\n\n• Proper descriptions (bold, lists, links).\n\n• Tap screenshots to view them full screen, with zoom.\n• Trailers, What's New, Highlights, tags and developer links.\n\nAndroid:\n\n• Keyboard button for apps and games. Typing works even when there's no text box.\n• In-app file picker: when an app asks for a file, the iOS file picker opens.\n• Fullscreen games are centered and use the whole screen (Plants vs. Zombies and more).\n• Cocos Creator games start.\n• Godot 4.7 games can save.\n• Flutter apps find their fonts.\n• .NET apps run much further.\n• Apps protected with Dex2C work.\n• Android system pop-ups (Bluetooth, NFC…) don't break apps anymore.\n• XAPKs with OBB files inside install correctly.\n• Battery, 24-hour clock, time zone and language follow your phone.\n\nAlso:\n\n• TrollStore and Dopamine on iOS 15–16 get JIT even when iOS refuses the usual way.\n• The TrollStore build opens on devices it didn't before.\n• Built-in StikJIT finds the pairing port by itself.\n• Crash reports tell you when iOS closed Husk for using too much memory.\n\n• Lots of fixes.\n\n• fix: Bypass W^X restrictions.\n• Fix base APK selection using split manifests.\n• Cocos Creator games start: V8 runs without its JIT (--jitless).\n• Godot 4.7: answer the directory/file handlers for the objects the engine holds.\n• fix: discover the dynamic RemotePairing port for Built-in StikJIT.\n• Fix Flutter font discovery under the Java Android root.\n• Reserve aligned compressed-heap space before JIT prewarming.\n\nNew Contributors:\n\n• @TakatoSey made their first contribution.\n• @stellar099 made their first contribution.\n• @xinerqu made their first contribution.\n• @cklsit made their first contribution.\n• @muzhi1991 made their first contribution.\n\nKnown Issues:\n\n• Hollow Knight and Cuphead have no sound.\n• Some games (Disco Elysium, Muse Dash) don't take touch input.\n• 32-bit only apps don't run.\n\nFinal notes:\n\nThank you all, especially everyone who sent a PR this time. Enjoy ❤️.\n\nLinks::\n\n• X Profile: https://x.com/leviidev01",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.1/Husk.ipa",
-          "size": 140540013,
+          "version": "3.2.1",
+          "date": "2026-10-31T02:58:46Z",
+          "localizedDescription": "Fixed certificate importing bug for 3.2 JIT-less.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.2.1/Husk.ipa",
+          "size": 140697147,
           "minOSVersion": "15.5"
         }
       ],
@@ -8631,11 +8631,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.0",
-          "date": "2026-10-28T02:24:07Z",
-          "localizedDescription": "Subtitles are no longer stuck with mpv's thin white default. Settings → Subtitles is a new section with full control over how plain-text (SRT) subtitles look:\n\n• Size, position, font, bold and italic.\n• Free colours with opacity for the text, outline, background box and shadow.\n• Outline thickness, shadow distance and shadow blur.\n• A live preview that draws a sample line on a bright and a dark picture, in the font you picked (Linux).\n\nEvery change reaches the playing file at once, so you can tune the style while watching. The defaults are mpv's own: nothing changes until you open the section.\n\nStyled (ASS) subtitles keep their own size, look and placement by default, and only move to stay clear of the player controls. Turn on Restyle styled subtitles to repaint ASS dialogue with your style too.\n\nThe player's subtitle menu gains size, position and a per-file delay, and Z / X shift subtitles by 0.1 s, as in mpv.\n\nThe subtitle style syncs between installations with the other playback settings.\n\nFixes:\n\n• Folders of films are one title per film. A folder holding several films, such as numbered film series with names like - 1.11, was read as one series with episodes. Each film now gets its own title and matches its own AniList entry. A search that finds nothing is retried without the version number.\n• Installing a subtitle font no longer drops the CJK fallback font, and the other way round.\n\nNotes:\n\n• The background-box options need libmpv from mpv 0.38 or newer. An older libmpv plays on without the box.\n• The font preview uses fontconfig, so on Windows and macOS it draws in the app's own font.",
-          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v1.7.0/proton-stream-1.7.0-ios.ipa",
-          "size": 25538675,
+          "version": "2.0.0",
+          "date": "2026-10-31T03:23:15Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.0.0/proton-stream-2.0.0-ios.ipa",
+          "size": 26176952,
           "minOSVersion": "17.0"
         }
       ],
@@ -9046,11 +9046,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.0.4",
-          "date": "2026-10-26T03:00:21Z",
-          "localizedDescription": "PaperReality 1.0.4:\n\nThis update adds native iPad support and improves controller navigation in the iOS settings interface. These notes cover changes since PaperReality 1.0.3.\n\nDownload: PaperReality-v1.0.4-unsigned.ipa below. Sign and install it with AltStore, Sideloadly, or your own signing certificate. Requires iOS/iPadOS 16.3 or later. The game and HD texture packs are supplied by the user.\n\nChanges:\n\n• Removed the bottom controller help strip from settings. Controller navigation and the focus outline remain available.\n• Fixed controller focus outlines on native dialog actions such as OK, Cancel, and Select Save. The outline now follows the full button instead of only the text, including cases where a dialog heading has the same text as an action.\n\nThe app remains PaperReality with bundle ID com.damien.paperreality.\n\nValidation:\n\n• Build 117's iPad fullscreen fix was reported working on the affected iPad.\n• An iPadOS 26.2 simulator window test verified native iPad mode and a full 1376 × 1032 canvas with Stage Manager selected. The system fullscreen button was not available to automation; its interaction was not simulator-verified.\n• UIKit dialog tests covered side-by-side actions, stacked actions, disabled actions, and matching heading/action text.",
-          "downloadURL": "https://github.com/acoston822/PaperReality/releases/download/v1.0.4/PaperReality-v1.0.4-unsigned.ipa",
-          "size": 9000483,
+          "version": "1.0.5",
+          "date": "2026-10-31T03:00:07Z",
+          "localizedDescription": "PaperReality 1.0.5:\n\nThis update improves save-card transition rendering and includes PaperBoat's latest script-buffer and soft-reset fixes. These notes cover changes since 1.0.4.\n\nDownload: PaperReality-v1.0.5-unsigned.ipa below. Sign and install it with AltStore, Sideloadly, or your own signing certificate. Requires iOS/iPadOS 16.3 or later. The game and HD texture packs are supplied by the user.\n\nChanges:\n\n• Fixed rotating window geometry used in save-card transitions. Queued frames retain their own vertices, and all four corners now use valid vertex indices. This addresses two defects that could corrupt the transition geometry.\n• Included PaperBoat #278: fixed 64-bit script-buffer overruns in Huff N. Puff, Fake Bowser/Koopa Bros. and Bandit code.\n• Clear scripts and workers when performing a soft reset.\n\nValidation:\n\n• The window regression checks production rendering commands for valid corner indices, initialized vertices, texture coordinates and queued-frame stability, including display-context reuse and 64 panels in one frame. It passes with AddressSanitizer enabled.\n• The user reported no further save-card flicker while testing 4:3 and Off aspect ratios at both 60 and 120 FPS. Because the original symptom was intermittent, this does not establish that every possible occurrence is resolved.",
+          "downloadURL": "https://github.com/acoston822/PaperReality/releases/download/v1.0.5/PaperReality-v1.0.5-unsigned.ipa",
+          "size": 9000619,
           "minOSVersion": "16.3"
         }
       ],
@@ -9254,11 +9254,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.5",
-          "date": "2026-10-27T02:04:03Z",
-          "localizedDescription": "• 2c69902b fix(servers): keep title lookups working between episodes @tapframe.\n• 88c9b4ce feat(player): split video and controls at the duo fold @tapframe.\n• c85dc721 feat(player): remove source name from paused player @tapframe.",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
-          "size": 67965485,
+          "version": "0.6.6",
+          "date": "2026-10-31T02:59:46Z",
+          "localizedDescription": "• Update Vietnamese translations (, ) @blueocean2308.\n• Add subtitle customization with saved styles, custom font imports, appearance controls and a live preview, including fixes for font rendering, subtitle loading, track changes and style updates while paused. @tapframe.\n• c7ff35f0 feat(settings): group settings and split playback pages @tapframe.\n• 96061025 fix(ratings): show IMDb ratings with one decimal @tapframe.\n\n• 87795e97 fix(settings): save and restore the selected app icon @tapframe.\n• 45af99c4 fix(player): skip drag handling while controls are locked @tapframe.",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.6-beta/nuvio-0.6.6-full-release.ipa",
+          "size": 68521101,
           "minOSVersion": "16.1"
         }
       ],
