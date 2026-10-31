@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.omrajput.wyrmios",
-    "com.joemattiello.iCube",
-    "wiki.qaq.GhostRemote"
+    "ikemen-engine.I-K-E-M-E-N-Go",
+    "com.defnf.icopc",
+    "dev.saeed.tourplanner"
   ],
   "apps": [
     {
@@ -1715,10 +1715,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-30T00:56:47Z",
-          "localizedDescription": "Built from afca77f on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-31T06:34:47Z",
+          "localizedDescription": "Built from ab42e98 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625193,
+          "size": 14625209,
           "minOSVersion": "15.0"
         }
       ],
@@ -2153,11 +2153,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.9.5",
-          "date": "2026-10-30T02:47:28Z",
-          "localizedDescription": "Fixed:\n\n• On the North American disc (and the 2001 preview discs), Continue no longer closes the game.\n• On the North American disc (and the 2001 preview discs), Ico picks up sticks, torches and other objects again.\n• On the North American disc (and the 2001 preview discs), Skip the opening shows the title with its menu again.\n• On the North American disc and the 2001 preview discs, the save screen shows each save's play time again, and the play time and couch count in the stats and achievements are right. A save made on the North American disc with an earlier version lost its play time; it counts on from about zero after it is loaded.\n• On Vulkan (the default on Windows, Linux and Android), when the graphics driver stops responding, the game notices within about 15 seconds instead of a minute, saves its report and tells you; on Android with the device's own Qualcomm driver the message also points at Options \u003e Graphics driver.\n• On the North American disc (and the 2001 preview discs), Ico's shadow is drawn dark instead of as a light pink patch.\n• On phones, when the system runs short of memory while the game prepares its graphics, the game stops preparing at once and goes on to the title; the rest is prepared as the game needs it.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.5/ico-pc-v0.9.5-ios-unsigned.ipa",
-          "size": 8138618,
+          "version": "0.9.6",
+          "date": "2026-10-31T07:40:27Z",
+          "localizedDescription": "Please note: Save states are new: tell us when one fails to load, with the log (the newest file in the logs folder that starts with report-, or ico-pc.log). Android 8 phones and other Vulkan 1.0 devices have old graphics drivers: the first start prepares the graphics for several minutes and some devices may fail; send the log.\n\nNew:\n\n• Save states: the pause menu's Save states page keeps four snapshots of the game per disc with a picture, area and play time; load them from the Continue screen or the pause menu. F5 saves to slot 1 and F9 loads it. A state belongs to the version of the game it was saved with.\n• Options \u003e Gameplay \u003e Shadow speed: shadows walk, run and fly slower or faster than on the PlayStation 2 (Slower, Original, Faster, Fastest).\n• Android 8 and Vulkan 1.0 graphics drivers are supported (phones and handhelds from 2017 on; graphics driver packages still need Android 9).\n\nFixed:\n\n• With the D-pad, Cross or Circle switched off, a tap on a menu line now picks the line even when a hidden touch button lies over it (a hidden Start no longer closes the pause menu when you tap Options); a button you can see still takes the tap.\n• The frame rate counter no longer sits on a touch control you moved: with the touch controls showing it takes the first free place along the top edge, and controls you hid or switched off are ignored.\n• The game no longer pauses for a moment every half minute while you lead Yorda on a slow drive (the achievements file is now written in the background).\n• The pause menu's Yorda captured count no longer counts one capture twice.\n• On the North American disc and the 2001 preview discs, the rescue achievement and the captured count work.\n• On the June 2001 demo, the pause menu's deaths count now counts a game over.\n• After a brief hitch the game no longer stays at 30 frames per second for a minute or more with Frame rate 60 and vsync on; it tries 60 again after about two seconds, and if that try fails, again after longer waits (up to about 16 seconds, 20 on the European disc).\n• Direct3D 11 draws the world with far fewer draw calls, as the other graphics APIs have since v0.9.4; rooms with many objects run faster on slower processors.\n• On phones with Mali graphics, rooms with many objects run faster.\n• On Windows the log now reports how much video memory the game uses against the card's budget, and the upload memory is given back after large loads (helps cards with 1 GB).\n• The log says when the game data or the save folder sits on a network or removable drive, which can cause brief pauses and sound cut-outs during loads.\n• Loading textures pauses the game for much less time on slower processors (the credits' music cut out at those moments), and the log now says what a long pause was doing when the sound cut out.\n• On the June 2001 demo disc, a defect in how Ico reads his surroundings is fixed: the distance at which he notices a wall in front of him was taken from the wrong data, so wall and ledge checks could go wrong.\n• With Frame rate Original, a graphics card too slow to draw every picture in time no longer slows the game down or makes the sound come and go (on the title screen at higher resolutions, for example): pictures are dropped instead and the game keeps its pace.\n• On the North American disc and the 2001 preview discs, torches and candles that start out burning stay lit: before, they went out at once (no flame and no fire sound), so a stick could not be lit from them and the candle puzzle could not be finished.\n• Save a picture for a bug report now puts a picture of what the screen showed into the .zip itself (at most 1920 pixels wide), next to the saved frame and the log, so the one file you send shows the same moment.\n• When no game data and no disc image is found at the start, the box now says which two folders the game looked in and what to do if you played an earlier version (copy its userdata folder next to the new program, or extract the new version over the old folder), and it names the data file of the disc you played last. The window that asks for the disc image names the disc the game expects.\n• On phones and handhelds, when the graphics driver stops answering while the game prepares its graphics, the game now closes itself after about 10 seconds with a message instead of freezing the device; when the piece it stopped on is a kind of shape the game can draw another way (seen on the Retroid Pocket 6), later starts draw those shapes that way and never prepare that piece again. The game also stops preparing graphics up front when the device's free memory runs low, and prepares the rest as you play.\n• On some phones (Mali graphics, and some driver packages) parts of the world or characters should no longer stretch across the screen as giant shapes or stripes (the likely cause is fixed); tell us if they still do.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.9.6/ico-pc-v0.9.6-ios-unsigned.ipa",
+          "size": 8225706,
           "minOSVersion": "15.0"
         }
       ],
@@ -2408,10 +2408,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-21T10:30:22Z",
-          "localizedDescription": "The big new feature in this release is a proper 🌑 dark mode theme 🌚, which you can select in the settings screen.\n\nThere are a few other improvements, mostly platform things on Android \u0026 iOS.\n\nHighlights from this release:\n\n• A brand new 🌑 dark mode theme 🌚! Choose it in Settings → Appearance.\n\n• Switching themes takes effect instantly without restarting Robrix, and is remembered across restarting the app.\n• Coming soon: more themes, auto-switching based on system theme, etc.\n\n• Android: resizing the screen, doing split-screen, or opening/closing a folding phone now seamlessly works without losing any app context.\n• iOS 27: fixed a rare/unusual crash when tapping a text input.\n• Rotating your phone keeps your scroll position in the room locked to where it was.\n• Modals (dialog popups) have better layout and margins, especially on mobile devices.\n\n• Bug fix: scrolling the \"View Event Source\" modal now works on touch screens too.\n\nmacOS:\n\nDownload and open the .dmg, then drag Robrix to your Applications folder as normal.\n\niOS and iPadOS:\n\nJoin the TestFlight beta at https://testflight.apple.com/join/cQPRgdVY.\n\nLinux:\n\nUbuntu or Debian (and similar) distros.\n\nDownload and open that file in the Software Center (or App Center), or run this in your terminal:\n\nArch Linux.\n\nNote that the robrix_1.0.0-beta.4_x86_64.tar.gz and robrix_1.0.0-beta.4_aarch64.tar.gz files are just published for use with community-maintained AUR packages (see robrix-bin and robrix-git in that package manager). We can't guarantee they are correct or up-to-date.\n\nAppImage (for any Linux).\n\nWhat changed in Robrix since the last release:\n\n• fix makepad crash for text inputs in iOS 27.\n• refactor all color-related things to be Splash script (dynamic).\n• Tweak modal layout (margins, size, etc).\n• fix scrolling in the event source modal.\n• finish making the UI dynamically themeable.\n• themeing: split up colors that were used for more than one role.\n• Implement a proper dark theme with live switching.\n• Android: don't restart the app on fold, split-screen, etc.\n• themes: use different color for floating/overlay panes, neutral buttons.\n• actually fix touch scrolling for event source modal.\n\nChanges we made to Makepad since the last release:\n\nAs always, a significant amount of our effort is spent upstreaming improvements \u0026 fixes into Makepad, such that Robrix and everyone else benefits from them.\n\n• Rotating your phone while you're scrolled up in a room no longer pulls you back down to the newest message. Rotating changes the screen's safe areas, like where the notch is, which makes Makepad re-apply every widget's style, and that turned the timeline's \"follow the newest message\" mode back on. Switching between the light and dark themes re-applies styles the same way, so it keeps your place too. Parts of the UI that only exist in the other layout (desktop or mobile) also pick up a new theme once you switch to that layout, and tooltips now take their colors from the theme instead of hardcoded ones. ().\n• Scrolling works properly when one scrollable area sits inside another, like the code in the View Source dialog. Each scroll gesture now stays with the innermost area that can scroll that way, even once it hits the end, so the area around it doesn't suddenly start moving partway through a gesture or from leftover momentum. On a touchscreen, dragging on something that only scrolls sideways can also scroll the page around it up and down, and when both can move, a drag keeps to the direction it started in, or moves both if you start diagonally. A touch drag over code also scrolls it now, instead of selecting text. ().\n• Android: Robrix no longer restarts when you fold or unfold your phone, enter or leave split-screen, or change system settings like dark mode, display size, font size, language, or wallpaper. Android recreates an app's activity whenever a setting changes that the app hasn't declared it can handle, and Makepad mistook the old activity going away for the app quitting, so Robrix started over from scratch, sometimes even showing a login error. Makepad (and Robrix) now declare all the settings changes they can handle in place, like a new display density. For the few changes that recreate the activity no matter what, like a new wallpaper, the running app now just moves over to the new activity. ().\n• iOS 27: fixed a crash that some people hit when tapping into a text box. While sliding the keyboard in, iOS 27 asks the predictive text bar's controller for its style without checking what kind of controller it is, and when the bar has lost its real controller, iOS wraps it in a generic one that doesn't know how to answer, which crashed the app. Makepad now teaches that generic controller to give the default answer, so iOS carries on as usual. ().",
-          "downloadURL": "https://github.com/project-robius/robrix/releases/download/v1.0.0-beta.4/robrix-1.0.0-beta.4-ios-aarch64.ipa",
-          "size": 63919528,
+          "date": "2026-10-31T06:19:21Z",
+          "localizedDescription": "New features: find and add people/rooms/spaces, a new Room Info pane, better sync status indicator, improved Android performance (120 Hz!) and better battery life, and also 32-bit Android support.\n\nHighlights from this release:\n\n• 👥 Search for and add people (and rooms and spaces, like before).\n\n• You can search public directories of rooms and spaces too (see Settings to modify).\n• Find someone by name or user ID to start a direct message with them.\n\n• ℹ️ The new Room Info pane shows a room's details and options.\n• 🔄 The sync indicator now shows when Robrix is catching up, and when it was last synced.\n• Light or dark themes now apply to system UI too, like window title bars, soft keyboards, menus, etc.\n• ⚡ 🔋 Android performance and efficiency improvements: 120Hz buttery smooth refresh rate with no wasted battery while idle.\n• For older Android devices, we now build a 32-bit APK, and fix sharing of files on Android 8 \u0026 9.\n• Lots of misc UI \u0026 UX improvements:.\n\n• It's now very obvious which tab is currently selected.\n• The Home tab is now close-able and only shows up when no other rooms are open.\n• Opening a new room focuses the message input so you can send a message with just one click.\n• You can now disable click-and-drag scrolling (with a mouse/trackpad; touch scrolling is always enabled).\n• Reply previews have a new curved arc pointing to the replied-to message.\n\n• Some minor bug fixes:.\n\n• SVG images now obey the max thumbnail height and can be opened in the full-screen image viewer.\n• Line breaks are now always preserved, both in HTML formatted and plain text messages.\n\n• Linux: CPU usage is even less now when Robrix is idle.\n\nFixes to the Matrix SDK:\n\n• Coming back to Robrix after a while no longer shows a brief \"Cannot reach the Matrix homeserver\" error.\n\nmacOS:\n\nDownload and open the .dmg, then drag Robrix to your Applications folder as normal.\n\niOS and iPadOS:\n\nJoin the TestFlight beta at https://testflight.apple.com/join/cQPRgdVY.\n\nLinux:\n\nUbuntu or Debian (and similar) distros.\n\nDownload and open that file in the Software Center (or App Center), or run this in your terminal:\n\nArch Linux.\n\nNote that the robrix_1.0.0-beta.5_x86_64.tar.gz and robrix_1.0.0-beta.5_aarch64.tar.gz files are just published for use with community-maintained AUR packages (see robrix-bin and robrix-git in that package manager). We can't guarantee they are correct or up-to-date.\n\nAppImage (for any Linux).\n\nWhat changed in Robrix since the last release:\n\n• Use via servers any time we join or link to a room.\n• Polish reply previews: use a curved arc, lighter styling, height consistency.\n\n• Support going back from the AddRoom screen via nav history.\n• Ensure that theme styles are kept across reloads/apply calls.\n• AppImage: don't bundle libwayland-client, which broke Wayland sessions.\n\n• InviteScreen: show details immediately to avoid jumps.\n• support searching for people, rooms, spaces with loose matching.\n• improve add room screen for searching for rooms/users.\n• Animate read marker in \u0026 out to avoid mild timeline jerks.\n• make the spacing after an HTML bullet point list a bit better.\n• Update the sync indicator more quickly.\n• Track and show the latest sync time.\n• AddRoom: add clear buttons, support Tab between result lists.\n• Keep the timeline anchored when collapsing/expanding reply \u0026 link previews.\n• Makepad perf on Android, AddRoom screen tweaks.\n• Makepad: pause Android render loop when idle, adjust typing notice animation.\n• After clicking on a room/thread, focus the room input bar.\n• Set nav history menu's width dynamically based on items width.\n\n• Makepad: use more standard text wrapping / line break rules.\n• Makepad: make SVG images obey max thumbnail height and open on click.\n• Make emoji-only reactions a little bit larger.\n• Show emoji shortcodes in reaction tooltips.\n• Add Room Info pane, plus in-pane sliding animations.\n• Include other room directories when searching room/spaces.\n• Makepad: let the UI thread sleep when idle on Linux.\n• Add a \"Mouse Drag Scrolling\" toggle to disable click-drag scrolling.\n• ensure that native UI components follow the app theme.\n• CI: update macOS runners to latest version.\n• Keep newlines as-is in plaintext messages that are shown as HTML.\n\nChanges we made to Makepad since the last release:\n\nAs always, a significant amount of our effort is spent upstreaming improvements \u0026 fixes into Makepad, such that Robrix and everyone else benefits from them.\n\n• Android: scrolling and animations run at the display's full refresh rate (like 120Hz), and an idle app no longer wakes up 60 times a second. Makepad also does a lot less work for each frame, on every platform. (makepad#TODO, from android_120hz_perf_robrix).\n• Linux: an idle app no longer wakes up 125 times a second. ().\n• Text wraps like it does on the web, and drawing text is faster. This also fixed a crash when typing right-to-left text, like Arabic or Hebrew. ().\n• A blank line in formatted text is now as tall as a regular line, like in a web browser. ().\n• On phones and tablets, a drag that starts on a button scrolls instead of pressing it, and toggles flip when you lift your finger instead of when you touch them. (makepad#TODO, from touch_scroll_and_redraw_fixes_robrix).\n• In the light theme, selected text in code views, like Robrix's View Source dialog, is easy to see now. (makepad#TODO, from dark_mode_fixes_robrix).\n\n• SVG images are sized like any other image, and clicking one works now. ().\n• Apps can turn off click-and-drag scrolling with a mouse, and horizontal lists can scroll with a regular mouse wheel. ().\n• The OS's own UI, like the iOS keyboard and Android's copy/paste menu, now follows the app's light or dark theme, and Robrix no longer flashes white when you switch back to it in dark mode. This also fixed a crash on launch on Android 8.0. ().\n• Android: support for 32-bit ARM phones, plus a built-in file provider that lets apps share files on Android 8 and 9. ().",
+          "downloadURL": "https://github.com/project-robius/robrix/releases/download/v1.0.0-beta.5/robrix-1.0.0-beta.5-ios-aarch64.ipa",
+          "size": 64432202,
           "minOSVersion": "15.0"
         }
       ],
@@ -6386,10 +6386,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-10-31T00:52:28Z",
+          "date": "2026-10-31T10:36:17Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56178232,
+          "size": 56178213,
           "minOSVersion": "17.0"
         }
       ],
@@ -7382,7 +7382,8 @@
         "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/hosts-dark.png",
         "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/sftp-dark.png",
         "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/broadcast-dark.png",
-        "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/fleet-exec-dark.png"
+        "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/fleet-exec-dark.png",
+        "https://cdn.jsdelivr.net/gh/goduni/unissh@main/docs/screenshots/admin-dark.png"
       ],
       "versions": [
         {
@@ -9682,11 +9683,11 @@
       ],
       "versions": [
         {
-          "version": "26.10.5",
-          "date": "2026-10-23T04:18:45Z",
-          "localizedDescription": "All platforms:\n\n• Added manual server groups and drag-and-drop ordering for groups and their nodes.\n• Improved VPN defaults for Raw and provider configurations while preserving explicit DNS and routing.\n• Expanded JSON hints for XDrive, XDNS, MASQUE, TLS/ECH, QUIC, and templates.\n• Updated the managed FakeDNS IPv6 pool.\n• Updated Xray-core to v26.10.21.\n\n• 扩展 XDrive、XDNS、MASQUE、TLS/ECH、QUIC 和模板的 JSON 提示。.\n• 更新 Xray-core 至 v26.10.21。.",
-          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.10.5/OneXray-ios.ipa",
-          "size": 90936456,
+          "version": "26.11.1",
+          "date": "2026-10-31T05:37:41Z",
+          "localizedDescription": "Apple:\n\n• Added iOS connection widgets and easier access to macOS settings.\n\nAndroid:\n\n• Selected VPN apps now appear first.\n\nAll platforms:\n\n• Improved layouts, accessibility, and editing safeguards.\n• Fixed subscription app links and provider auto-selection.\n• Backups now include VPN settings for the matching platform.\n• Improved DNS routing and removed the 64 MiB log export limit.\n\n• Updated Xray-core to v26.10.29.\n\nAndroid:\n\n• 更新 Xray-core 至 v26.10.29。.",
+          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.1/OneXray-ios.ipa",
+          "size": 91380216,
           "minOSVersion": "15.0"
         }
       ],
@@ -9694,7 +9695,6 @@
         "entitlements": [
           "application-identifier",
           "beta-reports-active",
-          "com.apple.developer.networking.networkextension",
           "com.apple.developer.team-identifier",
           "com.apple.security.application-groups",
           "get-task-allow",
@@ -9711,7 +9711,7 @@
       "bundleIdentifier": "paige.Navic",
       "developerName": "ssalggnikool",
       "subtitle": "Entertainment \u0026 Media",
-      "localizedDescription": "Entertainment \u0026 Media",
+      "localizedDescription": "Entertainment \u0026 Media.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/paige.Navic.png",
       "tintColor": "#6058e8",
       "category": "entertainment",
@@ -10022,11 +10022,11 @@
       ],
       "versions": [
         {
-          "version": "1.12.0",
-          "date": "2026-10-30T08:35:38Z",
-          "localizedDescription": "Bug Fixes:\n\n• phone: the app bundles again on SDK 58: babel-preset-expo is a direct dependency, since SDK 58 keeps it inside expo's own node_modules where babel.config.js can't find it (167590a).",
-          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.12.0/TourPlanner-unsigned.ipa",
-          "size": 22204528,
+          "version": "1.13.0",
+          "date": "2026-10-31T07:32:46Z",
+          "localizedDescription": "Bug Fixes:\n\n• phone: a Settings page scrolls the field being typed in above the keyboard (the Geoapify key field sat under it) (36f8572).\n\nFeatures:\n\n• phone: read PHOENIX's scanner list: a Company setting (DPD / PHOENIX, Settings \u003e Route) picks the reader; a PHOENIX row is the count over Zu/Abh, the name, the street and \"DE 42651 Solingen\", so every stop is looked up in its own town instead of Köln (the first night's DPD reading took the status bar for names, dropped every postcode and planned 1300 km); overlapping photos vote misread copies of one pharmacy into one stop. Last night's three scans now give 46, 47 and 46 stops for a 46-stop tour (536d860).",
+          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.13.0/TourPlanner-unsigned.ipa",
+          "size": 22208404,
           "minOSVersion": "16.4"
         }
       ],
@@ -10468,11 +10468,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.431",
-          "date": "2026-10-27T20:14:22Z",
-          "localizedDescription": "Fixed:\n\n• Mail charts on the Mac and iPhone now blend with the reader in light and dark appearance. Charts with an explicitly white background keep that background, and selected Mac mailbox rows remain readable.\n• Mac Mail and Files keep chart text and paths sharp in large reports. Bounded parallel rendering, faster source lookups and cached chart reuse reduce rendering time and speed up reopening messages.\n• Wide tables in Mac Mail stay below their headings when charts finish loading, including after scrolling, changing appearance and reopening a message.\n• Android Mail keeps its reader background stable during fast scrolling, and the Inbox title now aligns with the toolbar actions.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.431/Dieter-iOS.ipa",
-          "size": 64724888,
+          "version": "0.6.432",
+          "date": "2026-10-31T05:48:04Z",
+          "localizedDescription": "Changed:\n\n• Tools open where their scope is, so they never show whichever project was opened last. A project's page opens its Files, Changes and Schedules; tapping one of its checkouts opens that machine's copy, and a Checkout menu switches between checkouts. Their titles name the project and machine. A machine's page shows its screen, its terminals (with New terminal on that machine) and the projects checked out on it, and Terminals in More groups shells by machine.\n• Android tablets and unfolded foldables such as the Galaxy Z Fold show lists beside their detail from 600 dp wide. Drag the handle between the panes to resize them or double-tap it to reset; the app remembers the split.\n\nFixed:\n\n• Pins and other navigation edits made on a phone reach your other devices again. Edits now go to the next machine that is up to date when the first one the phone tries is behind or busy, instead of waiting on it indefinitely.\n• Tapping a channel message in a conversation opens the channel above the conversation on every device, including iPhone.\n• A task's Processes pane lists the processes of the task's own project.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.432/Dieter-iOS.ipa",
+          "size": 64781234,
           "minOSVersion": "18.0"
         }
       ],
@@ -10945,10 +10945,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-10-30T00:56:47Z",
-          "localizedDescription": "Built from afca77f on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
+          "date": "2026-10-31T06:34:47Z",
+          "localizedDescription": "Built from ab42e98 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-*; on Linux hand-mouse.deb and remote-recording_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 52736838,
+          "size": 52738796,
           "minOSVersion": "15.0"
         }
       ],
@@ -11194,11 +11194,11 @@
       ],
       "versions": [
         {
-          "version": "1.13.6",
-          "date": "2026-10-30T20:23:36Z",
-          "localizedDescription": "Added:\n\n• Eleven dancing cats. Each new song brings a different hand-drawn dance, crossfaded in, never the same one twice in a row. The cat next to Settings on Home dances along with the song and sleeps when it's paused.\n• A cat for every gesture. One parties beside the volume slider, one pounces on a double-tap skip, one cheers inside the like heart and a rainbow cat rolls when you shake to shuffle.\n• A loading cat turns round under a spinner while a song loads, instead of the plain ring.\n\nChanged:\n\n• A volume bar on Now playing, under the play controls. It's a thin, quiet line until you touch it, and follows the buttons on the side of the phone.\n• Videos no longer buzz when you pause, skip or seek.\n\nFixed:\n\n• Playback stopped when a song ended if the next song's saved copy on the phone had been cleared to make room. Pawse now notices and fetches the song again instead of going quiet.\n• Lag after picking a song from the queue, and on Now playing generally. The dancing cat re-read its whole animation on every redraw, and the queue rebuilt every row when the playing song moved. Both now redraw only what changed.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
-          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.13.6/Pawse.ipa",
-          "size": 24755484,
+          "version": "1.13.7",
+          "date": "2026-10-31T05:06:49Z",
+          "localizedDescription": "Fixed:\n\n• Songs that never moved on to the next one. Some songs are read by iPhone as twice their real length. Pawse showed the right length but then sat in silence for the second half, and a song that stopped on its last second without saying it had ended was left there too. Both now go on to the next song.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
+          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.13.7/Pawse.ipa",
+          "size": 24755354,
           "minOSVersion": "16.4"
         }
       ],
@@ -11306,11 +11306,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.5",
-          "date": "2026-10-30T17:13:11Z",
-          "localizedDescription": "Perfect Dark 1.0.5 for iPhone and Apple Vision Pro is a bugfix release on Dab's Mod v3.15.1, the same base as 1.0.4.\n\nFixed:\n\n• iOS: GoldenEye guns (GE Plus, Goldfinger 64 and Tomorrow Never Dies 64, with N64 or XBLA art) no longer flicker between their recoil and rest poses every frame in 120 Hz mode. The gun now uses one posing path above 60 FPS. 60 Hz play is unchanged, and Perfect Dark's own guns were never affected. Fixes #3.\n\nNothing else has changed since 1.0.4.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007, Goldfinger 64 and Tomorrow Never Dies 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.15.1), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
-          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.5/perfectdark-1.0.5-iOS.ipa",
-          "size": 9415169,
+          "version": "1.0.6",
+          "date": "2026-10-31T06:05:45Z",
+          "localizedDescription": "Perfect Dark 1.0.6 for iPhone and Apple Vision Pro is a point release on Dab's Mod v3.15.1, the same base as 1.0.5.\n\nNew:\n\n• iOS: Cool-down to 60. In 120 Hz mode, the game now drops to a steady 60 FPS while iOS reports the phone's thermal state as serious or critical, and returns to 120 once the phone has stayed cool for 30 seconds. On a hot phone, the GoldenEye HD levels (Dam) used to stutter between 35 and 80 FPS; they now hold a flat 60. Your saved frame rate is not changed. Turn it off with the new \"Cool-down to 60\" switch under Frame rate in Settings. 60 Hz play is unchanged.\n\nFixed:\n\n1.0.5's fix for GoldenEye guns flickering at 120 Hz (#3) is included.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007, Goldfinger 64 and Tomorrow Never Dies 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.15.1), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
+          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.6/perfectdark-1.0.6-iOS.ipa",
+          "size": 9416796,
           "minOSVersion": "15.0"
         }
       ],
@@ -13057,10 +13057,10 @@
       "versions": [
         {
           "version": "0.3.1",
-          "date": "2026-10-30T16:22:55Z",
-          "localizedDescription": "What's new:\n\nRecly 0.3.1 gives every recording a place for your own notes, and calls what ChatGPT makes of it a summary.\n\n• Notes. Type an agenda, who is there or what to keep track of in a recording's Notes, while you record or any time after. Open them from the recording screen on the phones, in place in the Mac menu bar and the Windows tray, and from More → Notes in a recording's detail. On Google Drive or iCloud they reach your other devices, and search finds them. Recly never rewrites them.\n\n• A recording stuck at \"Receiving from the watch\" can be deleted on the phones; a watch that still has it sends it again. The iPhone now also clears transfers that never finished.\n• In a meeting recording, your own to-dos show \"Me\" as their owner until you give yourself a name.\n• Fill in speaker names says \"No speaker names found in the transcript\" when the transcript names no one, instead of an error.\n• Saving an edit no longer flashes a check mark.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
-          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.1-build.39/Recly-iOS-Watch-0.3.1-39.ipa",
-          "size": 62061468,
+          "date": "2026-10-31T05:31:04Z",
+          "localizedDescription": "What's new:\n\nRecly 0.3.1 gives every recording a place for your own notes, and calls what ChatGPT makes of it a summary.\n\n• Notes. Type an agenda, who is there or what to keep track of in a recording's Notes, while you record or any time after. Open them from the recording screen on the phones, in place in the Mac menu bar and the Windows tray, and from More → Notes in a recording's detail. On Google Drive or iCloud they reach your other devices, and search finds them. Recly never rewrites them.\n\n• A recording stuck at \"Receiving from the watch\" can be deleted on the phones; a watch that still has it sends it again. The iPhone now also clears transfers that never finished.\n• In a meeting recording, your own to-dos show \"Me\" as their owner until you give yourself a name.\n• Fill in speaker names says \"No speaker names found in the transcript\" when the transcript names no one, instead of an error.\n• Saving an edit no longer flashes a check mark.\n• A summary's rows are as tall as their words, so a list of one-line decisions or to-dos no longer reads double-spaced.\n• The Android phone now looks like the iPhone: the detail's Transcript and Summary chips sit on the page, the summary has no table fill, bottom sheets have rounded top corners over a lighter dim, and the tab icons match.\n\nThis build replaces build 39 of 0.3.1 and adds the last two items.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.1-build.40/Recly-iOS-Watch-0.3.1-40.ipa",
+          "size": 62074139,
           "minOSVersion": "17.0"
         }
       ],
