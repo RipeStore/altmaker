@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.nazcarbon.music.ios",
-    "com.ezbeq.mobile",
-    "com.zarz.mornye"
+    "sh.mateo.empo",
+    "com.iptvnator.arc",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -1287,30 +1287,6 @@
           "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.3/FactorioPad-template.ipa",
           "size": 2961562,
           "minOSVersion": "17.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
-      "name": "BamBoozled",
-      "bundleIdentifier": "sg.bamboozled.bamboozled",
-      "developerName": "Keegan4",
-      "subtitle": "A robust noteTaking application for low skilled non technical users (aka my girlfriend)",
-      "localizedDescription": "BamBoozled 🐼:\n\nA friendly, panda-themed notetaking and task app for Android, iPhone, desktop and the web. Tasks sync between your phone and your computer.\n\nBamBoozled is built for people who aren't technical. Everything works by tapping or clicking:\n\n• big buttons (at least 48px).\n• chips and pickers instead of typed syntax.\n• no command line.\n\nThe welcome page has:\n\n• Calendar: see this week's and this month's tasks, switching between a Week and a Month view.\n• Filter, search and colour coding: each category has its own colour, and priority is shown with leaf badges. When filters hide tasks, a \"Showing only: …\" banner says so, with a Clear filters button.\n• This week: the due, done and overdue boxes are buttons. Click one to see those tasks.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/sg.bamboozled.bamboozled.png",
-      "tintColor": "#45b2e8",
-      "category": "other",
-      "versions": [
-        {
-          "version": "1.8.1",
-          "date": "2026-10-28T04:02:29Z",
-          "localizedDescription": "This release adds the personal photo card collection and theme stories, with fixes that restore passing CI and release builds.\n\n• Collect personal photo cards and unlock the stories for completed themes.\n• Celebrate Epic and Legendary pulls and browse every card finish in the binder.\n• Preserve longer card messages in the binder, with stories supporting up to 400 characters.\n\nValidation: 716 Flutter tests passed locally with 98.8% coverage; static analysis and the eight Canvas proxy tests passed. GitHub CI also verifies database migrations and builds all six supported platforms before this release.\n\nDownloads include Android, Windows, macOS, Linux, web, and unsigned iOS packages. The iOS package requires signing before installation.\n\nWeb app: https://keegan4.github.io/BamBoozled/",
-          "downloadURL": "https://github.com/Keegan4/BamBoozled/releases/download/v1.8.1/BamBoozled-1.8.1-ios-unsigned.ipa",
-          "size": 25310506,
-          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -2897,11 +2873,11 @@
       ],
       "versions": [
         {
-          "version": "0.18.0",
-          "date": "2026-11-01T09:06:53Z",
-          "localizedDescription": "[0.18.0] — 2026-11-01:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.18.0，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.18.0/maestro-mobile-unsigned-0.18.0.ipa",
-          "size": 9650509,
+          "version": "0.18.1",
+          "date": "2026-11-01T13:49:55Z",
+          "localizedDescription": "[0.18.1] — 2026-11-01:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.18.1，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.18.1/maestro-mobile-unsigned-0.18.1.ipa",
+          "size": 9651318,
           "minOSVersion": "15.1"
         }
       ],
@@ -4380,11 +4356,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.8",
-          "date": "2026-11-01T03:26:46Z",
-          "localizedDescription": "Offdesk Dev v0.25.8: every component at 0.25.8, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.8/offdesk-0.25.8.ipa",
-          "size": 9359118,
+          "version": "0.25.9",
+          "date": "2026-11-01T15:13:38Z",
+          "localizedDescription": "Offdesk Dev v0.25.9: every component at 0.25.9, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.9/offdesk-0.25.9.ipa",
+          "size": 9362659,
           "minOSVersion": "15.0"
         }
       ],
@@ -5390,11 +5366,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.0",
-          "date": "2026-10-30T01:21:23Z",
-          "localizedDescription": "tangoAW2 0.9.0: the BH2 Campaign.\n\nNew.\n\n• The BH2 Campaign: 31 missions and a secret 32nd, with a prologue, an epilogue and a staff roll. Asuka leads Black Hole against Emerald Sun and the Allied nations.\n• Aria, Nell's twin, as a CO with her own themes. Vengeance: every unit +8% attack and defence, and hurt units fight harder: 33% at 8 HP, up to 69% at 2 HP and 93% at 1 HP. An Oozium never gets it.\n• You can see Vengeance in battle. Her wounded units' HP numbers go from orange at 8 HP to dark red at 1 HP, on the normal and the tilted Dual Strike map. The unit window and the enemy's damage forecast show \"Vengeance +NN%\".\n• M31 The Last Accord is a gauntlet. Nell, Olaf, Kanbei and Eagle each hold a line and arrive only when the one before falls (its HQ captured or its army routed). They save money while they wait and take back their zone's properties when they arrive. Then the map switches to Aria's citadel. You bring at most 50,000 funds; Aria starts with 100,000.\n• Five-army battles can be suspended and saved.\n\nChanged.\n\n• Every line of dialogue in the BH, BH2 and Emerald Sun Campaigns has been rewritten to read naturally; the story is the same.\n• On maps wider than 30 columns, Com Towers count and battle backdrops are right.\n• Online peers must all run 0.9.0 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.0/tangoaw2-0.9.0-ios.ipa",
-          "size": 32703013,
+          "version": "0.9.1",
+          "date": "2026-11-01T12:48:18Z",
+          "localizedDescription": "tangoAW2 0.9.1: Gauntlet mode.\n\nNew.\n\n• GAUNTLET mode, on the main wheel above Versus. Pick a map from a War Room-style list that shows the COs you will face. Each enemy holds a line and arrives only when the one before falls.\n\n• Cinder Sea: any CO against Drake, then Sensei, then Hawke, on a naval and air map with a volcano.\n• Iron Crown: Emerald Sun against Grit, Jess, Kanbei and Rachel on one map, then Asuka in Asuka's Keep, a new map with Black Hole inventions.\n• Enemy colours are set per map; you pick your colour from the ones left free.\n\n• The army screen (online Teams and offline Versus) now uses AW2's own Teams look: CO cards, the tag partner field and the game's own team letters A to F.\n• Black Hole Campaign: the world map turns black as you win missions, as in the BH2 Campaign.\n\nChanged.\n\n• Asuka: firepower and defence +10%. Vision +1 every day, and +3 on both powers. Dark Intel takes 1 HP from every enemy unit and Event Horizon takes 3. Both powers now drain 1/4 of enemy ammo and fuel instead of 1/2. Her CO page text is reworded.\n• Aria: Vengeance's flat bonus is 7% (was 8%). Her Super Power costs 8 stars. Her theme has a new intro.\n• Speed-up is now Right Shift (was Left Shift).\n\nFixed.\n\n• The computer now defends its HQ (BH Campaign Mission 1 let you walk in and capture it).\n• The Emerald Sun COs' faces were zoomed in.\n• Healing Touch could not target enemy Black Hole inventions in the Dual Strike Campaign.\n• The Survival results screen after a lost run.\n• The Teams window colours and stray sprites on CO pages.\n• Online peers must all run 0.9.1 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.1/tangoaw2-0.9.1-ios.ipa",
+          "size": 32774712,
           "minOSVersion": "16.0"
         }
       ],
@@ -6178,10 +6154,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-10-31T13:20:22Z",
+          "date": "2026-11-01T14:05:12Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484764,
+          "size": 7484767,
           "minOSVersion": "16.4"
         }
       ],
@@ -6646,11 +6622,11 @@
       ],
       "versions": [
         {
-          "version": "6.2.23",
-          "date": "2026-10-31T19:35:17Z",
-          "localizedDescription": "Release v6.2.23:\n\n• Prune completed Linux ARM compiler intermediates (765b81cb4).\n• Restore automatic subtitles and remember imported tracks (7220382f8).\n• Enable manual audio trimming in Android Screen Lookup (76055af05).\n• Cache reader preloads without decoding full-size pages (8e3e5bfa9).\n• Fix webtoon seams and duplicate page decoding (5ad860eaf).\n• Add browser immersion extension and shared learning integration (11122ffcd).\n• Unify local audio screens and preserve embedded covers (ad6624720).\n• Improve audiobook navigation in the novel reader (999439e24).\n• Keep Android update changelog responsive (9196ecc45).\n• Prune completed macOS compiler intermediates (e645c92da).\n• Prune completed iOS compiler intermediates (9428acdb0).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.2.23/Manatan-v6.2.23-iOS.ipa",
-          "size": 416174431,
+          "version": "6.3.0",
+          "date": "2026-11-01T12:28:34Z",
+          "localizedDescription": "Release v6.3.0:\n\n• Require consent before opening Android shortcut settings (315c6bd12).\n\n• Stream YouTube dubs progressively with synchronized playback (7d958f37d).\n• Add system, light and dark webpage appearance to mobile browser (4dc9ea243).\n• Fix mobile browser fullscreen, dictionary lookup and word markings (d57971467).\n• Enable dictionary lookup during flashcard review (d5885b072).\n• Remember video subtitle visibility across playback sessions (8ca9430d4).\n• Align app and store allowances with higher tier usage (70214972b).\n• Simplify premium usage labels and round plan multipliers (70ca83415).\n• Improve kanji dictionary layouts (9a69399ad).\n• Keep older apps syncing with newer hosted collections (5fa5df935).\n• Show AI usage allowances and start premium actions directly (dfe336f34).\n• Improve manga OCR resource diagnostics and capture recovery (5062aba40).\n• Make Screen Lookup audio trimming optional (7ab7da2e5).\n• Remember search terms in saved source searches (8a31e0694).\n• Add premium multilingual video dubbing to the extension (ed2c077da).\n\n• Handle both Google Play review states (396fb9cb5).\n• Keep vocabulary sources independent across readers and sync (59a898a32).\n• Buffer target-language Shorts for uninterrupted browsing (5d0790f58).\n• Keep Google Play drafts out of automatic review (594118883).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.0/Manatan-v6.3.0-iOS.ipa",
+          "size": 416395244,
           "minOSVersion": "16.1"
         }
       ],
@@ -8255,7 +8231,7 @@
         {
           "version": "1.3.1",
           "date": "2026-10-25T03:01:07Z",
-          "localizedDescription": "构建信息：提交 32c2215，Xcode 27.1 Build version 27A9275，由 GitHub Actions 构建。.",
+          "localizedDescription": "IPA链接：.\n\nhttps://n015.top/neobili/NeoBili-v1.3.1-unsigned.ipa\n\nhttps://n015.top/neobili/apps.json\n\nhttps://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/sidestore/apps.json\n\n构建信息：提交 32c2215，Xcode 27.1 Build version 27A9275，由 GitHub Actions 构建。.",
           "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.1/NeoBili-v1.3.1-unsigned.ipa",
           "size": 134716974,
           "minOSVersion": "26.0"
@@ -8545,11 +8521,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.5.2",
-          "date": "2026-10-19T20:44:02Z",
-          "localizedDescription": "Arc TV 2.5.2 for iPhone:\n\n• No more \"English subtitles added\" message. Picking a subtitle no longer puts a message over the picture. VoiceOver still announces it.\n\nSHA-256 f3494b6763c6b14297eaab5c22ac76c33b7feff923fab31b455c8d8ad8d38175.",
-          "downloadURL": "https://github.com/divyegoswami/arc-tv-releases/releases/download/ios-2.5.2/arc-tv-ios-2.5.2.ipa",
-          "size": 3341192,
+          "version": "2.6.0",
+          "date": "2026-11-01T16:08:23Z",
+          "localizedDescription": "Arc TV 2.6.0 for iPhone and iPad:\n\n• One card per title. Movies show a title once with \"N versions\" and a version picker. Search forgives typos, so \"dhurandar\" finds Dhurandhar.\n• Fix match. A wrong poster or description can be corrected from the detail page.\n• Restore keeps your place. A Mac backup brings back all your positions and Continue Watching fills in the background.\n• Live TV. Rows show what is on now, with a guide on iPad and in iPhone landscape and a channel list inside the player.\n• Calmer with the portal. Far fewer requests at launch and restore. If the portal refuses, the app waits, says so plainly with Retry, and stays quiet in the background.\n• Fixes. Remove source and Clear history ask first and work. iPad has a search field. Home screen quick actions and a Resume shortcut.\n\nSHA-256 f6635852be62c518f97117b52ab552e360a2270ed2c97f57ca6072b0c46cd142.",
+          "downloadURL": "https://github.com/divyegoswami/arc-tv-releases/releases/download/ios-2.6.0/arc-tv-ios-2.6.0.ipa",
+          "size": 3814708,
           "minOSVersion": "18.0"
         }
       ],
@@ -8783,8 +8759,8 @@
       "name": "Empo",
       "bundleIdentifier": "sh.mateo.empo",
       "developerName": "mateo-m",
-      "subtitle": "Run RPG Maker and PSDK games on iPhone and iPad",
-      "localizedDescription": "The name's from emporos, ancient Greek for a traveler riding on someone else's ship.\n\nImport a game and play it:\n\nhttps://github.com/user-attachments/assets/d19e44ff-c2ef-435f-b2fe-60f1c97890c8\n\nLibrary view:\n\nhttps://github.com/user-attachments/assets/1a6de8a7-b47c-4ad4-8df9-f028347dfb9c\n\nHighlights:\n\n• Plays games made for RGSS1 (XP), RGSS2 (VX), RGSS3 (VX Ace), modern mkxp-z forks, PSDK, and RPG Maker MV and MZ.\n• Imports games from folders or archives (.zip, .7z, .rar, JoiPlay's .jgp, self-extractable .exe).\n• On-screen D-pad and action buttons you can move and resize. Layouts can differ per game and per screen orientation.\n• Pause and resume from the library.\n• Library with sort, search, grid/list views, and bulk delete.\n\nStatus:\n\nPre-release. Not on the App Store.\n\nLimitations:\n\n• Ogg and Theora movies only. The engine skips MP4 and other formats without a message.",
+      "subtitle": "Run RPG Maker and PSDK games on iPhone, iPad, and Mac",
+      "localizedDescription": "The name's from emporos, ancient Greek for a traveler riding on someone else's ship.\n\nImport a game and play it:\n\nhttps://github.com/user-attachments/assets/d19e44ff-c2ef-435f-b2fe-60f1c97890c8\n\nLibrary view:\n\nhttps://github.com/user-attachments/assets/1a6de8a7-b47c-4ad4-8df9-f028347dfb9c\n\nHighlights:\n\n• Plays games made for RGSS1 (XP), RGSS2 (VX), RGSS3 (VX Ace), modern mkxp-z forks, PSDK, and RPG Maker MV and MZ.\n• Imports games from folders or archives (.zip, .7z, .rar, JoiPlay's .jgp, self-extractable .exe).\n• On-screen D-pad and action buttons you can move and resize. Layouts can differ per game and per screen orientation.\n• Pause and resume from the library.\n• Library with sort, search, grid/list views, and bulk delete.\n\nStatus:\n\nPre-release. Not on the App Store.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/sh.mateo.empo.png",
       "tintColor": "#f88d3a",
       "category": "games",
@@ -8795,11 +8771,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.1",
-          "date": "2026-10-31T17:00:33Z",
-          "localizedDescription": "Release:\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.9.1/Empo-0.9.1-unsigned.ipa",
-          "size": 65457726,
+          "version": "0.10.0",
+          "date": "2026-11-01T16:34:21Z",
+          "localizedDescription": "Bug Fixes:\n\n• Prepare for App Store review (#217) (18c3b0b).\n• Build ruby 3.1 without getattrlist and fgetattrlist (mateo-m/mkxp-z-apple-mobile#64) (6aabcc0).\n• Build ruby without getattrlist and fgetattrlist (mateo-m/psdk-apple-mobile#4) (c0e14e6).\n\nFeatures:\n\n• MacOS support (#218) (18dc25e).\n• Build the engine for the Mac (mateo-m/mkxp-z-apple-mobile#65) (5728f4e).\n\niPhone and iPad: unsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.10.0/Empo-0.10.0-unsigned.ipa",
+          "size": 65492972,
           "minOSVersion": "26.0"
         }
       ],
@@ -9236,10 +9212,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-11-01T09:36:04Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit c23800c. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-196/Ito-1.4.0-dev.196-unsigned.ipa",
-          "size": 12877422,
+          "date": "2026-11-01T15:42:27Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit b831913. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-198/Ito-1.4.0-dev.198-unsigned.ipa",
+          "size": 12880856,
           "minOSVersion": "15.4"
         }
       ],
@@ -11418,11 +11394,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.9.9",
-          "date": "2026-10-12T15:52:14Z",
-          "localizedDescription": "• fix(extension): enable mobile code copy.\n• fix(reader): restore double-tap zoom toggle.\n• feat(player): add hold-and-slide speed selector.\n• fix(http): drop the quotes Linux wraps the saved user agent in.\n• fix(security): show what deep links install and keep tokens out of sh….\n• chore: await dropped writes, add guard lints, localize hardcoded strings.\n• refactor: move the tracker library cache from Hive to Isar.\n• refactor: split large widget files and remove duplicated code.\n• Try to fix chapter sorting.\n• Add a protected HLS proxy for extension playback.\n• Fix reader.\n• fix(mobile): improve player controls and error handling.\n• fix(restore): improve error handling and reporting during restore ope….\n• fix(reader): pan a zoomed webtoon page without losing double tap.\n• ci: run the test suite on pull requests and main.\n• Use neutral icons for extension repositories.\n• Add western recommendations and trustworthy watch orders.\n• Refine portrait player controls.\n• fix: recognise \"T1\" seasons and \"Episodio\" episodes.\n• Hide settings, that the user disabled.\n• fix(tv): make Browse overscan safe and focus reachable.\n• add useful comments to extension template.",
-          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
-          "size": 114603425,
+          "version": "0.9.95",
+          "date": "2026-11-01T15:17:25Z",
+          "localizedDescription": "Why 0.9.95 and not 1.0.0?:\n\nThis release has almost everything planned for 1.0.0: a new design, a rebuilt player and hundreds of fixes. But so much has changed that it needs testing on more devices and libraries than we can cover ourselves.\n\nHighlights:\n\n• Shiori, a new design for the whole app: every screen has been redrawn on one design system, with new navigation, transitions and an ergonomic pass throughout (#1077).\n• A rebuilt video player: new controls on phone, desktop and TV, plus video filters, audio delay, and volume, brightness and fit kept between episodes.\n• A tracker with no account: follow your status, progress, score and dates on the device alone (#1121).\n\nBefore updating: this is a large release that also touches how your library is stored, so make a backup first (More \u003e Backup and restore).\n\nReader:\n\n• Zoom with Ctrl (⌘ on macOS) and the mouse wheel; the wheel alone moves a zoomed page.\n• With \"Navigate to pan\" on, tall pages are read row by row before the page turns.\n• Split tall images into slices in webtoon mode.\n• Choose which chapters next and previous skip: read, filtered or duplicate.\n• Rebind the reader's keyboard shortcuts.\n• Separate icons for crop borders on and off.\n• Pages and zooms follow your finger more closely, and the webtoon strip glides after a fling.\n• Decoded images now have a memory limit, so long chapters no longer keep growing in memory.\n• Fixed: lost decoded pages for the next chapter when closing the reader, and chapter list rows with a scanlator failing to lay out.\n\nVideo player:\n\n• New controls on phone, desktop and TV, with episodes reachable from the top bar and lock and skip under the timeline on mobile.\n• Video filters: brightness, contrast, saturation, gamma and hue, kept for the next episodes. Gamma is hidden where the video output cannot apply it.\n• Audio delay: from -5 to +5 seconds.\n• Remember volume and brightness between episodes, and keep the fit from one episode to the next.\n• New \"Turn subtitles on\" switch, so episodes can start without subtitles.\n• \"Use my subtitle style\" now really gives the default style back when turned off.\n• VAAPI and VDPAU hardware decoding on Linux.\n• Rebind the player's keyboard shortcuts.\n• Fixed: a freeze in the player's event handling, crashes when chapter marks change, previous and next buttons on mobile, and controls under the camera cutout in landscape.\n\nLibrary and browsing:\n\n• Swipe sideways to switch between Manga, Anime and Novels, in the library and in Browse.\n• Select everything between two entries, in the library and in chapter lists.\n• Skip completed series, series with unread chapters or series not started in library updates. The categories' \"Skip updates\" option now takes effect too.\n• The Updates badge counts what was found since you last opened Updates, and clears when you visit.\n• Hidden media types are respected everywhere: Browse, Updates, History and the tracker library.\n• Browse remembers the Sources or Extensions page picked for each media.\n• Recommendation cards use the available space and no longer show HTML tags.\n• Fixed: opening Updates and History with orphan chapters, and an empty random entry.\n\nTracking:\n\n• New on-device tracker, with its own shelf in the tracker library.\n• Redrawn tracking card.\n• Progress now reaches trackers even if you leave the screen first.\n\nExtensions:\n\n• Updates are found in every repository, and the app says which one they come from. An update from another repository asks for confirmation before it is installed.\n• Extension WebViews are hosted for the extension server, including network and media capture.\n• Faster extension installs.\n• Repositories with empty source lists are supported.\n• Fixed: sources that read a setting in their headers failing to install, and video qualities lost with multiple hosters.\n\nBackup, restore and sync:\n\n• Reading time and last-read dates are kept when restoring backups from other apps.\n• Anime is kept from backups of unrecognised forks.\n• Local archive favorites are included in backups.\n• A backup password is only requested when the password is really the problem.\n• Refreshing a catalog keeps your reading state, and duplicate chapters are merged safely.\n• Fixed: logging in to the sync server on macOS.\n\nSecurity and privacy:\n\n• Secure screen: keep the app out of screenshots and the recent apps preview, always or only in incognito mode.\n• Lock after: ask to authenticate after 1, 2, 5 or 10 minutes away, or only when the app starts.\n\nUpdates and first launch:\n\n• Onboarding starts by asking for your language.\n• Clearer update dialog: installed and new version, date, size, sorted notes and what happens next. You will see it from the next update onwards.\n\n• New Persian translation, and the missing strings translated in every language.\n\nPlatforms:\n\n• Android: fixed a crash where all files access cannot be granted.\n• Android TV: fixed the Player settings in the anime-only layout, and the repository added on the welcome screen is filed under anime.\n• iOS: local files stay inside their folder.\n• macOS: the app icon now fits the system's icon grid.\n• Windows: sharper 256 px icon, used by the installer too, and more readable crash reports.\n• Linux: choose which browser opens external links; JPEG is read whichever libjpeg version is installed; fixed webview window crashes.\n\nStability and performance:\n\n• Faster database queries and lower memory use.\n• The next chapter preloads on a new page rather than on every frame.\n• A page that lost its data now offers a way back instead of crashing.\n• The startup error screen says what to do when the database cannot open.\n• Handled errors are now recorded, and developer mode shows them with their details.\n\nContributors:\n\nThanks to everyone who contributed to this release: @adobex, @aliafshany, @itsyaba, @Lukas-DS, @matsukiender-star, @MenaHere, @NBA2K1 and @Totara-thib.",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.95/Mangayomi-v0.9.95-ios.ipa",
+          "size": 115450399,
           "minOSVersion": "15.0"
         }
       ],
@@ -11619,11 +11595,11 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "2.1.1",
-          "date": "2026-10-26T05:43:07Z",
-          "localizedDescription": "🎙️ Microsecond Audio/Video Sync \u0026 First-Frame Alignment:\n\n• Pre-Session Audio Purge: Discarded audio buffers preceding sessionStartTime instead of clamping negative presentation timestamps to .zero. Completely prevents pre-record audio from playing before the first visual frame appears (eliminates \"audio comes first\").\n• Seamless Non-Overlapping Audio Pipeline: Implemented contiguous lastAudioEndPTS tracking across drainPrerollAudioBuffers and appendAudio. Guarantees strictly contiguous, non-overlapping AAC audio packets without micro-overlaps, popping, or encoder desync.\n• Session-Isolated Frame Tagging: Added recordingSessionID to CaptureController and RawFrameData. Preview frames in flight or queued before recording are strictly tagged and routed as preview-only, guaranteeing Frame 0 is always the first frame optically exposed for the recording session.\n\n🎞️ Zero-Stutter 24.000 CFR Timeline \u0026 Jitter Immunity:\n\n• Frame Skipping Elimination: Replaced round(elapsed * targetFPS) with floor(elapsed * targetFPS) in VideoWriter. Normal capture timing jitter (\u003c 1 frame interval) no longer triggers false duplicate hold-frame insertions or visual stutter. Hold frames are inserted only when an entire frame period is genuinely dropped by hardware.\n• 12MP Continuous Burst Cap: Restricted supportedMaxPhotoDimensions and RAW prewarm pools to $\\le 12\\text{ MP}$ ($4032 \\times 3024$). Eliminates 48MP Bayer RAW memory starvation (reclaiming ~2.3 GB RAM) and ~50ms sensor readout bottlenecks, sustaining true 24.000 fps continuous capture without dropped frames.\n\n🎬 Cinema-Grade Highlight Neutralization \u0026 Desaturation:\n\n• Filmic Highlight Desaturation: Progressive quadratic highlight desaturation in applyHighlightShoulder3 and LogCurve.swift starting from rKnee = 0.90 to pure neutral white at specular clipping. Completely eliminates greenish/magenta clipping casts on windows, practical lights, and the sky.\n• Full Midtone \u0026 Diffuse White Fidelity: Preserves 100% linear color volume for midtones, skin tones, and golden hour sunsets below rKnee = 0.90 with continuous C1 derivative continuity.\n• Physical Sensor Saturation Neutralization: Updated debayerFusedLog analog clipping desaturation from a 35% cap to 100% neutral white when sensor photosites hit hardware clipping.\n\n🛡️ DPC Highlight Gate:\n\n• Specular Peak Preservation: Gated Defect Pixel Correction (correctDefectPixelsBayer) to bypass photosites above 85% of whiteLevel. Prevents genuine Red/Blue highlight peaks from being falsely clamped down to distance-2 neighbor medians, preserving natural optical starbursts and specular highlights.\n\n🔍 Dynamic Centered Lens Switcher \u0026 Zoom Slider:\n\n• Centered Active Lens Pill: Collapsed by default to show only the active lens button, vertically centered in line with the record trigger.\n• Tap-to-Reveal: Tapping the active lens smoothly expands the capsule to reveal all available lenses in vertical order (2×, 1×, 0.5×) and simultaneously unveils the circular arc zoom wheel and focal length readout.\n• Sub-UI Layering: Positioned switcher at .zIndex(0) under all adjustment drawers, tool rails, and record controls with 12pt hit-test clearance from the record button.\n• Auto-Dismiss: Re-collapses on re-tap, tapping preview, opening any drawer, or after 3.5s inactivity.\n\n⚡ Performance \u0026 Stability:\n\n• Asynchronous Audio Session Activation: Replaced synchronous AVAudioSession.setActive(true) on the main thread with asynchronous activate API / background queue dispatch, eliminating AVAudioSession_iOS.mm:978 main-thread hitch warnings and UI startup delays.\n\n📦 Build \u0026 Packaging:\n\n• App Version: 2.1.1 (Build 12).",
-          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.1.1/OwLens.ipa",
-          "size": 560401,
+          "version": "2.1.2",
+          "date": "2026-11-01T14:37:50Z",
+          "localizedDescription": "🎨 Color Science, Full Dynamic Range \u0026 Sensor-to-Scene Exposure Gain:\n\n• Pre-WB Sensor Saturation Desaturation: Eliminated duplicate desaturation inside applyHighlightShoulder3 which previously bleached skies and corners to grey. Highlight desaturation is now strictly anchored to physical pre-LSC, pre-WB sensor saturation (rawPeak \u003e= 0.94f) in debayerFusedLog.\n• Pre-WB Malvar-He-Cutler Demosaicing: Normalized sensor channel gains (cGain, hGain, vGain, dGain) and subtracted black level directly on the 13-tap Bayer neighborhood before calculating cross-channel Laplacian gradients. Eliminates color fringing and zipper/maze artifacts caused by CMOS green channel sensitivity differences.\n• Luma-Only Adaptive Unsharp Mask: Refactored unsharpMaskAdaptive in Debayer.metal to calculate high-pass deltas strictly from ITU-R BT.2020 luma (dot(rgb, float3(0.2627, 0.6780, 0.0593))), preventing chroma noise amplification and color edge fringing in shadows.\n\n🚀 Performance Optimization \u0026 Dead Code Removal:\n\n• Zero-Allocation Reorder Buffer Pruning: In CameraViewModel.processFrame, replaced per-frame key-filtering dictionary reallocation (filter {. }) with fast, in-place sequence pruning (for key in keysToRemove { reorderBuffer.removeValue(forKey: key) }), saving millions of allocations and significantly reducing ARC overhead and thermal pressure.\n• Metal Pipeline Streamlining: Removed unused cropAndResampleBicubic kernel, Catmull-Rom normalization helpers, and dead structs in Debayer.metal and MetalPipeline.swift, freeing up GPU compilation memory and pipeline cache.\n• Optimized Preview Buffer: Fixed preview-time drop counter inflation in RawFrameBuffer.dequeueLatest() and properly reset drop counters on flush.\n\n🎥 Gyroflow / CAMM Motion Metadata \u0026 Video Writer:\n\n• Safe CAMM Box Patching: Rewrote patchMebxToCamm in VideoWriter.swift to safely scan both the first 2 MB and last 8 MB of the MP4 container, strictly matching \"mebx\" within 64 bytes of \"stsd\". Removed risky blind byte replacement fallbacks outside the sample description table.\n• Hardware-Synchronized 100 Hz Motion Metadata: Integrated sequential drainSamples(upToElapsedSeconds:) in GyroMotionRecorder using hardware CoreMotion timestamps anchored to session optical start PTS.\n• Dynamic QuickTime Metadata: Dynamically generated QuickTime metadata items for color gamut, transfer curve, and encoder version (OwLens Cinema Camera v2.1.2).\n\n📷 Capture Pipeline \u0026 Autofocus:\n\n• Natural Lens Shading Correction: Calibrated LSC corner gains to realistic optical falloffs (0.48 for Ultra-Wide, 0.20 for Telephoto, 0.38 for Wide), eliminating unnatural corner over-exposure and amplified shadow noise.\n• Hardware Continuous AF Restoration: Tracked AF state across record sessions and cleanly restored continuous autofocus via CaptureController.restoreContinuousAutoFocus().\n• Quantized ISO Stops: Quantized ISO settings to standard 1/3-stop cinema increments (32.3200).\n• Touch-to-Focus Reticle Mapping: Corrected landscape and digital zoom coordinate mapping in OwLensApp.swift.\n\n📦 Build \u0026 Packaging:\n\n• App Version: 2.1.2 (Build 13).",
+          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.1.2/OwLens.ipa",
+          "size": 558825,
           "minOSVersion": "17.0"
         }
       ],
@@ -12836,11 +12812,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.13.2",
-          "date": "2026-11-01T09:53:14Z",
-          "localizedDescription": "• d0eabd8 - Ignore punctuation when searching the catalogue, ranking exact punctuation first (#178).",
-          "downloadURL": "https://github.com/3ll3d00d/ezbeq/releases/download/2.13.2/ezbeq-mobile-ios-unsigned.ipa",
-          "size": 11176640,
+          "version": "2.13.3",
+          "date": "2026-11-01T13:22:38Z",
+          "localizedDescription": "• b7d637a - List a search match on the alt title under that title (#179).",
+          "downloadURL": "https://github.com/3ll3d00d/ezbeq/releases/download/2.13.3/ezbeq-mobile-ios-unsigned.ipa",
+          "size": 11177023,
           "minOSVersion": "16.4"
         }
       ],
