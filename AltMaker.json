@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "sh.mateo.empo",
-    "com.iptvnator.arc",
-    "moe.itoapp.ito"
+    "io.github.danielnoam.waypage",
+    "com.lumisound.ios",
+    "com.engikode.enginote"
   ],
   "apps": [
     {
@@ -710,10 +710,10 @@
       "versions": [
         {
           "version": "1.12.2.3",
-          "date": "2026-10-31T22:04:43Z",
-          "localizedDescription": "PokeRogueOffline v1.12.2.3:\n\nThis is a major client upgrade, with changes for both desktop builds and mobile builds. Most notable it adds Over the Air updates which means most of the time you will be able to just click update inside the app.\n\nBug Fixes:\n\n• Looking at the list of biomes for Eevee in the Pokédex will not cause the game to crash.\n• Fused Pokémon can no longer be selected in training session. The ME can't appear if there are no unfused Pokémon.\n• Sketch will fail if used when the user is transformed, matching mainline.\n• All of Smeargle's level up moves will show again in the Pokédex instead of just the first one.\n• Generic Event splash messages will show correctly.\n• Non-English languages will have the messages for when multiple eggs are hatched at once translated more accurately.\n\n• This primarily affects Russian, Polish and Ukrainian.\n\n• The sprites for Eiscue, Alolan Vulpix and Alolan Ninetails will display correctly when the \"Experimental\" sprite set is activated.\n\nBalance:\n\n• Removed Scuba Diver trainer from the Sea biome.\n\nClient Changes:\n\n• Added in-app auto-update support for Android and iOS.\n\n• Very beta, I have tested it on iOS, Android, and on Linux. MacOS is the most prone to having bugs.\n\n• Added a screenshot button on mobile that saves clean captures to a dedicated Photos album.\n\n• Redesigned the gacha calendar cells for better readability.\n\n• I hope this makes the calender easier on the eyes and easier to read.\n\n• Gacha Calendar is no longer disabled during the rewards phase.\n\nFiles:\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).\n• PokeRogueOffline-x64.app.tar.gz / PokeRogueOffline-arm64.app.tar.gz — macOS app bundle, used only by the in-app self-updater (not for manual install — use the DMG for that).\n• PokeRogueOffline-Android-ota.zip / PokeRogueOffline-iOS-ota.zip + their -ota-manifest.json — web-only OTA bundles used by the in-app mobile updater (not for manual install).\n• SHA256SUMS.txt — checksums for the ten files above (excluding the two -ota-manifest.json files, which carry their own bundle checksum).\n• Build provenance for each binary is attested via GitHub Actions — verify with gh attestation verify \u003cfile\u003e --repo PokeRogue-Offline/pokerogue-offline.",
-          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.2.3-344/PokeRogueOffline.ipa",
-          "size": 551088476,
+          "date": "2026-11-01T21:44:10Z",
+          "localizedDescription": "Build 356:\n\n• Bug FIx: Continue now correctly resumes the last slot used.\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).\n• PokeRogueOffline-x64.app.tar.gz / PokeRogueOffline-arm64.app.tar.gz — macOS app bundle, used only by the in-app self-updater (not for manual install — use the DMG for that).\n• PokeRogueOffline-{Android,iOS}-ota.zip — legacy combined bundle kept only for installs still running an in-app updater from before the code/assets/locales split; not used by current clients, not for manual install.\n• SHA256SUMS.txt — checksums for the sixteen files above (excluding the two -ota-manifest.json files, which carry their own per-channel checksums).\n• Build provenance for each binary is attested via GitHub Actions — verify with gh attestation verify \u003cfile\u003e --repo PokeRogue-Offline/pokerogue-offline.",
+          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.2.3-357/PokeRogueOffline.ipa",
+          "size": 551095671,
           "minOSVersion": "15.0"
         }
       ],
@@ -2515,11 +2515,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5.1",
-          "date": "2026-10-30T21:14:10Z",
-          "localizedDescription": "• Smoother frame pacing and world motion. Improved 40 fps presentation, aligned 30 fps world updates with complete frames, and restored the original catch up allowance during frame rate drops, including at the 120 fps cap. The smoother 120 Hz simulation remains enabled at every cap.",
-          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.5.1/NFS-Most-Wanted-0.5.1.ipa",
-          "size": 30134223,
+          "version": "0.5.2",
+          "date": "2026-11-01T18:57:57Z",
+          "localizedDescription": "Please read this before playing. This update changes how you play again: menus now react to what you actually touch. Tap the button, row, arrow or icon you want, and swipe on the list or picker you want to move through. Tapping empty space no longer presses Accept, and swiping on empty space no longer moves the selection. You can bring back the 0.5.1 behaviour, or mix the two, with the switches listed under \"Your options\" below.\n\nMenus: touch what you want:\n\n• Tap buttons and hints. The on-screen button hints (Accept, Back, the LT/RT and LB/RB hints, the left/right and up/down arrows) are now buttons: tap one to press it.\n• Tap rows and events. Tapping a menu row, option or event selects it. Tap a selected event again to start it. Profiles are only selected by a tap; confirm with Accept so you cannot load the wrong one by accident.\n• Tap popup choices. Yes/No and other popup choices, including the alias confirmation, can be tapped directly.\n• Swipe where it scrolls. Swipe up or down on a list to move through it, and left or right on a selector or carousel. This covers the main lists, options, the save and profile lists, the Rap Sheet and its Rankings, the car category and car pickers, the track picker, the world map and the Blacklist (swipe on the rival's photo, or tap its up/down arrows). Keep your finger down to keep moving through entries.\n• Look around cars. Drag in the car showcase to turn the camera.\n• Startup. Tap to skip the startup movies and to get past Press Start.\n• Two fingers to go back. A short two-finger tap presses Back, as before.\n• Full gamepad. The PAD button still brings the complete on-screen gamepad back for a menu; a button on it returns to gestures.\n\nAll of these are in the launcher's Settings; the first three are also in the in-game settings and take effect right away:\n\n• Tap and swipe anywhere (off by default): on, a tap on empty space presses Accept and a swipe anywhere moves the selection, like 0.5.1. The new taps on buttons, rows and popup choices keep working.\n• Two-finger tap to go back (on by default): turn off if you trigger Back by accident. Independent of the switch above.\n• Invert menu swipes (off by default): reverses the swipe direction in menus. World-map dragging is not affected.\n• Swipe and tap in menus (on by default): off shows the full gamepad in menus instead of gestures, as before 0.5.0.\n\nPerformance and frame rate, live:\n\n• Switch performance profiles while playing. Eco, Balanced and Max now apply immediately from the in-game settings, without relaunching. Any explicit scheduling overrides you set are kept.\n• Change the frame-rate cap while playing. Switch between 30, 40, 60 and 120 fps in the in-game settings without relaunching. 40 and 120 appear only on 120 Hz displays and are no longer labelled experimental.\n\nAudio:\n\n• Keep your music playing. A new Audio setting lets music from other apps keep playing alongside the game.\n\nSHA-256 of NFS-Most-Wanted-0.5.2.ipa: 95acb5e31318fdae2237bad62b015fb0ae95484c494f3624babe2a5a70c74eeb.",
+          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.5.2/NFS-Most-Wanted-0.5.2.ipa",
+          "size": 30186591,
           "minOSVersion": "18.0"
         }
       ],
@@ -2632,51 +2632,6 @@
         "entitlements": [],
         "privacy": {
           "NSCameraUsageDescription": "Take a photo to turn it into a sticker."
-        }
-      }
-    },
-    {
-      "name": "Floe Agent",
-      "bundleIdentifier": "org.floeagent.ios",
-      "developerName": "JiangNanGenius",
-      "subtitle": "Your models. Your files. Your machines",
-      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
-      "tintColor": "#3665ed",
-      "category": "other",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/JiangNanGenius/floe-agent@main/docs/assets/video/floe-en.jpg"
-      ],
-      "versions": [
-        {
-          "version": "1.7.65",
-          "date": "2026-10-30T19:15:29Z",
-          "localizedDescription": "Floe Agent 1.7.65（306）:\n\n• 新增 DeepSeek 搜索供应商。.\n\nEnglish:\n\n• Fixed long-message wrapping, caret visibility and expanded editing, including split views and larger text.\n\n• Improved complete tool definitions, full result retrieval and context compaction, with actual status for slow calls and environment preparation.\n• Expanded native 3D editing, assemblies, drawings and simple animation, including continued assistant edits and actual viewport results.\n• Choose or move a task’s execution environment, follow preparation and continue after interruptions. New defaults leave existing tasks in place.\n• Skill dependencies follow the actual system and architecture, with versioned recovery records.\n• Added DeepSeek as a search provider.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.65/Floe-Agent-1.7.65-build306-unsigned.ipa",
-          "size": 820003792,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAlarmKitUsageDescription": "Floe schedules the alarms and timers you create in the app.",
-          "NSAppleMusicUsageDescription": "Floe finds and plays items from your media library when you request them.",
-          "NSBluetoothAlwaysUsageDescription": "Floe uses Bluetooth only when you ask it to connect to a nearby BLE serial device.",
-          "NSCalendarsFullAccessUsageDescription": "Floe accesses calendars only when you ask the agent to read or edit events.",
-          "NSCameraUsageDescription": "Floe opens the camera only when you choose to capture an image for a task.",
-          "NSContactsUsageDescription": "Floe reads the contacts you ask it to find.",
-          "NSFaceIDUsageDescription": "Floe uses Face ID only to confirm when you enable unrestricted task access or unlock protected settings.",
-          "NSHealthShareUsageDescription": "Floe reads the Health data you request after you authorize access.",
-          "NSHealthUpdateUsageDescription": "Floe only reads the Health data you authorize; it does not save or modify Health data.",
-          "NSHomeKitUsageDescription": "Floe accesses your Home only when you enable Home tools and request an automation action.",
-          "NSLocalNetworkUsageDescription": "Floe scans your local network only when you ask the agent to discover nearby services and devices.",
-          "NSLocationWhenInUseUsageDescription": "Floe uses your location for weather and nearby places you request, including while those tasks continue in the background. Background assistance uses approximate location while tasks are running.",
-          "NSMicrophoneUsageDescription": "Floe uses the microphone only while you dictate a message.",
-          "NSPhotoLibraryAddUsageDescription": "Floe saves generated or edited images only when you ask it to save them to Photos.",
-          "NSPhotoLibraryUsageDescription": "Floe opens your photo library only when you choose an image for a task.",
-          "NSRemindersFullAccessUsageDescription": "Floe accesses reminders only when you ask the agent to read or edit them.",
-          "NSSpeechRecognitionUsageDescription": "Floe converts your speech into text for the message composer."
         }
       }
     },
@@ -4956,10 +4911,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-28T00:23:21Z",
-          "localizedDescription": "Unsigned build of commit 1a3e040f8cca55481721967b7163339eb5c0c6e7. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-73/EngiNote.ipa",
-          "size": 14574509,
+          "date": "2026-11-01T21:50:11Z",
+          "localizedDescription": "Unsigned build of commit 7e3ff65d03315a9311986b7b6714c5fa33b69bfb. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-74/EngiNote.ipa",
+          "size": 14581293,
           "minOSVersion": "17.5"
         }
       ],
@@ -5007,11 +4962,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.6.1",
-          "date": "2026-10-31T23:04:20Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\n21:9 for ultrawide screens:\n\nThe Video menu now has three pictures: 4:3, 16:9 and 21:9 (⇧ ⌘ U on the Mac, Video › Picture on Windows, F10 goes round them on Windows and Linux). On an ultrawide screen 21:9 takes the screen's own shape — 2560×1080, 3440×1440, up to 2.4:1 — so the game fills it, with a wider view of the city, not a stretch.\n\nThe HUD at the edges of the screen:\n\nIn widescreen the health bar, the spray cans and the gauge now sit at the right edge of the screen, where they were on the console's 4:3 screen, instead of floating toward the middle. The timer stays at the top centre; menus and dialogue stay in the middle. On iPhone and Android too.\n\nThe boost's heat haze:\n\nThe boost dash's heat haze now covers the whole widescreen picture; it used to stop at the edges of the 4:3 part, with two lines where it ended.",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.1/JSRF-Unleashed-iOS.ipa",
-          "size": 13387159,
+          "version": "0.6.2",
+          "date": "2026-11-01T20:57:54Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nThe camera on the right stick, tracking:\n\nOn the Mac and Windows it is Controls › Camera on the Right Stick (Tracking), beside Camera on the Right Stick; F7 goes round on, tracking and off on Windows and Linux; on iPhone and Android it is in the settings (⚙). The camera on the right stick stays on by default.\n\nGame Mode on the Mac:\n\nThe Mac app now tells macOS it is a game, so macOS puts it in Game Mode in full screen: the CPU and GPU go to the game first, and Bluetooth controllers answer faster. Thank you, danielgpinheiro ().",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.2/JSRF-Unleashed-iOS.ipa",
+          "size": 13388699,
           "minOSVersion": "15.0"
         }
       ],
@@ -6930,11 +6885,11 @@
       ],
       "versions": [
         {
-          "version": "1.48.2",
-          "date": "2026-11-01T09:01:07Z",
-          "localizedDescription": "Changed:\n\n• Settings › Reading: Layout and Text are two sections, like Narrate.\n• Settings › Library: Import from another app and Edit clips sit under one Actions heading, like Storage's.\n• Fewer? in Settings: Theme, Auto uses, Pictures and motion, Layout, Text, Narrate, Library's Layout and Keeping up, Import, Alerts, Saving, GitHub sync's This device and Storage's By collection lost explanations that only repeated their rows. Your fonts keeps its?, with the file types and where font files can go; This device has a line under it.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.48.2/Waypage.ipa",
-          "size": 10643004,
+          "version": "1.50.2",
+          "date": "2026-11-01T22:50:13Z",
+          "localizedDescription": "Added:\n\n• Narrate: while the voice is still being made (Kokoro at the start or after a skip), a ring turns round Pause until it speaks.\n\nChanged:\n\n• Narrate (Kokoro): shorter pauses between paragraphs and sentences; the quiet Kokoro leaves around each piece is trimmed.\n\nFixed:\n\n• Picking another Kokoro version while it read closed the app.\n• Picking another speech engine in the reader's Narrate tab emptied the tab until the settings were opened again, and in Settings the rows jumped while they were drawn again.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.50.2/Waypage.ipa",
+          "size": 10674048,
           "minOSVersion": "15.5"
         }
       ],
@@ -8197,11 +8152,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.11",
-          "date": "2026-10-30T09:37:36Z",
+          "version": "0.11.12",
+          "date": "2026-11-01T17:35:25Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.11/rust-dicom-station-0.11.11-ios.ipa",
-          "size": 29242986,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.11.12/rust-dicom-station-0.11.12-ios.ipa",
+          "size": 29274126,
           "minOSVersion": "15.0"
         }
       ],
@@ -8771,11 +8726,11 @@
       ],
       "versions": [
         {
-          "version": "0.10.0",
-          "date": "2026-11-01T16:34:21Z",
-          "localizedDescription": "Bug Fixes:\n\n• Prepare for App Store review (#217) (18c3b0b).\n• Build ruby 3.1 without getattrlist and fgetattrlist (mateo-m/mkxp-z-apple-mobile#64) (6aabcc0).\n• Build ruby without getattrlist and fgetattrlist (mateo-m/psdk-apple-mobile#4) (c0e14e6).\n\nFeatures:\n\n• MacOS support (#218) (18dc25e).\n• Build the engine for the Mac (mateo-m/mkxp-z-apple-mobile#65) (5728f4e).\n\niPhone and iPad: unsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.10.0/Empo-0.10.0-unsigned.ipa",
-          "size": 65492972,
+          "version": "0.10.2",
+          "date": "2026-11-01T20:33:06Z",
+          "localizedDescription": "Bug Fixes:\n\n• Let Empo Player open game cores so games start again (#223) (a6c1bab).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.10.2/Empo-ios.ipa",
+          "size": 65493517,
           "minOSVersion": "26.0"
         }
       ],
@@ -9199,7 +9154,7 @@
       "bundleIdentifier": "moe.itoapp.ito",
       "developerName": "AtiinLabs",
       "subtitle": "Open source manga, Anime and Novel viewer for iOS",
-      "localizedDescription": "Features:\n\n• Native manga and novel readers, plus video playback.\n• One library with local history and backups.\n• AniList discovery and progress tracking with AniList, MyAnimeList or MangaBaka.\n• Extensible .ito source plugins with search and source settings.\n\nBuild from source:\n\nRequires Xcode 26.2 or later. Supports iOS and iPadOS 15.4+.\n\nLet Swift packages resolve, select your signing team and device, then run with ⌘R.",
+      "localizedDescription": "Features:\n\n• Native manga and novel readers, plus video playback.\n• One library with local history and backups.\n• AniList discovery and progress tracking with AniList, MyAnimeList or MangaBaka.\n• Extensible .ito source plugins with search and source settings.\n\nReading history:\n\nHistory groups visits by series and day, with search, media-kind filters, and direct chapter navigation. It remembers the source's chapter title, number, volume, and scanlation group (episode language for anime), and shows saved pages, playback times, or novel percentages when that information is available. Resume prefers the group read last; missing groups fall back to another release. Missing or locked chapters show an explanation.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
       "tintColor": "#64bd9e",
       "category": "entertainment",
@@ -9212,10 +9167,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-11-01T15:42:27Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b831913. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-198/Ito-1.4.0-dev.198-unsigned.ipa",
-          "size": 12880856,
+          "date": "2026-11-01T18:48:51Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 55e90d7. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-199/Ito-1.4.0-dev.199-unsigned.ipa",
+          "size": 12981680,
           "minOSVersion": "15.4"
         }
       ],
@@ -10701,17 +10656,17 @@
       "bundleIdentifier": "com.lumisound.ios",
       "developerName": "HollowHeavenXR",
       "subtitle": "A full-featured, privacy-respecting music player for iOS, watchOS, and tvOS — stream from",
-      "localizedDescription": "Repository layout:\n\nSee ios/README.md for installation (AltStore / Sideloadly), self-hosting the bridge, and build-from-source instructions.\n\nIn-app help:\n\nThe app includes a full Help \u0026 Feature Guide (Settings → Help) covering every feature above in detail, with usage tips for each.\n\nREAD IT!!!",
+      "localizedDescription": "Repository layout:\n\nEverything functional is Rust; see RUST-PORT.md for what moved where.\n\nSee ios/README.md for installation (AltStore / Sideloadly), self-hosting the bridge, and build-from-source instructions.\n\nIn-app help:\n\nThe app includes a full Help \u0026 Feature Guide (Settings → Help) covering every feature above in detail, with usage tips for each.\n\nREAD IT!!!",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
       "tintColor": "#456caf",
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.9.0.117",
-          "date": "2026-10-27T04:13:11Z",
-          "localizedDescription": "Lumisound iOS v1.9.0.117:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v1.9.0.117/Lumisound-1.9.0.117-unsigned.ipa",
-          "size": 11030448,
+          "version": "2.0.0.2",
+          "date": "2026-11-01T22:45:18Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.2:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.\n\nFixes in 2.0.0.2:\n\n• Interface styles now apply to the Classic interface. Frosted, Solid, Midnight OLED, Neon, Aurora and Minimal Mono (and the Compact/Roomy density) previously changed only the Lumen interface. In Classic they now restyle cards, panels, bars and headers, and the styles with their own colors (Midnight OLED, Neon, Minimal Mono) recolor it too. Liquid Glass keeps Classic exactly as before. The new style fills in fully when you leave Settings → Appearance.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.2/Lumisound-2.0.0.2-unsigned.ipa",
+          "size": 14598208,
           "minOSVersion": "26.0"
         }
       ],
@@ -10897,15 +10852,15 @@
       "subtitle": "Star Fox Enhanced source and portable platform builds (Assisted by Codex AI)",
       "localizedDescription": "Star Fox Enhanced:\n\nA native C++/SDL3 port of UltraStarFox, with Original Star Fox and Star Fox EX experiences, high-frame-rate presentation, widescreen support, and optional visual enhancements using Codex AI (5.6 Sol, 6 Astra, 6 Sol).\n\nTHIS PROJECT WAS PORTED AND CODED BY AI/CODEX:\n\nAI disclosure: This project is made with AI assistance, including OpenAI Codex and AI tools used for programming, testing, documentation and some visual assets.\n\nThis is an alpha release, not a cycle-accurate SNES emulator. A supported, unmodified retail ROM supplied by you is required. No retail ROM is included.\n\nGet started:\n\n• Launch the game. On desktop, place your supported .sfc/.smc ROM beside the executable, or set STARFOX_RETAIL_ROM to its path. Mobile apps provide a first-launch file picker.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.starfox.enhanced.png",
-      "tintColor": "#4472bc",
+      "tintColor": "#679944",
       "category": "games",
       "versions": [
         {
-          "version": "0.0.8.8.2",
-          "date": "2026-10-30T21:37:26Z",
-          "localizedDescription": "Star Fox Enhanced 0.0.8.8.2:\n\nThis update includes the changes since 0.0.8.8.1. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS work remains paused and no 3DS package is included.\n\nWindows packaging and security:\n\n• Removed unused enhanced-background artwork from the asset builder, reducing its executable size substantially without changing the generated asset data.\n\nGraphics:\n\n• Fixed the Meteor floor disappearing or wrapping back to stars near the lower corners of the screen.\n• Corrected finite orbital backgrounds extending beyond their original image area during banking and in widescreen views, including planet-edge repeats and black padding. Corrected Original Venom-space enhanced-sky placement.\n• Kept enhanced scenery active during stage-clear flyaways and results.\n• Fixed Original Venom's blue/purple dry ground being mistaken for water, allowing enhanced ground to work without enabling ray tracing.\n• Corrected results and ending drawing order so later objects do not incorrectly paint over percentage lettering.\n\nControls and updates:\n\n• Added CONTROLLER REMAP → KEYBOARD → KEYBOARD PLAYER. Select PLAYER 2 for controller-P1/keyboard-P2 co-op; the assignment is saved. Default keyboard/first-controller sharing remains unchanged, as do EX's native player-count and multitap options.\n\nCompatibility notes:\n\nOlder installations may still contain optional DisplayXR installer files from earlier packages. They are not needed for the game or direct SR PLATFORM mode; do not run or whitelist a file blocked by security software.\n\nDevice-specific AMD/Android GPU hangs, remaining Retroid audio reports and.\n\nresolved. Build success alone is not hardware acceptance.",
-          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.2/StarFoxEnhanced-0.0.8.8.2-ios-arm64-unsigned.ipa",
-          "size": 85297993,
+          "version": "0.0.8.8.3",
+          "date": "2026-11-01T19:05:56Z",
+          "localizedDescription": "Star Fox Enhanced 0.0.8.8.3:\n\nChanges since 0.0.8.8.2. Supply your own supported retail ROM; no ROM or private game data is included. Nintendo 3DS remains paused and is not packaged.\n\nSmaller downloads and new icons:\n\n• Converted enhanced backgrounds to lossless PNG: the embedded artwork drops from about 179 MB to 61 MB with the same decoded pixels and dimensions.\n\n• Added the new Star Fox Enhanced application icon across desktop, mobile and supported console packages.\n\nIncludes the merged MODERN renderer update by CarltonCracker (PR #64):\n\n• DYNAMIC LIGHTING adds coloured weapon/explosion/bomb lights and engine glow. Ray-traced sun shadows support the landscape, models, corridors and Space Armada boss room. Dynamic lighting is optional and off by default.\n• Added optional HIGH POLY ARWINGS, including broken-wing variants, without changing simulation collision shapes or timing.\n• Added MODERN output for SBS, over-under, interlaced, anaglyph and cross-view stereo. Leia SR continues to use its existing dedicated presentation path.\n• Added MODERN build support for Android and PS5, plus a 3D Space Armada boss room, corridor/background accuracy fixes, 2D filters and level-select audio corrections. Android/PS5 device acceptance remains hardware-dependent.\n• Renamed the renderer MODERN - VERY FAST and marked settings it does not implement as GPU ONLY, rather than suggesting those settings are active.\n\nCompatibility fixes:\n\n• #32: prevented retained exterior cruisers from drawing through Space Armada's final corridor/boss room across flat and shared stereo/VR paths. Kept the source object-removal correction and preserved outdoor ships.\n• #49: added automatic host cartridge composition for Windows AMD/Radeon Vulkan while keeping GPU geometry/effects enabled. Live graphics-setting changes retire prior GPU work once before reconfiguration. This mitigates the reported driver-loss path; confirmation on the affected Radeon hardware is still needed, and this is not a claim that every AMD hang is resolved.\n• Kept enhanced ground and enhanced sky/backgrounds independent of ray tracing. Reflections and ray-traced shadows retain their own requirements.\n\nUpdates and installation:\n\n• Preserved the full 0.0.8.8.3 version in the in-game updater, including upgrades from 0.0.8.8.2. The updater selects the game package, never the optional DLSS add-on. Automatic installation remains for portable Windows x64/x86 and Linux x64; other platforms keep their existing update methods.\n\nPlatform packages are published only after the release build gates, Windows Defender package scans and checksum inventory pass. Build success is not a claim of hardware acceptance for every console, VR headset or graphics driver.",
+          "downloadURL": "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-ios-arm64-unsigned.ipa",
+          "size": 68540810,
           "minOSVersion": "15.0"
         }
       ],
@@ -11566,11 +11521,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.6",
-          "date": "2026-10-31T21:08:46Z",
-          "localizedDescription": "Added:\n\n• Podcasts: mark episodes as played or unplayed.\n\n• Option to show album artwork across the full width (#289).\n• Option to show the player artwork across the full width (#290).\n• Option to keep motion artwork off mobile data, on by default (#294).\n\nChanged:\n\n• Settings: list, album and swipe options are now in Appearance, and keeping a radio playing in Quality \u0026 playback.\n\n• To reorder a playlist, choose Reorder in its ⋯ menu or hold a song, drag the rows, and press Save order (#279).\n• Holding a song to start a selection no longer marks that song (#279).\n• Add to a playlist marks the playlists a song is already in, and a tap adds or removes it without closing the sheet.\n• Settings has a new Home \u0026 navigation category, with what used to fill Appearance: Home, Explore, the navigation bar, swipes and haptics.\n• Lyrics settings have their own screen, inside Settings \u003e Player.\n\n• Song lists settings are now Lists \u0026 albums, and options that did nothing on Jellyfin or the local profile are gone.\n\nFixed:\n\n• With on-screen navigation buttons, the mini player no longer covers the last option in Settings.\n• A playlist's page no longer freezes while songs are selected, and leaving the selection no longer jumps to the top (#279).\n• Casting: more cases where the queue stayed on a song after it ended are handled (#285).\n• The progress bar looks the same on every Android phone.\n• Next and previous from other apps and devices, like Garmin watches, should now work (#307).\n• Podcast episodes pick up where you left them, even after playing music or restarting the app.\n• The podcasts screen says how to find a show when it is empty, and the feed address field is ready to type in.",
-          "downloadURL": "https://github.com/juananzzz/resonus/releases/download/v0.8.6/resonus-v0.8.6.ipa",
-          "size": 20773272,
+          "version": "0.8.7",
+          "date": "2026-11-01T19:09:17Z",
+          "localizedDescription": "Added:\n\n• Holding an artist opens a menu with Play, radio and favorite.\n\n• Your library: the empty Podcasts list has a button to find one.\n\nChanged:\n\n• Moving a song in a playlist saves the new order right away, and the selection bar has Add to playlist and Remove again (#279).\n• Holding a song to start a selection marks that song again (#279).\n• Lyrics settings are back in the Settings \u003e Player page.\n• Explore \u003e Podcasts lists only the shows you added, and its + finds a show or takes a feed address.\n• Your library: a new playlist opens as soon as it is created.\n• Your library: the search stays when you open a result and come back.\n• Your library: podcasts sort by when you favorited or last listened to them.\n\nFixed:\n\n• Your library: Favorites no longer shows up in search results or under the playlist filters.\n• Your library: a failed refresh no longer replaces the list with an error.\n• Your library: podcast search ignores accents and forgives typos, like the rest.\n• Your library: artists sort by their sort name, and \"+\" playlists stay on top in the mixed list.\n• Your library: every row and card responds to a press, and albums keep the explicit badge in the mixed list.\n• Casting: more cases where the queue stayed on a song after it ended are handled (#285).",
+          "downloadURL": "https://github.com/juananzzz/resonus/releases/download/v0.8.7/resonus-v0.8.7.ipa",
+          "size": 20781344,
           "minOSVersion": "16.4"
         }
       ],
@@ -13793,6 +13748,35 @@
         "privacy": {
           "NSCameraUsageDescription": "This app doesn't use the camera.",
           "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
+        }
+      }
+    },
+    {
+      "name": "Floe Bridge",
+      "bundleIdentifier": "org.floeagent.iosbridge",
+      "developerName": "JiangNanGenius",
+      "subtitle": "Your models. Your files. Your machines",
+      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.iosbridge.png",
+      "tintColor": "#486de7",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/JiangNanGenius/floe-agent@main/docs/assets/video/floe-en.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-01T20:14:05Z",
+          "localizedDescription": "Reboot recovery was accepted by the owner and was not retested for this release.\n\nThe unsigned universal IPA requires self-signing with Network Extension capabilities. This is a separate stable Bridge release and does not replace the main Floe app's latest release or update feeds.\n\nBased on pinned iCTRL source under Apache-2.0 and idevice under MIT; upstream notices and dependency licenses are retained in the source and package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/floe-ios-bridge-v1.0.0/Floe-iOS-Bridge-1.0.0-unsigned.ipa",
+          "size": 8228420,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Allow approved clients on your local network to connect to Floe Bridge when you enable LAN access."
         }
       }
     }
