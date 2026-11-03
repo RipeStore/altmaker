@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.theboisclub.gen1recompplusplus",
-    "sh.mateo.empo",
-    "moe.itoapp.ito"
+    "wiki.qaq.GhostRemote",
+    "com.joemattiello.iCube",
+    "org.masterpiece.player"
   ],
   "apps": [
     {
@@ -418,17 +418,17 @@
       "bundleIdentifier": "io.github.mdmrk.rosebed",
       "developerName": "mdmrk",
       "subtitle": "Minecraft Beta 1.7.3 rewritten from scratch in Zig",
-      "localizedDescription": "Rosebed:\n\nMinecraft Beta 1.7.3 rewritten from scratch in Zig, with a client and a dedicated server. The goal is to match the original: same behavior, same worlds from the same seed, and multiplayer that works with it.\n\nIndex:\n\n• Extras not in b1.7.3.\n\nPlay:\n\nPlay in the browser.\n\nExtras not in b1.7.3:\n\n• A fullscreen option in Video Settings (vanilla only has F11).\n• Touch controls and auto-jump on Android and iOS.\n• Gamepad support on every platform.\n\nOther commands:\n\nDebug builds (plain zig build) may be too slow to play.\n\nWeb:\n\nThe site ends up in zig-out/www.\n\nAndroid:\n\nIf ANDROID_NDK_HOME and ANDROID_HOME are set, you can leave out the two -D options.",
+      "localizedDescription": "Rosebed:\n\nMinecraft Beta 1.7.3 rewritten in Zig, with a client and a dedicated server. It is a port of the original game's decompiled source, obtained with RetroMCP-Java, and matches it: same behavior, same worlds from the same seed, and multiplayer that works with it.\n\nIndex:\n\n• Extras not in b1.7.3.\n\nPlay:\n\nPlay in the browser.\n\nExtras not in b1.7.3:\n\n• A fullscreen option in Video Settings (vanilla only has F11).\n• Optional mipmaps and anisotropic filtering in Video Settings, off by default.\n• Touch controls on Android and iOS: fixed, floating or d-pad movement, a minimal button layout, and auto-jump.\n• Gamepad support on every platform.\n\nOther commands:\n\nDebug builds (plain zig build) may be too slow to play.\n\nWeb:\n\nThe site ends up in zig-out/www.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.mdmrk.rosebed.png",
       "tintColor": "#6156e2",
       "category": "games",
       "versions": [
         {
-          "version": "1.6.1",
-          "date": "2026-10-29T09:45:08Z",
-          "localizedDescription": "Added:\n\n• Gamepad support on every platform.\n\nChanged:\n\n• Faster chunk meshing: mesh buffers are reused between rebuilds and unused per-block work is skipped.\n• Faster smooth lighting: each block's light is looked up only once per chunk rebuild.\n• Faster block lookups: the last chunk accessed is cached.",
-          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.6.1/rosebed-aarch64-ios.ipa",
-          "size": 4429191,
+          "version": "1.7.0",
+          "date": "2026-11-03T00:23:05Z",
+          "localizedDescription": "Added:\n\n• Floating joystick and a minimal button layout for touch controls.\n• Optional mipmaps and anisotropic filtering in Video Settings.\n\nChanged:\n\n• /help lists each command as - command: description.\n• Faster chunk meshing, level ticks and terrain generation.\n\nFixed:\n\n• The achievements tree no longer overflows its frame when panning.\n• Moving the camera on touch screens no longer breaks blocks by accident.",
+          "downloadURL": "https://github.com/mdmrk/rosebed/releases/download/v1.7.0/rosebed-aarch64-ios.ipa",
+          "size": 4429617,
           "minOSVersion": "15.0"
         }
       ],
@@ -893,17 +893,20 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-10-19T09:42:10Z",
-          "localizedDescription": "Masterpiece 0.8.1 adds real-time scheduling for the render threads, which cut late audio blocks from 57 to 0 on an 8-core Windows PC under load and from 150 to 9 on a 2-core Linux machine. It also adds a daily update check, a default voicing EQ, stop availability that matches the samples a demo set ships, single-folder downloads with the VST3 and LV2 plugins, and a complete online manual.\n\nNew features:\n\n• Real-time render threads: an option in Organ settings \u003e Loading gives the threads that render the organ real-time priority, the way each system offers it: MMCSS on Windows, SCHED_FIFO or rtkit on Linux, the audio workgroup on macOS. Playing the Widor Toccata on a large organ, late blocks fell from 57 to 0 on an 8-core PC busy with other work, and from 150 to 9 on a 2-core i3. The box label shows the method it found. It starts off while players try it; tell us how it goes in discussion #422 (#421, #424).\n\n• Default voicing EQ: save an EQ as the default for your speakers, keep an organ's own EQ with the organ, and Reset to the default (#409).\n\nImprovements:\n\n• Accurate demo stops: a demo offers the stops whose samples it ships, and the rest stay locked with their action noise, as on Nowa Ruda, Brasov, Solignac and the Claviorgan (#391, #413).\n\n• Complete plugin settings: in a DAW the plugin opens Organ settings and General settings, and a project reopens with its organ (#406).\n• Remembered preferences: the MIDI output and its echo, the console display, and the metronome's tempo, beats and level come back at the next start (#403, #404, #405).\n\nBug fixes:\n\n• Demo packages: a demo such as Nancy now opens with its own samples straight away (#384).\n• Recorder takes: a saved MIDI take now keeps its full length (#402).\n• Voicing box: the Voicing box in Organ settings now turns the voicing off and on (#407).\n• Memory limit message: the message now points to the limit on the same tab (#408).\n• Mixer wording: the button and the rows both speak of pairs (#412).\n• Interface text: clearer wording for the wizard's favourites, the Set button, reopening after an unexpected close, and --help (#415).\n\nThanks to puciak for the report behind the demo stop changes.\n\nDownloads:\n\nThe same files are under Assets below; the list there shows ten of them until \"Show all assets\" is pressed.",
-          "downloadURL": "https://github.com/bonninr/masterpiece/releases/download/v0.8.1/masterpiece-0.8.1-ios.ipa",
-          "size": 5439168,
+          "version": "0.9.0",
+          "date": "2026-11-03T04:46:10Z",
+          "localizedDescription": "• Voicing EQ presets: ten of the program's, the player's own, and a MIDI button for each.\n\n• The top bar in the player's language from the start.\n• A stop name too long for its button breaks inside it (Fixes #452).\n• GrandOrgue organs: a button's label breaks where GrandOrgue breaks it (#452).\n• Couplers reach the division they name (Fixes #446).\n• The stop list: a screen reader can read it, and a key opens it.\n• Loading: \"Creating the sample cache\" and \"Skip the cache\".\n• Tests: the sample cache in a folder of their own.\n\n• MIDI ready lamp, quit and power-off buttons, and a button for one temperament.\n• Sample codecs: one interface, and predictive delta coding for samples held in memory (#447).\n• Recorder: the buttons are as wide as their labels (Fixes #429).\n• The small page fills the window (#451).\n• Unevenness: pipe detune and wind sway, per organ, off by default.\n• Settings: export and import one organ's settings, and the global ones, as an archive.\n• Stop changes leave the notes already held alone, as an option.\n• Pistons: an option to leave the bass and melody couplers alone.\n• Remote control: \"This computer only\", and the API tests listen on the loopback address.\n• Sparse loading: a note that is not loaded plays its neighbour's samples, retuned.\n• Panels: the stops' size by hand, or fitted to the window.\n\n• A score panel: MusicXML engraved by Verovio, played through the organ.\n• Score page turns: a console piston turns the page in a score app over MIDI.\n• The program couplers: the ones the player draws, between the manuals at 16', 8' and 4'.\n• Twenty-bit resident storage.\n• Combinaison coupler: a Great divisional also recalls the Pedal divisional of the same number.\n• Tests and translations: new test files and new strings no longer touch a shared list.\n• Tests: every test file joins by its name, and guards itself.\n• Ask before a recording replaces a take that was never saved (Fixes #428).\n• Recorder: a take plays back on the keyboard it was played on (Fixes #427).\n• Recorder: Record and Play buttons on a console, learnable.\n• Recorder: Save for a sequencer, a file for other programs.\n• Recorder: the consoles in the file, and everything played kept.\n\n• Mixer pairs on their own device channels.\n• Bass management: a pair's lows to a subwoofer channel.\n• Voicing: an EQ per rank and per division, at no cost while none is set.\n• Voicing: pan and stereo width per rank and division.\n• Live levels: faders for ranks, divisions and output pairs, from MIDI knobs, the Mixer tab and the API.\n• Attack emphasis: each pipe begins louder or softer and comes to its own level.\n• View menu: each item does one thing.\n• Score: the title on the first page, words in a serif, metronome marks with their note.\n• Recorder: a take and the archive leave out the learned Quit and Power-off presses.\n• Mixer: a fader at full reads 0.0 dB.\n• Score: the cursor stays in sight through a new layout.\n• Score: the cursor's band stands on the beat being played.\n• Score: en dashes round the page number on Windows.\n• Generated panel: each divisional piston in its own division's column.\n\n• Sliders: the set part of each slider shows in blue.\n• Dialogs stay with the program when another one is in front.\n• Organ settings: the MIDI tab's keyboard rows fit.\n• MIDI: a device that appears after startup plays at once.\n• Touch: a long press opens what a right-click opens.\n• Tests: the settings in a folder of their own.\n• The synthetic tremulant moves pitch by its waveform's depth.\n• Packages unpacked beside the organ are found, and a picked package folder is accepted (#522).\n• Middle C plays on compact definitions played through division inputs.\n\n• GrandOrgue sets: couplers and tremulants draw (#490).\n• The room is heard at the default wet (#494).\n• The generated panel: a blower, a Zimbelstern and other controls with pipes of their own.\n• Quitting or closing the Loading window during a load ends cleanly.\n• The --cache option holds over the organ's own setting.\n• The console's lamps and computer keys come with it onto every organ.\n• Real-time render threads on by default.\n• A pipe two keys reach sounds once.\n• Drawstops latch, whatever the definition marks them (#445).\n• A sample's licence field is read as the number it is.\n• A full disk keeps the settings, and an unfinished cache is removed (#519).\n• README: the oldest Windows and macOS versions.\n• Samples held compressed: split Rice, lossless, decoded as they play (#447).\n• Real-time render threads: the log and Settings say when the system refuses them.\n• Sample cache: checks for room before it writes, and the cache it replaces makes room.\n• Console labels on Android: the default face where the set's face is not installed.\n• Score fonts: the program ends cleanly once they are registered.\n• 24-bit samples: four taps widened at once on SSE2, and coded windows filled a word at a time.\n• Narrow window: the volume fader keeps a track a hand can use.\n• Control API: survive malformed OSC bundles and many event streams.\n\n• Control API: a late answer from the message thread is dropped safely.\n• One MIDI message can work several stops and couplers (#551).\n• Swell boxes act on blocks larger than the prepared size.\n\n• Stops: a tremulant with a motor noise of its own stays available.\n• Azzio's Sesquialtera: the knob settles in every position, and halfway sounds the first rank alone.\n• Panels and the stop list: the console's MIDI menu, with Clear mapping.\n• macOS and iOS: the Bluetooth MIDI window opens (#563).\n• CI: the plugins in jobs and packages of their own.\n• macOS: the local network question carries an explanation.\n• The web console: a stop drawn on two panels, or worked through a gate, is listed once.\n• Combinations: \"Pedal with\" ties the Great, wherever it sits among the manuals.\n• Organ settings: the memory figure is what the load takes.\n• The web console: an organ's load shown with its progress.\n• The console: stops drawn at full strength beside a stop left out.\n• The web console: the wind list folded, its pressures sent twice a second.\n• Organ settings: a GrandOrgue set with drawstop noises is grouped by windchest.\n• The web console: divisional pistons grouped under their division.\n• MIDI: a manual moved to a channel of its own leaves its default channel.\n• A cancel silences a held key's octave along with the key.\n• GrandOrgue sets: a reversible piston shows the state of the object it reverses.\n\n• Organ settings: \"Hold samples compressed\" greyed out for 20-bit and 32-bit float.\n• Couplers to a keyboard and program couplers sound on organs wired through their switches (#565).\n• CI: pull requests build without link-time optimisation.\n\n• General settings opens on the tab it was last closed on (#591).\n• Organ settings \u003e Loading: every checkbox starts at the left edge (#565).\n• Settings: the reload button reads \"Load the organ\" (#591).\n• The welcome wizard closes when an organ is chosen from it.\n• Set turns off after storing: every piston, on the console and over MIDI.\n• Loading from the cache: its own label and a progress bar.\n• View \u003e Program couplers.\n• File \u003e Exit.\n• Render on every logical processor, on by default.\n• Bluetooth MIDI: one pairing window at a time.\n• Manual pistons: one press moves the keyboard, on any organ.\n• Set turns off after storing: the sequencer obeys it.\n• Packages: the folder chooser opens once the question has gone (#591).\n• Percussive samples play through to the end (#591).\n• The combinations window shows the choices the program holds (#591).\n• Settings menu: one entry opens the general settings.\n• Two knobs on one stop read as two names (#591).\n• The swell box filters the frequencies the set names (#591).\n• MIDI output: a stop moved in the program lights its lamp.\n• Loads stop before memory runs out, and keep what they read.\n• Perspectives: tremmed ranks go with their position, and switch-wired sets have them.\n• Package folders found in any case on Linux.\n• Console lamps sent after an organ loads.\n\n• Size estimate: samples found in folders of any case.\n• Menus and settings reorganized, with Simple and Professional display modes.\n• Web console: the organ's own console pages, drawn by the program.\n• Combinations store unison offs, octave couplers and couplers with an action noise.\n• MIDI output: several messages on organ load and on the ready lamp, and hex Send rows.\n• Welcome wizard: a keyboard unticked stays closed.\n• Panels: New panel from the stop list, and the shown tab kept.\n• Panic opens the MIDI inputs again.\n• Simple mode: Custom is greyed in Quality and Performance.\n• Organ settings: the Loading tab scrolls to every row.\n• A file several pipes play is read once, and counted once.\n• Stops and perspectives: the estimate follows Notes loaded.\n• Phones and tablets: a wider target for a page tab's window icon.\n• Two manuals on one channel keep it; program couplers in combinations; one reload marker.\n• Every manual of a GrandOrgue set can be played.\n• Tests: the coded cache test waits for the plain load's cache write.\n• Linux: an organ's memory goes back to the system when it is let go.\n• The top bar fits one row from a 1024-pixel window.\n• Test builds name their commit in the title bar.\n\n• Program-wide sample cache choice (#565).\n• Whole-network steady wind solve (#584).\n• Typed polyphony limit (#422).\n• Sample cache choices in Simple mode (#565).\n• Repeated Note On handling for held keys (#565).\n• MIDI message on organ unload (#565).\n• View menu order with the organ's pages first (#634).\n• Indented settings under the quality and performance presets (#634).\n• Multiple rank selection with Shift-click and drag (#565).\n• Drag across stops on the console, panels and stop list.\n• Program Change off program (#485).\n• Default MIDI channels for the manuals (#634).\n• \"Stops, ranks and perspectives\" tab name (#565).\n• Performance preset names and help (#634).\n• Simple or Advanced page in the wizard, and the Advanced display mode.\n• Samples of a GrandOrgue definition inside a package's sample folder (#637).\n• Voices built under the memory limit after a load (#650).\n• RAR 4 samples read whole after a table change (libarchive 3.8.10).\n• 16-bit samples held at 16 bits, as recorded.\n• CI: Apple-silicon Mac only on pull requests.\n• Organ loads wait while the app is in the background (#650).\n• MIDI page: learn buttons with their mapping, Audio tab without MIDI.\n• Settings: General tab first, organ folder per organ, plainer labels.\n• Dialog tooltips drawn inside the dialog.\n• Split keyboard manuals on organs without a key count.\n• Settings tab names whole in a narrow window.\n• Unlearned MIDI controllers leave the organ's controls alone.\n• Sequencer digits and Insert as on GrandOrgue's setter.\n• macOS 15 runner image for the macOS and iOS device jobs.\n• Sequencer frame in the control API as shown, from 000.\n• Output limiter left to the host in the plugin.\n• Output compressor and output presets.\n• General count by one up to ten.",
+          "downloadURL": "https://github.com/bonninr/masterpiece/releases/download/v0.9.0/masterpiece-0.9.0-ios.ipa",
+          "size": 8872151,
           "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Masterpiece uses Bluetooth to connect to Bluetooth MIDI keyboards and consoles.",
+          "NSBluetoothPeripheralUsageDescription": "Masterpiece uses Bluetooth to connect to Bluetooth MIDI keyboards and consoles."
+        }
       }
     },
     {
@@ -973,10 +976,10 @@
       "versions": [
         {
           "version": "1.0.5",
-          "date": "2026-11-02T18:03:20Z",
-          "localizedDescription": "Automated nightly build generated from commit 6b5c4cace6b1d77f509a704658a7de233bc27391 on 2026-11-02 18:03 UTC.\n\nWhat's new:\n\nrevert: restore the media and emoji pickers to d7a5e73.",
-          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.5-nightly.171/Lampcord.ipa",
-          "size": 36701723,
+          "date": "2026-11-02T23:39:41Z",
+          "localizedDescription": "Automated nightly build generated from commit c62be974428f6bb380b6eda22c14d0d61adb8216 on 2026-11-02 23:39 UTC.\n\nWhat's new:\n\nfeat(settings): copy debug logs to the clipboard.",
+          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.5-nightly.175/Lampcord.ipa",
+          "size": 36696722,
           "minOSVersion": "17.0"
         }
       ],
@@ -1169,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.180.0",
-          "date": "2026-11-02T00:02:56Z",
-          "localizedDescription": "F1186/F1187: Put current owned Home values and an actionable setup summary in the setup flow. The summary distinguishes complete, deferred and incomplete/stale evidence; each missing value opens its actual repair step.\n\nF1196: Rename the existing feature to Target Birds without introducing an unsupported seasonal-target service. Acquisition remains API-first and the renamed menu, heading and loader stay wired together.\n\nF1199: Add a compact, labelled external-link eBird action beside QR on both Stakeouts. Species launches use the canonical species and the region selected at click time, including county, rather than silently narrowing a state to Home. Patch launches use exact public hotspot identities; private and unresolved locations get no manufactured public URL. QR retains its independent share action and native launch uses the existing browser helper.\n\nF1201/F1202: Align Busy Patch numbers with map/list rank and add current rare-bird context matched to the exact place. Responsive Busy and Stakeout headings retain readable words with narrow/enlarged displays.\n\nF1203/F1204/F1205/F1210/F1211/F1212: Reuse Add Watch/Remove Watch controls, preserve duplicate and exact-removal behavior, match the requested labelled contrast-qualified treatment, and make Watch a compact species card without recent-observation metadata. Watch and Year share medium photo/name sizing and compact identifiers; retain applicable personal dates. Favorite instructions use the matching hollow star. Year removes redundant wide management controls while Life retains its existing actions.\n\nF1206/F1207: Accept genuinely confirmed empty monthly/annual personal inventories without accepting arbitrary blank pages, wrong owners/regions/years, contradictory rows or incomplete annual inventories. Preserve cancellation cleanup, cached evidence and year-rollover ownership.\n\nF1208: Add bounded Mega recovery diagnostics for exact identity/selection provenance, including case-only mismatch classification. This does not accept mismatched snapshots or claim the underlying device-only cause is fixed.\n\nF1209: Verify the existing nine paired menu rows; no extra menu rewrite is included.\n\nF1213: Keep migration forecast and independently dated measured-night sentences inline with natural responsive wrapping. Current matching counts say “last night”; older counts remain explicitly dated. Source-night identity, freshness, unavailable counts and DST qualifications remain intact.\n\nF1108/F1073: Correct the actual Menu handoff guard to allow truthful terminal partial coverage while proving acquired history, original timestamps, completed ownership and no repeated source fetch. This is not a claim that partial data became full coverage.\n\nF1214: Make browser audit cleanup fail-closed before scoring or retry, and bound cleanup subprocesses by the existing audit budget. Incomplete execution is not a layout verdict or a successful check. Actual caller-path mutation controls prove cleanup failures cannot be ignored.\n\nRelease proof includes focused behavior guards, isolated production-source mutations and actual production-renderer mockups; complete parity, app catalog, six real-Chrome layout profiles and wiring gate publication. Shared report/app algorithms and the no-runtime-GitHub invariant are unchanged. Export redesign and the parked Explore-map action are excluded.\n\nUnverified on device: this session did not exercise live personal authorization, real-device native browser transitions or the reported Mega mismatch. F1208 retains its named owner reproduction/recovery evidence request. The unsigned IPA requires sideload signing; signed TestFlight delivery and actual eligibility are checked separately before availability is claimed.\n\nThe .ipa below is UNSIGNED and was built by CI from 00c9ffc, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.180.0/BirdChaser-unsigned.ipa",
-          "size": 143412323,
+          "version": "1.181.0",
+          "date": "2026-11-02T23:19:34Z",
+          "localizedDescription": "v1.181.0 — Shared Busy activity, verified groups and quieter loading explanations.\n\nF1217 / F1219 — Busy Patches and Bird Gen now use one completed activity snapshot: 36 elapsed hours now, compared with four weekday/time-matched 36-hour windows in prior local-calendar weeks. Both require at least five estimated parties and at least two above the unrounded usual count. Count and absolute excess lead; the multiplier is secondary. The extra legacy 4x alert gate is removed without changing sorting or other news lanes. Reference/group completion updates both screens, including after the main news load settles. Reopening restores the same canonical durable snapshot, not an independent alert cache. Missing, shallow or zero history is unscored; failed refreshes preserve labelled last-good activity rather than inventing successful coverage.\n\nF1220 — Shared checklist group IDs supplement existing party inference in current and historical counts. Metadata reuses cached details and a shared eight-new-detail, three-worker budget. IDs are scoped to place/day and obsolete work cannot publish. Observer count is size evidence, not an invented member roster; these remain estimated parties, not verified people.\n\nF1221 — Convoys also use verified shared visits when participants' start times differ, with every known member checklist retained. Existing route eligibility is unchanged: two shared stops, or the app's existing five-known- member single-stop trip. Warm reopening reuses detail evidence; changing Home/navigation/identity rejects obsolete results.\n\nF1215 — Stakeout reconciles appended checklist totals and source counts, distinguishes matches already added from genuinely hidden fetched rows, and offers a working Show more without refetching those summaries. Private waypoint grouping and omission of redundant singleton counts are preserved. Late photo responses and silhouette fallbacks also stop painting after the document closes; a held-response guard reproduces the CI teardown race.\n\nF1222 — Compact, nonblocking explanations cover initial regional caching and the first confirmed eBird HTTP 429 per app session. Visible Hide dismisses the explanation, never loading or retries. The expanded 429 notice never reopens that session after dismissal or expiry; later waits retain ordinary progress. Countdown uses actual cooldown timing, not a promised 30 seconds or guaranteed recovery. Own pacing and server errors are not called eBird request limiting. Loaded results remain usable.\n\nF1218 — Real-Chrome wizard checks now bound and verify exact-profile cleanup, including surviving child processes after launcher exit, without terminating ordinary browser sessions.\n\nF1223 — The 24-hour Bird Gen age guard now uses an unambiguous noon clock anchor across the repeated DST hour. Production age arithmetic is unchanged; removing the actual one-line styling still makes its guard fail.\n\nDevice caveat: controlled local/browser evidence does not replace exercising live acquisition and interactions on an iPhone. TestFlight upload/processing and account-level installability are separate milestones.\n\nThe downloadable BirdChaser-unsigned.ipa is for sideloading with AltStore or an equivalent signing tool; it is not itself a TestFlight installation. Unsigned sideload builds require signing and expire according to that signing method.\n\nThe separate App unit + DOM tests workflow failed one POSIX wizard-cleanup verification on the same source; the release workflow's corresponding test passed. The failure remains visible and is filed forward as F1231. Its cause is unproven; no guard was weakened or same-version app commit added.\n\nCo-authored-by: Copilot Copilot-Session: a9a6e213-ae5a-4cd2-94cb-dbd9dc9062be.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.181.0/BirdChaser-unsigned.ipa",
+          "size": 143414505,
           "minOSVersion": "15.0"
         }
       ],
@@ -1967,7 +1970,7 @@
       "bundleIdentifier": "io.github.scripta",
       "developerName": "rizzonicola",
       "subtitle": "Open-source, local-first Markdown note-taking app for Android, iOS, macOS, Windows and Linux. Fast SQLite search, works offline, optional self-hosted sync",
-      "localizedDescription": "Scripta:\n\nMinimal. Fast. Markdown-First. The modern, distraction-free note-taking experience for all your devices.\n\n⚡ What is Scripta?:\n\nScripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built from the ground up to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern, fluid interface.\n\nWhether you're drafting quick thoughts on your phone or organizing complex projects on your desktop, Scripta stays out of your way and lets your ideas flow.\n\n✨ Key Features:\n\n• 📝 Markdown-First Editor: Write in clean, standard Markdown with intelligent toolbar helpers, syntax highlighting, and an instant, fluid rendered reading view.\n• ⚡ Local-First \u0026 Zero Latency: Instantaneous startup and sub-millisecond search powered by SQLite WAL. Your notes reside on your device, fully accessible offline.",
+      "localizedDescription": "Scripta:\n\nMinimal. Fast. Markdown-First. The modern, distraction-free note-taking experience for all your devices.\n\n⚡ What is Scripta?:\n\nScripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built from the ground up to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern, fluid interface.\n\nWhether you're drafting quick thoughts on your phone or organizing complex projects on your desktop, Scripta stays out of your way and lets your ideas flow.\n\n✨ Key Features:\n\n• 📝 Markdown-First Editor: Write in clean, standard Markdown with intelligent toolbar helpers and an instant, fluid rendered reading view.\n• ⚡ Local-First \u0026 Zero Latency: Instantaneous startup and sub-millisecond search powered by SQLite WAL. Your notes reside on your device, fully accessible offline.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.scripta.png",
       "tintColor": "#28998e",
       "category": "other",
@@ -2830,11 +2833,11 @@
       ],
       "versions": [
         {
-          "version": "0.19.6",
-          "date": "2026-11-02T15:23:13Z",
-          "localizedDescription": "[0.19.6] — 2026-11-02:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.19.6，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.19.6/maestro-mobile-unsigned-0.19.6.ipa",
-          "size": 9655805,
+          "version": "0.19.7",
+          "date": "2026-11-03T03:46:09Z",
+          "localizedDescription": "[0.19.7] — 2026-11-03:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.19.7，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.19.7/maestro-mobile-unsigned-0.19.7.ipa",
+          "size": 9655775,
           "minOSVersion": "15.1"
         }
       ],
@@ -4283,11 +4286,11 @@
       ],
       "versions": [
         {
-          "version": "3.40.0",
-          "date": "2026-11-02T16:53:41Z",
-          "localizedDescription": "Composer and models:\n\n• The composer now has a run deck. The run picker sits under it and opens with ⌘. (Ctrl+.): pick the model, thinking level and account there. It opens on the model that is running, and its search takes focus straight away.\n• Models now show everywhere as provider:model.\n• You can pin a session to one account when a provider has several keys or signed-in accounts. Auto keeps rotating between them as before. The tray names the account behind its limits.\n• Each enabled profile shows its own usage, quota and spend. Provider cooldowns are respected, so a throttled account is no longer retried too early.\n• A message you queue now sits in the composer's tray, and a session's draft stays in sync across windows.\n\nReview panel:\n\n• Panes split as often as there is room, and tabs drag between them. You can also send the focused tab to a side with ⌃⌥ plus an arrow key. Tabs close, step and split like editor tabs, and the focused pane is clearly marked.\n• Terminals are ordinary tabs. They no longer have their own pane or keyboard shortcut; open one from the command palette or the \"+\" menu.\n• An empty panel lists everything the \"+\" menu offers, with focus on that list.\n• A README's HTML now renders in the Rendered view.\n• Preview shows when a page is loading and when its server is down. You can also choose in Settings → Appearance whether the agent's previews open by themselves or on a click.\n\nTranscript, sidebar and navigation:\n\n• One command palette covers commands, sessions and files.\n• You can answer questions and plan reviews on the card itself, or double-click an answer to send it.\n• Turn actions are icons and stay visible at rest. Only one card waits for you at a time, and \"jump to latest\" shows how many messages you have missed.\n• Sidebar rows show Running, Needs you, Done or Failed. The sidebar scrolls as one list, and the sidebar and Review panel run to the top of the window.\n• You can rename a session from the header. Notices appear at the top right.\n• Tool rows have a menu, and subagent rows open their session.\n• Answers render headings h3 to h6 and task lists properly.\n\nLook and feel:\n\n• The UI uses the system's own fonts and has fewer borders. Text size is adjustable, and contrast meets AA in both themes. Blue is kept for the logo and keyboard focus.\n• Only one menu is open at a time, and menus draw above whatever they open from. Panels slide and folds animate.\n• Settings has one save bar, and you can search for a single setting. Dialog buttons and the default button follow your OS.\n\nDesktop and mobile:\n\n• On Windows, the header is the title bar and supports Snap Layouts.\n• On macOS, new windows cascade from the one they came from and open in its theme.\n• On Linux, the app uses the desktop's own font. The menu bar stays hidden and its shortcuts keep working.\n• Phones get the system file picker, the share sheet and the system font scale. iOS uses action sheets for long-press and context menus, and primary buttons on phones are 44px tall.\n• Touch tablets keep the composer above the soft keyboard and have a 44px header. They open a session without raising the keyboard.\n\nRemoved:\n\n• The Git graph view and its All branches option.\n• Regenerate in the turn footer.\n• \"Ask agent to commit\" and its footer in Changes.\n• The terminal keyboard shortcut.\n\nFixes:\n\n• A row queued while a turn was finishing now runs.\n• A question's notification no longer crashes the desktop shell.\n\n• /settings opens Settings, and a bad session link now says \"not found\".\n• Many smaller layout, focus and contrast fixes.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.40.0/OpenAgentd_3.40.0_iOS.ipa",
-          "size": 6063109,
+          "version": "3.41.0",
+          "date": "2026-11-03T03:36:22Z",
+          "localizedDescription": "• Typing on a phone keeps the caret on the text. It used to drift further from the end of the message with every letter.\n• Bottom sheets close like native ones. Pull down anywhere on a sheet (the run picker's accounts included) to close it, once its content is scrolled to the top; until then the pull scrolls back up.\n• Every thinking level fits the run picker on a phone. Extra high reads XHigh there and on the run chip, and the Thinking label sits above the levels.\n• Tighter phone layout. Send is 36px like the controls beside it, so the row keeps its height when Send splits into Steer and the queue menu. The footer under a message and a prompt's Edit and Copy are smaller and closer together, with the same touch targets. A question card's caption stays on one line with its buttons under it. The Providers status filter, when it wraps, highlights only the chosen status.\n• Softer selection in dark mode. A chosen segment or tab (Code / Plan, the thinking level) no longer reads as a heavy block.\n• Reasoning always shows in full. The capped box and Show full reasoning are gone.\n• Settings → Server is one list. The connected server is marked In use in it; the built-in server shows its address there, and a connected server you have not saved gets its own row. The separate current-server card is gone.\n• Fewer duplicates. A session's menu no longer has Copy link or Share…, and the phone's More sheet no longer lists Model and thinking (the run chip under the composer opens it).",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.41.0/OpenAgentd_3.41.0_iOS.ipa",
+          "size": 6061835,
           "minOSVersion": "15.0"
         }
       ],
@@ -4491,11 +4494,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.4.6",
-          "date": "2026-11-02T15:09:01Z",
-          "localizedDescription": "Wyrm Update — Android 8.5.9 / iOS 2.4.6.\n\n• Added new themes and restored all 8 classic Wyrm themes.\n• Softer accents, cleaner cards and reduced heavy shadows.\n• Improved lobby readability, rounded corners and Play buttons.\n• Grape Ice Dark becomes the default once after updating; later choices remain saved.\n\n• Added an Arrow “Double tap to boost” toggle.\n• Fixed returning-finger steering: boost continues on the held finger, while a returning steering finger regains control.\n• Improved boost-button handling and joystick touch ownership.\n• Fixed joysticks accept steering across their side of the screen.\n\n• Classic Assist laser follows the steering touch.\n\nARENA \u0026 TEXT.\n\n• Continuous snake-name size slider with a real snake preview.\n• Smooth leaderboard size adjustment and improved layout-editor positioning.\n\n• Corrected oversized zoom symbols and Near Original server labels.\n• All food textures use one size control and scale with the snake when zooming.\n\n• SKINS \u0026 iOS.\n• Restored Saved skins long-press Edit / Remove actions.\n• Fixed iOS Rain panel drag geometry checks.\n• Improved landscape rotation and keyboard handling.",
-          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.4.6-build-151/Wyrm-2.4.6-build-151.ipa",
-          "size": 60481390,
+          "version": "2.4.8",
+          "date": "2026-11-02T23:05:22Z",
+          "localizedDescription": "minor bugs fixes.",
+          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.4.8-build-153/Wyrm-2.4.8-build-153.ipa",
+          "size": 60487211,
           "minOSVersion": "15.0"
         }
       ],
@@ -4653,7 +4656,7 @@
       "bundleIdentifier": "com.stik.stikdebug",
       "developerName": "StikDebug",
       "subtitle": "Notice: StikDebug is no longer available on the App Store",
-      "localizedDescription": "Features:\n\n• JIT: Enable Just-In-Time compilation for sideloaded apps that have the get-task-allow entitlement.\n• App Launching: Launch every app installed on your device.\n• Console: Live app and system logs.\n• Scripts: Manage automation scripts (mainly used for iOS 26 JIT).\n• App Expiry: See when apps will expire and install/remove profiles.\n• Device Info: View detailed device metadata.\n• Processes: Inspect running apps/processes and terminate them.\n• Location Simulator: Simulate the GPS location of your device.\n\nDownload:\n\nNotice: StikDebug is no longer available on the App Store. Please use the official download methods below.\n\nHow to Enable JIT:\n\nStikDebug enables JIT for sideloaded apps on iOS 17.4+ without needing a computer after the initial pairing setup.\n\nRequirements:\n\n• StikDebug installed (via AltSource, direct .ipa, or self-built).",
+      "localizedDescription": "Features:\n\n• JIT: Enable Just-In-Time compilation for sideloaded apps that have the get-task-allow entitlement.\n• App Launching: Launch every app installed on your device.\n• Console: Live app and system logs.\n• Scripts: Manage automation scripts (mainly used for iOS 26 JIT).\n• App Expiry: See when apps will expire and install/remove profiles.\n• Device Info: View detailed device metadata.\n• Processes: Inspect running apps/processes and terminate them.\n• Location Simulator: Simulate the GPS location of your device.\n\nDownload:\n\nNotice: StikDebug is no longer available on the App Store. Please use the official download methods below.\n\nCompatibility:\n\nSee Officially Supported Apps for the apps supported by the StikDebug team and their bundled scripts.\n\nHow to Enable JIT:\n\nStikDebug enables JIT for sideloaded apps on iOS 17.4+ without needing a computer after the initial pairing setup.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stik.stikdebug.png",
       "tintColor": "#32a6fd",
       "category": "developer",
@@ -5118,10 +5121,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-01T03:53:38Z",
-          "localizedDescription": "Immutable snapshot of alpha build 421 (df0b53d).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 421, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-421/Non-Jailbroken.ipa",
-          "size": 98943996,
+          "date": "2026-11-03T05:38:06Z",
+          "localizedDescription": "Immutable snapshot of alpha build 436 (49b114f).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 436, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-436/Non-Jailbroken.ipa",
+          "size": 104516725,
           "minOSVersion": "17.0"
         }
       ],
@@ -5292,11 +5295,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.3",
-          "date": "2026-11-02T10:53:32Z",
-          "localizedDescription": "tangoAW2 0.9.3: Silver Nova fixes, Gauntlet routs, smarter computer.\n\nNew.\n\n• Gauntlet: capturing an enemy line's HQ routs that army. All its units are destroyed and its buildings turn neutral before the next CO arrives; the captured HQ becomes your city, so you only ever have one HQ. Applies to every gauntlet map, including the BH2 Campaign's.\n• Gauntlet's map list is now the game's own War Room SELECT MAP screen.\n• Caulder's Cataclysm plays Black Storm's lightning, then Dual Strike's sparkle wave, then the heal, with no damage.\n• The computer uses all its units: Black Boats leave port, repair and ferry Infantry, Carriers launch and refuel aircraft, Landers, Carriers and Missiles stop idling on their ports and bases.\n• Anti-Airs fire back at Stealths that attack them, even hidden ones.\n\nChanged.\n\n• Aria: Vengeance is 10 points weaker (+15% at 8 HP up to +51% at 2 HP and +75% at 1 HP).\n• Picking Caulder, Lili or Tabitha on the Teams screen gives the army Silver Nova's colours (R / L still change it).\n• Volcanoes no longer mark the cells they will hit.\n• Gauntlet's Cinder Sea and Versus' Crystal Isles have beaches on every islet, so Landers can land.\n• Silver Nova's chrome is a step darker, its moved units are grey like every army's, and its capture-box HQ is the tall orb tower.\n• Caulder's and Tabitha's portraits are cleaned up (no white left between fingers, arms, hair).\n\nFixed.\n\n• With Dual Strike graphics, Silver Nova's Infantry and Mech no longer draw as stripes, and picked-up units no longer turn black.\n• Switching Dual Strike graphics during a match no longer leaves the other look's colours and tiles.\n• Silver Nova's ships, copters and other vehicles fight in silver in battle scenes, not Orange Star's orange; its capture-box soldier is no longer black.\n• Silver Nova shows its own HQ in the terrain box and its own sun on CO pages; Black Hole keeps its own emblem and colours (Hawke no longer wears Silver Nova's colours in Gauntlet).\n• Volcano eruptions show their rocks landing on the cells that take damage.\n• Online peers must all run 0.9.3 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.3/tangoaw2-0.9.3-ios.ipa",
-          "size": 32810010,
+          "version": "0.9.4",
+          "date": "2026-11-03T00:12:52Z",
+          "localizedDescription": "tangoAW2 0.9.4: no more parked units, War Room gets the new computer.\n\nChanged.\n\n• The War Room is played by the Dual Strike computer (the one Versus, the Gauntlet and the campaigns use). AW2's own campaign and Survival keep AW2's.\n\nFixed.\n\n• Soldiers the computer buys in the campaigns, the Gauntlet and Versus no longer stand on their base for the rest of the mission, blocking it from building.\n• The computer's guns, ships and other units with nothing to do no longer sit parked on a base, port or airport: they step off before the army builds.\n• Every mission and map (all campaigns, the Gauntlet, the War Room and all 196 Versus maps) is now checked for computer units left on a base, port or airport.\n• Online peers must all run 0.9.4 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.4/tangoaw2-0.9.4-ios.ipa",
+          "size": 32815943,
           "minOSVersion": "16.0"
         }
       ],
@@ -5355,11 +5358,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.0",
-          "date": "2026-10-13T20:50:04Z",
-          "localizedDescription": "vkQuake 1.2.0 brings the engine up to upstream vkQuake 1.37.0.\n\nNew from upstream vkQuake 1.37.0:\n\n• Autosaves. The game saves for you as you play; the Load menu now lists your Quicksave and the Autosave at the top.\n• Controller settings menu (Options → Controller): gyro aiming with gyro-capable controllers such as DualSense, flick stick, rumble, deadzones and alternate bindings. The iPhone's own motion aiming is unchanged.\n\n• Live previews while changing options, and re-spaced menus.\n• Render resolution option, with menus and HUD still drawn sharp at full resolution.\n• Ambient occlusion on GPUs that support it, softer particles and fogged particles, and backgrounds behind on-screen messages.\n• Many engine, physics, networking and stability fixes from upstream.\n\nAdd one URL to SideStore / AltStore and vkQuake installs and updates itself when new versions ship:\n\n• iPhone / iPad: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json (All ports).\n• Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json (All ports).\n\nOr download and sideload manually:\n\n• vkQuake-1.2.0-iOS.ipa — iPhone / iPad (iOS 16+).\n• vkQuake-1.2.0-visionOS.ipa — Apple Vision Pro (visionOS 2+).",
-          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.2.0/vkQuake-1.2.0-iOS.ipa",
-          "size": 5287637,
+          "version": "1.2.1",
+          "date": "2026-11-03T00:05:14Z",
+          "localizedDescription": "vkQuake 1.2.1 adds mouse and keyboard play on iPad (and iPhone).\n\nWhat's new:\n\n• Mouse + keyboard hides the touch controls. With both a mouse and a hardware keyboard connected, the on-screen stick and buttons get out of the way, the same as with a game controller. A mouse alone keeps the touch stick for movement.\n• Hardware-keyboard Enter / Backspace / ~ in the console no longer fire twice.\n\nKnown limitation: external displays still show the game rotated; that is a separate issue.\n\nAdd one URL to SideStore / AltStore and vkQuake installs and updates itself when new versions ship:\n\n• iPhone / iPad: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json (All ports).\n• Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json (All ports).\n\nOr download and sideload manually:\n\n• vkQuake-1.2.1-iOS.ipa — iPhone / iPad (iOS 16+).\n• vkQuake-1.2.1-visionOS.ipa — Apple Vision Pro (visionOS 2+).",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.2.1/vkQuake-1.2.1-iOS.ipa",
+          "size": 5287803,
           "minOSVersion": "16.0"
         }
       ],
@@ -5863,11 +5866,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "10.0.4",
-          "date": "2026-10-27T16:31:48Z",
-          "localizedDescription": "New Features:\n\n• iOS Widgets: Added support for iOS widgets to provide quick access to VPN controls from the home screen.\n• Android TV Support: Added home-screen launcher, landscape layout, and D-pad VPN toggle for Android TV devices.\n• Per-Server Latency Display: Server list now shows measured latency for each server location to help users choose the fastest option.\n• Advanced Statistics: Added Advanced stats view for Unbounded volunteers.\n• macOS Split Tunneling for iOS/iPad Apps: Extended split tunneling capabilities to allow per-app VPN control on macOS for iOS and iPad apps.\n\nImprovements:\n\n• Server Selection UI: Streamlined tray menu to show one entry per server location; improved latency label alignment and formatting.\n• VPN Connection Status: Enhanced connection status notifications and lifecycle logging.\n• Action Mode Enhancements: Improved display of relayed data for direct sharing; now shows sharing mode name and counts direct-mode countries.\n• Affiliate Link Validation: Added validation of affiliate links before processing referrals.\n• Store Price Display: Store prices now display on iOS and Android when affiliate links are applied.\n• Data Cap Support: Enabled data cap functionality for iOS users.\n• Free User Server Selection: Free users can now pick a server when no data cap applies.\n\n• Device Linking Guidance: Added in-app guidance for device linking.\n• In-App Rating: Implemented native in-app rating prompts.\n• Stale Network Handling: Fixed macOS to properly reset tunnel when network interfaces change.\n• Android VPN Reconnection: Improved VPN reconnect behavior after disconnect on Android.\n\nBug Fixes:\n\n• Fixed iOS tunnel memory logging that was writing a line every second during memory pressure.\n\n• Fixed stale network resets after reconnecting on macOS.\n• Fixed Windows ARM64 VCRedist detection and packaging.\n\n• Fixed Android integration test app version detection.\n• Restored sliver scrolling in Action Mode.\n• Fixed native logs output.\n\nSecurity \u0026 Infrastructure:\n\n• Trace Logging Disabled: Removed trace-level logging from production builds to improve performance and security.\n• WebView Restrictions: Disabled local file and content access in app WebViews.\n• Minimum Requirements Updated: Updated macOS minimum requirement to 11.0.\n• ARM32 Android Support Restored: Re-enabled ARM32 architecture support for Android devices.\n• Windows Migration Hardening: Enhanced Windows migration integration and staging checks with E2E testing.\n• Dependency Updates: Updated Go to 1.26.9, Radiance stack with pion upgrade, and addressed known vulnerabilities.\n• Code Signing: Added macOS DMG signing and build verification.\n• Wintun Adapter Retry: Improved TUN bring-up reliability by retrying under Lantern-prefixed adapter names on collision.\n• Session Management: Soar now properly retires idle and stranded sessions to improve resource usage.\n\nThis is a production release from commit 285bc1c.\n\nBranch: v10.0.4.\n\n• iOS: Uploaded to TestFlight.",
-          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.ipa",
-          "size": 91665352,
+          "version": "10.0.5",
+          "date": "2026-11-02T20:19:12Z",
+          "localizedDescription": "Security \u0026 Privacy:\n\n• Removed certificate-verification bypass from private server imports to strengthen security.\n• Redacted helper-related outbound tags and addresses from client diagnostics and logs.\n• Implemented protection against cross-origin redirects on widget signaling.\n\nBug Fixes:\n\n• Resolved private server configuration and connectivity problems.\n• Improved handling of helper pairing room restarts and ticket expiry.\n• Fixed domain fronting provider race conditions and canceled request tracking.\n\nImprovements:\n\n• Extended CloudKit outage tolerance when stapling to better handle temporary service interruptions.\n• Implemented native volunteer ICE checks and tuning via Radiance update.\n• Enhanced helper pairing system with ticket management and renewal.\n• Improved diagnostics by filtering and redacting sensitive connection data.\n\nInfrastructure:\n\n• Restored branch nightly uploads and Slack notifications in CI/CD pipeline.\n\nThis is a production release from commit 617abf1.\n\nBranch: v10.0.5.\n\n• iOS: Uploaded to TestFlight.",
+          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.ipa",
+          "size": 92004200,
           "minOSVersion": "15.6"
         }
       ],
@@ -6548,11 +6551,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.2",
-          "date": "2026-11-02T04:46:44Z",
-          "localizedDescription": "Release v6.3.2:\n\n• Streamline screen lookup settings across desktop and mobile (5db709f).\n• Streamline novel settings across desktop and mobile (5b50c60).\n• Improve manga OCR settings across desktop and mobile (7374232).\n• Streamline video settings across desktop and mobile (6a72c0a).\n• Improve flashcard settings layout and media controls (f34210a).\n• Fix browser extension rendering and resource loading (0818dd0).\n• Unify popup appearance and streamline dictionary settings (0d1e1f4).\n\n• Isolate Play recovery fixtures from packaging tests (b5a5b11).\n• Preserve committed source provenance during Play recovery (6530c80).\n• Use the attached display for Android input diagnostics (f46ec0c).\n• Use percentage-based premium usage in the app and browser extension (c668172).\n• Add dictionary choices and optional YouTube lookup pauses (a5c4f89).\n• Open optional feedback after removing the browser extension (0428234).\n• Keep filtered YouTube home feeds in arrival order (629d36e).\n• Keep YouTube Shorts filtering active across ads and scrolling (a867666).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.2/Manatan-v6.3.2-iOS.ipa",
-          "size": 417116688,
+          "version": "6.3.3",
+          "date": "2026-11-03T02:18:45Z",
+          "localizedDescription": "Release v6.3.3:\n\n• Look up the selected word in connected dictionaries (46efbd1e5).\n• Fix playback when closing the video dictionary (40779d9b0).\n• Prevent browser dictionary imports from freezing the extension (03725ce2d).\n• Keep subtitle status underlines off reading annotations (35b3957ac).\n• Show existing flashcards in browser dictionary popups (eb98be13e).\n• Restore the full immersion dashboard across devices (39c2d510a).\n• Fix browser dictionary word status and account saves (23ed0bd4b).\n• Sync Jimaku subtitle keys with Manatan accounts (9fb9fab13).\n• Fix mixed-script dictionary typography across popup views (c6353ca30).\n• Compact installed dictionary controls across screen sizes (f444d02b9).\n• Clarify Hanzi lookup setting labels (32accbb2e).\n• Enable offline picture scanning with installed OCR models (bb487c8df).\n• Enable recursive lookups in kanji dictionary details (aa0a9e1be).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.3/Manatan-v6.3.3-iOS.ipa",
+          "size": 417252862,
           "minOSVersion": "16.1"
         }
       ],
@@ -6650,11 +6653,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.24",
-          "date": "2026-10-31T03:23:41Z",
-          "localizedDescription": "iGhostVT 1.6.24 tells a program already running in a terminal whether this device is light or dark when a tab opens it.\n\n• A program that follows the system's light and dark, such as Claude Code, kept the colours it chose when it started after a tab reconnected to it — opening the app again, or opening the terminal from another device — until the appearance was switched by hand. Now it is told the current appearance as soon as the tab connects. A Mac or device on 1.6.21 or earlier may still not pass this on.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.24-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.24.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.24/GhostRemote-1.6.24.ipa",
-          "size": 7040041,
+          "version": "1.6.25",
+          "date": "2026-11-03T05:48:30Z",
+          "localizedDescription": "iGhostVT 1.6.25 reads more naturally in Chinese.\n\n• In Simplified and Traditional Chinese, some labels were worded awkwardly or used different terms from the rest of the system. They now read more naturally and use the same words as iOS and macOS.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.25-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.25.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.25/GhostRemote-1.6.25.ipa",
+          "size": 7039881,
           "minOSVersion": "15.0"
         }
       ],
@@ -6882,11 +6885,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.47",
-          "date": "2026-10-26T17:25:35Z",
+          "version": "0.8.49",
+          "date": "2026-11-02T20:52:31Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.47/Gen2Recomped-0.8.47-ios.ipa",
-          "size": 32814207,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.49/Gen2Recomped-0.8.49-ios.ipa",
+          "size": 33275731,
           "minOSVersion": "14.0"
         }
       ],
@@ -7178,11 +7181,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.3",
-          "date": "2026-10-23T11:46:04Z",
-          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Paper effect: all sliders at zero leave the page untouched.",
-          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.3/PaperComicReader-1.4.3.ipa",
-          "size": 6241099,
+          "version": "1.4.4",
+          "date": "2026-11-02T22:35:56Z",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• App Store screenshots with the new sample comics (en, de, it).\n• Ignore build-appstore.\n• Six new sample comics, Version 1.4.4 (Build 33).\n• README: point to the Mac version.\n• Import SwiftData where views read the model context.",
+          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.4/PaperComicReader-1.4.4.ipa",
+          "size": 6610676,
           "minOSVersion": "26.0"
         }
       ],
@@ -7724,10 +7727,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-02T17:09:07Z",
-          "localizedDescription": "Pageturner from run 41486536794, commit 02a9b9c. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-41486536794/Pageturner.ipa",
-          "size": 30337186,
+          "date": "2026-11-03T02:27:14Z",
+          "localizedDescription": "Pageturner from run 41565297950, commit a4df19a. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-41565297950/Pageturner.ipa",
+          "size": 30369771,
           "minOSVersion": "17.0"
         }
       ],
@@ -8155,11 +8158,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.1",
-          "date": "2026-10-25T03:01:07Z",
-          "localizedDescription": "IPA链接：.\n\nhttps://n015.top/neobili/NeoBili-v1.3.1-unsigned.ipa\n\nhttps://n015.top/neobili/apps.json\n\nhttps://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/sidestore/apps.json\n\n构建信息：提交 32c2215，Xcode 27.1 Build version 27A9275，由 GitHub Actions 构建。.",
-          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.1/NeoBili-v1.3.1-unsigned.ipa",
-          "size": 134716974,
+          "version": "1.3.2",
+          "date": "2026-11-03T03:14:15Z",
+          "localizedDescription": "构建信息：提交 617b2a6，Xcode 27.1 Build version 27A9275，由 GitHub Actions 构建。.",
+          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.2/NeoBili-v1.3.2-unsigned.ipa",
+          "size": 134891889,
           "minOSVersion": "26.0"
         }
       ],
@@ -8305,11 +8308,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.52",
-          "date": "2026-11-02T18:18:21Z",
-          "localizedDescription": "• Compact Filter | Espresso and Journal | Stats switch in the top bar, the Brew title no longer slides under it.\n\n• Espresso lists only espresso machines, filter only pour-over brewers.\n\n• Remove leftover of the old mode picker.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.52/BrewLog.ipa",
-          "size": 3148204,
+          "version": "0.1.55",
+          "date": "2026-11-02T23:26:49Z",
+          "localizedDescription": "• The mode switch's thumb slides (tap or drag) before the screen changes.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.55/BrewLog.ipa",
+          "size": 3166440,
           "minOSVersion": "17.0"
         }
       ],
@@ -8697,11 +8700,11 @@
       ],
       "versions": [
         {
-          "version": "0.10.3",
-          "date": "2026-11-02T20:00:58Z",
-          "localizedDescription": "Features:\n\n• Give PSDK games $userAgent and $empo (#225) (793820f).\n• Map controller buttons in the Mac app (#227) (9a24783).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.10.3/Empo-ios.ipa",
-          "size": 65507118,
+          "version": "0.10.4",
+          "date": "2026-11-03T02:24:39Z",
+          "localizedDescription": "Features:\n\n• Read controllers through SDL and set up unknown ones in settings (#228) (4570493).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.10.4/Empo-ios.ipa",
+          "size": 65519299,
           "minOSVersion": "26.0"
         }
       ],
@@ -8920,10 +8923,10 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/1-search.png",
-        "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/2-add_recipe.png",
         "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/3-edit_recipe_step.png",
         "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/4-display_recipe.png",
-        "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/5-shopping_list.png"
+        "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/5-shopping_list.png",
+        "https://cdn.jsdelivr.net/gh/lenios/shefu@main/fastlane/metadata/android/en-US/images/phoneScreenshots/6-online_search.png"
       ],
       "versions": [
         {
@@ -8947,7 +8950,7 @@
       "bundleIdentifier": "com.damien.paperreality",
       "developerName": "acoston822",
       "subtitle": "An iOS port of Paper Mario 64 that mirrors HarbourMasters' PaperBoat",
-      "localizedDescription": "PaperReality:\n\nAn iOS port of Paper Mario 64, built on HarbourMasters' PaperBoat.\n\nDevelopers (of the original port):\n\nWe do not condone piracy.\n\nQuick Start:\n\nPaperReality does not include any copyrighted assets. You are required to provide a supported copy of the game.\n\n• Verify your ROM dump:.\n\nUS SHA1 Hash: 3837f44cda784b466c9a2d99df70d77c322b97a0 You can verify you have dumped a supported copy of the game by using the compatibility checker at https://paperboat.equipment/.\n\n• Install the app:.\n\nBuilds are unsigned .ipa files produced by this repository's GitHub Actions workflow (Build unsigned iOS IPA). Open the workflow run you want and download the PaperReality-unsigned-ipa-bN artifact. Sign and install it with the tool of your choice (for example AltStore, Sideloadly or your own developer certificate).\n\n• Launch the game:.",
+      "localizedDescription": "PaperReality:\n\nAn iOS port of Paper Mario 64, built on HarbourMasters' PaperBoat.\n\nDevelopers (of the original port):\n\nWe do not condone piracy.\n\nQuick Start:\n\nPaperReality does not include any copyrighted assets. You are required to provide a supported copy of the game.\n\n• Verify your ROM dump:.\n\nUS SHA1 Hash: 3837f44cda784b466c9a2d99df70d77c322b97a0 You can verify you have dumped a supported copy of the game by using the compatibility checker at https://paperboat.equipment/.\n\n• Install the app:.\n\nFor the packaged release, download PaperReality-v1.0.5-unsigned.ipa from.\n\nBuilds are unsigned .ipa files produced by this repository's GitHub Actions workflow (Build unsigned iOS IPA). Open the workflow run you want and download the PaperReality-unsigned-ipa-bN artifact. Sign and install it with the tool of your choice (for example AltStore, Sideloadly or your own developer certificate).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.damien.paperreality.png",
       "tintColor": "#e70c0d",
       "category": "games",
@@ -9137,11 +9140,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.0",
-          "date": "2026-11-02T19:42:38Z",
-          "localizedDescription": "• Bump main to 1.3.1 after releasing 1.3.0.\n• Hand Cloudflare block pages back to the plugin instead of opening a challenge.\n• Keep the video player open when Continue or Start Over is chosen.\n• Fix app compiler warnings.\n• feat: let plugin WebView scripts await promises and show the page for site checks.\n• fix: block archived repository plugin installs and updates.\n• Fix continuous reader position jumps and repeated failed image requests.\n• Add grouped source settings and advanced source search.\n• Fix source catalog navigation and add a direct home action.\n• feat: localize every app string for community translation on Weblate.\n• test: await deferred routing readiness without busy polling.\n\n• fix: validate once before dev publication and clean up WebKit fixtures.\n\n• fix: remove the thin line between pages in the continuous reader.\n• fix: lay out continuous reader images with an explicit frame.\n• test: make the continuous reader seam test independent of request timing.\n• feat: overhaul the History screen.\n• fix: enable manual tracker ratings.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/v1.4.0/Ito-1.4.0-unsigned.ipa",
-          "size": 13053322,
+          "version": "1.4.1",
+          "date": "2026-11-02T20:55:13Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit f4ddf88. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-201/Ito-1.4.1-dev.201-unsigned.ipa",
+          "size": 13053717,
           "minOSVersion": "15.4"
         }
       ],
@@ -12223,7 +12226,7 @@
       "name": "DSH Tether",
       "bundleIdentifier": "cc.zexa.dshtether",
       "developerName": "zexadev",
-      "subtitle": "Mobile client for the DeepSeek Harness — use the dsh on your dev machine from your Android or iOS phone, remotely across networks, peer-to-peer over iroh with no server to set up (falls back to a relay that only sees ciphertext)",
+      "subtitle": "DeepSeek Harness (dsh) remote access from your phone: Android iOS mobile client, peer to peer over iroh across networks, no server to set up, relay fallback sees only ciphertext; Android can also run dsh locally",
       "localizedDescription": "DSH Tether carries the DeepSeek Harness web interface to your phone over a direct peer-to-peer connection. The agent keeps running on the machine your code lives on, and the phone gets DSH's own full interface — conversations, tool calls, approvals and settings, not a reimplementation of them. Pair once with a 6-digit code; after that the two ends find each other whatever network they are on.\n\nWhen there is no machine around, the same app can run DSH on the phone itself (Android) — see Local mode.\n\nThe case it solves:\n\nYou are not on your machine's network, and you do not want a server in the middle.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/cc.zexa.dshtether.png",
       "tintColor": "#4abc30",
@@ -12628,35 +12631,6 @@
           "NSLocalNetworkUsageDescription": "Connect to your music servers and network storage to browse and play your music.",
           "NSMicrophoneUsageDescription": "Listen to music playing nearby to identify the song. Only a sound fingerprint leaves your device.",
           "NSPhotoLibraryUsageDescription": "Mornye needs access to save album artwork"
-        }
-      }
-    },
-    {
-      "name": "AniWings",
-      "bundleIdentifier": "com.aniwings.app",
-      "developerName": "aniwingsofficial-app",
-      "subtitle": "Total download counts breakdown across all official releases",
-      "localizedDescription": "Modern Anime Streaming for Android, iOS, Android TV \u0026 Desktop:\n\n-success?style=flat-square).\n\n🪽 What is AniWings?:\n\nAniWings is a modern anime streaming client designed for Android phones, tablets, iOS (iPhone \u0026 iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and Desktop (Windows \u0026 Linux).\n\nDiscover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop PCs.\n\nNo mandatory AniWings account. No intrusive advertising. Just anime.\n\nWhy AniWings?:\n\n• 🚫 No Mandatory Sign-up — Start browsing and watching without creating an AniWings account.\n• 🎨 Modern Interface — A redesigned experience built for phones, tablets, televisions, and desktop computers.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aniwings.app.png",
-      "tintColor": "#e42657",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "1.2.6",
-          "date": "2026-10-31T18:29:55Z",
-          "localizedDescription": "AniWings iOS v1.2.6 Release - Brand new iOS app for AniWings with smooth streaming, episode cache, and modern UI.\n\n📱 iOS Users (AniWings-ios.ipa): Download the .ipa and install it using SideStore, AltStore, Sideloadly, Feather, or TrollStore.",
-          "downloadURL": "https://github.com/aniwingsofficial-app/aniwings-app/releases/download/ios-v1.2.6/AniWings-ios.ipa",
-          "size": 55921899,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "AniWings uses the camera to scan QR codes for quick login and sharing.",
-          "NSPhotoLibraryAddUsageDescription": "AniWings saves downloaded videos and images to your device.",
-          "NSPhotoLibraryUsageDescription": "AniWings accesses your photo library to customize your profile avatar and banner.",
-          "NSUserTrackingUsageDescription": "AniWings uses this identifier to deliver relevant rewarded support ads."
         }
       }
     },
@@ -13560,11 +13534,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.2",
-          "date": "2026-10-23T15:43:45Z",
-          "localizedDescription": "• Auto-oto: preview additions, replacements and removals before applying; select individual changes, review alias conflicts and undo the result in one step.\n• Auto-oto profiles: saved settings, prefix/suffix and separate marker corrections for initial, CV, VC, VV, VCV and ending entries; original defaults remain available.\n• CVVC: VV transitions are generated alongside standalone vowels, without a separate VCV pass.\n• Aliases: kana, romaji or both; bulk conversion with optional copies to keep the original aliases.\n• Japanese alias coverage: missing and duplicate aliases, missing recordings and invalid timings; OpenUtau JA VCV/CVVC legacy conventions with fallback checks. This is a static check, without running the phonemizer.\n• Oto playback: listen as a note (J) through WORLD, the DiffSinger vocoder or an UTAU resampler; audition transitions between two entries, with A/B comparison of original and edited markers. Transition playback requires an updated mVocalToolkit.\n• Saving: preserve pending edits across multiple files and unfinished text input; failed saves keep changes available for retry. Recording and karaoke wait for pending audio saves when closing.\n• Project opening: background folder scanning, loading indicator and correct selection of dropped recordings.\n• macOS: reworked file dialogs, microphone permission description, bundled legacy encodings and safer quit handling.\n• iOS: improved audio sessions, sample-rate conversion, interruption handling, audio decoding, file writes and background saving; local-network toolkit connections.\n\n• App identifier changed to pw.msan.mlabeler on Android and Apple platforms. On Android this installs as a separate app; previous settings and permissions are not transferred automatically.",
-          "downloadURL": "https://github.com/Megageorgio/mlabeler/releases/download/v0.1.2/mLabeler-0.1.2-ios-unsigned.ipa",
-          "size": 23659202,
+          "version": "0.1.3",
+          "date": "2026-11-03T03:41:47Z",
+          "localizedDescription": "• Web edition: browser-based editing on desktop and mobile, with built-in MCFL autolabelling, auto-oto, microphone recording and project ZIP import/export; no toolkit connection required. Normalized mouse-wheel scrolling and zoom sensitivity.\n\n• Google Play: separate build with system folder access and built-in autolabelling; toolkit connections and GitHub updates are disabled.",
+          "downloadURL": "https://github.com/Megageorgio/mlabeler/releases/download/v0.1.3/mLabeler-0.1.3-ios-unsigned.ipa",
+          "size": 23671141,
           "minOSVersion": "15.0"
         }
       ],
