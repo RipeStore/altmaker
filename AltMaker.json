@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.InputStreamPlayer",
-    "me.lampu.lampcord",
-    "com.wrngwrld.Chanyan"
+    "com.handtracker.mouse",
+    "com.handtracker.app",
+    "io.github.possiblypengu.pageturner"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.181.0",
-          "date": "2026-11-02T23:19:34Z",
-          "localizedDescription": "v1.181.0 — Shared Busy activity, verified groups and quieter loading explanations.\n\nF1217 / F1219 — Busy Patches and Bird Gen now use one completed activity snapshot: 36 elapsed hours now, compared with four weekday/time-matched 36-hour windows in prior local-calendar weeks. Both require at least five estimated parties and at least two above the unrounded usual count. Count and absolute excess lead; the multiplier is secondary. The extra legacy 4x alert gate is removed without changing sorting or other news lanes. Reference/group completion updates both screens, including after the main news load settles. Reopening restores the same canonical durable snapshot, not an independent alert cache. Missing, shallow or zero history is unscored; failed refreshes preserve labelled last-good activity rather than inventing successful coverage.\n\nF1220 — Shared checklist group IDs supplement existing party inference in current and historical counts. Metadata reuses cached details and a shared eight-new-detail, three-worker budget. IDs are scoped to place/day and obsolete work cannot publish. Observer count is size evidence, not an invented member roster; these remain estimated parties, not verified people.\n\nF1221 — Convoys also use verified shared visits when participants' start times differ, with every known member checklist retained. Existing route eligibility is unchanged: two shared stops, or the app's existing five-known- member single-stop trip. Warm reopening reuses detail evidence; changing Home/navigation/identity rejects obsolete results.\n\nF1215 — Stakeout reconciles appended checklist totals and source counts, distinguishes matches already added from genuinely hidden fetched rows, and offers a working Show more without refetching those summaries. Private waypoint grouping and omission of redundant singleton counts are preserved. Late photo responses and silhouette fallbacks also stop painting after the document closes; a held-response guard reproduces the CI teardown race.\n\nF1222 — Compact, nonblocking explanations cover initial regional caching and the first confirmed eBird HTTP 429 per app session. Visible Hide dismisses the explanation, never loading or retries. The expanded 429 notice never reopens that session after dismissal or expiry; later waits retain ordinary progress. Countdown uses actual cooldown timing, not a promised 30 seconds or guaranteed recovery. Own pacing and server errors are not called eBird request limiting. Loaded results remain usable.\n\nF1218 — Real-Chrome wizard checks now bound and verify exact-profile cleanup, including surviving child processes after launcher exit, without terminating ordinary browser sessions.\n\nF1223 — The 24-hour Bird Gen age guard now uses an unambiguous noon clock anchor across the repeated DST hour. Production age arithmetic is unchanged; removing the actual one-line styling still makes its guard fail.\n\nDevice caveat: controlled local/browser evidence does not replace exercising live acquisition and interactions on an iPhone. TestFlight upload/processing and account-level installability are separate milestones.\n\nThe downloadable BirdChaser-unsigned.ipa is for sideloading with AltStore or an equivalent signing tool; it is not itself a TestFlight installation. Unsigned sideload builds require signing and expire according to that signing method.\n\nThe separate App unit + DOM tests workflow failed one POSIX wizard-cleanup verification on the same source; the release workflow's corresponding test passed. The failure remains visible and is filed forward as F1231. Its cause is unproven; no guard was weakened or same-version app commit added.\n\nCo-authored-by: Copilot Copilot-Session: a9a6e213-ae5a-4cd2-94cb-dbd9dc9062be.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.181.0/BirdChaser-unsigned.ipa",
-          "size": 143414505,
+          "version": "1.182.0",
+          "date": "2026-11-03T19:45:49Z",
+          "localizedDescription": "• F1224 - Watch: Remove Watch keeps its membership behavior with a lighter fill and a clear black border.\n• F1226 - Mega refresh: Successful empty and nonempty cached results retain their original age and remain visible during refresh, failure and restart. Owned loading work keeps its top progress indicator.\n• F1227 - Mass Flocks: One original three-bird flight graphic is shared by Contents, the section heading and navigation. The heading wraps without collapsing the graphic.\n• F1228/F1229 - Default shortcuts: My Year List is omitted from defaults and Twitches comes last. Saved custom shortcuts, including an intentionally empty selection, are preserved.\n• F1230 - Truthful progress: Unknown or finishing work uses an indeterminate indicator rather than appearing complete. Its moving segment stays inside the track throughout its animation, with accessible state and reduced-motion behavior.\n• F1232 - Busy multipliers: Busy Patches and Bird Gen icons display the actual activity multiplier with a multiplication suffix, not a party count disguised as a ratio. Busy sorting is explicitly labelled; current parties and excess remain readable evidence.\n• F1233 - Shared Busy updates: Busy Patches and Bird Gen progressively share current estimates, matched historical windows and group-aware revisions. Cancelled or partial work cannot replace a completed durable snapshot.\n• F1234 - Map ranks: Map ranks precede hotspot names instead of occupying the multiplier icon.\n• F1235 - Rare-bird links: Busy rare-species links are larger, bold and not underlined, while retaining their working bird navigation.\n• F1236 - Alert-only threshold: Bird Gen Busy Patch alerts require an actual, unrounded activity ratio of at least 3x. This does not filter the Busy Patches menu or change other alert lanes.\n• F1237 - Readable scores: Busy multipliers are larger and bold, with complete score strips and glyphs contained at standard and enlarged sizes.\n• F1231/F1238 - Audit tooling: Bounded exact-owned Chrome cleanup verification and Windows diagnostics fail closed without terminating ordinary browser sessions.\n\nVerification:\n\nSource: 3fb142bb2965a85820a73f159d2101c2e7f90ca4.\n\nFocused proof completed: 47 distinct mutation cases rejected with baseline/restored controls; production previews inspected at standard and enlarged sizes. Directly coupled stock-gallery and catalog expectations were corrected and mutation-proved without relaxing runtime behavior. The full-cycle progress guard also rejects the original off-track animation that Linux CI caught.\n\nFrozen local check 1793725559626026500 passed Python/JavaScript parity, the complete catalog (1,879 passed and one platform skip), all six real-Chrome viewport/text profiles and wiring. Exact-source unsigned CI 41694252207 and independent catalog CI 41694252288 passed; the macOS native notification-trace control also passed.\n\nBoth downloaded IPAs passed independent native/bundle contracts and byte comparisons of eight production files against the source commit. Each extracted installed bundle passed all 13 selected production DOM controls and real-Chrome 320px/1.75x geometry, including both loading states sampled through their complete animation cycle. The first signed geometry attempt failed closed on Windows cleanup; its failure remains preserved, separately from the fresh passing observation after all reported owned PIDs and its temporary profile were measured absent.\n\nSigned delivery 41706295487 succeeded for 1.182.0 (26.1). The independent post-release workflow 41706295386 published the four complete representative-data galleries: browse the versioned previews.\n\nKnown follow-ups:\n\nSome High visibility card body columns remain narrow (F1241); this is separate from the verified Busy score containment. Personal eBird-history work (F802/F1225) and Target Bird alert design (F1240) are not included.\n\nRepeated Windows owned-profile cleanup rejections remain under investigation (F1242). Later disappearance of reported PIDs does not prove a race or retrospectively pass a rejected audit. The diagnostics fail closed; this is test tooling, not an observed iPhone runtime failure.\n\nGallery previews use representative data, not live sightings. Known missing in-image fixture warnings remain deferred under F984; this release does not claim to repair them.\n\nThe attached unsigned IPA must be signed with a sideloading tool before installation. It is not the TestFlight download. Signed TestFlight delivery, Apple processing and per-account download visibility are separate checks; IPA verification alone does not establish TestFlight availability.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.182.0/BirdChaser-unsigned.ipa",
+          "size": 143416070,
           "minOSVersion": "15.0"
         }
       ],
@@ -1696,10 +1696,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-02T01:35:40Z",
-          "localizedDescription": "Built from a0b39de on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-04T00:24:48Z",
+          "localizedDescription": "Built from 6534dd4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625201,
+          "size": 14625199,
           "minOSVersion": "15.0"
         }
       ],
@@ -2833,11 +2833,11 @@
       ],
       "versions": [
         {
-          "version": "0.19.8",
-          "date": "2026-11-03T10:57:36Z",
-          "localizedDescription": "[0.19.8] — 2026-11-03:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.19.8，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.19.8/maestro-mobile-unsigned-0.19.8.ipa",
-          "size": 9655995,
+          "version": "0.20.0",
+          "date": "2026-11-03T18:26:01Z",
+          "localizedDescription": "[0.20.0] — 2026-11-03:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.20.0，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.20.0/maestro-mobile-unsigned-0.20.0.ipa",
+          "size": 9657656,
           "minOSVersion": "15.1"
         }
       ],
@@ -3591,7 +3591,7 @@
       "bundleIdentifier": "com.wrngwrld.Chanyan",
       "developerName": "NekoSurf",
       "subtitle": "🍀 4chan image board viewer for iOS and Android, written in Flutter",
-      "localizedDescription": "NekoSurf:\n\nNekoSurf is a fast, privacy-friendly 4chan viewer built with Flutter for iOS and Android.\n\nIt is designed for smooth browsing with modern card-based layouts, media-first navigation, and practical quality-of-life tools for everyday use.\n\nBrowsing:\n\n• Browse all boards with fast search.\n• Open threads directly from pasted 4chan links.\n• Switch board threads between grid and list view.\n• Sort threads by bump order, newest, oldest, reply count, or image count.\n• Choose default board view, sort mode, and sort direction in settings.\n\nBookmarks and Favorites:\n\n• Favorite boards for quick access on the home screen.\n• Bookmark threads for later with status tracking.\n• See archived/deleted state on bookmarked threads.\n\nMedia Experience:\n\n• Optimized image and video browsing.\n• WebM/MP4 playback support.",
+      "localizedDescription": "🧭 Browse:\n\n• All boards in one place, your favorites first, and a Feed of threads from all of them.\n• Threads in a grid or a list, sorted by bump order, newest, oldest, replies or images.\n• Search your favorite boards, or all of 4chan.\n• Hide threads by keyword or regex, and paste a 4chan link to open its thread.\n\n📖 Read:\n\n• Replies nested under the post they answer.\n• Bookmarks that show when a thread is archived or deleted.\n• Threads can open where you left off, and a history keeps the ones you visited.\n\n🎬 Watch and save:\n\n• Videos (WebM and MP4) start quickly, even on a slow connection, and play as you scroll.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.wrngwrld.Chanyan.png",
       "tintColor": "#27bbe8",
       "category": "social",
@@ -5295,11 +5295,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.4",
-          "date": "2026-11-03T00:12:52Z",
-          "localizedDescription": "tangoAW2 0.9.4: no more parked units, War Room gets the new computer.\n\nChanged.\n\n• The War Room is played by the Dual Strike computer (the one Versus, the Gauntlet and the campaigns use). AW2's own campaign and Survival keep AW2's.\n\nFixed.\n\n• Soldiers the computer buys in the campaigns, the Gauntlet and Versus no longer stand on their base for the rest of the mission, blocking it from building.\n• The computer's guns, ships and other units with nothing to do no longer sit parked on a base, port or airport: they step off before the army builds.\n• Every mission and map (all campaigns, the Gauntlet, the War Room and all 196 Versus maps) is now checked for computer units left on a base, port or airport.\n• Online peers must all run 0.9.4 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.4/tangoaw2-0.9.4-ios.ipa",
-          "size": 32815943,
+          "version": "0.9.5",
+          "date": "2026-11-03T23:41:51Z",
+          "localizedDescription": "tangoAW2 0.9.5: ten more Gauntlet maps, records, one army screen.\n\nNew.\n\n• Gauntlet: ten new maps, twelve in all:.\n\n• Dustwind Basin: Koal, Lash.\n• Brass Canal: Sasha, Javier.\n• Tidewater Atoll: Eagle, Adder.\n• Silverpine Ford: Hachi, Sonja.\n• Granite Spine: Jake, Grimm, Von Bolt.\n• Neon Row: Colin, Kindle, Jugger.\n• Harvest Run: all of Orange Star.\n• Chrome Meridian: Flak, then Silver Nova's Caulder, Lili and Tabitha.\n• Blue Bastion: all of Blue Moon in a moated castle.\n• Last Eclipse: Sturm, Von Bolt, Aria and Asuka in a Black Hole fortress of pipe walls, seams and minicannons.\n\n• Gauntlet: the map list is sorted by the number of enemies, fewest at the top, and has room for 32 maps.\n• Gauntlet: press R on the map list for your top five runs on that map, like the War Room.\n• Gauntlet: one army screen, like Versus' Teams screen. Pick your CO with Up/Down and your colour with R; the enemies are shown as computer armies.\n\nChanged.\n\n• Caulder's portrait faces the same way as the other COs.\n\nFixed.\n\n• When a Gauntlet line falls, every speaker's lines now show, and the first box is no longer drawn over with stray letters.\n• Faces in speech boxes no longer take a washed-out tint of your army's colour on five-army maps.\n• On five-army Gauntlet maps, the CO you pick now leads your army.\n• Capturing the last HQ on a five-army map is a win (it counted as a loss).\n• Silver Nova enemies fight battle scenes in Silver Nova's colours.\n• Online peers must all run 0.9.5 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.5/tangoaw2-0.9.5-ios.ipa",
+          "size": 32841473,
           "minOSVersion": "16.0"
         }
       ],
@@ -6551,11 +6551,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.3",
-          "date": "2026-11-03T02:18:45Z",
-          "localizedDescription": "Release v6.3.3:\n\n• Look up the selected word in connected dictionaries (46efbd1e5).\n• Fix playback when closing the video dictionary (40779d9b0).\n• Prevent browser dictionary imports from freezing the extension (03725ce2d).\n• Keep subtitle status underlines off reading annotations (35b3957ac).\n• Show existing flashcards in browser dictionary popups (eb98be13e).\n• Restore the full immersion dashboard across devices (39c2d510a).\n• Fix browser dictionary word status and account saves (23ed0bd4b).\n• Sync Jimaku subtitle keys with Manatan accounts (9fb9fab13).\n• Fix mixed-script dictionary typography across popup views (c6353ca30).\n• Compact installed dictionary controls across screen sizes (f444d02b9).\n• Clarify Hanzi lookup setting labels (32accbb2e).\n• Enable offline picture scanning with installed OCR models (bb487c8df).\n• Enable recursive lookups in kanji dictionary details (aa0a9e1be).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.3/Manatan-v6.3.3-iOS.ipa",
-          "size": 417252862,
+          "version": "6.3.5",
+          "date": "2026-11-03T18:39:53Z",
+          "localizedDescription": "Release v6.3.5:\n\n• Include iOS crash diagnostics in support exports (f2d2f3e21).\n• Handle deferred review for internal Android uploads (fd89b4f38).\n\n• Rename Manatan SRS to Flashcards (4a313372c).\n• Preserve module metadata in Firefox reviewer builds (1345cde26).\n• Initialize the exact Firefox reviewer toolchain (557fdda18).\n• Generate extension runtime types before verification (5130cf7b5).\n\n• Keep both local manga import buttons visible (79a97be41).\n• Add pins and cover multi-selection to Home Continue (6beb91bd5).\n• Add fullscreen mode to the mobile browser (e6fc233c5).\n• Scale immersion history with compact binary storage (ba9decc05).\n• Import multiple videos into new or existing shows (ad2466907).\n• Add per-line manga OCR editing across apps (3e799f855).\n• Show learning language and word count on Home (a7e0765e1).\n• Fix dictionary lookup trigger isolation (b79ef4d67).\n• Fix dictionary lookup with dual video subtitles (b5b67611a).\n• Restore manga OCR on Android (a14f33822).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.5/Manatan-v6.3.5-iOS.ipa",
+          "size": 422063768,
           "minOSVersion": "16.1"
         }
       ],
@@ -6859,11 +6859,11 @@
       ],
       "versions": [
         {
-          "version": "1.51.0",
-          "date": "2026-11-02T18:03:48Z",
-          "localizedDescription": "Added:\n\n• A GitHub code file saves as the code itself, and a GitHub repo as its README, named after the repo.\n• More discussions save whole: a topic on any Discourse forum (the Rust, Python, Home Assistant and Obsidian forums and thousands more), a Bluesky or Mastodon post with its replies (an author's own thread reads as one post), and a Lobsters story with its comments.\n• An arXiv link saves the whole paper from its web version, formulas as their LaTeX, instead of only the abstract. A paper without one still saves its abstract page.\n• Settings per clip, per collection and per book. At the top of the Aa sheet's Layout and Text, \"Applies to\" picks Everywhere, This clip (This book for a file) or This collection; a change then stays there. Font, size, spacing, alignment, margins and Scroll or Pages can differ; the theme and Narrate stay the same for all. They're kept on this device, like the settings in Settings.\n\nChanged:\n\n• Code blocks in clips have tighter lines.\n\nFixed:\n\n• PDFs: a pinch zoom landed off the spot under your fingers, further off the deeper into the PDF you were (a quarter of a page by page 25). It now stays put, also when one finger was already scrolling.\n• PDFs: pinch zoom is smoother, above all with Dark PDF pages on, and a zoom no longer draws the pages on screen again at the same sharpness.\n• A PDF shown as its pages had Narrate, which read only its title. It has Auto-scroll in its place, as a comic does; Show as text brings Narrate back.\n• A clip deleted while a sync was running came straight back when the sync finished, so it had to be deleted twice. It now stays deleted, and the next sync deletes it on your other devices.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.51.0/Waypage.ipa",
-          "size": 10689493,
+          "version": "1.52.1",
+          "date": "2026-11-03T19:11:04Z",
+          "localizedDescription": "Added:\n\n• The reader can have a theme of its own: Settings › Appearance, \"Its own theme in the reader\". The library, Feeds and Settings keep the app's theme; the theme in the reader's Aa sheet then changes the reader's.\n• The app's version shows in small text at the bottom of the sidebar.\n\nChanged:\n\n• Discover: Tapas is search only. Its lists don't give the app anything to read; pick Comics or Novels and search.\n\nFixed:\n\n• Discover: FanFiction.net and FictionPress lists show their stories again when the phone gets their mobile site (it said \"no stories were found\" for most fandoms and categories).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.52.1/Waypage.ipa",
+          "size": 10718790,
           "minOSVersion": "15.5"
         }
       ],
@@ -7727,10 +7727,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-03T02:27:14Z",
-          "localizedDescription": "Pageturner from run 41565297950, commit a4df19a. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-41565297950/Pageturner.ipa",
-          "size": 30369771,
+          "date": "2026-11-04T00:16:53Z",
+          "localizedDescription": "Pageturner from run 41744323017, commit da76891. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-41744323017/Pageturner.ipa",
+          "size": 29673110,
           "minOSVersion": "17.0"
         }
       ],
@@ -7968,7 +7968,7 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "itzzace",
       "subtitle": "YTKACE is a free, open-source YouTube enhancer and downloader for iOS with SponsorBlock, background playback, player controls, and interface customization including liquid glass",
-      "localizedDescription": "YTKACE:\n\nAn open-source YouTube enhancement for iOS.\n\nCompatibility:\n\n• iOS: 15.0 and newer (tweak packages); the prebuilt IPAs follow their YouTube base.\n• Architecture: arm64.\n• YTKACE: 1.1.4.\n\nYouTube 21.44.4 requires iOS 17, so two IPAs are published:\n\nPick the 21.44.4 build unless you are on iOS 16. Either one installs with TrollStore or a developer-certificate sideloader.\n\nBuild:\n\nFork the repository, enable Actions, open the IPA workflow and provide a direct link to a decrypted YouTube IPA you are legally allowed to use. The completed workflow provides the injected IPA as an artifact. The Deb workflow builds the tweak package.",
+      "localizedDescription": "YTKACE:\n\nAn open-source YouTube enhancement for iOS.\n\nCompatibility:\n\n• iOS: 15.0 and newer (tweak packages); the prebuilt IPAs follow their YouTube base.\n• Architecture: arm64.\n• YTKACE: 1.1.5.\n\nYouTube 21.44.4 requires iOS 17, so two IPAs are published:\n\nPick the 21.44.4 build unless you are on iOS 16. Either one installs with TrollStore or a developer-certificate sideloader.\n\nBuild:\n\nFork the repository, enable Actions, open the IPA workflow and provide a direct link to a decrypted YouTube IPA you are legally allowed to use. The completed workflow provides the injected IPA as an artifact. The Deb workflow builds the tweak package.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.google.ios.youtube.png",
       "tintColor": "#ff0638",
       "category": "entertainment",
@@ -7981,11 +7981,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.4",
-          "date": "2026-10-25T17:33:06Z",
-          "localizedDescription": "• What's new:.\n• Updated to YouTube 21.42.4.\n\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu.\n• Added Clean Copied Links to remove tracking like si= from links you copy or share.\n• Added options to remove items from the ⋯ menu.\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off.\n• Added Keep Shorts in Home, Search and on Channels.\n\n• Remove Previous/Next not working in playlists.\n• Blank space left when fullscreen actions are hidden.\n• Remove Mixes missing some mixes.\n\n• YouTube 21.42.4 requires iOS 17, so there are two IPAs:.\n• YTKACE_1.1.4_YouTube_21.42.4.ipa for iOS 17 and newer.\n• YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa for iOS 16.",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
-          "size": 134178929,
+          "version": "1.1.5",
+          "date": "2026-11-03T22:13:29Z",
+          "localizedDescription": "• What's new:.\n• Updated to YouTube 21.44.4.\n• Normal Home Layout now brings back the old Home with topic chips.\n• Added Turn Off Haptics.\n• Added Open Links Directly.\n• Added Remove Autoplay Prompt.\n• Added Remove More Videos.\n• Added an option to remove Listen with YouTube Music from the ⋯ menu.\n\n• Captions can now be turned on in Always Off mode.\n\n• Tab settings ignored on YouTube's glass tab bar.\n• Glass tab bar with icon-only tabs.\n• Startup tab when Home is hidden.\n• Tab labels and icons on YouTube's icon-only tab bar.\n• Subscriptions tab missing from the bottom bar, and its icon.\n• Remove Channel Watermark not working.\n• Remove End Screen not working.\n• Keep Progress Bar Visible not working.\n\n• YouTube 21.44.4 requires iOS 17, so there are two IPAs:.\n• YTKACE_1.1.5_YouTube_21.44.4.ipa for iOS 17 and newer.\n• YTKACE_1.1.5_YouTube_iOS16_21.33.6.ipa for iOS 16.",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.5/YTKACE_1.1.5_YouTube_iOS16_21.33.6.ipa",
+          "size": 134201839,
           "minOSVersion": "16.0"
         }
       ],
@@ -9817,11 +9817,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.5.15",
-          "date": "2026-10-07T23:44:59Z",
-          "localizedDescription": "• fix: send public keys when unregistering push notifications.\n• fix: apply default text style to code block.\n• fix: always add host when copying username.\n• fix: use initial user in follow button.\n• fix: replace options for video controls.",
-          "downloadURL": "https://github.com/poppingmoon/aria/releases/download/v1.5.15/aria-v1.5.15.ipa",
-          "size": 53967813,
+          "version": "1.5.16",
+          "date": "2026-11-03T23:29:07Z",
+          "localizedDescription": "• ci: add GitHub Actions workflow lockfile.\n• fix: validate Bluesky embed.\n• fix: disable scrolling fields section of profile page.\n• refactor: load font list when needed.\n• refactor: remove excludeRemoveNullPredicate.\n• chore: set User-Agent header.\n• fix: reject non-finite numbers in safeParseDouble.\n• fix: use yes/no labels for cancel follow request confirmation.\n• fix: use startDecode to get GIF info.\n• fix: correct withReplies parameter in timeline stream.",
+          "downloadURL": "https://github.com/poppingmoon/aria/releases/download/v1.5.16/aria-v1.5.16.ipa",
+          "size": 53394087,
           "minOSVersion": "15.0"
         }
       ],
@@ -9932,11 +9932,11 @@
       ],
       "versions": [
         {
-          "version": "1.14.0",
-          "date": "2026-11-01T03:56:27Z",
-          "localizedDescription": "Features:\n\n• phone: a fixed route: stop order \"Fixed route\" delivers tonight's scanner rows in a supervisor's standing order, each parked at his pin, nothing solved; a row on no route is slotted in where it adds the least detour, shown to confirm, and joins the route once delivered. The route comes from route.json in the app's customers folder, its door photos and notes becoming the access notes. \"Load the van\" steps through the stops last-first with the loading number, parcel count and door photo. PHOENIX's header (\"Abholungen 1 - Zustellungen 45\") fills in the stop count. On the 2026-10-31 scan, 45 of 48 rows matched the right route stop (7c84795).",
-          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.14.0/TourPlanner-unsigned.ipa",
-          "size": 22218878,
+          "version": "1.15.0",
+          "date": "2026-11-03T20:16:23Z",
+          "localizedDescription": "Features:\n\n• phone: PHOENIX keeps the fixed route's order, never improved or solved (the company declares fixedOrder; with no route on the phone, the scanner's order), and Settings shows that instead of the Stop order picker. \"Load the van\" for PHOENIX does the pharmacies first, into the back, last stop first, then the opticians; a pharmacy is told by its name (\"Apo\", \"Apotheke\", not \"Apollo-Optik\") (6fea164).",
+          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.15.0/TourPlanner-unsigned.ipa",
+          "size": 22237388,
           "minOSVersion": "16.4"
         }
       ],
@@ -10182,11 +10182,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.119",
-          "date": "2026-10-28T18:12:15Z",
+          "version": "0.8.120",
+          "date": "2026-11-03T18:34:31Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.119/NicotinD-0.8.119-unsigned.ipa",
-          "size": 1578968,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.120/NicotinD-0.8.120-unsigned.ipa",
+          "size": 1578680,
           "minOSVersion": "15.0"
         }
       ],
@@ -10207,10 +10207,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-11-02T17:40:50Z",
-          "localizedDescription": "Unsigned iOS build of master at 2545715. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
+          "date": "2026-11-03T23:15:41Z",
+          "localizedDescription": "Unsigned iOS build of master at 5548e02. iPhones only run signed apps: install it with SideStore, AltStore or Sideloadly and your own Apple ID, or build and sign it on a Mac with npm run ios:device. See AppStore.md.",
           "downloadURL": "https://github.com/anoff/tensaiasobi/releases/download/ios-latest/tensaiasobi-unsigned.ipa",
-          "size": 10163171,
+          "size": 10164415,
           "minOSVersion": "15.0"
         }
       ],
@@ -10378,11 +10378,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.433",
-          "date": "2026-11-01T02:08:34Z",
-          "localizedDescription": "Changed:\n\n• On Android tablets and unfolded foldables, drag the handle between the list and the open page all the way to one side to hide that pane on every screen. Without the list, whatever you open fills the screen (a conversation hides the navigation bar, as on a phone) and back returns to the list; without the open page, the list fills the screen until you open something. The handle stays at the edge to pull the pane back, a double-tap restores both panes, and the app remembers the choice.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.433/Dieter-iOS.ipa",
-          "size": 64787335,
+          "version": "0.6.438",
+          "date": "2026-11-03T23:18:40Z",
+          "localizedDescription": "Fixed:\n\n• Screen sharing works from Ubuntu and other GNOME Wayland desktops. Connecting to a Linux machine running a current desktop portal (Ubuntu 26.04, GNOME 50) failed every time with \"portal did not return a session handle\". The host now shows the desktop's approval prompt on its own screen; approve it once there, and Dieter asks the portal to remember it so later connections can start without a prompt.\n• The first connection to a Mac screen no longer fails with \"Unknown native stream\" when you take control. Connecting again used to work; now the first attempt does.\n• Linux screen shares keep the desktop's aspect ratio instead of stretching it to the viewer's window, so clicks land where you see them.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.438/Dieter-iOS.ipa",
+          "size": 64925014,
           "minOSVersion": "18.0"
         }
       ],
@@ -10438,11 +10438,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.69",
-          "date": "2026-11-03T16:56:13Z",
-          "localizedDescription": "• Canales HLS con el audio en lista aparte que en iPhone, iPad, Apple TV y Mac salían con imagen pero sin sonido: ahora suenan.\n• Menos errores de descarga de segmentos con algunos servidores, que dejaban el canal en «cargando».",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.69/InputStreamPlayer-iOS-0.9.69-123-unsigned.ipa",
-          "size": 17311445,
+          "version": "0.9.70",
+          "date": "2026-11-03T22:28:10Z",
+          "localizedDescription": "• Series: nuevos botones de capítulo anterior y siguiente junto a pausa y los saltos de 10 segundos, en las series de addons y de listas.\n• Al salir del reproductor con «atrás» después de ver un capítulo, ahora se vuelve al listado de capítulos y no a la pantalla de inicio.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.70/InputStreamPlayer-iOS-0.9.70-124-unsigned.ipa",
+          "size": 17328219,
           "minOSVersion": "16.0"
         }
       ],
@@ -10855,10 +10855,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-02T01:35:40Z",
-          "localizedDescription": "Built from a0b39de on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-04T00:24:48Z",
+          "localizedDescription": "Built from 6534dd4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 52745437,
+          "size": 52747017,
           "minOSVersion": "15.0"
         }
       ],
@@ -11518,16 +11518,21 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "2.1.2",
-          "date": "2026-11-01T14:37:50Z",
-          "localizedDescription": "🎨 Color Science, Full Dynamic Range \u0026 Sensor-to-Scene Exposure Gain:\n\n• Pre-WB Sensor Saturation Desaturation: Eliminated duplicate desaturation inside applyHighlightShoulder3 which previously bleached skies and corners to grey. Highlight desaturation is now strictly anchored to physical pre-LSC, pre-WB sensor saturation (rawPeak \u003e= 0.94f) in debayerFusedLog.\n• Pre-WB Malvar-He-Cutler Demosaicing: Normalized sensor channel gains (cGain, hGain, vGain, dGain) and subtracted black level directly on the 13-tap Bayer neighborhood before calculating cross-channel Laplacian gradients. Eliminates color fringing and zipper/maze artifacts caused by CMOS green channel sensitivity differences.\n• Luma-Only Adaptive Unsharp Mask: Refactored unsharpMaskAdaptive in Debayer.metal to calculate high-pass deltas strictly from ITU-R BT.2020 luma (dot(rgb, float3(0.2627, 0.6780, 0.0593))), preventing chroma noise amplification and color edge fringing in shadows.\n\n🚀 Performance Optimization \u0026 Dead Code Removal:\n\n• Zero-Allocation Reorder Buffer Pruning: In CameraViewModel.processFrame, replaced per-frame key-filtering dictionary reallocation (filter {. }) with fast, in-place sequence pruning (for key in keysToRemove { reorderBuffer.removeValue(forKey: key) }), saving millions of allocations and significantly reducing ARC overhead and thermal pressure.\n• Metal Pipeline Streamlining: Removed unused cropAndResampleBicubic kernel, Catmull-Rom normalization helpers, and dead structs in Debayer.metal and MetalPipeline.swift, freeing up GPU compilation memory and pipeline cache.\n• Optimized Preview Buffer: Fixed preview-time drop counter inflation in RawFrameBuffer.dequeueLatest() and properly reset drop counters on flush.\n\n🎥 Gyroflow / CAMM Motion Metadata \u0026 Video Writer:\n\n• Safe CAMM Box Patching: Rewrote patchMebxToCamm in VideoWriter.swift to safely scan both the first 2 MB and last 8 MB of the MP4 container, strictly matching \"mebx\" within 64 bytes of \"stsd\". Removed risky blind byte replacement fallbacks outside the sample description table.\n• Hardware-Synchronized 100 Hz Motion Metadata: Integrated sequential drainSamples(upToElapsedSeconds:) in GyroMotionRecorder using hardware CoreMotion timestamps anchored to session optical start PTS.\n• Dynamic QuickTime Metadata: Dynamically generated QuickTime metadata items for color gamut, transfer curve, and encoder version (OwLens Cinema Camera v2.1.2).\n\n📷 Capture Pipeline \u0026 Autofocus:\n\n• Natural Lens Shading Correction: Calibrated LSC corner gains to realistic optical falloffs (0.48 for Ultra-Wide, 0.20 for Telephoto, 0.38 for Wide), eliminating unnatural corner over-exposure and amplified shadow noise.\n• Hardware Continuous AF Restoration: Tracked AF state across record sessions and cleanly restored continuous autofocus via CaptureController.restoreContinuousAutoFocus().\n• Quantized ISO Stops: Quantized ISO settings to standard 1/3-stop cinema increments (32.3200).\n• Touch-to-Focus Reticle Mapping: Corrected landscape and digital zoom coordinate mapping in OwLensApp.swift.\n\n📦 Build \u0026 Packaging:\n\n• App Version: 2.1.2 (Build 13).",
-          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.1.2/OwLens.ipa",
-          "size": 558825,
+          "version": "2.1.3",
+          "date": "2026-11-03T19:29:43Z",
+          "localizedDescription": "🎙️ Microsecond Lip-Sync \u0026 \"Audio Comes First\" Elimination:\n\n• Atomic Frame 0 Anchor: VideoWriter.appendFrame now atomically verifies VideoToolbox encoder readiness (patient spin-wait up to 150 ms) and commits Video Frame 0 at PTS = .zero before draining preroll audio buffers. This completely eliminates the startup gap where audio was previously written to the container before the video track had its first frame.\n• Microsecond Zero-PTS Audio Alignment: The first drained audio buffer is anchored strictly to PTS = .zero with subsequent packets chained monotonically via lastAudioEndPTS. Both audio and video tracks start at the exact same physical microsecond.\n• Tripled Preroll Buffer Capacity: Expanded maxPrerollAudioBuffers from 20 to 60 buffers (~1.25s), ensuring that hardware camera spin-up or configuration latency never causes preroll audio frames corresponding to Frame 0 to be discarded.\n\n🎞️ Dual-Stage Pipelining \u0026 Frame Skip Elimination:\n\n• Independent Sensor \u0026 ISP Semaphores: Replaced the single blocking inFlightCaptures counter with a dual-stage tracking system:.\n\n• sensorInFlight (limit: 2): Decremented immediately when photoOutput(_:didCapturePhotoFor:) signals sensor exposure and readout completion. The camera sensor is immediately freed to expose the next frame at the exact 24.000 FPS timer interval without waiting for background DNG packaging.\n• ispInFlight (limit: 5): Decremented in photoOutput(_:didFinishProcessingPhoto:error:) (with fallback in didFinishCaptureFor). Hard-caps total concurrent ISP jobs in mediaserverd to prevent surface pool exhaustion.\n\n• Eliminated Sensor Starvation: The sensor exposure loop is no longer throttled by 60–80ms ISP packaging latencies, sustaining true 24.000 CFR capture without missed ticks or hold-frame stuttering.\n• Resilient Video Backpressure: Increased video encoder spin-wait attempts to 15 (30 ms) to absorb transient VideoToolbox GOP boundary encoding spikes without dropping frames.\n\n📦 Build \u0026 Packaging:\n\n• App Version: 2.1.3 (Build 14).",
+          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.1.3/OwLens.ipa",
+          "size": 575868,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSCameraUsageDescription": "OwLens needs camera access to capture RAW sensor data for log-encoded video recording.",
           "NSMicrophoneUsageDescription": "OwLens needs microphone access to record audio alongside video.",
@@ -12040,11 +12045,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.0",
-          "date": "2026-10-31T13:01:27Z",
-          "localizedDescription": "Everything new since 1.2.0.\n\nNew:\n\n• Siri and Shortcuts: control colon3 by voice, with no setup:.\n\n• \"Play music in colon3\" resumes, or shuffles your library if nothing was queued.\n• \"Play a song in colon3\": Siri asks what you want to hear. Name a song, an album or an artist from your library, or say \"song by artist\".\n• \"Play playlist in colon3\" and \"Shuffle playlist in colon3\". Siri learns your playlist names as you make them.\n• \"Shuffle colon3\", \"Play my favourites in colon3\", \"Pause colon3\", \"Next song in colon3\", \"Previous song in colon3\" and \"What's playing in colon3\".\n• Every action is also in the Shortcuts app, and Siri can start music without opening colon3. The full list is in Settings › Siri \u0026 Shortcuts.\n\nFixed:\n\n• Other apps' audio: opening colon3 no longer stops a video or music playing in another app.\n• Voice messages and calls: after you pause colon3, a voice message (in Instagram and other apps) picks up your voice straight away, and colon3 no longer starts playing by itself when you send or cancel it. colon3 now hands the audio back when you pause, and after an interruption it only resumes if it was playing when the interruption started.",
-          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.3.0/colon3-1.3.0-unsigned.ipa",
-          "size": 5876979,
+          "version": "1.3.1",
+          "date": "2026-11-03T18:16:44Z",
+          "localizedDescription": "Fixed:\n\n• Home: the charts no longer sit on an endless spinner when Apple's chart server is slow. The last charts that loaded show straight away and are replaced when fresh ones arrive; a server that doesn't answer is given up on after 25 seconds per try, and failures are written to Diagnostics \u0026 Logs.\n• Home when Apple Music's charts are down: Apple's chart server has been answering \"502 Bad Gateway\". When it does, colon3 now uses the charts saved in the last three days, or else the old iTunes Store chart (top sellers rather than most played), and says so above the shelves.",
+          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.3.1/colon3-1.3.1-unsigned.ipa",
+          "size": 5884775,
           "minOSVersion": "18.0"
         }
       ],
@@ -12680,11 +12685,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.15",
-          "date": "2026-10-07T11:59:06Z",
-          "localizedDescription": "Fixed:\n\n• Fixed the widget staying empty after re-signing by resolving the shared App Group with public APIs only.\n\nNotes:\n\n• AirDashLite-1.0.15.ipa: the Lite build. It doesn't include native VPN connect/disconnect, only profile generation and export. Sideloading tools re-sign the app with your own free Apple ID, which can't be granted the Personal VPN entitlement the native VPN feature needs, so this build stays installable for everyone.\n• AirDash-1.0.15.ipa: the full build (native VPN, Live Activity). It needs your own paid Apple Developer account to be re-signed with the VPN entitlements. It's also available through the AltStore source.\n\n• Alternate app icons, the widget, and native VPN are not supported via LiveContainer.\n• Building the full version from source requires a paid Apple Developer account, see the README's Full vs Lite build section.\n\nDownload the IPA below and install with AltStore or Sideloadly.",
-          "downloadURL": "https://github.com/zlimteck/AirDash/releases/download/v1.0.15/AirDash-1.0.15.ipa",
-          "size": 5660762,
+          "version": "1.0.16",
+          "date": "2026-11-03T14:28:27Z",
+          "localizedDescription": "Added:\n\n• Siri and Shortcuts actions to connect the VPN to a server: Connect to Server asks which server each time, Connect to Saved Server always connects to the server you set once in the Shortcuts app. Both accept an optional device and WireGuard port.\n• Siri and Shortcuts action to disconnect the VPN.\n\nNotes:\n\n• AirDashLite-1.0.16.ipa: the Lite build. It doesn't include native VPN connect/disconnect, only profile generation and export. Sideloading tools re-sign the app with your own free Apple ID, which can't be granted the Personal VPN entitlement the native VPN feature needs, so this build stays installable for everyone.\n• AirDash-1.0.16.ipa: the full build (native VPN, Live Activity). It needs your own paid Apple Developer account to be re-signed with the VPN entitlements. It's also available through the AltStore source.\n\n• Alternate app icons, the widget, and native VPN are not supported via LiveContainer.\n• Building the full version from source requires a paid Apple Developer account, see the README's Full vs Lite build section.\n\nDownload the IPA below and install with AltStore or Sideloadly.",
+          "downloadURL": "https://github.com/zlimteck/AirDash/releases/download/v1.0.16/AirDash-1.0.16.ipa",
+          "size": 5673374,
           "minOSVersion": "26.0"
         }
       ],
@@ -13561,12 +13566,12 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.3",
-          "date": "2026-10-26T13:41:32Z",
-          "localizedDescription": "v1.3 makes games run steadier, adds a single report file for bugs and crashes, and fixes several crashes when a game starts or stops.\n\nHighlights:\n\n• Fewer crashes: starting a game no longer crashes when the saved pipeline archive cannot be opened, and low memory while loading no longer gets the app killed as easily.\n• Steadier games: the JIT no longer compiles the same code twice, which leaves more CPU for the game.\n\nPerformance:\n\n• New experimental options in Settings › Performance › Experimental. All of them are off by default:.\n\n• Free memory on warnings: frees textures and idle GPU memory when iOS asks for memory back.\n• No duplicate JIT work: JIT threads stop compiling the same function at the same time.\n• Faster interpreter without JIT: cached code blocks are linked.\n• MetalFX upscaling: sharper enlarging of the picture. Costs some GPU time.\n• GamePad pacing and a lower-resolution GamePad screen, so the GamePad does not slow the TV image.\n• Metal 4 output (iOS 26): not recommended yet. In tests it was not faster, sometimes slower, so it needs more work.\n• GPU memory failure history and a Tuning log that show what each option did.\n\n• Pipeline compiles slow down when memory is low, so loading a big game on a device with little free memory no longer kills the app.\n• A texture that cannot be allocated now gets a small stand-in with the same format instead of breaking later draws.\n\nStability:\n\n• Fixed the crash when opening the Metal binary archive on game start. If it crashes once, the archive is switched off for that game, and games still start fast because the system keeps its own cache.\n• Fixed crashes when leaving a game and when starting the next one.\n\nLogging:\n\n• Every session and every game start is appended to the same report until you delete it. The top of each session says how the one before it ended: normally, with a crash, or killed by iOS.\n\n• Install it with SideInstaller and turn on the increased memory limit. Without it, most games run out of memory.\n• For JIT, import your pairing file in Settings › JIT and connect LocalDevVPN.\n\nNote: v1.3 uses a new app identifier (dev.espressu.EspressU). It installs next to v1.2 as a separate app, so your games, saves and settings from v1.2 are not carried over. Back up your saves from v1.2 first.\n\nEspressU contains no firmware, keys or games. Use your own dumps from your own Wii U.",
-          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.3/EspressU-v1.3.ipa",
-          "size": 34516173,
-          "minOSVersion": "15.0"
+          "version": "1.4",
+          "date": "2026-11-03T21:04:01Z",
+          "localizedDescription": "v1.4 brings Crema, EspressU's own touch controls, a new look with Liquid Glass, and removes Vulkan and MoltenVK from the app.\n\nHighlights:\n\n• Crema touch controls: replaces TouchLab. Sticks, one-piece D-pad, face buttons, shoulders, a HOME house symbol and touchscreen pass-through.\n• Edit mode: move and resize single on-screen controls. Positions and sizes are saved with your settings and included in the settings backup.\n• New look: the interface now uses system colours, text styles and Liquid Glass. The in-game pause menu is a centred glass panel.\n• Lighter app: the Vulkan renderer and MoltenVK are gone, so the app is smaller.\n\nInterface:\n\n• The clock and date are back in the top right of the library.\n\n• The settings tint disappears right away when you close Settings.\n• The library backdrop transition is faster on iPhone.\n• Reworked settings pages, theme picker and alternate app icons.\n\niPad and iPhone:\n\n• The iPad now supports all orientations and no longer requires full screen.\n• Game Mode is declared, so iOS can use it while you play.\n• The minimum iOS version is now 17.4 (was 15.0).\n\nStability:\n\n• The SDL joystick system now starts on the main thread.\n• The display placement is only changed when it actually changed.\n• Bundled data files are copied through a staging folder.\n\nLogging:\n\n• CemuCrashLog.txt is gone. Crashes only go to the EspressU report.\n• Log files from earlier versions are deleted when the app opens.\n\nRemoved:\n\n• The old TouchLab controls, including their custom layout and colour files (.espresslyt). Controls start with the Crema default layout.\n• Vulkan and MoltenVK.\n\nNote: v1.4 keeps the app identifier (dev.espressu.EspressU) and installs over v1.3, so your games, saves and settings stay. iOS 17.4 or newer is required.\n\nEspressU contains no firmware, keys or games. Use your own dumps from your own Wii U.",
+          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.4/EspressU-v1.4.ipa",
+          "size": 30393789,
+          "minOSVersion": "17.4"
         }
       ],
       "appPermissions": {
@@ -13691,35 +13696,6 @@
       }
     },
     {
-      "name": "Floe Bridge",
-      "bundleIdentifier": "org.floeagent.iosbridge",
-      "developerName": "JiangNanGenius",
-      "subtitle": "Your models. Your files. Your machines",
-      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.iosbridge.png",
-      "tintColor": "#486de7",
-      "category": "other",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/JiangNanGenius/floe-agent@main/docs/assets/video/floe-en.jpg"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-11-01T20:14:05Z",
-          "localizedDescription": "Reboot recovery was accepted by the owner and was not retested for this release.\n\nThe unsigned universal IPA requires self-signing with Network Extension capabilities. This is a separate stable Bridge release and does not replace the main Floe app's latest release or update feeds.\n\nBased on pinned iCTRL source under Apache-2.0 and idevice under MIT; upstream notices and dependency licenses are retained in the source and package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/floe-ios-bridge-v1.0.0/Floe-iOS-Bridge-1.0.0-unsigned.ipa",
-          "size": 8228420,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Allow approved clients on your local network to connect to Floe Bridge when you enable LAN access."
-        }
-      }
-    },
-    {
       "name": "Cupola",
       "bundleIdentifier": "com.matthwlabs.cupola",
       "developerName": "matthw-labs",
@@ -13779,6 +13755,51 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "Floe Agent",
+      "bundleIdentifier": "org.floeagent.ios",
+      "developerName": "JiangNanGenius",
+      "subtitle": "Your models. Your files. Your machines",
+      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
+      "tintColor": "#3665ed",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/JiangNanGenius/floe-agent@main/docs/assets/video/floe-en.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.7.69",
+          "date": "2026-11-03T22:32:57Z",
+          "localizedDescription": "English:\n\n• Improved live Volcengine speech recognition so revised words and punctuation update while speaking.\n• Added a streaming recognition switch to speech service settings, preserving separate service configurations.\n• Simplified provider names while keeping Agent Plan, Token Plan and other plan labels.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.69/Floe-Agent-1.7.69-build310-unsigned.ipa",
+          "size": 830258812,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAlarmKitUsageDescription": "Floe schedules the alarms and timers you create in the app.",
+          "NSAppleMusicUsageDescription": "Floe finds and plays items from your media library when you request them.",
+          "NSBluetoothAlwaysUsageDescription": "Floe uses Bluetooth only when you ask it to connect to a nearby BLE serial device.",
+          "NSCalendarsFullAccessUsageDescription": "Floe accesses calendars only when you ask the agent to read or edit events.",
+          "NSCameraUsageDescription": "Floe opens the camera only when you choose to capture an image for a task.",
+          "NSContactsUsageDescription": "Floe reads the contacts you ask it to find.",
+          "NSFaceIDUsageDescription": "Floe uses Face ID only to confirm when you enable unrestricted task access or unlock protected settings.",
+          "NSHealthShareUsageDescription": "Floe reads the Health data you request after you authorize access.",
+          "NSHealthUpdateUsageDescription": "Floe only reads the Health data you authorize; it does not save or modify Health data.",
+          "NSHomeKitUsageDescription": "Floe accesses your Home only when you enable Home tools and request an automation action.",
+          "NSLocalNetworkUsageDescription": "Floe scans your local network only when you ask the agent to discover nearby services and devices.",
+          "NSLocationWhenInUseUsageDescription": "Floe uses your location for weather and nearby places you request, including while those tasks continue in the background. Background assistance uses approximate location while tasks are running.",
+          "NSMicrophoneUsageDescription": "Floe uses the microphone only while you dictate a message.",
+          "NSPhotoLibraryAddUsageDescription": "Floe saves generated or edited images only when you ask it to save them to Photos.",
+          "NSPhotoLibraryUsageDescription": "Floe opens your photo library only when you choose an image for a task.",
+          "NSRemindersFullAccessUsageDescription": "Floe accesses reminders only when you ask the agent to read or edit them.",
+          "NSSpeechRecognitionUsageDescription": "Floe converts your speech into text for the message composer."
+        }
       }
     }
   ]
