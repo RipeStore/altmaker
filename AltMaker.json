@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.scripta",
-    "com.nuvio.media",
-    "com.openagentd.mobile"
+    "com.rebelancap.vkquake",
+    "com.InputStreamPlayer",
+    "com.nathanhanapps.styleport"
   ],
   "apps": [
     {
@@ -67,9 +67,7 @@
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/killzone_mercenary.PNG",
-        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/ys_viii.PNG",
-        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/zero_escape_1.PNG",
-        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/senran_kagura_estival.PNG"
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/zero_escape_1.PNG"
       ],
       "versions": [
         {
@@ -451,7 +449,7 @@
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/weekly_recap.png",
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/rankings.png",
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/history.png",
-        "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/artist_detail.png"
+        "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/artist_detail_light.png"
       ],
       "versions": [
         {
@@ -609,7 +607,6 @@
       "tintColor": "#1399f7",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-welcome.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-fixed-location.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-walking-preview.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-connection-health.png"
@@ -951,11 +948,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.1",
-          "date": "2026-10-31T23:38:04Z",
-          "localizedDescription": "What's new:\n\n• HDR output (Settings \u003e Display, off by default). On a Mac with an HDR display, on SteamOS and the Steam Deck OLED with HDR on, and on Linux and Windows PCs whose system is in HDR, the sun, headlights and lit signs go brighter than white while the rest of the picture stays as it was. HDR Strength sets how far (2x by default, up to 4x), and large bright areas such as tyre smoke are held back so they don't glow as a flat blob. Implemented, from @DoubleDips's idea (#25).\n• Shadow Resolution (Settings \u003e Graphics): the sun's shadows at 1.5x or 2x for sharper edges, at some GPU time and memory. 1x, the default, is as on the Xbox 360. Thanks to krittinen (pull request #52).\n• Cooler Colors (Settings \u003e Display, off by default): a cooler picture with less of the game's yellow. Thanks to Namiidev (pull request #50).\n\nFixed:\n\n• Black grass on AMD Radeon cards (#67, #54): distant grass on the roadside verges turned black on Radeon RX 6000 cards under Windows. The fix was made from testers' reports and captures and hasn't been run on an AMD card by us yet: if you still see it with Windows beta 3, please say so in #67.\n• Anisotropic Filtering at 8x or 16x drew a light outline round dirt-road decals in shadow (#70).\n• Building for iPhone and iPad no longer stops silently when the Spanish disc's code isn't built. Thanks to logicsandbox (pull request #72).\n\nHow to update:\n\n• Mac: drag the new SpeedBreaker into Applications and choose Replace, then allow it once more with Open Anyway (System Settings \u003e Privacy \u0026 Security).\n\n• Everywhere: your saves, settings and the installed game are kept, and no disc image is needed.\n\nMore about it:\n\n• HDR uses the display's extended range on a Mac (or HDR10, chosen with HDR Format) and HDR10 everywhere else, where the system offers it. HDR Paper White sets how bright ordinary white is in HDR10; Auto matches the system (100 nits on a Mac, 200 on Windows and Linux, 400 on SteamOS and the Steam Deck). The settings menu itself stays at standard brightness. Not on iPhone and iPad.\n• The Spanish (PAL) disc now installs on iPhone and iPad too.\n\nThe full list of changes is in CHANGELOG.md.\n\nWhich file is for my device?:\n\nThe two SteamOS files are not interchangeable: the arm64 one is for the Steam Frame only, and the x86-64 one doesn't run on the Frame. Each download has a .sha256 file next to it (see Checksums below).\n\nAll downloads are built from this release's source, commit 6cabdc7. The first line of the game's log, and Settings \u003e Advanced, say SpeedBreaker v0.2.1 (6cabdc7).\n\nThe Source code archives that GitHub adds hold SpeedBreaker's own source, with no game code or data. Building from them needs your own disc; see Building from source.\n\niPhone and iPad: the experimental IPA:\n\nSpeedBreaker-0.2.1-ios.ipa is signed by nobody: a sideloading tool such as AltStore signs it with your own Apple Account and installs it. The IPA itself hasn't been installed on a device yet: the iPhones and iPad it was tested on ran the same app built and signed with Xcode. Please report how it goes, working or not, with your device and tool.\n\n• The game asks iOS for more memory than most apps (two entitlements: Extended Virtual Addressing and Increased Memory Limit). A free Apple Account can give at most the second, and only with some tools: AltStore Classic 2.2 or later is expected to keep it; SideStore 0.7 drops both. Without them the game may not start, or iOS may close it in busy scenes. When iOS refuses the memory, the game says so on screen instead of closing.\n• A free Apple Account's apps stop opening after 7 days until the tool refreshes them, and at most 3 sideloaded apps can be active at once. These are Apple's limits.\n• iOS or iPadOS 17 or later, on an A15-class chip or newer, with a controller or keyboard.\n• Coming from a build you made yourself, the IPA installs as a separate app: install the game again from your disc image. Saves made in the old app stay with it.\n• Sideloading the IPA has the steps and which tools keep what. Building it yourself with Xcode still works as before.\n\nEach download attached here was tested before release. It was unpacked or opened as the setup steps say, with a fresh home folder, and the game was installed through the installer from a disc image:\n\n• x86-64: on a Steam Machine: races at 60 fps with the default upscaling, with FSR 1, and at 1280x800 with Fill Screen at 1x; two-player split screen never dropped below 59.5 fps; the PAL Spanish disc installed and started in Spanish with Spanish movies and speech. Smooth Motion on a simulated 120 Hz display showed 120 pictures a second in two races, and 90 on a 90 Hz one. Quit Game and SIGTERM quit cleanly.\n• arm64: on a Steam Frame, outside the headset: the installer, a race, Spanish menus, two-player split screen, FSR 1, Quit Game and SIGTERM worked.\n• Mac: on a MacBook Pro (M1 Pro, macOS 27) and in a macOS 15 virtual machine (all 31 checks passed): races at 60 fps; the PAL Spanish disc installed and raced at 60 fps in Spanish.\n\n• iPhone and iPad: on an iPhone 18 Pro Max (iOS 27), a build of this code installed the Spanish disc and started in Spanish through its intro movies; a race on the Spanish disc hasn't been driven on a phone yet. The IPA file itself was checked for its contents and signing layout, as before; it hasn't been installed on a device from this file.\n• New settings: on every platform, Shadow Resolution and Cooler Colors are where they should be, and the HDR rows show everywhere but iPhone and iPad. HDR output itself was checked on a Mac's HDR display and on a Steam Deck OLED, where SteamOS marks the HDR part of the brightness bar while the game runs; HDR10 on Linux and Windows PCs hasn't been seen on a real HDR screen here yet.\n\nChecksums (SHA-256):\n\nEach file has its .sha256 next to it on this page. Download both into the same folder, then run sha256sum -c SpeedBreaker-steamos-x86_64.tar.xz.sha256 on SteamOS or Linux, or shasum -a 256 -c SpeedBreaker-macos.dmg.sha256 on a Mac (with your file's name). It should say OK.\n\nKnown issues and limits:\n\n• Mac, the first time you open it: the app isn't notarized by Apple, so macOS refuses to open it and offers Done or Move to Trash. Click Done. Then go to System Settings \u003e Privacy \u0026 Security, scroll down to the message that SpeedBreaker was blocked, click Open Anyway, and confirm with Open Anyway and your password (or Touch ID). After that it opens normally.\n\n• The Open Anyway button only stays there for about an hour after the refusal. If it's gone, open the app again.\n\n• Apple silicon only, macOS 15 or later.\n\n• Mac frame pacing was measured on a MacBook Pro (M1 Pro) with its 120 Hz ProMotion screen, in fullscreen. Other 120 Hz screens (other Macs, external displays) and windowed play weren't measured; a frame that isn't ready in time is shown when it is, as before.\n• A Brightness slider moved before v0.1.4: if you moved the game's own slider in an earlier version (where it did nothing) and the game has saved since, v0.1.4 and later use that setting from the main menu on. At maximum the picture is much brighter and washed out, as on a 360 with that save. In the pause menu \u003e Options \u003e Video, set the slider back to the middle, or press Y (Defaults) and choose Yes. Settings \u003e Display \u003e Brightness doesn't undo it.\n• Steam Deck OLED: set the refresh rate to 60 Hz (Quick Access \u003e Performance); with Steam's per-game profile on, it stays at 60 Hz for this game. At 90 Hz the game stutters, and a note says so once. Leave the Framerate Limit off. The Steam Deck LCD hasn't been tested yet.\n• 120, 180 and 240 Hz screens were tested on simulated displays, not yet on a real panel, and not in Game Mode on a TV. 90, 144 and 165 Hz can't show 60 fps evenly: use 60 or 120 Hz, or variable refresh (or, on a SteamOS or Linux PC at 90 Hz, Smooth Motion).\n• Game Mode on Steam Deck and Steam Machine:.\n\n• Choose a folder. opens its folder picker only in Desktop Mode. Pick the folder there, or run ~/Games/SpeedBreaker/speedbreaker.sh --install \u003cimage\u003e --dest \u003cfolder\u003e from Konsole. Use a folder on the internal storage or on a card formatted by SteamOS, or Game Mode won't find the game.\n\n• Always start it with speedbreaker.sh. Started on its own, the program in lib/ fails on most systems with a message such as GLIBC_2.44 not found.\n\n• Choose a folder. needs a file chooser portal or zenity; without one, install with --dest.\n• It needs a CPU with AVX2 (Intel Haswell, AMD Excavator or Zen, or newer) and Vulkan 1.2 graphics.\n\n• iPhone and iPad: the IPA is experimental and hasn't been installed on a device from the file itself yet (see above). On the iPhone 18 Pro Max, long sessions on a charger get it hot even at 1x, and Frame Rate Auto then drops to 30.\n• Going back to v0.1.4 works, but if you change a setting there, it forgets the keys set on the Controls page: back in v0.1.5 or later they are the defaults again.\n\n• Languages: the menus and the race text come from the disc's own files in ten languages. The movies and the speech (the police radio, the voices in the scenes) stay in the disc's language: English on the USA disc, Spanish on the PAL one. Fan translations aren't supported.\n• Mac: wired Xbox controllers don't rumble. macOS drives an Xbox One or Series controller connected by USB through its own controller framework, which never runs the motors. Pair it over Bluetooth for rumble (a DualSense rumbles either way).\n• Steering wheels are experimental. The Logitech G29 is the one tested, on a Mac. The steering feel is still being tuned (in sharp turns it can feel too quick), and wheel and split screen together haven't been tried. Force feedback isn't tested on SteamOS or Linux, and doesn't work with a G29 in its PS4 position, a G920 or a G923. If you have a wheel, a report with your wheel's model, working or not, would help a lot.\n• Split screen needs two controllers, and renders at most Auto's internal resolution. On a Steam Deck it holds 60 fps at Internal Resolution Auto (1x).\n• HDR on SteamOS, Linux and Windows was checked in its settings and logs, not yet on a real HDR screen there; on a Mac it was checked on an HDR display. A report from an HDR TV or monitor would help.\n• Smooth Motion is on Macs with a 120 Hz screen (measured on a MacBook Pro (M1 Pro) and a Mac Studio (M4 Max)) and on SteamOS and Linux PCs at 120 or 90 Hz (measured on a Steam Machine). Not on the Steam Deck, Windows, iPhone or iPad.\n\nReporting a bug:\n\n• Open the settings (F1; Back + Start on a controller; on a Steam Deck hold View and press Menu; on a Steam Frame press Menu + View; a three-finger tap on iPhone and iPad), go to Advanced and choose Save Bug Report.\n\nNever attach game files or disc images to an issue. CONTRIBUTING.md says how bug reports and pull requests are handled.\n\nThanks:\n\nTo danielgpinheiro for HDR output (pull request #38) and DoubleDips for the idea (#25), to krittinen for Shadow Resolution (pull request #52) and the captures that found the anisotropic filtering outline (#70), to Namiidev for Cooler Colors (pull request #50), to logicsandbox for the iPhone build fix (pull request #72), to siddharthkuradia and ElysianBCE for the reports and the capture behind the AMD fix (#67, #54), and to everyone who reports how the game runs on their devices.\n\nLicense and legal:\n\nSpeedBreaker is free software under the GNU General Public License, version 3 or (at your option) any later version (GPL-3.0-or-later). Each download carries its license notices and every.\n\nIPA).\n\nThe complete source of the LGPL and GPL code by others in these downloads (FFmpeg with SpeedBreaker's patch and libmspack in all of them; the GNU C Library and GCC's runtime libraries in the x86-64 one) is attached below as SpeedBreaker-0.2.1-third-party-source.tar.xz.\n\n\"Need for Speed\" and \"Most Wanted\" are trademarks of Electronic Arts Inc. Steam, Steam Deck, Steam Machine, Steam Frame and SteamOS are trademarks of Valve Corporation. iPhone, iPad and macOS are trademarks of Apple Inc. All other trademarks belong to their respective owners. SpeedBreaker is a fan project by project(u), not affiliated with, endorsed by or sponsored by Electronic Arts Inc., the Need for Speed brand, Valve Corporation or Apple Inc. It contains no game data or assets, and is provided \"as is\", without warranty of any kind. No game files are included: you need a backup of your own USA (NTSC-U) or European (PAL) Spanish Xbox 360 disc.",
-          "downloadURL": "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.1/SpeedBreaker-0.2.1-ios.ipa",
-          "size": 27386425,
+          "version": "0.2.2",
+          "date": "2026-11-04T19:28:30Z",
+          "localizedDescription": "Fixed:\n\n• Black grass on AMD Radeon cards, for real this time (#67, #54): distant grass on the roadside verges still turned black on Radeon RX 6000 cards under Windows, because v0.2.1's fix was aimed at the wrong thing. AMD's Windows driver picked the close-up row of lighting values in the shader that draws the far part of the verge. On AMD's own driver, SpeedBreaker now builds those shaders in a shape the driver compiles correctly; testers on an RX 6750 XT confirmed the grass is right with the test build. Other graphics cards run exactly the same shaders as before.\n• Shadows at the edges of the picture (#81): the sun's shadows now reach the left and right edges at every screen shape. On an ultrawide screen the sides used to come out unshadowed, and at 16:9 the ground near the camera did too, as on the Xbox 360 itself. The shadow map now covers the whole view, so shadows are a little softer than on the 360; Shadow Resolution 1.5x or 2x (Settings \u003e Graphics) sharpens them again.\n• HDR and the settings menu: with HDR Output on, the game seen through the settings overlay now looks as it does in SDR. It no longer brightens under the panel when HDR comes on, and bright highlights no longer shine through the window.\n• Windows (beta): the sun's shadows cost the graphics chip less each frame, with the same picture, as in Windows beta 4.\n\nHow to update:\n\n• Mac: drag the new SpeedBreaker into Applications and choose Replace, then allow it once more with Open Anyway (System Settings \u003e Privacy \u0026 Security).\n\n• Everywhere: your saves, settings and the installed game are kept, and no disc image is needed.\n\nMore about it:\n\n• Shadows: NFSMW_SHADOW_FIT=game brings back the original fit for comparison.\n• AMD: the log's [renderer] shader registers: line says \"variables in pixel shaders\" on AMD's own Windows driver. NFSMW_SCALAR_REGS=0 turns the fix off.\n\nThe full list of changes is in CHANGELOG.md.\n\nWhich file is for my device?:\n\nThe two SteamOS files are not interchangeable: the arm64 one is for the Steam Frame only, and the x86-64 one doesn't run on the Frame. Each download has a .sha256 file next to it (see Checksums below).\n\nAll downloads are built from this release's source, commit 496451a. The first line of the game's log, and Settings \u003e Advanced, say SpeedBreaker v0.2.2 (496451a).\n\nThe Source code archives that GitHub adds hold SpeedBreaker's own source, with no game code or data. Building from them needs your own disc; see Building from source.\n\niPhone and iPad: the experimental IPA:\n\nSpeedBreaker-0.2.2-ios.ipa is signed by nobody: a sideloading tool such as AltStore signs it with your own Apple Account and installs it. The IPA itself hasn't been installed on a device yet: the iPhones and iPad it was tested on ran the same app built and signed with Xcode. Please report how it goes, working or not, with your device and tool.\n\n• The game asks iOS for more memory than most apps (two entitlements: Extended Virtual Addressing and Increased Memory Limit). A free Apple Account can give at most the second, and only with some tools: AltStore Classic 2.2 or later is expected to keep it; SideStore 0.7 drops both. Without them the game may not start, or iOS may close it in busy scenes. When iOS refuses the memory, the game says so on screen instead of closing.\n• A free Apple Account's apps stop opening after 7 days until the tool refreshes them, and at most 3 sideloaded apps can be active at once. These are Apple's limits.\n• iOS or iPadOS 17 or later, on an A15-class chip or newer, with a controller or keyboard.\n• Coming from a build you made yourself, the IPA installs as a separate app: install the game again from your disc image. Saves made in the old app stay with it.\n• Sideloading the IPA has the steps and which tools keep what. Building it yourself with Xcode still works as before.\n\nEach download attached here was tested before release. It was unpacked or opened as the setup steps say, with a fresh home folder, and the game was installed through the installer from a disc image:\n\n• x86-64: on a Steam Machine: races at 60 fps, with FSR 1, at 1280x800 with Fill Screen at 1x, and in two-player split screen; the PAL Spanish disc installed and started in Spanish. Smooth Motion on a simulated 120 Hz display showed 120 pictures a second, and 90 on a 90 Hz one. Quit Game and SIGTERM quit cleanly.\n• arm64: on a Steam Frame, outside the headset: the installer, a race, Spanish menus, two-player split screen, FSR 1, Quit Game and SIGTERM worked.\n• Mac: races at 60 fps on a MacBook Pro (M1 Pro, macOS 27) and a Mac Studio (M4 Max); on the MacBook, a pause and resume mid-race, and the PAL Spanish disc installed and raced in Spanish. In a macOS 15 virtual machine all 31 checks passed on the second run; the first stopped mid-race on a known fault in the virtual machine's own graphics driver.\n• Windows (beta): on a laptop with Intel UHD Graphics: 28 race loads with no hang, pause and resume, and the same speed as beta 4.\n\n• The fixes: with the shadow fix switched off for comparison, the picture matched v0.2.1's on the Steam Machine, the Mac and Windows; with it on, it differed only where the sun's shadows now reach. The AMD fix was confirmed by testers on an RX 6750 XT with the test build; we have no AMD card to run it on. The HDR settings-menu fix was checked by tests and by eye on a Mac's HDR display in SpeedBreaker: Carbon, which shares the code.\n• iPhone and iPad: the IPA file was checked for its contents and signing layout, as before; it hasn't been installed on a device from this file.\n\nChecksums (SHA-256):\n\nEach file has its .sha256 next to it on this page. Download both into the same folder, then run sha256sum -c SpeedBreaker-steamos-x86_64.tar.xz.sha256 on SteamOS or Linux, or shasum -a 256 -c SpeedBreaker-macos.dmg.sha256 on a Mac (with your file's name). It should say OK.\n\nKnown issues and limits:\n\n• Mac, the first time you open it: the app isn't notarized by Apple, so macOS refuses to open it and offers Done or Move to Trash. Click Done. Then go to System Settings \u003e Privacy \u0026 Security, scroll down to the message that SpeedBreaker was blocked, click Open Anyway, and confirm with Open Anyway and your password (or Touch ID). After that it opens normally.\n\n• The Open Anyway button only stays there for about an hour after the refusal. If it's gone, open the app again.\n\n• Apple silicon only, macOS 15 or later.\n\n• Mac frame pacing was measured on a MacBook Pro (M1 Pro) with its 120 Hz ProMotion screen, in fullscreen. Other 120 Hz screens (other Macs, external displays) and windowed play weren't measured; a frame that isn't ready in time is shown when it is, as before.\n• A Brightness slider moved before v0.1.4: if you moved the game's own slider in an earlier version (where it did nothing) and the game has saved since, v0.1.4 and later use that setting from the main menu on. At maximum the picture is much brighter and washed out, as on a 360 with that save. In the pause menu \u003e Options \u003e Video, set the slider back to the middle, or press Y (Defaults) and choose Yes. Settings \u003e Display \u003e Brightness doesn't undo it.\n• Steam Deck OLED: set the refresh rate to 60 Hz (Quick Access \u003e Performance); with Steam's per-game profile on, it stays at 60 Hz for this game. At 90 Hz the game stutters, and a note says so once. Leave the Framerate Limit off. The Steam Deck LCD hasn't been tested yet.\n• 120, 180 and 240 Hz screens were tested on simulated displays, not yet on a real panel, and not in Game Mode on a TV. 90, 144 and 165 Hz can't show 60 fps evenly: use 60 or 120 Hz, or variable refresh (or, on a SteamOS or Linux PC at 90 Hz, Smooth Motion).\n• Game Mode on Steam Deck and Steam Machine:.\n\n• Choose a folder. opens its folder picker only in Desktop Mode. Pick the folder there, or run ~/Games/SpeedBreaker/speedbreaker.sh --install \u003cimage\u003e --dest \u003cfolder\u003e from Konsole. Use a folder on the internal storage or on a card formatted by SteamOS, or Game Mode won't find the game.\n\n• Always start it with speedbreaker.sh. Started on its own, the program in lib/ fails on most systems with a message such as GLIBC_2.44 not found.\n\n• Choose a folder. needs a file chooser portal or zenity; without one, install with --dest.\n• It needs a CPU with AVX2 (Intel Haswell, AMD Excavator or Zen, or newer) and Vulkan 1.2 graphics.\n\n• iPhone and iPad: the IPA is experimental and hasn't been installed on a device from the file itself yet (see above). On the iPhone 18 Pro Max, long sessions on a charger get it hot even at 1x, and Frame Rate Auto then drops to 30.\n• Going back to v0.1.4 works, but if you change a setting there, it forgets the keys set on the Controls page: back in v0.1.5 or later they are the defaults again.\n\n• Languages: the menus and the race text come from the disc's own files in ten languages. The movies and the speech (the police radio, the voices in the scenes) stay in the disc's language: English on the USA disc, Spanish on the PAL one. Fan translations aren't supported.\n• Mac: wired Xbox controllers don't rumble. macOS drives an Xbox One or Series controller connected by USB through its own controller framework, which never runs the motors. Pair it over Bluetooth for rumble (a DualSense rumbles either way).\n• Steering wheels are experimental. The Logitech G29 is the one tested, on a Mac. The steering feel is still being tuned (in sharp turns it can feel too quick), and wheel and split screen together haven't been tried. Force feedback isn't tested on SteamOS or Linux, and doesn't work with a G29 in its PS4 position, a G920 or a G923. If you have a wheel, a report with your wheel's model, working or not, would help a lot.\n• Split screen needs two controllers, and renders at most Auto's internal resolution. On a Steam Deck it holds 60 fps at Internal Resolution Auto (1x).\n• HDR on SteamOS, Linux and Windows was checked in its settings and logs, not yet on a real HDR screen there; on a Mac it was checked on an HDR display. A report from an HDR TV or monitor would help.\n• Smooth Motion is on Macs with a 120 Hz screen (measured on a MacBook Pro (M1 Pro) and a Mac Studio (M4 Max)) and on SteamOS and Linux PCs at 120 or 90 Hz (measured on a Steam Machine). Not on the Steam Deck, Windows, iPhone or iPad.\n\nReporting a bug:\n\n• Open the settings (F1; Back + Start on a controller; on a Steam Deck hold View and press Menu; on a Steam Frame press Menu + View; a three-finger tap on iPhone and iPad), go to Advanced and choose Save Bug Report.\n\nNever attach game files or disc images to an issue. CONTRIBUTING.md says how bug reports and pull requests are handled.\n\nThanks:\n\nTo siddharthkuradia and ZeroDarlingxx for the RenderDoc captures and for testing every variant of the AMD fix (#67), to agustinlopez9 for reporting the black grass (#54), to Nelson340 for the ultrawide shadows report and krittinen for spotting it at 16:9 (#81), and to everyone who reports how the game runs on their devices.\n\nLicense and legal:\n\nSpeedBreaker is free software under the GNU General Public License, version 3 or (at your option) any later version (GPL-3.0-or-later). Each download carries its license notices and every.\n\nIPA).\n\nThe complete source of the LGPL and GPL code by others in these downloads (FFmpeg with SpeedBreaker's patch and libmspack in all of them; the GNU C Library and GCC's runtime libraries in the x86-64 one) is attached below as SpeedBreaker-0.2.2-third-party-source.tar.xz.\n\n\"Need for Speed\" and \"Most Wanted\" are trademarks of Electronic Arts Inc. Steam, Steam Deck, Steam Machine, Steam Frame and SteamOS are trademarks of Valve Corporation. iPhone, iPad and macOS are trademarks of Apple Inc. All other trademarks belong to their respective owners. SpeedBreaker is a fan project by project(u), not affiliated with, endorsed by or sponsored by Electronic Arts Inc., the Need for Speed brand, Valve Corporation or Apple Inc. It contains no game data or assets, and is provided \"as is\", without warranty of any kind. No game files are included: you need a backup of your own USA (NTSC-U) or European (PAL) Spanish Xbox 360 disc.",
+          "downloadURL": "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.2/SpeedBreaker-0.2.2-ios.ipa",
+          "size": 27396679,
           "minOSVersion": "17.0"
         }
       ],
@@ -1665,7 +1662,6 @@
       "tintColor": "#1c72c4",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/movies.png",
         "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/series_details.png",
         "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/calendar.png"
       ],
@@ -1979,11 +1975,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.1",
-          "date": "2026-11-04T12:44:11Z",
+          "version": "1.1.2",
+          "date": "2026-11-04T17:22:05Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.1/Scripta-ios-unsigned.ipa",
-          "size": 12622316,
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.2/Scripta-ios-unsigned.ipa",
+          "size": 12634615,
           "minOSVersion": "14.0"
         }
       ],
@@ -2457,11 +2453,11 @@
       "tintColor": "#3b82f6",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-03-level-01.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-08-level-10.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-04-level-12.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-09-level-20.png",
-        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-05-level-24.png"
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-05-level-24.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-07-level-36.png"
       ],
       "versions": [
         {
@@ -2521,7 +2517,7 @@
           "version": "0.5.2",
           "date": "2026-11-01T18:57:57Z",
           "localizedDescription": "Please read this before playing. This update changes how you play again: menus now react to what you actually touch. Tap the button, row, arrow or icon you want, and swipe on the list or picker you want to move through. Tapping empty space no longer presses Accept, and swiping on empty space no longer moves the selection. You can bring back the 0.5.1 behaviour, or mix the two, with the switches listed under \"Your options\" below.\n\nMenus: touch what you want:\n\n• Tap buttons and hints. The on-screen button hints (Accept, Back, the LT/RT and LB/RB hints, the left/right and up/down arrows) are now buttons: tap one to press it.\n• Tap rows and events. Tapping a menu row, option or event selects it. Tap a selected event again to start it. Profiles are only selected by a tap; confirm with Accept so you cannot load the wrong one by accident.\n• Tap popup choices. Yes/No and other popup choices, including the alias confirmation, can be tapped directly.\n• Swipe where it scrolls. Swipe up or down on a list to move through it, and left or right on a selector or carousel. This covers the main lists, options, the save and profile lists, the Rap Sheet and its Rankings, the car category and car pickers, the track picker, the world map and the Blacklist (swipe on the rival's photo, or tap its up/down arrows). Keep your finger down to keep moving through entries.\n• Look around cars. Drag in the car showcase to turn the camera.\n• Startup. Tap to skip the startup movies and to get past Press Start.\n• Two fingers to go back. A short two-finger tap presses Back, as before.\n• Full gamepad. The PAD button still brings the complete on-screen gamepad back for a menu; a button on it returns to gestures.\n\nAll of these are in the launcher's Settings; the first three are also in the in-game settings and take effect right away:\n\n• Tap and swipe anywhere (off by default): on, a tap on empty space presses Accept and a swipe anywhere moves the selection, like 0.5.1. The new taps on buttons, rows and popup choices keep working.\n• Two-finger tap to go back (on by default): turn off if you trigger Back by accident. Independent of the switch above.\n• Invert menu swipes (off by default): reverses the swipe direction in menus. World-map dragging is not affected.\n• Swipe and tap in menus (on by default): off shows the full gamepad in menus instead of gestures, as before 0.5.0.\n\nPerformance and frame rate, live:\n\n• Switch performance profiles while playing. Eco, Balanced and Max now apply immediately from the in-game settings, without relaunching. Any explicit scheduling overrides you set are kept.\n• Change the frame-rate cap while playing. Switch between 30, 40, 60 and 120 fps in the in-game settings without relaunching. 40 and 120 appear only on 120 Hz displays and are no longer labelled experimental.\n\nAudio:\n\n• Keep your music playing. A new Audio setting lets music from other apps keep playing alongside the game.\n\nSHA-256 of NFS-Most-Wanted-0.5.2.ipa: 95acb5e31318fdae2237bad62b015fb0ae95484c494f3624babe2a5a70c74eeb.",
-          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.5.2/NFS-Most-Wanted-0.5.2.ipa",
+          "downloadURL": "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.5.2/NFSMW.ipa",
           "size": 30186591,
           "minOSVersion": "18.0"
         }
@@ -2833,11 +2829,11 @@
       ],
       "versions": [
         {
-          "version": "0.20.2",
-          "date": "2026-11-04T05:24:52Z",
-          "localizedDescription": "[0.20.2] — 2026-11-04:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.20.2，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.20.2/maestro-mobile-unsigned-0.20.2.ipa",
-          "size": 9660297,
+          "version": "0.20.3",
+          "date": "2026-11-04T14:34:29Z",
+          "localizedDescription": "[0.20.3] — 2026-11-04:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.20.3，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.20.3/maestro-mobile-unsigned-0.20.3.ipa",
+          "size": 9660234,
           "minOSVersion": "15.1"
         }
       ],
@@ -3155,8 +3151,7 @@
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Persona%204%20Golden.png",
-        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/VA-11%20HALL-A.png",
-        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Amagami%20Ebikore+.png"
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/VA-11%20HALL-A.png"
       ],
       "versions": [
         {
@@ -4039,7 +4034,7 @@
       "name": "Kikoto",
       "bundleIdentifier": "com.yexca.kikoto",
       "developerName": "yexca",
-      "subtitle": "A local personal DLsite audio library, source browser, and player",
+      "subtitle": "Your Doujin voice works, in one library. A local personal DLsite voice works library, and player",
       "localizedDescription": "Kikoto keeps one entry per work, keyed by its product code, and attaches DLsite-style metadata, local folders, a rebuildable cache, and Kikoeru-compatible remote sources to it. It runs on your own server and opens in any browser and in the Android and iOS apps.\n\nKikoto is self-hosted software only and provides no service or content. It is designed solely for DLsite works you have purchased yourself; see the Disclaimer.\n\nFeatures:\n\nScans, syncs, file edits, and AI tasks run as workflows you can follow in Activity, roles decide who may browse, fetch, edit, and administer, and all state lives in one SQLite database. The APK and IPA for the apps are attached.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.yexca.kikoto.png",
       "tintColor": "#db9a9d",
@@ -4377,21 +4372,24 @@
       "subtitle": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project",
       "localizedDescription": "XeniOS is an experimental Apple-focused fork of Xenia, currently based on Xenia Edge. It exists as a fast-moving place to develop, test, and ship iOS and macOS work while also carrying platform changes that benefit ARM64 Windows, Linux, and Android. Relevant improvements are intended to flow back upstream over time.\n\nCurrent Focus:\n\n• macOS (Apple Silicon).\n• macOS (Intel).\n\nCurrent published releases focus on iOS and macOS. For Windows or Linux builds, use Xenia Edge or Xenia Canary.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.xenios.jp.png",
-      "tintColor": "#8d6f32",
+      "tintColor": "#91733b",
       "category": "games",
       "versions": [
         {
-          "version": "2.0.1",
-          "date": "2026-06-08T04:29:36Z",
-          "localizedDescription": "2.0.1-9730:\n\n• Stage: stable.\n• Version: 2.0.1.\n• Build number: 9730.\n• Commit: 57c3ca140.\n• Published at: 2026-06-08T03:28:01Z.\n• Source ref: refs/heads/xenios.",
-          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
-          "size": 46253576,
-          "minOSVersion": "18.0"
+          "version": "2.2",
+          "date": "2026-11-04T16:21:31Z",
+          "localizedDescription": "XeniOS 2.2:\n\nFirst release since 2.0.1. It pulls in five months of Xenia Edge changes and reworks most of the app.\n\nMany more games now render correctly and are playable than in 2.0.1. If a game didn't work for you before, try it again.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\nEmulation:\n\n• Reworked Metal backend and faster ARM64 CPU emulation, with a long list of graphics, audio and kernel fixes from Xenia Edge.\n• General performance and rendering improvements.\n• Fixed a cause of crackling audio on iPhone.\n• Audio comes back after calls, Siri, alarms and headphone changes.\n• Shaders compile in the background and are cached for the next launch. The ones a game needs first are built first. A small indicator shows when shaders are compiling (Settings › Display to hide it).\n• Games that launch another game, or another part of themselves, stay inside XeniOS.\n• Multi-disc games: when a game asks for another disc, you pick it from that game's discs in your library.\n\nApp:\n\n• New Library, game page, Settings, Profiles, Online screen, pause menu, touch layout editor and JIT setup sheet.\n• Controller navigation everywhere: the Library, game pages, Settings, sheets and alerts.\n• A launch screen replaces the black screen while a game starts. If a step hangs, a Cancel button appears.\n• The in-game menu has a Pause Emulator button. Otherwise the game keeps running behind the menu, so System Link sessions don't stall. XeniOS still pauses when you leave the app, lock the device or take a call.\n• Imports, add-ons and title updates copy in the background, with progress and a free-space check.\n• The library shows instantly on launch and refreshes in the background.\n• Linked folders survive renames, moves and remounts. Add-ons can be installed from them.\n• Settings are searchable, save as you change them, and keep only what you changed. Reset All Settings keeps your signed-in profiles.\n• A bigger default move stick. Saved touch layouts keep their old size.\n• After a crash, XeniOS offers to share the log with your folder names stripped out.\n• 120 Hz menus on ProMotion iPhones, Game Mode in games, and a warning when the device gets hot.\n• VoiceOver works with the touch controls and most screens.\n• Links from other apps that launch a game or read your library ask first.\n\nExperimental:\n\nBoth of these are early. Expect bugs and please report them.\n\n• XeniOS can send anonymous crash reports and performance stats (frame rate, load times). No files, names or Apple Account. Turn it off in Settings › Privacy › Share Diagnostics. Details: xenios.jp/privacy.\n\n• iOS / iPadOS 26 or later.\n• Installing over the official 2.0.1 keeps your games, saves and settings. Each game rebuilds its shaders on first launch, so that first launch is slower.\n\nKnown issues:\n\n• Online System Link and the Xbox 360 Dashboard are experimental.\n\nBuild details:\n\n• Stage: stable.\n• Version: 2.2.\n• Build number: 11445.\n• Commit: b0efa167c.\n• Published at: 2026-11-04T15:34:43Z.\n• Source ref: refs/heads/xenios.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2-build-11445/xenios_ios_iphone_ipad.ipa",
+          "size": 48315034,
+          "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "System Link uses your local network to play with other devices running XeniOS or Xenia, and with an XLink Kai engine on your network.",
+          "NSMotionUsageDescription": "Head tracking adjusts spatial audio to your head movement when using the PHASE audio backend with supported headphones."
+        }
       }
     },
     {
@@ -4480,34 +4478,6 @@
           "NSPhotoLibraryUsageDescription": "Allow access to share photos from your camera roll.",
           "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
           "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
-        }
-      }
-    },
-    {
-      "name": "Wyrm",
-      "bundleIdentifier": "com.omrajput.wyrmios",
-      "developerName": "disis-om",
-      "subtitle": "Wyrm for iOS — SwiftUI product surfaces over the original C engine. iOS 15+",
-      "localizedDescription": "Status:\n\n• The IPA is unsigned. Players sign and install it themselves with AltStore, SideStore, KSign or ESign. TestFlight and App Store distribution are not set up.\n\nFeatures:\n\n• Native Snakey Rain controller in Loadout: public or personal login, character and compatible skin/tag/accessory editors, 14 modes, live settings, and an arena panel dragged by its bottom handle and fitted to the screen. Character patterns keep palette, colour-wheel and Wyrm bead colours in every preview. Panel text/border and fill colours are adjustable. Settings are shared with Android; credentials and private bot tag codes remain in this phone's Keychain. Device bot spawn and full browser-extension parity remain unverified.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.omrajput.wyrmios.png",
-      "tintColor": "#6058e8",
-      "category": "games",
-      "versions": [
-        {
-          "version": "2.4.8",
-          "date": "2026-11-02T23:05:22Z",
-          "localizedDescription": "minor bugs fixes.",
-          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.4.8-build-153/Wyrm-2.4.8-build-153.ipa",
-          "size": 60487211,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "Wyrm uses the camera when you take a photo or record a video for a trail.",
-          "NSMicrophoneUsageDescription": "Wyrm records sound with the videos you make for a trail.",
-          "NSPhotoLibraryUsageDescription": "Wyrm shows your photos and videos so you can pick one for a trail."
         }
       }
     },
@@ -4936,11 +4906,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.6.6",
-          "date": "2026-11-02T15:40:03Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nA map selector:\n\nGo straight to any of the 14 maps and skate it freely, as after the story — no timer, nothing to race or chase. On the Mac and Windows it's the Maps menu; on iPhone and Android, Go to a map in the settings; F6 on Windows and Linux shows the list on screen (up/down, A or Return to go, B or Esc to close). Choose a map while skating, or at the title screen: it goes there once you press Start.\n\nThese are the game's last missions: if the game offers to save while you explore, say no — or keep a copy of your save — so your story progress stays where it was.",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.6/JSRF-Unleashed-iOS.ipa",
-          "size": 13403479,
+          "version": "0.6.7",
+          "date": "2026-11-04T13:36:45Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nVibration, as on the console:\n\nYour controller now vibrates the way the Xbox pad did — an Xbox, PlayStation (DualSense, DualShock 4, by cable or Bluetooth) or other controller, on every platform. On iPhone and Android, playing with the on-screen controls, the phone itself vibrates.\n\nDon't want it? Controls › Vibration on the Mac and Windows, Vibration in the settings on iPhone and Android, or vibration=0 in the settings file on Linux.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.7/JSRF-Unleashed-iOS.ipa",
+          "size": 13406655,
           "minOSVersion": "15.0"
         }
       ],
@@ -4993,11 +4963,11 @@
       ],
       "versions": [
         {
-          "version": "1.65.4",
-          "date": "2026-10-30T19:41:29Z",
-          "localizedDescription": "Correctifs de la recherche vocale.\n\nmacOS.\n\n• Appuyer sur le micro de la recherche ne fait plus planter l'application: macOS demande désormais l'accès au micro et à la reconnaissance vocale, puis la dictée remplit le champ.\n\nFire TV.\n\n• La mise à jour Fire OS 8.1.8.5 d'Amazon a retiré la reconnaissance vocale pour les applications tierces. L'appui sur le micro affiche maintenant un message qui l'explique, au lieu de faire disparaître le bouton sans un mot.\n\nRecherche.\n\n• La recherche IA retrouve un titre de votre catalogue même quand votre fournisseur l'écrit avec une ponctuation différente (apostrophe, tiret, espace).\n\n🐛 Corrections:\n\n• search — smart search finds a catalog title spelt with other punctuation.\n• search — explain on Fire OS why voice search is gone instead of hiding the mic silently [apk].\n• macos — voice search killed the app — missing microphone/speech usage descriptions.\n• backend — refuse Brotli decompression (CVE-2026-111497, Node 20 EOL).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/MayaIPTV-iOS.ipa",
-          "size": 30527314,
+          "version": "1.65.5",
+          "date": "2026-11-04T14:47:48Z",
+          "localizedDescription": "Maya IPTV 1.65.5.\n\nRecherche.\n\n• Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné: ils restent accessibles depuis leur catégorie dans les onglets.\n• Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental.\n\n• Stalker: un code parental différent de celui du portail ne vide plus les catégories de chaînes; seules les chaînes censurées restent retenues.\n• Mode Direct (Xtream): la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.\n\n🐛 Corrections:\n\n• stalker — un code parental inconnu du portail ne vide plus toutes les catégories du direct.\n• backend — marquer les éléments adultes par leur catégorie, avec ou sans code parental.\n• search — la recherche n'affiche plus le contenu adulte ni les catégories masquées, sur tous les chemins [apk].",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/MayaIPTV-iOS.ipa",
+          "size": 30533403,
           "minOSVersion": "15.0"
         }
       ],
@@ -5295,11 +5265,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.5",
-          "date": "2026-11-03T23:41:51Z",
-          "localizedDescription": "tangoAW2 0.9.5: ten more Gauntlet maps, records, one army screen.\n\nNew.\n\n• Gauntlet: ten new maps, twelve in all:.\n\n• Dustwind Basin: Koal, Lash.\n• Brass Canal: Sasha, Javier.\n• Tidewater Atoll: Eagle, Adder.\n• Silverpine Ford: Hachi, Sonja.\n• Granite Spine: Jake, Grimm, Von Bolt.\n• Neon Row: Colin, Kindle, Jugger.\n• Harvest Run: all of Orange Star.\n• Chrome Meridian: Flak, then Silver Nova's Caulder, Lili and Tabitha.\n• Blue Bastion: all of Blue Moon in a moated castle.\n• Last Eclipse: Sturm, Von Bolt, Aria and Asuka in a Black Hole fortress of pipe walls, seams and minicannons.\n\n• Gauntlet: the map list is sorted by the number of enemies, fewest at the top, and has room for 32 maps.\n• Gauntlet: press R on the map list for your top five runs on that map, like the War Room.\n• Gauntlet: one army screen, like Versus' Teams screen. Pick your CO with Up/Down and your colour with R; the enemies are shown as computer armies.\n\nChanged.\n\n• Caulder's portrait faces the same way as the other COs.\n\nFixed.\n\n• When a Gauntlet line falls, every speaker's lines now show, and the first box is no longer drawn over with stray letters.\n• Faces in speech boxes no longer take a washed-out tint of your army's colour on five-army maps.\n• On five-army Gauntlet maps, the CO you pick now leads your army.\n• Capturing the last HQ on a five-army map is a win (it counted as a loss).\n• Silver Nova enemies fight battle scenes in Silver Nova's colours.\n• Online peers must all run 0.9.5 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.5/tangoaw2-0.9.5-ios.ipa",
-          "size": 32841473,
+          "version": "0.9.6",
+          "date": "2026-11-04T15:51:53Z",
+          "localizedDescription": "tangoAW2 0.9.6: Silver Nova's real voices, the secret mission's navies, cleaner Gauntlet scenes.\n\nChanged.\n\n• Silver Nova Campaign and the BH2 secret mission: Caulder, Lili and Tabitha speak in their own voices. Caulder is a cold scientist, Lili a giggling child with her Mr. Bear, and Tabitha a cruel, spoiled daughter who sneers, threatens and insults.\n• Gauntlet: Chrome Meridian's arrival lines are in the same three voices.\n\nFixed.\n\n• Gauntlet: when a line falls, the game's \"The. Army has lost!\" message no longer scrambles the first box of the arrival scene. The scene opens with that message in a box of its own, then the COs speak.\n• The Black Factory no longer builds Artillery or Rockets on a door the enemy can reach, even when every other choice is poor.\n• Online peers must all run 0.9.6 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.6/tangoaw2-0.9.6-ios.ipa",
+          "size": 32851529,
           "minOSVersion": "16.0"
         }
       ],
@@ -5358,11 +5328,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.1",
-          "date": "2026-11-03T00:05:14Z",
-          "localizedDescription": "vkQuake 1.2.1 adds mouse and keyboard play on iPad (and iPhone).\n\nWhat's new:\n\n• Mouse + keyboard hides the touch controls. With both a mouse and a hardware keyboard connected, the on-screen stick and buttons get out of the way, the same as with a game controller. A mouse alone keeps the touch stick for movement.\n• Hardware-keyboard Enter / Backspace / ~ in the console no longer fire twice.\n\nKnown limitation: external displays still show the game rotated; that is a separate issue.\n\nAdd one URL to SideStore / AltStore and vkQuake installs and updates itself when new versions ship:\n\n• iPhone / iPad: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json (All ports).\n• Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json (All ports).\n\nOr download and sideload manually:\n\n• vkQuake-1.2.1-iOS.ipa — iPhone / iPad (iOS 16+).\n• vkQuake-1.2.1-visionOS.ipa — Apple Vision Pro (visionOS 2+).",
-          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.2.1/vkQuake-1.2.1-iOS.ipa",
-          "size": 5287803,
+          "version": "1.2.3",
+          "date": "2026-11-04T20:19:42Z",
+          "localizedDescription": "vkQuake 1.2.3: fixes the console spam on every mouse click introduced in 1.2.2.\n\nAdd one URL to SideStore / AltStore and vkQuake installs and updates itself when new versions ship:\n\n• iPhone / iPad: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json (All ports).\n• Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json (Quake ports) or https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json (All ports).\n\nOr download and sideload manually:\n\n• vkQuake-1.2.3-iOS.ipa — iPhone / iPad (iOS 16+).\n• vkQuake-1.2.3-visionOS.ipa — Apple Vision Pro (visionOS 2+).",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.2.3/vkQuake-1.2.3-iOS.ipa",
+          "size": 5327779,
           "minOSVersion": "16.0"
         }
       ],
@@ -6022,7 +5992,6 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-gameplay.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-empire-map.jpg",
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-advisors.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-campaign.jpg"
       ],
       "versions": [
@@ -6863,7 +6832,7 @@
           "date": "2026-11-03T19:11:04Z",
           "localizedDescription": "Added:\n\n• The reader can have a theme of its own: Settings › Appearance, \"Its own theme in the reader\". The library, Feeds and Settings keep the app's theme; the theme in the reader's Aa sheet then changes the reader's.\n• The app's version shows in small text at the bottom of the sidebar.\n\nChanged:\n\n• Discover: Tapas is search only. Its lists don't give the app anything to read; pick Comics or Novels and search.\n\nFixed:\n\n• Discover: FanFiction.net and FictionPress lists show their stories again when the phone gets their mobile site (it said \"no stories were found\" for most fandoms and categories).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.52.1/Waypage.ipa",
-          "size": 10718790,
+          "size": 10719664,
           "minOSVersion": "15.5"
         }
       ],
@@ -8532,7 +8501,6 @@
       "tintColor": "#7e5dfd",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-home.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-library.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-title.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-episodes.png"
@@ -8760,7 +8728,6 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_01.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_02.webp",
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_03.webp",
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_04.webp"
       ],
@@ -9707,7 +9674,7 @@
       "bundleIdentifier": "io.github.thatguymcd.dkrr.ios",
       "developerName": "ThatGuyMcd",
       "subtitle": "Diddy Kong Racing - Recompiled (By ThatGuyMcd)",
-      "localizedDescription": "DKR-R v1.0.12 Release Build:\n\nI've worked on making modded lobbies quicker to join and tidied up the Online menus. Friends now have compact cards, profile pictures can be changed, and Online and the Mod Store share one display name. Steam Deck can remember your Discord sign-in without a desktop keyring. The FOV slider also works live now. All the existing memory, HUD and spectator fixes are kept.\n\nYour saves, mods and settings can stay. Please use the complete v1.0.12 package on every machine in an Online lobby.\n\nDKR-R is a native static recompilation of Diddy Kong Racing. Bring your own legally obtained US v1.0 or US Rev A/v1.1 ROM. No ROM or extracted game assets are supplied.",
+      "localizedDescription": "DKR-R v1.0.14:\n\nI've worked on the online input delay, joining and frame pacing, and brought the launcher and in-game overlay together so the same pages work in both. There are new display options, automatic seasonal themes, launcher languages, optional analogue driving and controller feedback settings. Custom cars and the road wheels on custom characters now respond to lighting properly too.\n\nPlay fades into the new Starting Game screen, with mod progress underneath the logo. Online uses the same design while everyone syncs. Linux now requests GPU acceleration for the launcher, with a software fallback when needed.\n\nYour saves, mods and settings can stay. Use the complete v1.0.14 package on every machine in an online lobby. See the full release notes and changelog for everything since v1.0.12.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.thatguymcd.dkrr.ios.png",
       "tintColor": "#37a4ad",
       "category": "games",
@@ -10182,11 +10149,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.120",
-          "date": "2026-11-03T18:34:31Z",
+          "version": "0.8.121",
+          "date": "2026-11-04T17:52:54Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.120/NicotinD-0.8.120-unsigned.ipa",
-          "size": 1578680,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.121/NicotinD-0.8.121-unsigned.ipa",
+          "size": 1583412,
           "minOSVersion": "15.0"
         }
       ],
@@ -10438,11 +10405,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.70",
-          "date": "2026-11-03T22:28:10Z",
-          "localizedDescription": "• Series: nuevos botones de capítulo anterior y siguiente junto a pausa y los saltos de 10 segundos, en las series de addons y de listas.\n• Al salir del reproductor con «atrás» después de ver un capítulo, ahora se vuelve al listado de capítulos y no a la pantalla de inicio.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.70/InputStreamPlayer-iOS-0.9.70-124-unsigned.ipa",
-          "size": 17328219,
+          "version": "0.9.72",
+          "date": "2026-11-04T19:57:48Z",
+          "localizedDescription": "Emisiones en iOS: la barra superior y los filtros de grupos ahora tienen el mismo degradado suave y transparente que el resto de pantallas, sin cortes.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.72/InputStreamPlayer-iOS-0.9.72-126-unsigned.ipa",
+          "size": 17333033,
           "minOSVersion": "16.0"
         }
       ],
@@ -10727,7 +10694,6 @@
       "tintColor": "#6058e8",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/home.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/library.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/detail.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/player.png"
@@ -10771,10 +10737,10 @@
       "versions": [
         {
           "version": "0.5.6",
-          "date": "2026-11-01T14:39:50Z",
-          "localizedDescription": "VortX 0.5.6 beta 11 - AetherEngine on every Apple device and Trakt that stays signed in:\n\nBuild 282 for Apple TV, iPhone, iPad and Mac. The AetherEngine player to try now comes to iPhone, iPad and Mac as well as Apple TV. Trakt stays signed in on every device you use, and Trakt Continue Watching reaches the Apple TV Top Shelf after re-signing.\n\nNew:\n\n• AetherEngine on iPhone, iPad and Mac, to try. The second player from Apple TV, using the device's own video decoding and display, now runs on iPhone and iPad with iOS 18 or later and on Mac with macOS 15 or later. Choose it under Settings \u003e Playback \u003e Player engine, or for one title from the player menu on its sources. Auto stays the default, and older systems keep the same app without the choice. If AetherEngine cannot play a source, VortX Player takes over on the same source from the same moment. The in-player engine menu shows when AetherEngine is playing and switches to VortX Player or AVPlayer. Picture-based (PGS) subtitles are not drawn with it yet.\n\nAndroid:\n\nAndroid stays on the 0.5.6 beta 7 packages for now. Its release build stopped at an account-sync check, and it ships as soon as that passes.\n\nPlease test:\n\n• Try AetherEngine on an iPhone, iPad or Mac on a few sources you know well, including Dolby Vision and Atmos titles, and compare it with VortX Player.\n• If you use Trakt on more than one device, check that every device keeps syncing over a few days.\n• On Apple TV after AltStore or SideStore, check that the Top Shelf follows your Trakt Continue Watching.\n\nThis is a prerelease for testing. Update using the same platform and variant to preserve your app identity and saved data. Apple IPAs require compatible sideload signing; the Apple-silicon Mac app is ad-hoc signed and is not notarized. Device playback, focus, audio routes and signing capabilities remain part of testing.\n\nMac (.dmg). Download VortX-macOS-v0.5.6-beta.11-ci.dmg and drag VortX into Applications. If macOS blocks the app downloaded from this official release, use System Settings \u003e Privacy \u0026 Security \u003e Open Anyway, or run:\n\nAndroid phone, tablet and TV. Keep using the 0.5.6 beta 7 APKs.\n\nAll four packages are built by the public release workflow from v0.5.6-beta.11. SHA256SUMS.txt lists the package checksums, and VortX-Hosted-Direct-Beta-Provenance.json records the source, build and package verification details.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.11/VortX-iOS-v0.5.6-beta.11-ci.ipa",
-          "size": 68623787,
+          "date": "2026-11-04T12:19:29Z",
+          "localizedDescription": "Build 283 for Apple TV, iPhone, iPad, Mac, and Android. This beta adds recovery tools where you need them most, on the profile picker, and improves how AetherEngine resumes playback and handles subtitles.\n\nRecover an account before opening a profile:\n\n• Repair saves a separate encrypted file. It checks a supported legacy backup for the signed-in account and prepares a new copy for you to review and save. Keep the original file as a fallback.\n• Restore asks before replacing the account’s cloud backup. If the response is uncertain, use the verification action to check the earlier attempt. The app keeps track of that attempt so you can return to it.\n• On Apple TV, choose a backup action in Tools, then scan its QR code with a phone on the same trusted local network to move a backup file. Review and confirm any restore on the TV. On Android, file actions use the system file picker where available. To start a restore on an eligible Android 14 or later device, choose Sign in for backup recovery in Tools.\n• Tools and account controls stay available during profile loading. The Android TV picker keeps Tools and the account button available while profiles are loading or unavailable. Existing profile PIN and diagnostic-sharing rules still apply.\n\nPlayback and sources:\n\n• AetherEngine on Apple can be selected from the player settings. It carries your resume point when opening or switching players, and its subtitle selection and rendering now use the current playback session.\n• Subtitle add-ons on Apple can be retried when a request fails. Available results from successful add-ons stay visible while a failed one retries.\n\nDownloads:\n\nApple TV comes in Full and Lite. Apple IPAs need compatible sideload signing. The Mac build is for Apple silicon and ships with an ad hoc signature, without notarization. Android comes in Full with mpv and Play with Media3. Update with the same platform and variant to keep the app identity.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.12/VortX-iOS-v0.5.6-beta.12-ci.ipa",
+          "size": 69414677,
           "minOSVersion": "16.0"
         }
       ],
@@ -12007,8 +11973,8 @@
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/duets.webp",
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/player.webp",
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/styles.webp",
-        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/romanization.webp",
-        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/artwork.webp"
+        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/line-menu.webp",
+        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/simple.webp"
       ],
       "versions": [
         {
@@ -12561,22 +12527,24 @@
       "bundleIdentifier": "com.nathanhanapps.styleport",
       "developerName": "nathanatgit",
       "subtitle": "This is a personal repo for porting new Photographic Styles in iPhone to older model below 15",
-      "localizedDescription": "Photographic Style Port:\n\nCurrent version: v0.7.3.\n\nThis is an experimental tool that takes a HEIC from an iPhone older than the iPhone 16 (iPhone 15, 14, 13 … — any model whose photos match a supported tile layout) and adds the metadata an iPhone 16/17 photo carries, so that Apple Photos offers the Photographic Styles palette on it (风格 in Chinese; Apple calls the palette 调色板).\n\nSince v0.5 it also adds the iOS 27 Texture/Grain controls (质感/颗粒) that Apple introduced with the iPhone 18 Pro. Ported photos get them as part of the port; native iPhone 16/17 photos get only these controls, and their existing image data stays byte-identical.",
+      "localizedDescription": "Photographic Style Port:\n\nCurrent version: v0.7.5.\n\nThis is an experimental tool that takes a HEIC from an iPhone older than the iPhone 16 (iPhone 15, 14, 13 … — any model whose photos match a supported tile layout) and adds the metadata an iPhone 16/17 photo carries, so that Apple Photos offers the Photographic Styles palette on it (风格 in Chinese; Apple calls the palette 调色板).\n\nSince v0.5 it also adds the iOS 27 Texture/Grain controls (质感/颗粒) that Apple introduced with the iPhone 18 Pro. Ported photos get them as part of the port; native iPhone 16/17 photos get only these controls, and their existing image data stays byte-identical.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nathanhanapps.styleport.png",
       "tintColor": "#519c86",
       "category": "photo-video",
       "versions": [
         {
-          "version": "0.7.1",
-          "date": "2026-10-21T19:31:21Z",
-          "localizedDescription": "New Contributors:\n\n• @lzh20025 made their first contribution.",
-          "downloadURL": "https://github.com/nathanatgit/Shalielie/releases/download/v0.7.1/Palettify-unsigned.ipa",
-          "size": 2942357,
+          "version": "0.7.5",
+          "date": "2026-11-04T19:31:04Z",
+          "localizedDescription": "New Contributors:\n\n• @joy-0220-yoj made their first contribution.",
+          "downloadURL": "https://github.com/nathanatgit/Shalielie/releases/download/v0.7.5/Palettify-unsigned.ipa",
+          "size": 47189085,
           "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "Palettify saves the styled photos to your library.",
           "NSPhotoLibraryUsageDescription": "Palettify reads the original HEIC and Live Photo video of the photos you style, and replaces them when you ask it to."
@@ -12771,7 +12739,6 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/open-portrait.png",
-        "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/tabletop.png",
         "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/closed-outer.png"
       ],
       "versions": [
@@ -12976,11 +12943,11 @@
       "tintColor": "#d7313f",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/media/screenshots/anki-card-export.webp",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-shelf.jpg",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-lookup.jpg",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/anime-lookup.jpg",
-        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/novel-lookup.jpg"
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/novel-lookup.jpg",
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/dictionary.jpg"
       ],
       "versions": [
         {
@@ -13173,11 +13140,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.1.2",
-          "date": "2026-10-06T15:09:32Z",
+          "version": "1.1.3",
+          "date": "2026-11-04T13:39:17Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/icnahom/sqzd/releases/download/v1.1.2/app.ipa",
-          "size": 45646432,
+          "downloadURL": "https://github.com/icnahom/sqzd/releases/download/v1.1.3/app.ipa",
+          "size": 45654726,
           "minOSVersion": "15.0"
         }
       ],
@@ -13669,33 +13636,6 @@
       }
     },
     {
-      "name": "TwitchUnblock",
-      "bundleIdentifier": "com.mxfia19.TwitchUnblock",
-      "developerName": "MXFia19",
-      "subtitle": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and",
-      "localizedDescription": "🟣 TwitchUnblock:\n\nTwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality. Native iOS app built with SwiftUI — also available in your browser.\n\n🤖 Vibe-coded project. TwitchUnblock is built with AI coding assistants (prompted, reviewed and tested by a human). Expect rough edges: bug reports on Discord help a lot.\n\nInstall it and it works. There is nothing to configure, no server to set up, no key to paste. The backend is already hosted and shared by every install.\n\n📲 Installation:\n\nTwitchUnblock isn't on the App Store, so it has to be sideloaded.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mxfia19.TwitchUnblock.png",
-      "tintColor": "#9b5ab8",
-      "category": "other",
-      "versions": [
-        {
-          "version": "1.7.0",
-          "date": "2026-10-30T23:30:06Z",
-          "localizedDescription": "Automatic build of the master branch on 2026-10-30.\n\n• Going back in a live (−10 s or the bar) now plays at your chosen speed, up to 2×, to catch up, then back to 1× at the live edge; the speed is also in the player's ⋯ menu during a live.\n• The player no longer shows your VOD speed next to the timer during a live when it doesn't apply.\n• Rewinding into a live's recording now brings back your chosen playback speed once you're away from its edge, instead of staying at 1×.\n• Apple's player now drops to 1× near the edge of a live recording and shows it, instead of a 2× that didn't actually play.\n• The player now checks the speed it really plays at: it applies it again, then shows the real speed if playback still can't keep up.\n\n• If you had ntfy on, the app tells you once and stops the server from posting to your topic: you can uninstall ntfy.\n\n• A live paused by your AirPods, earphones or iOS and resumed from them or the lock screen now picks up at the live edge instead of where it stopped.\n• iPhone Duo: the full-size player in landscape now hides the status column on the side, so the video fills the display.\n• The player's rotate button goes away when iOS doesn't let the app turn the screen (apps in a window, as on the iPhone Duo's inner display).\n• Live: three more sources to pick in Settings → Player (PerfProd Asia, Albania proxy 2, Luminous Europe 2); if you change nothing, each one is tried right after its neighbor.\n• New Background playback setting: keep playing, audio only or pause when the screen locks or you switch apps.\n• Stream archives show the real time of day of each moment, and ⋯ → Go to a time of day jumps to it.\n\n• The higher-quality and account notices now show only once.\n• Update now opens a help page for every installer when Feather, SideStore or AltStore isn't found.\n• A brief Twitch error at launch no longer signs you out of the web session.\n• Signing out of the web session without an app account now lets you sign in with another account.\n• Lists are no longer hidden behind the mini player and the multi-live bar.\n• Picture in Picture now follows raids and the next VOD of Play all instead of closing.\n• Apple TV: Menu now closes an open category instead of quitting the app.\n• Fixed: a live could be wrongly reported as \"not available in your region\".\n• Vertical video: going back now returns to the ad-free source, and drops keep progressing while the vertical picture plays.\n\n• The player's bottom bar no longer squeezes the live's duration when there are many buttons (vertical video): the buttons move to a second row.\n\n• Vertical streams: when a streamer also sends Twitch a vertical picture (Dual Format: mobile games, IRL), a ▯ button in the player switches to it, like in the Twitch app. The choice is remembered.\n• A live that Twitch keeps to some countries now says so (“not available in your region”) instead of “No source answered”.\n• The quality menus now show Source with its resolution, like “1440p (Source)” or “1080p60 (Source)”, when the stream provides it.\n• Pinch to zoom in the app's player now zooms right where you pinch, and moving both fingers while pinching moves the picture, like the Twitch app.\n• The Live Activity and Now Playing now step aside when another app takes the sound or the video stays paused in the background, so tapping the Dynamic Island opens the app that's actually playing (e.g. Spotify).\n• Channel points: when an ad blocker or filtering DNS blocks Twitch's watch-time address, the watched minute goes through the TwitchUnblock server so passive points and chests still count.\n• Wide windows (iPhone Duo's inner display in landscape, iPad): the tab bar becomes a column of tabs on the left, leaving the whole height to the content; it follows your tab order and hidden tabs.\n\n• Large screens: grids of lives, VODs, clips and categories show more, smaller tiles (3 columns in portrait and 4 in landscape on the iPhone Duo's inner display, up to 5 on iPad) instead of two giant ones.\n• iPhone Duo: the header, grids, tab bar and tour bubbles no longer slide under iOS's status column on the outer display and on the inner display in landscape.\n• New setting \"PiP when leaving the player\" (Settings → Player, off by default): swiping a live stream or VOD down, or tapping back, opens it in Picture in Picture instead of the mini player.\n• Picture in Picture: starting it now shrinks the player so you can keep using the app, instead of leaving a black full-screen player to close.\n• Picture in Picture: the window's expand button now brings the player back full size, on the same video.\n• A channel's bot commands (Nightbot, StreamElements, Fossabot, Moobot) are now on its channel page too, so they can be checked while the channel is offline.\n\n• Settings: the app no longer crashes when opening Settings on iOS 18.\n• Logs are now fully in the app's language: categories, settings changes and details built while the app runs no longer stay in French.\n• Settings → General: the language list moved to its own page (App language), like iOS's settings.\n• Swipe from the left edge to go back in Settings, from a category's live channels and from a channel opened from search results.\n• When the tool that installed the app doesn't allow changing its icon (LiveContainer, GBox…), Settings now says so instead of offering icons that fail.\n• Followed categories can use compact covers (3 per row, 4 on iPad) and be sorted A → Z, in Settings → General → Customize the app.\n• In landscape, the full-size player (app's or Apple's) and multi-live now let the home indicator fade after a few seconds, like video apps, instead of keeping it over the picture.\n• Multi-live: tap a tile's speaker to hear several videos at once, and long-press it for that tile's volume; tapping a tile still makes it the only one you hear.\n\n• Traditional Chinese interface language (thanks to trend0522).\n\n• Importing a backup asks Everything or Channels only, then lists what was restored.\n• Long-press a video in Continue watching to resume it or remove it from the list.\n• Settings → About shows the build number next to the version (tap to copy).\n• When an install tool put an old build under the latest version's number, the update alert explains how to reinstall and links to the right IPA.\n\n• Other improvements and fixes.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/nightly-378/TwitchUnblock.ipa",
-          "size": 4486034,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "This app doesn't use the camera.",
-          "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
-        }
-      }
-    },
-    {
       "name": "Cupola",
       "bundleIdentifier": "com.matthwlabs.cupola",
       "developerName": "matthw-labs",
@@ -13762,7 +13702,7 @@
       "bundleIdentifier": "org.floeagent.ios",
       "developerName": "JiangNanGenius",
       "subtitle": "Your models. Your files. Your machines",
-      "localizedDescription": "Get started:\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
+      "localizedDescription": "Get started:\n\n·.\n\nThe iOS setup guide offers four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users.\n\nFeatures:\n\nCloud model requests go directly to your chosen provider; supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy. See security.\n\nSee Floe at work:\n\nRecorded on iOS; the Android alpha already includes chat, Office, files, terminal, IDE and network-diagnostic workflows and keeps growing.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.floeagent.ios.png",
       "tintColor": "#3665ed",
       "category": "other",
@@ -13799,6 +13739,33 @@
           "NSPhotoLibraryUsageDescription": "Floe opens your photo library only when you choose an image for a task.",
           "NSRemindersFullAccessUsageDescription": "Floe accesses reminders only when you ask the agent to read or edit them.",
           "NSSpeechRecognitionUsageDescription": "Floe converts your speech into text for the message composer."
+        }
+      }
+    },
+    {
+      "name": "TU Test",
+      "bundleIdentifier": "com.mxfia19.TwitchUnblock.test",
+      "developerName": "MXFia19",
+      "subtitle": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and",
+      "localizedDescription": "🟣 TwitchUnblock:\n\nTwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality. Native iOS app built with SwiftUI — also available in your browser.\n\n🤖 Vibe-coded project. TwitchUnblock is built with AI coding assistants (prompted, reviewed and tested by a human). Expect rough edges: bug reports on Discord help a lot.\n\nInstall it and it works. There is nothing to configure, no server to set up, no key to paste. The backend is already hosted and shared by every install.\n\n📲 Installation:\n\nTwitchUnblock isn't on the App Store, so it has to be sideloaded.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mxfia19.TwitchUnblock.test.png",
+      "tintColor": "#9b5ab8",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.7.11",
+          "date": "2026-11-04T16:52:34Z",
+          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-04.\n\n• Every category shows its viewer count again (Top, search and followed), not only the ones followed on your Twitch account.",
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-389/TwitchUnblock.ipa",
+          "size": 4568792,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This app doesn't use the camera.",
+          "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
         }
       }
     }
