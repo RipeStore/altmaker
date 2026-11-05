@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.rebelancap.vkquake",
-    "com.InputStreamPlayer",
-    "com.nathanhanapps.styleport"
+    "app.recly",
+    "com.openagentd.mobile",
+    "org.floeagent.ios"
   ],
   "apps": [
     {
@@ -67,7 +67,9 @@
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/killzone_mercenary.PNG",
-        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/zero_escape_1.PNG"
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/ys_viii.PNG",
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/zero_escape_1.PNG",
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/senran_kagura_estival.PNG"
       ],
       "versions": [
         {
@@ -449,7 +451,7 @@
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/weekly_recap.png",
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/rankings.png",
         "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/history.png",
-        "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/artist_detail_light.png"
+        "https://cdn.jsdelivr.net/gh/SanoBld/LastStats@master/docs/screenshots/artist_detail.png"
       ],
       "versions": [
         {
@@ -607,6 +609,7 @@
       "tintColor": "#1399f7",
       "category": "other",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-welcome.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-fixed-location.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-walking-preview.png",
         "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-connection-health.png"
@@ -706,11 +709,11 @@
       ],
       "versions": [
         {
-          "version": "1.12.2.3",
-          "date": "2026-11-01T21:44:10Z",
-          "localizedDescription": "Build 356:\n\n• Bug FIx: Continue now correctly resumes the last slot used.\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).\n• PokeRogueOffline-x64.app.tar.gz / PokeRogueOffline-arm64.app.tar.gz — macOS app bundle, used only by the in-app self-updater (not for manual install — use the DMG for that).\n• PokeRogueOffline-{Android,iOS}-ota.zip — legacy combined bundle kept only for installs still running an in-app updater from before the code/assets/locales split; not used by current clients, not for manual install.\n• SHA256SUMS.txt — checksums for the sixteen files above (excluding the two -ota-manifest.json files, which carry their own per-channel checksums).\n• Build provenance for each binary is attested via GitHub Actions — verify with gh attestation verify \u003cfile\u003e --repo PokeRogue-Offline/pokerogue-offline.",
-          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.2.3-357/PokeRogueOffline.ipa",
-          "size": 551095671,
+          "version": "1.12.2.4",
+          "date": "2026-11-05T00:33:59Z",
+          "localizedDescription": "Bug Fixes:\n\n• The forced biome(s) from custom dailies won't be able to cause same-biome transitions, preventing a crash.\n\n• This fixes the saves from the Oct 31 to Nov 1 custom daily run that were crashing on the Wave 40 -\u003e 41 transition.\n\n• Pokémon that have level up moves duplicated from both pre-evo(s) and as relearn moves will only show the move once in the Pokédex.\n• If you play in a language where the translation for \"Rival\" is gendered, it will be properly reflected depending on if you face Ivy or Finn.\n• Fixed misgendered Rival in Run History. For example: When you are beaten by the female rival while playing as male, and switch to play as female, the Run History used to change her Trainer Title by using the male one, and vice versa. \"Ivy\" always had the female title and \"Finn\" the male title no matter what. It's no longer the case, their gender is now respected.\n• Fixed the variant sprites for Sandshrew.\n\nFiles:\n\n• PokeRogueOffline.ipa — iOS (sideload via SideStore / LiveContainer / Feather).\n• PokeRogueOffline.apk — Android (sideload by enabling \"Install unknown apps\").\n• PokeRogueOffline.AppImage — Linux AppImage.\n• PokeRogueOffline.exe — Windows Portable EXE.\n• PokeRogueOffline-x64.dmg — macOS (Intel).\n• PokeRogueOffline-arm64.dmg — macOS (Apple Silicon).\n• PokeRogueOffline-x64.app.tar.gz / PokeRogueOffline-arm64.app.tar.gz — macOS app bundle, used only by the in-app self-updater (not for manual install — use the DMG for that).\n• PokeRogueOffline-{Android,iOS}-ota.zip — legacy combined bundle kept only for installs still running an in-app updater from before the code/assets/locales split; not used by current clients, not for manual install.\n• SHA256SUMS.txt — checksums for the sixteen files above (excluding the two -ota-manifest.json files, which carry their own per-channel checksums).\n• Build provenance for each binary is attested via GitHub Actions — verify with gh attestation verify \u003cfile\u003e --repo PokeRogue-Offline/pokerogue-offline.",
+          "downloadURL": "https://github.com/PokeRogue-Offline/pokerogue-offline/releases/download/v1.12.2.4-364/PokeRogueOffline.ipa",
+          "size": 551102594,
           "minOSVersion": "15.0"
         }
       ],
@@ -855,11 +858,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.9.32",
-          "date": "2026-10-21T13:10:12Z",
-          "localizedDescription": "Improvements \u0026 Fixes:\n\n• DeepSeek can use Max reasoning. V4 Flash, V4 Pro and V4.1 Flash were limited to Off/Low/Medium/High, and a saved Max setting was sent as High. They now offer Off/Low/High/Max, with High as the default. Model names with provider prefixes or relay suffixes use the same levels.\n\nAméliorations et corrections:\n\n• Le raisonnement de DeepSeek peut désormais être réglé sur Maximum. V4 Flash, V4 Pro et V4.1 Flash ne proposaient que Désactivé/Faible/Moyen/Élevé, et un réglage Maximum déjà enregistré était envoyé comme Élevé. Les choix sont maintenant Désactivé/Faible/Élevé/Maximum, avec Élevé par défaut. Les noms comportant un préfixe de fournisseur ou un suffixe de relais sont également reconnus.",
-          "downloadURL": "https://github.com/kittors/Lyra/releases/download/v0.9.32/Lyra-0.9.32-ios-unsigned.ipa",
-          "size": 13072321,
+          "version": "0.9.33",
+          "date": "2026-11-04T23:49:53Z",
+          "localizedDescription": "New:\n\n• Pictures are made smaller before they go to the model. A 4K screenshot is several megabytes, a phone photo about as much, and every request carries every picture in the conversation again. Thirteen of them made each request 25 MB; over a 15 KB/s upload that is about 28 minutes a turn. A 6.8 MB screenshot was over the 5 MB per-picture limit some providers enforce, and the request was refused — then the next one too, because the picture stayed in the history. A HEIC photo from an iPhone never reached the model at all: it was swapped for a line saying the format is not supported.\n\n• A picture is fitted once, when it enters the conversation: at most 2000 px on the long side, about 512 KB where possible. That covers the three message boxes, pasting, marked-up pictures, photos from the phone, and pictures tools bring back — a picture file the agent opens, an MCP server, a browser screenshot. Screenshots stay PNG when they fit and otherwise become JPEG with small text still readable; photos go as JPEG. On macOS, HEIC is converted.\n• The same thirteen pictures now make a 3 MB first request and about 2 MB after that.\n• A request carries the latest 10 pictures (4 MB at most) as they are. Older ones go as small copies, then as a line telling the model it can no longer see them. The conversation itself keeps every picture.\n• Dropping thirteen pictures in at once takes 3.0 s instead of 2.4 s.\n\n• Menus work from the keyboard. ↑ and ↓ move, Home and End jump to either end, Enter chooses, → opens a submenu and ← closes it. After opening a menu with the mouse, ↓ goes to its first item. In menus with a search box, typing stays in the box and the arrows move the highlight.\n\n• Alt-click (⌥-click) a conversation in the sidebar to open it in Split view next to the one you are in, as in Claude's desktop app.\n• Right-click in a reply to copy the selected text, Copy link, Copy image, or save the image with Save as….\n• In Split view you can see which pane has the keyboard: the other panes' titles and icons are one step dimmer.\n\nImprovements \u0026 Fixes:\n\n• On Windows, a terminal opened in its own window could not be moved, and double-clicking its title bar did nothing. Only the first 10 px of the bar could be grabbed; the row of tabs took the rest. The empty part of the bar now drags the window, and a double-click maximizes it.\n• On Windows, Ctrl+W hid the whole window in the tray. Windows 11 keeps new tray icons behind ^, so it looked as though Lyra had quit. Ctrl+W now closes the panel in front, then the split pane, and never the window; in the terminal it still deletes the previous word. The first time closing the window leaves Lyra running in the notification area, a notification says so and how to bring it back. It appears once.\n\n• Opening a panel in a new window left nothing on screen for about three seconds. The panel vanished from the main window at once, and the new window came up later with a splash screen. The panel now stays where it is, marked \"Moving to a new window…\", until the new window is showing. On the test machine that takes 0.39 s the first time. After that, Lyra keeps one window ready in the background and the next one takes 0.06 s; the ready window is a hidden page of about 80 MB that only exists once you have used this, and it closes with the main window.\n• On Windows, the pointer over dividers was hard to see. It was Chromium's own ←‖→, which almost disappears on grey. Dividers and the sidebar handle use the system ↔ and ↕ pointers now.\n• The terminal's scrollbar was a 14 px grey block. It is the same thin rounded bar as everywhere else.\n\n• Dragging a conversation to the right edge to make a split, the card under the pointer went off the window. Near the edges it moves to the other side of the pointer.\n\nNouveautés:\n\n• Les images sont réduites avant de partir vers le modèle. Une capture d'écran 4K pèse plusieurs mégaoctets, une photo de téléphone à peu près autant, et chaque requête renvoie toutes les images de la conversation. Avec treize d'entre elles, chaque requête faisait 25 Mo; avec un relais limité à 15 Ko/s en envoi, comptez environ 28 minutes par échange. Une capture de 6,8 Mo dépassait la limite de 5 Mo par image fixée par certains fournisseurs: la requête était refusée, puis la suivante aussi, puisque l'image restait dans l'historique. Une photo HEIC d'iPhone n'arrivait jamais au modèle: elle était remplacée par une ligne disant que le format n'est pas pris en charge.\n\n• Une image est ajustée une seule fois, à son entrée dans la conversation: 2000 px au plus sur le grand côté, environ 512 Ko quand c'est possible. Cela vaut pour les trois zones de saisie, le collage, les images annotées, les photos venues du téléphone et les images que rapportent les outils — un fichier image ouvert par l'agent, un serveur MCP, une capture du navigateur. Les captures d'écran restent en PNG quand elles tiennent, sinon elles passent en JPEG sans que le petit texte devienne illisible; les photos partent en JPEG. Sur macOS, le HEIC est converti.\n• Les mêmes treize images donnent maintenant une première requête de 3 Mo, puis environ 2 Mo.\n• Une requête envoie telles quelles les 10 images les plus récentes (4 Mo au plus). Les plus anciennes partent en version réduite, puis sous forme d'une ligne qui dit au modèle qu'il ne les voit plus. La conversation, elle, garde toutes ses images.\n• Déposer treize images d'un coup prend 3,0 s au lieu de 2,4 s.\n\n• Les menus se pilotent au clavier. ↑ et ↓ pour se déplacer, Début et Fin pour aller aux extrémités, Entrée pour choisir, → pour ouvrir un sous-menu et ← pour le refermer. Après avoir ouvert un menu à la souris, ↓ mène au premier élément. Dans les menus qui ont un champ de recherche, la saisie reste dans le champ et les flèches déplacent la surbrillance.\n• Nouveaux raccourcis: Ctrl+N (⌘N) pour une Nouvelle discussion, Ctrl+, (⌘,) pour les Réglages, Ctrl+Tab et Ctrl+Maj+Tab (⌃Tab sur macOS) pour passer d'une conversation récente à l'autre, et Ctrl/⌘ avec = - 0 pour le zoom. Quand le terminal a le clavier, ces touches vont toujours au shell.\n• Un clic avec Alt (⌥) sur une conversation de la barre latérale l'ouvre en Vue scindée à côté de celle où vous êtes, comme dans l'application de bureau de Claude.\n• Clic droit dans une réponse: copier le texte sélectionné, Copier le lien, Copier l'image, ou l'enregistrer avec Enregistrer sous….\n• En Vue scindée, on voit quel volet a le clavier: les titres et les icônes des autres volets sont un cran plus pâles.\n\nAméliorations et corrections:\n\n• Sous Windows, un terminal ouvert dans une nouvelle fenêtre ne se déplaçait pas, et un double-clic sur sa barre de titre ne faisait rien. Seuls les 10 premiers pixels de la barre se laissaient attraper; la rangée d'onglets occupait le reste. La partie vide de la barre déplace maintenant la fenêtre, et un double-clic l'agrandit.\n• Sous Windows, Ctrl+W cachait toute la fenêtre dans la barre d'état système. Windows 11 range les nouvelles icônes derrière ^, si bien que Lyra semblait avoir quitté. Ctrl+W ferme maintenant le panneau au premier plan, puis le volet, jamais la fenêtre; dans le terminal, il efface toujours le mot précédent. La première fois que la fenêtre se ferme en laissant Lyra dans la zone de notification, une notification le dit et explique comment la rouvrir. Elle n'apparaît qu'une fois.\n• Ancrer la fenêtre sur une moitié d'écran écrasait tout. En 768 × 816, la barre latérale ne laissait qu'environ 470 px au reste: le terminal, Git et la Discussion latérale s'empilaient en bandes de 150 px, et le bouton d'envoi de la Discussion latérale passait sous le bas de l'écran. Entre 760 et 900 px, la barre latérale s'ouvre désormais par-dessus le contenu (Échap ou un clic à côté la referme, et votre réglage de barre latérale ne change pas), les panneaux qui ne tiennent pas deviennent des onglets, et la Discussion latérale garde toujours la place pour sa zone de saisie et son bouton d'envoi.\n• Ouvrir un panneau dans une nouvelle fenêtre ne laissait rien à l'écran pendant environ trois secondes. Le panneau disparaissait aussitôt de la fenêtre principale, et la nouvelle fenêtre arrivait plus tard avec un écran de démarrage. Le panneau reste maintenant à sa place, avec la mention « Passage dans une nouvelle fenêtre… », jusqu'à ce que la nouvelle fenêtre s'affiche. Sur la machine de test, cela prend 0,39 s la première fois. Ensuite, Lyra garde une fenêtre prête en arrière-plan et la suivante prend 0,06 s; cette fenêtre prête est une page masquée d'environ 80 Mo, qui n'existe qu'une fois la fonction utilisée et se ferme avec la fenêtre principale.\n• Sous Windows, le pointeur au-dessus des séparateurs se voyait à peine. C'était le ←‖→ dessiné par Chromium, presque invisible sur du gris. Les séparateurs et la poignée de la barre latérale utilisent maintenant les pointeurs ↔ et ↕ du système.\n• La barre de défilement du terminal était un bloc gris de 14 px. C'est désormais la même barre fine et arrondie que partout ailleurs.\n• Après avoir ouvert la Discussion latérale par son raccourci, on ne pouvait pas taper tout de suite: les touches n'allaient nulle part tant qu'on n'avait pas cliqué dans la zone de saisie. Celle-ci a maintenant le focus.\n• En faisant glisser une conversation vers le bord droit pour scinder la vue, la carte sous le pointeur sortait de la fenêtre. Près des bords, elle passe de l'autre côté du pointeur.",
+          "downloadURL": "https://github.com/kittors/Lyra/releases/download/v0.9.33/Lyra-0.9.33-ios-unsigned.ipa",
+          "size": 13072315,
           "minOSVersion": "16.4"
         }
       ],
@@ -1662,6 +1665,7 @@
       "tintColor": "#1c72c4",
       "category": "utilities",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/movies.png",
         "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/series_details.png",
         "https://cdn.jsdelivr.net/gh/lucasliet/arrmate@main/assets/screenshots/calendar.png"
       ],
@@ -2130,11 +2134,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.10.1",
-          "date": "2026-11-04T06:28:12Z",
-          "localizedDescription": "New:\n\n• Scenery that lies wholly outside the picture, or wholly behind what was already drawn in front of it, is no longer sent to the graphics chip. This saves work on phones and weak graphics chips; the picture is the same.\n• The glow around bright light is drawn with one full-screen step less, so it takes less of the graphics chip's time, most of all on phones; the picture is the same.\n• Options \u003e Graphics driver shows each driver's name and version, refuses a driver package built for the wrong memory page size, and goes back to the phone's own driver when the graphics stop responding in the first 30 seconds with a driver you added.\n• Phones with a Qualcomm graphics driver prepare their graphics again at the next start where an earlier start had to stop for lack of memory, when the game's saved graphics file is there and the driver accepts it; if that start has to stop too, later starts prepare the graphics as they are needed, as before.\n• Options \u003e Gameplay \u003e Shadows attack together: several shadows may attack at the same time instead of taking turns. Off unless you turn it on.\n\nFixed:\n\n• On computers, new text (subtitles, menus, pop-ups) no longer holds a picture back for a moment; the text is the same.\n• With Direct3D 11 or OpenGL and Vsync on, waiting for the screen no longer delays the game's own step.\n• Walls and water right beside the camera no longer vanish at the sides of wide screens; the 4:3 picture is unchanged.\n• Turning on MSAA anti-aliasing now works out shadows in the same steps as without it, which is meant to stop the game restarting on NVIDIA graphics cards.\n• With Graphics API set to Direct3D 11, the shadows are worked out in a way every graphics card supports.\n• With Graphics API set to Direct3D 11, the movies no longer have a purple tint.\n• On 16:10 screens the shadows are counted in one step again.\n• On phones whose screen changes its refresh rate, the game now asks for a fixed one when a Frame rate is set, and again when you come back to the game (Android 11 and later).\n• Русский (bob-ttz): 59 more rows translated.\n• With Language set to a translation by players, the game's own menu words (New Game, Continue, the saves' places) now follow the Menu language like the rest of the menus (fix by cobra838).\n• The Russian \"Continue\" on the title screen fits its row (fix by cobra838).\n• With Shadow speed above Original, the shadows turn as quickly as they move, so they no longer circle a portal before entering it.\n• Switching the Graphics API to OpenGL no longer leaves a black, unresponsive window: the game shows its progress while OpenGL prepares its graphics, and if the graphics driver stalls, the game goes back to the previous API and says so.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.10.1/ico-pc-v0.10.1-ios-unsigned.ipa",
-          "size": 8575656,
+          "version": "0.10.2",
+          "date": "2026-11-05T01:12:38Z",
+          "localizedDescription": "New:\n\n• Options \u003e Controls \u003e Touch controls has a new choice, Always, Start only in scenes: during a scene only the Start button stays on screen, so it can be skipped.\n• Scenery close to the camera no longer vanishes as it did on the PlayStation 2: walls, water and mist are drawn to the edge of the picture, at every aspect and in every preset; the rest of the picture is unchanged.\n• On phones, the log now records the graphics chip's clock speed, how warm the phone was and whether the screen was being recorded whenever a picture is held back, and which part of the game (a scene, play, a menu) each ten seconds were in, so stutters can be told apart.\n\nFixed:\n\n• On phones with a Qualcomm graphics driver and Vsync off, pictures now go to the screen one after another from the start, as the chip maker advises, instead of switching to that only after a few held-back pictures; this is not expected to remove the stutter some of these phones report.\n• After the game had turned on its slower, safer graphics mode following two crashes of the graphics driver, it now turns that mode off again by itself after three clean starts.\n• Options \u003e Gameplay \u003e Time to rescue Yorda is now set in seconds and changes the whole pull-in; before, only its last moment changed.\n• On phones with only two fast processor cores, the game's main work now runs on them.\n• The text effect now takes phones a fraction of the time to prepare; the picture is the same.\n• On phones with an older PowerVR graphics driver (Motorola with a MediaTek Dimensity 7020, for one) the game no longer stops before it starts: the first thing it prepared was a text effect the phone's menus do not use at this size, and the game now gives this driver more time.\n• On phones the picture is now handed to the screen already turned the way the screen is held, so the system no longer turns it again on the graphics chip.\n• On phones the glow around bright light is drawn the way it was in v0.10.0 again: a change made for computers in v0.10.1 cost phones up to a third of a picture.\n• Near the exit of the cave (stage 32), a wide picture no longer shows lighter grey bars at its sides: the mist now covers the whole picture, in the middle as at the sides.\n• At the castle's main gate, seen from the sofa in a wide picture, the gate's bottom beam no longer shows a strip of the stone step behind it: a beam corner very close to the camera made the beam look further away than it is.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.10.2/ico-pc-v0.10.2-ios-unsigned.ipa",
+          "size": 8369300,
           "minOSVersion": "15.0"
         }
       ],
@@ -2453,11 +2457,11 @@
       "tintColor": "#3b82f6",
       "category": "other",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-03-level-01.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-08-level-10.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-04-level-12.png",
         "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-09-level-20.png",
-        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-05-level-24.png",
-        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-07-level-36.png"
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/decantra@main/doc/play-store-assets/screenshots/phone/screenshot-05-level-24.png"
       ],
       "versions": [
         {
@@ -2829,11 +2833,11 @@
       ],
       "versions": [
         {
-          "version": "0.20.3",
-          "date": "2026-11-04T14:34:29Z",
-          "localizedDescription": "[0.20.3] — 2026-11-04:\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.20.3，或 pi install npm:pi-maestro-mobile.",
-          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.20.3/maestro-mobile-unsigned-0.20.3.ipa",
-          "size": 9660234,
+          "version": "0.20.5",
+          "date": "2026-11-05T01:02:24Z",
+          "localizedDescription": "[0.20.5] — 2026-11-05:\n\n• wait for refine capability negotiation.\n\n• iOS：下载 unsigned .ipa，用 Sideloadly/AltStore + 自己的 Apple ID 重签后安装.\n• PC Host：npm install -g pi-maestro-mobile@0.20.5，或 pi install npm:pi-maestro-mobile.",
+          "downloadURL": "https://github.com/netcookies/pi-maestro-app-party/releases/download/v0.20.5/maestro-mobile-unsigned-0.20.5.ipa",
+          "size": 9660456,
           "minOSVersion": "15.1"
         }
       ],
@@ -3151,7 +3155,8 @@
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Persona%204%20Golden.png",
-        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/VA-11%20HALL-A.png"
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/VA-11%20HALL-A.png",
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Amagami%20Ebikore+.png"
       ],
       "versions": [
         {
@@ -3708,11 +3713,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.6",
-          "date": "2026-10-12T03:52:22Z",
-          "localizedDescription": "ByeTunes v2.6 – Favorites, Playlist Pinning \u0026 Background Downloads Reworked:\n\nHi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.\n\nFavorites.\n\nThere are three new options inside Library Repair:\n\n• Create Favorites Playlist creates the Favorites playlist using the right name for your device region.\n• Fix Missing Favorites repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.\n• Delete Favorites Playlist lets you delete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.\n\nQuick recommendation: if you have older injected songs that you favorited but cannot find in Favorites, run Fix Missing Favorites inside Library Repair.\n\nPlaylist Pinning.\n\nYou can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.\n\nKeep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.\n\nBackground Downloads.\n\nBackground downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.\n\nThe window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.\n\nThis replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.\n\nIf the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.\n\nPause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.\n\nDownload Queue \u0026 Saving Files.\n\nDownloaded songs now get their metadata as part of the download process. You will see a \"fetching metadata\" state before the song is marked as done, instead of that work being left to a separate background metadata manager.\n\nA few other things got added or improved:\n\n• Clear All for completed items in the queue sheet.\n• Preview buttons in the album sheet and artist profile.\n\n• A new Save With Fetched Metadata toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.\n\nMetadata Fixes.\n\nMetadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.\n\n• Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.\n• Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.\n• A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.\n\nFLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an ALBUMTITLE tag was present. That is fixed now.\n\nAlbum artist is also read correctly from files using the ALBUM ARTIST or album_artist tags.\n\nLibrary Management.\n\nAdded sorting, a genre filter and multi-delete to the Library management tab.\n\nFixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.\n\nInjected songs now use the file's creation date for a more accurate date.\n\nDeleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.\n\nStability, Backups \u0026 Database Safety.\n\nThere were also several fixes to make injection, transfers and backups more reliable:\n\n• One unreadable local file no longer stops the whole injection batch.\n• The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.\n• Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.\n• The heartbeat timeout handles stale connection attempts more reliably.\n\nOverall stability and database safety were improved too.\n\nCleanup.\n\nThe old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.\n\nThe Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.\n\nOfficial Backend \u0026 Building Your Own.\n\nI also added BACKEND_TERMS.md, which explains how the official hosted backend may be used. Modified builds need to use their own backend.\n\nIf you are building ByeTunes yourself, Config.example.plist is now included as a template for the backend address. The README explains how to set it up.\n\nI also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.\n\nThanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.",
-          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
-          "size": 15631495,
+          "version": "2.7",
+          "date": "2026-11-05T01:15:04Z",
+          "localizedDescription": "Hi guys, here is the 2.7 update for ByeTunes. This one is mostly about playlists. You can now create real smart playlists that Music keeps up to date by itself, pin albums and artists, see your playlist folders, and set covers and descriptions for your playlists. There are also fixes for Apple Music matching, favorites and library safety.\n\nSmart Playlists:\n\nNew Smart Playlist in the Playlists tab now opens an editor that works like the one in Music. You choose if songs must match all or any of your rules, add as many rules as you want, group them, and optionally limit the playlist to a number of songs. Rules can use Artist, Genre, Title, Album, Album Artist, Year, Plays and Favorite.\n\nThese are real smart playlists, not a fixed list of songs. When you inject a new song that fits the rules, Music adds it to the playlist on its own.\n\nSmart playlists that are already on your device now show up in the Playlists tab too. Open one to see its rules and the songs that match right now. Smart playlists you made with an older version can be converted with Convert to Live Smart Playlist (long-press them).\n\nThere is also a Smart Playlist Files row in the Playlists tab:\n\n• Save a smart playlist inside ByeTunes and add it back to a device later.\n• Export smart playlists to a file.\n• Import smart playlists from a file.\n• Import smart playlists straight from a MediaLibrary.sqlitedb.\n\nPinning:\n\nYou can now pin albums, artists and smart playlists to Music, as well as playlists. Long-press them in the Albums, Artists and Playlists tabs, or use the Pin button inside a smart playlist. Pinned ones show a small pin.\n\nAll pins share the limit of six that Music has, and pinning closes the Music app first so it shows up properly.\n\nFolders, Covers \u0026 Descriptions:\n\nThe Playlists tab now shows your folders and the playlists inside them, and you can move playlists in and out of folders. Folder changes close the Music app first, like pins do.\n\nThe playlist screen now shows the playlist cover. Tap it to:\n\n• Generate a gradient cover.\n• Choose a photo.\n• Remove the cover and go back to the automatic collage.\n\nYou can also generate a cover when you create a new playlist. Playlists can have a description too.\n\nLibrary Tools:\n\n• Add Favoriting Capabilities prepares every song in your library so you can favorite it from the Music app. Use it for songs injected with an older version.\n• Remove Ghost Songs deletes the unplayable duplicates that could show up in Favorite Songs.\n• Fix Missing Favorites was also fixed. It no longer creates those unplayable duplicates.\n\nOn-Device Library \u0026 Queue:\n\nSongs in the On-Device Library now show LOSSLESS, HI-RES and E badges.\n\nSongs the Apple Music lookup could not match now show a NO MATCH tag in the queue. Tap it to open the editor and search by hand.\n\nApple Music Matching:\n\nArtist names with brackets were breaking the search so nothing was found. That is fixed.\n\nWhen the album name from the source does not match Apple's, a song can now still match if the title, artist and length agree. Standard versions are also preferred over instrumental, karaoke, live and similar versions.\n\nStability, Backups \u0026 Database Safety:\n\nLibrary uploads are now checked before they replace your library, so a damaged database or a missing batch of songs no longer gets uploaded. Snapshot folders are visible in the Files app, and the database editor can export your database.\n\nCancel in the Library Tools repairs now works up until the library is uploaded.\n\nI also updated the device connection library to idevice 0.1.68. In my tests injecting a song got noticeably faster, from about 6 seconds to about 2.5 for a single song.\n\nThanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.",
+          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.7/ByeTunes.ipa",
+          "size": 13164644,
           "minOSVersion": "16.0"
         }
       ],
@@ -4281,11 +4286,11 @@
       ],
       "versions": [
         {
-          "version": "3.45.0",
-          "date": "2026-11-04T10:53:48Z",
-          "localizedDescription": "• MCP servers that need you to sign in (for example Atlassian or Sanity, including plugin servers) now show Sign in without any oauth setup.\n• MCP servers that still use the older HTTP+SSE transport connect; mcp.json accepts type and the streamable-http / sse spellings other clients use. Settings → MCP offers \"SSE (legacy)\".\n• agentd plugin enable and agentd plugin disable turn a plugin on or off; editing plugins.json now applies without a restart. plugin list shows single-file plugins as \"on disk\" instead of \"not loaded\".\n• The agent installs plugin repositories as plugins instead of copying parts of them into skills or mcp.json.\n• Busy sessions open much faster: the first history page is capped and the live answer streams in while history loads.\n• On phones, the More (⋯) sheet is gone: the header opens the Review panel directly, a right-edge swipe opens it, and the command palette sits in the drawer footer. Prev/Next prompt is no longer available on phones.\n• The desktop notch island is balanced: a symbol and a session count sit either side of the notch and the pill opens evenly. Its right wing now covers about 44pt of the menu bar right of the notch.\n• Tool rows, copy buttons and transcript actions use simpler system tooltips; a shell row's tooltip shows its description rather than repeating the command.",
-          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.45.0/OpenAgentd_3.45.0_iOS.ipa",
-          "size": 6085697,
+          "version": "3.46.0",
+          "date": "2026-11-05T03:48:50Z",
+          "localizedDescription": "• Streamed replies are gzipped and batched into fewer frames. A typical reply drops from about 50 KB to 6 KB.\n\n• History pages leave out what no client shows: provider replay state, most tool output, long tool arguments, member rows and unused fields. The heaviest pages shrink by more than half.\n\n• Tool output loads when you open a row. Shell rows show what the command does, patch rows show their files and line counts, and the full output, diff or command loads when you expand the row. Opening a tool call on a long session is now near-instant on the server.\n• Phones resume a running turn faster. Coming back to the app mid-turn fetches only the rows added since the last sync, not the whole page.\n• Sessions that work together are grouped. When an agent in one workspace sends work to another, the sessions it starts appear under the session that sent them in every sidebar view.\n• New palette actions. Open Workspace (⌘O) and Next Session That Needs You are now in the command palette in every app. The Keyboard Shortcuts sheet lists only keys that do what it says, including the terminal's and the desktop window's keys.\n• Focus Mode is removed. It was deprecated. Hide the sidebar with ⌘B and the Review panel with ⌘D instead.\n• Easier to read. Weak colour contrast is raised across every surface. Labels name each action the same way in menus, tooltips and the palette, and tool rows show sizes like \"1.5 KB\".\n• The pairing QR shows the OpenAgentd seal in Settings → Network access, and it still scans reliably.\n\n• Reading an SVG, BMP, ICO or TIFF file no longer breaks the session with a provider error, and sessions already broken this way answer again. The agent reads SVGs as text.\n• Thinking and reply text no longer split apart or repeat on remote clients after a reattach.\n• The provider retry notice hides once the call answers, a run that exhausts its retries shows a single line, and the quota card ends at the reset time.\n• Hiding a workspace from the sidebar no longer asks for confirmation.\n• The terminal always uses the default font and size, since the setting that changed them was removed.\n\nThese affect custom API clients only:\n\n• tool_end events and history rows leave out the output of most tools; they mark it with result_omitted and result_bytes instead. To get the output, fetch GET /api/agent/{session_id}/tool-results/{tool_call_id}.\n• History sends shell, patch and plan arguments in a short form, marked with arguments_bytes. To get the full arguments, fetch GET /api/agent/{session_id}/tool-calls/{tool_call_id}/arguments.\n• History rows no longer carry session_id, is_summary or file_message. Detect summaries with kind === \"summary\".\n• The permission_asked event is no longer sent.\n\nThe database schema moves forward, so a v3.45.0 or older build will not open a database that v3.46.0 has upgraded.",
+          "downloadURL": "https://github.com/lthoangg/OpenAgentd/releases/download/v3.46.0/OpenAgentd_3.46.0_iOS.ipa",
+          "size": 6086911,
           "minOSVersion": "15.0"
         }
       ],
@@ -5091,10 +5096,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-04T06:42:31Z",
-          "localizedDescription": "Immutable snapshot of alpha build 445 (4dda95c).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 445, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-445/Non-Jailbroken.ipa",
-          "size": 104519435,
+          "date": "2026-11-05T03:16:54Z",
+          "localizedDescription": "Immutable snapshot of alpha build 456 (ddf79c4).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 456, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-456/Non-Jailbroken.ipa",
+          "size": 104592746,
           "minOSVersion": "17.0"
         }
       ],
@@ -5992,6 +5997,7 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-gameplay.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-empire-map.jpg",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-advisors.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/caesarpad@main/docs/readme/caesarpad-campaign.jpg"
       ],
       "versions": [
@@ -6262,10 +6268,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-03T15:30:18Z",
+          "date": "2026-11-05T02:15:34Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56178513,
+          "size": 56179392,
           "minOSVersion": "17.0"
         }
       ],
@@ -6520,11 +6526,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.3",
-          "date": "2026-11-03T02:18:45Z",
-          "localizedDescription": "Release v6.3.3:\n\n• Look up the selected word in connected dictionaries (46efbd1e5).\n• Fix playback when closing the video dictionary (40779d9b0).\n• Prevent browser dictionary imports from freezing the extension (03725ce2d).\n• Keep subtitle status underlines off reading annotations (35b3957ac).\n• Show existing flashcards in browser dictionary popups (eb98be13e).\n• Restore the full immersion dashboard across devices (39c2d510a).\n• Fix browser dictionary word status and account saves (23ed0bd4b).\n• Sync Jimaku subtitle keys with Manatan accounts (9fb9fab13).\n• Fix mixed-script dictionary typography across popup views (c6353ca30).\n• Compact installed dictionary controls across screen sizes (f444d02b9).\n• Clarify Hanzi lookup setting labels (32accbb2e).\n• Enable offline picture scanning with installed OCR models (bb487c8df).\n• Enable recursive lookups in kanji dictionary details (aa0a9e1be).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.3/Manatan-v6.3.3-iOS.ipa",
-          "size": 417252862,
+          "version": "6.3.6",
+          "date": "2026-11-04T22:52:46Z",
+          "localizedDescription": "Release v6.3.6:\n\n• Speed up statistics recovery staging and preserve upgrade validation (f3059a195).\n• Fix animated AVIF captures in the browser extension (cb4d3f2ae).\n\n• Open the full immersion dashboard directly (73adae86a).\n• Add native vocabulary widgets and guided setup (95a023a59).\n• Prepare immersion reports in the background and compact statistics history (44b01bc57).\n• Keep inline dictionary icons out of Anki definition pictures (a7d285e49).\n\n• Restore backup file exports across platforms (b23c1f1eb).\n• Restore dictionary lookup in flashcard reviews (11597efb9).\n• Save extension word status directly without opening account tabs (d03b68cd6).\n\n• Wait for Android activity before starting the app UI (3f81569b0).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.6/Manatan-v6.3.6-iOS.ipa",
+          "size": 432674772,
           "minOSVersion": "16.1"
         }
       ],
@@ -6532,8 +6538,6 @@
         "entitlements": [
           "application-identifier",
           "beta-reports-active",
-          "com.apple.developer.kernel.extended-virtual-addressing",
-          "com.apple.developer.kernel.increased-memory-limit",
           "com.apple.developer.team-identifier",
           "com.apple.security.application-groups",
           "get-task-allow",
@@ -7611,11 +7615,11 @@
       ],
       "versions": [
         {
-          "version": "3.3",
-          "date": "2026-11-01T01:43:51Z",
-          "localizedDescription": "Play without JIT:\n\nMore games convert and sign their libraries on the device. One library that cannot convert no longer stops the rest. Certificates from SideStore, AltStore, or a .p12 import more reliably, and converted libraries are signed again after this update.\n\nMore Android apps:\n\nJava apps pick up missing platform classes from AOSP when framework.jar is bundled. Jobs and boot receivers actually start, and Wi-Fi, location, and settings answer as a running phone would.\n\nImporting files:\n\nThe in-app file picker for Android apps can be used more than once in a session.\n\n32-bit ARM apps:\n\nAPKs that only ship armeabi-v7a libraries are translated to arm64. This path is still incomplete (Minecraft PE is the current test case).\n\nFixes:\n\nCertificate import, leftover store passwords on a .p12, the file picker after the first pick, game pages on iOS 15, and StikDebug when Husk is inside a container app.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.3/Husk.ipa",
-          "size": 142239082,
+          "version": "3.4",
+          "date": "2026-11-05T03:33:53Z",
+          "localizedDescription": "What's new?:\n\n3.4 is a compatibility release. About 97% of the 472 F-Droid apps we test now run, up from 85%. On the 169 Play Store apps we test, about 90% run, not counting apps with anti-tamper or fraud protection, which Husk doesn't try to bypass. All of these numbers are from testing on a Mac.\n\nMore Android apps:\n\n• Microsoft Word opens (Excel and PowerPoint share its libraries).\n• Slack, Gmail, Teams, Deezer, Flipboard and Picsart get past the crashes that stopped them.\n• More engines and frameworks start: React Native's new architecture, Qt 6 / QML, and apps using JavaScriptCore.\n• libGDX and other OpenGL apps draw again (3.3 broke these).\n• Apps that keep secrets in Android's secure key store work better.\n• Apps with big bundled databases open.\n• UPnP and network discovery apps can start.\n• Apps that declare their launch screen in a split APK can start.\n\nLooks better:\n\n• Rounded buttons are proper pills instead of ellipses.\n• Toolbars, window backgrounds and more color formats behave like they do on a phone.\n\nLess \"out of memory\":\n\n• Fewer OutOfMemoryError: pthread_create crashes on installs without extended address space.\n• Unity games use less address space on sideloaded installs, and keep their frame rate up.\n• New in Settings -\u003e Performance: see whether Increased Memory Limit and Extended Address Space are on for your install.\n\nAlso:\n\n• Japanese, thanks to @Yuki-1018.\n• Fixed Husk crashing when importing a .p12, or at launch with one saved on iOS 27 (#220).\n• The Remove and Uninstall dialogs open next to their buttons on iPad (#218).\n• Winlator's Settings page no longer crashes.\n• Husk builds with Xcode 27 and the iOS 27 SDK.\n\nKnown Issues:\n\n• Without JIT, Minecraft, some Flutter apps and some LÖVE games can fail. Use StikJIT for those for now.\n• Browsers (Firefox, Brave, Opera) don't run yet because they need separate helper processes.\n• Husk's Java runtime still has no garbage collector, so big apps can run out of memory in long sessions (#191).\n• Touch doesn't work yet in Godot 3 games (#200).\n• Apps with anti-tamper still won't run, and neither will apps that need Google Play services or a Google account.\n• Winlator containers don't run.\n• Full Android is still slow. Use the translation layer for games.\n\nThanks:\n\nThanks to @BartolomeoRusso9, @Dey410 and @Yuki-1018 for their pull requests, and to everyone who sent logs. Crash reports are what made this release possible ❤️.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.4/Husk.ipa",
+          "size": 142303569,
           "minOSVersion": "15.5"
         }
       ],
@@ -7729,11 +7733,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.6",
-          "date": "2026-11-01T03:37:10Z",
-          "localizedDescription": "Modu 1.3.6:\n\nBuild / 构建：10168 · Stable / 正式版.\n\nEnglish:\n\n• Fix(reader): Recover verified self-referencing EPUB note links so popups show the actual annotation instead of the source paragraph, preserving text layout and reading positions.\n• Feat(reader): Swipe through other images in the book from the enlarged image viewer, retaining zoom and sharing.\n• Feat(reader): Add text-filter profiles alongside CSS presets: hide matching text or its whole paragraph and skip filtered content during narration.\n• Feat(reader): Apply supported font, spacing, color and alignment CSS settings to PDF/OCR reflow, and turn reflow pages using the configured tap regions.\n• Fix(pdf): Restore single-finger swipe paging in unzoomed single-page reading while preserving enlarged-page panning, pinch zoom and text selection.\n• Fix(sync): Keep success notices silent in every reader; retry failed sync three times before one notice with the reason, and silently defer offline or Wi-Fi-restricted attempts. Other screens retain their notices.\n• Fix(dictionary): Allow MDD resource packages up to 2 GiB while retaining the 256 MiB MDX text limit and import validation.\n• Fix(history): Keep wide-screen reading-history content aligned to the top.\n• Feat(update): Show all intervening stable-version changes when upgrading across multiple versions.\n• Chore(settings): Remove the ANX-backup import entry from Advanced settings.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Linux x64 / ARM64 · HarmonyOS ARM64.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.6/Modu-1.3.6-ios-arm64.ipa",
-          "size": 53531386,
+          "version": "1.3.7",
+          "date": "2026-11-05T00:50:04Z",
+          "localizedDescription": "Modu 1.3.7:\n\nBuild / 构建：10171 · Stable / 正式版.\n\nEnglish:\n\n• Feat(tts): Add optional narration/dialogue voices and independent speed multipliers, with per-book voice overrides and consistent buffered playback. ( / ) Thanks @1Cookie2gavh.\n• Feat(appearance): Add theme presets, custom palettes and optional reading-page colours. () Thanks @1Cookie2gavh.\n• Feat(sync): Add optional manual-sync preview and conflict confirmation; preserve cancellation, deletion safeguards and cross-device convergence. ( / ) Thanks @1Cookie2gavh.\n• Feat(appearance): Restore scheduled day/night switching with custom hours, off by default.\n• Feat(reader): Consolidate font management with multiple-file/folder import and previews in the installed list and reader selectors.\n• Feat(pdf): Resize original/reflow comparison panes by dragging the divider; the temporary ratio is neither saved nor synced.\n• Fix(reader): Hide More when all enabled toolbar actions fit, and show setting/PDF explanations through anchored question-mark popovers.\n• Fix(dictionary): Import loose dictionary resources correctly when the Android picker caches files in separate folders.\n• Feat(ocr): Use PP-OCRv5 Mobile as the default for new model selections while retaining existing choices.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Linux x64 / ARM64 · HarmonyOS ARM64.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.7/Modu-1.3.7-ios-arm64.ipa",
+          "size": 53730945,
           "minOSVersion": "16.0"
         }
       ],
@@ -8501,6 +8505,7 @@
       "tintColor": "#7e5dfd",
       "category": "entertainment",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-home.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-library.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-title.png",
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-episodes.png"
@@ -8728,6 +8733,7 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_02.webp",
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_03.webp",
         "https://cdn.jsdelivr.net/gh/RipeStore/flashcardsbuilder@main/screenshots/screenshot_04.webp"
       ],
@@ -10694,6 +10700,7 @@
       "tintColor": "#6058e8",
       "category": "entertainment",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/home.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/library.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/detail.png",
         "https://cdn.jsdelivr.net/gh/xibrox/Shirox@main/docs/screenshots/player.png"
@@ -11973,8 +11980,8 @@
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/duets.webp",
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/player.webp",
         "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/styles.webp",
-        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/line-menu.webp",
-        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/simple.webp"
+        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/romanization.webp",
+        "https://cdn.jsdelivr.net/gh/Sppqq/sweet-lyrics-ios@main/docs/media/artwork.webp"
       ],
       "versions": [
         {
@@ -12739,6 +12746,7 @@
       "category": "other",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/open-portrait.png",
+        "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/tabletop.png",
         "https://cdn.jsdelivr.net/gh/HongHuo0728/LogForge@main/docs/images/duo/closed-outer.png"
       ],
       "versions": [
@@ -12911,11 +12919,11 @@
       ],
       "versions": [
         {
-          "version": "0.3.1",
-          "date": "2026-10-31T05:31:04Z",
-          "localizedDescription": "What's new:\n\nRecly 0.3.1 gives every recording a place for your own notes, and calls what ChatGPT makes of it a summary.\n\n• Notes. Type an agenda, who is there or what to keep track of in a recording's Notes, while you record or any time after. Open them from the recording screen on the phones, in place in the Mac menu bar and the Windows tray, and from More → Notes in a recording's detail. On Google Drive or iCloud they reach your other devices, and search finds them. Recly never rewrites them.\n\n• A recording stuck at \"Receiving from the watch\" can be deleted on the phones; a watch that still has it sends it again. The iPhone now also clears transfers that never finished.\n• In a meeting recording, your own to-dos show \"Me\" as their owner until you give yourself a name.\n• Fill in speaker names says \"No speaker names found in the transcript\" when the transcript names no one, instead of an error.\n• Saving an edit no longer flashes a check mark.\n• A summary's rows are as tall as their words, so a list of one-line decisions or to-dos no longer reads double-spaced.\n• The Android phone now looks like the iPhone: the detail's Transcript and Summary chips sit on the page, the summary has no table fill, bottom sheets have rounded top corners over a lighter dim, and the tab icons match.\n\nThis build replaces build 39 of 0.3.1 and adds the last two items.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
-          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.1-build.40/Recly-iOS-Watch-0.3.1-40.ipa",
-          "size": 62074139,
+          "version": "0.3.2",
+          "date": "2026-11-05T04:10:49Z",
+          "localizedDescription": "What's new:\n\nRecly 0.3.2 lets you ask about a recording and change it from one field, keeps every transcript it replaces so you can go back, and records on the Mac and Windows the way the phones do.\n\n• Version history. Every change to a transcript — transcription, your edits, Ask, filled-in speaker names, transcribing again, a change from another device, a restore — keeps the transcript it replaced on this device. More → Version history lists the newest 20; Restore brings one back. Versions never leave the device.\n• The Mac and Windows record like the phones. The menu bar popover and the tray start and stop with the red square record node, with the timer and the live waveform beside it. Before you start, two lines name the microphone and the system audio a recording would capture. While recording, the Mac menu bar shows the elapsed time, and the Windows tray tooltip ends with it.\n• A quieter list. The record screens lose the device, transcription and state nodes. The list reads Time · Title · Length: a finished recording shows its first words, and any other shows its state under the title. The banner over the list keeps its sentence, count and fix, without a badge, and its buttons are the size of a status badge, as are the Ask presets, the Transcript, Summary and Notes chips, Restore, and the desktops' Settings and Quit. The line under the list says only news.\n• A summary item no longer repeats its time inside its text.\n• The Mac's Details list no longer keeps moving after the window is resized.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.2-build.41/Recly-iOS-Watch-0.3.2-41.ipa",
+          "size": 62450634,
           "minOSVersion": "17.0"
         }
       ],
@@ -12943,11 +12951,11 @@
       "tintColor": "#d7313f",
       "category": "entertainment",
       "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/media/screenshots/anki-card-export.webp",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-shelf.jpg",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/manga-lookup.jpg",
         "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/anime-lookup.jpg",
-        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/novel-lookup.jpg",
-        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/dictionary.jpg"
+        "https://cdn.jsdelivr.net/gh/1Selxo/Mangatan@main/assets/screenshots/novel-lookup.jpg"
       ],
       "versions": [
         {
@@ -13711,11 +13719,11 @@
       ],
       "versions": [
         {
-          "version": "1.7.69",
-          "date": "2026-11-03T22:32:57Z",
-          "localizedDescription": "English:\n\n• Improved live Volcengine speech recognition so revised words and punctuation update while speaking.\n• Added a streaming recognition switch to speech service settings, preserving separate service configurations.\n• Simplified provider names while keeping Agent Plan, Token Plan and other plan labels.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.69/Floe-Agent-1.7.69-build310-unsigned.ipa",
-          "size": 830258812,
+          "version": "1.7.71",
+          "date": "2026-11-05T03:43:21Z",
+          "localizedDescription": "English:\n\n• Improved stability when opening 3D models and the workbench while preserving editing, saving and undo.\n• Fixed environment checkpoints blocking a task's next message and saved launch settings not taking effect until saved again.\n• The shared ARM64 runtime supports up to four cores. Online CPU changes retain running tasks; memory changes still require stopping the runtime first.\n• Background audio works independently for a running environment. Closing Picture in Picture no longer stops it.\n• Restored direct access to task files and the right panel's collapse button.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.7.71/Floe-Agent-1.7.71-build312-unsigned.ipa",
+          "size": 821312196,
           "minOSVersion": "26.0"
         }
       ],
