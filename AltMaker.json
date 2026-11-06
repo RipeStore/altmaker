@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.brewlog.app",
-    "com.xenios.jp",
-    "io.github.scripta"
+    "com.handtracker.app",
+    "com.handtracker.mouse",
+    "com.knightabdo.knightmusic"
   ],
   "apps": [
     {
@@ -1085,11 +1085,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.1.10",
-          "date": "2026-08-02T02:20:20Z",
-          "localizedDescription": "Settings has a new Audio section. If you keep Music or a podcast running while you play, pick how Apotris should share:\n\n• Stop Other Audio — music and podcasts stop when Apotris starts.\n• Play Both — both play together, neither one quieter.\n• Lower Other Audio — music and podcasts drop to the background; game audio stays full (default).\n• Lower Game Audio — game audio drops to the background while another app is playing.\n• Mute Game Audio — game audio goes silent while another app is playing.\n\nEach option explains itself in the picker, so you don't have to guess which side gets quieter. The last two fade over about a fifth of a second rather than cutting, and they sit on top of the game's own Music and Sound sliders — the in-game options keep working and are never overwritten by the ducking.\n\nThere's a master Game volume slider in the same section.\n\nIf you play with music going:\n\nTwo things changed from earlier builds. Apotris used to mix with other audio at full volume and follow the ring/silent switch; it now uses the audio category those five modes need. So by default other audio is lowered while you play — pick Play Both for the old behaviour — and game sound keeps playing with the ring/silent switch off. Turn Game volume down if you want it quiet.\n\nAlso:\n\n• Sound comes back after a phone call or Siri interrupts it. Previously the audio stayed dead until you left the app and came back.",
-          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.1.10/Apotris-1.1.10-iOS.ipa",
-          "size": 5352465,
+          "version": "1.1.11",
+          "date": "2026-11-05T19:36:58Z",
+          "localizedDescription": "Now built on Apotris v4.2.0:\n\n• Sonic Drop — a new option under Settings › Handling that makes the hard drop button drop the piece without locking it.\n• Better online play — multiplayer can now fall back to a relay when a direct connection between players isn't possible, which should help on mobile data and strict Wi-Fi. Connecting is more robust in general, and you can queue for a match in the background while you play something else.\n• If the server can't be reached, you now get a clear error and return to the menu after about 20 seconds, instead of waiting indefinitely.\n• Fixes — Death mode record ranking and level display, multiplayer room code entry and match result stats, a crash when stopping a song, and assorted menu and sprite fixes.\n\nTouch controls:\n\n• Swipe in from the left edge of the screen to go Back in menus, like the rest of iOS. Two-finger tap and long-press still go Back too, and swiping in the middle of the screen still changes values.\n• The pause button only appears during a game. It used to sit on the title screen and menus, where it did nothing.\n\nNote:\n\n• A game suspended in 1.1.10 can't be continued after updating; the saved-game format changed with the new upstream version. Scores, settings and stats are unaffected.",
+          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.1.11/Apotris-1.1.11-iOS.ipa",
+          "size": 5505992,
           "minOSVersion": "17.0"
         }
       ],
@@ -1618,11 +1618,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.0",
-          "date": "2026-11-02T10:08:40Z",
-          "localizedDescription": "Playback and playlists:\n\n• Play all search results: Start playing everything found by Find a tune from its count line. (#619).\n• Queue actions: Use Play next, Move up and Move down in each playlist row’s menu. (#619).\n• Share tunes: Share from About this tune or the playlist row menu. (#619).\n• Android playback controls: Expanded lock screen, notification and headset controls, including previous track, playback position, seeking and tune number where supported. (#619).\n• Spectrum views: New Bars and Wave views on Android. (#619).\n• Audio processing: A new Sound card on the Play page offers tone curve and ambiance presets. (#594).\n• Stable player layout: Playback controls stay in place while tune details change. (#595).\n\nLive View:\n\n• Direct streaming: Sound and picture now stream directly from your C64 to your phone instead of using a shared group address, improving Wi-Fi reliability. Supports one phone at a time. (#628).\n• Audio takes priority: When bandwidth cannot support both sound and picture, Live View pauses the picture, explains why and keeps audio playing. Press Watch to retry. Combined streaming can exceed available bandwidth on 2.4 GHz; use 5 GHz for better results. (#628).\n\nROM compatibility:\n\n• More reliable start-up: Tunes requiring ROMs wait up to five seconds for device discovery before skipping or prompting, avoiding premature connection errors. (#624).\n• Optional character ROM reading: Also read the character ROM is available to everyone in Settings and is off by default. The option explains that reading briefly pauses the C64 and may disturb programs using NMIs. (#625).\n\nMaintenance:\n\n• Updated dependencies, improved test reliability and refined hardware audio checks to account for room conditions before assessing phone sound. (#627).",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.0/c64commander-1.2.0-ios.ipa",
-          "size": 7602819,
+          "version": "1.2.1",
+          "date": "2026-11-05T20:43:18Z",
+          "localizedDescription": "Next and Prev from anywhere:\n\n• Prev restarts the current item: During the first 3 seconds of an item, Prev goes to the previous item. After that it starts the current item again, so press it twice to go back. This works the same on the Play page, in your phone's media controls and in the companion app. (#632).\n\nPlayback:\n\n• Sleep timer fade-out: A timed sleep timer lowers the volume to silence over its last 10 seconds before it stops playback, then restores your volume. (#632).\n• Sleep timer badge: While a sleep timer is set, the Play page shows the minutes remaining beside its title. Select the badge to jump to the sleep timer controls. (#632).\n• SID Radio minimum length: Changing the minimum tune length now applies to a station that is already playing. Queued tunes that fall below the new minimum are removed. (#632).\n• Resume after restart: In SID Player mode, Resume on a tune that was paused when the app closed now continues playback instead of doing nothing. (#632).\n\nLayout and controls:\n\n• Sliders and scrolling: A vertical swipe that starts on a slider now scrolls the page instead of changing the slider's value. (#632).\n• Function keys: The manual and in-app help now explain that a key assigned to an action in your phone's own settings is handled by the phone, not the app. (#632).\n\nAndroid:\n\n• More reliable app switching: Fixed a rare system hang when leaving the app on some phones. (#632).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.1/c64commander-1.2.1-ios.ipa",
+          "size": 7605899,
           "minOSVersion": "15.0"
         }
       ],
@@ -1696,10 +1696,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-04T02:19:57Z",
-          "localizedDescription": "Built from 381eb43 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-06T00:08:33Z",
+          "localizedDescription": "Built from ae68be5 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625204,
+          "size": 14625607,
           "minOSVersion": "15.0"
         }
       ],
@@ -3238,7 +3238,7 @@
       }
     },
     {
-      "name": "Comical",
+      "name": "Comical (dev)",
       "bundleIdentifier": "com.porksphere.comical",
       "developerName": "porksphere",
       "subtitle": "A cross-platform comic reader for iOS, Android, desktop, and the web",
@@ -3253,18 +3253,19 @@
       ],
       "versions": [
         {
-          "version": "0.8.0",
-          "date": "2026-10-27T06:08:53Z",
-          "localizedDescription": "Versioned build with every platform's binaries.\n\nAndroid (APK):\n\nThe desktop installers aren't code-signed: Windows SmartScreen warns on first run (More info → Run anyway).",
-          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/v0.8.0/comical-unsigned.ipa",
-          "size": 21388160,
+          "version": "0.8.0.36",
+          "date": "2026-11-05T23:16:49Z",
+          "localizedDescription": "Development-client shell (Debug + expo-dev-client). Carries the same com.porksphere.comical bundle id as the release and PR builds, so it shares their data and REPLACES whatever Comical is installed.\n\nInstall via source (recommended): add this URL in SideStore/AltStore → Sources → +.\n\nThen run bun run dev:device on your PC and connect from the app's launcher. Rebuild (re-run this workflow) only when native code changes — a native module, a config plugin, an SDK bump. Pure JS/TS iterates over Metro with no rebuild at all.",
+          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/ios-devclient/comical-devclient.ipa",
+          "size": 41971941,
           "minOSVersion": "16.4"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSCameraUsageDescription": "Comical uses the camera to scan the pairing code shown by Comical on your computer."
+          "NSCameraUsageDescription": "Comical uses the camera to scan the pairing code shown by Comical on your computer.",
+          "NSLocalNetworkUsageDescription": "Expo Dev Launcher uses the local network to discover and connect to development servers running on your computer."
         }
       }
     },
@@ -4697,11 +4698,11 @@
       "category": "social",
       "versions": [
         {
-          "version": "1.2.0",
-          "date": "2026-10-27T21:22:17Z",
-          "localizedDescription": "Breaking Changes:\n\n• The sync data format of the Sync server and external storage changes (Sync server update required). After updating every device, switch the format in the sync settings; after the switch, only the same or newer versions can sync with each other.\n\nNew Features:\n\n• Added an app lock (if you forget the PIN, you may need to restore your data from a backup).\n• Added author's note presets.\n• Added binary data support to plugin local storage (getLocalPluginStorage).\n• Added a separate permission for plugin tool calls.\n\nImprovements:\n\n• Changed deleting a character, module, or similar item to also delete its assets.\n• Responses being generated are now kept if the app closes.\n• Added execution time limits to regex scripts and triggers, and made Lua stop properly on timeout (prevents endless loading).\n\n• Removed the Keep Session Alive setting (a web-only feature).\n• Changed Lua scripts to run in a Worker and CBS to run compiled.\n• Improved performance and memory usage of regex, rendering, lorebooks, storage, restores, and more.\n• Improved error messages and logging.\n\nFixes:\n\n• Fixed plugins not loading when the Sync server is unavailable.\n\n• Fixed YouTube embeds not playing.\n• Fixed Google Translate failures and content that could disappear when translation failed.\n\n• Fixed RisuAI/PocketRisu compatible exports failing.\n• Fixed Separate Parameters overwriting saved values.",
-          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.2.0/RisuNest-1.2.0-ios-aarch64-unsigned.ipa",
-          "size": 78466287,
+          "version": "1.3.0",
+          "date": "2026-11-05T20:40:31Z",
+          "localizedDescription": "New Features:\n\n• Applied RisuAI v2026.10.292 changes.\n• Added database compaction (reclaims unused SQLite space).\n\nImprovements:\n\n• Changed module imports to leave out MCP settings.\n• Allowed plugins to replace other plugins after user confirmation.\n• Changed startup text to appear in the device language.\n• Allowed plugins to convert to WebP even in environments that do not support WebP conversion.\n• Improved restore and storage performance.\n• Improved error messages and logging.\n\nFixes:\n\n• Fixed some API requests, such as Anthropic, being rejected.\n• Fixed responses, Lua buttons, and similar work stopping after leaving the app on Android.\n• Fixed Google Translate failing with error 429 in some environments.\n• Fixed storage growing continuously when plugins repeatedly saved large data.\n• Fixed permanent character deletion failing or being reported as failed.\n• Fixed RisuAI/PocketRisu compatible exports failing with some settings.\n• Fixed some RisuAI modules failing to import.\n• Fixed lorebooks and persona descriptions loaded from Lua not reflecting changed variables.\n\n• Fixed the code block menu being hidden behind pop-up windows.\n\n• RisuAI v2026.10.292 변경 사항 반영.",
+          "downloadURL": "https://github.com/rsyumi/RisuNest/releases/download/app-v1.3.0/RisuNest-1.3.0-ios-aarch64-unsigned.ipa",
+          "size": 78597800,
           "minOSVersion": "16.4"
         }
       ],
@@ -5096,10 +5097,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-05T03:16:54Z",
-          "localizedDescription": "Immutable snapshot of alpha build 456 (ddf79c4).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 456, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-456/Non-Jailbroken.ipa",
-          "size": 104592746,
+          "date": "2026-11-05T22:46:55Z",
+          "localizedDescription": "Immutable snapshot of alpha build 458 (db175eb).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 458, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-458/Non-Jailbroken.ipa",
+          "size": 104593144,
           "minOSVersion": "17.0"
         }
       ],
@@ -5270,11 +5271,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.6",
-          "date": "2026-11-04T15:51:53Z",
-          "localizedDescription": "tangoAW2 0.9.6: Silver Nova's real voices, the secret mission's navies, cleaner Gauntlet scenes.\n\nChanged.\n\n• Silver Nova Campaign and the BH2 secret mission: Caulder, Lili and Tabitha speak in their own voices. Caulder is a cold scientist, Lili a giggling child with her Mr. Bear, and Tabitha a cruel, spoiled daughter who sneers, threatens and insults.\n• Gauntlet: Chrome Meridian's arrival lines are in the same three voices.\n\nFixed.\n\n• Gauntlet: when a line falls, the game's \"The. Army has lost!\" message no longer scrambles the first box of the arrival scene. The scene opens with that message in a box of its own, then the COs speak.\n• The Black Factory no longer builds Artillery or Rockets on a door the enemy can reach, even when every other choice is poor.\n• Online peers must all run 0.9.6 (the simulation version changed).",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.6/tangoaw2-0.9.6-ios.ipa",
-          "size": 32851529,
+          "version": "0.9.7",
+          "date": "2026-11-05T18:15:58Z",
+          "localizedDescription": "tangoAW2 0.9.7: EXP and skills for every CO, a better Gauntlet.\n\nNew.\n\n• Every CO you can pick has CO skills and EXP now, including Asuka, Aria, Caulder, Lili and Tabitha.\n• After a win that gives EXP, a box shows each CO's face, \"+N EXP\" and a bar filling up, with \"Rank up!\" when a CO ranks up. A skips it.\n• The Set Skills screen shows the CO's rank, EXP and a bar to the next rank.\n• Gauntlet: a saved run shows CONTINUE and NEW on Select Mode's wheel.\n• Gauntlet: maps with a second map are marked with a star in the list (Iron Crown *). Press SELECT on the map selector to see the second map and its enemy (Asuka's Keep and Asuka).\n• Gauntlet: SELECT on the CO screen opens Set Skills.\n• Gauntlet: every dialogue scene has music.\n\nChanged.\n\n• Versus and Gauntlet army screens: Left and Right change the CO, Up and Down move between fields.\n• Gauntlet: the map card says GAUNTLET instead of MISSION.\n• Gauntlet: score and rank are judged per enemy CO, so a long run can reach S rank.\n• The terrain window shows the defence stars a unit really has after Sonja's or Asuka's cut.\n\nFixed.\n\n• Versus: SELECT's Set Skills screen is no longer covered by the army cards.\n• Gauntlet: every map's factory offers the Neotank again.\n• Online peers must all run 0.9.7 (the simulation version changed).",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.7/tangoaw2-0.9.7-ios.ipa",
+          "size": 32879893,
           "minOSVersion": "16.0"
         }
       ],
@@ -5371,11 +5372,11 @@
       ],
       "versions": [
         {
-          "version": "0.20.0",
-          "date": "2026-11-03T10:03:30Z",
+          "version": "0.20.1",
+          "date": "2026-11-05T23:17:58Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.20.0/Reynard.ipa",
-          "size": 111452819,
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.20.1/Reynard.ipa",
+          "size": 111460493,
           "minOSVersion": "13.0"
         }
       ],
@@ -5787,11 +5788,11 @@
       ],
       "versions": [
         {
-          "version": "4.5.1",
-          "date": "2026-10-18T23:48:43Z",
-          "localizedDescription": "What's New in v4.5.1.\n\n• Automatic System Language Detection: Automatically detects device and browser language on first launch via navigator.languages / navigator.language and maps to 9 supported locales (Simplified Chinese, Indonesian, Japanese, Korean, Arabic, Russian, Tagalog, Hindi, and English fallback) (#17).\n• Android Share Sheet Locale Fallback: Added native Locale.getDefault() language detection in ShareActivity.java so shared links match device language even before app initialization.\n• Gallery Tab Visibility Toggle: Added toggle to show or hide the Gallery tab under Settings -\u003e Appearance (mori_show_gallery), completely bypassing background disk scans to save RAM and battery on lower-end devices.\n\n• Multilingual Gallery Localization: Fully localized gallery filter chips, sort options, and action toasts across all 9 supported languages.\n• Progressive Gallery Rendering: Implemented incremental batch rendering (24 items per batch) with IntersectionObserver sentinel for smooth, lag-free scrolling across large media collections.\n• O(1) History Map Indexing: Replaced linear history scans with constant-time Map indexing, prioritizing cached history thumbnails before requesting native video frame decodes.\n• CSS content-visibility Optimization: Applied content-visibility: auto to gallery cards to skip layout and painting of offscreen elements, significantly reducing GPU and memory overhead.\n• On-Demand PDF Library Loading: Converted pdf-lib and pdf.js to lazy-load on demand, eliminating heavy synchronous script tags from index.html for faster app cold start.\n• Android R8 \u0026 Resource Shrinking: Enabled full R8 code minification and resource shrinking in Android build.gradle with refined ProGuard rules for a leaner, smaller APK footprint.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.1/Mori-v4.5.1-iOS-Unsigned.ipa",
-          "size": 2099521,
+          "version": "4.5.2",
+          "date": "2026-11-05T22:19:00Z",
+          "localizedDescription": "New Features \u0026 Enhancements:\n\n• Silent Shorts Normalization: Automatic canonicalization in batch analyzer (analyzeUrlSilent) ensuring queued YouTube Shorts links resolve reliably without manual URL editing.\n\nBug Fixes \u0026 Scraper Repairs:\n\n• Instagram FastDL Backend: Migrated backend to FastDL with automated token and expiry extraction (k_exp, k_token), direct embed fallback (/embed/captioned/), and InDown token caching.\n• Spotify Track \u0026 Cookie Persistence: Fixed session cookie loss across Spotimate endpoints, replaced fragile regex matching with DOMParser, and enabled instant direct MP3 link extraction.\n• Bilibili Shortlinks \u0026 Anime OGV: Added shortlink redirect resolver for b23.tv / bili.im, supported international bilibili.tv aid and OGV anime play/episode endpoints with OpenGraph fallback.\n\n• Pixiv Login-Wall Bypass: Added meta-preload-data fallback for age-restricted/login-walled posts, Ugoira MP4 conversion, and pixiv.re reverse-proxy thumbnail support.\n• Threads Extraction Fix: Fixed empty Cookie: \"\" header wiping request cookies during media extraction, added guarded shortlink redirect resolver, and expanded media selectors.\n\n• Pixiv Thumbnail Preview Header: Added Pixiv referer header in preview generator to eliminate 403 Forbidden errors when loading artwork thumbnails.\n\nPerformance \u0026 Reliability:\n\n• Desktop Tauri Retirement: Retired legacy desktop GUI builds (.dmg, .exe, .msi) and removed all residual src-tauri/ Rust backend files and build dependencies.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.2/Mori-v4.5.2-iOS-Unsigned.ipa",
+          "size": 2099534,
           "minOSVersion": "14.0"
         }
       ],
@@ -6526,11 +6527,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.7",
-          "date": "2026-11-05T11:12:40Z",
-          "localizedDescription": "Release v6.3.7:\n\n• Group tracked words by knowledge in comprehension charts (3ee4884).\n• Preserve tracked word highlighting when reopening readers (e2f4ee9).\n• Enable local subtitle generation for streamed videos (56f2764).\n• Keep flashcard sync consistent across devices (8339bcf).\n\n• Show shortcut access disclosure when starting Screen Lookup (839dec7).\n• Load immersion activity pages directly from binary history (2461ca3).\n• Record native ARM benchmark results and headroom decision (c9c57e8).\n• Keep immersion statistics responsive with archived history (5d94857).\n• Read packaged C++ cache counters in machine format (f3a251f).\n• Retain ARM cache statistics across long build phases (6d5af01).\n• Identify compiler activity by executable during ARM measurements (5161385).\n• Tune native ARM CI with bounded caches and measured build phases (41f4618).\n\n• Preserve browser tabs and navigation between visits (f64713e).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.7/Manatan-v6.3.7-iOS.ipa",
-          "size": 432213121,
+          "version": "6.3.8",
+          "date": "2026-11-05T19:56:26Z",
+          "localizedDescription": "Release v6.3.8:\n\n• Pause immersion stats by default until explicitly enabled (43689afbb).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.8/Manatan-v6.3.8-iOS.ipa",
+          "size": 432328040,
           "minOSVersion": "16.1"
         }
       ],
@@ -8268,7 +8269,7 @@
       "bundleIdentifier": "com.brewlog.app",
       "developerName": "proelio57",
       "subtitle": "A pour-over brewing companion for iPhone, with matching Android and web versions, in the spirit of Beanconqueror",
-      "localizedDescription": "BrewLog:\n\nA pour-over brewing companion for iPhone, with matching Android and web versions, in the spirit of Beanconqueror. It has a live BOOKOO scale connection, a guided brew assistant with soft audio cues, a brew journal, and rule-based (no AI) taste feedback that tells you what to change next time, down to the click on your grinder.\n\nFeatures:\n\n• Setup assistant on first launch: one simple question per screen with big tappable tiles: brewer → filter papers (the ones that fit your brewer come first) → grinder + your usual setting → beans → scale. Every step can be skipped. \"Skip, just use the scale\" goes straight to Quick weigh. Run it again any time from Gear → Setup assistant. If you skipped it, the Brew tab shows a small reminder card.",
+      "localizedDescription": "BrewLog:\n\nA pour-over brewing companion for iPhone, with matching Android and web versions, in the spirit of Beanconqueror. It has a live BOOKOO scale connection, a guided brew assistant with soft audio cues, a brew journal, and rule-based (no AI) taste feedback that tells you what to change next time, down to the click on your grinder.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.brewlog.app.png",
       "tintColor": "#b96e3e",
       "category": "other",
@@ -8281,11 +8282,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.64",
-          "date": "2026-11-05T17:30:53Z",
-          "localizedDescription": "• Read GaggiMate's profile list with the selected profile.\n• Choose the GaggiMate profile from the espresso screen and brew with it.\n• Decode the Decent DE1's shot samples and states.\n• Decent DE1 over Bluetooth with live shot data, following and controlling shots.\n• DE1 disconnects always end the shot, profile sheet survives a dropped machine.\n• Imported yields keep their decimals, your recipe edits survive picking a profile again.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.64/BrewLog.ipa",
-          "size": 3306669,
+          "version": "0.1.73",
+          "date": "2026-11-05T22:42:54Z",
+          "localizedDescription": "• Espresso machines get their own gear section and are connected in the setup assistant.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v0.1.73/BrewLog.ipa",
+          "size": 3486119,
           "minOSVersion": "17.0"
         }
       ],
@@ -8536,11 +8537,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.7",
-          "date": "2026-11-04T12:31:13Z",
-          "localizedDescription": "• fix(ios): use the Compose sheet while Glass UI is on @luqmanfadlli.\n• fix(ios): align profile insight frosted hero @luqmanfadlli.\n• fix(ios): open the photo picker after the native sheet closes @luqmanfadlli.\n• fix(party): join form on a glass card over the app background @luqmanfadlli.\n• fix(profile-insight): frosted hero and glass watch time card over the app background @luqmanfadlli.\n• fix(ios): never draw the app background in the gate overlay above the native tab bar @luqmanfadlli.\n• fix(glass-ui): dim the full extended header band so headers no longer look boxed @luqmanfadlli.\n• fix(glass-ui): brighter secondary and muted text over the app background @luqmanfadlli.\n• fix(glass-ui): headers pin at the very top and span the full width; Search keeps Discover in its fixed header @luqmanfadlli.\n• feat(glass-ui): soft text shadow for readability over the app background @luqmanfadlli.\n• fix(home): keep the solid dynamic background when Dynamic Background is on @luqmanfadlli.\n• fix(livetv): drop last watched card and pin title, search and filters @luqmanfadlli.\n• fix(search,library): one continuous header band, pinned cloud toolbar and search, cleaner calendar icon @luqmanfadlli.\n• feat(glass-ui): app background lives under Glass UI, edge-to-edge frosted headers, stronger dim @luqmanfadlli.\n• feat(library): calendar popup uses Glass UI @luqmanfadlli.\n• fix(settings): landscape sidebar scrolls, starts higher on phones and turns to glass @luqmanfadlli.\n• fix(profile-insight): drop the profile backdrop and use a glass-ready card @luqmanfadlli.\n• feat(appearance): experimental Glass UI with dark, balanced and vivid presets @luqmanfadlli.\n• feat(appearance): app-wide background from gallery or URL, drawn once behind every screen @luqmanfadlli.\n• feat(settings): move dynamic background and catalog accent to Layout \u003e Home @luqmanfadlli.\n• fix(subtitle) track naming regression introduced after merging upstream (#290) @chrisk325.\n• feat(player): resize video beside watch party panel @tapframe.\n• Fix addon ASS subtitles not rendering with libass on Android (#2507) @skoruppa.\n• fix(ios): declare long-form video audio so playback is not shown as music (#2419) @WhiteGiso.\n• locales: add and update Arabic settings translations (#2498) @aliabdoxd14.\n• Add missing Polish translations (#2495) @skoruppa.\n• Keep stream info and current stream marker with reused links (#2494) @skoruppa.\n• i18n: harmonize French terminology with Nuvio TV (#2481) @SK-Gits.\n• l10n: complete missing Italian translations (#2482) @WhiteGiso.\n• Add mark as watched to continue watching menu (#2493) @skoruppa.\n• fix(player): prevent auto failover loop and fix anime engine selection (#2467) @guuilp.\n• feat(i18n): complete and update Turkish (tr) localization (#2472) @stuntsnakee.\n• Fix line breaks in the Spanish P2P consent text (#2470) @IberianSoldierPC.\n• Update Spanish mobile translations (#2468) @IberianSoldierPC.\n• i18n(el): sync the Greek locale with 0.6.6 (settings realignment, chapters, subtitle appearance) (#2466) @nosvasedis.\n• Update Bulgarian strings for clarity and accuracy after latest update (#2463) @viiktr.\n• i18n(vi): update latest Vietnamese strings (#2460) @blueocean2308.\n• feat(i18n): refine fr translations and align Nuvio Mobile with Nuvio TV (#2459) @SK-Gits.\n• fix(i18n): pt-BR wording follow-up to #2435 (#2455) @jhojhocraazy.\n• Skip button timer resets when chapters replace API intervals (#2457) @skoruppa.\n• add video hash computation and subtitle extras parity with TV (#2450) @skoruppa.\n• i18n(ar): complete the Arabic mobile translations (#2368) @abdulamalik.\n• fix(ios): publish Now Playing only on playback changes (#2420) @WhiteGiso.\n• fix(i18n): localize Episode N on remaining UI (#2254) @blueocean2308.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.7-beta/nuvio-0.6.7-enhanced-release.ipa",
-          "size": 73889101,
+          "version": "0.6.8",
+          "date": "2026-11-05T22:56:54Z",
+          "localizedDescription": "• fix(ios): stop the skip ahead after Control Centre / Notification Centre (#311) @luqmanfadlli.\n• feat(livetv): Live TV revamp with Channels, Guide, Sports and On Demand tabs, recents/favorites/category chips, grid view and collapsible search @luqmanfadlli.\n• fix(autosync): keep AutoSync reachable behind the Cast-aware controller @luqmanfadlli.\n• fix(wetrakr): show watched badge for completed shows and stop rewatch pushes @luqmanfadlli.\n• ref(setting): move Private Viewing from Player Interface to Tracking @luqmanfadlli.\n• fix(simkl): sign related-title requests and log Simkl failures @luqmanfadlli.\n• fix(ios): apply video output presets when the player opens @luqmanfadlli.\n• fix(settings): fix plugin settings failing to open @luqmanfadlli.\n• feat(ios): show text subtitles in Picture in Picture and the mini player @luqmanfadlli.\n• fix(subtitles): restore pre-blur sizing and render outline blur natively on iOS @luqmanfadlli.\n• fix(ios): fix temporary HLS playlist write; clear safe deprecations @luqmanfadlli.\n• feat(subtitles): outline blur for subtitles (#307) @3l-franco.\n• fix(player): fix VC-1 content only playing audio (#309) @chrisk325.\n• fix(player): detach mpv surfaces on the playback thread @tapframe.\n• feat(streams): update blur @tapframe.\n• feat(details): update blur @tapframe.\n• fix(ios): keep an add-on subtitle selected before mpv loads the file (#2517) @skoruppa.\n• feat(autosync): sync ASS/SSA add-on subtitles drawn by libass (#2515) @skoruppa.\n• fix(i18n): drop trailing period from two pt-BR descriptions (#2506) @jhojhocraazy.\n• fix(player): stop Exo/libmpv auto-switch ping-pong on the same source (#2485) @halibiram.\n• fix(player): resume a closed torrent stream at the stalled frame (#2479) @halibiram.\n• feat(player): audio delay, amplification, downmix and center mix on Android (#2456) @kernexshadow.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.8-beta/nuvio-0.6.8-enhanced-release.ipa",
+          "size": 74191271,
           "minOSVersion": "16.1"
         }
       ],
@@ -9137,11 +9138,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.7",
-          "date": "2026-11-04T02:57:36Z",
-          "localizedDescription": "• 9f18bfee feat(player): resize video beside watch party panel @tapframe.",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.7-beta/nuvio-0.6.7-full-release.ipa",
-          "size": 68798444,
+          "version": "0.6.8",
+          "date": "2026-11-05T18:26:56Z",
+          "localizedDescription": "• 0403e6f6 fix(player): detach mpv surfaces on the playback thread @tapframe.\n• 68c815b2 feat(streams): update blur @tapframe.\n• b90454d7 feat(details): update blur @tapframe.",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.8-beta/nuvio-0.6.8-full-release.ipa",
+          "size": 68872061,
           "minOSVersion": "16.1"
         }
       ],
@@ -10351,11 +10352,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.438",
-          "date": "2026-11-03T23:18:40Z",
-          "localizedDescription": "Fixed:\n\n• Screen sharing works from Ubuntu and other GNOME Wayland desktops. Connecting to a Linux machine running a current desktop portal (Ubuntu 26.04, GNOME 50) failed every time with \"portal did not return a session handle\". The host now shows the desktop's approval prompt on its own screen; approve it once there, and Dieter asks the portal to remember it so later connections can start without a prompt.\n• The first connection to a Mac screen no longer fails with \"Unknown native stream\" when you take control. Connecting again used to work; now the first attempt does.\n• Linux screen shares keep the desktop's aspect ratio instead of stretching it to the viewer's window, so clicks land where you see them.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.438/Dieter-iOS.ipa",
-          "size": 64925014,
+          "version": "0.6.439",
+          "date": "2026-11-05T18:12:53Z",
+          "localizedDescription": "Fixed:\n\n• Conversations show the latest file or page an agent explicitly presents. iOS also reports failures to open links or attachments.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.439/Dieter-iOS.ipa",
+          "size": 64939310,
           "minOSVersion": "18.0"
         }
       ],
@@ -10828,10 +10829,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-04T02:19:57Z",
-          "localizedDescription": "Built from 381eb43 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-06T00:08:33Z",
+          "localizedDescription": "Built from ae68be5 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 52747248,
+          "size": 52750036,
           "minOSVersion": "15.0"
         }
       ],
@@ -11393,11 +11394,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.1",
-          "date": "2026-11-02T03:13:37Z",
-          "localizedDescription": "Everything since v0.6.0 (0.7.0 was tagged but never released). Updated for the 1 November game update (RuneLite 1.13.5, game revision 242); older builds may not connect since that update. New in this release: Share logs, one tap to make a bug-report file with your account details taken out. On iPhone the Play screen also says when StikDebug ran the wrong script, and NPC dialogues stay on screen and fit the chat box again.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nAdded:\n\n• A frozen game leaves a trail. If the game stops moving for 20 seconds, RuneLite's log records what every thread was doing, and says so when the game's own thread has stopped, so Share logs can show what happened after you restart the app.\n• iOS: the Play screen says when StikDebug ran the wrong script, before you tap Play. Right after the attach the app checks the script. If StikDebug attached without runelite-jit.js or ran a different one, Tap to Play stays off and the screen says which, instead of the app closing half a second after you tap it. The fix is the same either way: in StikDebug, long-press RuneMobile, Reset Script, then Assign Script and pick runelite-jit.js. Your current copy of the script keeps working; there is nothing to re-import. If the app still closes during start-up, the next launch says \"The last start didn't finish\" and how to fix it.\n\nChanged:\n\n• Updated for the 1 November game update (RuneLite 1.13.5, game revision 242). Plugin Hub plugins now come from RuneLite 1.13.5's list.\n\nFixed:\n\n• NPC dialogues stay on screen. A conversation showed for one frame and then vanished, though tapping still.\n\nSecurity:\n\n• The headless login scripts in ios/dev-tools/ no longer print the access token.\n\nThese are accepted, documented behaviours, not regressions in this build:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown (by design — keeps the frame rate up).\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.7.1/RuneMobile-0.7.1.ipa",
-          "size": 166762886,
+          "version": "0.8.0",
+          "date": "2026-11-05T22:17:19Z",
+          "localizedDescription": "Everything since v0.7.1. Rebuilt on RuneLite 1.13.6 for the latest game update. New in this release: you log in yourself, on the world and RuneLite profile you chose, with Auto-login as an optional setting, and double tap works in plugin panels.\n\nIf the game says you need a members' account, you're on a members world. Tap Switch World and pick a free one.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nChanged:\n\n• Rebuilt on the latest RuneLite and game revision. Updated to RuneLite 1.13.6 and the current OSRS revision, so the client keeps working after the recent weekly update instead of stopping at a black screen. The plugin catalogue is served for 1.13.6.\n• You log in yourself now. The game stops at the login screen and waits for you to press Play Now, on the world you chose. It no longer signs in by itself or forces World 301, so the Default World plugin works, including \"Use last world\". Reconnecting after a dropped connection and hopping worlds are still automatic. If the game says you need a members' account, you're on a members world: tap Switch World and pick a free one.\n• Auto-login is a setting now. Turn it on in Game settings and the game presses Play Now for you when it starts, on the Default World plugin's world. It's off by default, and logging out always leaves you at the login screen.\n\nFixed:\n\n• Double tap works in plugin panels. Anything a plugin does on a double-click now happens on a double tap, as it does on desktop: double tap a row in Star Miners to hop to that world. When the game asks you to confirm the hop, the panel closes so you can see the question.\n• The RuneLite profile you pick stays picked. It used to go back to the old one at every launch.\n• Choosing a world on the login screen picks the world you tapped. It used to pick the row under your previous tap, which often ended in \"You need a members' account to use this world\".\n• iOS: the pinned keys no longer cover the login screen. The camera arrows sat on top of the world switcher. Pinned keys and the hotkey strip stand aside until you're in the game.\n• Android: the world switcher on the login screen works. The keyboard, Shift and Ctrl keys sat on top of it, so a tap turned on Shift instead of opening the world list. They stand aside until you're in the game, and so does the hotkey strip.\n\nKnown issues:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• Sustained heavy load lowers 117HD resolution. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown (by design — keeps the frame rate up).\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.8.0/RuneMobile-0.8.0.ipa",
+          "size": 132259183,
           "minOSVersion": "17.0"
         }
       ],
@@ -12819,11 +12820,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.6",
-          "date": "2026-10-31T18:36:15Z",
-          "localizedDescription": "Knight Music v0.8.6.\n\n• Recognized songs in history now use the same local-library and YouTube Music lookup as fresh matches, with Play, Play Next, Add to Queue, Add to Library and Share actions.\n• Library imports report success only after the requested song appears in the active account's library. Completed imports offer Play, and switching servers stops pending verification.\n• Shared-playlist additions consistently offer Create Copy \u0026 Add from song menus, the playlist picker and drag and drop. Copies fetch the complete current source playlist first.",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.8.6/KnightMusic.ipa",
-          "size": 22238744,
+          "version": "0.8.7",
+          "date": "2026-11-05T23:34:02Z",
+          "localizedDescription": "Knight Music v0.8.7.\n\n• Playlists: add, remove and reorder songs in Knight's playlists directly (no more copies).\n• Edit song info (title, artist, album, year, genre, track, disc) from Song Info \u003e Edit.\n• Settings \u003e Duplicate Songs: keep the best copy, move the rest to the server's trash.\n• YouTube: AutoMix and save-ahead stay off; separate queue with \"Back to your queue\"; In Library badges; Add All to Navidrome for albums and playlists; queued YouTube songs swap to the library copy once added; adds survive leaving the app.\n• Player: hold the title to copy, hold the artist to open them, double-tap the artwork to love, swipe it for next/previous, hold play for a sleep timer, hold next/previous to skip 30 s, tap the time to show the total.\n• Lyrics: hold a line to copy it or share a lyric card.\n• Home-screen quick actions, new Siri/Shortcuts actions and a Love control in Control Center.",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v0.8.7/KnightMusic.ipa",
+          "size": 22446829,
           "minOSVersion": "26.0"
         }
       ],
@@ -12919,11 +12920,11 @@
       ],
       "versions": [
         {
-          "version": "0.3.2",
-          "date": "2026-11-05T09:27:36Z",
-          "localizedDescription": "What's new:\n\nRecly 0.3.2 lets you ask about a recording and change it from one field, keeps every transcript it replaces so you can go back, and records on the Mac and Windows the way the phones do. Build 42 added updates, so the Mac and Windows apps can update themselves. Build 43 tidies the memo on the desktops and makes Ask more careful with it.\n\n• A tidier memo on the desktops (new in build 43). While you record, the memo under the record node in the Mac menu bar popover and the Windows tray opens and folds with a click on its Notes row; there is no Done, since it saves as you type. A click anywhere else, or closing the popover, leaves the field, so its border no longer stays blue.\n• Ask reads the memo more carefully (new in build 43). Ask now knows the memo is your own text and uses it when you ask it to. It names a speaker from the memo only where the transcript itself shows who they are, never from a role such as \"host\", adds to the summary only what was said, and tells you what it left out. A to-do it edits no longer repeats its due date in its text.\n\n• Version history. Every change to a transcript — transcription, your edits, Ask, filled-in speaker names, transcribing again, a change from another device, a restore — keeps the transcript it replaced on this device. More → Version history lists the newest 20; Restore brings one back. Versions never leave the device.\n• The Mac and Windows record like the phones. The menu bar popover and the tray start and stop with the red square record node, with the timer and the live waveform beside it. Before you start, two lines name the microphone and the system audio a recording would capture. While recording, the Mac menu bar shows the elapsed time, and the Windows tray tooltip ends with it.\n• A quieter list. The record screens lose the device, transcription and state nodes. The list reads Time · Title · Length: a finished recording shows its first words, and any other shows its state under the title. The banner over the list keeps its sentence, count and fix, without a badge, and its buttons are the size of a status badge, as are the Ask presets, the Transcript, Summary and Notes chips, Restore, and the desktops' Settings and Quit. The line under the list says only news.\n• A summary item no longer repeats its time inside its text.\n• The Mac's Details list no longer keeps moving after the window is resized.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
-          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.2-build.43/Recly-iOS-Watch-0.3.2-43.ipa",
-          "size": 62452699,
+          "version": "0.3.3",
+          "date": "2026-11-05T22:41:33Z",
+          "localizedDescription": "What's new:\n\nRecly 0.3.3 gathers the to-dos of all your recordings in one place and lets you check them off, stops a recording safely when the device runs out of space, and writes Japanese and Chinese without stray spaces.\n\n• To-dos in one place. A To-dos button in the list's header shows every recording's to-dos, newest recording first, on the Android phone, iPhone, Mac and Windows. Check one off there or under a recording's Summary. A row you just checked stays where it is until you leave, so a slip is easy to undo, and what is done folds under Done. In Google Drive or iCloud your other devices show the check; with a local folder it stays on this device. A tap on a to-do opens its recording's summary.\n• Copy and share carry the check. To-dos in a copied or shared summary now start with `` or [x], and Ask knows which ones are done, so \"what's left?\" gets the right answer.\n• A recording stops safely when storage runs out. Recly won't start a recording with under 200 MB free, and with under 50 MB left it stops and keeps what it has, on all six apps, including when a write itself fails for lack of space.\n• Japanese and Chinese without stray spaces. Transcript files, the reader and the list's preview now run Japanese and Chinese segments on without a space, and subtitles are cut to lengths that fit each writing system.\n• Local transcription no longer keeps a decoding loop. On the Android phone and Windows, the Qwen3-ASR model's rare runs of one phrase over and over are cut back before a piece is kept.\n\nWindows: this MSI upgrades earlier ones, and the Windows and Mac apps from build 42 on offer it as an update.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.3-build.44/Recly-iOS-Watch-0.3.3-44.ipa",
+          "size": 62760969,
           "minOSVersion": "17.0"
         }
       ],
