@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.stik.stikdebug",
-    "com.pendo324.Phoebus",
-    "com.joemattiello.iCube"
+    "io.movieclaw.app",
+    "com.wyatthoutz.birding",
+    "la.tessel.roboboy"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.183.0",
-          "date": "2026-11-06T23:58:43Z",
-          "localizedDescription": "Bird Chaser v1.183.0:\n\nThis release combines the approved rank-climb design, explicit first-setup downloads, a Favorite Patches target correction, and guarded release-tooling repairs.\n\nF1246 - A compact, tie-aware rank-climb ladder:\n\nThe Top 100 card presents a more prominent current standing and a compact ladder of reachable goals, with explicit rank and additional-species costs, a labelled current stop, arrows and a trophy goal. Goals use the verified returned board, respect competition-rank ties and do not invent ranks from missing coverage. Species/Checklists controls, Open in eBird, nearby birders, history and the expanded board remain available.\n\nCurrent-year regional totals appear only when the matching count is available. Large totals have compact visible notation and an exact accessible label. A strict-below percentile requires complete, current Species tie coverage; unknown totals, stale data and incomplete coverage do not become guessed percentages.\n\nSpecies/Checklists controls retain their full labels and shared control heights at narrow enlarged-text sizes, including the sans-serif font fallback.\n\nF1249 - Getting Ready at the end of setup:\n\nVerified setup now opens an explicit loading checklist instead of sending you straight into apparently empty menus. Eight source groups show labelled progress and failure states. Start Birding waits for verified readiness; Close lets the same downloads continue in the background. Retry targets failed sources without downloading already-ready work again, and visible work can receive priority without duplicating queued requests.\n\nInitial readiness includes durable cache verification. A failed write, stale context or incomplete source result cannot be reported as a completed download. These are direct device-source calls, not a GitHub data mirror.\n\nF1250 - No hybrid birds in Favorite Patches unseen targets:\n\nFavorite Patches now applies the same countability rule to personal unseen/chase targets. Hybrids no longer inflate that target list or its count. Genuine species, permitted named forms and legitimate WATCH targets remain; raw observations and checklist evidence are not deleted, and a hybrid does not mark its parent species seen.\n\nF1244 and F1245 - Guarded release-tooling repairs:\n\nThe temporary Windows cleanup exception warns only after a bounded follow-up proves that all owned processes are gone and the profile was removed. Real survivors, denied inventory, helper timeouts, retained profiles, missing fixtures and layout failures still block.\n\nMockup tooling now waits for the correct document/navigation receipt and owns pending hero-photo work before declaring a fixture ready. Cross-platform temporary-directory and diagnostics controls are retained. The native surviving-browser test verifies the exact browser profile before graceful closure, then still requires native ownership and directory proof within the original shared 10-second budget. An unrelated browser is never closed by a prefix match.\n\nThe Windows layout audit captures each owned process before stopping its specific PID and waits for exit within the remaining original helper budget, then still checks fresh ownership inventory and profile removal. Delayed termination cannot be confused with an immediately completed stop; persistent survivors, denied access and exhausted budgets remain blocking.\n\nNewly inventoried exact-profile processes are drained within that same deadline rather than treating the first stop batch as complete. A controlled late-owner case and clock-reset mutations protect both repeat draining and the original budget.\n\nNative startup timeouts retain poll counts, endpoint outcomes and bounded child diagnostics without enlarging the original deadline. Intermittent launch delays remain explicitly unproven, not declared fixed by an isolated pass.\n\nScope and honest limitations:\n\nThis release does not claim that every historical image-abort/native-delay cause is diagnosed, that missing leaderboard coverage is complete, or that the new behavior has already been exercised on a physical iPhone. Live Lower 48 count retrieval is not claimed.\n\nRelease verification:\n\nComplete frozen local report/app parity, non-DOM and DOM catalogs, all six real-Chrome viewport/text profiles and wiring passed. Both GitHub unit/DOM/layout paths also passed for source 322992cd786a2a2ba992515fc84c5a294840e343. Behavioral corrections have focused mutation controls.\n\nApple reports version 1.183.0, build 29.1 as VALID and IN_BETA_TESTING. The beta-group query returned HTTP 403, so account-specific visibility and actual device download are not asserted. TestFlight administration.\n\nThe published gallery ZIP matches GitHub's SHA-256 and contains all 41 images in each of four profiles (164 total). No loose PNGs are attached at the Release root. Physical-iPhone regression testing remains unverified.\n\nBirdChaser-unsigned.ipa is the secondary sideload option: install with AltStore and AltServer, which signs it with your Apple ID. Free Apple ID installations expire after seven days unless refreshed. Signed TestFlight delivery is tracked separately; an unsigned IPA or Apple upload receipt is not a claim that a build is available in TestFlight.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.183.0/BirdChaser-unsigned.ipa",
-          "size": 143425414,
+          "version": "1.184.0",
+          "date": "2026-11-07T15:05:01Z",
+          "localizedDescription": "v1.184.0 — clearer setup, refined alerts and accessible WATCH colours:\n\n• F1251: eBird account connection announces Please wait immediately and clears its pending state when the actual connection attempt settles.\n• F1252: initial acquisition precedes the final setup summary. A separate result box honestly distinguishes verified data from partial or unavailable groups; Start birding opens Home.\n• F1253: measured source recovery and diagnostics preserve successful/partial data without pretending a blocked provider succeeded. Leaderboard counts distinguish acquisition, parsing, retention, grouping and rendering.\n• F1254: Getting Ready shows actual initial-source activity and automatic continuation, rather than an unexplained lingering loading screen.\n• F1255: Full and Recent Busy alerts use actual inclusive five-times-usual qualification, not a rounded display multiplier. The ordinary Busy menu is unchanged.\n• F1256: category controls show icons, counts and status; complete category names remain in accessible labels. Filtering and selected-state feedback are retained.\n• F1257: Full and Recent Migration alerts retain verified High only. The dedicated Migration section and its source classifications remain unchanged.\n• F1258: Recent timestamps occupy a reserved right-hand column on the first text row. Long names wrap within their available space without extra grid-row height or smaller type/touch targets.\n• F1259: local wizard/source/taxonomy/leaderboard diagnostics retain safe counts, lifecycle and first/latest blockers. Debug collection, storage, display, Dump, copy and package metadata omit/redact structured personal/location/raw-body information.\n• F1260: initial acquisition makes one bounded failed-source recovery pass, reuses successful sources and automatically continues to the final summary after settled partial results. No mandatory Retry or extra prefetch Continue.\n• F1261: automatic account/key/Home/seen-list work has immediate wait feedback. Skip explicitly identifies the seen-list check; its longer label may wrap without clipping or smaller text.\n• F1262: both Stakeout views display the official PLVI code for Plumbeous Vireo while preserving plsvir for provider requests and actions.\n• F1263: setup's initial-data count/loading/retry presentation stays inside the wizard, never on Home after Close or completion. Ordinary refresh and retained caches continue normally.\n• F1265: Add Watch uses bluish green #009E73; Remove Watch uses vermillion #D55E00. Black text/borders and explicit Add/Remove labels remain. Measured normal-text contrast is 6.14:1 and 5.43:1; these meet AA, not the superseded lighter-fill 7:1 target.\n\nLimits and installation:\n\nThe downloadable BirdChaser-unsigned.ipa is for sideloading with AltStore/AltServer; it is not the signed TestFlight installation. Signed delivery, Apple processing, internal-testing eligibility and owner-account visibility are separate observations.\n\nPhysical-device interactions not explicitly confirmed are unverified, not hidden successes. F1264's lower WATCH-action placement is queued separately. F1247 stays paused and F1248 parked; none is implemented by this release.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.184.0/BirdChaser-unsigned.ipa",
+          "size": 143430098,
           "minOSVersion": "15.0"
         }
       ],
@@ -1618,11 +1618,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.1",
-          "date": "2026-11-05T20:43:18Z",
-          "localizedDescription": "Next and Prev from anywhere:\n\n• Prev restarts the current item: During the first 3 seconds of an item, Prev goes to the previous item. After that it starts the current item again, so press it twice to go back. This works the same on the Play page, in your phone's media controls and in the companion app. (#632).\n\nPlayback:\n\n• Sleep timer fade-out: A timed sleep timer lowers the volume to silence over its last 10 seconds before it stops playback, then restores your volume. (#632).\n• Sleep timer badge: While a sleep timer is set, the Play page shows the minutes remaining beside its title. Select the badge to jump to the sleep timer controls. (#632).\n• SID Radio minimum length: Changing the minimum tune length now applies to a station that is already playing. Queued tunes that fall below the new minimum are removed. (#632).\n• Resume after restart: In SID Player mode, Resume on a tune that was paused when the app closed now continues playback instead of doing nothing. (#632).\n\nLayout and controls:\n\n• Sliders and scrolling: A vertical swipe that starts on a slider now scrolls the page instead of changing the slider's value. (#632).\n• Function keys: The manual and in-app help now explain that a key assigned to an action in your phone's own settings is handled by the phone, not the app. (#632).\n\nAndroid:\n\n• More reliable app switching: Fixed a rare system hang when leaving the app on some phones. (#632).",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.1/c64commander-1.2.1-ios.ipa",
-          "size": 7605899,
+          "version": "1.2.2",
+          "date": "2026-11-07T06:49:16Z",
+          "localizedDescription": "What's New:\n\nThis release makes it safe to control one C64 from two phones, or from C64 Commander and another app, at the same time. The C64 has one stream target, one audio mixer, one joystick and keyboard state, one set of drives and one configuration for everyone connected to it. Before this release, several actions in the app assumed it was the only one connected.\n\nTwo phones on one C64:\n\n• Live View: When a second phone starts Live View, the first phone no longer takes the stream back every few seconds. It shows that another app has the stream, and closing Live View on it no longer stops the other phone's picture. After a Wi-Fi drop, the phone takes its stream back when its packets arrive again. (#637).\n\n• Disks: Each phone now uses its own work file when it mounts a disk from the phone, so one phone's eject can no longer save the other phone's disk over its own file. Eject, Remove and the next and previous disk of a group now check the drive first and leave a disk in place that another phone has mounted since. Stop on the Play page ejects only the disk it mounted. (#637).\n• Playback: When the song-length timer runs out, or you press Stop or the sleep timer ends, the app first checks that the C64 is still playing its tune. If another app has started something else, the app stops its playlist with a message and leaves the C64 alone. This check covers SID tunes. (#637).\n• Volume: Pause and resume, Stop, the end of a playlist, seeking in a tune, Solo and config Revert now restore only the volume levels this phone changed. A level set by another app in the meantime is kept. (#637).\n• Health check: Two phones running the health check at the same moment no longer leave a changed setting behind. The FTP check now allows 3 seconds, like the REST and Telnet checks, so a short Wi-Fi stall no longer reports a healthy C64 as degraded. (#637).\n\nReliability:\n\n• Telnet: A background check of another saved C64 can no longer take over a Telnet session in the middle of a task, so keystrokes always reach the C64 the task started on. REU and config file tasks stay on one C64 from start to finish. (#637).\n• Remote seek: Fixed a rare case where pausing during a seek could make the app undo the seek again later. (#637).\n• Keyboard Lighting: Home and Lighting Studio no longer ask for Keyboard Lighting settings from a C64 that has none. (#637).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.2/c64commander-1.2.2-ios.ipa",
+          "size": 7611560,
           "minOSVersion": "15.0"
         }
       ],
@@ -1696,10 +1696,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-07T02:03:32Z",
-          "localizedDescription": "Built from 8921f95 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-07T14:46:34Z",
+          "localizedDescription": "Built from 6e09a84 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625614,
+          "size": 14625612,
           "minOSVersion": "15.0"
         }
       ],
@@ -1891,11 +1891,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.4",
-          "date": "2026-11-03T15:24:49Z",
-          "localizedDescription": "iPhone and iPad 0.12.4: A long reply stays readable when you press it:\n\nPressing and holding a long assistant reply no longer squeezes the preview into a thin strip.\n\nFixed:\n\n• Open an AI conversation and press and hold the assistant’s reply. The preview keeps the bubble’s width. Its height stays within half of the message area, and the rest is clipped. A short reply still shows the whole bubble. Copy (复制) still copies the entire reply.\n\nFull changes:.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.4/MovieClaw-iOS-unsigned.ipa",
-          "size": 30373273,
+          "version": "0.12.5",
+          "date": "2026-11-07T15:15:12Z",
+          "localizedDescription": "iPhone and iPad 0.12.5: Back navigation keeps the composer clear:\n\nWhen you swipe back from an AI conversation, the composer now stays above the returning glass tab bar instead of slipping behind it.\n\nFixed:\n\n• During an edge swipe back from an AI conversation or the new-conversation page, the composer stays above the bottom glass tab bar while both are on screen. Cancelling the swipe returns the composer to its original position. Sidebars and top tab bars on wider iPad layouts are unchanged.\n\nFull changes:.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.5/MovieClaw-iOS-unsigned.ipa",
+          "size": 30403229,
           "minOSVersion": "26.0"
         }
       ],
@@ -2245,10 +2245,10 @@
       "versions": [
         {
           "version": "0.1.6",
-          "date": "2026-11-05T15:43:26Z",
-          "localizedDescription": "ios 0.1.6-nightly.20261105.38:\n\n• build(deps): bump the rust-dependencies group with 4 updates (#360) (3eb61fd18).\n\nChanges since ios/v0.1.6-nightly.20261030.32.",
-          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261105.38/conduit-0.1.6-nightly.20261105.38-ios-unsigned.ipa",
-          "size": 46618131,
+          "date": "2026-11-07T14:10:24Z",
+          "localizedDescription": "ios 0.1.6-nightly.20261107.41:\n\nPackaging release with no component source changes.\n\nChanges since ios/v0.1.6-nightly.20261105.38.",
+          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261107.41/conduit-0.1.6-nightly.20261107.41-ios-unsigned.ipa",
+          "size": 46617644,
           "minOSVersion": "15.0"
         }
       ],
@@ -4177,11 +4177,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.0",
-          "date": "2026-10-27T03:11:13Z",
-          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• The iPhone 18 Pro now warns when a reading may be half. On an iPhone 18 Pro model charging by cable on a profile above 30 W, the dial shows \"may read half\", and the Power and Adapter pages explain why: in that mode both the input and the cell sensors can see only half the power. The numbers themselves are not corrected.\n• New battery level check. While charging, the app turns the battery level's rise into watts and compares it with what the cell sensors measured over the same stretch. If the level rises much faster (1.6× or more), the dial shows \"reading low\" with both figures; if they agree, the check says so and the \"may read half\" warning is hidden. It needs at least a 3% rise, usually a few minutes.\n• Sensors are identified by SMC key, and duplicate copies are merged. iOS 27 publishes every sensor twice. The app used to take the first copy; it now averages the two, and each sensor appears once on the Thermal page. The Thermal page and Raw data show the key beside the name (the battery sensor that runs hot is TG0B).\n• Battery energy defaults by model. 21.75 Wh for the iPhone 18 Pro Max, 19.7 Wh for the iPhone 17 Pro Max, 15 Wh otherwise. Settings → Battery energy shows your model's rating with a \"Use\" button. A value you set yourself is kept.\n• Raw data gains a \"Derived power checks\" section, recording whether the half-reading warning applies and the battery level check's result.\n\nFixes:\n\n• Adapter: on an iPhone 18 Pro at high power, a low reading is no longer blamed on the cable or plugs; path resistance and current utilisation are not worked out while the reading may be incomplete.\n\nNotes:\n\n• On an iPhone 18 Pro at high power the full input still cannot be read: the second charging path has no readable sensor. This version can warn and cross-check, not fill in the missing power, and energy totals recorded during that time are still low.\n• The battery level check has not been verified on an iPhone 18 Pro. If you have one, charge at 45 W, let the level rise a few percent, then copy the dump from Settings → Raw data and report it.\n• If your model is not in the list above, set Settings → Battery energy to its rating, or the level check may never reach a verdict.\n• Some of these findings come from measurements by ChargeSpeed's author on an iPhone 18 Pro Max.",
-          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.6.0/MiniWatts-unsigned.ipa",
-          "size": 3332420,
+          "version": "1.7.0",
+          "date": "2026-11-07T08:08:32Z",
+          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• Temperatures can be shown in Fahrenheit. Settings → Units offers Automatic, °C or °F. Automatic follows your region and the Temperature option under Settings › General › Language \u0026 Region, so if your region uses Fahrenheit you will see °F straight after updating. Every page, the charts, the heat map, the floating meter, the Live Activity and the widget follow the setting; Raw data still shows the sensors' own °C. (#25).\n• Charge forecast. While charging, the Power page shows how long until 80% and until 100%, and roughly when. It is worked out from how fast the battery level is actually rising, so it does not depend on the battery energy setting; it appears once the level has moved twice, usually within a few minutes. Past 80% it follows a typical charging curve and is approximate. (#27).\n• Version number. Settings → About shows the installed version, and the first line of the Raw data dump includes it. (#27).\n• iPad layout. On an iPad in landscape, and a 13-inch in portrait, every page uses two columns; narrower windows keep one. A session's detail page in History no longer stretches edge to edge on an iPad. (#22).\n• iPad heat map. On an iPad the Thermal page draws an iPad, with the zones placed as in an iPad Pro 11-inch: logic board down the middle, a battery cell either side, the charge IC by the USB-C port. The Devices page and Settings use iPad icons too. (#13, #22).\n\nFixes:\n\n• Thermal: the CPU-cluster (pACC, eACC) and image-processor (ISP) sensors used to land under \"Other sensors\"; they now count as the SoC, and the SoC zone's temperature includes them. On an iPhone 11, run-together sensor names such as FrontCameraDie and BCMLBSkin were filed in the wrong zone (the front camera as chassis); names are now split into words before they are matched. (#13, #14).\n• Adapter: the one-sample note always showed in English in the Chinese interface; it is now translated.\n\nNotes:\n\n• The iPad changes were checked in the simulator only — I do not have an iPad. If something looks wrong on yours, copy the dump from Settings → Raw data and report it.\n• The low \"from charger\" reading on an iPad (#13) is not fixed yet: finding which sensor carries the rest of the input needs a Raw data dump taken while charging. If you have an iPad, please copy one from Settings → Raw data while it charges and post it on #13.\n• The charge forecast cannot tell whether a charge limit or Optimized Battery Charging is on. If one is, the battery stops short and the time to 100% will be wrong.",
+          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.7.0/MiniWatts-unsigned.ipa",
+          "size": 3374224,
           "minOSVersion": "17.0"
         }
       ],
@@ -4384,11 +4384,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.2.4",
-          "date": "2026-11-06T03:06:50Z",
-          "localizedDescription": "XeniOS 2.2.4:\n\nFixes on top of 2.2.3.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\nEmulation:\n\n• Fixed a crash at game start or while saving shaders when memory is low: saved pipelines are skipped when there isn't room to load them, and compile as usual instead.\n• Quitting or closing a game no longer waits for a pipeline save in progress or for a stalled GPU, which could make iOS end the app.\n\nApp:\n\n• In games with local multiplayer, a second player's profile is signed in for that player instead of replacing the first player's.\n• When the app runs out of memory, it now says so and names the likely cause instead of closing without a message.\n\n• Game covers are no longer deleted after an app update for games the library hadn't finished loading yet.\n• Long button titles on the System Software page wrap instead of being cut off.\n• The Head Tracking switch is hidden on installs that can't use it.\n• The first time a game looks for a network while System Link is off, XeniOS offers to turn System Link on in one tap, and the running game is told the network is now up. Some games, such as Black Ops 2, stop with an error without it.\n\n• iOS / iPadOS 26 or later.\n• Installing over 2.2 or later keeps your games, saves, settings and shader storage.\n\nKnown issues:\n\n• Online System Link and the Xbox 360 Dashboard are still experimental.\n\nBuild details:\n\n• Stage: stable.\n• Version: 2.2.4.\n• Build number: 11500.\n• Commit: bef950648.\n• Published at: 2026-11-06T02:39:25Z.\n• Source ref: refs/heads/xenios.",
-          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.4-build-11500/xenios_ios_iphone_ipad.ipa",
-          "size": 48372344,
+          "version": "2.2.5",
+          "date": "2026-11-07T06:42:49Z",
+          "localizedDescription": "Fixes on top of 2.2.4.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\nApp:\n\n• When the JIT tool is attached but doesn't answer, XeniOS now says JIT isn't available instead of crashing.\n• If quitting takes more than 4 seconds, XeniOS exits instead of waiting for iOS to end it.\n\n• iOS / iPadOS 26 or later.\n• Installing over 2.2 or later keeps your games, saves, settings and shader storage.\n\nKnown issues:\n\n• Online System Link and the Xbox 360 Dashboard are still experimental.\n\nBuild details:\n\n• Stage: stable.\n• Version: 2.2.5.\n• Build number: 11501.\n• Commit: 9b3820832.\n• Published at: 2026-11-07T05:58:52Z.\n• Source ref: refs/heads/xenios.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.5-build-11501/xenios_ios_iphone_ipad.ipa",
+          "size": 48372158,
           "minOSVersion": "26.0"
         }
       ],
@@ -4932,18 +4932,18 @@
       "bundleIdentifier": "com.suversal.wrappin",
       "developerName": "suversal",
       "subtitle": "iOS 27+ 本机虚拟定位与步行路线测试工具",
-      "localizedDescription": "User guide · @suversal on X.\n\nWrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 27 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language.\n\nUse WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.\n\nWhat you need:\n\nThis guide uses the free route: iLoader + SideStore + LocalDevVPN + WrapPin.\n\n• A physical iPhone running iOS 27 or newer, with a passcode set.\n• A Mac, Windows or Linux computer. It is needed only once, to install SideStore.",
+      "localizedDescription": "User guide · @suversal on X.\n\nWrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language.\n\nUse WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.\n\nWhat you need:\n\nThis guide uses the free route: iLoader + SideStore + LocalDevVPN + WrapPin.\n\n• A physical iPhone running iOS 18 or newer, with a passcode set. iOS 18–26 needs a computer for initial pairing.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suversal.wrappin.png",
       "tintColor": "#356ed4",
       "category": "other",
       "versions": [
         {
-          "version": "1.0.20",
-          "date": "2026-10-28T15:34:05Z",
-          "localizedDescription": "• 标准版：WrapPin-Standard-1.0.20-build66-unsigned.ipa，供 SideStore 或其他自签方式使用。.\n• 隧道版：WrapPin-Tunnel-1.0.20-build66-unsigned.ipa，需要带 Packet Tunnel 权限的签名证书及描述文件。.\n\nSHA-256：.",
-          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.20/WrapPin-Standard-1.0.20-build66-unsigned.ipa",
-          "size": 4964556,
-          "minOSVersion": "27.0"
+          "version": "1.0.21",
+          "date": "2026-11-07T08:52:15Z",
+          "localizedDescription": "SHA-256：.",
+          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.21/WrapPin-Standard-1.0.21-build71-unsigned.ipa",
+          "size": 6914083,
+          "minOSVersion": "18.0"
         }
       ],
       "appPermissions": {
@@ -5099,10 +5099,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-07T04:53:52Z",
-          "localizedDescription": "Immutable snapshot of alpha build 461 (907a804).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 461, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-461/Non-Jailbroken.ipa",
-          "size": 104595132,
+          "date": "2026-11-07T06:36:02Z",
+          "localizedDescription": "Immutable snapshot of alpha build 463 (509d410).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 463, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-463/Non-Jailbroken.ipa",
+          "size": 104595971,
           "minOSVersion": "17.0"
         }
       ],
@@ -5158,18 +5158,18 @@
       "name": "VeneraX",
       "bundleIdentifier": "io.github.kyosee.venera",
       "developerName": "Kyosee",
-      "subtitle": "A personal use fork of the original Venera, maintained and enhanced to suit my own needs",
+      "subtitle": "A continually enhanced, cross platform comic reader based on Venera, with experimental AI translation",
       "localizedDescription": "VeneraX is a free and open-source, multi-platform comic reader forked from Venera and maintained with enhancements over the original.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nBefore downloading, installing, or using this software, please read and fully understand the User Agreement \u0026 Disclaimer. By downloading, installing, copying, modifying, or using this software, you are deemed to have read, understood, and accepted it in its entirety; if you do not agree, do not use the software and delete it immediately.\n\nNew Features \u0026 Improvements:\n\n• [x] Improved WebDAV backup \u0026 sync, with a per-item choice of settings to skip.\n• [x] Automatic update checks on Windows and Android APK.\n• [x] Seamless continuous-chapter reading.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.kyosee.venera.png",
       "tintColor": "#8567bb",
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.3.10",
-          "date": "2026-11-06T13:00:33Z",
-          "localizedDescription": "Added:\n\n• \"Split wide pages\" now works in gallery modes too: a landscape page (usually two pages scanned as one) is cut down the middle and each half gets a screen of its own. Choose \"Right half first\" or \"Left half first\"; pick \"Right half first\" for comics read right to left. It applies only with one image per screen.\n• With two or more images per screen in gallery modes, a new \"Shift pages by one\" button in the reader's bottom bar helps when an extra single page in a chapter, such as a color page or an ad, throws every later two-page spread out of line. Tap it and the current screen shows only its first image, and the pages after it are paired again from the next screen. Tap \"Undo page shift\" on the same screen to undo it. Shifts are saved per chapter and synced with your other reading settings.\n• Added \"Export Translation Results\" under Data \u0026 Sync. The file holds only translated pages; open it with \"Import App Data\" on another device to add them without changing anything else there.\n• \"Skip Sync Items\" has a new \"Translation Results\" entry that keeps translations on this device only, out of WebDAV sync.\n\nChanged:\n\n• When translations sync over WebDAV, translations you delete on one device (a chapter's, a whole comic's, or all of them with \"Clear translation results\") are now deleted on your other devices too, instead of being synced back.\n• With WebDAV sync on, translations are uploaded automatically when a pre-translation finishes.\n\nFixed:\n\n• Fixed re-translated pages not reaching other devices over WebDAV sync. When two devices both have a page's translation, the newer one is now kept.\n• Fixed some pages failing AI translation over and over while still spending API tokens: replies that took a long time were cut off midway.\n• Fixed image enhancement not applying in gallery modes with one image per screen, and \"Copy Image\" and \"Save Image\" in the right-click menu reporting \"No Image\" there.\n• Fixed comics matching a block rule missing from the Local and Translation Library pages (while still showing on the home page), so they couldn't be opened or deleted.\n• Fixed the Linux deb and Arch packages failing to start because of missing libraries.",
-          "downloadURL": "https://github.com/Kyosee/VeneraX/releases/download/v2.3.10/VeneraX-ios-2.3.10%2B253.ipa",
-          "size": 39013148,
+          "version": "2.3.11",
+          "date": "2026-11-07T13:23:52Z",
+          "localizedDescription": "Added:\n\n• The reading settings sidebar now has a search box at the top. Search in your display language or English, then select a result to jump to the setting, including options inside collapsed groups.\n• Long-press the night mode button to adjust its intensity in a compact popup. Changes appear immediately and are saved automatically.\n• Long-press the auto page turning button to choose between turning pages and scrolling. Scrolling is available in continuous reading modes; a short press still starts or stops automatic reading.\n\nChanged:\n\n• Settings sliders and the reading progress bar now use rounded handles and gradient tracks that follow the app's theme color.\n\nFixed:\n\n• Fixed the reading progress slider occasionally jumping to the page before the one selected.\n• Fixed chapter comments not appearing at the end of chapters in continuous reading modes when Show Chapter Comments is enabled.",
+          "downloadURL": "https://github.com/Kyosee/VeneraX/releases/download/v2.3.11/VeneraX-ios-2.3.11%2B254.ipa",
+          "size": 39064421,
           "minOSVersion": "15.1"
         }
       ],
@@ -6061,10 +6061,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-06T14:49:46Z",
+          "date": "2026-11-07T13:46:23Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484767,
+          "size": 7484768,
           "minOSVersion": "16.4"
         }
       ],
@@ -6271,10 +6271,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-06T21:17:08Z",
+          "date": "2026-11-07T13:28:29Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56179645,
+          "size": 56180404,
           "minOSVersion": "17.0"
         }
       ],
@@ -6487,11 +6487,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.8.3",
-          "date": "2026-11-06T06:01:25Z",
-          "localizedDescription": "Features:\n\n• bluetooth: opt into locked credential access and pairing backups (a4d6905).\n• ios: resume ride detection through native location wake (9f5e4b9).\n• bluetooth: survey the full SHFW read window (7b7b455).\n• developer: add private Ideas notebook and reviewed interchange (669aa12).\n• bluetooth: add independent read-only SHFW inspection tool (000d9f2).\n• bluetooth: add safe M365 ride controls and detection actions (ae4d4ce).\n• recording: detect connected Bluetooth rides with iOS wake alerts (fa56c79).\n• plugins: add VPI archives and ride insight charts (ebae9c8).\n\n• plugins: add isolated extensions and development-client handoff (1d64ef4).\n\nFixes:\n\n• bluetooth: preserve ride wake when credential storage is locked (447f693).\n• bluetooth: expose cancellation while reconnect is pending (f89c724).\n• recording: isolate automatic monitoring from telemetry simulation (3b1dec0).\n• build: preserve dependency versions during app version bumps (cbd7d07).\n• ios: enable BLE restoration and background ride detection (d8ead2b).\n• bluetooth: clarify probe approval and record verified light reads (90bb405).\n• recording: retain Bluetooth ownership and hand off group activities (3290cd2).\n• layout: keep replay controls and update actions visible in landscape (28e1468).\n• map: forward navigation rotation through Fabric marker props (2c103d3).\n\n• replay: keep the map clear and expire scratch reveals (a047df2).\n• plugins: prioritize installed packages over bundled examples (eaac348).\n• plugins: keep package feedback beside import controls (7ef35c3).\n• ios: let tab controller own adaptive map accessories (aac605c).\n• hide retained sample data outside developer and capture modes (6f93de2).\n• ios: restore tabs after direct routes and controller attachment (b88cd71).\n• ios: apply camera padding to Fabric and disambiguate toolbar geometry (0b6eff6).\n• restore native button styles, tab chrome and complete build notes (5b93102).\n• localize patch details and constrain narrow landscape replays (0fd962b).\n• stabilize paired sync, native panels and map updates (dac9299).\n\nOther changes:\n\n• bluetooth: integrate verified SHFW read mappings (ea6225b).\n\nDocumentation:\n\n• bluetooth: record controlled SHFW mappings and restoration (06882db).\n• ideas: record browser verification and hosted deployment (f06cf4e).\n\n• bluetooth: record reversible physical scooter tests (dce787f).\n\n• testing: record scooter controls validation and web deployment (ff98b5a).\n• validation: record 2.7.5 web deployment and pending native build (85e8c7d).\n• standards: adopt application governance and AGPL licensing (97a394e).\n\n• changelog: record simulator reliability fixes in 2.7.4 (b4d1b23).\n• changelog: include final plugin usability review (13933fb).\n• changelog: record VPI and insight testing changes (34a8a5a).\n\n• changelog: record plugin and replay implementation details (12718d9).\n• record native verification gate and successful candidate build (17519fe).\n\nVerification:\n\n• iPhone: unsigned IPA, intended for AltStore Classic or SideStore re-signing.\n• Simulator: .app.zip, not an IPA; requires an Apple Silicon Simulator.\n• Android: APK. Without configured signing secrets, the build uses Expo’s development signing key.\n• Web: web.zip, also available as a workflow artifact; serve its contents with the bundled web/PeerServer service. Build information and binary checksums are consolidated in build_info.json.\n\nScheduled ETAs exclude traffic. Route eligibility is unverified. See README for provider setup and tested limitations.\n\nScreenshot verification.\n\n• iphone: no new screenshot; previous AltSource images are retained where available. Simulator verification did not complete.\n• ipad: no new screenshot; previous AltSource images are retained where available. Simulator verification did not complete.",
-          "downloadURL": "https://github.com/Xarber/Velunivo/releases/download/v2.8.3-testing.128/Velunivo.ipa",
-          "size": 39330307,
+          "version": "2.8.4",
+          "date": "2026-11-07T07:23:40Z",
+          "localizedDescription": "Features:\n\n• web: add accessible product introduction and isolated offline cache (9cc930b).\n• bluetooth: opt into locked credential access and pairing backups (a4d6905).\n• ios: resume ride detection through native location wake (9f5e4b9).\n• bluetooth: survey the full SHFW read window (7b7b455).\n• developer: add private Ideas notebook and reviewed interchange (669aa12).\n• bluetooth: add independent read-only SHFW inspection tool (000d9f2).\n• bluetooth: add safe M365 ride controls and detection actions (ae4d4ce).\n• recording: detect connected Bluetooth rides with iOS wake alerts (fa56c79).\n• plugins: add VPI archives and ride insight charts (ebae9c8).\n\n• plugins: add isolated extensions and development-client handoff (1d64ef4).\n\nDocumentation:\n\n• standards: adopt complete UADS section 36 and project exceptions (ef7b7e2).\n• ios: record credential checks and web deployment evidence (f712bf7).\n• bluetooth: record controlled SHFW mappings and restoration (06882db).\n• ideas: record browser verification and hosted deployment (f06cf4e).\n\n• bluetooth: record reversible physical scooter tests (dce787f).\n\n• testing: record scooter controls validation and web deployment (ff98b5a).\n• validation: record 2.7.5 web deployment and pending native build (85e8c7d).\n• standards: adopt application governance and AGPL licensing (97a394e).\n\n• changelog: record simulator reliability fixes in 2.7.4 (b4d1b23).\n• changelog: include final plugin usability review (13933fb).\n• changelog: record VPI and insight testing changes (34a8a5a).\n\n• changelog: record plugin and replay implementation details (12718d9).\n• record native verification gate and successful candidate build (17519fe).\n\nFixes:\n\n• bluetooth: preserve ride wake when credential storage is locked (447f693).\n• bluetooth: expose cancellation while reconnect is pending (f89c724).\n• recording: isolate automatic monitoring from telemetry simulation (3b1dec0).\n• build: preserve dependency versions during app version bumps (cbd7d07).\n• ios: enable BLE restoration and background ride detection (d8ead2b).\n• bluetooth: clarify probe approval and record verified light reads (90bb405).\n• recording: retain Bluetooth ownership and hand off group activities (3290cd2).\n• layout: keep replay controls and update actions visible in landscape (28e1468).\n• map: forward navigation rotation through Fabric marker props (2c103d3).\n\n• replay: keep the map clear and expire scratch reveals (a047df2).\n• plugins: prioritize installed packages over bundled examples (eaac348).\n• plugins: keep package feedback beside import controls (7ef35c3).\n• ios: let tab controller own adaptive map accessories (aac605c).\n• hide retained sample data outside developer and capture modes (6f93de2).\n• ios: restore tabs after direct routes and controller attachment (b88cd71).\n• ios: apply camera padding to Fabric and disambiguate toolbar geometry (0b6eff6).\n• restore native button styles, tab chrome and complete build notes (5b93102).\n• localize patch details and constrain narrow landscape replays (0fd962b).\n• stabilize paired sync, native panels and map updates (dac9299).\n\nOther changes:\n\n• bluetooth: integrate verified SHFW read mappings (ea6225b).\n\nVerification:\n\n• iPhone: unsigned IPA, intended for AltStore Classic or SideStore re-signing.\n• Simulator: .app.zip, not an IPA; requires an Apple Silicon Simulator.\n• Android: APK. Without configured signing secrets, the build uses Expo’s development signing key.\n• Web: web.zip, also available as a workflow artifact; serve its contents with the bundled web/PeerServer service. Build information and binary checksums are consolidated in build_info.json.\n\nScheduled ETAs exclude traffic. Route eligibility is unverified. See README for provider setup and tested limitations.\n\nScreenshot verification.\n\n• iphone: no new screenshot; previous AltSource images are retained where available. Simulator verification did not complete.\n• ipad: no new screenshot; previous AltSource images are retained where available. Simulator verification did not complete.",
+          "downloadURL": "https://github.com/Xarber/Velunivo/releases/download/v2.8.4-testing.129/Velunivo.ipa",
+          "size": 39331184,
           "minOSVersion": "16.4"
         }
       ],
@@ -6529,11 +6529,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.10",
-          "date": "2026-11-07T04:51:10Z",
-          "localizedDescription": "Release v6.3.10:\n\n• Keep Jimaku credential sync off shared app requests (feb770509).\n• Fix Windows immersion storage and Home stats recovery (e7ae79778).\n• Add local diagnostics for unresponsive library covers (a37b385f2).\n• Use the published flashcard extension SDK (c3d5af540).\n• Speed up immersion statistics upgrades (cf48a18da).\n• Support the same eleven vocabulary languages across app and extension (582843586).\n• Compact local immersion statistics indexes and session data (ef2c794f8).\n• Add pronunciation volume controls to app and extension (58184fc07).\n• Preserve vocabulary languages across account sync (9c1f87de5).\n• Apply compact flashcard editor with inline media controls (d3429967f).\n• Unify still-image and animated capture settings (424f298a9).\n• Improve extension flashcard capture and audio editing (e32dc8f21).\n• Cancel abandoned browser address edits (4aa61edbf).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.10/Manatan-v6.3.10-iOS.ipa",
-          "size": 439462844,
+          "version": "6.3.11",
+          "date": "2026-11-07T11:12:23Z",
+          "localizedDescription": "Release v6.3.11:\n\n• Fix Android native path conversion (892212c).\n• Fix novel storage key parameter types (9d7ccc1).\n• Add word tracking to the browser dictionary (5bc5f4e).\n• Recover Google Drive sync from legacy checkpoints (6fe5245).\n• Restore dictionary popup word status and card opening (f1d17e5).\n• Guide browser extension users through setup (5483cc1).\n• Keep manga images loading across rotating CDN hosts (196d78f).\n• Update Flashcards extensions automatically with rollback (078ec8d).\n• Add search for installed dictionaries (0035faf).\n• Fix browser flashcard rendering, media sync, and lookup feedback (7089887).\n• Match explicit subtitle episode numbers that resemble resolutions (32c336a).\n• Show compact dashboard extensions on the mobile home screen (b2c5da8).\n• Drain APK size listings without broken pipe failures (2d056b9).\n• Freeze browser recovery source before applying CI overlays (cbf9610).\n• Include shared vocabulary catalog in Firefox reviewer sources (c99a938).\n• Keep EPUB title images on their own reader pages (2a7c3cc).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.11/Manatan-v6.3.11-iOS.ipa",
+          "size": 442836289,
           "minOSVersion": "16.1"
         }
       ],
@@ -6629,11 +6629,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.25",
-          "date": "2026-11-03T05:48:30Z",
-          "localizedDescription": "iGhostVT 1.6.25 reads more naturally in Chinese.\n\n• In Simplified and Traditional Chinese, some labels were worded awkwardly or used different terms from the rest of the system. They now read more naturally and use the same words as iOS and macOS.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.25-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.25.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.25/GhostRemote-1.6.25.ipa",
-          "size": 7039881,
+          "version": "1.6.26",
+          "date": "2026-11-07T10:23:43Z",
+          "localizedDescription": "iGhostVT 1.6.26 moves to a newer Ghostty, scrolls with your finger on iPad, and asks before dropped text can run as commands.\n\n• On iPad, the terminal scrolled about one and a half times as far as your finger moved. It now moves with your finger.\n• With a trackpad or mouse on an iPad or Mac, the terminal scrolled about half as far as a list does. It now scrolls about the same distance.\n• Text with line breaks dropped on the terminal ran at once in a program without bracketed paste. iGhostVT now asks first, as it does for a paste.\n• In bash, a folder name with control characters could send escape sequences to the terminal, including one that changes the clipboard. They are now left out of the tab title.\n• The terminal could freeze when the theme changed, or crash while discarding old scrollback. Both are fixed in the newer Ghostty.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.26-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.26.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.26/GhostRemote-1.6.26.ipa",
+          "size": 7059695,
           "minOSVersion": "15.0"
         }
       ],
@@ -6822,7 +6822,7 @@
       "bundleIdentifier": "io.github.danielnoam.waypage",
       "developerName": "danielnoam",
       "subtitle": "Save a web page to your phone and read it with no connection: on a plane,",
-      "localizedDescription": "Waypage:\n\nSave a web page to your phone and read it with no connection: on a plane, in a tunnel, anywhere. The text is kept whole, pictures keep a small preview with a link to the full size, and videos keep a thumbnail that plays when you're back online. Every clip links back to the original.\n\nPlain HTML, CSS and JS with no build step and no dependencies. The same files run in a browser (the web copy on GitHub Pages) and, wrapped by Capacitor, as the Android and iOS apps.\n\nEach section below shows the computer (left) and the phone (right).\n\nLibrary:\n\n• Continue reading at the top, then Collections, then Clips.\n• Shelf, list or grid layouts, site icons and collection covers.",
+      "localizedDescription": "Waypage:\n\nSave a web page to your phone and read it with no connection: on a plane, in a tunnel, anywhere. The text is kept whole, pictures keep a small preview with a link to the full size, and videos keep a thumbnail that plays when you're back online. Every clip links back to the original.\n\nPlain HTML, CSS and JS with no build step and no dependencies. The same files run in a browser (the web copy on GitHub Pages) and, wrapped by Capacitor, as the Android and iOS apps.\n\nEach section below shows the computer (left) and the phone (right).\n\nLibrary:\n\n• Continue reading at the top, then Collections, then Clips.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.danielnoam.waypage.png",
       "tintColor": "#4376a5",
       "category": "other",
@@ -6839,7 +6839,7 @@
           "date": "2026-11-06T14:09:13Z",
           "localizedDescription": "Added:\n\n• Comics in Pages: one page a screen, turned with a tap on either side, a swipe or the keys, the middle tap showing the bars. On a wide window two pages sit side by side, the cover alone. Comics keep Scroll until you pick Pages for them in Aa › Layout, apart from books.\n• A manga turns right to left, picked by itself when its CBZ's ComicInfo says so; Aa › Layout › Turn pages changes it for that comic.\n• Wide pages, in Aa › Layout for a comic in Pages: a two-page spread on a phone shows in halves (Split), or whole.\n• A pinch or double tap on a comic page in Pages opens it in the viewer to zoom.\n• Series: a CBZ whose ComicInfo names its series and number, or an EPUB with a series (calibre's or EPUB 3's), goes into that series' collection in volume order, however the volumes were added.\n• With a mouse, clips and collections answer when you point at them: a soft tint, and the card or its cover lifts a little. Top bar buttons and sidebar rows tint and grow a touch too. Touch screens are unchanged, and Reduce motion or Animations off keep only the tint.\n• Picking clips in a collection: a ⋯ beside Select all with Read, Unread (pick just those) and Previous (add every clip above the latest one picked).\n• Images for feeds: in Settings, Saving, when Images is on Full images, a second pick sets the pictures for feeds you follow from then on (previews, full images or links only). A feed's own menu still changes that feed.\n\nChanged:\n\n• Speed for Narrate and auto-scroll now goes up to 4×, not 3×. On iPhone the voice itself tops out at about 2×; auto-scroll goes the whole way.\n\nFixed:\n\n• Pressing a sidebar heading with a fold arrow (like Library) now lights the whole row, arrow included, not just the part before it.\n• A message with a button in it, like \"Saved, but the site kept the rest for subscribers.\" with Sign in, stayed on screen for good. It now leaves after a few seconds, or as soon as you press its button.\n• Pages: the side margin no longer grows as you move through a clip, most of all when dragging the skim slider far. On phones whose screen width isn't a whole number of pixels, every page turn left the text a little further off, so the margin crept wider and the text ran to the edge. The last page also sat 20 px to the left; it is centred now.\n• Tablets: a link, note or look-up opened from the text now appears in the middle of the screen, not in the top-left corner.\n• Tablets: picking several clips no longer draws Tags, Collection, Mark read, Edit and Delete over Cancel and Select all. Under 1280 px wide the actions sit in a bar along the bottom, as on a phone; the one bar at the top stays on wider screens.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.53.0/Waypage.ipa",
-          "size": 10733835,
+          "size": 10737024,
           "minOSVersion": "15.5"
         }
       ],
@@ -8285,11 +8285,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.1",
-          "date": "2026-11-06T18:25:16Z",
-          "localizedDescription": "• Fix the live espresso screen running past the screen edges with the pressure view: the pressure chart now fills the space that is left.\n• The landscape chart turns straight to landscape instead of showing upright for a moment.\n• Pressure view with a machine that measures the pressure itself (GaggiMate, Decent): weight and pressure side by side instead of one giant pressure number, with both charts.\n• Switching between Filter and Espresso is instant, with a cross-fade.\n\nAndroid.\n\nWeb.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.0.1/BrewLog.ipa",
-          "size": 12613989,
+          "version": "2.0.2",
+          "date": "2026-11-07T12:15:29Z",
+          "localizedDescription": "• A knock on the scale no longer spoils a brew: short spikes are removed even when the scale sends several readings of them, so the final weight, the pour analysis (\"overpoured\") and the flow chart ignore them.\n\n• A knock on the scale no longer spoils a brew: short spikes are removed even when the scale sends several readings of them, so the final weight, the pour analysis (\"overpoured\") and the flow chart ignore them.\n\nWeb.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.0.2/BrewLog.ipa",
+          "size": 12612291,
           "minOSVersion": "17.0"
         }
       ],
@@ -10321,11 +10321,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.4",
-          "date": "2026-10-26T16:12:40Z",
-          "localizedDescription": "• Add iPhone Duo support.\n• Fixes and improvements.",
-          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.4/OpenScreenSharing.ipa",
-          "size": 13574772,
+          "version": "1.0.6",
+          "date": "2026-11-07T07:10:23Z",
+          "localizedDescription": "• Add native touch support for Mac.\n• Add Quick Input.\n• Keep the Mac awake.\n• Allow signing in with another connection's credentials.\n• Fixes and improvements.",
+          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.6/OpenScreenSharing.ipa",
+          "size": 13714353,
           "minOSVersion": "15.0"
         }
       ],
@@ -10415,11 +10415,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.74",
-          "date": "2026-11-06T21:18:37Z",
-          "localizedDescription": "Addons: los títulos de las tarjetas ocupan una sola línea y, si son largos, se desplazan al enfocar la tarjeta, como en Emisiones. Se quita el año bajo el título. El botón de volver de las pantallas de detalle pasa a ser una cápsula de vidrio translúcido. El resaltado de un episodio deja margen bajo la miniatura.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.74/InputStreamPlayer-iOS-0.9.74-128-unsigned.ipa",
-          "size": 17348499,
+          "version": "0.9.75",
+          "date": "2026-11-07T11:11:22Z",
+          "localizedDescription": "Los títulos de «Ver más tarde» y de las listas de Trakt ya no muestran el año bajo el nombre.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.75/InputStreamPlayer-iOS-0.9.75-129-unsigned.ipa",
+          "size": 17348206,
           "minOSVersion": "16.0"
         }
       ],
@@ -10613,11 +10613,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.4",
-          "date": "2026-11-02T01:15:24Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.4:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.4/Lumisound-2.0.0.4-unsigned.ipa",
-          "size": 14683925,
+          "version": "2.0.0.6",
+          "date": "2026-11-07T12:48:43Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.6:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.6/Lumisound-2.0.0.6-unsigned.ipa",
+          "size": 14911584,
           "minOSVersion": "26.0"
         }
       ],
@@ -10832,10 +10832,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-07T02:03:32Z",
-          "localizedDescription": "Built from 8921f95 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-07T14:46:34Z",
+          "localizedDescription": "Built from 6e09a84 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 52751254,
+          "size": 45393454,
           "minOSVersion": "15.0"
         }
       ],
@@ -11885,11 +11885,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.2.6",
-          "date": "2026-10-25T01:24:44Z",
-          "localizedDescription": "• Fix: avoid duplicate sell price zero.\n• Refactor: standardize byte types on uint8_t.\n• Refactor: avoid redundant triangle vertex initialization.\n• Refactor: reduce pitch interpolation index overhead.\n• Refactor: queue vertex uploads and deduplicate GL state.\n• Refactor: reuse particle shake random values.\n• Refactor: reduce repeated pool effect computations.",
-          "downloadURL": "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.6/pvz-portable-ios-arm64.ipa",
-          "size": 4325990,
+          "version": "0.2.7",
+          "date": "2026-11-07T08:56:15Z",
+          "localizedDescription": "• Fix: correct Grave Buster death dirt position.\n\n• Feat: rewrite the v4 save converter as a structured save editor.\n• Fix: restore graceful Android exit and relaunch.\n• Refactor: centralize challenge screen button state.",
+          "downloadURL": "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-ios-arm64.ipa",
+          "size": 4328679,
           "minOSVersion": "16.4"
         }
       ],
@@ -12188,11 +12188,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.19.0",
-          "date": "2026-10-14T16:48:13Z",
-          "localizedDescription": "Features:\n\n• robot control ownership and observer services, plus camera and assistant launcher fixes (7b10a3b).",
-          "downloadURL": "https://github.com/tessel-la/robo-boy/releases/download/robo-boy-v0.19.0-alpha/Robo-Boy-iphone-unsigned.ipa",
-          "size": 4593877,
+          "version": "0.20.0",
+          "date": "2026-11-07T14:56:31Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/tessel-la/robo-boy/releases/download/robo-boy-v0.20.0-alpha/Robo-Boy-iphone-unsigned.ipa",
+          "size": 5341372,
           "minOSVersion": "14.0"
         }
       ],
@@ -12200,7 +12200,7 @@
         "entitlements": [],
         "privacy": {
           "NSLocalNetworkUsageDescription": "Robo-Boy connects to the ROS 2 computer on your network to control the robot and show its cameras and 3D views.",
-          "NSMicrophoneUsageDescription": "Robo-Boy records only while you hold the voice control, to send a spoken command to the robot."
+          "NSMicrophoneUsageDescription": "Robo-Boy uses your microphone when you start voice input. Speech recognition or AI transcription may send audio to the service you choose."
         }
       }
     },
@@ -12932,10 +12932,10 @@
       "versions": [
         {
           "version": "0.3.3",
-          "date": "2026-11-06T23:15:43Z",
-          "localizedDescription": "What's new:\n\nRecly 0.3.3 build 46 fixes two faults and prepares the Apple apps for App Store review.\n\n• iPhone: copy an Ask answer with times in it. On an answer holding a time, a long press's Copy left the clipboard as it was. It now copies the whole answer, and a press on a time still moves the playhead.\n• A failed read of the device's database no longer closes the app. The Apple apps and the Android phone could quit when a read of their recordings, jobs or settings failed. They now keep running and read again at the next change, and a settings field that could not be read saves nothing over what is stored.\n• Apple apps: the privacy manifests declare the free-space check. The iPhone, Apple Watch and Mac apps read the free space to refuse or stop a recording on a nearly full device, and the App Store asks for a reason for that. Nothing changes on screen, and the figure stays on the device.\n\nWindows: the app still reads 0.3.3, and this MSI is 0.3.5 because Windows upgrades only by that number. It upgrades earlier MSIs, and the Windows and Mac apps from build 42 on offer this build as an update.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
-          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.3-build.46/Recly-iOS-Watch-0.3.3-46.ipa",
-          "size": 62496244,
+          "date": "2026-11-07T09:18:17Z",
+          "localizedDescription": "What's new:\n\nRecly 0.3.3 build 48 keeps a slow answer from the App Store from holding up the iPhone.\n\nThe Android, Galaxy Watch and Windows apps behave as in build 47, and are rebuilt so that every platform carries this build's number.\n\nWindows: the app still reads 0.3.3, and this MSI is 0.3.7 because Windows upgrades only by that number. It upgrades earlier MSIs, and the Windows and Mac apps from build 42 on offer this build as an update.\n\nWhich file do I need:\n\nThe .aab files and the .ipa are the packages uploaded to Google Play and the App Store; you do not need them.",
+          "downloadURL": "https://github.com/rokrokss/recly/releases/download/v0.3.3-build.48/Recly-iOS-Watch-0.3.3-48.ipa",
+          "size": 62501068,
           "minOSVersion": "17.0"
         }
       ],
@@ -13773,11 +13773,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.7.13",
-          "date": "2026-11-06T11:56:22Z",
-          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-06.\n\n• iOS 16: the player's seek bar no longer stays on screen after minimizing the player.\n• AirPlay: low latency no longer jumps to the live edge while the stream plays on the TV, which kept freezing the picture.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-391/TwitchUnblock.ipa",
-          "size": 4582203,
+          "version": "1.7.17",
+          "date": "2026-11-07T10:42:35Z",
+          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-07.\n\n• Improvements and fixes.",
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-394/TwitchUnblock.ipa",
+          "size": 4607954,
           "minOSVersion": "16.0"
         }
       ],
