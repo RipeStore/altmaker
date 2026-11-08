@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.knightabdo.knightmusic",
-    "com.cosmonautical.jellify",
-    "me.lampu.lampcord"
+    "com.porksphere.comical",
+    "com.stik.stikdebug",
+    "com.handtracker.app"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.184.0",
-          "date": "2026-11-07T15:05:01Z",
-          "localizedDescription": "v1.184.0 — clearer setup, refined alerts and accessible WATCH colours:\n\n• F1251: eBird account connection announces Please wait immediately and clears its pending state when the actual connection attempt settles.\n• F1252: initial acquisition precedes the final setup summary. A separate result box honestly distinguishes verified data from partial or unavailable groups; Start birding opens Home.\n• F1253: measured source recovery and diagnostics preserve successful/partial data without pretending a blocked provider succeeded. Leaderboard counts distinguish acquisition, parsing, retention, grouping and rendering.\n• F1254: Getting Ready shows actual initial-source activity and automatic continuation, rather than an unexplained lingering loading screen.\n• F1255: Full and Recent Busy alerts use actual inclusive five-times-usual qualification, not a rounded display multiplier. The ordinary Busy menu is unchanged.\n• F1256: category controls show icons, counts and status; complete category names remain in accessible labels. Filtering and selected-state feedback are retained.\n• F1257: Full and Recent Migration alerts retain verified High only. The dedicated Migration section and its source classifications remain unchanged.\n• F1258: Recent timestamps occupy a reserved right-hand column on the first text row. Long names wrap within their available space without extra grid-row height or smaller type/touch targets.\n• F1259: local wizard/source/taxonomy/leaderboard diagnostics retain safe counts, lifecycle and first/latest blockers. Debug collection, storage, display, Dump, copy and package metadata omit/redact structured personal/location/raw-body information.\n• F1260: initial acquisition makes one bounded failed-source recovery pass, reuses successful sources and automatically continues to the final summary after settled partial results. No mandatory Retry or extra prefetch Continue.\n• F1261: automatic account/key/Home/seen-list work has immediate wait feedback. Skip explicitly identifies the seen-list check; its longer label may wrap without clipping or smaller text.\n• F1262: both Stakeout views display the official PLVI code for Plumbeous Vireo while preserving plsvir for provider requests and actions.\n• F1263: setup's initial-data count/loading/retry presentation stays inside the wizard, never on Home after Close or completion. Ordinary refresh and retained caches continue normally.\n• F1265: Add Watch uses bluish green #009E73; Remove Watch uses vermillion #D55E00. Black text/borders and explicit Add/Remove labels remain. Measured normal-text contrast is 6.14:1 and 5.43:1; these meet AA, not the superseded lighter-fill 7:1 target.\n\nLimits and installation:\n\nThe downloadable BirdChaser-unsigned.ipa is for sideloading with AltStore/AltServer; it is not the signed TestFlight installation. Signed delivery, Apple processing, internal-testing eligibility and owner-account visibility are separate observations.\n\nPhysical-device interactions not explicitly confirmed are unverified, not hidden successes. F1264's lower WATCH-action placement is queued separately. F1247 stays paused and F1248 parked; none is implemented by this release.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.184.0/BirdChaser-unsigned.ipa",
-          "size": 143430098,
+          "version": "1.185.0",
+          "date": "2026-11-08T17:09:18Z",
+          "localizedDescription": "Changes:\n\n• F1108: One complete CI catalog/layout workflow authorizes the exact-source IPA build. Local check reuse remains dependency-, runtime-, command- and date-bound; failed results cannot authorize publication.\n• F1264: Year/Life WATCH actions sit below bird names, recovering name width without smaller fonts or losing accessible membership controls.\n• F1266: Settings exports versioned JSON WATCH/Favorites backups and previews selective restoration. Merge is the default; Replace requires separate confirmation. Selected lists persist atomically with exact readback. Native sharing exports a JSON file; coordinate-only and other-region Favorites retain their metadata.\n• F1267: Diagnostic redaction covers encoded and bare-host location URLs while preserving useful sanitized counts.\n• F1268: Seen acquisition shows actual loading activity, stage and elapsed time without replacing the focused Skip control.\n• F1269: Pending initial work remains pending even when individual sources fail; mixed terminal outcomes are reported as Partial.\n• F1270: Finished checks and Ready data are counted separately. Continue with available data cancels only its setup owner; ordinary Close preserves bounded background acquisition.\n• F1271: Expanded Bird Gen source details use canonical support icons alongside source names, status and retry controls.\n• F1272: Regional WATCH relevance uses fresh, checked geographic evidence, not personal seen membership. Unknown targets remain visible; All preserves access to every saved target.\n\nValidation:\n\nFocused unit, DOM and browser controls passed; 29 requirement-removal mutations were detected. Complete local acceptance passed: all 1,599 DOM tests, the non-DOM catalog, parity, all six Chrome layout profiles and wiring. The authoritative exact-source CI catalog/layout also passed; the IPA build was authorized by that one successful main-push test run.\n\nBirdChaser-unsigned.ipa is an unsigned sideload artifact, not a TestFlight availability claim. TestFlight processing and tester access are separate milestones.\n\nSigned build 31.1 is verified against the same source and Apple reports IN_BETA_TESTING. Tester-group lookup returns HTTP 403, so owner-account installability remains unconfirmed. TestFlight dashboard.\n\nUnverified on device: save the JSON outside Bird Chaser and restore it in an isolated test profile, including coordinate-only and other-region Favorites. Native compilation or share completion alone cannot prove external durability.\n\nGallery follow-up: the independent post-release gallery failed on one legacy WATCH scope fixture. Both IPAs remain valid; F1273 records the required forward-patch fixture repair. No altered-source gallery or moved tag substitutes for the failed immutable run.\n\nThe historical native FOY page rejection remains unexplained; sanitized page-shape diagnostics were added without weakening validation. Broader F947/F1185 work remains open; F1247 stays paused and F1248 parked.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.185.0/BirdChaser-unsigned.ipa",
+          "size": 143440287,
           "minOSVersion": "15.0"
         }
       ],
@@ -1696,10 +1696,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-07T18:12:39Z",
-          "localizedDescription": "Built from f9a2a4a on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-08T21:47:57Z",
+          "localizedDescription": "Built from 4c590b0 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625619,
+          "size": 14625624,
           "minOSVersion": "15.0"
         }
       ],
@@ -3255,11 +3255,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.0.260",
-          "date": "2026-11-08T00:06:27Z",
+          "version": "0.8.0.272",
+          "date": "2026-11-08T22:51:37Z",
           "localizedDescription": "Development-client shell (Debug + expo-dev-client). Carries the same com.porksphere.comical bundle id as the release and PR builds, so it shares their data and REPLACES whatever Comical is installed.\n\nInstall via source (recommended): add this URL in SideStore/AltStore → Sources → +.\n\nThen run bun run dev:device on your PC and connect from the app's launcher. Rebuild (re-run this workflow) only when native code changes — a native module, a config plugin, an SDK bump. Pure JS/TS iterates over Metro with no rebuild at all.",
           "downloadURL": "https://github.com/porksphere/comical-app/releases/download/ios-devclient/comical-devclient.ipa",
-          "size": 48390141,
+          "size": 48515275,
           "minOSVersion": "16.4"
         }
       ],
@@ -3964,11 +3964,11 @@
       ],
       "versions": [
         {
-          "version": "1.16.0",
-          "date": "2026-10-26T09:41:51Z",
-          "localizedDescription": "Added:\n\n• Added chapter editor.\n• Added file details.\n• Added search within EPUB and PDF books.\n• Added third party TTS provider.\n• Integrated playback with media player.\n• Added an in-app changelog.\n\nFixed:\n\n• Listening progress now retries loading when the server becomes reachable after an offline or failed startup.\n• Improved final progress syncing when a book finishes or playback moves to the next queued item.\n\nChanged:\n\n• Redesign of the ebook reader.\n• Redesign of the book details page.\n• Improved the item editor layout to match new Audiobookshelf design.\n• Integrated read-aloud and embedded book narration with player controls and sleep timers.\n\nThis release has been automatically generated from commit 45474f01e86e7d4df5adeff75cf340d128597521.\n\nYou can download the built artifacts from the \"Assets\" section below.",
-          "downloadURL": "https://github.com/Vito0912/yaabsa/releases/download/v1.16.0/ios-sideload-build-yaabsa_v1.16.0_unsigned.ipa",
-          "size": 23436336,
+          "version": "1.17.0",
+          "date": "2026-11-08T19:07:45Z",
+          "localizedDescription": "Added:\n\n• Added UPnP casting support.\n• Added settings backup and restore.\n• Added controls to view and manage collection and playlist memberships from book details.\n\n• Option to prevent audio clipping during playback.\n\nFixed:\n\n• Improved listening history updates and synchronization.\n• Fixed sign-in and playback with custom server headers on Wear OS.\n\nChanged:\n\n• Improved collection and playlist loading with pagination and synchronized membership updates.\n• Improved Android Auto and Wear OS playback and browsing.\n\nThis release has been automatically generated from commit c73b6f13e1a70a36c504ee07676f64f99e1633cf.\n\nYou can download the built artifacts from the \"Assets\" section below.\n\n• OIDC fixes.\n• [Wear OS] fix watch sign-in and playback with custom server headers.\n• backup and load.\n• Display and manage collection and playlist memberships from book details.\n\n• Add background noise to prevent clipped word.\n\nNew Contributors:\n\n• @josefstaedter made their first contribution.\n• @rafjaf made their first contribution.",
+          "downloadURL": "https://github.com/Vito0912/yaabsa/releases/download/v1.17.0/ios-sideload-build-yaabsa_v1.17.0_unsigned.ipa",
+          "size": 23574068,
           "minOSVersion": "15.6"
         }
       ],
@@ -4643,11 +4643,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "3.2.1",
-          "date": "2026-11-07T05:15:03Z",
-          "localizedDescription": "• More error cleanup.\n• Chinese (Simplified) localization.\n• Kill processes via name via url scheme.\n• FYI- StikDebug now requires Xcode 27+.\n\n• Added Chinese localization.\n\nNew Contributors:\n\n• @jlj1102 made their first contribution.",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.1/StikDebug-3.2.1.ipa",
-          "size": 16924629,
+          "version": "3.2.2",
+          "date": "2026-11-08T22:05:57Z",
+          "localizedDescription": "• Fix Utsuro, Henge, and \"MeloCafe\".",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
+          "size": 16924687,
           "minOSVersion": "17.4"
         }
       ],
@@ -9121,10 +9121,10 @@
       "versions": [
         {
           "version": "1.4.1",
-          "date": "2026-11-02T20:55:13Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit f4ddf88. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-201/Ito-1.4.1-dev.201-unsigned.ipa",
-          "size": 13053717,
+          "date": "2026-11-08T20:06:18Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 6b25d6f. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-203/Ito-1.4.1-dev.203-unsigned.ipa",
+          "size": 13078594,
           "minOSVersion": "15.4"
         }
       ],
@@ -9687,7 +9687,7 @@
       "bundleIdentifier": "io.github.thatguymcd.dkrr.ios",
       "developerName": "ThatGuyMcd",
       "subtitle": "Diddy Kong Racing - Recompiled (By ThatGuyMcd)",
-      "localizedDescription": "DKR-R v1.0.14:\n\nI've worked on the online input delay, joining and frame pacing, and brought the launcher and in-game overlay together so the same pages work in both. There are new display options, automatic seasonal themes, launcher languages, optional analogue driving and controller feedback settings. Custom cars and the road wheels on custom characters now respond to lighting properly too.\n\nPlay fades into the new Starting Game screen, with mod progress underneath the logo. Online uses the same design while everyone syncs. Linux now requests GPU acceleration for the launcher, with a software fallback when needed.\n\nYour saves, mods and settings can stay. Use the complete v1.0.14 package on every machine in an online lobby. See the full release notes and changelog for everything since v1.0.12.",
+      "localizedDescription": "DKR-R v1.0.15:\n\nI've spent quite a bit of time working through DKR-R Online since v1.0.14. This update improves late-input recovery, reduces some of the rollback CPU work and gives spectators buffered confirmed playback. Hosts can now change the prediction window and input delay from the lobby or in-game overlay too.\n\nThere's also automatic cleanup for old downloads and caches, a tidier Play page with Start Game always within reach, and custom character names that fit Player Select. File dialogs run in a separate helper, and crash reports keep more useful diagnostic information. The unresolved startup/gameplay crashes are recorded in the crash reporting guide.\n\nYour saves, mods and settings can stay. Use matching complete v1.0.15 packages on every machine in an online lobby. See the full release notes and changelog for everything since v1.0.14.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.thatguymcd.dkrr.ios.png",
       "tintColor": "#37a4ad",
       "category": "games",
@@ -10162,11 +10162,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.125",
-          "date": "2026-11-07T18:05:08Z",
+          "version": "0.8.126",
+          "date": "2026-11-08T18:25:01Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.125/NicotinD-0.8.125-unsigned.ipa",
-          "size": 1592213,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.126/NicotinD-0.8.126-unsigned.ipa",
+          "size": 1627435,
           "minOSVersion": "15.0"
         }
       ],
@@ -10358,11 +10358,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.441",
-          "date": "2026-11-07T02:41:15Z",
-          "localizedDescription": "Fixed:\n\n• Screen-sharing keyboards suppress autocomplete on Android and inline predictions on iOS, preserving the text sent to the remote desktop.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.441/Dieter-iOS.ipa",
-          "size": 64950895,
+          "version": "0.6.442",
+          "date": "2026-11-08T20:30:52Z",
+          "localizedDescription": "Added:\n\n• Delete worktrees when archiving, a project setting that is off by default, on the Mac, Android, iPhone and iPad. From the CLI: dieter project update --delete-worktrees-on-archive=true PROJECT. When a conversation is archived, the machine that runs it removes its clean, idle worktree; turning the setting on also cleans up existing archives. Branches and conversation history stay, and restoring recreates the committed files, but ignored files, dependencies and build output are deleted. Worktrees with uncommitted or in-progress work are kept.\n\nChanged:\n\n• Agent channels are always on: every project has a channel and every agent turn can use it. The opt-in switches are gone: Settings → Experimental → Agent channels on the Mac, Android, iPhone and iPad, the project and board overrides, and dieter channel settings.\n• The Inbox on Android, iPhone and iPad leads with running work, followed by Pinned, Needs you, Review and Recent. Tiles at the top count running work, replies that need you and cards ready for review, and filter to them. Swipe a card right to mark a reply read, finish a review or pin it, and left to archive it (with undo) or stop a running agent. The Android desktop Inbox uses the same order.\n\nFixed:\n\n• Queued messages on Android, iPhone and iPad stay pinned above the input while the conversation scrolls. Send now, Edit and Remove wait until the machine has the message, and the queue shows when a message is waiting, sending, stopping the agent or failed.\n• A synced record that a machine cannot verify, such as one signed by a machine that never joined the device roster, no longer stalls every later change from that peer. That stall could leave a project missing on one machine and create a duplicate when it was opened there. Such records are held, checked again every sync round and listed under held in dieter peer status.\n• Run on no longer lists checkouts of machines that left the account.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.442/Dieter-iOS.ipa",
+          "size": 64974988,
           "minOSVersion": "18.0"
         }
       ],
@@ -10418,11 +10418,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.75",
-          "date": "2026-11-07T11:11:22Z",
-          "localizedDescription": "Los títulos de «Ver más tarde» y de las listas de Trakt ya no muestran el año bajo el nombre.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.75/InputStreamPlayer-iOS-0.9.75-129-unsigned.ipa",
-          "size": 17348206,
+          "version": "0.9.76",
+          "date": "2026-11-08T18:43:44Z",
+          "localizedDescription": "Addons: al salir de una pantalla ya no aparece un aviso de error falso. Cuando un servidor rechaza un vídeo, la app muestra el motivo que da el servidor. El informe de diagnóstico incluye el tipo de conexión y más datos de los directos para ayudar a encontrar los tirones.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.76/InputStreamPlayer-iOS-0.9.76-130-unsigned.ipa",
+          "size": 17350738,
           "minOSVersion": "16.0"
         }
       ],
@@ -10805,10 +10805,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-07T18:12:39Z",
-          "localizedDescription": "Built from f9a2a4a on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-08T21:47:57Z",
+          "localizedDescription": "Built from 4c590b0 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45393720,
+          "size": 45393932,
           "minOSVersion": "15.0"
         }
       ],
@@ -11020,11 +11020,11 @@
       ],
       "versions": [
         {
-          "version": "0.31.1",
-          "date": "2026-11-06T22:32:23Z",
-          "localizedDescription": "The rclone engine moves to 1.76.0:\n\nAirclone now ships rclone 1.76.0, which is mostly a security and data-safety update. Nothing changes in how you use the app, and your remotes keep working as they are.\n\n• Security: rclone is built with Go 1.27.3 and updated network and compression libraries, which fix several published vulnerabilities. A redirect from HTTPS to plain HTTP is now refused, and sign-in details no longer follow a redirect to another host on the storage types that leaked them. Local file operations can no longer be tricked by a planted symlink into deleting or changing files outside the folder you chose.\n• Don't lose files on rename: renaming a file so that only its letter case or Unicode form changes, or moving a file onto its own name, could delete it. Both are fixed.\n\n• New storage types: Dosya and Infomaniak kDrive appear in the Add remote list.\n\nNotes:\n\n• In filters, now negates a character set and [^.] no longer matches /. If you wrote a filter that relied on the old meaning, check it.\n• A server that redirects from HTTPS down to plain HTTP now fails instead of being followed. Moving that server to HTTPS is the fix.\n• The new rclone index command is blocked in the in-app console for now, because it writes listing files into a remote.",
-          "downloadURL": "https://github.com/GigaionLLC/Airclone/releases/download/v0.31.1/airclone-ios-unsigned.ipa",
-          "size": 44529408,
+          "version": "0.31.2",
+          "date": "2026-11-08T20:26:39Z",
+          "localizedDescription": "Nothing changes in the app:\n\nThis release is the same app as v0.31.1, with the rclone 1.76.0 engine and all of its security and data-safety fixes. It is the first version to reach every store through Airclone's new automated release process, so each store gets the update at about the same time.\n\nNotes:\n\n• Signing is unchanged: Windows, macOS, Android and iOS builds are signed as in v0.31.1.\n• Known limitations are the same as in.",
+          "downloadURL": "https://github.com/GigaionLLC/Airclone/releases/download/v0.31.2/airclone-ios-unsigned.ipa",
+          "size": 44529416,
           "minOSVersion": "15.0"
         }
       ],
@@ -12735,10 +12735,10 @@
       ],
       "versions": [
         {
-          "version": "1.3.2",
-          "date": "2026-10-23T20:46:03Z",
-          "localizedDescription": "LogForge v1.3.2:\n\nBuild 261023A.\n\nThis release targets iOS. The included Windows version remains at v1.3.0 (26929A).\n\nLogForge v1.3.2 brings an adaptive workspace and native system toolbars to iPhone Duo, with support for its inner and outer displays, fold-aware layouts, system Split View and split keyboard input. The native Swift, SwiftUI and Metal architecture is retained.\n\nAdaptive iPhone Duo Workspace:\n\n• Show queue, progress and results beside conversion parameters in unfolded landscape, or stack the two regions in unfolded portrait. Each region scrolls independently.\n• Use iOS 27.1 ArrangementView and reserved division regions to keep key controls on separate sides of book and tabletop folds. Compact outer-display windows use a complete single-column workspace in either orientation.\n• Fill the available screen while respecting asymmetric safe areas, camera and system controls. Keep an adaptive single/dual-region fallback on iOS 26.\n• Preserve the shared queue and running conversion while resizing. Each window retains its settings draft; native scene activation and hinge/lifecycle checkpoints are implemented.\n• Support native movie/file-URL drops, provider-owned file copying, prompt import cancellation and dragging completed movies to another app.\n• Retain the system Files search keyboard, including split typing and keyboard avoidance during folding.\n\nNative Toolbars and Liquid Glass:\n\n• Move import, convert/cancel, settings and language actions into native system toolbars, including Settings save/cancel. The system places them at the side when appropriate and adapts placement to the active window.\n• Prioritize primary actions and allow secondary actions in system overflow menus.\n• Remove fixed homepage width, bottom spacing and import-panel height; reflow long filenames, parameter labels and accessibility text.\n\nVerification:\n\n• 14 focused XCTest checks passed, 0 failed, including real 4K ProRes MOV/audio validation and core import/layout/UI coverage.\n• Six actual Duo simulator layouts passed: unfolded landscape/portrait, book at 120°, tabletop at 90°, and outer-display portrait/landscape, including import and Settings interactions.\n• Left-side system Split View, settings draft/cancel, full-screen restoration and split keyboard input/folding checks passed.\n\nSuccessful iOS build, tests and diagnostic artifacts.\n\nCompatibility and Limits:\n\n• Requires iOS 26 or newer. Input remains BT.2020 HLG ProRes 422 / 422 HQ MOV; output remains Apple Log ProRes 422 or ProRes 422 HQ. CPU/Metal processing, codec fallback, batch conversion and retry remain available.\n• Tent posture and two simultaneous LogForge windows were not confirmed by this run's automation. Outer-display landscape passed separately and is not presented as a tent posture test.\n• Full appearance, cross-app drop, running-conversion transitions and iOS 26/iPad runtime matrices were not run in the final focused suite. They remain optional checks.\n• An additional AAC edit/timecode test passed in run 18 and timed out in run 19 with unchanged app sources. It remains in the optional full suite and is not counted as a pass in the final run.\n\nDownload:\n\nDownload LogForge-1.3.2-iOS-261023A-unsigned.ipa and sign it with your own valid Apple identity and provisioning profile before installation. This is an unsigned arm64 device build; App Store/TestFlight distribution is not configured. Signing changes its checksum.\n\nMatching SHA-256 files are provided for integrity verification. Keep LogForge-1.3.2-iOS-261023A-RelinkKit.zip, corresponding source and license notices when distributing the application. Windows users can download LogForge-1.3.0-Windows-x64.zip and its matching checksum; its installation and version are unchanged.\n\nSource Provenance:\n\nThe iOS package was built from commit 81231bc29c89d725384ef539e8026262a861c36d, tagged v1.3.2, with numeric Apple bundle build 20. These exact verified bytes were promoted without rebuilding.",
-          "downloadURL": "https://github.com/HongHuo0728/LogForge/releases/download/v1.3.2/LogForge-1.3.2-iOS-261023A-unsigned.ipa",
+          "version": "1.3.3",
+          "date": "2026-11-08T19:46:51Z",
+          "localizedDescription": "LogForge v1.3.3:\n\nBuild 26118A.\n\nThis release updates Windows to 1.3.3 (26118A). The included iOS application remains 1.3.2 (261023A).\n\nLogForge v1.3.3 improves Apple Log identification metadata and refreshes the native Windows interface while retaining the existing conversion mathematics and output format.\n\nApple Log Metadata Compatibility:\n\n• Retain the ProRes sample-entry logs identifier and add movie-level com.apple.proapps.customgamma, both containing com.apple.rec2020.apple-log.\n• Relocate the encoded metadata table to /moov/meta, retaining its key indices and values. This avoids FFmpeg 8.1.2 misinterpreting two independent metadata key tables; retired metadata becomes same-size padding.\n• Preserve compressed video/audio payloads, media offsets, timecode and creation metadata. Validate both Apple Log identifiers, reject conflicts and malformed structures, and retain cancellation and safe publication behavior.\n• Keep BT.2020, Video levels, ProRes 422 HQ, 10-bit 4:2:2 and nclc 9/2/9. Apple Log/HLG mathematics, Standard/Creative processing and CPU/CUDA numerical tolerances remain unchanged.\n• Add editor guidance explaining source interpretation, Rec.709 project settings and a single matching technical LUT when manual interpretation is unavailable.\n\nNative Windows Interface:\n\n• Draw theme-aware scrollbars across the main workspace, settings, details, candidate lists and combo-box popups while retaining native text selection, editing and accessibility semantics.\n• Accumulate precision-wheel input, respect system scrolling preferences, and retain full vertical thumb positions, paging and scroll bounds.\n• Unify combo-box frames, button hover/focus states and rounded progress rendering. Reduce empty-source spacing and provide enough initial settings height for Save/Cancel controls.\n• Show logs in a themed, selectable viewer with an original-file action and a bounded recent-log preview.\n• Preserve the overall workspace order, English/Simplified Chinese, light/dark themes and DPI-aware layout.\n\nVerification:\n\n• All 29 existing CTest groups have passing final results across the full run and targeted version/metadata rerun. Generated-media, timing, rotation, audio hashes, queue, cancellation, recovery and sustained 4K120 checks pass.\n• All 26 native GUI scenarios, 960 production layouts and 20 distinct language/theme/DPI render snapshots pass, including drawn-thumb dragging, precision-wheel accumulation and strict resource checks.\n• CPU signal and local CUDA qualification retain the existing tolerances. Standard/Creative mean-patch errors are 0.211127 / 0.253078 10-bit code; measured CUDA reference error is 0 on the tested GPU.\n\nCompatibility and Limits:\n\n• Input remains supported BT.2020 HLG ProRes 422 / 422 HQ MOV with verified fixed cadence; output remains Apple Log ProRes 422 HQ.\n• No original recording from this report was supplied. Automated conversion checks use generated media.\n• ProRes encoding/decoding remains CPU-based; CUDA accelerates intermediate color processing when qualified.\n• LogForge re-encodes the available HLG signal and does not recover lost sensor information.\n\nDownload:\n\nExtract LogForge-1.3.3-Windows-x64.zip and run LogForge.exe. The portable archive excludes FFmpeg, personal media, logs and user settings; a matching .sha256 file is included.\n\nSource Provenance:\n\nWindows source is identified by tag v1.3.3. The release promotes the exact successful main-workflow artifact, verifies both Windows files and all four reused iOS files, and publishes only after read-back checksum verification.\n\nWindows commit: 6f964e32407f2be2b30bfd8c32cade66349779d6. Successful Windows build and tests.\n\nThe unchanged iOS 1.3.2 assets correspond to commit 81231bc29c89d725384ef539e8026262a861c36d, tagged v1.3.2. Windows source ZIP · iOS source ZIP.",
+          "downloadURL": "https://github.com/HongHuo0728/LogForge/releases/download/v1.3.3/LogForge-1.3.2-iOS-261023A-unsigned.ipa",
           "size": 7395016,
           "minOSVersion": "26.0"
         }
@@ -13076,11 +13076,11 @@
       ],
       "versions": [
         {
-          "version": "2.6.0",
-          "date": "2026-10-24T19:25:33Z",
-          "localizedDescription": "This is an experimental community beta release of Yet Another LuCI App for Apple iOS devices (iPhone and iPad), built from version 2.6.0 (Build 232).\n\nHighlights:\n\n• Firmware Upgrade Center: Check official OpenWrt updates, review preservation impact, and flash safely.\n• JSON Config Export: Export router settings (firewall, DHCP, Wi-Fi, DDNS) with privacy redactions.\n• Router Speed Test: WAN speed test engine with multi-stage sampling.\n• UI Revamps: Redesigned wizards, improved dialog responsiveness, and cleaner layouts.\n• Localization improvements: Improved the localization coverage.\n• Performance \u0026 Stability: Memory optimizations, smoother rendering, and overall stability fixes.\n\nThis is an unsigned iOS package ( .ipa ). It can be sideloaded onto compatible iPhones or iPads running iOS 14.0+ using standard sideloading tools such as:\n\n• AltStore / SideStore.\n• Personal Apple Developer account signing or enterprise signing.",
-          "downloadURL": "https://github.com/nightcodex7/yala/releases/download/v2.6.0-beta-ipa/Yet-Another-LuCI-App.ipa",
-          "size": 13523734,
+          "version": "2.8.9",
+          "date": "2026-11-08T20:18:12Z",
+          "localizedDescription": "This is an experimental community beta release of Yet Another LuCI App for Apple iOS devices (iPhone and iPad), built from version 2.8.9 (Build 236).\n\nHighlights:\n\n• Parental Controls: fixed all the controls.\n• SSH Terminal: Interactive shell with shortcuts \u0026 command history.\n\n• System: Advanced reboot options, log viewer, and account management.\n• Translations: Added Italian, Japanese, and Ukrainian.\n• General UI and bug fixes.\n\nThis is an unsigned iOS package ( .ipa ). It can be sideloaded onto compatible iPhones or iPads running iOS 14.0+ using standard sideloading tools such as:\n\n• AltStore / SideStore.\n• Personal Apple Developer account signing or enterprise signing.",
+          "downloadURL": "https://github.com/nightcodex7/yala/releases/download/v2.8.9-beta-ipa/Yet-Another-LuCI-App.ipa",
+          "size": 14676383,
           "minOSVersion": "15.0"
         }
       ],
@@ -13102,12 +13102,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.12.2",
-          "date": "2026-10-16T17:57:42Z",
-          "localizedDescription": "fix thumbnail images missing on downloads in a few views.\n\nfeatures:\n\n• cli: add ability to co-ordinate playback start with a specified clock delay.\n• cli: add clock endpoint to co-ordinate syncronisation.\n• cli: ensure gapless playback from daemon.\n• app: native callback events to js to keep sending remote player events when phone is locked.\n• app: long poll remote players to show state on players tab.\n• app: route actual audio and actions to remote player.\n• app: this device toggle on player handles silencing audio without stopping playback.\n• cli: add initial clock sync scaffolding.\n\nfixes:\n\n• app: a few components missing the thumnail image.\n• e2e: test stability fixes.\n\nother:\n\n• deps: bump the github-actions group with 6 updates (#43).\n• deps-dev: bump the bun-dependencies group with 17 updates (#41).\n• e2e: speed up full suite runs.",
-          "downloadURL": "https://github.com/tx3stn/atolla/releases/download/0.12.2/atolla-0.12.2.ipa",
-          "size": 21147458,
-          "minOSVersion": "12.0"
+          "version": "0.12.3",
+          "date": "2026-11-08T18:50:31Z",
+          "localizedDescription": "commit log:\n\npatch a bug in valdi to fix a possible crash.\n\nfeatures:\n\n• cli: require stream key for connection to audio port.\n• cli: stream each track in its own format to keep output bit perfect.\n• cli: flush held audio on every speaker at pause, seek, skip and clock switch so presses land at once.\n• cli: make stream latency configurable and count late chunks on members.\n• cli: drive multiple speakers via the first one on the players tab.\n• cli: support other speakers joining daemon on audio source port for control of multiple.\n• cli: stream audio from server daemon to other speakers.\n• cli: stamp times on stream chunks for sync playback co-ordination.\n\nfixes:\n\n• app: re-read the source's stream key on join and show follower details on players tab.\n\n• build: add package overrides for vulnerabilities.\n• build: inline pending intent flagged by mobsf scan.\n• app: don't send pause command at the end of the queue.\n\nother:\n\n• cli: remove unused clock.\n• cli: remove scheduled starts left over from before sync leader model changes.\n• cli: add test for gapless when changing rates.\n• build: move valdi version back to main now my changes are all merged.\n• deps-dev: bump the bun-dependencies group with 10 updates (#47).\n• deps: bump the github-actions group with 5 updates (#48).\n• deps-dev: bump the bun-dependencies group across 1 directory with 11 updates (#45).\n• deps: bump the github-actions group with 3 updates (#46).",
+          "downloadURL": "https://github.com/tx3stn/atolla/releases/download/0.12.3/atolla-0.12.3.ipa",
+          "size": 21343033,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -13772,11 +13772,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.4.8",
-          "date": "2026-11-02T23:05:22Z",
-          "localizedDescription": "minor bugs fixes.",
-          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.4.8-build-153/Wyrm-2.4.8-build-153.ipa",
-          "size": 60487211,
+          "version": "2.5.2",
+          "date": "2026-11-08T20:26:37Z",
+          "localizedDescription": "Minor bug fix.",
+          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.5.2-build-159/Wyrm-2.5.2-build-159.ipa",
+          "size": 88708404,
           "minOSVersion": "15.0"
         }
       ],
