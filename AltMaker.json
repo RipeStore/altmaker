@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.porksphere.comical",
-    "com.stik.stikdebug",
-    "com.handtracker.app"
+    "io.github.rkoh46.tangoaw2",
+    "com.underdecodedhd.gen2recomped",
+    "io.github.saschb2b.cyberworldendless"
   ],
   "apps": [
     {
@@ -578,10 +578,10 @@
       "bundleIdentifier": "software.iridium",
       "developerName": "intraducine",
       "subtitle": "Experimental iOS Windows-game runtime. Source monorepo; original Iridium code under AGPL-3.0",
-      "localizedDescription": "Iridium:\n\nIridium is an iPhone and iPad game launcher with Windows support through Madeira and console emulation through SameBoy, PPSSPP, Dolphin, Azahar, Play!, and Flycast.\n\nIt provides a shared library, artwork, touch controls, controller and keyboard input, stores, and per-game settings. Stores include Steam, GOG, Epic Games, EA, and itch.io. Compatibility varies by game and device. Each engine needs its own device tests for graphics, input, audio, saves, and repeated launches.\n\nThe current development version is 0.3.0. See its.\n\na published release. Menu sound effects remain in a separate draft PR.\n\nFor Windows, GB/GBC, and PSP, use an Apple Silicon Mac with Xcode 27, Homebrew, Python 3.11+, and Rust:\n\nFor Dolphin, Azahar, Play!, and Flycast, continue with the console build steps. The build guide also covers manual Actions builds and library replacement.",
+      "localizedDescription": "Iridium:\n\nPlay Windows and console games on iPhone and iPad. Import games you own into one library and play with touch controls, a controller, or a keyboard.\n\nSupported systems:\n\nStable supports Windows games. Full builds from main also support the consoles and arcade systems below. Game compatibility varies. Windows games and many console.\n\nGuides:\n\n• Supported console file formats.\n\nSource code:\n\nBrowse the source on main. For the source used to build a specific IPA, download the source archive from.\n\nDevelopment:\n\n• Build an IPA.\n• Runtime integration.\n\nIridium’s own code is AGPL-3.0-only. See licenses for third-party components.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/software.iridium.png",
       "tintColor": "#6058e8",
-      "category": "games",
+      "category": "other",
       "versions": [
         {
           "version": "0.2.0",
@@ -645,7 +645,7 @@
         {
           "version": "0.4.2",
           "date": "2026-11-07T00:21:22Z",
-          "localizedDescription": "SealSkin 0.4.2:\n\nMaintenance release.\n\nChanges:\n\n• PRoot Apps catalogs from a private remote. When SEALSKIN_PROOT_APPS_REMOTE names a private proot-apps repository, its apps keep their short names in a catalog. A session on a catalog now gets PA_DEFAULT_REPO, the registry of that remote, so proot-apps install.\n\n\u003capp\u003e and the app's desktop entries resolve to the private registry rather than ghcr.io/linuxserver/proot-apps. Apps of any other remote are still installed by their full image name.\n\n• Dependency updates for the server and the client.",
+          "localizedDescription": "SealSkin 0.4.2:\n\nMaintenance release.\n\nChanges:\n\n• PRoot Apps catalogs from a private remote. When SEALSKIN_PROOT_APPS_REMOTE names a private proot-apps repository, its apps keep their short names in a catalog. A session on a catalog now gets PA_DEFAULT_REPO, the registry of that remote, so proot-apps install.\n\nand the app's desktop entries resolve to the private registry rather than ghcr.io/linuxserver/proot-apps. Apps of any other remote are still installed by their full image name.\n\n• Dependency updates for the server and the client.",
           "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/0.4.2/sealskin-v0.4.2.ipa",
           "size": 1744117,
           "minOSVersion": "26.0"
@@ -1426,7 +1426,6 @@
         "https://github.com/user-attachments/assets/73256524-4861-4b8f-afba-5bd657badb2f",
         "https://github.com/user-attachments/assets/9ac2c682-a3b4-4498-8daa-6c5c6f742946",
         "https://github.com/user-attachments/assets/c2f06516-862a-47b5-b69b-aed4f6043aae",
-        "https://github.com/user-attachments/assets/c7dff083-4fe7-4440-9961-9eb472e22142",
         "https://github.com/user-attachments/assets/be15d663-0d5b-40ed-aa6c-1f3eb9e00a1e"
       ],
       "versions": [
@@ -1540,8 +1539,8 @@
       "name": "Suwatte",
       "bundleIdentifier": "com.ceres.suwatte",
       "developerName": "RipeStore",
-      "subtitle": "An All-In-One Comic Reader for iOS",
-      "localizedDescription": "Suwatte:\n\nSuwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.\n\nThis build is distributed by a third-party not related to Suwatte.\n\nFeatures:\n\n• External Comics (CBR, CBZ, RAR, ZIP).\n• OPDS V1.\n• External Sources.\n• Progress Tracking.\n• Automatic Library Management.\n\n• Partial iCloud Sync.\n• Update Notifications.\n• Panel Bookmarks.\n\n• External Sources.\n• Deep Linking.\n• Point Accurate Reading Resumption.\n• Library Management with Categories \u0026 Reading Flags.\n• Automatic Library Management.\n• Zero Ads, a few bugs n crashes here n there tho:].\n\nPlanned Features:\n\n• Full Library iCloud Sync Support.\n\n• Due to crashes this feature was disabled.\n\n• EPUB / Novel Reading Support.",
+      "subtitle": "IPAs for the Manga/Comic Reading App for iOS",
+      "localizedDescription": "Suwatte:\n\nIPAs for the Manga/Comic Reading App for iOS. These are dumped Testflight versions and might lag behind available source code on github.\n\nIf you want IPAs built from the source, go to https://github.com/RipeStore/suwattebuilder",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.ceres.suwatte.png",
       "tintColor": "#7365c8",
       "category": "entertainment",
@@ -1553,18 +1552,20 @@
       ],
       "versions": [
         {
-          "version": "6.0.1",
-          "date": "2026-08-18T03:34:08Z",
-          "localizedDescription": "Toolbar Changs + Deps Bumps (#198).\n\n• fix: toolbar ios26.\n\nBranch: next.\n\nBuilt from upstream commit c3333ed on the next branch.",
-          "downloadURL": "https://github.com/RipeStore/suwattebuilder/releases/download/v6.0.1-c3333ed/Suwatte-v6.0.1-c3333ed-unsigned.ipa",
-          "size": 16394180,
-          "minOSVersion": "15.0"
+          "version": "7.2.1",
+          "date": "2026-10-09T09:19:43Z",
+          "localizedDescription": "Suwatte 7.2.1 (Build 5).\n\nNew.\n\n• Source Management: you can now select titles before running an action, and select all primary or all linked titles at once. Your selection stays visible while you work.\n• Library Tools shows the outcome and progress for each title, and can merge a single title when you ask it to.\n• Library Tools remembers the destination you last used for each operation.\n• Library Tools now shows source icons and has better VoiceOver labels and haptic feedback.\n• Linked titles now merge automatically.\n\nFixes.\n\n• Fixed the vertical reader sometimes jumping back up the page after you scroll into the next chapter.\n• Fixed double-page mode on iPad showing pages at a tiny size when Downsample Images is on.\n• Fixed leftover links to titles from deleted sources getting in the way when linked titles merge.\n• Fixed Library Tools counting titles it wasn't going to change.\n• Fixed Library Tools holding back matches that didn't belong to another title in your library.\n• Chapter lists now show \"Filters Active\" whenever any chapters are hidden.\n• Fixed chapter lists showing no chapters when none of your priority scanlators publish the title.\n• Fixed the search button moving into the overflow menu in dark mode.",
+          "downloadURL": "https://github.com/RipeStore/Suwatte/releases/download/v7.2.1/Suwatte_7.2.1.ipa",
+          "size": 50224385,
+          "minOSVersion": "18.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
           "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
+          "NSLocalNetworkUsageDescription": "Suwatte connects to media servers and catalogs on your local network.",
+          "NSPhotoLibraryAddUsageDescription": "To Save Images to your Photos Album",
           "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
         }
       }
@@ -1940,7 +1941,7 @@
       "bundleIdentifier": "io.github.saschb2b.cyberworldendless",
       "developerName": "saschb2b",
       "subtitle": "A roguelike built on the real Mega Man Battle Network 6, from your own ROM: every run jacks MegaMan into a newly generated net of battles, loot and guardian Navis",
-      "localizedDescription": "· Player's guide · Project page · Discussions · itch.io.\n\nYou need your own ROM: Mega Man Battle Network 6: Cybeast Gregar (USA), unmodified. Battle Network 5: Team Colonel (USA) beside it is optional; online, it fills the NetPass (NetBattles, trades, the week's DeepNet). No download and no page contains Capcom data; without the ROM there is no game. What the game checks.\n\n·.\n\n· Host a Net Square · For developers · Buy me a coffee.",
+      "localizedDescription": "· Player's guide · Project page · Discussions · itch.io.\n\nYou need your own ROM: Mega Man Battle Network 6: Cybeast Gregar (USA), unmodified. Battle Network 5: Team Colonel (USA) and Battle Network 4: Red Sun (USA) beside it are optional: their areas and viruses join the runs, BN4's tournament too, and online BN5 fills the NetPass (NetBattles, trades, the week's DeepNet). No download and no page contains Capcom data; without the ROM there is no game. What the game checks.\n\n·.\n\n· Host a Net Square · For developers · Buy me a coffee.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.saschb2b.cyberworldendless.png",
       "tintColor": "#207a76",
       "category": "games",
@@ -1950,11 +1951,11 @@
       ],
       "versions": [
         {
-          "version": "0.19.0",
-          "date": "2026-11-02T03:48:12Z",
-          "localizedDescription": "Options in pages:\n\nDisplay, Audio and Game (Controls, Fast forward, Statistics) are tabs along the top. L and R turn from one to the next as the Library turns its own, a tap opens one on a phone, and Options opens again where you left it. START puts a page's lines back as they came, after a Yes.\n\nSee the screen while you set it:\n\nThe Display page plays a battle of BN6's own beside its lines, on a second GBA of the game's from your ROM, staged for the line under the cursor: a busy fight for the colours, MegaMan hit and flickering for Frame blending, steady steps under a moving sky for Smooth motion. Turn a line and the battle changes at once. On the 3DS the paused game shows there instead.\n\n📺 A GBA's screen, if you want it:\n\nAsked for in issue #265 by a player on a KONKR Pocket Advanced. Each is off until you turn it on, in Display.\n\nColour correction:\n\nGBA shows the game's colours as a GBA's own screen did, darker and softer: mGBA's Color Correction as RetroArch's mGBA core runs it, matched to its own code for every colour. Three more sit beside it, from libretro's handheld colour shaders: VBA (VisualBoyAdvance's GBA colours, darker still), DS (the first DS's screen, dimmer and softer) and PSP (a PSP 1000's or 2000's, bright and warmer). Whichever you pick covers Cyberworld's own screens and the map too, so the whole screen reads as one.\n\nFrame blending:\n\nmGBA's Interframe Blending, matched to its code frame by frame: Simple mixes each frame half and half with the last, Smart only where a pixel flickers, LCD fades each frame out over the next four as a GBA's slow screen did, and LCD fast keeps one running mix, a longer trail.\n\nLCD 3x:\n\nRetroArch's lcd3x shader at your screen's own pixels: each of the game's pixels striped red, green and blue with a darker line through each row, the picture a little darker for it. It looks best at a scale of 3 or more. Not on the 3DS, whose own screen shows the picture.\n\n🔊 The sound your way:\n\nMusic and Effects now go from 10, the game's own level, down to 1 in steps of 3 dB, and Off; your old on and off carry over. Output lays the sound out for where you listen: Speakers as before, Headphones with bs2b's crossfeed (each ear hears a little of the other side, as from speakers in a room) or Mono for one speaker, one earbud, or hearing on one side. Sound has a third choice beside GBA and Soft, mGBA: mGBA's Audio Filter as RetroArch's mGBA core has it, matched to its code sample for sample. With the defaults the game sounds exactly as before.\n\nEverything else:\n\n• colour_correction, interframe_blending, lcd3x and the new audio lines are kept in settings.ini, and --colour-correction, --interframe-blending and --lcd3x set them from the command line.",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.19.0/cyberworld-endless.ipa",
-          "size": 2112975,
+          "version": "0.20.0",
+          "date": "2026-11-09T00:28:45Z",
+          "localizedDescription": "Its ROM beside BN6's:\n\nPut Mega Man Battle Network 4: Red Sun (USA) beside BN6's and the ROMs screen takes it as a third cartridge, red, with Duo's face. Without it a run is exactly as before, and a run saved with it goes on without it, a layer of BN4's starting again in BN6's tiles. It works on every system that takes BN5; the New 3DS has room for one of the two, BN5's first.\n\nIts areas and its music:\n\nBN4's five net areas turn up in runs in place of the BN6 areas they resemble: ACDC Area, Town Area, Park Area, the net of far countries and its Undernet, each in BN4's own tiles and backdrops, with BN4's music on the map and in battle and its battle backgrounds. The seed picks them area by area, about half the runs that come there (a quarter where BN5 has an area there too).\n\nIts viruses visit:\n\nFrom the second act six of BN4's virus families visit battles: Billy, Spikey, Shrimpy, Walla, Elmperor and CirKill, in the same one battle in four that BN5's viruses visit, and MegaMan names them as the older Net's. Each was moved into BN6's battle and checked against BN4's own frame by frame. They pay from BN4's own rewards; a chip BN6 has not got pays 200 zenny.\n\nThree Navis in a row:\n\nOnce a profile has reached the Nest, and with BN4 Red Sun's ROM beside BN6's, act 3's arena in half the short runs (and one of acts 3 to 5 each endless cycle) holds three Navis in a row instead of one guardian: two rounds below the act's guardian and the final at it. Your HP carries from round to round with no heal between, and a round lost is the run's end. BN4's own bracket screen shows the rounds between them, every entrant with his own face; BN6's and BN5's Navis' faces are made from your ROMs as the game starts. The act's card lists the three (\"???\" for a Navi you never met), and MegaMan reads three signals at the portal. A quit comes back at the arena's door, round 1 again.\n\nEach round pays its results screen and its Navi's chip, the final his Guardian Data. With the rounds' pay, the short net's act 3 hands out about 8,400 zenny a run where it handed out about 7,000. The Tournament switch in EXTRAS turns it off.\n\nBN4's Navis fight in BN6:\n\nGutsMan, ThunderMan, WindMan, FireMan, SearchMan, AquaMan, WoodMan and Roll enter the tournament's first two rounds, each on his own plate of BN4's bracket. Each was moved into BN6's battle engine and checked against BN4's own battle frame by frame. A round against one of them pays a BN6 Navi chip of the round's strength until BN4's chips come.\n\nRoll's summon brings BN4's own Mettaur, moved into BN6 for her.\n\nA warp that glitches:\n\nIn one run in three, a warp glitches on an act's first layer from act 2 on: a pad that switches looks under BN6's mosaic, its colours turned and torn. Step on and say Yes, and it leads to a layer of the same area that comes apart as MegaMan takes its data.\n\nA layer that comes apart:\n\nOther areas' looks flip onto the same floor through BN6's own renderer, longer and more often the more of its data MegaMan takes, its battles growing tougher with them; its data come from up to two acts deeper. Its exit leads on to the act's next layer.\n\nThe copy at its heart:\n\nAt its heart stands a copy, the guardians you have fought written over each other. It fights as three of them in one battle, each glitching out in BN6's sprite mosaic as the next arrives on its panel, and pays a pick of their Navi chips in your folder's codes. The Glitch switch in EXTRAS turns the layer off.\n\n🎛️ Leave out what you don't want:\n\nThe setup after NEW GAME now comes in three pages, RUN, HELP and a new EXTRAS, turned with L and R; NEXT at a page's foot goes on to the next and JACK IN! is on the last (START still starts the run from any page). EXTRAS switches off, for one run, the things this game adds to BN6: Liberation Missions, the Tournament, Glitch layers, the Virus Battler, DarkChips and, with BN5 or BN4 beside BN6, the Older nets (their areas, Navis and viruses). Everything is on unless you switch it off, the run keeps what it started with, and it counts like any other run; its summary names what was off. A run saved before this version continues with everything on.\n\nEverything else:\n\n• Nobody stands in a walkway's mouth. A Mr.Prog's service or a navi no longer stands where a walkway meets a small room (BN5's Nebula Area had its Recovery Mr.Prog block one); where a room has no other spot, he moves to the next room.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.20.0/cyberworld-endless.ipa",
+          "size": 2204481,
           "minOSVersion": "14.0"
         }
       ],
@@ -2748,11 +2749,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-10-31T17:34:28Z",
-          "localizedDescription": "Fixed:\n\n• Go on the on-screen keyboard puts it away when you search, and you stay on the results (they come as you type). Phone keyboards show a search key there now.\n• Android: Back closes the keyboard and stays on the page. On Android 16 (some TV boxes) the Back that closed the keyboard also went back a page, so searching on a TV left the search.\n\nUpdate:\n\n• Server, for the keyboard's Go.\n• Android app (phones, tablets, Fire TV, Android TV), for Back.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.1/Netfish-ios.ipa",
-          "size": 928793,
+          "version": "0.8.2",
+          "date": "2026-11-09T00:23:23Z",
+          "localizedDescription": "New:\n\n• Search forgives slips. Spaces, punctuation, accents and a typo or two no longer get in the way: \"goodwill hunting\" finds Good Will Hunting, \"spiderman\" Spider-Man, \"intersteller\" Interstellar. In your library and for things you don't have yet. A film shown under its Italian title is found by its original one too.\n• Chromecast from the top bar. In the Android app, the cast button next to your profile picture lists the Chromecasts on your network too. Connect to one before choosing anything, and Play plays there.\n• Back to the film on the Chromecast. While a film plays on a Chromecast, a bar at the bottom of every page shows it, with play/pause and Stop casting. Tap it, or Android's Chromecast notification, to get its player back, from where the Chromecast is, without the film starting again.\n\nChanged:\n\n• For anyone building it themselves: npm run pack:pi is now npm run pack:server.\n\nFixed:\n\n• Chromecast: films with subtitles inside the file didn't start the first time: the Chromecast waited for the subtitles, which Jellyfin takes a while (minutes on a small server) to pull out of the file, and gave up. The film now starts straight away and the subtitles appear as soon as they're ready.\n• Chromecast errors say why, with the Chromecast's own number, and in Italian too.\n\nUpdate:\n\n• Android app (phones and tablets), for the Chromecast notification and for the cast button showing Chromecasts on their own.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.2/Netfish-ios.ipa",
+          "size": 928876,
           "minOSVersion": "16.0"
         }
       ],
@@ -3135,7 +3136,7 @@
         {
           "version": "1.3.1",
           "date": "2026-07-27T08:58:47Z",
-          "localizedDescription": "EoL Notice:\n\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\n\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\n\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore. Until then, consider the project EoL.\n\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\n❤️.\n\n# Original release notes.\n\nThis update mainly focuses on localizations, but we recommend updating nonetheless.\n\n## Localizations.\n\nWe've added full localization for the following languages:\n\n• Spanish (@isacucho).\n• Arabic (@neonmodder123).\n• Dutch (@jurre111).\n• Vietnamese (@MineTurtlee).\n• Italian (@tiziodied).\n• Swedish (@nxtcoreee3).\n• Romanian (@nxtcoreee3).\n• Norwegian (@nxtcoreee3).\n\nAs you can see, lots more languages compared to just over a day ago. We are very thankful for all of our volunteer translators for their contributions and assistance.\n\n## Changes.\n\n• Added new Translators section to the Credits list.\n• Very minor backend adjustments.\n\nThank you everybody for your patience and support! Happy downgrading!",
+          "localizedDescription": "EoL Notice:\n\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\n\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\n\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore. Until then, consider the project EoL.\n\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\n❤️.\n\nOriginal release notes.:\n\nThis update mainly focuses on localizations, but we recommend updating nonetheless.\n\nWe've added full localization for the following languages:\n\n• Spanish (@isacucho).\n• Arabic (@neonmodder123).\n• Dutch (@jurre111).\n• Vietnamese (@MineTurtlee).\n• Italian (@tiziodied).\n• Swedish (@nxtcoreee3).\n• Romanian (@nxtcoreee3).\n• Norwegian (@nxtcoreee3).\n\nAs you can see, lots more languages compared to just over a day ago. We are very thankful for all of our volunteer translators for their contributions and assistance.\n\nChanges.:\n\n• Added new Translators section to the Credits list.\n• Very minor backend adjustments.\n\nThank you everybody for your patience and support! Happy downgrading!",
           "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3.1/PancakeStore_v1.3.1.ipa",
           "size": 3130839,
           "minOSVersion": "16.4"
@@ -4179,7 +4180,7 @@
         {
           "version": "1.7.0",
           "date": "2026-11-07T08:08:32Z",
-          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• Temperatures can be shown in Fahrenheit. Settings → Units offers Automatic, °C or °F. Automatic follows your region and the Temperature option under Settings › General › Language \u0026 Region, so if your region uses Fahrenheit you will see °F straight after updating. Every page, the charts, the heat map, the floating meter, the Live Activity and the widget follow the setting; Raw data still shows the sensors' own °C. (#25).\n• Charge forecast. While charging, the Power page shows how long until 80% and until 100%, and roughly when. It is worked out from how fast the battery level is actually rising, so it does not depend on the battery energy setting; it appears once the level has moved twice, usually within a few minutes. Past 80% it follows a typical charging curve and is approximate. (#27).\n• Version number. Settings → About shows the installed version, and the first line of the Raw data dump includes it. (#27).\n• iPad layout. On an iPad in landscape, and a 13-inch in portrait, every page uses two columns; narrower windows keep one. A session's detail page in History no longer stretches edge to edge on an iPad. (#22).\n• iPad heat map. On an iPad the Thermal page draws an iPad, with the zones placed as in an iPad Pro 11-inch: logic board down the middle, a battery cell either side, the charge IC by the USB-C port. The Devices page and Settings use iPad icons too. (#13, #22).\n\nFixes:\n\n• Thermal: the CPU-cluster (pACC, eACC) and image-processor (ISP) sensors used to land under \"Other sensors\"; they now count as the SoC, and the SoC zone's temperature includes them. On an iPhone 11, run-together sensor names such as FrontCameraDie and BCMLBSkin were filed in the wrong zone (the front camera as chassis); names are now split into words before they are matched. (#13, #14).\n• Adapter: the one-sample note always showed in English in the Chinese interface; it is now translated.\n\nNotes:\n\n• The iPad changes were checked in the simulator only — I do not have an iPad. If something looks wrong on yours, copy the dump from Settings → Raw data and report it.\n• The low \"from charger\" reading on an iPad (#13) is not fixed yet: finding which sensor carries the rest of the input needs a Raw data dump taken while charging. If you have an iPad, please copy one from Settings → Raw data while it charges and post it on #13.\n• The charge forecast cannot tell whether a charge limit or Optimized Battery Charging is on. If one is, the battery stops short and the time to 100% will be wrong.",
+          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• Temperatures can be shown in Fahrenheit. Settings → Units offers Automatic, °C or °F. Automatic follows your region and the Temperature option under Settings › General › Language \u0026 Region, so if your region uses Fahrenheit you will see °F straight after updating. Every page, the charts, the heat map, the floating meter, the Live Activity and the widget follow the setting; Raw data still shows the sensors' own °C. (#25).\n• Charge forecast. While charging, the Power page shows how long until 80% and until 100%, and roughly when. It is worked out from how fast the battery level is actually rising, so it does not depend on the battery energy setting; it appears once the level has moved twice, usually within a few minutes. Past 80% it follows a typical charging curve and is approximate. (#27).\n• Version number. Settings → About shows the installed version, and the first line of the Raw data dump includes it. (#27).\n• iPad layout. On an iPad in landscape, and a 13-inch in portrait, every page uses two columns; narrower windows keep one. A session's detail page in History no longer stretches edge to edge on an iPad. (#22).\n• iPad heat map. On an iPad the Thermal page draws an iPad, with the zones placed as in an iPad Pro 11-inch: logic board down the middle, a battery cell either side, the charge IC by the USB-C port. The Devices page and Settings use iPad icons too. (#13, #22).\n\nFixes:\n\n• Thermal: the CPU-cluster (pACC, eACC) and image-processor (ISP) sensors used to land under \"Other sensors\"; they now count as the SoC, and the SoC zone's temperature includes them. On an iPhone 11, run-together sensor names such as FrontCameraDie and BCMLBSkin were filed in the wrong zone (the front camera as chassis); names are now split into words before they are matched. (#13, #14).\n\nNotes:\n\n• The iPad changes were checked in the simulator only — I do not have an iPad. If something looks wrong on yours, copy the dump from Settings → Raw data and report it.\n• The low \"from charger\" reading on an iPad (#13) is not fixed yet: finding which sensor carries the rest of the input needs a Raw data dump taken while charging. If you have an iPad, please copy one from Settings → Raw data while it charges and post it on #13.\n• The charge forecast cannot tell whether a charge limit or Optimized Battery Charging is on. If one is, the battery stops short and the time to 100% will be wrong.",
           "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.7.0/MiniWatts-unsigned.ipa",
           "size": 3374224,
           "minOSVersion": "17.0"
@@ -5091,44 +5092,6 @@
       }
     },
     {
-      "name": "iCube SL",
-      "bundleIdentifier": "com.joemattiello.iCube",
-      "developerName": "Provenance-Emu",
-      "subtitle": "Dolphin for iOS, re-reborn",
-      "localizedDescription": "DolphiniOS:\n\nDolphiniOS is a port of the Dolphin Emulator to iOS and iPadOS. For installation instructions and downloads, check our website.\n\nThis is the repository for the new DolphiniOS codebase.\n\nJIT on iOS 26 (Trusted Execution Monitor):\n\niCube runs the JIT recompiler again on iOS 26. TXM will not execute a freshly written code page until a debugger has written to that page, so iCube asks an attached broker to touch every page of its 288 MB code region once at startup. After that the broker can detach and the region stays usable for the life of the process.\n\n• Users: see JIT \u0026 Performance for how to turn it on with StikDebug, what to expect without it, and troubleshooting.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.joemattiello.iCube.png",
-      "tintColor": "#8347f6",
-      "category": "developer",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-11-07T06:36:02Z",
-          "localizedDescription": "Immutable snapshot of alpha build 463 (509d410).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 463, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-463/Non-Jailbroken.ipa",
-          "size": 104595971,
-          "minOSVersion": "17.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.developer.activities",
-          "com.apple.developer.icloud-container-identifiers",
-          "com.apple.developer.icloud-services",
-          "com.apple.developer.kernel.increased-memory-limit",
-          "com.apple.security.application-groups",
-          "com.apple.security.cs.allow-jit",
-          "com.apple.security.cs.allow-unsigned-executable-memory",
-          "get-task-allow"
-        ],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "iCube uses your local network to discover DSU controllers, to share your library with nearby devices, and to hand a game off to another device. Transfers between devices are not encrypted.",
-          "NSMicrophoneUsageDescription": "The microphone stands in for the GameCube Microphone and Wii Speak in games that support them.",
-          "NSMotionUsageDescription": "Headphone motion keeps spatial game audio anchored while you turn your head.",
-          "NSPhotoLibraryAddUsageDescription": "Used to save gameplay clips you record with Instant Replay."
-        }
-      }
-    },
-    {
       "name": "Torrent Control",
       "bundleIdentifier": "com.rebelancap.TorrentControl",
       "developerName": "rebelancap",
@@ -5276,11 +5239,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.10",
-          "date": "2026-11-08T08:25:23Z",
-          "localizedDescription": "tangoAW2 0.9.10: Conquest Run.\n\nAdded.\n\n• Conquest Run is its own mode on the main menu, directly above GAUNTLET: nine maps in a row against a new CO each, and one loss ends the run.\n• The nine maps: Sabre Range, Asphalt Maze, Switchback, Piston Dam, Hourglass Isle, Ruby Keys, Vision Bridge, Cube Keys and Mial's Hope. The enemy gets more funds and units on every map.\n• After each of the first eight maps you pick a reward. The war chest grows from 8,000 to 25,500, and the free units build up to Megatank, Neotank and Bomber. Par is 72 days.\n\nChanged.\n\n• Conquest Run results start a new record table. Old 5-map results stay saved but are not shown, and a 5-map run saved halfway can't be continued.\n\nFixed.\n\n• The GAUNTLET mission card's letters are evenly spaced again.\n• An army that is not in the game no longer gets a hidden copy of the Silver Nova HQ.\n• Several automated tests that reported failures while the game was behaving correctly.",
-          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.10/tangoaw2-0.9.10-ios.ipa",
-          "size": 32860892,
+          "version": "0.9.11",
+          "date": "2026-11-09T03:24:43Z",
+          "localizedDescription": "tangoAW2 0.9.11: Harbor Run.\n\nAdded.\n\n• CONQUEST now has two runs to pick from on its map list: Conquest Run and the new Harbor Run.\n• Harbor Run is nine new maps, small to large, themed on harbours and air power: Pay Dirt, Pivot Isle, Sole Harbor, Twin Isle, Duo Falls, Mirror Islands, Alara Range, Squash Island and Shark Strait.\n• Each run keeps its own records and its own run saved halfway. The army screen names the run you picked.\n\nChanged.\n\n• The CONQUEST help line on the main menu now reads \"Win every map in a row. One loss ends the run.\".",
+          "downloadURL": "https://github.com/rkoh46/tangoAW2/releases/download/v0.9.11/tangoaw2-0.9.11-ios.ipa",
+          "size": 32864678,
           "minOSVersion": "16.0"
         }
       ],
@@ -6515,51 +6478,6 @@
       }
     },
     {
-      "name": "Manatan",
-      "bundleIdentifier": "app.mangatan.mangatan",
-      "developerName": "KolbyML",
-      "subtitle": "Seamless immersion language learning for anime, manga, novels on all platforms",
-      "localizedDescription": "Watch anime and YouTube. Read manga and novels. Look up words and save useful sentences without leaving the story.\n\nOne app, from immersion to review:\n\n• Watch, read, and listen. Local videos, YouTube, manga, EPUBs, web novels, and podcasts in one app.\n• Understand in context. Look up words with your imported dictionaries, use on-device manga OCR, and work with interactive subtitles.\n• Keep what matters. Save sentences with audio and images where available. Review in Manatan SRS with account sync, or keep using Anki.\n\nYour first lookup:\n\n• Install and open Manatan. A dictionary is installed automatically.\n• Open a video with subtitles, a manga chapter, or an EPUB you want to understand.\n• Look up a word. Save a useful sentence to Manatan SRS or Anki, then keep going.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.mangatan.mangatan.png",
-      "tintColor": "#1a71e4",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/lookup.webp",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/manga.webp",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/books.webp",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/podcasts.webp",
-        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/video-library.webp"
-      ],
-      "versions": [
-        {
-          "version": "6.3.12",
-          "date": "2026-11-08T13:14:20Z",
-          "localizedDescription": "Release v6.3.12:\n\n• Preserve source serialization with extension package aliases (fabdb3655).\n• Add Mandarin tone colors and multilingual extension parsing (1e7e9174b).\n• Add flashcard diagnostics for animated video capture (ea9b18a9a).\n\n• Add an export shortcut to deck menus (4cf736976).\n• Add Windows diagnostics for Anki image exports (067c3afa9).\n• Add Flashcards exports and study time (986f4502a).\n• Prefer opaque parser pack links in the reader (c4af8d03f).\n• Switch browser dictionary entries by tapping another word (fd6bfc7a0).\n• Keep visual novel dialogue in place during browser lookups (f55d9a907).\n• Accept subtitle drops with Subtitle options open (3f69990ed).\n• Speed up Flashcards Decks and Sync (5e1208286).\n• Keep full sentences when mining from the browser (c5f637fdb).\n• Run Flashcards sync directly from the toolbar (a9a5845de).\n• Add subtitle drag and drop to the desktop player (567ddbd95).\n\n• Preserve flashcard review history when reimporting decks (c7f5dc858).\n• Use shared dictionary settings in the in-app browser (1f72f3b45).\n• Keep Android browser dictionary working across navigation (817e2a375).\n• Use Mandarin Korean and Vietnamese dictionaries in reader analysis (4428ed6a5).\n• Explain immersion stats sync failures (6c3c446cf).\n• Keep EPUB text continuous across page turns (cf4382591).\n• Stabilize filtered YouTube Home feed ordering (c96f3ba3e).\n• Keep installed source lists consistent across app surfaces (49ff4352c).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.12/Manatan-v6.3.12-iOS.ipa",
-          "size": 445079353,
-          "minOSVersion": "16.1"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "application-identifier",
-          "beta-reports-active",
-          "com.apple.developer.team-identifier",
-          "com.apple.security.application-groups",
-          "get-task-allow",
-          "keychain-access-groups"
-        ],
-        "privacy": {
-          "NSCameraUsageDescription": "Manatan uses the camera to recognize text in photos you take and for websites you allow in the browser.",
-          "NSFaceIDUsageDescription": "Manatan uses Face ID to unlock the app when you enable Require unlock.",
-          "NSLocalNetworkUsageDescription": "Manatan uses your local network to connect to Audiobookshelf servers you add and stream their audio.",
-          "NSMicrophoneUsageDescription": "Manatan uses the microphone for websites you allow in the browser.",
-          "NSPhotoLibraryAddUsageDescription": "Manatan needs permission to save images to your photo library.",
-          "NSPhotoLibraryUsageDescription": "Manatan uses your photo library to select images for text recognition and to save images you choose."
-        }
-      }
-    },
-    {
       "name": "ffmpeg",
       "bundleIdentifier": "com.ppgjx.ffmpeg",
       "developerName": "RipeStore",
@@ -6864,11 +6782,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.56",
-          "date": "2026-11-08T05:25:47Z",
+          "version": "0.8.57",
+          "date": "2026-11-09T00:52:18Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.56/Gen2Recomped-0.8.56-ios.ipa",
-          "size": 34502408,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-ios.ipa",
+          "size": 34737429,
           "minOSVersion": "14.0"
         }
       ],
@@ -8818,7 +8736,7 @@
       "bundleIdentifier": "com.zurac.BudgetBuddy",
       "developerName": "zzanehip",
       "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI",
-      "localizedDescription": "Recreating a fully functional version of iOS 4 in SwiftUI",
+      "localizedDescription": "Recreating a fully functional version of iOS 4 in SwiftUI.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.zurac.BudgetBuddy.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -12070,35 +11988,6 @@
       }
     },
     {
-      "name": "KartPad",
-      "bundleIdentifier": "dev.kartpad.app",
-      "developerName": "chrissotraidis",
-      "subtitle": "Mario Kart Wii and Retro Rewind, native for iOS, iPadOS, macOS, tvOS, and Android",
-      "localizedDescription": "KartPad:\n\nKartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundational translator and runtime; KartPad maintains the Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. The projects are independently maintained.\n\nBring your own game data. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS remains experimental.\n\nAI disclosure: KartPad uses substantial AI assistance for code, tests, documentation, debugging and maintenance. Some support replies and maintenance tasks are automated. There is no audited percentage of AI-generated code. Build, test and device records describe what was checked. This disclosure concerns KartPad's workflow, not the authorship of its upstream projects.\n\nGet KartPad:\n\nKartPad is free. On Android, download it from the.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.kartpad.app.png",
-      "tintColor": "#e62633",
-      "category": "games",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/kartpad@main/docs/images/kartpad-dk-summit-ipad.png"
-      ],
-      "versions": [
-        {
-          "version": "0.8.8",
-          "date": "2026-11-07T01:57:23Z",
-          "localizedDescription": "KartPad 0.8.8 (build 273) updates Retro Rewind to 6.13.5, which Retro WFC now requires, and adds Shake with a Controller on Android, iPhone and iPad.\n\nFixed:\n\n• Android, 30 FPS Races in Retro Rewind: Retro Rewind sets the race frame rate a second time from its own code, which moved in 6.13.5. KartPad now follows the new location, so the option still keeps Retro Rewind races at 30 FPS.\n\nUpdating:\n\n• Apple Silicon Mac: build 0.8.8 through PadMint (Mario Kart Wii → This Mac) and replace your current app. PadMint prepares the 6.13.5 files; see the Mac guide.\n\nChecks:\n\n• Retro Rewind 6.13.5 pins: the official full pack (1,939,393,404 bytes), its Code.pul and Riivolution XML match the hashes in the build profile, and the Retro WFC payload is unchanged. KartPad's builder translated the new code into 3,979 Retro Rewind functions (4,139 for 6.13.4).\n\n• Shake with a Controller (Android emulator): the new switch appears under Shake to Trick, is off by default, and keeps its setting after the dialog is reopened. An emulator can't shake with a controller attached, so the press itself is untested.\n\n• PadMint player checks (before tagging): passed for iPhone/iPad, Mac and Android from current PadMint main, with Apple's Python 3.9 and an empty PadMint folder.\n• Not checked: a physical Android phone, iPhone, iPad or Mac running 0.8.8; a live Retro WFC race; Shake with a Controller with a real clip-on controller.\n• If Retro Rewind still says it needs attention after updating from 0.8.7, tap Retry Installation.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.8/KartPad-v0.8.8-ios-for-padmint.ipa",
-          "size": 9444878,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
-        }
-      }
-    },
-    {
       "name": "Super Smash Flash 2",
       "bundleIdentifier": "com.devz.supersmashflash2",
       "developerName": "DevZer0D4Y",
@@ -12967,7 +12856,7 @@
       "bundleIdentifier": "app.naviamp.ios",
       "developerName": "goosepod",
       "subtitle": "Windows, Mac, Linux, Android and Android TV player for Navidrome",
-      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nNaviamp is available through a closed Android Alpha on Google Play. To join:\n\n• Join the Naviamp testers Google Group.\n• Open the Android Alpha opt-in page and select Become a tester.\n• Install Naviamp from Google Play.",
+      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The first package contains the public v2.10.0 app, including Java, and runs on X11 or XWayland.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.\n\n• Set up Flatpak for your Linux distribution.\n• Open the Naviamp installer in a Flatpak-capable software center, or run:.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.naviamp.ios.png",
       "tintColor": "#037ecf",
       "category": "other",
@@ -13379,36 +13268,12 @@
       }
     },
     {
-      "name": "Sorayomi",
-      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
-      "developerName": "Suwayomi",
-      "subtitle": "A free and open source manga reader app to read manga from a Tachidesk-Server instance",
-      "localizedDescription": "Here is a list of current features for interaction with Sorayomi:\n\n• Managing installed Extensions.\n• Interaction with your library.\n• Browsing installed sources.\n• Viewing manga and chapters.\n\n• Viewing chapter updates.\n\nNote: Keep in mind that Sorayomi and Suwayomi-Server are alpha software, so it can have issues. See Support and help if it happens.\n\nSupported Suwayomi versions:\n\nThese are the versions of [Suwayomi-Server that Sorayomi supports.\n\n[Release build:\n\n• [Suwayomi-Server v0.6.6+.\n\nAndroid:\n\nDownload *-android-all.apk file from latest release [the releases section.\n\niOS:\n\n• use AltStore to install Sorayomi in ios.\n\nWindows:\n\nDownload the latest .msi file from [the releases section.\n\nif you use WINGET, you can run.\n\nMacOS:\n\n• Extract the file.\n• Drag and drop the extracted app file to applications folder in finder.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.png",
-      "tintColor": "#017dc7",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "0.6.3",
-          "date": "2025-02-22T14:18:27Z",
-          "localizedDescription": "• fixed port number picker.",
-          "downloadURL": "https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa",
-          "size": 27963820,
-          "minOSVersion": "12.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "Tsumiru",
-      "bundleIdentifier": "com.suwayomi.tachideskSorayomi.tsumiru",
+      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
       "developerName": "Suwayomi",
       "subtitle": "A manga and webtoon reader for your Suwayomi server",
       "localizedDescription": "Tsumiru (積みる) takes the 積, \"pile up\", from tsundoku (積ん読), the Japanese habit of buying books faster than you can read them. It swaps the \"read\" for miru, \"to look\".\n\nFeatures:\n\n• Webtoon reader. Chapters scroll into each other, and pinch-to-zoom keeps working mid-scroll.\n• Guided setup. The first launch looks for your server on the local network and connects to it.\n• Incognito mode. Read without adding to your history. Library categories can be hidden too.\n• Themes. 13 built-in themes, a custom accent colour and a pure black mode for OLED screens.\n• Server login. Supports the server's simple_login and ui_login modes and keeps credentials in the device's secure storage.\n\nWindows, macOS and web:\n\nDownload the build for your platform from Releases.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.tsumiru.png",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.png",
       "tintColor": "#6b70ba",
       "category": "entertainment",
       "screenshotURLs": [
@@ -13788,6 +13653,80 @@
           "NSPhotoLibraryUsageDescription": "Wyrm shows your photos and videos so you can pick one for a trail."
         }
       }
+    },
+    {
+      "name": "Lumisound",
+      "bundleIdentifier": "com.lumisound.ios",
+      "developerName": "HollowHeavenXR",
+      "subtitle": "A full-featured, privacy-respecting music player for iOS, watchOS, and tvOS — stream from",
+      "localizedDescription": "Repository layout:\n\nEverything functional is Rust; see RUST-PORT.md for what moved where.\n\nSee ios/README.md for installation (AltStore / Sideloadly), self-hosting the bridge, and build-from-source instructions.\n\nIn-app help:\n\nThe app includes a full Help \u0026 Feature Guide (Settings → Help) covering every feature above in detail, with usage tips for each.\n\nREAD IT!!!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
+      "tintColor": "#456caf",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.0.16",
+          "date": "2026-11-08T07:09:14Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.16:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.16/Lumisound-2.0.0.16-unsigned.ipa",
+          "size": 15223548,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Lumisound checks your connected Bluetooth accessory's battery level so it can warn you before it dies.",
+          "NSFaceIDUsageDescription": "Lumisound can use Face ID to lock the app, since it syncs your playlists and listening history to your account.",
+          "NSHealthShareUsageDescription": "Lumisound reads your headphone audio exposure to help you spot loud listening habits, and your sleep data (if you use the Adaptive Sleep Timer) to learn roughly when you fall asleep.",
+          "NSMicrophoneUsageDescription": "Lumisound records a short hum to find a matching song already in your library.",
+          "NSMotionUsageDescription": "Lumisound uses head tracking to anchor Spatial Audio in place as you turn your head, and step counting (Workout Mode) to match playback speed to your pace."
+        }
+      }
+    },
+    {
+      "name": "Tachidesk-Sorayomi",
+      "bundleIdentifier": "com.ripestore.tachidesk-sorayomi",
+      "developerName": "Suwayomi",
+      "subtitle": "A free and open source manga reader app to read manga from a Tachidesk-Server instance",
+      "localizedDescription": "Here is a list of current features for interaction with Sorayomi:\n\n• Managing installed Extensions.\n• Interaction with your library.\n• Browsing installed sources.\n• Viewing manga and chapters.\n\n• Viewing chapter updates.\n\nNote: Keep in mind that Sorayomi and Suwayomi-Server are alpha software, so it can have issues. See Support and help if it happens.\n\nSupported Suwayomi versions:\n\nThese are the versions of [Suwayomi-Server that Sorayomi supports.\n\n[Release build:\n\n• [Suwayomi-Server v0.6.6+.\n\nAndroid:\n\nDownload *-android-all.apk file from latest release [the releases section.\n\niOS:\n\n• use AltStore to install Sorayomi in ios.\n\nWindows:\n\nDownload the latest .msi file from [the releases section.\n\nif you use WINGET, you can run.\n\nMacOS:\n\n• Extract the file.\n• Drag and drop the extracted app file to applications folder in finder.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.6.3",
+          "date": "2025-02-22T14:18:27Z",
+          "localizedDescription": "• fixed port number picker.",
+          "downloadURL": "https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa",
+          "size": 27963820
+        }
+      ]
+    },
+    {
+      "name": "suwattebuilder",
+      "bundleIdentifier": "com.ripestore.suwattebuilder",
+      "developerName": "RipeStore",
+      "subtitle": "An All-In-One Comic Reader for iOS",
+      "localizedDescription": "Suwatte:\n\nSuwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.\n\nThis build is distributed by a third-party not related to Suwatte.\n\nFeatures:\n\n• External Comics (CBR, CBZ, RAR, ZIP).\n• OPDS V1.\n• External Sources.\n• Progress Tracking.\n• Automatic Library Management.\n\n• Partial iCloud Sync.\n• Update Notifications.\n• Panel Bookmarks.\n\n• External Sources.\n• Deep Linking.\n• Point Accurate Reading Resumption.\n• Library Management with Categories \u0026 Reading Flags.\n• Automatic Library Management.\n• Zero Ads, a few bugs n crashes here n there tho:].\n\nPlanned Features:\n\n• Full Library iCloud Sync Support.\n\n• Due to crashes this feature was disabled.\n\n• EPUB / Novel Reading Support.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/50926838/161845631-86bcbc13-7f70-481c-b9d4-50aad1fb5081.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845638-13e25bda-0c0f-42b7-aa8c-1cecb6cde1cc.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845648-421fa1da-d44e-414e-9bed-9584d6972649.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845652-f4f6dda4-cd7f-4c18-90cf-5110e01ac965.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "6.0.1",
+          "date": "2026-08-18T03:34:08Z",
+          "localizedDescription": "Toolbar Changs + Deps Bumps (#198).\n\n• fix: toolbar ios26.\n\nBranch: next.\n\nBuilt from upstream commit c3333ed on the next branch.",
+          "downloadURL": "https://github.com/RipeStore/suwattebuilder/releases/download/v6.0.1-c3333ed/Suwatte-v6.0.1-c3333ed-unsigned.ipa",
+          "size": 16394180
+        }
+      ]
     }
   ]
 }
