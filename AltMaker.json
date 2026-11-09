@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.rkoh46.tangoaw2",
-    "com.underdecodedhd.gen2recomped",
-    "io.github.saschb2b.cyberworldendless"
+    "com.wrngwrld.Chanyan",
+    "com.InputStreamPlayer",
+    "io.github.danielnoam.waypage"
   ],
   "apps": [
     {
@@ -645,7 +645,7 @@
         {
           "version": "0.4.2",
           "date": "2026-11-07T00:21:22Z",
-          "localizedDescription": "SealSkin 0.4.2:\n\nMaintenance release.\n\nChanges:\n\n• PRoot Apps catalogs from a private remote. When SEALSKIN_PROOT_APPS_REMOTE names a private proot-apps repository, its apps keep their short names in a catalog. A session on a catalog now gets PA_DEFAULT_REPO, the registry of that remote, so proot-apps install.\n\nand the app's desktop entries resolve to the private registry rather than ghcr.io/linuxserver/proot-apps. Apps of any other remote are still installed by their full image name.\n\n• Dependency updates for the server and the client.",
+          "localizedDescription": "SealSkin 0.4.2:\n\nMaintenance release.\n\nChanges:\n\n• PRoot Apps catalogs from a private remote. When SEALSKIN_PROOT_APPS_REMOTE names a private proot-apps repository, its apps keep their short names in a catalog. A session on a catalog now gets PA_DEFAULT_REPO, the registry of that remote, so proot-apps install.\n\n\u003capp\u003e and the app's desktop entries resolve to the private registry rather than ghcr.io/linuxserver/proot-apps. Apps of any other remote are still installed by their full image name.\n\n• Dependency updates for the server and the client.",
           "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/0.4.2/sealskin-v0.4.2.ipa",
           "size": 1744117,
           "minOSVersion": "26.0"
@@ -1199,10 +1199,10 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.0.36",
-          "date": "2026-10-31T22:10:33Z",
-          "localizedDescription": "• Perf: make device.dump.ui fast on heavy React Native screens (), thanks to @avilashp-sportsbet.",
-          "downloadURL": "https://github.com/mobile-next/devicekit-ios/releases/download/0.0.36/devicekit-ios.ipa",
+          "version": "0.0.37",
+          "date": "2026-11-09T14:15:52Z",
+          "localizedDescription": "• Feat: add device.io.keyboard.status ().",
+          "downloadURL": "https://github.com/mobile-next/devicekit-ios/releases/download/0.0.37/devicekit-ios.ipa",
           "size": 542228,
           "minOSVersion": "14.0"
         }
@@ -1426,6 +1426,7 @@
         "https://github.com/user-attachments/assets/73256524-4861-4b8f-afba-5bd657badb2f",
         "https://github.com/user-attachments/assets/9ac2c682-a3b4-4498-8daa-6c5c6f742946",
         "https://github.com/user-attachments/assets/c2f06516-862a-47b5-b69b-aed4f6043aae",
+        "https://github.com/user-attachments/assets/c7dff083-4fe7-4440-9961-9eb472e22142",
         "https://github.com/user-attachments/assets/be15d663-0d5b-40ed-aa6c-1f3eb9e00a1e"
       ],
       "versions": [
@@ -1539,8 +1540,8 @@
       "name": "Suwatte",
       "bundleIdentifier": "com.ceres.suwatte",
       "developerName": "RipeStore",
-      "subtitle": "IPAs for the Manga/Comic Reading App for iOS",
-      "localizedDescription": "Suwatte:\n\nIPAs for the Manga/Comic Reading App for iOS. These are dumped Testflight versions and might lag behind available source code on github.\n\nIf you want IPAs built from the source, go to https://github.com/RipeStore/suwattebuilder",
+      "subtitle": "An All-In-One Comic Reader for iOS",
+      "localizedDescription": "Suwatte:\n\nSuwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.\n\nThis build is distributed by a third-party not related to Suwatte.\n\nFeatures:\n\n• External Comics (CBR, CBZ, RAR, ZIP).\n• OPDS V1.\n• External Sources.\n• Progress Tracking.\n• Automatic Library Management.\n\n• Partial iCloud Sync.\n• Update Notifications.\n• Panel Bookmarks.\n\n• External Sources.\n• Deep Linking.\n• Point Accurate Reading Resumption.\n• Library Management with Categories \u0026 Reading Flags.\n• Automatic Library Management.\n• Zero Ads, a few bugs n crashes here n there tho:].\n\nPlanned Features:\n\n• Full Library iCloud Sync Support.\n\n• Due to crashes this feature was disabled.\n\n• EPUB / Novel Reading Support.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.ceres.suwatte.png",
       "tintColor": "#7365c8",
       "category": "entertainment",
@@ -1552,12 +1553,12 @@
       ],
       "versions": [
         {
-          "version": "7.2.1",
-          "date": "2026-10-09T09:19:43Z",
-          "localizedDescription": "Suwatte 7.2.1 (Build 5).\n\nNew.\n\n• Source Management: you can now select titles before running an action, and select all primary or all linked titles at once. Your selection stays visible while you work.\n• Library Tools shows the outcome and progress for each title, and can merge a single title when you ask it to.\n• Library Tools remembers the destination you last used for each operation.\n• Library Tools now shows source icons and has better VoiceOver labels and haptic feedback.\n• Linked titles now merge automatically.\n\nFixes.\n\n• Fixed the vertical reader sometimes jumping back up the page after you scroll into the next chapter.\n• Fixed double-page mode on iPad showing pages at a tiny size when Downsample Images is on.\n• Fixed leftover links to titles from deleted sources getting in the way when linked titles merge.\n• Fixed Library Tools counting titles it wasn't going to change.\n• Fixed Library Tools holding back matches that didn't belong to another title in your library.\n• Chapter lists now show \"Filters Active\" whenever any chapters are hidden.\n• Fixed chapter lists showing no chapters when none of your priority scanlators publish the title.\n• Fixed the search button moving into the overflow menu in dark mode.",
-          "downloadURL": "https://github.com/RipeStore/Suwatte/releases/download/v7.2.1/Suwatte_7.2.1.ipa",
-          "size": 50224385,
-          "minOSVersion": "18.0"
+          "version": "6.0.1",
+          "date": "2026-08-18T03:34:08Z",
+          "localizedDescription": "Toolbar Changs + Deps Bumps (#198).\n\n• fix: toolbar ios26.\n\nBranch: next.\n\nBuilt from upstream commit c3333ed on the next branch.",
+          "downloadURL": "https://github.com/RipeStore/suwattebuilder/releases/download/v6.0.1-c3333ed/Suwatte-v6.0.1-c3333ed-unsigned.ipa",
+          "size": 16394180,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -1820,11 +1821,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "3.4.5",
-          "date": "2026-10-30T13:42:29Z",
-          "localizedDescription": "• Updated Tor to 0.4.9.15.",
-          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.5/OnionBrowser.ipa",
-          "size": 41185417,
+          "version": "3.4.6",
+          "date": "2026-11-09T16:54:54Z",
+          "localizedDescription": "• Updated Tor to 0.4.9.16.\n• Updated Lyrebird to 0.10.0.\n• Updated Snowflake to 2.15.3.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.6/OnionBrowser.ipa",
+          "size": 48260416,
           "minOSVersion": "15.0"
         }
       ],
@@ -1860,11 +1861,11 @@
       ],
       "versions": [
         {
-          "version": "2.1.0",
-          "date": "2026-10-20T17:04:36Z",
-          "localizedDescription": "First launch:\n\n• macOS: the app is not notarized. Open it once, then go to System Settings → Privacy \u0026 Security and click Open Anyway.\n• macOS, after updating: if the app asks to use its key in your keychain, click Always Allow. That key is what the TV paired with.\n• All platforms: allow Local Network access when asked; the app needs it to find and reach the TV.\n• Mi TVs without MiLink (newer Android TV / Google TV models): the apps connect through the Android TV remote service instead. The first time, the TV shows a 6-character code; type it into the app.\n• iPhone: apps sideloaded with a free Apple ID expire after 7 days; refresh them in AltStore/SideStore, or reinstall.\n\nSee the README for step-by-step instructions.\n\nChanges:\n\n• feat: input picker on Android TVs (HDMI 1-3 and Settings) (41f34ba).\n• feat(macos): test opening inputs by app link on Android TVs (ec44cb9).\n• ci: only count real breaking-change markers when versioning [skip ci] (78b735b).",
-          "downloadURL": "https://github.com/EndLess728/MiTV-Remote/releases/download/v2.1.0/Mi-Remote-2.1.0-ios-unsigned.ipa",
-          "size": 11731202,
+          "version": "2.2.0",
+          "date": "2026-11-09T17:52:38Z",
+          "localizedDescription": "First launch:\n\n• macOS: the app is not notarized. Open it once, then go to System Settings → Privacy \u0026 Security and click Open Anyway.\n• macOS, after updating: if the app asks to use its key in your keychain, click Always Allow. That key is what the TV paired with.\n• All platforms: allow Local Network access when asked; the app needs it to find and reach the TV.\n• Mi TVs without MiLink (newer Android TV / Google TV models): the apps connect through the Android TV remote service instead. The first time, the TV shows a 6-character code; type it into the app.\n• iPhone: apps sideloaded with a free Apple ID expire after 7 days; refresh them in AltStore/SideStore, or reinstall.\n\nSee the README for step-by-step instructions.\n\nChanges:\n\n• feat: discover Mi Box devices (ee60069).\n\n• Update README.md (63f0461).",
+          "downloadURL": "https://github.com/EndLess728/MiTV-Remote/releases/download/v2.2.0/Mi-Remote-2.2.0-ios-unsigned.ipa",
+          "size": 11731297,
           "minOSVersion": "16.4"
         }
       ],
@@ -1892,11 +1893,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.6",
-          "date": "2026-11-08T15:22:10Z",
-          "localizedDescription": "iPhone and iPad 0.12.6: Back navigation keeps the composer clear on device:\n\nThe composer now really stays above the glass tab bar during an edge-swipe back on iPhone. Playback also gains fixes for long sessions, image subtitles, picture-in-picture, and AirPlay seeking.\n\nFixed:\n\n• The composer lift shipped in 0.12.5 did not take effect during the real-device transition. It now moves the composer itself, so an edge-swipe back from an AI conversation or the new-conversation page keeps the composer above the returning tab bar. Cancelling the gesture puts it back without moving the message list.\n• Leaving playback after a long session is less likely to pause the interface, rewinding no longer drops image subtitles in affected streams, picture-in-picture is more reliable on software-decoded video, and AirPlay audio recovers correctly after seeking.\n\nFull changes:.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.6/MovieClaw-iOS-unsigned.ipa",
-          "size": 30776872,
+          "version": "0.12.7",
+          "date": "2026-11-09T15:28:36Z",
+          "localizedDescription": "iPhone and iPad 0.12.7: Find what you have not finished:\n\nLibrary home rows and poster walls can now distinguish titles you have not started from titles you started but have not finished. Opening View All keeps the row's watch condition and sorting instead of showing a different list.\n\nContinue from the titles that still have something left:\n\nChoose Unfinished while customizing a library home row to include movies you have not finished and series with available episodes left to watch. Unwatched remains a separate choice for titles you have never started. Cross-library poster walls also let you switch among All, Unwatched, Unfinished, and Watched; if a condition finds nothing, one tap clears it.\n\nFixed:\n\n• Switching the watch condition or sorting quickly no longer lets a slower response for the previous choice replace the current poster wall.\n\nThanks to @o1xhack. Full changes:.\n\n感谢 @o1xhack。完整改动：。.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.7/MovieClaw-iOS-unsigned.ipa",
+          "size": 30799535,
           "minOSVersion": "26.0"
         }
       ],
@@ -1971,7 +1972,7 @@
       "bundleIdentifier": "io.github.scripta",
       "developerName": "rizzonicola",
       "subtitle": "Open-source, local-first Markdown note-taking app for Android, iOS, macOS, Windows and Linux. Fast SQLite search, works offline, optional self-hosted sync",
-      "localizedDescription": "Scripta:\n\nMinimal. Fast. Markdown-First. The modern, distraction-free note-taking experience for all your devices.\n\n⚡ What is Scripta?:\n\nScripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built from the ground up to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern, fluid interface.\n\nWhether you're drafting quick thoughts on your phone or organizing complex projects on your desktop, Scripta stays out of your way and lets your ideas flow.\n\n✨ Key Features:\n\n• 📝 Markdown-First Editor: Write in clean, standard Markdown with intelligent toolbar helpers and an instant, fluid rendered reading view.\n• ⚡ Local-First \u0026 Zero Latency: Instantaneous startup and sub-millisecond search powered by SQLite WAL. Your notes reside on your device, fully accessible offline.",
+      "localizedDescription": "Scripta:\n\nMinimal. Fast. Markdown-First. The modern, distraction-free note-taking experience for all your devices.\n\n⚡ What is Scripta?:\n\nScripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built from the ground up to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern, fluid interface.\n\nWhether you're drafting quick thoughts on your phone or organizing complex projects on your desktop, Scripta stays out of your way and lets your ideas flow.\n\n✨ Key Features:\n\n• 📝 Markdown-First Editor: Write in clean, standard Markdown with intelligent toolbar helpers and an instant, fluid rendered reading view.\n• ⚡ Local-First \u0026 Zero Latency: Fast startup and instant local search powered by SQLite WAL. Your notes reside on your device, fully accessible offline.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.scripta.png",
       "tintColor": "#28998e",
       "category": "other",
@@ -2135,11 +2136,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.0",
-          "date": "2026-11-08T07:12:31Z",
-          "localizedDescription": "New:\n\n• Options \u003e Picture has a new row, Upscaling. FSR 1.0 (AMD's open upscaler) makes the picture sharper when it is drawn smaller than your screen, as at Resolution 1x or after Downsampling, on every computer and phone. A Sharpness row goes with it. Off by default, the picture as the original game showed it.\n• Options \u003e Picture \u003e Upscaling has a second choice, FSR 3.1 (AMD's open temporal upscaler), on computers that run the game with Vulkan (Windows and Linux), with an Upscaling quality row: Native AA smooths the edges of the picture at your resolution; Quality, Balanced and Performance draw it smaller and rebuild it to size. Off as in the original game. Things the game draws flat on the screen, such as the fades, the film grain, sparks and smoke, can leave a faint trail. Computers that cannot run it do not offer it.\n\nFixed:\n\n• On phones and tablets with Mali, PowerVR, Adreno or Samsung Xclipse graphics, on Macs with Apple chips and on the Raspberry Pi, the game now works out each corner of the 3D scenery once a picture instead of up to nine times, as it already did on other computers: cutscenes and busy scenes on slower phones should run faster. At start the game checks that the chip draws this way exactly as the slower way does, over several pictures in a row, and goes back to the slower way by itself if not.\n• On Snapdragon phones and tablets, the check that watches the characters for missing parts now steps back once it has seen nothing wrong for a while, so it costs less each picture, and the driver setting it may have saved is tried again at a later start instead of kept forever. The log now shows what the check costs each picture.\n• The file the game saves by itself from a slow scene now holds a picture from the heavy part of the scene, and up to three such files are written each time you start the game, each from a heavier moment than the one before.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.0/ico-pc-v0.11.0-ios-unsigned.ipa",
-          "size": 8606845,
+          "version": "0.11.1",
+          "date": "2026-11-09T05:46:40Z",
+          "localizedDescription": "New:\n\n• On Windows the game's program file now takes the icon made from your disc: it is put into the file as the game closes, after the title screen has made the icon, so it shows from the next start. A copy in a folder you cannot write to keeps the plain icon.\n• On Android the recent-apps card now shows the icon made from your disc, made at the first title screen; the home-screen icon stays the plain one.\n• Holding Left or Right on a slider row in Options now keeps changing it, and L1 and R1 change the Picture colour rows in steps of 10.\n• The New Game screen now shows which Mirror mode and New Game+ choices are set and starts the game from its own Start row; pressing Cross on a choice only picks it and moves down.\n• The menus' words have a solid dark-grey outline that fades out quickly, like the lettering at the foot of the title screen, instead of a soft grey halo.\n\nFixed:\n\n• On tablets and handhelds with the Adreno 740 chip running its own graphics driver, v0.11.0 drew a screen of noise and froze within seconds of the first scene. The game now draws the 3D scenery the old way on that chip and driver; a Turnip driver package keeps the faster way. When the graphics driver stops responding, the log now says which file the game is writing while it saves its report.\n• On phones the pre-computation of the 3D scenery no longer goes through the screen's drawing hardware and back, where the phone's graphics driver allows it; cutscenes and busy scenes on slower phones should run faster.\n• On Windows a sound device that took a long time to open (seen with a DualSense controller on USB) could stop the game from starting at all. The game now starts at once and the sound joins when the device is ready.\n• With Upscaling set to FSR 3.1, the distance fog could show thin vertical lines that stayed in place while the picture moved; the fog's fine pattern now changes with each frame's tiny picture shift so the upscaler smooths it out.\n• The short cut to black on the title screen while the game made its icon is gone; the title stays on screen. The icon itself is now the title's letter I instead of a plain cream square; it is made again after this update.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.1/ico-pc-v0.11.1-ios-unsigned.ipa",
+          "size": 8781097,
           "minOSVersion": "15.0"
         }
       ],
@@ -3136,7 +3137,7 @@
         {
           "version": "1.3.1",
           "date": "2026-07-27T08:58:47Z",
-          "localizedDescription": "EoL Notice:\n\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\n\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\n\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore. Until then, consider the project EoL.\n\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\n❤️.\n\nOriginal release notes.:\n\nThis update mainly focuses on localizations, but we recommend updating nonetheless.\n\nWe've added full localization for the following languages:\n\n• Spanish (@isacucho).\n• Arabic (@neonmodder123).\n• Dutch (@jurre111).\n• Vietnamese (@MineTurtlee).\n• Italian (@tiziodied).\n• Swedish (@nxtcoreee3).\n• Romanian (@nxtcoreee3).\n• Norwegian (@nxtcoreee3).\n\nAs you can see, lots more languages compared to just over a day ago. We are very thankful for all of our volunteer translators for their contributions and assistance.\n\nChanges.:\n\n• Added new Translators section to the Credits list.\n• Very minor backend adjustments.\n\nThank you everybody for your patience and support! Happy downgrading!",
+          "localizedDescription": "EoL Notice:\n\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\n\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\n\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore. Until then, consider the project EoL.\n\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\n❤️.\n\n# Original release notes.\n\nThis update mainly focuses on localizations, but we recommend updating nonetheless.\n\n## Localizations.\n\nWe've added full localization for the following languages:\n\n• Spanish (@isacucho).\n• Arabic (@neonmodder123).\n• Dutch (@jurre111).\n• Vietnamese (@MineTurtlee).\n• Italian (@tiziodied).\n• Swedish (@nxtcoreee3).\n• Romanian (@nxtcoreee3).\n• Norwegian (@nxtcoreee3).\n\nAs you can see, lots more languages compared to just over a day ago. We are very thankful for all of our volunteer translators for their contributions and assistance.\n\n## Changes.\n\n• Added new Translators section to the Credits list.\n• Very minor backend adjustments.\n\nThank you everybody for your patience and support! Happy downgrading!",
           "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3.1/PancakeStore_v1.3.1.ipa",
           "size": 3130839,
           "minOSVersion": "16.4"
@@ -3606,10 +3607,10 @@
       "versions": [
         {
           "version": "0.12.1",
-          "date": "2026-11-07T22:35:42Z",
-          "localizedDescription": "⚙️ All of Settings on one page:\n\n• Every setting is now on the Settings tab itself, grouped into Boards, Threads, Media, Hidden threads, History and Storage, with no pages to open.\n• Choices between two options, like Grid or List, switch right in the row, and each setting explains itself next to its switch.\n• Clearing watched posts or recently visited threads now asks first.\n\n🖼️ Filter a thread's gallery:\n\n• In a thread's gallery, show only images or only videos; swiping in the fullscreen viewer stays within what you picked.\n\n🔔 New replies on board cards:\n\n• Threads you've opened show how many replies are new on their cards in a board and the feed, in both grid and list view.\n\n🔢 New look for grid cards:\n\n• The thread number now sits on the image in the top left, so cards take less height and more of them fit on screen.\n• The image fills the whole card, with the thread number, bookmark button and reply counts frosted on top, so they stay readable on bright images.\n\nWhat's fixed:\n\n• Letting go of a short pull to refresh no longer leaves the ring on screen.\n• The Saved tab remembers whether you chose newest or oldest first.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.1%2B299/Runner.ipa",
-          "size": 33410748,
+          "date": "2026-11-09T20:26:15Z",
+          "localizedDescription": "🔖 A summary card on the Bookmarks tab:\n\n• The Bookmarks tab now starts with a card like the Saved tab's: how many threads you've bookmarked, from how many boards, which order they're sorted in, and the pictures of the newest ones.\n\nWhat's fixed:\n\n• Swiping back to the home screen follows your finger like everywhere else, instead of the home screen jumping into place when you let go; on Android it now slides back like the other pages instead of standing still.\n• On iPhone, scrolling through a thread with many videos no longer stutters each time a new video starts playing.\n• Videos in a thread start sooner as they scroll into view, and up to four play at once instead of three.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.1%2B300/Runner.ipa",
+          "size": 33419927,
           "minOSVersion": "17.0"
         }
       ],
@@ -4053,11 +4054,11 @@
       ],
       "versions": [
         {
-          "version": "0.10.1",
-          "date": "2026-11-06T15:28:50Z",
-          "localizedDescription": "schema 096: v0.10.0 databases need no new migration, and fresh installs reuse baseline/096_v0.10.0.sql. Older databases continue through the numbered migration chain; do not replace an existing database with a fresh-install baseline.\n\nVideo converted before the upgrade is converted again the first time it plays, because its cached segments are not reused. Intel GPU encoding is off until you choose it under Settings → Cache \u0026 Fetch; to use it, pass /dev/dri to the container as described in.\n\nKikoto v0.10.1 reworks video playback: more codecs play directly, H.264 and HEVC that the browser cannot play as stored keep their source picture in HLS instead of a 720p transcode, converted video comes from one continuous encode with optional Intel GPU encoding, and the video viewer gains resume, keyboard shortcuts, sidecar and embedded subtitles, and a choice of audio track. For you keeps its draw for the browser tab, phones get a shorter header and bottom navigation, stopping the container no longer waits for open streams, and the Demo shows more of the app.\n\n• The work detail video viewer reopens a local or cached video where it stopped, with a Start over button, loads same-name WebVTT, SRT, ASS, and SSA files as subtitles, and adds keyboard shortcuts for play, seeking, fullscreen, mute, and speed. SRT keeps italic, bold, and underline and shows other text as written; ASS and SSA keep only their text and timing.\n• The video viewer lists the embedded text subtitles of a local or cached video (SubRip, ASS, SSA, WebVTT, and MP4 timed text) by language and title, and shows a forced or default one first. The server extracts a subtitle to WebVTT the first time it is selected and keeps it in the transcode cache. Extractions run one at a time apart from video and audio conversion, so a subtitle loads even while conversions keep the server busy. Picture subtitles such as PGS are not listed.\n• iOS and iPadOS play converted video through their native HLS player, which keeps native fullscreen and AirPlay.\n• A landscape video turns a phone or tablet to landscape while it is fullscreen and turns it back afterwards. The Android app shows video fullscreen with the system bars hidden, and Back leaves fullscreen first.\n• Local and cached video plays directly instead of through the 720p transcode when the browser decodes it as stored: H.264 Main and High up to level 5.2, HEVC Main and Main 10 in MP4, AV1 in MP4 and WebM, 10-bit VP9, and H.264 or VP9 in Matroska where the browser reports Matroska support. HEVC and AV1 play directly only where the browser reports their decoding as power efficient. The server matches each file's profile, level, bit depth, and pixel format, and 4:2:2, 4:4:4, and 10-bit H.264 video is still transcoded.\n• Converted video plays from one continuous encode instead of one FFmpeg process per six-second segment, so audio no longer clicks at every segment boundary, later segments arrive without per-segment startup, and one video holds a single transcode slot. Segments converted before the upgrade are not reused.\n• A video file played through the audio player streams its audio as the six-second AAC playlist that converted audio uses, so it starts within about a second instead of waiting for a complete MP3 conversion, and a long video no longer fails to convert. Only the first audio stream is encoded; the picture is never decoded. The MP3 conversion remains for browsers without HLS playback.\n• H.264 video the browser decodes but cannot play in its container or with its audio, such as H.264 in Matroska, AVI, MPEG-TS, or FLV, or in MP4 with AC-3, DTS, FLAC, or PCM audio, keeps its source picture: its video is copied into HLS segments cut at its own keyframes and only the audio is converted. Video with keyframes more than 15 seconds apart or above 20 Mbit/s is still transcoded to 720p, and a copied video the browser fails to decode is prepared again as a transcode.\n• HEVC Main and Main 10 video that the browser decodes in streamed playback but cannot play directly, such as HEVC in Matroska in a browser without Matroska support, keeps its source picture the same way, copied into fMP4 HLS segments instead of transcoded to 720p H.264.\n• Opening a work reads the keyframes of its local and cached H.264 and HEVC videos in the background after the page has loaded, and the server keeps each result in the transcode cache across restarts. The first playback of such a video then copies its picture right away instead of waiting for the keyframe scan and falling back to a 720p transcode when it takes longer than five seconds. Videos every current browser plays directly, H.264 up to High 4.2 in MP4 with AAC, MP3, or no audio, are not scanned, and Demo scans only for a playback.\n• Converted video can be encoded by an Intel GPU through VA-API or Quick Sync Video, chosen under Settings → Cache \u0026 Fetch and off by default. A test encode at startup and on saving another encoder or device decides whether the GPU is used, and Settings shows its result as soon as it finishes. A file whose GPU encode fails is encoded by the CPU. The amd64 image includes the Intel VA-API driver; pass /dev/dri to the container to use it.\n• Simultaneous conversions under Settings → Cache \u0026 Fetch sets how many video and audio playback conversions run at once across the server, from 1 to 5. It defaults to 2, the fixed number before.\n• The work detail video viewer offers an Audio track menu for a video with two or more audio tracks. The server lists every audio stream with its language, title, channels, and default flag, and a track other than the first plays as a copy or transcode with that track's audio, in segments of its own. Without a choice the viewer plays the track the file flags as default, so a file whose default flag is on a later track plays that track through HLS instead of directly. Changing the track keeps the position and paused state, and the choice lasts until the page reloads. The audio player keeps the first audio track.\n\n• A remote source search or browse page with no matching works shows an empty result instead of \"Page unavailable\".\n\n• For you keeps its draw while you use Kikoto in the same browser tab, including when you switch views, open a work, or reload the page, instead of drawing anew every time it opens. Draws you did not get to look at no longer push their works down in later draws. A new tab, a fresh start of the app, or saved preferences in Settings draw anew, and Draw again still draws a column anew at any time.\n\n• Stopping or recreating the container no longer waits while a player or an open workflow run holds a stream: playback, live transcoding, HLS, remote playback, and workflow event streams end as soon as the stop begins, even when a paused player has stopped reading. Requests that change state still get the full drain.\n\n• On phones the header is 8px shorter and the bottom navigation 8px shorter in every style, and the Compact and Mini players sit 8px above the navigation, so more of the page shows between them.\n• The Mini player can be dragged down to just above the bottom navigation on phones and to the bottom edge of the window on wide screens.\n\n• Go and npm dependencies and the Debian and nginx base images are updated.",
-          "downloadURL": "https://github.com/yexca/kikoto/releases/download/v0.10.1/kikoto-0.10.1-unsigned.ipa",
-          "size": 5563580,
+          "version": "0.10.2",
+          "date": "2026-11-09T11:21:27Z",
+          "localizedDescription": "schema 096: v0.10.0 and v0.10.1 databases need no new migration, and fresh installs reuse baseline/096_v0.10.0.sql. Older databases continue through the numbered migration chain; do not replace an existing database with a fresh-install baseline.\n\nKikoto v0.10.2 gives the video viewer its own on-screen controls on every device and shows one subtitle track at a time. Workflows fold a run into one Latest run card and open Activity as the first entry of the list, Settings saves fields as they change, the Android app no longer counts the status bar twice, and automatic database cleanup runs every 10 days.\n\n• Video in the file viewer has its own on-screen controls on every device: back and forward by the seek steps from Settings, play and pause, a seek bar that shows what has buffered, Subtitles and Playback speed menus, Mute, Full screen, and picture in picture and AirPlay where the browser offers them. On a touch screen a tap shows or hides them and a double tap on either side seeks, adding a step for each further quick tap; with a mouse a click plays or pauses and a double click switches fullscreen. Fullscreen keeps the controls, except on iPhone and iPad, which still use the system player.\n• A video shows one subtitle track at a time. A track the browser turns on by itself, such as one in the device language, is switched off instead of showing beside the chosen track and extracting its stream from the video.\n\n• On phones the Compact player keeps only play and pause and next; swiping it down still switches to the Mini player. Wide screens keep the Mini button.\n\n• A selected workflow shows one Latest run card in place of the run summary, success rate, typical duration, run monitor, and Recent runs list. The card states the latest run's status, number, time, and duration, lists its stages, and keeps its log folded after a success; the log opens by itself while a run is active and after a failed or partial run. The run history bars close the card, and All runs opens Activity with only that workflow's runs. The header leaves out the category and step count.\n• The Workflows status strip shows what is running and what needs attention, and leaves a workflow's next start to its triggers. Every workflow in the list is one line, with the latest run as a dot on its icon. The ranking pulls, Availability Watch, and the subscription refresh, which are configured on the Discover page, form their own Discover group at the end of the list.\n• Activity is the first entry of the workflow list instead of a popover over the page. It replaces the selected workflow with every run, shows a run's details beside the list on wide screens, and opens like a workflow on phones; the status strip drops its separate Activity button. Starting a run keeps its workflow open, where the Latest run card reports it.\n\n• The Android app leaves exactly one status bar's height above the header, on every Android and WebView version, instead of counting the status bar twice on some phones.\n• Settings saves a switch or choice as soon as it changes and a typed number or name when you leave the field, and shows Saving and Saved beside the section heading, instead of a separate Save button under almost every section. Forms whose fields belong together, such as the password change and the content safety policy, keep their button. Turning on anonymous access now asks for confirmation first.\n• The Library settings tab gathers scan depth and work-folder lyrics under Local library, and hiding source addresses and LAN addresses for Kikoeru imports under Network and privacy.\n• The About page lists ComfyUI among the design references.\n\n• Automatic database cleanup of expired sessions, old workflow runs, and old ranking history runs shortly after the server starts and then every 10 days instead of every day.\n\n• Go and npm dependencies and the Debian base image are updated.",
+          "downloadURL": "https://github.com/yexca/kikoto/releases/download/v0.10.2/kikoto-0.10.2-unsigned.ipa",
+          "size": 5571871,
           "minOSVersion": "16.4"
         }
       ],
@@ -4180,7 +4181,7 @@
         {
           "version": "1.7.0",
           "date": "2026-11-07T08:08:32Z",
-          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• Temperatures can be shown in Fahrenheit. Settings → Units offers Automatic, °C or °F. Automatic follows your region and the Temperature option under Settings › General › Language \u0026 Region, so if your region uses Fahrenheit you will see °F straight after updating. Every page, the charts, the heat map, the floating meter, the Live Activity and the widget follow the setting; Raw data still shows the sensors' own °C. (#25).\n• Charge forecast. While charging, the Power page shows how long until 80% and until 100%, and roughly when. It is worked out from how fast the battery level is actually rising, so it does not depend on the battery energy setting; it appears once the level has moved twice, usually within a few minutes. Past 80% it follows a typical charging curve and is approximate. (#27).\n• Version number. Settings → About shows the installed version, and the first line of the Raw data dump includes it. (#27).\n• iPad layout. On an iPad in landscape, and a 13-inch in portrait, every page uses two columns; narrower windows keep one. A session's detail page in History no longer stretches edge to edge on an iPad. (#22).\n• iPad heat map. On an iPad the Thermal page draws an iPad, with the zones placed as in an iPad Pro 11-inch: logic board down the middle, a battery cell either side, the charge IC by the USB-C port. The Devices page and Settings use iPad icons too. (#13, #22).\n\nFixes:\n\n• Thermal: the CPU-cluster (pACC, eACC) and image-processor (ISP) sensors used to land under \"Other sensors\"; they now count as the SoC, and the SoC zone's temperature includes them. On an iPhone 11, run-together sensor names such as FrontCameraDie and BCMLBSkin were filed in the wrong zone (the front camera as chassis); names are now split into words before they are matched. (#13, #14).\n\nNotes:\n\n• The iPad changes were checked in the simulator only — I do not have an iPad. If something looks wrong on yours, copy the dump from Settings → Raw data and report it.\n• The low \"from charger\" reading on an iPad (#13) is not fixed yet: finding which sensor carries the rest of the input needs a Raw data dump taken while charging. If you have an iPad, please copy one from Settings → Raw data while it charges and post it on #13.\n• The charge forecast cannot tell whether a charge limit or Optimized Battery Charging is on. If one is, the battery stops short and the time to 100% will be wrong.",
+          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\nImprovements:\n\n• Temperatures can be shown in Fahrenheit. Settings → Units offers Automatic, °C or °F. Automatic follows your region and the Temperature option under Settings › General › Language \u0026 Region, so if your region uses Fahrenheit you will see °F straight after updating. Every page, the charts, the heat map, the floating meter, the Live Activity and the widget follow the setting; Raw data still shows the sensors' own °C. (#25).\n• Charge forecast. While charging, the Power page shows how long until 80% and until 100%, and roughly when. It is worked out from how fast the battery level is actually rising, so it does not depend on the battery energy setting; it appears once the level has moved twice, usually within a few minutes. Past 80% it follows a typical charging curve and is approximate. (#27).\n• Version number. Settings → About shows the installed version, and the first line of the Raw data dump includes it. (#27).\n• iPad layout. On an iPad in landscape, and a 13-inch in portrait, every page uses two columns; narrower windows keep one. A session's detail page in History no longer stretches edge to edge on an iPad. (#22).\n• iPad heat map. On an iPad the Thermal page draws an iPad, with the zones placed as in an iPad Pro 11-inch: logic board down the middle, a battery cell either side, the charge IC by the USB-C port. The Devices page and Settings use iPad icons too. (#13, #22).\n\nFixes:\n\n• Thermal: the CPU-cluster (pACC, eACC) and image-processor (ISP) sensors used to land under \"Other sensors\"; they now count as the SoC, and the SoC zone's temperature includes them. On an iPhone 11, run-together sensor names such as FrontCameraDie and BCMLBSkin were filed in the wrong zone (the front camera as chassis); names are now split into words before they are matched. (#13, #14).\n• Adapter: the one-sample note always showed in English in the Chinese interface; it is now translated.\n\nNotes:\n\n• The iPad changes were checked in the simulator only — I do not have an iPad. If something looks wrong on yours, copy the dump from Settings → Raw data and report it.\n• The low \"from charger\" reading on an iPad (#13) is not fixed yet: finding which sensor carries the rest of the input needs a Raw data dump taken while charging. If you have an iPad, please copy one from Settings → Raw data while it charges and post it on #13.\n• The charge forecast cannot tell whether a charge limit or Optimized Battery Charging is on. If one is, the battery stops short and the time to 100% will be wrong.",
           "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.7.0/MiniWatts-unsigned.ipa",
           "size": 3374224,
           "minOSVersion": "17.0"
@@ -5124,7 +5125,7 @@
       "name": "VeneraX",
       "bundleIdentifier": "io.github.kyosee.venera",
       "developerName": "Kyosee",
-      "subtitle": "A continually enhanced, cross platform comic reader based on Venera, with experimental AI translation",
+      "subtitle": "An enhanced, cross platform comic reader based on Venera, featuring AI translation, HarmonyOS support, and more",
       "localizedDescription": "VeneraX is a free and open-source, multi-platform comic reader forked from Venera and maintained with enhancements over the original.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nBefore downloading, installing, or using this software, please read and fully understand the User Agreement \u0026 Disclaimer. By downloading, installing, copying, modifying, or using this software, you are deemed to have read, understood, and accepted it in its entirety; if you do not agree, do not use the software and delete it immediately.\n\nNew Features \u0026 Improvements:\n\n• [x] Improved WebDAV backup \u0026 sync, with a per-item choice of settings to skip.\n• [x] Automatic update checks on Windows and Android APK.\n• [x] Seamless continuous-chapter reading.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.kyosee.venera.png",
       "tintColor": "#8567bb",
@@ -6027,10 +6028,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-08T14:06:21Z",
+          "date": "2026-11-09T17:12:15Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484764,
+          "size": 7484763,
           "minOSVersion": "16.4"
         }
       ],
@@ -6237,10 +6238,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-07T13:28:29Z",
+          "date": "2026-11-09T16:06:13Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56180404,
+          "size": 56183874,
           "minOSVersion": "17.0"
         }
       ],
@@ -6616,11 +6617,11 @@
       ],
       "versions": [
         {
-          "version": "5.1.55",
-          "date": "2026-11-04T09:34:17Z",
-          "localizedDescription": "Pipes for iPhone \u0026 iPad 5.1.55:\n\nUpdated from the original 5.0 preview to the current 5.1 app experience. Requires iOS 17 or later.\n\n• Four destinations: personalized Home, Search, mood/genre Explore with session caching and refresh, and Library.\n• Persistent likes and upcoming queue, Play next without duplicates, queue editing and song radio that preserves the playing song's position.\n• Editable playlists and custom albums, bulk selection, independent collection copies, and custom image/animated GIF covers copied into app storage.\n• Seven resumable Learn Pipes lessons, silent navigation/player practice, and shortcuts into the actual app.\n• YouTube video/public-playlist search links, Spotify song metadata matching, recent searches and recommendation regions.\n\n• Existing iOS 5.0 likes and imported file records are retained when installed with the same app identity.\n\nDownload Pipes-iOS.ipa and sign/install it using your sideloading tool, or build with Xcode. The IPA is unsigned and cannot install directly from Safari. Your signing account/tool determines device limits and expiration.\n\nReal-car CarPlay requires Apple's audio entitlement and a matching provisioning profile; ordinary sideload signing does not grant that entitlement.\n\nThe release workflow builds simulator and device targets, runs domain regressions plus a simulator tutorial/collection/persistence smoke test, and publishes an IPA with its SHA-256 checksum. Device/vehicle playback testing remains separate.\n\nBuilt from ebeffa5ced032802151952dfc9d01770a9048f09.",
-          "downloadURL": "https://github.com/brimzy/pipes/releases/download/ios-v5.1.55-build7/Pipes-iOS.ipa",
-          "size": 461642,
+          "version": "5.1.60",
+          "date": "2026-11-09T19:22:59Z",
+          "localizedDescription": "Pipes for iPhone \u0026 iPad 5.1.60:\n\n• Shuffle now follows the displayed upcoming queue. Starting shuffled playback includes the whole playlist, and toggling shuffle or using Play next preserves the remaining songs.\n• Online autoplay works after single songs and playlists, with up to 30 related songs per batch and automatic refills/retries. Late results can restart an exhausted queue without overriding pause, stop, or a new playback selection. Exhausted mixes can reuse older related songs.\n• Home uses recent listening, likes, and saved playlists/albums as recommendation seeds. Listening history stays on your device; unplayed suggestions do not become taste signals.\n• Queue selections preserve the remaining queue. Repeat-all returns to the full collection. Embedded-player callbacks ignore stale loads and repeated end events; unavailable recordings can advance to the next song.\n• Local audio retains background playback and audio interruption handling. Online YouTube playback requires Pipes open and pauses when leaving the app.\n\nUpdated from the original 5.0 preview to the current 5.1 app experience. Requires iOS 17 or later.\n\n• Four destinations: personalized Home, Search, mood/genre Explore with session caching and refresh, and Library.\n• Persistent likes and upcoming queue, Play next without duplicates, queue editing and song radio that preserves the playing song's position.\n• Editable playlists and custom albums, bulk selection, independent collection copies, and custom image/animated GIF covers copied into app storage.\n• Seven resumable Learn Pipes lessons, silent navigation/player practice, and shortcuts into the actual app.\n• YouTube video/public-playlist search links, Spotify song metadata matching, recent searches and recommendation regions.\n\n• Existing iOS 5.0 likes and imported file records are retained when installed with the same app identity.\n\nDownload Pipes-iOS.ipa and sign/install it using your sideloading tool, or build with Xcode. The IPA is unsigned and cannot install directly from Safari. Your signing account/tool determines device limits and expiration.\n\nReal-car CarPlay requires Apple's audio entitlement and a matching provisioning profile; ordinary sideload signing does not grant that entitlement.\n\nThe release workflow builds simulator and device targets, runs domain regressions plus a simulator tutorial/collection/persistence smoke test, and publishes an IPA with its SHA-256 checksum. Device/vehicle playback testing remains separate.\n\nBuilt from 9d2a3e5a559120c0ac703d841580a6d893d23e21.",
+          "downloadURL": "https://github.com/brimzy/pipes/releases/download/ios-v5.1.60-build9/Pipes-iOS.ipa",
+          "size": 491055,
           "minOSVersion": "17.0"
         }
       ],
@@ -6756,11 +6757,11 @@
       ],
       "versions": [
         {
-          "version": "1.54.0",
-          "date": "2026-11-07T19:44:25Z",
-          "localizedDescription": "Added:\n\n• Collections: ⋯ › Cover sets a collection's cover, from a picture of your own or one of its clips' pictures, or back to Automatic. It syncs and goes in backups with the collection.\n\n• Discover › Sites: SpaceBattles and Sufficient Velocity, their fiction boards by latest, new, most replies or most viewed. A story saves as a collection of its threadmarked chapters.\n• Saving: a SpaceBattles, Sufficient Velocity or Questionable Questing thread saves its threadmarks as chapters, each chapter its own post with next and previous.\n\n• Saving: Lemmy posts (any server), Substack posts (on their own domains too) and LessWrong, EA Forum and Alignment Forum posts save with their comments as a tree.\n\n• Discover: 25 more feeds (long reads, science, programming, fiction magazines, comics, world news, Hebrew news) and 3 more newsletters.\n• Discover: PC Gamer and Mako (Hebrew news) feeds.\n\n• Settings › Credits: sherpa-onnx, Kokoro and the Piper voices.\n\nChanged:\n\n• A collection's page shows its first clip's picture as its cover when it has no other, as its tile in the library already did.\n\nFixed:\n\n• Opening the app no longer shows Paper for a moment and then eases across to your theme: the first frame is already in your theme. On Android the window behind the page, the status and navigation bar icons, and (with the phone in dark mode) the splash follow it too.\n• The top bar no longer shifts on start: Search and Sync are in place from the first frame instead of arriving with the clips.\n• \"Opening your library\" shows only when opening really takes a while (half a second), so a quick start doesn't flash it.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.54.0/Waypage.ipa",
-          "size": 10741860,
+          "version": "1.55.0",
+          "date": "2026-11-09T19:37:16Z",
+          "localizedDescription": "Added:\n\n• Search in Feeds and Newsletters: the bar's search button finds posts (by title, summary, feed name or site) and emails (by subject, summary or sender), in everything or in the feed or address picked. Leaving the place empties it, and / opens it from the keyboard.\n• A View button in the library's top bar, as Discover has: it picks the library's layout (Shelf, One list or Grid) and turns Continue reading on or off, without going into Settings.\n• Reader: a link's sheet has Read it here, which opens the linked page in the reader without saving it, as a feed post opens. Back comes to the page you were on, saved or not.\n\nChanged:\n\n• A change in Aa (or a pinch) that applies only to the open clip, book or collection now says so once, so the next clip opening in the usual look doesn't read as a reset.\n• Narrate: Get more voices moved into More speech engines, which is now one page for every engine: the phone's own engines first, each with its Get more voices, then Kokoro and Piper. Narrate keeps one More speech engines button, shown on any Android phone with a speech engine.\n\nFixed:\n\n• A sheet opened with a tap (a link's, ⋯, Discover's) no longer draws a blue focus line under its first row; it shows only when you use a keyboard.\n• A collection exported as an EPUB now has the collection's cover as the book's cover: the picture you picked, else the one the library shows. Before, it took the first picture in the book, or a title card.\n• Narrate's More speech engines in the reader opens that page over the clip again (on a phone it opened behind it), and Back goes straight back to the clip's Narrate tab instead of closing the clip.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.55.0/Waypage.ipa",
+          "size": 10744441,
           "minOSVersion": "15.5"
         }
       ],
@@ -7473,10 +7474,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-16T05:02:16Z",
-          "localizedDescription": "Unsigned build of claude/polish-loop at c3eb0bc.\n\nThis IPA is not signed and will not install as-is. Sign it with AltStore, Sideloadly or SideStore using your own certificate.\n\nNothing in this repository carries an Apple DEVELOPMENT_TEAM — that is a deliberate rule (see AGENTS.md), so there is no signed build to hand out.\n\nThis tag is rolling: the next successful build of this branch replaces it. For an older commit, take the .ipa artifact from that run of the workflow.\n\nBuilt from c3eb0bc87958d4b825fa33cb4fd1a31f1250864f.",
-          "downloadURL": "https://github.com/cidy02/kudos-ao3-reader/releases/download/build-claude-polish-loop/Kudos-c3eb0bc.ipa",
-          "size": 49483973,
+          "date": "2026-11-09T17:14:46Z",
+          "localizedDescription": "Unsigned build of claude/polish-agy5 at 2f509b2.\n\nThis IPA is not signed and will not install as-is. Sign it with AltStore, Sideloadly or SideStore using your own certificate.\n\nNothing in this repository carries an Apple DEVELOPMENT_TEAM — that is a deliberate rule (see AGENTS.md), so there is no signed build to hand out.\n\nThis tag is rolling: the next successful build of this branch replaces it. For an older commit, take the .ipa artifact from that run of the workflow.\n\nBuilt from 2f509b25916bdc01c4a72deeb1a73415d3f4727b.",
+          "downloadURL": "https://github.com/cidy02/kudos-ao3-reader/releases/download/build-claude-polish-agy5/Kudos-2f509b2.ipa",
+          "size": 48666072,
           "minOSVersion": "26.5"
         }
       ],
@@ -7689,11 +7690,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.1",
-          "date": "2026-10-27T17:42:29Z",
-          "localizedDescription": "Added:\n\n• Favorites in albums filter any order, as they do in songs.\n• Drop the Previous goes back a song setting.\n• Drop the Speed setting.\n• Drop the Pitch setting.\n• Drop the Skip silence setting.\n• Play and pause always fade over 150 ms.\n• Drop moving covers.\n• Desktop menus on a right press of the pill's song and any artist (fixes #119).\n• Desktop backing vocals fill word by word as they are sung (fixes #120).\n• Artist menus on android and the terminal, card menus on the web.\n• An equalizer curve you drag, with free parametric bands (#123).\n• The desktop equalizer curve you drag, bands added on it.\n• The equalizer curve on the web, terminal and iPod (#125).\n• Lyrics are marked with a speech bubble on every client.\n• Nightly nori builds that update themselves, and checks on every push.\n• Equalizer bands take typed values and pick their kind from a list (#128).\n• The web as the desktop, playlist management, deletes ask first (#126).\n• Right-click menus on the desktop's queue, search preview and artists list.\n• The web queue takes a song out by its row's button, its menu the song's own.\n\nChanged:\n\n• Home rows read and page as the core says on every client.\n\nFixed:\n\n• Moving playback between devices no longer crashes the app.\n• A deeply nested lrclib lyrics file no longer crashes the app.\n• A refused favorite no longer freezes a device serving remotes.\n• A song with no audio on repeat no longer hangs playback.\n• The remote-control door no longer spins the cpu.\n• Changing the streamed music space can no longer freeze playback.\n• A request made while the player reconnects runs once.\n\n• Fetching ahead no longer refetches songs that overflow the cache.\n• An empty beat model answer no longer repeats the request forever.\n• A server that ignores paging no longer makes lists load forever.\n• A radio station that keeps dropping is no longer redialed nonstop.\n• A truncated ogg file on android is fetched again once, not forever.\n• The terminal client no longer spins when a jam ends signed out.\n• Desktop lyrics memory, menus, back navigation and smoother redraws (#109).\n• The playing song in the queue opens the player; title says Queue.\n• A song playing during a profile switch stays in its own profile.\n• Lyrics move from line to line on an e-ink screen (fixes #110).\n• The random albums widget refreshes with the refresh glyph.\n• Text in desktop menus follows the day or night theme (fixes #118).\n• The desktop queue scrolls to each new song unless scrolled away (fixes #115).\n• A pause fades out fully before the desktop's sound stops (fixes #116).\n• The random albums row keeps its draw until a refresh (fixes #113).\n• A lyric line is left once its last word is sung (fixes #121).\n• The landscape cover reaches the edges as burn-in protection moves it (fixes #112).\n• The mini player's title walks again after a motion change (fixes #117).\n• Automix holds one level through a mix and ends at the new song's.\n• A pause says where the music stopped, not a burst before (fixes #114).\n• The sideways player pill keeps clear of the gesture bar.\n• Desktop seal in full ink, bundled icon left to macOS (fixes #122).\n• Device lists show a song only where it plays now.\n• A like on the device playing shows on every page (fixes #124).\n• Desktop player buttons stay quiet until switched on.\n• Music playing on another device shows in ink, not the accent.\n• The mini player's quiet glyphs share one gray.\n• The seek bar has one track and an accent playhead everywhere.\n• The terminal's full player seal is in ink beside the title.\n• Desktop lyrics keep their rows once sung, so nothing shifts.\n• A like on the web shows at once on the device playing the song.\n• The desktop's full player always shows one panel, in its own sheet.\n• The web calls its devices panel Devices, as the desktop does.\n• The web's top bar shows the nori wordmark on the page's edge.\n• The sideways player pill stays put again, off the gesture bar's sides only.\n• The desktop's full player panel is borderless again, the side sheet closes.\n• The desktop's full player lists devices as they appear.\n• The seek bar holds still while a song loads.\n• Switching devices shows the handed song and place, no old cover.\n• The seek bar moves a quarter pixel at a time again, as smoothly as before.\n\n• Moving music to another device mid-mix carries the mix on there.\n• An MP3 started mid-song streams from there instead of loading up to it.\n• A song streamed at a low bitrate no longer stalls when it opens partway.\n\n• A device played on stays controlled when its network announcement drops.\n• Handing playback to another device never shows its old song first.\n• Lyrics stay blurred round the next line before the first is sung.\n• Taking playback back shows the other device until its queue is here.\n• Nori nightly installs the next nightly instead of calling it not newer.\n• Nori nightly no longer shows the beta updates switch.\n\nPerformance:\n\n• The seek bar redraws once per pixel, a quarter as often.\n• Small moving things repaint only themselves, not the whole screen (#127).\n• The lyrics list draws in an island of its own while nothing round it moves (#129).",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.7.1/nori-ipod-0.7.1.ipa",
-          "size": 7915451,
+          "version": "0.8.0",
+          "date": "2026-11-09T09:31:42Z",
+          "localizedDescription": "Added:\n\n• Recent searches keep the newest six and swipe away one at a time.\n• A genre's page shows the cover of its tile in search.\n\n• Genres and decades in search open the library page.\n• A provider's stream may be an HLS playlist (#132).\n• One motion system, pages fade in and shift back (#134).\n• Plugins reach every extension point the plan lists (#133).\n• A cast from Android sends the song's cover to the speaker.\n• Speakers a plugin finds are devices to pick, and a lost cast comes back here.\n• Web's settings start with the servers, as the desktop's.\n• Web's settings list nori's plugins and what stops each in a browser.\n• Speakers another device reaches are devices to pick on every client (#135).\n• A speaker, headphones or TV a cast reaches shows its own icon.\n• Web search answers from the offline index at once, as the desktop.\n• Moving covers play in the desktop's sleeve (#136).\n• The web installs and runs plugins (#137).\n• Speed and pitch run in the web, plugins' overrides reach its engine.\n• Album rows drop the time and every song's ⋯ ends at the margin.\n\n• No song list shows each song's length, as album pages already.\n• The pre-amp switch is called Auto pre-amp, its level beside it.\n• The log says when a stream was slow to answer.\n• Desktop and terminal keep their log on disk, panics included.\n• A plugin turns on when it is installed.\n• The web's plugin pages are the desktop's and Android's.\n• A speaker is told where in the song its audio starts.\n• A speaker shows the song when picked while paused, and can seek.\n• The playing device gets its own card above the others.\n• The song menu gets glyphs, name links and an undoable Exclude.\n• Radio and instant mix become one Radio that blends both.\n• Song menus list the sleep timer, lyrics timing and mix switch.\n• Dialogs match the app; the playlist picker marks songs it has.\n• The terminal's playlist picker marks the playlists that have it.\n• A provider's Home shows its last feed at once while the new one loads.\n• Shelves move their covers into place when a page updates.\n• Profiles with a switcher, and older screens on Nori Seasons (#141).\n• A profile's icon can be its letter, its provider's mark or a face.\n• The desktop, web and iPod pick a profile's icon too.\n• Plugin providers sign in with a code allowed in any browser (#142).\n• The iPod opens again and follows Android's pages and menus.\n• The desktop, terminal and web pin playlists with the seal.\n• Every iPod page names itself as on Android, without a top bar.\n• The iPod's lyrics and queue open inside the player, as on Android.\n• The iPod's Appearance settings arrange Home's rows.\n• Mobile data can prepare 10 songs ahead too, under a clearer name.\n• New installs get a fresh Home order, without favorite playlists.\n• The mini player no longer shows the speaker.\n• Headphones' noise control is in the player and mini player.\n• The iPod's mini player no longer shows the speaker.\n• Row separators stop short of both edges.\n• The notification and lock screen no longer show shuffle.\n\nFixed:\n\n• Midnight's soft band blurs the cover grey instead of black.\n• A genre's page lists all its songs, not the first 200.\n• Volume keys move a cast from its own volume on desktop and terminal.\n• Recent searches start as close to their title as a shelf's cards.\n• Plugins reach headphones connected before nori starts, once each, on macOS.\n• Desktop and terminal offer AutoEQ for Bluetooth and USB headphones.\n• The terminal's devices list follows a cast starting and ending.\n• A speaker plays on through a song change and tuning sound, no dropouts.\n• The player names the speaker a cast plays on, not the phone.\n• Web's search field and preview are as wide as the desktop's.\n• Midnight's player cover eases into black with no line where it ends.\n• The web's top bar is the desktop's, no wordmark and Favorites last.\n• The web takes up a new build by itself at the next load.\n• Speakers show on the desktop, and picking a device ends a cast.\n• The web's gear menu is the desktop's, its choices on one line.\n• Web/build.sh installs packages when the lockfile changes.\n• A dragged queue row's plate keeps its round corners and whole cover.\n\n• Nori keeps playing when nothing reads its stderr, as from a launcher.\n• Search's filters stand clear of the search field.\n• Picking a speaker another device reaches sends the song playing here.\n• Dragging a speaker's volume no longer freezes the app.\n• Nori-android builds, the speaker pick is out of its exported calls.\n• The desktop's moving covers play every frame of Apple's loops.\n• Moving covers play in the web, for a song's real album.\n• A plugin's install keeps out of Android's exported calls, tests start it off.\n• Playing bars go under an album's title and fade with the queue.\n• Tapping a pinned title's gaps no longer opens what's under it.\n• A speaker takes a version 1 host's now playing as from the start.\n• A speaker no longer blips the old song when skipping.\n• Volume leveling and crossfade stay as set when a device connects.\n• Sound changes made on a device are kept in its profile.\n• Desktop lyrics and pages no longer scroll sideways (fixes #139).\n• A YouTube Music profile from 0.7 becomes the plugin's, not lost.\n\n• A long Continue card title ends in an ellipsis on the desktop.\n• The Mac desktop's window buttons take macOS 26's Liquid Glass look.\n• The desktop lays out right on a screen of another scale.\n• Radio on the web and the iPod carries on with the playing song.\n• Status bar icons stay right after a theme change on a page.\n• A one-song album says 1 song, not 1 songs.\n• Status bar icons read better over pale covers.\n\n• The song menu's Details glyph is ink, like the seal beside it.\n• The song menu's glyph row lines up with the glyphs by the title.\n• Explicit states end dozens of player and client bugs (#140).\n• The playing bars move in the player's queue.\n• The queue keeps its place when the next song starts.\n• Song menus drop their trailing ellipses on every client.\n• Song menus line up with their groups and sheets take less room.\n• The queue no longer jumps when scrolled after the song changes.\n• Resuming another device's queue starts at its place in one step.\n\n• Signing in with Apple or Google opens its own window and finishes.\n• Adding a profile from a plugin to install no longer jumps.\n• A plugin's profile opens once a safe start's plugins are on.\n• Play and pause stay put while another device mirrors this one.\n• Android's media controls show nothing of another device playing.\n• Day stays light on dark covers, with white status icons over them.\n• The iPod's For You cards wear the colors of the page they open.\n• The iPod's pages use more of its narrow screen.\n• The iPod's Play on panel is a sheet like the song menu.\n• The iPod's song lists lose the alphabet, as on Android.\n• The iPod's Library keeps its title and filters on top.\n• The iPod's margins come in a little more.\n• The iPod's Library head is solid, with the rows fading under it.\n• A device with nothing playing says Idle on every client.\n• The iPod's panels fade cleanly and lists soften where they end.\n• The iPod names its output before the first song plays.\n• The iPod's covers load without seams, flashes or restarts.\n• The iPod player's panel edge fades in with its panel.\n• The iPod player changes panels in one smooth fade.\n• The iPod's player drops its down arrow.\n• The iPod shows the system volume popup again.\n• A sheet no longer jumps as it closes or at its bottom.\n• The output shown no longer sticks to a closed track's.\n• Headphones are found, and recover when another app takes them.\n• A plugin's rows in the desktop's devices panel are one group.\n\nPerformance:\n\n• The web's first load sends a quarter of the bytes.\n• A data-oriented pass over the core (#138).\n• The mini player's title holds still until its song plays.\n• Pages fade in without hashing their data each frame.\n• The input kept for sound changes is freed when playback lets go.\n• A page several screens ask for at once is fetched once.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.0/nori-ipod-0.8.0.ipa",
+          "size": 6924372,
           "minOSVersion": "12.2"
         }
       ],
@@ -8051,7 +8052,7 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/home.webp",
         "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/following.webp",
-        "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/live.webp",
+        "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/search.webp",
         "https://cdn.jsdelivr.net/gh/Fab1e2000/NeoBili@main/docs/images/video.webp"
       ],
       "versions": [
@@ -8206,11 +8207,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.2",
-          "date": "2026-11-07T12:15:29Z",
-          "localizedDescription": "• A knock on the scale no longer spoils a brew: short spikes are removed even when the scale sends several readings of them, so the final weight, the pour analysis (\"overpoured\") and the flow chart ignore them.\n\n• A knock on the scale no longer spoils a brew: short spikes are removed even when the scale sends several readings of them, so the final weight, the pour analysis (\"overpoured\") and the flow chart ignore them.\n\nWeb.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.0.2/BrewLog.ipa",
-          "size": 12612291,
+          "version": "2.2.0",
+          "date": "2026-11-09T13:23:36Z",
+          "localizedDescription": "iOS.\n\n• The selected recipe is always shown at the top of the Brew screen; tap it to change the recipe.\n• Choosing a recipe for another brewer (e.g. a V60 recipe while the Switch is selected) selects that brewer.\n• Espresso: with the scale connected to the app, BrewLog stops the shot on the machine (GaggiMate, Decent) at the target yield in every phase of the profile, and asks again if the pump keeps running.\n• After a shot BrewLog offers to switch GaggiMate to steam; Settings → After the shot: Ask, Switch to steam or Off.\n• Pressure view: with a pressure sensor a big colour-coded pressure number and a pressure graph with a target band; with the machine's own pressure weight and pressure side by side (Settings → Live shot: Automatic, Always, Off).\n• Landscape full-screen chart with a button or by turning the phone (can be turned off in Settings).\n• Bigger, coloured flow (g/s) readout, and the live charts always fit on the screen.\n\nWeb.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.2.0/BrewLog.ipa",
+          "size": 12648719,
           "minOSVersion": "17.0"
         }
       ],
@@ -8461,11 +8462,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.9",
-          "date": "2026-11-06T23:21:17Z",
-          "localizedDescription": "• fix(details): restore glass floating header in cinematic mode after upstream merge @luqmanfadlli.\n• fix(ratings): restore enhanced in-app ratings on upstream merge @luqmanfadlli.\n• fix(ios): keep the app background while the player is parked in PiP @luqmanfadlli.\n• feat(search): Discover header with a search action that reveals the search box @luqmanfadlli.\n• feat(library): hide the cloud library search box behind a search action @luqmanfadlli.\n• fix(livetv): match the Live TV header offset to the other tab headers @luqmanfadlli.\n• fix(ios): let the collection folder draw under the native navigation bar so Glass UI shows through @luqmanfadlli.\n• fix(ui): opt in to experimental shelf cache window @luqmanfadlli.\n• perf(ui): smoother scrolling on home, shelves and grids (#330) @chrisk325.\n• feat(hero): smart horizontal framing for cropped backdrops (#323) @chrisk325.\n• fix(player): read mpv cache-speed as INT64 so the loading speed shows on libmpv and iOS @luqmanfadlli.\n• feat(player): options to hide the control glass backgrounds and the skip buttons (#266) @luqmanfadlli.\n• perf(details): open movie and show details faster (#34) (#322) @chrisk325.\n• i18n(id): bring Bahasa Indonesia up to date with the English strings @luqmanfadlli.\n• feat(livetv): include matching categories in Live TV search results (#321) @chrisk325.\n\n• fix(tmdb): title logo falls back across app language, English and original language @luqmanfadlli.\n• fix(player): harden the player title logo (#313 follow-up) @luqmanfadlli.\n• Feature/ add optional player logo title (#313) @jeff25steve.\n• adjust blur after upstream merge (#316) @chrisk325.\n• fix(details): blend hero artwork smoothly into the cinematic backdrop (#317) @chrisk325.\n• fix(i18n): add Tamil to iOS @tapframe.\n• fix(skip-intro): drop open-ended Anime-Skip segments and prefer AniSkip (#2539) @skoruppa.\n• fix(player): leave edge swipes to the back gesture and lock tablets to landscape (#2542) @skoruppa.\n• feat(settings): add ratings source picker @tapframe.\n• feat(details): add star ratings for titles and episodes @tapframe.\n• feat(mdblist): sync and save ratings @tapframe.\n• feat(simkl): save and read title ratings @tapframe.\n• feat(tracking): add rating source setting @tapframe.\n• feat(streams): make chips see-through over backdrops @tapframe.\n• feat(details): fade tablet artwork into the cinematic backdrop @tapframe.\n• feat(details): show the cinematic backdrop behind the floating header @tapframe.\n• feat(details): make buttons and chips see-through over backdrops @tapframe.\n• i18n: add French strings for audio downmix, amplification and delay (#2532) @SK-Gits.\n• fix(player): allow playback during calls with ExoPlayer (#2531) @sap6.\n• i18n(vi): update translations for strings.xml and autosync_toast_strings.xml (#2530) @blueocean2308.\n• fix(i18n): update Bengali (বাংলা) localization and sync missing strings (#2529) @TanvirSdq.\n• feat(i18n): add Tamil language support and UI localization (#2528) @vijay3695.\n• Fix Arabic page-title wrapping in shared screen header (#2063) @i7xre.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.9-beta/nuvio-0.6.9-enhanced-release.ipa",
-          "size": 74916328,
+          "version": "0.6.10",
+          "date": "2026-11-09T07:10:24Z",
+          "localizedDescription": "• perf(ios): memory optimization long sessions and 4K HDR/DV playback @luqmanfadlli.\n• feat(player): add Anime4K 2x upscaler and line sharpener for ExoPlayer and mpv (#337) @chrisk325.\n• fix(ios): detach the mpv metal layer before destroying mpv (#336) @luqmanfadlli.\n• fix(player): start playback service as a normal service first (NUVIO-MOBILE-D9 NUVIO-MOBILE-9E NUVIO-MOBILE-9M NUVIO-MOBILE-PC) @tapframe.\n• fix(player): cap buffer start times at the min buffer (NUVIO-MOBILE-1VH) @tapframe.\n• fix(player): guard caption setting reads (NUVIO-MOBILE-25M) @tapframe.\n• fix(network): treat SSL setup errors as failed requests (NUVIO-MOBILE-254 NUVIO-MOBILE-3N) @tapframe.\n• fix(watched): copy unsynced keys before saving (NUVIO-MOBILE-260) @tapframe.\n• i18n: add French translation for ratings strings (#2562) @SK-Gits.\n• i18n(el): sync the Greek locale with 0.6.9 (playback audio, downmix, ratings) (#2561) @nosvasedis.\n\n• Update Japanese translation (#2559) @Joe00011.\n• i18n(vi): translate ratings strings into Vietnamese (#2550) @blueocean2308.\n• fix(player): reset addon subtitles only when the source changes @tapframe.\n• feat(autosync): shared engine, enable on iOS (#2535) @skoruppa.\n• fix(mdblist): remap anime episodes between addon and TMDB numbering (TV parity) (#2516) @kernexshadow.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.10-beta/nuvio-0.6.10-enhanced-release.ipa",
+          "size": 75374093,
           "minOSVersion": "16.1"
         }
       ],
@@ -8736,7 +8737,7 @@
       "bundleIdentifier": "com.zurac.BudgetBuddy",
       "developerName": "zzanehip",
       "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI",
-      "localizedDescription": "Recreating a fully functional version of iOS 4 in SwiftUI.",
+      "localizedDescription": "Recreating a fully functional version of iOS 4 in SwiftUI",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.zurac.BudgetBuddy.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -9039,10 +9040,10 @@
       "versions": [
         {
           "version": "1.4.1",
-          "date": "2026-11-08T20:06:18Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 6b25d6f. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-203/Ito-1.4.1-dev.203-unsigned.ipa",
-          "size": 13078594,
+          "date": "2026-11-09T09:38:23Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 9d835d3. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-208/Ito-1.4.1-dev.208-unsigned.ipa",
+          "size": 13292993,
           "minOSVersion": "15.4"
         }
       ],
@@ -9491,11 +9492,11 @@
       ],
       "versions": [
         {
-          "version": "26.11.2",
-          "date": "2026-11-05T12:47:59Z",
-          "localizedDescription": "Apple:\n\n• Use one Widget or Control Center switch to start or stop VPN in the background on supported iOS versions.\n• Fixed macOS system-extension authorization retries.\n• iOS now requires version 16 or later.\n\nLinux:\n\n• Fixed opening the tray menu.\n\nAll platforms:\n\n• Redesigned navigation and setup for phones, tablets and desktops.\n• JSON editors now fill the available space.\n• Connect without waiting for latency tests; logs clear before each new VPN session.\n• Updated Xray-core to v26.10.31.\n\nLinux:\n\n• 更新 Xray-core 至 v26.10.31。.",
-          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.2/OneXray-ios.ipa",
-          "size": 91357457,
+          "version": "26.11.3",
+          "date": "2026-11-09T10:58:43Z",
+          "localizedDescription": "macOS:\n\n• Fixed title-bar double-click zoom and window dragging.\n\nLinux:\n\n• Fixed window resizing, duplicate title bars, and the first click after dragging.\n\nAll platforms:\n\n• DNS defaults now use TCP; saved DNS settings and cached connection configurations stay unchanged.\n• New advanced routing templates proxy non-A/AAAA DNS queries; saved templates stay unchanged.\n• Batch-test latency for the current filtered server list; set the auto-selection scope on Connect.\n• Latency-test settings summaries now refresh after editing.\n• Xray-core: v26.10.31.\n\nLinux:\n\n• Xray-core: v26.10.31.",
+          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.3/OneXray-ios.ipa",
+          "size": 91483462,
           "minOSVersion": "16.0"
         }
       ],
@@ -10336,11 +10337,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.76",
-          "date": "2026-11-08T18:43:44Z",
-          "localizedDescription": "Addons: al salir de una pantalla ya no aparece un aviso de error falso. Cuando un servidor rechaza un vídeo, la app muestra el motivo que da el servidor. El informe de diagnóstico incluye el tipo de conexión y más datos de los directos para ayudar a encontrar los tirones.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.76/InputStreamPlayer-iOS-0.9.76-130-unsigned.ipa",
-          "size": 17350738,
+          "version": "0.9.80",
+          "date": "2026-11-09T20:11:37Z",
+          "localizedDescription": "• Las miniaturas de los programas en las vistas Rejilla y Tarjetas se ven enteras: ya no se recortan caras ni cabezas. El espacio que sobra se rellena con la misma imagen desenfocada.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.80/InputStreamPlayer-iOS-0.9.80-134-unsigned.ipa",
+          "size": 17465229,
           "minOSVersion": "16.0"
         }
       ],
@@ -11476,7 +11477,7 @@
       "bundleIdentifier": "com.example.openstrapEdge",
       "developerName": "OpenStrap",
       "subtitle": "App which allows you to use your health devices beyond subscriptions. Supports Workout Tracking, Nutrition Tracking, Wellness Excercise, Sleep, Recovery, Strain, and Many more",
-      "localizedDescription": "A health app for your wearables. No subscription, no fees, private by default.\n\nAs featured in Hackaday and Adafruit.\n\nDevices:\n\nSupported: WHOOP 4.0, 5.0, MG.\n\nBeing built: Oura Ring, Garmin, Pebble, Colmi, Ultrahuman, Mi Band and more.\n\nSupport:\n\nOpenStrap has no company, no subscription and no paywall behind it. If it's useful to you, a tip helps keep it going.\n\nBitcoin.\n\nEVM (Ethereum, Base, Arbitrum, Optimism, Polygon).\n\nGuides:\n\n• Development: build and run from source.\n• iOS installation.\n• iOS sideload.\n• iOS Shortcuts.\n• Apple Watch setup.\n• AI coach.\n• Tasker integration.\n• Buzz meanings.\n• Writing a device adapter.\n\nDisclaimer:\n\nOpenStrap is independent and not affiliated with or endorsed by WHOOP, Oura, Garmin or any device maker. Product names are trademarks of their owners and are used only to describe compatibility.",
+      "localizedDescription": "WHOOP users: do not reconnect to the official WHOOP app.\n\nIf you use OpenStrap or another open-source app, or plan to switch to one later, do not connect your band to the WHOOP app again. It can install firmware updates automatically. Uninstall or disable the WHOOP app to prevent it from updating your band.\n\nA health app for your wearables. No subscription, no fees, private by default.\n\nAs featured in Hackaday and Adafruit.\n\nDevices:\n\nSupported: WHOOP 4.0, 5.0, MG, subject to the firmware restrictions below.\n\nBeing built: Oura Ring, Garmin, Pebble, Colmi, Ultrahuman, Mi Band and more.\n\nWHOOP firmware compatibility:\n\nResearch checked on November 9, 2026. These are community observations, not a complete list of affected firmware versions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.example.openstrapEdge.png",
       "tintColor": "#0778c5",
       "category": "lifestyle",
@@ -11752,11 +11753,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-10-28T13:09:45Z",
-          "localizedDescription": "GitWriter 1.1.0:\n\n• Encrypt your notes 🔐.\n\nE2EE notebooks The notebook password can't be recovered. Without it, nobody can read the notes on the remote. The notes on your devices stay readable.\n\nAdded:\n\n• Encrypted notebooks: turn on Encrypt notebook in the notebook settings and set a password. The remote (e.g. GitHub) then only gets encrypted data, so it can't see note text, note names or folders. It needs a new, empty repository.\n• Export to PDF: export a note to a PDF file.\n• Widget \"New note\" button: creates a note in the root of the active notebook and opens it.\n• Formatting shortcuts and the mobile toolbar buttons now format the selected text (toggle formatting) instead of only inserting the characters.\n\nFixes:\n\n• Automatic sync no longer runs while the device is offline.\n• Empty lines between two lists are kept, so the lists don't merge into one after reopening the note.\n• HTML tags in a note are shown as dimmed text instead of empty blocks.\n• The Android home screen widget is fixed (previously stuck in a loading) - added ProGuard rules.",
-          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.1.0/GitWriter-1.1.0-ios.ipa",
-          "size": 34864293,
+          "version": "1.2.0",
+          "date": "2026-11-09T17:00:40Z",
+          "localizedDescription": "GitWriter 1.2.0:\n\n• New live preview editor.\n\nAdded:\n\n• Live preview editor: the editor is no longer split into blocks. The whole note is one text you can edit, select and move through freely, eg. like in Obsidian. The markdown is hidden and only shows on the part you are editing.\n• Automatic pairs: typing `, * or _ adds the closing character too.\n• Edit notebook screen: on mobile, editing a notebook now opens as a full screen instead of a dialog.\n\nFixes:\n\n• Inline math: LaTeX formulas now render inside a line of text, not only as separate blocks.\n• Window resize glitches: fixed white glitches when app window was resized or sidebar was toggled on desktop.",
+          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.2.0/GitWriter-1.2.0-ios.ipa",
+          "size": 34897023,
           "minOSVersion": "18.2"
         }
       ],
@@ -11770,7 +11771,7 @@
       "bundleIdentifier": "io.github.wszqkzqk.pvz-portable",
       "developerName": "wszqkzqk",
       "subtitle": "A cross-platform reimplementation of Plants vs. Zombies by the community. Aiming to bring 100% authentic experience of GOTY edition",
-      "localizedDescription": "PvZ-Portable:\n\nA cross-platform community-driven reimplementation of Plants vs. Zombies: Game of the Year Edition, aiming to bring the 100% authentic experience of Plants vs. Zombies to every platform.\n\n🌐 No install wanted? Try directly in your browser.\n\n⚠️ Notice:\n\n• This repository does NOT contain any copyrighted game assets (such as images, music, or fonts) owned by PopCap Games or Electronic Arts. Users must provide their own main.pak and properties/ folder from a legally purchased copy of Plants vs. Zombies: GOTY Edition.\n• This project is intended solely for educational purposes, focusing on cross-platform porting techniques, engine modernization, and learning how classic game logic can be adapted to various hardware architectures.\n• Non-Commercial: This project is not affiliated with, authorized, or endorsed by PopCap Games or Electronic Arts.",
+      "localizedDescription": "PvZ-Portable:\n\nPvZ-Portable is a cross-platform, community-driven C++20 reimplementation of Plants vs. Zombies: Game of the Year Edition, built to bring an authentic recreation of the classic game to modern desktop, mobile, console, and web platforms.\n\n🌐 Don't want to install? Try the WebAssembly build directly in your browser (you still need your own game data files).\n\nImportant Notice.\n\n• Game Assets Required: This repository does not contain any copyrighted assets (graphics, audio, or fonts) owned by PopCap Games or Electronic Arts. To play, you must supply main.pak and the properties/ folder from a legally purchased copy of Plants vs. Zombies: GOTY Edition (Steam / EA).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.wszqkzqk.pvz-portable.png",
       "tintColor": "#a3ac4a",
       "category": "games",
@@ -12050,11 +12051,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.20.0",
-          "date": "2026-11-07T14:56:31Z",
+          "version": "0.21.0",
+          "date": "2026-11-09T08:37:42Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/tessel-la/robo-boy/releases/download/robo-boy-v0.20.0-alpha/Robo-Boy-iphone-unsigned.ipa",
-          "size": 5341372,
+          "downloadURL": "https://github.com/tessel-la/robo-boy/releases/download/robo-boy-v0.21.0-alpha/Robo-Boy-iphone-unsigned.ipa",
+          "size": 5345250,
           "minOSVersion": "14.0"
         }
       ],
@@ -12082,11 +12083,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.25",
-          "date": "2026-11-02T18:28:29Z",
-          "localizedDescription": "English:\n\nAttachment thumbnails were squeezed out of shape on narrow screens (found while fixing #22). Those narrow-screen rules selected the frame with [class*=\"_frame\"], but the conversation area, attachment thumbnails, subagent and document-preview components all carry local class names containing _frame and all live inside the frame. An attachment thumbnail is a single-cell grid, so grid-template-columns: 56px minmax(0,1fr) 0px turned it into three columns and pushed the image into the 56px first column, and the sidebar veil would likewise be painted over every nested element. Those rules are now restricted to a _frame that is not inside another _frame.\n\nSupport is now declared for dsh 0.2.1-rc.5 and 0.2.2-alpha.2. Since 0.1.7 dsh refuses to install a plugin whose declared range does not cover it, so the 0.2.2-alpha line could not install this plugin at all. Both versions were verified by running them: the layout package class names and data-sidebar-collapsed are identical to 0.2.1-rc.3, and the drawer, settings dialog and sidebar button all behave the same. The dsh bundled inside the APK stays at 0.2.1-rc.2.",
-          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-ios-unsigned.ipa",
-          "size": 7123667,
+          "version": "0.1.27",
+          "date": "2026-11-09T17:21:52Z",
+          "localizedDescription": "English:\n\nHot-enabling the plugin in the dsh desktop app failed with service \"directoryPicker\" has been registered at \u003cNativeDirectoryPicker\u003e, so every enable or update needed a full application restart. The plugin's directory-picker patch both disabled the default auto chooser and inserted the in-app browse backend at once; a cold boot was fine — patches compose before anything activates — but the desktop plugin manager's hot enable does not restart the process, and the loader unloads the auto chooser's native backend and activates the newly inserted browse entry concurrently, so browse always registered the one-per-context directoryPicker service before native let go, failing that entry and marking the enable as failed. The host half is no longer inserted by the patch: the plugin's apply now registers BrowseDirectoryPicker from code, retrying every 100 ms on the \"has been registered\" error until the native backend finishes unloading, while a cold boot succeeds on the first attempt. The client half stays in the patch, since it registers no service. Enabling or updating the plugin in the plugin manager no longer needs an application restart, and the directory picker behaves exactly as before (the phone still browses in-app through the tunnel).",
+          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.27/dsh-tether-0.1.27-ios-unsigned.ipa",
+          "size": 7123391,
           "minOSVersion": "14.0"
         }
       ],
@@ -13123,15 +13124,15 @@
       "subtitle": "Meet Tatakai. Watch, read, discover, track, and belong — one home for everything you love about anime. Made for the community",
       "localizedDescription": "Overview:\n\nTatakai brings anime discovery, streaming, manga reading, and community features together in one customizable app. Instead of relying on a single built-in provider, its extension-first design lets users choose their sources.\n\nHost your own sources with Tatakai Extension Server: setup, built-in proxy, live logs, and deployment buttons for Vercel, Cloudflare, Heroku and Render. Set its API in Settings → Extension Hub → Extension Servers, or configure a connection.\n\nThe service is maintained independently in Snozxyx/TatakaiServer and included here as the tatakai-server/ Git submodule. Initialize it in an existing checkout:\n\nFor a new Tatakai checkout, use git clone --recurse-submodules.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.tatakai.me.png",
-      "tintColor": "#44b2ff",
+      "tintColor": "#fd3a6c",
       "category": "entertainment",
       "versions": [
         {
-          "version": "6.4.3",
-          "date": "2026-10-29T13:01:31Z",
-          "localizedDescription": "[6.4.3] - 2026-10-29:\n\n• Preserve genuine upgrades from previous stable versions and 6.4.3 betas, with correctly ordered Android and iOS build versions.\n\nDownloads:\n\nWindows: installer or portable EXE. macOS: choose the arm64 or x64 DMG/ZIP. Linux: AppImage or DEB. Android phone and Android TV have separate APKs. The iOS IPA requires sideload signing.\n\nProduction release.",
-          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.3/Tatakai-v6.4.3-ios-unsigned.ipa",
-          "size": 105871998,
+          "version": "6.4.4",
+          "date": "2026-11-09T16:53:18Z",
+          "localizedDescription": "[6.4.4] - 2026-11-09:\n\n• Promote the 6.4.4 beta work to the stable channel with coordinated desktop, Android, iOS and Android TV version metadata.\n• Add a redesigned manga reader with reusable reading presets, stable layout anchoring, continuous navigation, improved image loading and progress recovery.\n• Improve anime, manga and novel discovery with refreshed home shelves, calendar navigation, search suggestions, smart recommendations and better source/provider diagnostics.\n• Expand profile customization with themed profile worlds, responsive previews, saved-content organization, galleries, widgets and clearer badges and activity presentation.\n• Improve playback across desktop, mobile and TV with RTX video runtime packaging, external-player handling, video enhancement settings, resilient stream recovery and more reliable media controls.\n\n• Improve authentication, content-safety, email-proof and backend-origin flows while improving error reporting and privacy controls.\n• Temporarily disable CAPTCHA on all devices so sign-in and account recovery do not wait for verification.\n• Restore the Hoko streaming proxy on the new domain with working CORS and HLS playlist delivery.\n• Refresh responsive layouts, landing pages, branding assets, splash screens, accessibility behavior and mobile navigation, with additional regression coverage for the affected flows.\n\nDownloads:\n\nWindows: installer or portable EXE. macOS: choose the arm64 or x64 DMG/ZIP. Linux: AppImage or DEB. Android phone and Android TV have separate APKs. The iOS IPA requires sideload signing.\n\nProduction release.",
+          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.4/Tatakai-v6.4.4-ios-unsigned.ipa",
+          "size": 54768881,
           "minOSVersion": "15.0"
         }
       ],
@@ -13264,37 +13265,6 @@
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "freepiv saves downloaded images to your photo library.",
           "NSPhotoLibraryUsageDescription": "freepiv saves downloaded images to your photo library on older iOS versions."
-        }
-      }
-    },
-    {
-      "name": "Tsumiru",
-      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
-      "developerName": "Suwayomi",
-      "subtitle": "A manga and webtoon reader for your Suwayomi server",
-      "localizedDescription": "Tsumiru (積みる) takes the 積, \"pile up\", from tsundoku (積ん読), the Japanese habit of buying books faster than you can read them. It swaps the \"read\" for miru, \"to look\".\n\nFeatures:\n\n• Webtoon reader. Chapters scroll into each other, and pinch-to-zoom keeps working mid-scroll.\n• Guided setup. The first launch looks for your server on the local network and connects to it.\n• Incognito mode. Read without adding to your history. Library categories can be hidden too.\n• Themes. 13 built-in themes, a custom accent colour and a pure black mode for OLED screens.\n• Server login. Supports the server's simple_login and ui_login modes and keeps credentials in the device's secure storage.\n\nWindows, macOS and web:\n\nDownload the build for your platform from Releases.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.png",
-      "tintColor": "#6b70ba",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/Suwayomi/Suwayomi-Tsumiru@main/.github/readme-images/phone-series-framed.png"
-      ],
-      "versions": [
-        {
-          "version": "1.6.5",
-          "date": "2026-11-07T23:44:29Z",
-          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n✨ New Features:\n\n• Added Per-category settings for sort and filters to the Library, including changes made offline (@aaronbamblett).\n• Added notifications when a new Tsumiru or server version is out, with Remind later and Ignore (@aaronbamblett).\n• Added Offset double spreads to the paged reader for spreads that start on an odd page (@PainTownblue).\n\n⚙️ Changes:\n\n• Made long strip taps and keys scroll by Scroll distance instead of a whole page (@aaronbamblett).\n• Changed Keep screen on to off by default (@aaronbamblett).\n• Added Up and Down page turns in horizontal paged mode and N and P to change chapter (@aaronbamblett).\n\n🚀 Improvements:\n\n• Hid empty category tabs while searching or filtering the library, with Show empty categories during search/filtering to keep them (@aaronbamblett).\n• Moved Create registration code to Manage users and added an Edit button to user rows (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed the offline library not opening when Tsumiru starts without a connection (@aaronbamblett).\n• Fixed Something went wrong showing on every page while reading offline (@aaronbamblett).\n• Fixed library covers going blank in Safari after scrolling them off screen and back (@aaronbamblett).\n• Fixed the paged reader restoring an old zoom when you return to a page (@aaronbamblett).\n• Fixed saved searches from older WebUI versions not loading (@aaronbamblett).\n\nThanks to our Weblate translators: Damien O'Neil for French, Kisnov for Catalan, Andrei Stepanov for Russian and PainTownblue for Chinese.\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-universal.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.5/tsumiru-v1.6.5-ios.ipa",
-          "size": 17346615,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Find and connect to your Suwayomi server on your local network.",
-          "NSPhotoLibraryAddUsageDescription": "Save manga pages to your photo library.",
-          "NSPhotoLibraryUsageDescription": "Save manga pages to your photo library."
         }
       }
     },
@@ -13568,11 +13538,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.5",
-          "date": "2026-11-07T20:39:55Z",
-          "localizedDescription": "English:\n\n• Meetings use one assistant to answer questions and organize the current meeting notes, while retaining unsent drafts.\n• Refines CAD machining, engineering and manufacturing-cell work pages, inspectors and navigation. Fixes engineering-page height, keyboard avoidance and a result being cleared when a field was only focused.\n• Adds assistant readback of saved manufacturing-cell results, visible saved-result opening, and address/port validation in connection tools.\n• Combines the Canvas More menus while keeping the existing editing actions and export formats, and improves file-deletion confirmation and return.\n• Adds optional unified push settings, off by default. Background execution remains subject to system limits; device enrollment and receipt of notifications have not yet been verified.\n\nThis candidate is for internal TestFlight only. Native USB drivers are not included.\n\nFocus on menus, layout, opening and returning, and previously reported UI issues. This round does not repeat comprehensive functional or stability qualification. Build 315’s formal review and automatic release remain unchanged. No public TestFlight submission.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.5/Floe-Agent-1.8.5-build325-unsigned.ipa",
-          "size": 855615788,
+          "version": "1.8.6",
+          "date": "2026-11-09T06:48:50Z",
+          "localizedDescription": "English:\n\n• Adds more native workbenches in Space, including schematic and PCB editing, LaTeX, biology and CAD engineering analysis, with improved editing, previews, saving and reopening.\n• PCB editing uses the canvas, design-rule checks and schematic/PCB synchronization. Updating a schematic from its PCB now includes a change preview and confirmation.\n• Adds LaTeX source folding and PDF full-text search. Refines the source, project-panel and preview layouts, and preserves reading and search state across full-screen changes.\n\n• Improves iPhone navigation and task-center layout, file previews and batch management, connection-tool history, and Bluetooth serial discovery and feedback.\n• Improves Linux package sources and dependency installation. Existing runtimes retain their original image selection when a new default image becomes available.\n\nThis build is for internal and public TestFlight testing. Focus on workbench entry points, touch and mouse editing, previews, saving and reopening, assistant actions, and previously reported UI issues. Some advanced PCB and simulation capabilities remain in development. Native USB serial drivers are not included. The existing App Store submission and release settings are unchanged.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.6/Floe-Agent-1.8.6-build326-unsigned.ipa",
+          "size": 879340265,
           "minOSVersion": "26.0"
         }
       ],
@@ -13610,11 +13580,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.7.18",
-          "date": "2026-11-07T17:33:17Z",
-          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-07.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-395/TwitchUnblock.ipa",
-          "size": 4607991,
+          "version": "1.7.21",
+          "date": "2026-11-09T16:17:10Z",
+          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-09.\n\n• Importing a backup now works in LiveContainer without turning on its Fix File Picker option.",
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-398/TwitchUnblock.ipa",
+          "size": 4611092,
           "minOSVersion": "16.0"
         }
       ],
@@ -13665,11 +13635,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.16",
-          "date": "2026-11-08T07:09:14Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.16:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.16/Lumisound-2.0.0.16-unsigned.ipa",
-          "size": 15223548,
+          "version": "2.0.0.17",
+          "date": "2026-11-09T06:46:40Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.17:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.17/Lumisound-2.0.0.17-unsigned.ipa",
+          "size": 15413917,
           "minOSVersion": "26.0"
         }
       ],
@@ -13685,13 +13655,73 @@
       }
     },
     {
-      "name": "Tachidesk-Sorayomi",
-      "bundleIdentifier": "com.ripestore.tachidesk-sorayomi",
+      "name": "Tsumiru",
+      "bundleIdentifier": "com.suwayomi.tachideskSorayomi.tsumiru",
+      "developerName": "Suwayomi",
+      "subtitle": "A manga and webtoon reader for your Suwayomi server",
+      "localizedDescription": "Tsumiru (積みる) takes the 積, \"pile up\", from tsundoku (積ん読), the Japanese habit of buying books faster than you can read them. It swaps the \"read\" for miru, \"to look\".\n\nFeatures:\n\n• Webtoon reader. Chapters scroll into each other, and pinch-to-zoom keeps working mid-scroll.\n• Guided setup. The first launch looks for your server on the local network and connects to it.\n• Incognito mode. Read without adding to your history. Library categories can be hidden too.\n• Themes. 13 built-in themes, a custom accent colour and a pure black mode for OLED screens.\n• Server login. Supports the server's simple_login and ui_login modes and keeps credentials in the device's secure storage.\n\nWindows, macOS and web:\n\nDownload the build for your platform from Releases.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.tsumiru.png",
+      "tintColor": "#6b70ba",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Suwayomi/Suwayomi-Tsumiru@main/.github/readme-images/phone-series-framed.png"
+      ],
+      "versions": [
+        {
+          "version": "1.6.5",
+          "date": "2026-11-07T23:44:29Z",
+          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n✨ New Features:\n\n• Added Per-category settings for sort and filters to the Library, including changes made offline (@aaronbamblett).\n• Added notifications when a new Tsumiru or server version is out, with Remind later and Ignore (@aaronbamblett).\n• Added Offset double spreads to the paged reader for spreads that start on an odd page (@PainTownblue).\n\n⚙️ Changes:\n\n• Made long strip taps and keys scroll by Scroll distance instead of a whole page (@aaronbamblett).\n• Changed Keep screen on to off by default (@aaronbamblett).\n• Added Up and Down page turns in horizontal paged mode and N and P to change chapter (@aaronbamblett).\n\n🚀 Improvements:\n\n• Hid empty category tabs while searching or filtering the library, with Show empty categories during search/filtering to keep them (@aaronbamblett).\n• Moved Create registration code to Manage users and added an Edit button to user rows (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed the offline library not opening when Tsumiru starts without a connection (@aaronbamblett).\n• Fixed Something went wrong showing on every page while reading offline (@aaronbamblett).\n• Fixed library covers going blank in Safari after scrolling them off screen and back (@aaronbamblett).\n• Fixed the paged reader restoring an old zoom when you return to a page (@aaronbamblett).\n• Fixed saved searches from older WebUI versions not loading (@aaronbamblett).\n\nThanks to our Weblate translators: Damien O'Neil for French, Kisnov for Catalan, Andrei Stepanov for Russian and PainTownblue for Chinese.\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-universal.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy \u0026 Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nExisting Flatpak installs keep receiving updates under io.github.aaronbamblett.tsumiru; no data, settings or logins move. AppImage/deb also keep that ID.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.5/tsumiru-v1.6.5-ios.ipa",
+          "size": 17346615,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Find and connect to your Suwayomi server on your local network.",
+          "NSPhotoLibraryAddUsageDescription": "Save manga pages to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Save manga pages to your photo library."
+        }
+      }
+    },
+    {
+      "name": "iCube SL",
+      "bundleIdentifier": "com.joemattiello.iCube",
+      "developerName": "Provenance-Emu",
+      "subtitle": "Dolphin for iOS, re-reborn",
+      "localizedDescription": "DolphiniOS:\n\nDolphiniOS is a port of the Dolphin Emulator to iOS and iPadOS. For installation instructions and downloads, check our website.\n\nThis is the repository for the new DolphiniOS codebase.\n\nJIT on iOS 26 (Trusted Execution Monitor):\n\niCube runs the JIT recompiler again on iOS 26. TXM will not execute a freshly written code page until a debugger has written to that page, so iCube asks an attached broker to touch every page of its 288 MB code region once at startup. After that the broker can detach and the region stays usable for the life of the process.\n\n• Users: see JIT \u0026 Performance for how to turn it on with StikDebug, what to expect without it, and troubleshooting.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.joemattiello.iCube.png",
+      "tintColor": "#8347f6",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-09T03:53:46Z",
+          "localizedDescription": "Immutable snapshot of alpha build 470 (e9abb33).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 470, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-470/Non-Jailbroken.ipa",
+          "size": 104861596,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "iCube uses your local network to discover DSU controllers, to share your library with nearby devices, and to hand a game off to another device. Transfers between devices are not encrypted.",
+          "NSMicrophoneUsageDescription": "The microphone stands in for the GameCube Microphone and Wii Speak in games that support them.",
+          "NSMotionUsageDescription": "Headphone motion keeps spatial game audio anchored while you turn your head.",
+          "NSPhotoLibraryAddUsageDescription": "Used to save gameplay clips you record with Instant Replay."
+        }
+      }
+    },
+    {
+      "name": "Sorayomi",
+      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
       "developerName": "Suwayomi",
       "subtitle": "A free and open source manga reader app to read manga from a Tachidesk-Server instance",
       "localizedDescription": "Here is a list of current features for interaction with Sorayomi:\n\n• Managing installed Extensions.\n• Interaction with your library.\n• Browsing installed sources.\n• Viewing manga and chapters.\n\n• Viewing chapter updates.\n\nNote: Keep in mind that Sorayomi and Suwayomi-Server are alpha software, so it can have issues. See Support and help if it happens.\n\nSupported Suwayomi versions:\n\nThese are the versions of [Suwayomi-Server that Sorayomi supports.\n\n[Release build:\n\n• [Suwayomi-Server v0.6.6+.\n\nAndroid:\n\nDownload *-android-all.apk file from latest release [the releases section.\n\niOS:\n\n• use AltStore to install Sorayomi in ios.\n\nWindows:\n\nDownload the latest .msi file from [the releases section.\n\nif you use WINGET, you can run.\n\nMacOS:\n\n• Extract the file.\n• Drag and drop the extracted app file to applications folder in finder.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
-      "tintColor": "#6156e2",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suwayomi.tachideskSorayomi.png",
+      "tintColor": "#017dc7",
       "category": "entertainment",
       "versions": [
         {
@@ -13699,34 +13729,85 @@
           "date": "2025-02-22T14:18:27Z",
           "localizedDescription": "• fixed port number picker.",
           "downloadURL": "https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa",
-          "size": 27963820
+          "size": 27963820,
+          "minOSVersion": "12.0"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "suwattebuilder",
-      "bundleIdentifier": "com.ripestore.suwattebuilder",
-      "developerName": "RipeStore",
-      "subtitle": "An All-In-One Comic Reader for iOS",
-      "localizedDescription": "Suwatte:\n\nSuwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.\n\nThis build is distributed by a third-party not related to Suwatte.\n\nFeatures:\n\n• External Comics (CBR, CBZ, RAR, ZIP).\n• OPDS V1.\n• External Sources.\n• Progress Tracking.\n• Automatic Library Management.\n\n• Partial iCloud Sync.\n• Update Notifications.\n• Panel Bookmarks.\n\n• External Sources.\n• Deep Linking.\n• Point Accurate Reading Resumption.\n• Library Management with Categories \u0026 Reading Flags.\n• Automatic Library Management.\n• Zero Ads, a few bugs n crashes here n there tho:].\n\nPlanned Features:\n\n• Full Library iCloud Sync Support.\n\n• Due to crashes this feature was disabled.\n\n• EPUB / Novel Reading Support.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
-      "tintColor": "#6156e2",
+      "name": "KartPad",
+      "bundleIdentifier": "dev.kartpad.app",
+      "developerName": "chrissotraidis",
+      "subtitle": "Mario Kart Wii and Retro Rewind, native for iOS, iPadOS, macOS, tvOS, and Android",
+      "localizedDescription": "KartPad:\n\nKartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundational translator and runtime; KartPad maintains the Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. The projects are independently maintained.\n\nBring your own game data. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS remains experimental.\n\nAI disclosure: KartPad uses substantial AI assistance for code, tests, documentation, debugging and maintenance. Some support replies and maintenance tasks are automated. There is no audited percentage of AI-generated code. Build, test and device records describe what was checked. This disclosure concerns KartPad's workflow, not the authorship of its upstream projects.\n\nGet KartPad:\n\nKartPad is free. On Android, download it from the.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.kartpad.app.png",
+      "tintColor": "#e62633",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.8.10",
+          "date": "2026-11-09T09:34:53Z",
+          "localizedDescription": "KartPad 0.8.10 (build 275) fixes custom GPU drivers on Android after 0.8.9.\n\nFixed:\n\n• A driver chosen in an earlier version switched on by itself (Android): 0.8.9 made custom GPU drivers load. That also made any driver chosen in 0.8.6–0.8.8 run for the first time the moment you updated, without warning, because until then it had never run. On some phones, such as the Snapdragon 8 Elite, that meant a striped picture or the error \"Device lost: vkMapMemory failed with VK_ERROR_MEMORY_MAP_FAILED\". On the first start after updating, KartPad now names the chosen driver and offers Use Phone's Driver.\n• A driver that fails during play now falls back (Android): if graphics fail while a custom driver is in use, the error message says the driver is the likely cause, and the next start uses the phone's own driver. Before, this only happened when graphics failed at start-up.\n• Playing again after \"Graphics Unavailable\" (Android): tapping Play right after that message stopped with \"cannot change translated function profile after finalization\". The next start is now clean.\n\nIf the picture looks wrong on 0.8.9 now, open ⋯ → Graphics \u0026 Performance → GPU Driver and choose Phone's Driver (Default).\n\nUpdating:\n\n• Android: install the new APK over 0.8.9, or use Update available → Update Now. Don't uninstall first. Your game data, saves, Retro Rewind and ghosts stay.\n• iPhone, iPad and Mac: nothing changes in this version.\n\nResults by check:\n\nNot checked: a renderer failure during play on a real Snapdragon phone (an emulator can only fail at start-up); Turnip on a real Snapdragon phone.\n\nFrom merge 903c4312cc0bff4c21608e31aa7fd8abe580b4f4:\n\nThe Android game pack is the 0.8.8 one: the game-pack interface fingerprint is unchanged, and the build checks it.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-ios-for-padmint.ipa",
+          "size": 9449549,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
+        }
+      }
+    },
+    {
+      "name": "Manatan",
+      "bundleIdentifier": "app.mangatan.mangatan",
+      "developerName": "KolbyML",
+      "subtitle": "Seamless immersion language learning for anime, manga, novels on all platforms",
+      "localizedDescription": "Watch anime and YouTube. Read manga and novels. Look up words and save useful sentences without leaving the story.\n\nOne app, from immersion to review:\n\n• Watch, read, and listen. Local videos, YouTube, manga, EPUBs, web novels, and podcasts in one app.\n• Understand in context. Look up words with your imported dictionaries, use on-device manga OCR, and work with interactive subtitles.\n• Keep what matters. Save sentences with audio and images where available. Review in Manatan SRS with account sync, or keep using Anki.\n\nYour first lookup:\n\n• Install and open Manatan. A dictionary is installed automatically.\n• Open a video with subtitles, a manga chapter, or an EPUB you want to understand.\n• Look up a word. Save a useful sentence to Manatan SRS or Anki, then keep going.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.mangatan.mangatan.png",
+      "tintColor": "#1a71e4",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://user-images.githubusercontent.com/50926838/161845631-86bcbc13-7f70-481c-b9d4-50aad1fb5081.jpeg",
-        "https://user-images.githubusercontent.com/50926838/161845638-13e25bda-0c0f-42b7-aa8c-1cecb6cde1cc.jpeg",
-        "https://user-images.githubusercontent.com/50926838/161845648-421fa1da-d44e-414e-9bed-9584d6972649.jpeg",
-        "https://user-images.githubusercontent.com/50926838/161845652-f4f6dda4-cd7f-4c18-90cf-5110e01ac965.jpeg"
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/lookup.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/manga.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/books.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/podcasts.webp",
+        "https://cdn.jsdelivr.net/gh/KolbyML/Manatan@master/docs/assets/screenshots/readme/video-library.webp"
       ],
       "versions": [
         {
-          "version": "6.0.1",
-          "date": "2026-08-18T03:34:08Z",
-          "localizedDescription": "Toolbar Changs + Deps Bumps (#198).\n\n• fix: toolbar ios26.\n\nBranch: next.\n\nBuilt from upstream commit c3333ed on the next branch.",
-          "downloadURL": "https://github.com/RipeStore/suwattebuilder/releases/download/v6.0.1-c3333ed/Suwatte-v6.0.1-c3333ed-unsigned.ipa",
-          "size": 16394180
+          "version": "6.3.13",
+          "date": "2026-11-09T05:25:22Z",
+          "localizedDescription": "Release v6.3.13:\n\n• Update Japanese assets in the browser extension (6e0756429).\n• Use Manatan pitch accents by default (92dffafb8).\n• Record Cantonese parser rebuild checkpoint (43453812b).\n• Upgrade Japanese parser assets and retire superseded caches (09e9b112d).\n• Restore learning languages and expand Flashcards mining (20352d93a).\n• Schedule Flashcards reviews with RWKV (e09509f47).\n\n• Match extension dictionaries and flashcards to the app (a5eeb1ce1).\n• Keep subtitle outlines behind glyph fills (2138ddccc).\n• Harden native CI smoke inputs and scratch cleanup (8639c61ca).\n\n• Prepare Darwin headers and retain completed iOS native inputs (6c7da17ec).\n• Run Windows recovery through a pinned script (89248184f).\n• Verify Android Gradle tools before compilation (4709caf4d).\n• Resume interrupted Windows builds from verified run inputs (dd164eeb2).\n• Validate iOS JNI header inputs before archiving (ab20bd61d).\n• Verify the complete Android recovery helper allow-list (5039966cb).\n\n• Always capture full sentences when mining from the browser (7cf0968ec).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.13/Manatan-v6.3.13-iOS.ipa",
+          "size": 444743250,
+          "minOSVersion": "16.1"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Manatan uses the camera to recognize text in photos you take and for websites you allow in the browser.",
+          "NSFaceIDUsageDescription": "Manatan uses Face ID to unlock the app when you enable Require unlock.",
+          "NSLocalNetworkUsageDescription": "Manatan uses your local network to connect to Audiobookshelf servers you add and stream their audio.",
+          "NSMicrophoneUsageDescription": "Manatan uses the microphone for websites you allow in the browser.",
+          "NSPhotoLibraryAddUsageDescription": "Manatan needs permission to save images to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Manatan uses your photo library to select images for text recognition and to save images you choose."
+        }
+      }
     }
   ]
 }
