@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.audaro.runemobile",
-    "cc.zexa.dshtether",
-    "dev.offdesk.ios"
+    "com.g8row.photosbackup",
+    "dev.naveed-gung.monolith",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -858,11 +858,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.9.33",
-          "date": "2026-11-04T23:49:53Z",
-          "localizedDescription": "New:\n\n• Pictures are made smaller before they go to the model. A 4K screenshot is several megabytes, a phone photo about as much, and every request carries every picture in the conversation again. Thirteen of them made each request 25 MB; over a 15 KB/s upload that is about 28 minutes a turn. A 6.8 MB screenshot was over the 5 MB per-picture limit some providers enforce, and the request was refused — then the next one too, because the picture stayed in the history. A HEIC photo from an iPhone never reached the model at all: it was swapped for a line saying the format is not supported.\n\n• A picture is fitted once, when it enters the conversation: at most 2000 px on the long side, about 512 KB where possible. That covers the three message boxes, pasting, marked-up pictures, photos from the phone, and pictures tools bring back — a picture file the agent opens, an MCP server, a browser screenshot. Screenshots stay PNG when they fit and otherwise become JPEG with small text still readable; photos go as JPEG. On macOS, HEIC is converted.\n• The same thirteen pictures now make a 3 MB first request and about 2 MB after that.\n• A request carries the latest 10 pictures (4 MB at most) as they are. Older ones go as small copies, then as a line telling the model it can no longer see them. The conversation itself keeps every picture.\n• Dropping thirteen pictures in at once takes 3.0 s instead of 2.4 s.\n\n• Menus work from the keyboard. ↑ and ↓ move, Home and End jump to either end, Enter chooses, → opens a submenu and ← closes it. After opening a menu with the mouse, ↓ goes to its first item. In menus with a search box, typing stays in the box and the arrows move the highlight.\n\n• Alt-click (⌥-click) a conversation in the sidebar to open it in Split view next to the one you are in, as in Claude's desktop app.\n• Right-click in a reply to copy the selected text, Copy link, Copy image, or save the image with Save as….\n• In Split view you can see which pane has the keyboard: the other panes' titles and icons are one step dimmer.\n\nImprovements \u0026 Fixes:\n\n• On Windows, a terminal opened in its own window could not be moved, and double-clicking its title bar did nothing. Only the first 10 px of the bar could be grabbed; the row of tabs took the rest. The empty part of the bar now drags the window, and a double-click maximizes it.\n• On Windows, Ctrl+W hid the whole window in the tray. Windows 11 keeps new tray icons behind ^, so it looked as though Lyra had quit. Ctrl+W now closes the panel in front, then the split pane, and never the window; in the terminal it still deletes the previous word. The first time closing the window leaves Lyra running in the notification area, a notification says so and how to bring it back. It appears once.\n\n• Opening a panel in a new window left nothing on screen for about three seconds. The panel vanished from the main window at once, and the new window came up later with a splash screen. The panel now stays where it is, marked \"Moving to a new window…\", until the new window is showing. On the test machine that takes 0.39 s the first time. After that, Lyra keeps one window ready in the background and the next one takes 0.06 s; the ready window is a hidden page of about 80 MB that only exists once you have used this, and it closes with the main window.\n• On Windows, the pointer over dividers was hard to see. It was Chromium's own ←‖→, which almost disappears on grey. Dividers and the sidebar handle use the system ↔ and ↕ pointers now.\n• The terminal's scrollbar was a 14 px grey block. It is the same thin rounded bar as everywhere else.\n\n• Dragging a conversation to the right edge to make a split, the card under the pointer went off the window. Near the edges it moves to the other side of the pointer.\n\nNouveautés:\n\n• Les images sont réduites avant de partir vers le modèle. Une capture d'écran 4K pèse plusieurs mégaoctets, une photo de téléphone à peu près autant, et chaque requête renvoie toutes les images de la conversation. Avec treize d'entre elles, chaque requête faisait 25 Mo; avec un relais limité à 15 Ko/s en envoi, comptez environ 28 minutes par échange. Une capture de 6,8 Mo dépassait la limite de 5 Mo par image fixée par certains fournisseurs: la requête était refusée, puis la suivante aussi, puisque l'image restait dans l'historique. Une photo HEIC d'iPhone n'arrivait jamais au modèle: elle était remplacée par une ligne disant que le format n'est pas pris en charge.\n\n• Une image est ajustée une seule fois, à son entrée dans la conversation: 2000 px au plus sur le grand côté, environ 512 Ko quand c'est possible. Cela vaut pour les trois zones de saisie, le collage, les images annotées, les photos venues du téléphone et les images que rapportent les outils — un fichier image ouvert par l'agent, un serveur MCP, une capture du navigateur. Les captures d'écran restent en PNG quand elles tiennent, sinon elles passent en JPEG sans que le petit texte devienne illisible; les photos partent en JPEG. Sur macOS, le HEIC est converti.\n• Les mêmes treize images donnent maintenant une première requête de 3 Mo, puis environ 2 Mo.\n• Une requête envoie telles quelles les 10 images les plus récentes (4 Mo au plus). Les plus anciennes partent en version réduite, puis sous forme d'une ligne qui dit au modèle qu'il ne les voit plus. La conversation, elle, garde toutes ses images.\n• Déposer treize images d'un coup prend 3,0 s au lieu de 2,4 s.\n\n• Les menus se pilotent au clavier. ↑ et ↓ pour se déplacer, Début et Fin pour aller aux extrémités, Entrée pour choisir, → pour ouvrir un sous-menu et ← pour le refermer. Après avoir ouvert un menu à la souris, ↓ mène au premier élément. Dans les menus qui ont un champ de recherche, la saisie reste dans le champ et les flèches déplacent la surbrillance.\n• Nouveaux raccourcis: Ctrl+N (⌘N) pour une Nouvelle discussion, Ctrl+, (⌘,) pour les Réglages, Ctrl+Tab et Ctrl+Maj+Tab (⌃Tab sur macOS) pour passer d'une conversation récente à l'autre, et Ctrl/⌘ avec = - 0 pour le zoom. Quand le terminal a le clavier, ces touches vont toujours au shell.\n• Un clic avec Alt (⌥) sur une conversation de la barre latérale l'ouvre en Vue scindée à côté de celle où vous êtes, comme dans l'application de bureau de Claude.\n• Clic droit dans une réponse: copier le texte sélectionné, Copier le lien, Copier l'image, ou l'enregistrer avec Enregistrer sous….\n• En Vue scindée, on voit quel volet a le clavier: les titres et les icônes des autres volets sont un cran plus pâles.\n\nAméliorations et corrections:\n\n• Sous Windows, un terminal ouvert dans une nouvelle fenêtre ne se déplaçait pas, et un double-clic sur sa barre de titre ne faisait rien. Seuls les 10 premiers pixels de la barre se laissaient attraper; la rangée d'onglets occupait le reste. La partie vide de la barre déplace maintenant la fenêtre, et un double-clic l'agrandit.\n• Sous Windows, Ctrl+W cachait toute la fenêtre dans la barre d'état système. Windows 11 range les nouvelles icônes derrière ^, si bien que Lyra semblait avoir quitté. Ctrl+W ferme maintenant le panneau au premier plan, puis le volet, jamais la fenêtre; dans le terminal, il efface toujours le mot précédent. La première fois que la fenêtre se ferme en laissant Lyra dans la zone de notification, une notification le dit et explique comment la rouvrir. Elle n'apparaît qu'une fois.\n• Ancrer la fenêtre sur une moitié d'écran écrasait tout. En 768 × 816, la barre latérale ne laissait qu'environ 470 px au reste: le terminal, Git et la Discussion latérale s'empilaient en bandes de 150 px, et le bouton d'envoi de la Discussion latérale passait sous le bas de l'écran. Entre 760 et 900 px, la barre latérale s'ouvre désormais par-dessus le contenu (Échap ou un clic à côté la referme, et votre réglage de barre latérale ne change pas), les panneaux qui ne tiennent pas deviennent des onglets, et la Discussion latérale garde toujours la place pour sa zone de saisie et son bouton d'envoi.\n• Ouvrir un panneau dans une nouvelle fenêtre ne laissait rien à l'écran pendant environ trois secondes. Le panneau disparaissait aussitôt de la fenêtre principale, et la nouvelle fenêtre arrivait plus tard avec un écran de démarrage. Le panneau reste maintenant à sa place, avec la mention « Passage dans une nouvelle fenêtre… », jusqu'à ce que la nouvelle fenêtre s'affiche. Sur la machine de test, cela prend 0,39 s la première fois. Ensuite, Lyra garde une fenêtre prête en arrière-plan et la suivante prend 0,06 s; cette fenêtre prête est une page masquée d'environ 80 Mo, qui n'existe qu'une fois la fonction utilisée et se ferme avec la fenêtre principale.\n• Sous Windows, le pointeur au-dessus des séparateurs se voyait à peine. C'était le ←‖→ dessiné par Chromium, presque invisible sur du gris. Les séparateurs et la poignée de la barre latérale utilisent maintenant les pointeurs ↔ et ↕ du système.\n• La barre de défilement du terminal était un bloc gris de 14 px. C'est désormais la même barre fine et arrondie que partout ailleurs.\n• Après avoir ouvert la Discussion latérale par son raccourci, on ne pouvait pas taper tout de suite: les touches n'allaient nulle part tant qu'on n'avait pas cliqué dans la zone de saisie. Celle-ci a maintenant le focus.\n• En faisant glisser une conversation vers le bord droit pour scinder la vue, la carte sous le pointeur sortait de la fenêtre. Près des bords, elle passe de l'autre côté du pointeur.",
-          "downloadURL": "https://github.com/kittors/Lyra/releases/download/v0.9.33/Lyra-0.9.33-ios-unsigned.ipa",
-          "size": 13072315,
+          "version": "0.9.34",
+          "date": "2026-11-10T08:12:21Z",
+          "localizedDescription": "Improvements \u0026 Fixes:\n\n• 0.9.33 did not open on Windows or Linux. The first launch showed no window, and launching again left the splash screen up for good. 0.9.33 added a menu item for Ctrl+W without a label; Electron refuses a menu like that, and the error stopped startup before the window was made. The item has a label now, and if Electron ever refuses the menu again, Lyra writes it to the log and goes on starting. macOS was not affected.\n\n• Grok's reasoning effort follows what xAI lists for each model. Until now every Grok got Off, Low, Medium and High.\n\n• Grok 4.20 (Reasoning) and Grok Build 0.1 (grok-code-fast-1) failed every turn with a 400. Neither accepts a reasoning effort, and Lyra sent one each time. They now have one level, Auto, and nothing is sent.\n• Grok 4.7 had no Extra high, and its default showed as Medium while xAI runs High when nothing is set. Grok 4.7 and 4.6 now have Low, Medium, High and Extra high, default High. Their reasoning cannot be turned off, so No thinking uses Low.\n• Off was sent as none, which only Grok 4.3 accepts. Grok 4.3 now goes from Off to Extra high, default Low. Grok 4.5 has Low, Medium and High, default High: xAI lists Extra high for it as well, but runs it as High.\n• On Grok 4.20 Multi-Agent the level sets how many agents run at once: 4 at Low and Medium, 16 at High and Extra high.\n• A level saved on another model moves to the nearest one instead of going back to the default. Max becomes Extra high on Grok 4.7 and High on Grok 4.5.\n\n• Five dependencies with security advisories are on fixed versions, DOMPurify and zod among them. Mermaid diagrams go through DOMPurify; the same seven test diagrams, one of them with onerror, javascript: and \u003cscript\u003e in its labels, draw the same before and after.\n\nAméliorations et corrections:\n\n• La 0.9.33 ne s'ouvrait pas sous Windows ni sous Linux. Au premier lancement, aucune fenêtre n'apparaissait; au suivant, l'écran de démarrage ne partait plus. La 0.9.33 avait ajouté au menu une entrée pour Ctrl+W sans lui donner de libellé. Electron refuse un tel menu, et l'erreur arrêtait le démarrage avant la création de la fenêtre. L'entrée a maintenant un libellé, et si Electron refuse encore le menu un jour, Lyra le note dans le journal et poursuit le démarrage. macOS n'était pas concerné.\n\n• Sur ces deux systèmes, la 0.9.33 ne peut pas se mettre à jour d'elle-même: le démarrage n'allait jamais jusqu'à la recherche de mises à jour. Téléchargez la 0.9.34 sur cette page ou sur le site, puis installez-la par-dessus l'ancienne version.\n\n• L'effort de raisonnement de Grok suit maintenant ce que xAI indique pour chaque modèle. Jusqu'ici, tous les Grok avaient Désactivé, Faible, Moyen et Élevé.\n\n• Grok 4.20 (Reasoning) et Grok Build 0.1 (grok-code-fast-1) échouaient à chaque tour avec une erreur 400: aucun des deux n'accepte d'effort de raisonnement, et Lyra en envoyait un à chaque fois. Ils n'ont plus qu'un niveau, Auto, et rien n'est envoyé.\n• Grok 4.7 n'avait pas de niveau Très élevé, et son niveau par défaut s'affichait comme Moyen, alors que xAI utilise Élevé quand rien n'est précisé. Grok 4.7 et 4.6 proposent maintenant Faible, Moyen, Élevé et Très élevé, Élevé par défaut. Leur raisonnement ne peut pas être coupé: Sans réflexion utilise Faible.\n• Désactivé était envoyé sous la forme none, que seul Grok 4.3 accepte. Grok 4.3 va maintenant de Désactivé à Très élevé, Faible par défaut. Grok 4.5 propose Faible, Moyen et Élevé, Élevé par défaut: xAI y mentionne aussi Très élevé, mais le traite comme Élevé.\n• Sur Grok 4.20 Multi-Agent, le niveau fixe le nombre d'agents qui travaillent en même temps: 4 en Faible et Moyen, 16 en Élevé et Très élevé.\n• Un niveau enregistré sur un autre modèle passe au niveau le plus proche au lieu de revenir à la valeur par défaut: Maximum devient Très élevé sur Grok 4.7 et Élevé sur Grok 4.5.\n\n• Cinq dépendances visées par des avis de sécurité passent à des versions corrigées, dont DOMPurify et zod. Les diagrammes Mermaid passent par DOMPurify; les sept mêmes diagrammes de test, dont un avec onerror, javascript: et \u003cscript\u003e dans ses libellés, s'affichent à l'identique avant et après.",
+          "downloadURL": "https://github.com/kittors/Lyra/releases/download/v0.9.34/Lyra-0.9.34-ios-unsigned.ipa",
+          "size": 13073635,
           "minOSVersion": "16.4"
         }
       ],
@@ -1372,11 +1372,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.3",
-          "date": "2026-10-30T03:23:31Z",
-          "localizedDescription": "SunPad 0.2.3 (build 17) fixes two confirmed import/build failures:\n\n• Incomplete disc extraction is rejected before installed data is replaced. Every extracted file must have the expected type and size; a partial file can no longer pass just because the file count looks correct. Existing game data and saves remain intact on this extraction failure.\n• iOS device builds use bundled xxHash consistently. A system/Homebrew copy previously caused provisioning to fail. The build also clears the stale xxHash cache when updating an existing checkout.\n\nRebuild with PadMint and install over the existing app using the same signing identity. Do not uninstall first if you want to retain local data.\n\nThe unsigned app asset contains no translated game module. PadMint adds a module built from your own supported disc. Do not redistribute the resulting personal app or game data.\n\nValidation: the production extractor wrapper was tested under ASan/UBSan with controlled synthetic DiscIO outputs (complete, truncated, missing and wrong-type). The upstream exporter’s failure behavior was verified in source; no physical storage failure was induced. Other checks include the complete source/dependency suite, iPhoneOS app build/package audit, warm-cache repair, and both PadMint/private gates on every public asset. Physical gameplay and provider-specific selection are not newly certified.",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.3/SunPad-v0.2.3-ios-unsigned.ipa",
-          "size": 12891500,
+          "version": "0.3.0",
+          "date": "2026-11-10T09:01:00Z",
+          "localizedDescription": "SunPad 0.3.0 (build 18) can be built for iPhone and iPad on a Windows PC (experimental). Players asked for this.\n\nMacs build SunPad exactly as in 0.2.3. The app itself is unchanged; only the build route is new.\n\nUpdating? Rebuild with PadMint and install over the existing app with the same signing identity. Don't uninstall first if you want to keep your saves.\n\nThe unsigned app asset contains no translated game module. PadMint adds a module built from your own supported disc. Don't redistribute the resulting personal app or game data.\n\nValidation.\n\n• PadMint 0.6.3 for Windows, with its bundled Python and a fresh PadMint folder, built the personal IPA on Windows 11 ARM64 from a clean checkout and the original disc (tools 26 min, build 2 h 23 min). The publication gate passed; the IPA kept 2,796 of the app's 2,797 entries unchanged and added only the game module.\n• That copy was installed on an iPad Pro 12.9-inch (6th generation) over 0.2.3. It loaded the Windows-built module, ran at 30 fps, played sound through the speaker, loaded a saved file into Delfino Plaza, saved, and loaded the save again after a cold relaunch.\n\n• Not yet tried: a disc build on a native x64 Windows PC, and a Linux-built copy on a device. Please report how it goes on x64, with the PadMint log.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.0/SunPad-v0.3.0-ios-unsigned.ipa",
+          "size": 12891490,
           "minOSVersion": "16.0"
         }
       ],
@@ -1972,20 +1972,23 @@
       "bundleIdentifier": "io.github.scripta",
       "developerName": "rizzonicola",
       "subtitle": "Open-source, local-first Markdown note-taking app for Android, iOS, macOS, Windows and Linux. Fast SQLite search, works offline, optional self-hosted sync",
-      "localizedDescription": "Scripta:\n\nMinimal. Fast. Markdown-First. The modern, distraction-free note-taking experience for all your devices.\n\n⚡ What is Scripta?:\n\nScripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built from the ground up to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern, fluid interface.\n\nWhether you're drafting quick thoughts on your phone or organizing complex projects on your desktop, Scripta stays out of your way and lets your ideas flow.\n\n✨ Key Features:\n\n• 📝 Markdown-First Editor: Write in clean, standard Markdown with intelligent toolbar helpers and an instant, fluid rendered reading view.\n• ⚡ Local-First \u0026 Zero Latency: Fast startup and instant local search powered by SQLite WAL. Your notes reside on your device, fully accessible offline.",
+      "localizedDescription": "Scripta is an open-source Markdown notebook built for people who want their writing to feel immediate and stay theirs. Notes open instantly, save locally, and remain fully available offline. There is no account, no feed, no telemetry — and synchronization is optional, self-hosted, and entirely under your control.\n\nWrite in clean Markdown on any screen, then switch to a beautifully typeset reading view when it is time to review, study, or simply enjoy what you wrote.\n\n✨ Why Scripta:\n\n• Your words, your device. Everything is stored locally in SQLite and works offline. No account is required, and there is no analytics, advertising or Google Play Services.\n• Markdown without the friction. A focused editor with a smart toolbar, formatting shortcuts and a rendered reading view that makes long notes a pleasure to revisit.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.scripta.png",
       "tintColor": "#28998e",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/rizzonicola/Scripta@main/assets/readme/screenshot-mobile.webp"
+        "https://cdn.jsdelivr.net/gh/rizzonicola/Scripta@main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "https://cdn.jsdelivr.net/gh/rizzonicola/Scripta@main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "https://cdn.jsdelivr.net/gh/rizzonicola/Scripta@main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "https://cdn.jsdelivr.net/gh/rizzonicola/Scripta@main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
       ],
       "versions": [
         {
-          "version": "1.1.3",
-          "date": "2026-11-05T17:13:27Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.3/Scripta-ios-unsigned.ipa",
-          "size": 12630170,
+          "version": "1.1.5",
+          "date": "2026-11-10T14:23:44Z",
+          "localizedDescription": "Version 1.1.5.\n\n• Refined the read-only view with formatted search, a section outline, reading stats, per-note scroll position, keyboard paging and system text scaling.\n• The floating outline now appears only on wide reading panes; both reading controls use a quieter semi-transparent surface.\n• Invalid LaTeX formulas now show a localized error with a copy button.\n• Completed English, Italian and French localization of the remaining desktop strings.",
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.5/Scripta-ios-unsigned.ipa",
+          "size": 12647922,
           "minOSVersion": "14.0"
         }
       ],
@@ -2953,17 +2956,18 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "0.3.7",
-          "date": "2026-09-20T16:10:16Z",
-          "localizedDescription": "New:\n\n• The Google Photos app now counts what this app backs up. (, thanks @saileshbro) Uploads showed as \"not backed up\" in the Google Photos app, and its own Free up space never offered them. It now recognises them, and its Free up space and Delete from device remove the photos from your iPhone. On one library of about 8,500 items, \"Not backed up\" went from 8,145 to 0 and Free up space from 2 items to 461.The reason was the version being uploaded. The Google Photos app only counts a photo it can match to the one on your iPhone, so an edited photo or video now backs up as it looks, not as its unedited original. A photo you edited in the Google Photos app also needs the version that edit was applied on, which is uploaded in an extra step.\n• Back Up Live Photo Motion. Off by default. With it on, a Live Photo's motion is attached to the still already in your account, so it plays as a Live Photo and Free up space will offer it. Live Photos backed up earlier get their motion added as a backlog — this can be tens of GB, which is why it is a setting you turn on.\n• Backup keeps going after you leave the app (iOS 26). While the app is open with work to do, iOS is asked to keep it running; progress then shows in a Live Activity, where you can also stop it. Up to 2 uploads run at once in the background. On earlier iOS versions nothing changes.\n\nFixed:\n\n• Google's rate limit no longer fails a row. When Google asked the app to slow down (HTTP 429), rows retried a second apart, met the same refusal, and failed. The whole queue now waits it out — a minute, doubling up to ten while Google keeps refusing — and carries on.\n• Photos deleted while still queued. Freeing space on your iPhone deletes photos that may still be waiting to upload. Those rows are dropped quietly instead of failing with \"no longer in your photo library\" — about 2,000 rows had failed that way on one library.\n• Hand-picked photos are re-checked even when the app already remembers them as backed up.\n\nVerifying this release:\n\n• Every pull request and every push now runs the test suite before it can land.\n\nWorth knowing:\n\n• An edited photo now backs up its edit, not its original. Originals already uploaded stay in your account, but a newly edited photo no longer uploads its unedited version. Google's own backup behaves the same way.\n• After updating, the app queues a one-time re-check of edited photos already backed up. Most settle without uploading anything.\n• A photo saved to your iPhone from Google Photos is never counted as backed up, even though it is in your library. Editing it in Apple Photos works around this.\n\nNotes:\n\n• 191 tests, 189 passing (2 opt-in live tests skipped).\n• Tested on an iPhone 16 Pro Max (iOS 26.6.1, Google Photos 7.92.0) across a full library, and on a SideStore-signed install where the background tasks now register and run.",
-          "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.7/PhotosBackup.ipa",
-          "size": 2716224,
+          "version": "0.3.8",
+          "date": "2026-11-10T17:28:17Z",
+          "localizedDescription": "New:\n\n• An edited video's original is backed up too, so the Google Photos app counts it, including Cinematic videos, which the camera saves as edited. (, thanks @saileshbro).\n• Back Up Live Photo Motion is now on by default. ().\n\nWorth knowing:\n\n• If your progress already reset on 0.3.7, the first launch may go over those photos once more. Most settle without uploading anything, and it shouldn't happen again.\n• Keep Running in Background uses more battery, and swiping the app away in the app switcher still stops it. Charging overnight is still the best time for a big backup.\n• The diagnostic report now has a Keep-alive line saying whether it was running.\n\nNotes:\n\n• 208 tests, 206 passing (2 opt-in live tests skipped).",
+          "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.8/PhotosBackup.ipa",
+          "size": 2816914,
           "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSLocationWhenInUseUsageDescription": "Only used if you choose Location for Keep Running in Background. The location itself is ignored; receiving it is what lets iOS keep the backup running while the app is closed.",
           "NSPhotoLibraryUsageDescription": "Photos Backup needs access to the albums and photos you choose so it can safely back them up to Google Photos."
         }
       }
@@ -4321,11 +4325,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.14",
-          "date": "2026-11-10T06:01:45Z",
-          "localizedDescription": "Offdesk Dev v0.25.14: every component at 0.25.14, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.14/offdesk-0.25.14.ipa",
-          "size": 9366553,
+          "version": "0.25.16",
+          "date": "2026-11-10T11:44:29Z",
+          "localizedDescription": "Offdesk Dev v0.25.16: every component at 0.25.16, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.16/offdesk-0.25.16.ipa",
+          "size": 9367067,
           "minOSVersion": "15.0"
         }
       ],
@@ -5126,7 +5130,7 @@
       "bundleIdentifier": "io.github.kyosee.venera",
       "developerName": "Kyosee",
       "subtitle": "An enhanced, cross platform comic reader based on Venera, featuring AI translation, HarmonyOS support, and more",
-      "localizedDescription": "VeneraX is a free, open-source comic reader for multiple platforms, maintained and enhanced from Venera.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nBefore downloading, installing, or using this software, please read and fully understand the User Agreement \u0026 Disclaimer. By downloading, installing, copying, modifying, or using this software, you are deemed to have read, understood, and accepted it in its entirety; if you do not agree, do not use the software and delete it immediately.\n\nDownload \u0026 Installation:\n\nChoose a package for your operating system and processor architecture, and read the installation notes for that release.",
+      "localizedDescription": "VeneraX is a free, open-source comic reader for multiple platforms, maintained and enhanced from Venera.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nRead the VeneraX User Agreement and Disclaimer before use for information about the Software’s features, third-party service risks and data processing. This Notice adds no license restrictions beyond the GNU GPLv3; any separate consent to data processing required by law must still be obtained.\n\nDownload \u0026 Installation:\n\nChoose a package for your operating system and processor architecture, and read the installation notes for that release.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.kyosee.venera.png",
       "tintColor": "#8567bb",
       "category": "entertainment",
@@ -5327,7 +5331,7 @@
       "name": "Reynard",
       "bundleIdentifier": "com.minh-ton.Reynard",
       "developerName": "minh-ton",
-      "subtitle": "An experimental Gecko-based web browser for iOS 13+",
+      "subtitle": "A Gecko-based web browser for iOS 13+. Currently in beta",
       "localizedDescription": "Reynard Browser:\n\nReynard is a Gecko-based web browser for iOS 13+.\n\nUnlike other browsers on iOS that are forced to use Apple's WebKit engine (including Safari and all third-party browsers), Reynard uses Gecko. This is the same engine that powers the Firefox browser on desktop and Android devices.\n\nBesides providing an alternative, up-to-date browser engine[^1], Reynard supports Firefox add-ons, including more capable ad-blocking extensions, along with privacy features such as Enhanced Tracking Protection and DNS over HTTPS.\n\niOS 14 (iPhone 6S Plus, 14.1):\n\nThese sites are known to break or render incorrectly on iOS 14. The screenshots below compare how they load in Safari versus Reynard.\n\niOS 26 (iPhone 13 mini, 26.1):\n\nReynard also works great on the latest version of iOS!",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.minh-ton.Reynard.png",
       "tintColor": "#fc6e5d",
@@ -5341,17 +5345,18 @@
       ],
       "versions": [
         {
-          "version": "0.20.1",
-          "date": "2026-11-05T23:17:58Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.20.1/Reynard.ipa",
-          "size": 111460493,
+          "version": "0.21.0",
+          "date": "2026-11-10T16:07:30Z",
+          "localizedDescription": "New Features:\n\n• Webpages can now ask you to confirm before leaving, so you don't lose unsaved changes.\n• You can now long-press or right-click entries in the Bookmarks and History pages to copy, open in a new tab, edit, or delete them.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.21.0/Reynard.ipa",
+          "size": 111496704,
           "minOSVersion": "13.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Bluetooth access lets websites in this browser connect to nearby Bluetooth devices.",
           "NSCameraUsageDescription": "Camera access lets websites in this browser scan QR codes, capture photos, and start video calls.",
           "NSLocationWhenInUseUsageDescription": "Location access lets websites in this browser provide location-based content such as maps, directions, and nearby places.",
           "NSMicrophoneUsageDescription": "Microphone access lets websites in this browser capture your voice for calls and audio recordings.",
@@ -6028,10 +6033,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-09T17:12:15Z",
+          "date": "2026-11-10T15:27:50Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484763,
+          "size": 7484764,
           "minOSVersion": "16.4"
         }
       ],
@@ -6238,10 +6243,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-09T22:35:42Z",
+          "date": "2026-11-10T14:32:38Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56183831,
+          "size": 56191377,
           "minOSVersion": "17.0"
         }
       ],
@@ -6710,7 +6715,7 @@
       "bundleIdentifier": "dev.naveed-gung.monolith",
       "developerName": "naveed-gung",
       "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
-      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nOn a computer? Monolith Desktop is the companion Rust + Slint project. Windows is verified; Linux builds and Debian packaging remain pending. The apps share a visual identity, with separate libraries and no automatic cross-device sync.\n\nv1.4.6 · Build 15: iOS lock-screen and Android media controls can skip between songs in the current listening order. The app stays in sync when a system control changes the song.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nOn a computer? Monolith Desktop is the companion Rust + Slint project. Windows is verified; Linux builds and Debian packaging remain pending. The apps share a visual identity, with separate libraries and no automatic cross-device sync.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Playback follows the displayed song order. Completed activity fades after five seconds.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
       "tintColor": "#e04454",
       "category": "games",
@@ -6723,11 +6728,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.6",
-          "date": "2026-09-29T20:08:16Z",
-          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.6.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.6.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
-          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.6/monolith.ipa",
-          "size": 11128634,
+          "version": "1.5.0",
+          "date": "2026-11-10T17:19:18Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.5.0.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.5.0.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.5.0/monolith.ipa",
+          "size": 11213645,
           "minOSVersion": "16.4"
         }
       ],
@@ -6735,7 +6740,7 @@
         "entitlements": [],
         "privacy": {
           "NSAppleMusicUsageDescription": "Monolith needs access to your media library to import songs from your device.",
-          "NSLocalNetworkUsageDescription": "Monolith uses local network access for audio session management."
+          "NSLocalNetworkUsageDescription": "Monolith uses local network access for audio session management and to send or receive songs with nearby Monolith devices you approve."
         }
       }
     },
@@ -6757,11 +6762,11 @@
       ],
       "versions": [
         {
-          "version": "1.55.0",
-          "date": "2026-11-09T19:37:16Z",
-          "localizedDescription": "Added:\n\n• Search in Feeds and Newsletters: the bar's search button finds posts (by title, summary, feed name or site) and emails (by subject, summary or sender), in everything or in the feed or address picked. Leaving the place empties it, and / opens it from the keyboard.\n• A View button in the library's top bar, as Discover has: it picks the library's layout (Shelf, One list or Grid) and turns Continue reading on or off, without going into Settings.\n• Reader: a link's sheet has Read it here, which opens the linked page in the reader without saving it, as a feed post opens. Back comes to the page you were on, saved or not.\n\nChanged:\n\n• A change in Aa (or a pinch) that applies only to the open clip, book or collection now says so once, so the next clip opening in the usual look doesn't read as a reset.\n• Narrate: Get more voices moved into More speech engines, which is now one page for every engine: the phone's own engines first, each with its Get more voices, then Kokoro and Piper. Narrate keeps one More speech engines button, shown on any Android phone with a speech engine.\n\nFixed:\n\n• A sheet opened with a tap (a link's, ⋯, Discover's) no longer draws a blue focus line under its first row; it shows only when you use a keyboard.\n• A collection exported as an EPUB now has the collection's cover as the book's cover: the picture you picked, else the one the library shows. Before, it took the first picture in the book, or a title card.\n• Narrate's More speech engines in the reader opens that page over the clip again (on a phone it opened behind it), and Back goes straight back to the clip's Narrate tab instead of closing the clip.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.55.0/Waypage.ipa",
-          "size": 10744441,
+          "version": "1.56.0",
+          "date": "2026-11-10T11:34:37Z",
+          "localizedDescription": "Added:\n\n• Draw on a PDF with a pen: the pen in the reader bar (or D) turns on Draw for a PDF shown as its pages, scanned or not. A pen, a highlighter in five colours and an eraser (the pen's own eraser end works too), five sizes (a small scale opens from the size button, and [ and ] change it), four pen styles (ballpoint, marker, fountain pen and brush, from the style button), Undo and Redo (Ctrl Z). The pen is wider as you press harder. On a touch screen only the pen draws (a pen's drag no longer scrolls the page, and its side button or eraser end erases: on Android the phone's own pen reading is used, since a web page can't see the button), so a hand resting on the page leaves nothing and a finger still scrolls and pinches; Finger lets a finger or mouse draw (not beside a pen, where a hand is resting), and a computer starts with it on. Drawings stay as you left them at any zoom, are kept on this device with the clip, and show in ⋯ › Drawings, which lists the pages and saves a copy of the PDF with them as ink annotations (the PDF itself is never changed).\n• ⋯ › Drawings has Try your pen: a pad that shows what the page and the phone each say of the pen's touch and buttons, and Start test, which asks for ten things in turn (a finger, the pen, its button, a resting hand) and records a log to save or copy and send.\n• On a Samsung tablet, the pen's side button held and dragged erases (One UI sends no touch for it, so it's read natively), and the pen's touch no longer pans the page just after it comes in range.\n• Highlights on a PDF read from where it is: select words on its printed pages and tap Highlight, as in any clip. They go with the clip's other highlights (its Highlights sheet, the Highlights place, Copy all and Save all highlights), take a colour and a note, and show in Show as text when its words are found there.\n\nRemoved:\n\n• The Highlights button in the reader for a comic or a scanned PDF, which have no words to highlight.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.56.0/Waypage.ipa",
+          "size": 10788503,
           "minOSVersion": "15.5"
         }
       ],
@@ -8462,11 +8467,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.10",
-          "date": "2026-11-09T07:10:24Z",
-          "localizedDescription": "• perf(ios): memory optimization long sessions and 4K HDR/DV playback @luqmanfadlli.\n• feat(player): add Anime4K 2x upscaler and line sharpener for ExoPlayer and mpv (#337) @chrisk325.\n• fix(ios): detach the mpv metal layer before destroying mpv (#336) @luqmanfadlli.\n• fix(player): start playback service as a normal service first (NUVIO-MOBILE-D9 NUVIO-MOBILE-9E NUVIO-MOBILE-9M NUVIO-MOBILE-PC) @tapframe.\n• fix(player): cap buffer start times at the min buffer (NUVIO-MOBILE-1VH) @tapframe.\n• fix(player): guard caption setting reads (NUVIO-MOBILE-25M) @tapframe.\n• fix(network): treat SSL setup errors as failed requests (NUVIO-MOBILE-254 NUVIO-MOBILE-3N) @tapframe.\n• fix(watched): copy unsynced keys before saving (NUVIO-MOBILE-260) @tapframe.\n• i18n: add French translation for ratings strings (#2562) @SK-Gits.\n• i18n(el): sync the Greek locale with 0.6.9 (playback audio, downmix, ratings) (#2561) @nosvasedis.\n\n• Update Japanese translation (#2559) @Joe00011.\n• i18n(vi): translate ratings strings into Vietnamese (#2550) @blueocean2308.\n• fix(player): reset addon subtitles only when the source changes @tapframe.\n• feat(autosync): shared engine, enable on iOS (#2535) @skoruppa.\n• fix(mdblist): remap anime episodes between addon and TMDB numbering (TV parity) (#2516) @kernexshadow.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.10-beta/nuvio-0.6.10-enhanced-release.ipa",
-          "size": 75374093,
+          "version": "0.6.11",
+          "date": "2026-11-10T08:54:47Z",
+          "localizedDescription": "• feature/subtitle shadow outline blur (#356) @3l-franco.\n• perf(ios): free more app memory before playback on iPhones @luqmanfadlli.\n• perf(ios): lighter mpv setup under the iPhone jetsam limit @luqmanfadlli.\n• fix(mdblist): reuse progress and watched lists until a remap changes them @tapframe.\n• fix(auth): stay signed in when session refresh fails @tapframe.\n• fix(player): center opening overlay backdrop on tall screens (#2585) @yvngjoon.\n• fix(player): show mpv error details on the error screen @tapframe.\n• fix(autosync): allow AutoSync without a preferred language, enable forced subs and AutoSync by default (#2578) @skoruppa.\n• feat(hero): smart horizontal framing for cropped backdrops (#2538) @skoruppa.\n• Add and update Bulgarian strings in strings.xml (#2576) @viiktr.\n• i18n: harmonize French wording with Nuvio TV (#2575) @SK-Gits.\n• fix(autosync): search further when a restored subtitle does not fit (#2537) @skoruppa.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.11-beta/nuvio-0.6.11-enhanced-release.ipa",
+          "size": 75396411,
           "minOSVersion": "16.1"
         }
       ],
@@ -9040,10 +9045,10 @@
       "versions": [
         {
           "version": "1.4.1",
-          "date": "2026-11-09T09:38:23Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 9d835d3. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-208/Ito-1.4.1-dev.208-unsigned.ipa",
-          "size": 13292993,
+          "date": "2026-11-10T17:01:03Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 426e233. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-218/Ito-1.4.1-dev.218-unsigned.ipa",
+          "size": 13715385,
           "minOSVersion": "15.4"
         }
       ],
@@ -10331,7 +10336,7 @@
       "bundleIdentifier": "com.InputStreamPlayer",
       "developerName": "jopsis",
       "subtitle": "A player for your own playlists of live TV, movies and series on iPhone,",
-      "localizedDescription": "InputStream Player:\n\nA player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac and Android/Google TV. In app launchers it appears as ISPlayer.\n\nisplayer.joplabs.app · Español.\n\nIt ships no playlists, credentials or third-party keys. It is meant for content you are entitled to access.\n\nThis repository is for distribution only: verifiable releases, documentation, sample playlists and issues.\n\nSideStore:\n\nOn the iPhone, tap the button; or in SideStore → Sources → +: https://jopsis.github.io/InputStreamPlayer/sidestore/apps.json.\n\nWith LiveContainer, turn on “Fix file picker” in the app's settings, or importing a playlist from a file will do nothing.\n\nWhat it does:\n\n• Live TV with a guide (XMLTV), remote-control zapping and catch-up.",
+      "localizedDescription": "InputStream Player:\n\nA player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac and Android/Google TV. In app launchers it appears as ISPlayer.\n\nisplayer.joplabs.app · Español.\n\nIt ships no playlists, credentials or third-party keys. It is meant for content you are entitled to access.\n\nThis repository is for distribution only: verifiable releases, documentation, sample playlists and issues.\n\nSideStore:\n\nOn the iPhone, tap the button; or in SideStore → Sources → +: https://jopsis.github.io/InputStreamPlayer/sidestore/apps.json.\n\nWith LiveContainer, turn on “Fix file picker” in the app's settings, or importing a playlist from a file will do nothing.\n\nApple TV (atvloadly):\n\nIn atvloadly, add this AltStore source and install InputStream Player from it (it re-signs the app with your Apple ID): https://isplayer.joplabs.app/sidestore/apps-tvos.json.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.InputStreamPlayer.png",
       "tintColor": "#098355",
       "category": "utilities",
@@ -11753,11 +11758,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.2.0",
-          "date": "2026-11-09T17:00:40Z",
-          "localizedDescription": "GitWriter 1.2.0:\n\n• New live preview editor.\n\nAdded:\n\n• Live preview editor: the editor is no longer split into blocks. The whole note is one text you can edit, select and move through freely, eg. like in Obsidian. The markdown is hidden and only shows on the part you are editing.\n• Automatic pairs: typing `, * or _ adds the closing character too.\n• Edit notebook screen: on mobile, editing a notebook now opens as a full screen instead of a dialog.\n\nFixes:\n\n• Inline math: LaTeX formulas now render inside a line of text, not only as separate blocks.\n• Window resize glitches: fixed white glitches when app window was resized or sidebar was toggled on desktop.",
-          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.2.0/GitWriter-1.2.0-ios.ipa",
-          "size": 34897023,
+          "version": "1.2.1",
+          "date": "2026-11-10T13:34:11Z",
+          "localizedDescription": "Added:\n\n• Image menu on mobile: long press an image to open context menu.\n• Remove image: new Remove item in the image menu.\n• Code block language: shown in the block's top right corner.\n\nFixes:\n\n• Code block backgrounds no longer overlap the lines around them.\n• Code blocks no longer change height when you click into them.\n• Text with dashes under it is no longer shown as a header (standard Markdown behavior but annoying).\n• List bullets are drawn by the app, so they look the same in every font.\n• Clicking outside the editor unfocuses it; on mobile, hiding the keyboard does too.",
+          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.2.1/GitWriter-1.2.1-ios.ipa",
+          "size": 34890238,
           "minOSVersion": "18.2"
         }
       ],
@@ -13128,11 +13133,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "6.4.4",
-          "date": "2026-11-09T16:53:18Z",
-          "localizedDescription": "[6.4.4] - 2026-11-09:\n\n• Promote the 6.4.4 beta work to the stable channel with coordinated desktop, Android, iOS and Android TV version metadata.\n• Add a redesigned manga reader with reusable reading presets, stable layout anchoring, continuous navigation, improved image loading and progress recovery.\n• Improve anime, manga and novel discovery with refreshed home shelves, calendar navigation, search suggestions, smart recommendations and better source/provider diagnostics.\n• Expand profile customization with themed profile worlds, responsive previews, saved-content organization, galleries, widgets and clearer badges and activity presentation.\n• Improve playback across desktop, mobile and TV with RTX video runtime packaging, external-player handling, video enhancement settings, resilient stream recovery and more reliable media controls.\n\n• Improve authentication, content-safety, email-proof and backend-origin flows while improving error reporting and privacy controls.\n• Temporarily disable CAPTCHA on all devices so sign-in and account recovery do not wait for verification.\n• Restore the Hoko streaming proxy on the new domain with working CORS and HLS playlist delivery.\n• Refresh responsive layouts, landing pages, branding assets, splash screens, accessibility behavior and mobile navigation, with additional regression coverage for the affected flows.\n\nDownloads:\n\nWindows: installer or portable EXE. macOS: choose the arm64 or x64 DMG/ZIP. Linux: AppImage or DEB. Android phone and Android TV have separate APKs. The iOS IPA requires sideload signing.\n\nProduction release.",
-          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.4/Tatakai-v6.4.4-ios-unsigned.ipa",
-          "size": 54768881,
+          "version": "6.4.5",
+          "date": "2026-11-10T09:02:03Z",
+          "localizedDescription": "[6.4.5] - 2026-11-10:\n\n• Restore extension catalogue and stack loading after server container changes.\n• Preserve rounded launcher icons on Windows, macOS and Linux, with separate ordinary and maskable web app icons.\n• Cache spotlight, trending and manga discovery feeds in Redis with retained results, shared refreshes and retry backoff.\n• Keep failed home refreshes from replacing usable spotlight and trending data with empty feeds.\n• Repair novel genre browsing, including Isekai, Historical and Martial Arts, while preserving filters and the adult opt-in.\n• Load genre covers from stable catalogue names and avoid an extra tag-list request for known novel genres.\n\nDownloads:\n\nWindows: installer or portable EXE. macOS: choose the arm64 or x64 DMG/ZIP. Linux: AppImage or DEB. Android phone and Android TV have separate APKs. The iOS IPA requires sideload signing.\n\nProduction release.",
+          "downloadURL": "https://github.com/Snozxyx/Tatakai/releases/download/v6.4.5/Tatakai-v6.4.5-ios-unsigned.ipa",
+          "size": 54958444,
           "minOSVersion": "15.0"
         }
       ],
@@ -13538,11 +13543,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.6",
-          "date": "2026-11-09T06:48:50Z",
-          "localizedDescription": "English:\n\n• Adds more native workbenches in Space, including schematic and PCB editing, LaTeX, biology and CAD engineering analysis, with improved editing, previews, saving and reopening.\n• PCB editing uses the canvas, design-rule checks and schematic/PCB synchronization. Updating a schematic from its PCB now includes a change preview and confirmation.\n• Adds LaTeX source folding and PDF full-text search. Refines the source, project-panel and preview layouts, and preserves reading and search state across full-screen changes.\n\n• Improves iPhone navigation and task-center layout, file previews and batch management, connection-tool history, and Bluetooth serial discovery and feedback.\n• Improves Linux package sources and dependency installation. Existing runtimes retain their original image selection when a new default image becomes available.\n\nThis build is for internal and public TestFlight testing. Focus on workbench entry points, touch and mouse editing, previews, saving and reopening, assistant actions, and previously reported UI issues. Some advanced PCB and simulation capabilities remain in development. Native USB serial drivers are not included. The existing App Store submission and release settings are unchanged.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.6/Floe-Agent-1.8.6-build326-unsigned.ipa",
-          "size": 879340265,
+          "version": "1.8.7",
+          "date": "2026-11-10T13:13:27Z",
+          "localizedDescription": "English:\n\n• Refines music, 2D design and media editor layouts, including grouped tools, transport controls, timeline dragging, full-screen editing and touch input.\n• Adds staff and numbered notation plus dual-deck DJ workflows. Perform each score part with synthesized instrument sounds and add the rendered audio to the arrangement timeline. Improves presets, beat analysis, Cue/Loop, mixing, recording and saving.\n• Expands image and video tools for selection, warping, retouching, composition, keyframes, color, compound clips and vocal separation, with improved original-file, undo, save and export workflows.\n• Supports 40 native chart types embedded between reply paragraphs, with value inspection, filtering, zoom, full-screen viewing and image/PDF export. Improves SVG and other inline previews.\n• Shows file changes directly: small edits are expanded, while larger edits show added/removed counts and an expandable, height-limited diff. Line counts and the expand action sit beside the filename. Improves file and Trash batch actions.\n\n• Adds LAN discovery presets, progress, cancellation and reusable results, with improved connection history, feedback and local Linux networking.\n• Fixes Image Playground output feedback and icons, adds an independent automatic-use setting, and improves model setup, importing, previews and interface details.\n\nPlease focus feedback on previously affected screens and actions, saving/reopening, assistant tools and connection workflows. Cloud services require your own configuration. Vocal separation supports an imported compatible local model or configured service. Image Playground depends on system, device and regional availability. Native USB serial drivers await additional authorization and are not included.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.7/Floe-Agent-1.8.7-build329-unsigned.ipa",
+          "size": 908120405,
           "minOSVersion": "26.0"
         }
       ],
@@ -13559,7 +13564,7 @@
           "NSHealthShareUsageDescription": "Floe reads the Health data you request after you authorize access.",
           "NSHealthUpdateUsageDescription": "Floe only reads the Health data you authorize; it does not save or modify Health data.",
           "NSHomeKitUsageDescription": "Floe accesses your Home only when you enable Home tools and request an automation action.",
-          "NSLocalNetworkUsageDescription": "Floe scans your local network only when you ask the agent to discover nearby services and devices.",
+          "NSLocalNetworkUsageDescription": "Floe discovers nearby devices only when you start a local-network check or ask the assistant to do so.",
           "NSLocationWhenInUseUsageDescription": "Floe uses your location for requested weather and nearby places. Wi-Fi diagnostics needs precise-location permission to show the connected network and access point. Running tasks may continue using approximate location in the background.",
           "NSMicrophoneUsageDescription": "Floe uses the microphone when you dictate, record music, or record a meeting.",
           "NSPhotoLibraryAddUsageDescription": "Floe saves generated or edited images only when you ask it to save them to Photos.",
@@ -13697,10 +13702,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-10T05:21:43Z",
-          "localizedDescription": "Immutable snapshot of alpha build 476 (58dd531).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 476, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-476/Non-Jailbroken.ipa",
-          "size": 105263082,
+          "date": "2026-11-10T07:32:33Z",
+          "localizedDescription": "Immutable snapshot of alpha build 478 (408d7a9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 478, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-478/Non-Jailbroken.ipa",
+          "size": 105263077,
           "minOSVersion": "17.0"
         }
       ],
@@ -13782,11 +13787,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.13",
-          "date": "2026-11-09T05:25:22Z",
-          "localizedDescription": "Release v6.3.13:\n\n• Update Japanese assets in the browser extension (6e0756429).\n• Use Manatan pitch accents by default (92dffafb8).\n• Record Cantonese parser rebuild checkpoint (43453812b).\n• Upgrade Japanese parser assets and retire superseded caches (09e9b112d).\n• Restore learning languages and expand Flashcards mining (20352d93a).\n• Schedule Flashcards reviews with RWKV (e09509f47).\n\n• Match extension dictionaries and flashcards to the app (a5eeb1ce1).\n• Keep subtitle outlines behind glyph fills (2138ddccc).\n• Harden native CI smoke inputs and scratch cleanup (8639c61ca).\n\n• Prepare Darwin headers and retain completed iOS native inputs (6c7da17ec).\n• Run Windows recovery through a pinned script (89248184f).\n• Verify Android Gradle tools before compilation (4709caf4d).\n• Resume interrupted Windows builds from verified run inputs (dd164eeb2).\n• Validate iOS JNI header inputs before archiving (ab20bd61d).\n• Verify the complete Android recovery helper allow-list (5039966cb).\n\n• Always capture full sentences when mining from the browser (7cf0968ec).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.13/Manatan-v6.3.13-iOS.ipa",
-          "size": 444743250,
+          "version": "6.3.14",
+          "date": "2026-11-10T10:32:09Z",
+          "localizedDescription": "Release v6.3.14:\n\n• Restore Android glide typing in the browser address bar (c2289bc).\n• Add automatic border cropping to the manga reader (e567389).\n• Fix due counts for imported Flashcards (6004662).\n• Enable Cantonese reader and subtitle analysis (1b3eda2).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.14/Manatan-v6.3.14-iOS.ipa",
+          "size": 444771325,
           "minOSVersion": "16.1"
         }
       ],
