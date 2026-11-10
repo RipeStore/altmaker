@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.wrngwrld.Chanyan",
-    "com.InputStreamPlayer",
-    "io.github.danielnoam.waypage"
+    "dev.audaro.runemobile",
+    "cc.zexa.dshtether",
+    "dev.offdesk.ios"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.185.0",
-          "date": "2026-11-08T17:09:18Z",
-          "localizedDescription": "Changes:\n\n• F1108: One complete CI catalog/layout workflow authorizes the exact-source IPA build. Local check reuse remains dependency-, runtime-, command- and date-bound; failed results cannot authorize publication.\n• F1264: Year/Life WATCH actions sit below bird names, recovering name width without smaller fonts or losing accessible membership controls.\n• F1266: Settings exports versioned JSON WATCH/Favorites backups and previews selective restoration. Merge is the default; Replace requires separate confirmation. Selected lists persist atomically with exact readback. Native sharing exports a JSON file; coordinate-only and other-region Favorites retain their metadata.\n• F1267: Diagnostic redaction covers encoded and bare-host location URLs while preserving useful sanitized counts.\n• F1268: Seen acquisition shows actual loading activity, stage and elapsed time without replacing the focused Skip control.\n• F1269: Pending initial work remains pending even when individual sources fail; mixed terminal outcomes are reported as Partial.\n• F1270: Finished checks and Ready data are counted separately. Continue with available data cancels only its setup owner; ordinary Close preserves bounded background acquisition.\n• F1271: Expanded Bird Gen source details use canonical support icons alongside source names, status and retry controls.\n• F1272: Regional WATCH relevance uses fresh, checked geographic evidence, not personal seen membership. Unknown targets remain visible; All preserves access to every saved target.\n\nValidation:\n\nFocused unit, DOM and browser controls passed; 29 requirement-removal mutations were detected. Complete local acceptance passed: all 1,599 DOM tests, the non-DOM catalog, parity, all six Chrome layout profiles and wiring. The authoritative exact-source CI catalog/layout also passed; the IPA build was authorized by that one successful main-push test run.\n\nBirdChaser-unsigned.ipa is an unsigned sideload artifact, not a TestFlight availability claim. TestFlight processing and tester access are separate milestones.\n\nSigned build 31.1 is verified against the same source and Apple reports IN_BETA_TESTING. Tester-group lookup returns HTTP 403, so owner-account installability remains unconfirmed. TestFlight dashboard.\n\nUnverified on device: save the JSON outside Bird Chaser and restore it in an isolated test profile, including coordinate-only and other-region Favorites. Native compilation or share completion alone cannot prove external durability.\n\nGallery follow-up: the independent post-release gallery failed on one legacy WATCH scope fixture. Both IPAs remain valid; F1273 records the required forward-patch fixture repair. No altered-source gallery or moved tag substitutes for the failed immutable run.\n\nThe historical native FOY page rejection remains unexplained; sanitized page-shape diagnostics were added without weakening validation. Broader F947/F1185 work remains open; F1247 stays paused and F1248 parked.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.185.0/BirdChaser-unsigned.ipa",
-          "size": 143440287,
+          "version": "1.186.0",
+          "date": "2026-11-09T22:47:04Z",
+          "localizedDescription": "Bird Chaser v1.186.0:\n\nAvailable in TestFlight as 1.186.0 (33.1), confirmed by the owner. Both downloaded IPAs are verified against exact release source de8cd8a3bad1eb978ac196e31f2d5fe3e8130ffb.\n\nSetup and loading:\n\n• F1276: recover the first successful same-window eBird sign-in when owned account identity arrives late, without requiring another Connect tap.\n• F1279: reuse verified fresh Busy Patches/Bird Gen source data during the automatic setup-to-Menu handoff. Deliberate manual full refresh still reacquires sources and remains owned when queued behind automatic work.\n• F1278: keep Continue and Back visible above scrolling wizard content, preserve wrapping for optional footer actions and retain keyboard-aware editing.\n• F1280: add searchable Favorite Patches multi-selection during setup, with owned drafts, verified saving, rollback and a non-destructive Skip.\n• F1287/F1288: use real source boxes in dependency-aware presentation order, name sightings \"Recent Bird Reports\", and omit prior work only after revalidating its evidence. Partial results, dependencies, retries and terminal states remain explicit.\n\nReadability and navigation:\n\n• F1275: use a two-row Year/Life WATCH layout: name above, scientific/canonical metadata and right-aligned WATCH below, with the image spanning both rows.\n• F1281: make four-character checklist bird codes independently keyboard-accessible Stakeout links using canonical species identity, including distinct species with matching displayed abbreviations.\n• F1284: move static Settings explanations into the standard organized Info dialog while retaining live statuses, accessible descriptions and essential warnings.\n• F1286: keep Favorite Patches Search and Close on the same action row without shrinking typography or tap targets.\n• F1289: re-resolve delayed or replaced regional ranking indexes instead of retaining an unrelated populated index.\n\nDiagnostics and release tooling:\n\n• F1282: close remaining diagnostic location-redaction gaps.\n• F1283/F1285: retain bounded source, task and attempt timings for dependency waiting, queueing, acquisition, retries, reuse and outcomes. Native lifecycle evidence remains distinct from heartbeat gaps; readiness time is not shortened by inferred suspension.\n• F1273: repair complete gallery preparation and wizard replays. Requested bundled photo bytes reach their exact Chrome execution context without relying on HTTP Image transport; local-origin, filename, extension, decode and pixel-readiness checks remain enforced.\n• F1108: preserve the complete local catalog and existing deadlines while driving two formerly 92-second retry fixtures with bounded virtual time. Real retry counts, lane cooldowns and later recovery are asserted and mutation-proven. This is measured fixture-case savings, not a device-speedup claim or full F1108 completion.\n\nVerification:\n\nAuthoritative GitHub validation passed the complete unit/DOM catalog and all six Chrome layout profiles. The final candidate's targeted local layout and two semantic mutations passed; another manual full run was intentionally omitted. The unchanged mandatory private hook and private closure remain separate.\n\nThe supplied screenshot establishes approximately 300 seconds of setup loading. Retained diagnostics are intended to identify future delays, not retroactively invent the original FOY/Mass failure causes or reconstruct the missing timeline.\n\nDevice verification and post-release reports:\n\nLater screenshots show Annual-first Loaded and Mass Partially loaded, followed by Mass Loading after reported Retry taps (F1303). The owner requests a visible 3–5-minute setup warning (F1300) and full-width Review setup button (F1301). These follow-ups are not implemented in this release.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.186.0/BirdChaser-unsigned.ipa",
+          "size": 143453550,
           "minOSVersion": "15.0"
         }
       ],
@@ -2136,11 +2136,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.1",
-          "date": "2026-11-09T05:46:40Z",
-          "localizedDescription": "New:\n\n• On Windows the game's program file now takes the icon made from your disc: it is put into the file as the game closes, after the title screen has made the icon, so it shows from the next start. A copy in a folder you cannot write to keeps the plain icon.\n• On Android the recent-apps card now shows the icon made from your disc, made at the first title screen; the home-screen icon stays the plain one.\n• Holding Left or Right on a slider row in Options now keeps changing it, and L1 and R1 change the Picture colour rows in steps of 10.\n• The New Game screen now shows which Mirror mode and New Game+ choices are set and starts the game from its own Start row; pressing Cross on a choice only picks it and moves down.\n• The menus' words have a solid dark-grey outline that fades out quickly, like the lettering at the foot of the title screen, instead of a soft grey halo.\n\nFixed:\n\n• On tablets and handhelds with the Adreno 740 chip running its own graphics driver, v0.11.0 drew a screen of noise and froze within seconds of the first scene. The game now draws the 3D scenery the old way on that chip and driver; a Turnip driver package keeps the faster way. When the graphics driver stops responding, the log now says which file the game is writing while it saves its report.\n• On phones the pre-computation of the 3D scenery no longer goes through the screen's drawing hardware and back, where the phone's graphics driver allows it; cutscenes and busy scenes on slower phones should run faster.\n• On Windows a sound device that took a long time to open (seen with a DualSense controller on USB) could stop the game from starting at all. The game now starts at once and the sound joins when the device is ready.\n• With Upscaling set to FSR 3.1, the distance fog could show thin vertical lines that stayed in place while the picture moved; the fog's fine pattern now changes with each frame's tiny picture shift so the upscaler smooths it out.\n• The short cut to black on the title screen while the game made its icon is gone; the title stays on screen. The icon itself is now the title's letter I instead of a plain cream square; it is made again after this update.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.1/ico-pc-v0.11.1-ios-unsigned.ipa",
-          "size": 8781097,
+          "version": "0.11.2",
+          "date": "2026-11-10T03:34:19Z",
+          "localizedDescription": "New:\n\n• A bug-report picture taken with Upscaling on now also saves the picture before the upscaler and the upscaler's own output, so a report can show where a flaw is born.\n• Translations: the rows added since the community translations came in are listed at the end of each translation's file, in English until translated.\n\nFixed:\n\n• With Upscaling set to FSR 3.1, the game's own text, save tiles, subtitles and fades are now drawn over the finished picture instead of through the upscaler, so they stay sharp; and an area change fades to black cleanly instead of smearing the picture.\n• With Upscaling set to FSR 3.1, the upscaler now works in full precision on every graphics card; on some cards its reduced-precision maths could leave thin vertical lines over distant scenery.\n• On phones and other devices with tile-based graphics chips (such as Macs), the game no longer spends time testing which scenery is hidden behind other scenery, a check that found almost nothing there.\n• On phones whose graphics driver does not let the drawing stage write the 3D scenery's pre-computation directly (such as the Mali-G52), the game now writes it with a compute step instead of through the screen's drawing hardware; busy scenes there should run faster.\n• With \"Shadows wait while Ico is down\" set to Off, the Shadows' swings now land while Ico is on the ground as well; before, they passed through him until he stood up.\n• On Android a start that had run low on memory while preparing the graphics programs no longer leaves the next start preparing them in the middle of play, where each batch could freeze the picture for a second.\n• On iPhone and iPad the game starts again; v0.11.1 stopped at once with \"Cannot allocate the game stack\".\n• On phones the game no longer spends time testing which scenery is hidden behind other scenery, a check that found almost nothing there; and a safety setting that a crash recovery turned on is switched off again after a few clean starts.\n\n• On Android the recent-apps card's icon no longer sits on a cream square that blended into the card; the letter alone is shown.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.2/ico-pc-v0.11.2-ios-unsigned.ipa",
+          "size": 8979540,
           "minOSVersion": "15.0"
         }
       ],
@@ -2608,11 +2608,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0.1",
-          "date": "2026-10-10T17:21:04Z",
-          "localizedDescription": "Skein 1.0.1 (build 202610100817) for iOS 26.0 and later, notarized for alternative distribution.\n\niPhone and iPad: install through AltStore PAL by adding this source: https://raw.githubusercontent.com/SwiftyLab/Skein/main/AltStore/source.json\n\nMac: download Skein-1.0.1-202610100817-macOS.zip below (signed with Developer ID and notarized by Apple), unzip it and move Skein to Applications. It is attached separately, shortly after this release appears.",
-          "downloadURL": "https://github.com/SwiftyLab/Skein/releases/download/v1.0.1-202610100817/b28cb7df-c8ee-3895-8c0f-7b681b84c364.ipa",
-          "size": 24856962
+          "version": "1.0.2",
+          "date": "2026-11-10T03:34:08Z",
+          "localizedDescription": "Skein 1.0.2 (build 202611091009) for iOS 26.0 and later, notarized for alternative distribution.\n\niPhone and iPad: install through AltStore PAL by adding this source: https://raw.githubusercontent.com/SwiftyLab/Skein/main/AltStore/source.json\n\nMac: download Skein-1.0.2-202611091009-macOS.zip below (signed with Developer ID and notarized by Apple), unzip it and move Skein to Applications. It is attached separately, shortly after this release appears.",
+          "downloadURL": "https://github.com/SwiftyLab/Skein/releases/download/v1.0.2-202611091009/a0d876af-d7c2-3cc3-a94f-5e191af573df.ipa",
+          "size": 25043542
         }
       ]
     },
@@ -3242,7 +3242,7 @@
       }
     },
     {
-      "name": "Comical (dev)",
+      "name": "Comical",
       "bundleIdentifier": "com.porksphere.comical",
       "developerName": "porksphere",
       "subtitle": "A cross-platform comic reader for iOS, Android, desktop, and the web",
@@ -3257,11 +3257,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.0.272",
-          "date": "2026-11-08T22:51:37Z",
-          "localizedDescription": "Development-client shell (Debug + expo-dev-client). Carries the same com.porksphere.comical bundle id as the release and PR builds, so it shares their data and REPLACES whatever Comical is installed.\n\nInstall via source (recommended): add this URL in SideStore/AltStore → Sources → +.\n\nThen run bun run dev:device on your PC and connect from the app's launcher. Rebuild (re-run this workflow) only when native code changes — a native module, a config plugin, an SDK bump. Pure JS/TS iterates over Metro with no rebuild at all.",
-          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/ios-devclient/comical-devclient.ipa",
-          "size": 48515275,
+          "version": "0.9.0",
+          "date": "2026-11-10T05:52:55Z",
+          "localizedDescription": "Versioned build with every platform's binaries.\n\nAndroid (APK):\n\nThe desktop installers aren't code-signed: Windows SmartScreen warns on first run (More info → Run anyway).\n\nAltStore users: keep your existing source — the public release channel tracks every tag and updates automatically:\n\n• iOS native shell: system tab bar, per-tab stacks and Photos-style bars on Expo SDK 58.\n• Page curl, spread padding, and book covers.\n• Draw series cards as books.\n• iOS-style chips, grouped reader settings, curl by default.",
+          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/v0.9.0/comical-unsigned.ipa",
+          "size": 28585490,
           "minOSVersion": "16.4"
         }
       ],
@@ -3865,11 +3865,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.11",
-          "date": "2026-10-26T19:43:17Z",
+          "version": "0.3.13",
+          "date": "2026-11-09T21:09:12Z",
           "localizedDescription": "Installed copies update to this version automatically the next time they open.",
-          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v0.3.11/RustRadar_0.3.11.ipa",
-          "size": 30888572,
+          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v0.3.13/RustRadar_0.3.13.ipa",
+          "size": 31260292,
           "minOSVersion": "15.0"
         }
       ],
@@ -4321,11 +4321,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.12",
-          "date": "2026-11-04T08:16:58Z",
-          "localizedDescription": "Offdesk Dev v0.25.12: every component at 0.25.12, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.12/offdesk-0.25.12.ipa",
-          "size": 9363926,
+          "version": "0.25.14",
+          "date": "2026-11-10T06:01:45Z",
+          "localizedDescription": "Offdesk Dev v0.25.14: every component at 0.25.14, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.14/offdesk-0.25.14.ipa",
+          "size": 9366553,
           "minOSVersion": "15.0"
         }
       ],
@@ -5126,7 +5126,7 @@
       "bundleIdentifier": "io.github.kyosee.venera",
       "developerName": "Kyosee",
       "subtitle": "An enhanced, cross platform comic reader based on Venera, featuring AI translation, HarmonyOS support, and more",
-      "localizedDescription": "VeneraX is a free and open-source, multi-platform comic reader forked from Venera and maintained with enhancements over the original.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nBefore downloading, installing, or using this software, please read and fully understand the User Agreement \u0026 Disclaimer. By downloading, installing, copying, modifying, or using this software, you are deemed to have read, understood, and accepted it in its entirety; if you do not agree, do not use the software and delete it immediately.\n\nNew Features \u0026 Improvements:\n\n• [x] Improved WebDAV backup \u0026 sync, with a per-item choice of settings to skip.\n• [x] Automatic update checks on Windows and Android APK.\n• [x] Seamless continuous-chapter reading.",
+      "localizedDescription": "VeneraX is a free, open-source comic reader for multiple platforms, maintained and enhanced from Venera.\n\nOriginal Project: This project is forked from venera-app/venera.\n\nBefore downloading, installing, or using this software, please read and fully understand the User Agreement \u0026 Disclaimer. By downloading, installing, copying, modifying, or using this software, you are deemed to have read, understood, and accepted it in its entirety; if you do not agree, do not use the software and delete it immediately.\n\nDownload \u0026 Installation:\n\nChoose a package for your operating system and processor architecture, and read the installation notes for that release.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.kyosee.venera.png",
       "tintColor": "#8567bb",
       "category": "entertainment",
@@ -5744,7 +5744,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js",
-      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n💡 Why Desktop GUI Deleted? Desktop GUI builds (.dmg, .exe, .msi) previously built with Tauri have been retired and consolidated into the standalone Mori CLI (@coflyn/mori).",
+      "localizedDescription": "Save and download videos, photos, and music from 16 platforms with a built-in offline \u0026 online utility tools suite. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Mori CLI (Terminal).\n\n• Built-in Tools Suite.\n• Supported Platforms \u0026 Scraper Engines.\n• For Developers \u0026 Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download \u0026 Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading \u0026 User Guide (GUIDE.md).\n\n💡 Why Desktop GUI Deleted? Desktop GUI builds (.dmg, .exe, .msi) previously built with Tauri have been retired and consolidated into the standalone Mori CLI (@coflyn/mori).",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6058e8",
       "category": "utilities",
@@ -6238,10 +6238,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-09T16:06:13Z",
+          "date": "2026-11-09T22:35:42Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56183874,
+          "size": 56183831,
           "minOSVersion": "17.0"
         }
       ],
@@ -8025,11 +8025,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.0",
-          "date": "2026-11-03T09:38:07Z",
+          "version": "0.12.2",
+          "date": "2026-11-09T23:58:48Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.0/rust-dicom-station-0.12.0-ios.ipa",
-          "size": 30107970,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.2/rust-dicom-station-0.12.2-ios.ipa",
+          "size": 30386137,
           "minOSVersion": "15.0"
         }
       ],
@@ -9063,11 +9063,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.10",
-          "date": "2026-11-08T08:36:48Z",
-          "localizedDescription": "• c1dfd989 fix(player): start playback service as a normal service first (NUVIO-MOBILE-D9 NUVIO-MOBILE-9E NUVIO-MOBILE-9M NUVIO-MOBILE-PC) @tapframe.\n• 6ad2d9ba fix(player): cap buffer start times at the min buffer (NUVIO-MOBILE-1VH) @tapframe.\n• 81dc761e fix(player): guard caption setting reads (NUVIO-MOBILE-25M) @tapframe.\n• d534d14e fix(network): treat SSL setup errors as failed requests (NUVIO-MOBILE-254 NUVIO-MOBILE-3N) @tapframe.\n• 8172e682 fix(watched): copy unsynced keys before saving (NUVIO-MOBILE-260) @tapframe.\n• 82ca7d11 fix(player): reset addon subtitles only when the source changes @tapframe.",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.10-beta/nuvio-0.6.10-full-release.ipa",
-          "size": 69752091,
+          "version": "0.6.11",
+          "date": "2026-11-10T01:28:12Z",
+          "localizedDescription": "• 9c2d0902 fix(mdblist): reuse progress and watched lists until a remap changes them @tapframe.\n• daa966d3 fix(auth): stay signed in when session refresh fails @tapframe.\n• f004557c fix(player): show mpv error details on the error screen @tapframe.",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.11-beta/nuvio-0.6.11-full-release.ipa",
+          "size": 69784598,
           "minOSVersion": "16.1"
         }
       ],
@@ -9788,7 +9788,7 @@
       "bundleIdentifier": "app.concat.editor",
       "developerName": "jub0t",
       "subtitle": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API \u0026 MCP",
-      "localizedDescription": "About:\n\nConcat is a free, open-source video editor for macOS, Windows, Linux and Android. It covers what most edits need: auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.\n\nEverything runs locally on a native Rust engine with a GPU compositor. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk.\n\nGood for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes.\n\nAlso for machines: a built-in MCP server for AI agents (concat --mcp, set up) and a JSON-RPC API for scripts, so they can cut video with it too.",
+      "localizedDescription": "About:\n\nConcat is a free, open-source video editor for macOS, Windows, Linux and Android. It covers what most edits need: auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.\n\nEverything runs on your machine. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk.\n\nGood for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes.\n\nAlso for machines: a built-in MCP server for AI agents (concat --mcp, set up) and a JSON-RPC API for scripts, so they can cut video with it too.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.concat.editor.png",
       "tintColor": "#0669fd",
       "category": "photo-video",
@@ -11289,11 +11289,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.0",
-          "date": "2026-11-08T03:13:17Z",
-          "localizedDescription": "Everything since v0.8.0. New in this release: the game has sound on both apps, the iPhone app eases off when the phone gets hot, and new iPhone installs start on lighter settings. Still on RuneLite 1.13.6 and the current game revision.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nAdded:\n\n• The game has sound. Music, sound effects and area sounds now play on both apps, and so do plugins that bring their own sounds. They mix with anything else you're playing, and they stop when you leave the app and come back when you return. Volumes are in the game's own settings, and Game settings \u003e Sound \u003e Game sound turns it all off. On iPhone the game also plays with the Ring/Silent switch on silent, so use Game sound to quiet it.\n• iPhone: the game eases off when the phone gets hot. It lowers the frame rate as the phone warms up, on every renderer, and goes back up once it has cooled. Low Power Mode holds it to 30 fps.\n• iPhone: Share logs shows heat, battery, frame timing and memory readings, a line a minute, to help with reports of a hot phone or of the app closing by itself. The memory readings survive the app being closed, so a report from the next launch still has them.\n\nChanged:\n\n• iPhone: new installs start on GPU instead of 117 HD. It runs much lighter on the phone, and 117 HD is still in the plugins panel. If you're already set up, nothing changes, and you can switch by hand.\n• iPhone: new installs start on lighter settings. The frame rate is capped at 30 fps, with a shorter draw distance, and 117 HD starts with simpler shadows and lighting at a lower resolution. You can raise any of it in Game settings or the plugins panel. If you're already set up, your settings stay as they are.\n\nFixed:\n\n• Android: 117 HD no longer stays blurry after the app is closed on a hot phone. The lowered resolution could stick and replace your own setting. A resolution scale you change while the phone is hot now sticks too. If yours is already stuck low, set it back once in the 117 HD settings.\n\nKnown issues:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• A hot phone runs lighter. Under thermal pressure the 117HD renderer steps its scene-resolution scale down and restores it on cooldown, and on iOS every renderer also lowers its frame rate as the phone warms and goes back up once it cools; Low Power Mode holds it to 30 fps (by design — keeps the phone usable).\n• iOS can close a long session for using too much memory. Seen twice on an iPhone 16 Pro on the GPU renderer, after about 50 minutes each time; the cause isn't known yet. Reopen the app and attach StikDebug as usual. A Share logs report made after it happens includes the memory readings that will help find it.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may break after any OSRS weekly update until a new build is published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.9.0/RuneMobile-0.9.0.ipa",
-          "size": 132302227,
+          "version": "0.10.0",
+          "date": "2026-11-10T06:29:28Z",
+          "localizedDescription": "Everything since v0.9.0. The big one: this is the last install a game update needs. From now on, when Old School RuneScape updates, the app downloads the new game files for itself.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nChanged:\n\n• 117 HD keeps the resolution you set when the phone gets hot. It used to drop to 65% by itself and hold there until the phone cooled, so a higher setting looked like it didn't save. Lowering it is now your choice: Game settings \u003e Lower resolution when hot. When the phone gets hot on 117 HD, a small notice offers to turn it on, at most once each time you open the app, and has a Don't show again button. It waits until you're out of combat, sits at the bottom of the screen without covering any button, and goes as soon as a fight starts or something opens under it. Only its two buttons take a tap.\n• iOS, Share logs: the memory section now also counts how many allocations the app holds, how much Java keeps in native buffers, and which memory pools are growing, so a report after the app is closed for memory says more about what filled it.\n\nFixed:\n\n• \"Can't reach the game servers\" no longer says the game has updated. That card shows when the game servers don't answer (an outage, or a network that blocks them), and it told you to install a new build, which does nothing for an outage. It now says to try again in a few minutes, and a real game update gets its own card.\n• iOS: dragging a finger scrolls the bank, skill guides and other lists. A drag inside a window that scrolls (the bank, a skill guide, the emotes or quest list, settings, the collection log) turned the camera instead, so only the scroll bar's arrows moved it. A drag that starts over the game world still turns the camera. Android already scrolled.\n\n• iOS, GPU renderer: taking a screenshot (the Screenshot plugin takes one on a level-up) failed with an error from the game's main loop, which could stop the game. Android had the same fix earlier.\n• A world hop after switching between Resizable - Modern and Resizable - Classic could press the logout tab of the layout no longer on screen, and give up after a few seconds. It now uses the same layout as the tab buttons.\n• With the data orbs turned off, the map button could do nothing instead of saying why, and the notice about them could stay quiet, when the game had loaded the orbs without the server showing them.\n\nKnown issues:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• A hot phone runs lighter. On iOS every renderer lowers its frame rate as the phone warms and goes back up once it cools; Low Power Mode holds it to 30 fps (by design — keeps the phone usable). The 117HD renderer steps its scene-resolution scale down under thermal pressure and restores it on cooldown only when Game settings \u003e Lower resolution when hot is on (both ports, off by default); on a hot phone with it off, a notice offers to turn it on, at most once a launch.\n• iOS can close a long session for using too much memory. Seen twice on an iPhone 16 Pro on the GPU renderer, after about 50 minutes each time; the cause isn't known yet. Reopen the app and attach StikDebug as usual. A Share logs report made after it happens includes the memory readings that will help find it.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may stop working after an OSRS game update until new game files or a new build are published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.10.0/RuneMobile-0.10.0.ipa",
+          "size": 132450849,
           "minOSVersion": "17.0"
         }
       ],
@@ -12083,11 +12083,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.27",
-          "date": "2026-11-09T17:21:52Z",
-          "localizedDescription": "English:\n\nHot-enabling the plugin in the dsh desktop app failed with service \"directoryPicker\" has been registered at \u003cNativeDirectoryPicker\u003e, so every enable or update needed a full application restart. The plugin's directory-picker patch both disabled the default auto chooser and inserted the in-app browse backend at once; a cold boot was fine — patches compose before anything activates — but the desktop plugin manager's hot enable does not restart the process, and the loader unloads the auto chooser's native backend and activates the newly inserted browse entry concurrently, so browse always registered the one-per-context directoryPicker service before native let go, failing that entry and marking the enable as failed. The host half is no longer inserted by the patch: the plugin's apply now registers BrowseDirectoryPicker from code, retrying every 100 ms on the \"has been registered\" error until the native backend finishes unloading, while a cold boot succeeds on the first attempt. The client half stays in the patch, since it registers no service. Enabling or updating the plugin in the plugin manager no longer needs an application restart, and the directory picker behaves exactly as before (the phone still browses in-app through the tunnel).",
-          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.27/dsh-tether-0.1.27-ios-unsigned.ipa",
-          "size": 7123391,
+          "version": "0.1.28",
+          "date": "2026-11-10T06:21:53Z",
+          "localizedDescription": "English:\n\nDialogs on the phone were all square-cornered blocks with text overlapping. Since 0.1.0 the injected narrow-screen styles forced every [role=dialog] full-screen with border-radius:0 — that rule only ever existed for the old dsh settings shell (800px wide with a fixed 188px left nav, unusable on a phone), but every dialog that came later inherited it: sign-in, the preview notice and confirmations are natively centred rounded cards (380px wide, 28px radius) and were all flattened into square full-screen blocks, and on the old shell the header was additionally pinned absolute to the top-right corner, covering the content text. The dialog rules now only match the settings shell itself (the modal whose nav contains a navList); every other dialog is left alone and keeps dsh's native rounded card, and the shell becomes dsh's own rounded card (--dsw-radius-panel, matching the desktop) with 12px margins. Since 0.2.2-rc.1 dsh ships its own ≤767px layout for the shell (title+close / tabs / content in three grid rows), which is already correct, its display is no longer touched — older shells are detected by the structural fact that their nav is the first child, reflowed to tabs-on-top with content below, and their header stays in flow instead of being pinned over the tabs. The native drawer in 0.2.2-rc is also a [role=dialog], but its nav has no navList, so these rules never touch it — previously the blanket \"every direct div is flex:1\" rule had distorted it. Measured at 412×915: the preview notice and sign-in dialog are back to native 28px rounded centred cards, the settings shell is a 388×891 rounded card with the title and close button on one row without overlap, horizontally scrollable tabs, and every settings page fits inside the viewport.\n\nConversation content could push the page wider than the phone: wide tables, long code blocks and large images from agent output. The conversation scroller ([data-conversation-scroll], an attribute dsh itself sets) now gets adaptive fallbacks: images/videos/canvases are capped to the viewport width, tables and code blocks are capped at 100% and scroll inside their own boxes, and unbreakable prose (paths, commands, hashes) wraps at word boundaries. Chrome icons and controls are untouched.\n\nOn a phone the dsh composer stopped rising when the keyboard opened, so the keyboard covered it. The app's Android manifest did not set windowSoftInputMode, leaving the system's default policy in charge, and since the dsh composer is a contenteditable inside an iframe the system's auto-pan logic cannot find it — the keyboard just covered it. The MainActivity now sets adjustResize explicitly: the WebView viewport shrinks while the keyboard is up, the dsh interface follows, and the composer stays above the keyboard.\n\nThe connection to the computer dropped after the app sat in the background for a while. Android freezes cached background processes (Doze), and the iroh connection has no chance without a foreground identity. Once a remote connection is established, going to the background now starts a keep-alive foreground service — a silent, low-importance ongoing notification naming the connected computer — so the system neither freezes the process nor cuts its network; it is removed again on returning to the foreground. If the connection still drops while backgrounded (the computer slept, the network switched, …), the app retries once on the spot, gives up if that fails too, and reconnects as usual when brought back to the foreground. Local mode keeps its own existing service, unaffected.\n\nAfter connecting to a remote computer, the ongoing \"DSH running on this phone\" notification made it look like the phone was still on the local instance. The local DSH does not stop when you connect elsewhere — that is deliberate (switching back needs no restart), but the interface never said so. The hosts page's local card now explains, while running, that it keeps running in the background after you connect to another computer, and the status page adds \"the DSH on this phone keeps running in the background — connecting to a computer does not stop it\" while connecting. Stop it anytime from the hosts page.\n\nOn Android the app crashed the moment it connected. iroh 1.0 pulls in reqwest 0.13 built with rustls-no-provider, and the app never installed a global rustls crypto provider: on the first automatic reconnect the endpoint setup builds its first plain reqwest client and panics (\"No rustls crypto provider is configured\"), aborting the process — reproduced on a real Android 16 device with the 0.1.27 APK. The app now installs the ring provider at startup (the same backend as iroh's default tls-ring, so nothing extra is linked); pairing, connecting and browsing through the proxy all verified on the device.\n\nOn Android the first run never asked for notification permission, and every notification was silently dropped. The app used JS Notification.requestPermission(), which in the Android WebView always reports \"granted\" while the real system permission was never given, so all notifications were discarded as if notifications were disabled — and the user had to go find the setting themselves. The app now requests through the plugin's native Kotlin path: on Android 13+ the first launch shows the system half-screen dialog (\"Allow DSH Tether to send notifications?\"); below 13 there is no such permission and it is always granted. Verified on a real device: after clearing app data, the first launch shows the dialog, and tapping \"Always allow\" grants POST_NOTIFICATIONS.\n\nConnecting to a computer now uses dsh's own loading interface instead of the app's home-made loading page. The app's connecting text used to read \"Opening the DeepSeek Harness on your computer…\"; it now reads \"正在连接至电脑\" (\"Connecting to the computer\"), and while the connection is being established the injected script rewrites dsh's own loading text \"正在加载工作区…\" / \"Loading workspaces…\" to the same. Once connected, the app posts dsh-tether:connected to the web UI and the script stops rewriting, so later loading text is dsh's original again. Desktop browsers and the dsh desktop app carry no app marker, so this never runs there.\n\nThe sidebar's \"Connect a phone\" button no longer opens the single-purpose pairing-string viewer on the computer; it now opens a full feature page with three sections: pair a new phone (pairing string with copy, a live validity countdown and a refresh button), paired devices (name, online status, two-step removal — as before), and a short how-to (install the app → paste the pairing string → use dsh remotely). It fills the screen when narrow and is a centred card when wide, in the same visual language as before. Inside the phone app the same button still opens the app's own machines page, unchanged.\n\nThe hosts page gains a battery-whitelist note (Android only). Some OEM systems kill background apps aggressively enough that even the keep-alive foreground service cannot help; the hosts page now says \"if the connection still drops in the background, set this app to Unrestricted under the system battery settings\", leaving that one tap to the user instead of popping an automatic exemption request.\n\nThe phone app gains an \"About \u0026 thanks\" page and an update check. The hosts page's \"Back\" button used to appear only while a session was live, so after a disconnect the hosts page had no way out except tapping a device to reconnect — it is now always present (leading back to the status page and its reconnect entry when nothing is live). The footer version and an \"About \u0026 thanks\" entry open a new page with a prominent GitHub button, an update check (compared against the latest GitHub release; when a newer version exists the button turns into \"Download\" and the version is shown), and the acknowledgements. External links always open in the system browser and never replace the app's own interface.\n\n\"My computers\" on the phone now lives inside the dsh interface instead of taking over the whole screen. Tapping the sidebar button used to hand the entire UI over to the app shell, which felt jarring; the injected script now switches a two-tab \"Chat / My computers\" strip inside dsh itself: the host list (connect / rename / two-step removal), the pairing form, the local-mode card, connection status and reconnect, and the about-and-thanks section, all rendered with dsh's own theme variables and following dsh's language and theme. Data and actions travel over a postMessage bridge to the app's Rust core (with a 15-second timeout), and connection/local-mode state events are relayed into the panel in real time. The top bar's \"Machines\" button routes by capability: the new plugin opens the panel, an older plugin still falls back to the app's own hosts page.\n\nThe keep-alive notification is now an Android 16 \"Live Update\" chip — Android's Dynamic Island. The silent ongoing notification shown while connected in the background now carries a system chronometer (ticking from the moment the connection started) and Android 16's ProgressStyle with indeterminate progress: on Android 16 it appears as a live chip in the status bar and renders on the lock screen and always-on display, and in the shade it expands into a ticking timer. Android 15 and below keep the plain ongoing notification, unaffected. Verified on a real device (Xiaomi 23113RKC6C, Android 16): dumpsys confirms ProgressStyle and showChronometer are attached.",
+          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.28/dsh-tether-0.1.28-ios-unsigned.ipa",
+          "size": 7126487,
           "minOSVersion": "14.0"
         }
       ],
@@ -12301,7 +12301,7 @@
       "bundleIdentifier": "com.arbelonson.ozen.Ozen",
       "developerName": "arbelonson-source",
       "subtitle": "Free, open-source live captions for people who are deaf or hard of hearing, on iPhone, iPad and Android. Runs on the phone, in Hebrew, English and 10 more languages",
-      "localizedDescription": "Ozen (the word means \"ear\") turns what the people around you say into large, steady captions on your phone, as they speak. It was built for one grandmother with hearing loss, who found every existing transcription app either unreliable with external microphones or too shallow to trust.\n\n• Captions that hold still. Words settle in place instead of jumping around, and a name shows who is talking.\n• Private by design. No account and no company server: nothing leaves the phone unless you choose to send it.\n• Alerts she won't miss. The doorbell, a smoke alarm or her own name makes the phone buzz, even in a pocket; alarms flash the whole screen.\n• Talk back. Type a reply and the phone says it out loud, or shows it in huge letters.",
+      "localizedDescription": "Ozen (the word means \"ear\") turns what the people around you say into large, steady captions on your phone, as they speak. It was built for one grandmother with hearing loss, who found the transcription apps she tried either unreliable with external microphones or too shallow to trust.\n\n• Captions that hold still. Words settle in place instead of jumping around, and a name shows who is talking.\n• Private by design. No account and no company server: nothing leaves the phone unless you choose to send it.\n• Alerts she won't miss. The doorbell, a smoke alarm or her own name makes the phone buzz, even in a pocket; alarms flash the whole screen.\n• Talk back. Type a reply and the phone says it out loud, or shows it in huge letters.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.arbelonson.ozen.Ozen.png",
       "tintColor": "#527d37",
       "category": "utilities",
@@ -13607,11 +13607,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.5.2",
-          "date": "2026-11-08T20:26:37Z",
-          "localizedDescription": "Minor bug fix.",
-          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.5.2-build-159/Wyrm-2.5.2-build-159.ipa",
-          "size": 88708404,
+          "version": "2.5.3",
+          "date": "2026-11-10T02:13:25Z",
+          "localizedDescription": "Performance fixes and fixed known bugs.",
+          "downloadURL": "https://github.com/disis-om/wyrm-ios/releases/download/v2.5.3-build-160/Wyrm-2.5.3-build-160.ipa",
+          "size": 61294513,
           "minOSVersion": "15.0"
         }
       ],
@@ -13697,10 +13697,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-09T03:53:46Z",
-          "localizedDescription": "Immutable snapshot of alpha build 470 (e9abb33).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 470, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-470/Non-Jailbroken.ipa",
-          "size": 104861596,
+          "date": "2026-11-10T05:21:43Z",
+          "localizedDescription": "Immutable snapshot of alpha build 476 (58dd531).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 476, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-476/Non-Jailbroken.ipa",
+          "size": 105263082,
           "minOSVersion": "17.0"
         }
       ],
