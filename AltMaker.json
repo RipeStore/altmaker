@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "org.floeagent.ios",
-    "de.wiredframe.comicreader"
+    "com.lumisound.ios",
+    "com.theboisclub.gen1recompplusplus",
+    "com.wrngwrld.Chanyan"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.187.2",
-          "date": "2026-11-11T05:13:25Z",
-          "localizedDescription": "Correct the strengthened outcome guard's prerequisite expectation. Both additional direct legacy consumers and the real failed-acquisition control pass; removing Retry remains assertion-killed. No production behavior changes.\n\nThe .ipa below is UNSIGNED and was built by CI from 47961b4, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.187.2/BirdChaser-unsigned.ipa",
-          "size": 143468823,
+          "version": "1.188.0",
+          "date": "2026-11-11T15:24:58Z",
+          "localizedDescription": "F1321 restores exactly two Recent Bird Gen controls beside the title: the soft-refresh icon and Full feed. Accessible busy state, retained cards and retired-owner protections remain.\n\nF1322 consolidates primary and weekly RBA hard refresh into their existing heading icons, removing duplicate Fetch latest buttons. Only the applicable RBA inputs are refreshed; navigation still reuses valid caches.\n\nF1323 shows compact actual-source ages such as updated 4min ago, without renewing timestamps on cached repaint.\n\nF1324 removes generic first-load caching explanations, preserving real HTTP 429 notices, progress and incomplete-source reporting.\n\nF1325 resets the visible wizard timer on reopening without restarting acquisition or resetting same-visit progress.\n\nF1326 restores one unified initial-check list with truthful source states and unchanged dependency scheduling.\n\nF1327 puts finished checks first and removes duplicate loading headings and aggregate prose.\n\nF1328 keeps elapsed time immediately after Ready on the same line with identical font and bold weight.\n\nF1329 combines duration and Close/Continue guidance into one italic footer sentence.\n\nValidation: focused actual consumers, real-Chrome geometry and behavior-removal mutations are recorded in the authoritative feature records. Publication requires the complete trusted catalog and all six layout profiles; private parity/contracts/wiring are independently gated through the durable runner. Artifact verification and TestFlight availability are separate milestones.\n\nNot claimed fixed: F1320's earlier native empty-Recent report or F1303's native Mass hang. F1294 remains deferred; unresolved owner-policy choices are not part of this release.\n\nThe first freeze was rejected by the complete layout gate, not shipped. The corrected audit follows the approved controls and source-first setup presentation, preserves all dependent hit-testing/geometry coverage, and covers the real ten-Ready long-timer state. Measured repairs keep the Recent icon glyph contained, retain 44px sole RBA targets and omit only the redundant Ready/time separator without shrinking text. Independent removal mutations reject all three geometry regressions and a second footer sentence. The corrected candidate must establish complete fresh public gates.\n\nInstallation: BirdChaser-unsigned.ipa is for sideloading with your own signing tool, not direct installation. Signed TestFlight delivery is independent; upload/Apple processing alone does not establish account availability.\n\nThe .ipa below is UNSIGNED and was built by CI from b6af9d5, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.188.0/BirdChaser-unsigned.ipa",
+          "size": 143468300,
           "minOSVersion": "15.0"
         }
       ],
@@ -1823,9 +1823,9 @@
         {
           "version": "3.4.6",
           "date": "2026-11-09T16:54:54Z",
-          "localizedDescription": "• Updated Tor to 0.4.9.16.\n• Updated Lyrebird to 0.10.0.\n• Updated Snowflake to 2.15.3.",
+          "localizedDescription": "• Updated Tor to 0.4.9.16.\n• Updated Lyrebird to 0.10.0.\n• Updated Snowflake to 2.15.3.\n• Minor layout improvements for iPhone Duo.",
           "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.6/OnionBrowser.ipa",
-          "size": 48260416,
+          "size": 48219749,
           "minOSVersion": "15.0"
         }
       ],
@@ -1893,11 +1893,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.7",
-          "date": "2026-11-09T15:28:36Z",
-          "localizedDescription": "iPhone and iPad 0.12.7: Find what you have not finished:\n\nLibrary home rows and poster walls can now distinguish titles you have not started from titles you started but have not finished. Opening View All keeps the row's watch condition and sorting instead of showing a different list.\n\nContinue from the titles that still have something left:\n\nChoose Unfinished while customizing a library home row to include movies you have not finished and series with available episodes left to watch. Unwatched remains a separate choice for titles you have never started. Cross-library poster walls also let you switch among All, Unwatched, Unfinished, and Watched; if a condition finds nothing, one tap clears it.\n\nFixed:\n\n• Switching the watch condition or sorting quickly no longer lets a slower response for the previous choice replace the current poster wall.\n\nThanks to @o1xhack. Full changes:.\n\n感谢 @o1xhack。完整改动：。.",
-          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.12.7/MovieClaw-iOS-unsigned.ipa",
-          "size": 30799535,
+          "version": "0.13.0",
+          "date": "2026-11-11T15:29:23Z",
+          "localizedDescription": "iPhone and iPad 0.13.0: Pick another episode without leaving playback:\n\nSeries now have an episode picker inside the player. You can see where you are, move to another available episode, or change seasons without returning to the detail page.\n\nKeep the picture in sight while choosing an episode:\n\nWhile a series is playing, tap Episodes or the Next episode capsule in the bottom controls. The picker opens beside or below the picture, centers the episode currently playing, shows watch progress, and leaves missing episodes visible but unavailable. Other episodes do not reveal their synopsis before you play them.\n\nFixed:\n\n• On the iPhone Duo vertical tab bar, long-pressing or double-tapping the avatar works reliably, the gesture tip stays beside the avatar, and action labels remain readable.\n• Item details stay within narrow regular-width windows instead of extending past the visible stage.\n\nFull changes:.",
+          "downloadURL": "https://github.com/movieclaw/MovieClaw/releases/download/ios-v0.13.0/MovieClaw-iOS-unsigned.ipa",
+          "size": 30933872,
           "minOSVersion": "26.0"
         }
       ],
@@ -2250,10 +2250,10 @@
       "versions": [
         {
           "version": "0.1.6",
-          "date": "2026-11-08T14:26:06Z",
-          "localizedDescription": "ios 0.1.6-nightly.20261108.42:\n\n• fix(mobile): switch sources after reopening the mini player (#364) (833d6f524).\n\nChanges since ios/v0.1.6-nightly.20261107.41.",
-          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261108.42/conduit-0.1.6-nightly.20261108.42-ios-unsigned.ipa",
-          "size": 46618182,
+          "date": "2026-11-11T15:26:17Z",
+          "localizedDescription": "ios 0.1.6-nightly.20261111.45:\n\n• build(deps): bump the production-dependencies group across 1 directory with 10 updates (#367) (6a3f81c83).\n• build(deps): bump napi (#369) (195651024).\n• build(deps-dev): bump the development-dependencies group with 7 updates (#366) (1b525feea).\n• build(deps): bump libmpv2 from 6.0.1 to 7.0.0 (#370) (2d3d9db81).\n• build(deps): bump actions/setup-java from 6.1.0 to 6.2.0 (#373) (5768d6da6).\n\nChanges since ios/v0.1.6-nightly.20261108.42.",
+          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261111.45/conduit-0.1.6-nightly.20261111.45-ios-unsigned.ipa",
+          "size": 46617826,
           "minOSVersion": "15.0"
         }
       ],
@@ -3610,11 +3610,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.1",
-          "date": "2026-11-09T20:26:15Z",
-          "localizedDescription": "🔖 A summary card on the Bookmarks tab:\n\n• The Bookmarks tab now starts with a card like the Saved tab's: how many threads you've bookmarked, from how many boards, which order they're sorted in, and the pictures of the newest ones.\n\nWhat's fixed:\n\n• Swiping back to the home screen follows your finger like everywhere else, instead of the home screen jumping into place when you let go; on Android it now slides back like the other pages instead of standing still.\n• On iPhone, scrolling through a thread with many videos no longer stutters each time a new video starts playing.\n• Videos in a thread start sooner as they scroll into view, and up to four play at once instead of three.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.12.1%2B300/Runner.ipa",
-          "size": 33419927,
+          "version": "0.13.0",
+          "date": "2026-11-11T21:02:53Z",
+          "localizedDescription": "☁️ iCloud sync:\n\n• In the Saved tab, a saved file that isn't in iCloud yet shows a cloud while it waits its turn, then a ring filling as it goes up.\n• In Settings, iCloud sync › Sync log shows what sync did lately, and shares it as a file, to find out why something hasn't reached another device.\n\nWhat's fixed:\n\n• With iCloud sync on, bookmarks, settings and history no longer wait to reach your other devices until the videos you just saved are in iCloud.\n• iCloud sync in Settings says how many saved files and changes are still going up to iCloud, and how far the saved file going up is, instead of showing them as synced, and tells you when iCloud didn't take a change.\n• With iCloud sync on, saved files and changes go up to iCloud and come in from it as soon as they can, instead of when iOS finds a good moment, which could take a minute for one video.\n• Sync now no longer locks the iCloud sync menu in Settings until everything has gone up.\n• Turning iCloud sync off and on again while it was sending no longer leaves it spinning in Settings.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.0%2B302/Runner.ipa",
+          "size": 34105935,
           "minOSVersion": "17.0"
         }
       ],
@@ -6033,7 +6033,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-10T15:27:50Z",
+          "date": "2026-11-11T14:57:52Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
           "size": 7484764,
@@ -6556,11 +6556,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.26",
-          "date": "2026-11-07T10:23:43Z",
-          "localizedDescription": "iGhostVT 1.6.26 moves to a newer Ghostty, scrolls with your finger on iPad, and asks before dropped text can run as commands.\n\n• On iPad, the terminal scrolled about one and a half times as far as your finger moved. It now moves with your finger.\n• With a trackpad or mouse on an iPad or Mac, the terminal scrolled about half as far as a list does. It now scrolls about the same distance.\n• Text with line breaks dropped on the terminal ran at once in a program without bracketed paste. iGhostVT now asks first, as it does for a paste.\n• In bash, a folder name with control characters could send escape sequences to the terminal, including one that changes the clipboard. They are now left out of the tab title.\n• The terminal could freeze when the theme changed, or crash while discarding old scrollback. Both are fixed in the newer Ghostty.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.26-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.26.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.26/GhostRemote-1.6.26.ipa",
-          "size": 7059695,
+          "version": "1.6.27",
+          "date": "2026-11-11T13:55:29Z",
+          "localizedDescription": "iGhostVT 1.6.27 replaces the Mac's new-tab menu with a popover you can search.\n\n• On a Mac with many paired devices, the new-tab menu grew taller than the window, and each device's terminals sat behind a submenu. New Tab now opens a popover: choose All Devices, This Mac, or a paired device with its count of open terminals on the left, and open a directory or a terminal on the right. With two paired devices or fewer, the popover is a single list.\n• The new-tab menu could not be searched. Type in the popover to filter directories and terminals on every device, move with the arrow keys, and press Return to open.\n• Two recent directories with the same folder name looked the same in the menu. On the Mac, each now shows its full path beside its name.\n• With the Mac's sidebar hidden, New Tab was only inside the ⋯ menu. A + button now sits in the top bar beside the sidebar button.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.27-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.27.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.27/GhostRemote-1.6.27.ipa",
+          "size": 7061822,
           "minOSVersion": "15.0"
         }
       ],
@@ -6766,7 +6766,7 @@
           "date": "2026-11-10T11:34:37Z",
           "localizedDescription": "Added:\n\n• Draw on a PDF with a pen: the pen in the reader bar (or D) turns on Draw for a PDF shown as its pages, scanned or not. A pen, a highlighter in five colours and an eraser (the pen's own eraser end works too), five sizes (a small scale opens from the size button, and [ and ] change it), four pen styles (ballpoint, marker, fountain pen and brush, from the style button), Undo and Redo (Ctrl Z). The pen is wider as you press harder. On a touch screen only the pen draws (a pen's drag no longer scrolls the page, and its side button or eraser end erases: on Android the phone's own pen reading is used, since a web page can't see the button), so a hand resting on the page leaves nothing and a finger still scrolls and pinches; Finger lets a finger or mouse draw (not beside a pen, where a hand is resting), and a computer starts with it on. Drawings stay as you left them at any zoom, are kept on this device with the clip, and show in ⋯ › Drawings, which lists the pages and saves a copy of the PDF with them as ink annotations (the PDF itself is never changed).\n• ⋯ › Drawings has Try your pen: a pad that shows what the page and the phone each say of the pen's touch and buttons, and Start test, which asks for ten things in turn (a finger, the pen, its button, a resting hand) and records a log to save or copy and send.\n• On a Samsung tablet, the pen's side button held and dragged erases (One UI sends no touch for it, so it's read natively), and the pen's touch no longer pans the page just after it comes in range.\n• Highlights on a PDF read from where it is: select words on its printed pages and tap Highlight, as in any clip. They go with the clip's other highlights (its Highlights sheet, the Highlights place, Copy all and Save all highlights), take a colour and a note, and show in Show as text when its words are found there.\n\nRemoved:\n\n• The Highlights button in the reader for a comic or a scanned PDF, which have no words to highlight.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.56.0/Waypage.ipa",
-          "size": 10788503,
+          "size": 10789926,
           "minOSVersion": "15.5"
         }
       ],
@@ -7225,11 +7225,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.5",
-          "date": "2026-11-06T15:04:58Z",
-          "localizedDescription": "Features:\n\n• Seamless EPG preview to fullscreen handoff (no stream restart) (#349) (f98057f).\n• Add Title (A-Z / Z-A) sort to VOD and Series grids (#256) (09d9121).\n• Add multiple playlist support (#350) (5f06b5c).\n• Add sports screen (87367fc).\n• Add sports homescreen row (when feature enabled) (3f2d374).\n• Allow nav and screen customization (506afd6).\n\nBug Fixes:\n\n• Surface request_* error envelopes sent with HTTP error statuses (#195) (7a6c474).\n• VOD detail calling info endpoint on each load (99d4586).\n• re-pin mpv-build to 16c95c3, Android remote OK fix, Skia without Vulkan 1.1, iOS host-clock video (#354) (723c4ae).\n\nPerformance:\n\n• move work off the UI isolate and bound catalog/EPG memory (#348) (e1ab007).\n\nRefactoring:\n\n• Extract NotificationCoordinator and PlayerSkipSegments (e5f2836).\n\nMaintenance:\n\n• Spotlight and EPG timeline nav and display updates (e0028ee).\n• Update store listing notes (a30a970).\n• Migrate to stand alone material_ui library (bac2510).\n• Move to shared UI components structure (5309ea5).\n• Implement teams screen (efc9476).\n• Update sports screen display (84ccaa9).\n• Add missing sports leagues (e2ad9e4).\n• Migrate Sports page tabbed view to date picker (6f729d9).\n• Add sports detail view and optimize mobile view (2998e7c).\n• bump the flutter-production group (#353) (1edea14).\n• Default to all by default for Sports screen (01c92b2).\n• Update sports matchup cards to show league logo when available (0a966ef).\n• Make long channel titles and team names draggable on mobile (1be1a63).\n• More tweaks to the sports screen (b21d2fb).\n\nOther Changes:\n\n• Update README.md (88949b4).",
-          "downloadURL": "https://github.com/m3ue/m3u-tv/releases/download/v1.2.5/m3u-tv-v1.2.5-ios.ipa",
-          "size": 29443141,
+          "version": "1.3.0",
+          "date": "2026-11-11T17:12:44Z",
+          "localizedDescription": "Features:\n\n• Add smaller display size options (edf3420).\n• Add Simkl watch history integration (#181) (2a954db).\n\n• Android VOD player setting and automatic mpv fallback (78cebb9).\n• Pin the sidebar logo and footer so only the middle scrolls (99bc4f4).\n• Handle remote Play, Pause and Stop in the player (569ffd5).\n• Make Home rows follow the Movies, Series and Live TV sort (ac55d9d).\n• Default Filter Persistence on and Home to Spotlight (e534294).\n• Handle remote Next and Previous in the player (6b24b05).\n• Load the full DVR library with status filters and sort (#133) (e3fbe97).\n• Request from a specific Arr integration (#137) (1b07961).\n• Save every playlist granted in a device pairing (3c53180).\n• Audio and subtitle sync controls (04f4f6a).\n• work alongside M3U Editor's Trakt and SIMKL accounts (2be93ad).\n• apply M3U TV Profiles from M3U Editor (b63f6ce).\n• apply M3U TV Home Screens from M3U Editor (2e65b95).\n• lock screen Now Playing controls and opt-in background audio (e00299a).\n• background audio with media notification controls (e83c4a5).\n• resume live at the live edge and tidy background controls (1bfdbbd).\n• show channel logos whole in the media notification (cba79da).\n• picture-in-picture for the mpv player (94efeb5).\n• default Background audio on, matching Android (34b6d1f).\n• CarPlay Favorites and Live TV screens (b28f698).\n• CarPlay plays audio with no phone screen (d0f0b45).\n• Android Auto Favorites and Live TV, linked with the phone's player (7684124).\n\nBug Fixes:\n\n• Auto scroll to top of screen using dpad nav (86b9eca).\n• Linux overlay auto-hide + black pillarbox (44eac3f).\n• Continue Watching up next, skip, and series episode resume (77fde26).\n• Keep the Linux video plane presenting on KWin (#345) (8aa2e63).\n• smooth background playback and readable Now Playing artwork (dea2901).\n• keep the media session across channel changes (461e792).\n• keep a player created in the background audio-only (a4dbc2d).\n\n• Make CarPlay reliable on a real iPhone (c1d3f7e).\n\nMaintenance:\n\n• Auto-scroll to top of game detail using dpad nav (5383c10).\n• Build updated TV matchup detail screen (292f7d0).\n• Fix failing test case (e2b74c0).\n• Add playback overlay toggle to debug settings (3719283).\n• Bundle MSVC C++ runtime for Windows build (ef593a5).\n• Ensure Windows build packages vulkan dll (1120fe7).\n• Hide player overlay when audio/subtitle sync controls visible (d8dfc8c).\n• Add support for still image fallback when backdrop missing (9200820).\n\n• Remove settings page inner-padding (0c41629).\n• Wording updates for server side configs (cd14873).",
+          "downloadURL": "https://github.com/m3ue/m3u-tv/releases/download/v1.3.0/m3u-tv-v1.3.0-ios.ipa",
+          "size": 29884713,
           "minOSVersion": "15.0"
         }
       ],
@@ -7695,11 +7695,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-11-10T19:34:05Z",
-          "localizedDescription": "Fixed:\n\n• A jam's guest profile goes when another profile opens.\n• Every client shows the device playing once its own music stops.\n• A jam guest left saved goes when the app next opens.\n• A plugin that can't start says why, not an empty form (fixes #143).",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.1/nori-ipod-0.8.1.ipa",
-          "size": 6927335,
+          "version": "0.8.2",
+          "date": "2026-11-11T20:17:30Z",
+          "localizedDescription": "Added:\n\n• A song's details can be selected and copied on the desktop.\n• The queue fades out at its top as well as at its bottom.\n• Profiles keep their order and move by drag in settings.\n• The queue can be cleared and undone on every client (fixes #146).\n• Paired devices are listed and forgotten one by one; devices paired before need pairing again once (#147).\n• Compressor and autofill pick Off or a kind, no separate switch.\n\nFixed:\n\n• The desktop profiles menu switches to the profile picked.\n• The desktop lyrics blur no longer covers a dialog or menu over it.\n• The lyrics blur stays off under a menu on Linux too.\n• A song menu's seal stamps and stays open instead of closing it.\n• The desktop search preview shows results as they arrive.\n• Lyrics the singing can't place read as unsure, not on time.\n• Home shows one shelf of each title and each item in it once.\n• The full player's cover fades into its page with no line where it ends.\n• A cover's blurred page no longer breaks into bands and speckles.\n• Lyrics show and move the same on every device in cross-device play.\n• Rap over a melodic beat has its lyrics timed by the voice's loudness.\n• Lyrics on time beat lyrics the timing check has to move.\n• The phone's volume keys move the other device's volume again.\n\nPerformance:\n\n• A search typed over stops, so the next one isn't queued behind it.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.2/nori-ipod-0.8.2.ipa",
+          "size": 6995912,
           "minOSVersion": "12.2"
         }
       ],
@@ -8413,7 +8413,7 @@
         {
           "version": "2.3",
           "date": "2026-11-10T20:28:12Z",
-          "localizedDescription": "❄️ Interactive Winter Theme:\n\n• Snow now settles dynamically on cards and category tabs.\n• Shake it loose: Simply swipe across the category bar or long-press any card to shake the snow off.\n\n🎵 Background Music (BGM):\n\n• Browse your favorite apps with ambient audio.\n• Includes the built-in original track: ryP0 Drift.\n• Supports importing and playing your own local .mp3 files.\n\n🌸 Sakura Accent:\n\n• Added a new soft-pink accent palette to refresh your interface aesthetics.\n\n📚 Multi-Source Unified Catalog:\n\n• Combine multiple repositories into a single unified view. Choose exactly which sources to browse together.\n\n⚡ Prefer TIPA:\n\n• Set TIPA as your default package format preference whenever both standard IPA and TIPA builds are available.\n\nIf you experience any issues with the winter animations or audio playback, please open an issue.",
+          "localizedDescription": "❄️ Interactive Winter Theme:\n\n• Snow now settles dynamically on cards and category tabs.\n• Shake it loose: Simply swipe across the category bar or long-press any card to shake the snow off.\n\n🎵 Background Music:\n\n• Supports importing and playing your own local .mp3 files.\n\n🌸 Sakura Accent:\n\n• Added a new soft-pink accent palette to refresh your interface aesthetics.\n\n📚 Multi-Source Unified Catalog:\n\n• Combine multiple repositories into a single unified view. Choose exactly which sources to browse together.\n\n⚡ Prefer TIPA:\n\n• Set TIPA as your default package format preference whenever both standard IPA and TIPA builds are available.\n\nIf you experience any issues with the winter animations or audio playback, please open an issue.",
           "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
           "size": 16533197,
           "minOSVersion": "17.0"
@@ -9044,11 +9044,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.1",
-          "date": "2026-11-11T11:56:08Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 3842d92. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-222/Ito-1.4.1-dev.222-unsigned.ipa",
-          "size": 13851868,
+          "version": "1.5.0",
+          "date": "2026-11-11T17:19:50Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 5200515. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-231/Ito-1.5.0-dev.231-unsigned.ipa",
+          "size": 13866488,
           "minOSVersion": "15.4"
         }
       ],
@@ -9802,11 +9802,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.9",
-          "date": "2026-11-05T09:31:54Z",
-          "localizedDescription": "Highlights:\n\n• ✨ Transitions are clips. A transition sits on the timeline and is placed, moved and trimmed like any other clip, over a cut or on a single shot. Its own knobs (Push's direction, a wipe's softness, a whip's speed) are set on it (#621).\n• ✨ Transparent projects. A clear background with a checker under the preview, or a background colour of your choice, and export with alpha as ProRes 4444 or VP9 (#456).\n• ✨ Chroma key that finds the screen itself, an eyedropper, Remove Black, and batch edits in the inspector (#543, #470).\n• 🗣️ Your own voice. Import a recording on the Voices shelf and keep it as a voice with a name, picture and description (#518).\n• ✨ Speed curves on the Speed tab: drawn, from a preset, smooth or straight (#322).\n• 📝 Styled words in a title. Give some of a title's words their own colour, bold, italic, underline, strikethrough or size, plus text case and typography controls (#529, #450).\n• ✨ Captions in the language spoken. Pick it, and whisper listens only to the speech. Each caption starts when its words do (#231, #619, #438).\n• ✨ Effects and sounds as layers. Drag a picture effect or a sound effect onto the timeline and it covers everything under it.\n• ✂️ Fade knobs on a sound's corners: drag along the clip to fade it in or out.\n\nExport:\n\n• 📤 About 2.4x faster at 4K: frames are drawn two ahead and handed to the encoder as YUV, and the encoder runs on its own thread.\n• 📤 H.264 and HEVC use the platform's own encoders, GPU first. HEVC falls back to Kvazaar on the CPU, and H.264 to OpenH264 where Windows has no encoder.\n• 📤 AAC uses Apple's encoder on a Mac and iPhone, Microsoft's on Windows, and Android's on a phone. A mix ends on its last sample.\n• 📤 A Mac's hardware export follows the quality you ask for, not VideoToolbox's own bitrate.\n• 📤 The last frame is drawn, with no black frame after it, and a clip after two transitions in a row no longer vanishes.\n• 📤 Running out of video memory is an error the export recovers from, not a hang.\n\nFaster:\n\n• ⚡ Scrubbing shows the nearest picture at once and the exact frame when you stop (#472).\n• ⚡ An idle app trims its frame caches and gives the memory back.\n• ⚡ Imported cards show their pictures at once, and phone filmstrips come from keyframes.\n• 🗣️ Enhance runs on the GPU in Concat's own compute shaders: 4.2 s per 1080p frame, where ONNX Runtime took 27. It works only on the span a clip shows and reuses repeated frames.\n\nEditing:\n\n• ✂️ Up and Down jump to the previous and next cut. New projects offer 4:5 and 3:4.\n• ✂️ A quick split follows the playhead (#538). Keyframe diamonds are larger and open the Keyframes pane (#490).\n• ✂️ Linkage: captions, titles, overlays and sounds move with the main track.\n• ✂️ The tab strip scrolls instead of running off the pane (#567).\n• 🐛 Copy, paste and duplicate carry every clip setting, and a paste into another project plays the right file.\n• 🐛 ⌘Q saves the project (#437). File › Open and recent projects close the open one first, saved.\n• 🐛 A missing file is noticed when the window comes back, and the relink dialog opens on it (#409).\n\nMedia:\n\n• 📁 Screen recordings and variable-frame-rate clips play every frame at its moment (#457).\n• 📁 MKV, WebM, FLV, WMV, MTS/M2TS, .ts, .mpg, HDV and DV footage shows the right picture at the right width, wherever you seek (#457).\n• 📁 Sound stays in sync in files whose streams start at different times (#457), and a trimmed clip's sound starts at its cut (#535).\n• 📁 SVG imports as a still, WebM alpha is kept (#429), and Save Audio As writes a WAV Concat can open again (#544).\n\nWindows:\n\n• 🐛 Direct3D 12 compiles shaders with FXC, never a stray dxcompiler.dll on PATH (#418), and every effect's shader builds there (#548).\n• 🐛 On a software adapter the window draws on the CPU and the monitor on a device of its own (#503, #480).\n• ✨ A Concat (safe graphics) Start menu entry (concat --software) for anyone whose window is drawn as coloured squares (#389, #242, #449).\n• 🐛 A project named NUL or CON gets a folder Windows can write, and a path spelled another way isn't imported twice (#440).\n\nMac:\n\n• 🐛 A Mac whose Metal compiler fails at startup still gets a window (#600, #423).\n• 🐛 Concat starts on macOS 12 again: it no longer links libavdevice (#342).\n\nPhones:\n\n• 📱 An export whose hardware encoder stops taking frames finishes on Android's software encoder (#491).\n• 📱 A launch that dies at startup sends the next one to OpenGL ES, which keeps the monitor and exports (#507).\n• 📱 Linked for 16 KB pages. Back closes the sheet on top, then leaves the editor, and the project is saved when Android closes the app.\n• 📱 On the timeline, hold to move a clip, tap to select, swipe to scroll. Pick several files in order and add them with one tap.\n\nLanguages:\n\n• 🌍 Azerbaijani is new, and Simplified Chinese (#576), Urdu (#562) and Spanish have no English strings left.\n\nAutomation:\n\n• 🤖 Quitting during an export cancels it, tells the caller, and leaves no temp file (#431).\n• 🤖 A line that isn't UTF-8 gets a parse error instead of ending the session (#337), and MCP results carry caching hints (#463).\n\nBefore you install:\n\n• Projects: 0.2.8 projects open in 0.2.9. Once 0.2.9 saves one, 0.2.8 refuses to open it (\"saved by a newer Concat\") instead of silently dropping what it can't read.\n\nDownload:\n\nA self-contained build for every platform Concat ships on.\n\nSHA256SUMS lists each file's checksum.",
-          "downloadURL": "https://github.com/jub0t/Concat/releases/download/v0.2.9/Concat-0.2.9-ios-arm64.ipa",
-          "size": 72629959,
+          "version": "0.2.10",
+          "date": "2026-11-11T14:05:41Z",
+          "localizedDescription": "Fixed:\n\n• Captions on Windows. Generating captions no longer closes the app as it starts (#667, #668, #673).\n• Black preview with Chroma Key. On some Windows PCs the Chroma Key effect could leave every preview black and exports failing. That cause is fixed (#673). A black preview that has nothing to do with Chroma Key is still open; if you see one on 0.2.10, please add your log to #709.\n• When the graphics driver drops out mid-session, Concat notices straight away and tries again every two seconds, not on every frame (#673).\n• Titles, captions and shapes play their In, Out and Loop animations, and an animation picked in the Animate panel sticks (#369).\n• A speed curve plays smoothly, without a stutter every tenth of a second.\n• The Library's sidebar scrolls, so Audio Effects can be reached under Video Effects.\n• The New Project sheet scrolls in a short window and its shapes wrap in a narrow one (#688, #689, #693).\n• The missing media dialog fits its files, closes from its ×, and each missing file has a Remove.\n• The inspector keeps Voice only and No voice (#120).\n\nNew:\n\n• In, Out and Loop animations for clips, pictures, titles and shapes, picked from a wall of cards that play their moves (#369).\n• Voice isolation. Keep a clip's voice alone or take it out, from a song's music or a recording's noise, each part at its own level (#120).\n• Shake \u0026 Motion. Shake, Impact, Beat Shake and Prism Shake on a shelf of their own.\n• A stack of masks per clip, each with its own mode and keyframes (#489).\n• Shapes you can edit: size, corners, polygons, stars, gradients, outlines, line ends, trim and shadow (#288).\n• Fades follow a curve you can hear and see, with a red zone on the fader and every waveform.\n• The speed curve graph is taller, sits on a labelled grid, and lets you pick several points at once.\n• Caption language presets for Chinese, Korean, Arabic, Persian, Urdu, Hindi, Bengali, Thai, Vietnamese, Russian, Ukrainian and Greek (#675).\n• Generate Captions lives in the Library, under Text \u0026 Captions.\n• Your computer stays awake, and your phone's screen stays on, while a job runs (#695).\n• Enhance takes any scale up to 2K, shows a progress bar, and says what it will make before it starts.\n• A setting that only takes effect at launch offers a restart, which saves and reopens your project.\n• The panels and the window open where you left them.\n\nFaster:\n\n• Titles and captions no longer freeze the window: they are painted in the background, about 45 times faster than before (#261).\n• Effects are ready when the window opens, so the first time you use one it does not stall.\n• Exports read each clip ahead of its cut.\n• Filmstrips of long footage appear sooner.\n\nInterface:\n\n• A new Welcome screen, with a What's new card.\n• The Audio tab is rebuilt around a gain fader, a stem mixer and fades drawn on the sound (#120).\n• Settings is a page over the whole window, as Export is.\n• Layers, effects, grades and transitions each have a colour of their own.\n• OK comes before Cancel on Windows, and after it on macOS and Linux (#681).\n• Dragging past the timeline's edge scrolls gently or fast depending on how far you go, and the scrollbar is bigger (#633, #634).\n• Fourteen looks have new names.\n\nFor agents and scripts:\n\n• concat --schema prints the whole API as JSON Schema.\n• An agent can give a clip a stack of masks and keyframe each one.\n• concat preview draws an effect at any instant of its clip (--moment) and a transition at any point of its cut (--progress).\n• If a graphics driver misreports its memory, CONCAT_GPU_BUDGET=off lifts the limit Concat sets from it.\n\nDownload:\n\nA self-contained build for every platform Concat ships on.\n\nSHA256SUMS lists each file's checksum.",
+          "downloadURL": "https://github.com/jub0t/Concat/releases/download/v0.2.10/Concat-0.2.10-ios-arm64.ipa",
+          "size": 82210407,
           "minOSVersion": "15.0"
         }
       ],
@@ -10086,11 +10086,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.127",
-          "date": "2026-11-10T20:36:01Z",
+          "version": "0.8.128",
+          "date": "2026-11-11T20:15:18Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.127/NicotinD-0.8.127-unsigned.ipa",
-          "size": 1669972,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.128/NicotinD-0.8.128-unsigned.ipa",
+          "size": 1670248,
           "minOSVersion": "15.0"
         }
       ],
@@ -10342,11 +10342,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.80",
-          "date": "2026-11-09T20:11:37Z",
-          "localizedDescription": "• Las miniaturas de los programas en las vistas Rejilla y Tarjetas se ven enteras: ya no se recortan caras ni cabezas. El espacio que sobra se rellena con la misma imagen desenfocada.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.80/InputStreamPlayer-iOS-0.9.80-134-unsigned.ipa",
-          "size": 17465229,
+          "version": "0.9.83",
+          "date": "2026-11-11T17:39:01Z",
+          "localizedDescription": "Novedades:\n\n• Radio: la lista filtrada de «Explorar» tiene ahora su propia barra de búsqueda. En iOS, Explorar es una pantalla de filtros con un botón «Ver emisoras».\n• iOS: Radio, Add-ons y Ajustes usan el mismo título grande que Emisiones, en la misma fila que los botones.\n• Android TV: interfaz más compacta (más canales por fila) y el borde de foco ya no tapa los textos de las radios.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.83/InputStreamPlayer-iOS-0.9.83-137-unsigned.ipa",
+          "size": 17673286,
           "minOSVersion": "16.0"
         }
       ],
@@ -10474,11 +10474,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.2",
-          "date": "2026-11-08T02:20:09Z",
-          "localizedDescription": "fox me silly.",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
-          "size": 44739710,
+          "version": "0.4.3",
+          "date": "2026-11-11T21:46:02Z",
+          "localizedDescription": "Download the right version for your device below.\n\nIssues closed:\n\n• #3121 Mod API 3 returns broken mon with fieldmove.eligibility.\n• #3122 Gen 3: a mod can't change which metatiles a map shows.\n• #3124 [Red/Android/0.4.1] Professor Oak missing after Champion.\n• #3126 Quest Log recap doesn’t draw the surf blob or the Fly bird.\n• #3127 Pokemon emerald wild encounter transition.\n• #3128 catch.nickname never fires in Gen 2 or Gen 3, so mods can't answer the nickname question after a catch.",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.3/gen1recomp%2B%2B-0.4.3-ios.ipa",
+          "size": 44747096,
           "minOSVersion": "15.0"
         }
       ],
@@ -11055,10 +11055,10 @@
       "bundleIdentifier": "org.eu.eslzzyl.Pixiv-SwiftUI",
       "developerName": "Eslzzyl",
       "subtitle": "iPadOS macOS",
-      "localizedDescription": "Declaration This is an experimental Vibe Coding project: All code of the project is generated by large language models. The developer will try their best to test, but cannot guarantee the reliability of the project.\n\nIllustrations \u0026 Manga:\n\n• Recommendation Stream: Recommended and popular content.\n• Rankings: Daily, weekly, monthly, and gender-classified rankings.\n• Ugoira Support: Ugoira GIF, allowing auto-play and manual-play settings.\n• Collection Management: Public/Private collections.\n• Comment System: View and reply to comments.\n• User Homepage: Illustrations, manga, novels, following list, user info.\n\nNovels:\n\n• Recommendation \u0026 Rankings.\n• Reader: Smooth reading experience with progress tracking.\n• Immersive Translation: Configurable translation services with bilingual display.\n• Series Management: Novel series browsing and reading.\n\nSearch:\n\n• Comprehensive Search: One-stop search for illustrations, novels, and users.\n• Trending Tags: Popular tags display.",
+      "localizedDescription": "I have been dealing with many real-life matters recently, and I am not truly knowledgeable about iOS development. I have encountered several difficult technical issues that have been hard to resolve over the past period, so the maintenance pace of this repository may slow down. Issues may remain unattended for an extended period, but I will process PRs as soon as possible.\n\nThis notice will be removed when the maintenance pace returns to normal. If you are a Contributor and would like to help maintain the project, please email eslzzyl@163.com.\n\nDeclaration This is an experimental Vibe Coding project: All code of the project is generated by large language models. The developer will try their best to test, but cannot guarantee the reliability of the project.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.eu.eslzzyl.Pixiv-SwiftUI.png",
       "tintColor": "#08b8fb",
-      "category": "entertainment",
+      "category": "other",
       "versions": [
         {
           "version": "0.16.3",
@@ -11294,11 +11294,11 @@
       ],
       "versions": [
         {
-          "version": "0.10.0",
-          "date": "2026-11-10T06:29:28Z",
-          "localizedDescription": "Everything since v0.9.0. The big one: this is the last install a game update needs. From now on, when Old School RuneScape updates, the app downloads the new game files for itself.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nChanged:\n\n• 117 HD keeps the resolution you set when the phone gets hot. It used to drop to 65% by itself and hold there until the phone cooled, so a higher setting looked like it didn't save. Lowering it is now your choice: Game settings \u003e Lower resolution when hot. When the phone gets hot on 117 HD, a small notice offers to turn it on, at most once each time you open the app, and has a Don't show again button. It waits until you're out of combat, sits at the bottom of the screen without covering any button, and goes as soon as a fight starts or something opens under it. Only its two buttons take a tap.\n• iOS, Share logs: the memory section now also counts how many allocations the app holds, how much Java keeps in native buffers, and which memory pools are growing, so a report after the app is closed for memory says more about what filled it.\n\nFixed:\n\n• \"Can't reach the game servers\" no longer says the game has updated. That card shows when the game servers don't answer (an outage, or a network that blocks them), and it told you to install a new build, which does nothing for an outage. It now says to try again in a few minutes, and a real game update gets its own card.\n• iOS: dragging a finger scrolls the bank, skill guides and other lists. A drag inside a window that scrolls (the bank, a skill guide, the emotes or quest list, settings, the collection log) turned the camera instead, so only the scroll bar's arrows moved it. A drag that starts over the game world still turns the camera. Android already scrolled.\n\n• iOS, GPU renderer: taking a screenshot (the Screenshot plugin takes one on a level-up) failed with an error from the game's main loop, which could stop the game. Android had the same fix earlier.\n• A world hop after switching between Resizable - Modern and Resizable - Classic could press the logout tab of the layout no longer on screen, and give up after a few seconds. It now uses the same layout as the tab buttons.\n• With the data orbs turned off, the map button could do nothing instead of saying why, and the notice about them could stay quiet, when the game had loaded the orbs without the server showing them.\n\nKnown issues:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• A hot phone runs lighter. On iOS every renderer lowers its frame rate as the phone warms and goes back up once it cools; Low Power Mode holds it to 30 fps (by design — keeps the phone usable). The 117HD renderer steps its scene-resolution scale down under thermal pressure and restores it on cooldown only when Game settings \u003e Lower resolution when hot is on (both ports, off by default); on a hot phone with it off, a notice offers to turn it on, at most once a launch.\n• iOS can close a long session for using too much memory. Seen twice on an iPhone 16 Pro on the GPU renderer, after about 50 minutes each time; the cause isn't known yet. Reopen the app and attach StikDebug as usual. A Share logs report made after it happens includes the memory readings that will help find it.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may stop working after an OSRS game update until new game files or a new build are published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
-          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.10.0/RuneMobile-0.10.0.ipa",
-          "size": 132450849,
+          "version": "0.10.1",
+          "date": "2026-11-11T19:00:45Z",
+          "localizedDescription": "A small iOS release on top of v0.10.0. It fixes the steady memory growth that closed long sessions on some iPhones, and 117 HD now restarts its picture if it stops. Android is unchanged apart from the version number.\n\nReporting a problem: tap Share logs (About screen; on iPhone also top right of the start screen) and attach the file to your report. Read it first if you like; it is plain text.\n\nFixed:\n\n• iOS: long sessions no longer end with the app closed for memory. On some iPhones the app's memory grew by about 60 MB a minute from the moment it opened, on every renderer, until iOS closed it after 30 to 55 minutes. The Java runtime's own sound library started the system's audio hardware layer inside the app, and a Bluetooth audio component that came with it retried a connection iOS refuses, thousands of times a second, for the whole session. The game's sound never used that library, so the app now ships without it, as Android always has. On the iPhone that showed it, memory now stays level. A phone that was affected should also run cooler.\n• iOS, 117 HD: if the picture stops while the game and its sound carry on (reported on an iPhone 14 Pro Max after about 45 minutes), the app now notices that frames have stopped reaching the screen and restarts the picture by itself. The cause of that stall isn't confirmed yet, so this may not cover every case: if the picture still freezes, reopen the app and send a Share logs report straight away, which now says how many frames were shown and dropped.\n\nKnown issues:\n\n• Reconnect is a re-login, not a seamless resume. A network drop beyond the in-game reconnect window returns you to the login screen; logging back in restores the session. No game state is lost server-side.\n• Backgrounding on Android can drop the game session. In the background the Android app idles at a slow tick to save battery, and the connection may be cut; on return the automatic re-login runs, and the first resume-login can occasionally need one retry. iOS keeps the game running in the background (a silent audio session plus Picture-in-Picture) while you're logged in.\n• A hot phone runs lighter. On iOS every renderer lowers its frame rate as the phone warms and goes back up once it cools; Low Power Mode holds it to 30 fps (by design — keeps the phone usable). The 117HD renderer steps its scene-resolution scale down under thermal pressure and restores it on cooldown only when Game settings \u003e Lower resolution when hot is on (both ports, off by default); on a hot phone with it off, a notice offers to turn it on, at most once a launch.\n• iOS, 117 HD: the picture can stop while the game and its sound carry on. Reported once, on an iPhone 14 Pro Max after about 45 minutes; the cause isn't confirmed. Since 0.10.1 the app restarts the picture by itself when frames stop reaching the screen. If it still freezes, reopen the app and send a Share logs report.\n• JIT attach (iOS only). iOS requires re-attaching the debugger (StikDebug) per launch to enable JIT; this is an OS constraint, not a bug.\n• The CPU renderer slows as the phone heats up. It draws the whole game in software, so its frame rate is set by how hot the phone is: on a Pixel 7a the same build ran at about 37 fps cool and about 12 fps hot and charging. Use the GPU renderer where your phone supports it.\n\nThis is an unofficial, fan-made client. It is not affiliated with, endorsed by, or sponsored by Jagex or the RuneLite project, and it is not on Jagex's approved-client list.\n\n• Account-ban risk. Logging into live Old School RuneScape with an unapproved client can get your account banned. Use a throwaway account you can afford to lose — never a main.\n• Personal/technical project. Provided as-is, best-effort, single-maintainer, no warranty. It may stop working after an OSRS game update until new game files or a new build are published.\n• You install it yourself by sideloading. It is not on the App Store or Google Play and never will be.\n• Your data: the app sends your account/gameplay data only to Jagex (to play) and, *only.\n\nplugins), to the RuneLite project. A few read-only fetches (world list, item prices, runtime config) come from RuneLite's CDN/API and carry no account data. No telemetry, analytics, or crash reports are sent, and the maintainer runs no server and collects nothing. See PRIVACY.md.\n\n• Game content (art, maps, audio) is Jagex's, streamed from your own game cache at runtime and never redistributed by this project. RuneScape and Old School RuneScape are trademarks of Jagex.",
+          "downloadURL": "https://github.com/audaro/RuneMobile/releases/download/v0.10.1/RuneMobile-0.10.1.ipa",
+          "size": 132417691,
           "minOSVersion": "17.0"
         }
       ],
@@ -11906,7 +11906,7 @@
       "bundleIdentifier": "com.aminewallah.colon3",
       "developerName": "AmineWallah",
       "subtitle": "iOS music player with Soulseek support",
-      "localizedDescription": "A native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library. No server or desktop client in between.\n\n• Library: albums and loose songs in a 2-column grid, A–Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps.\n• Playlists: your own (reorder, rename, .m3u8 import/export), plus Favorite Songs and Most Played.\n\n• Player: Apple Music-style full screen with synced lyrics (a .lrc next to the song, else LRCLIB), queue editing, shuffle and repeat, playback speed, AirPlay, and the Liquid Glass mini player on iOS 26+.",
+      "localizedDescription": "A native Soulseek client and music player for iPhone and iPad. Search the Soulseek network, download straight to the device, and play from a local library. No server or desktop client in between.\n\n• Library: albums and loose songs in a grid, A–Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, merging albums that got split (discs, differing tags) without touching the files, and import from Files or other apps.\n• Playlists: your own (reorder, rename, .m3u8 import/export), plus Favorite Songs and Most Played.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aminewallah.colon3.png",
       "tintColor": "#6058e8",
       "category": "entertainment",
@@ -11919,11 +11919,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.1",
-          "date": "2026-11-03T18:16:44Z",
-          "localizedDescription": "Fixed:\n\n• Home: the charts no longer sit on an endless spinner when Apple's chart server is slow. The last charts that loaded show straight away and are replaced when fresh ones arrive; a server that doesn't answer is given up on after 25 seconds per try, and failures are written to Diagnostics \u0026 Logs.\n• Home when Apple Music's charts are down: Apple's chart server has been answering \"502 Bad Gateway\". When it does, colon3 now uses the charts saved in the last three days, or else the old iTunes Store chart (top sellers rather than most played), and says so above the shelves.",
-          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.3.1/colon3-1.3.1-unsigned.ipa",
-          "size": 5884775,
+          "version": "1.4.0",
+          "date": "2026-11-11T16:51:47Z",
+          "localizedDescription": "New:\n\n• Storage: Settings › Library › Storage shows how much space your music takes, and which albums, artists and songs take the most, with a bar for each. Swipe one to delete it.\n\n• Find Lyrics: when the automatic lyrics are missing or wrong, search LRCLIB yourself from the song menu, the Now Playing menu or the lyrics view. Results show whether they're synced and whether their length matches your song; preview one and tap Use These Lyrics to save it as the song's .lrc.\n• Find Cover Online: Change Artwork › Find Cover Online shows the five best covers for an album or song from Apple Music, Deezer and MusicBrainz. Tap one to use it.\n• Romanized lyrics: Japanese lyrics get romaji, Chinese pinyin with tone marks, and Korean its romanization, in smaller type under each line, worked out on the phone. Kanji in Japanese songs get their Japanese readings. Turn it off with Romanize Lyrics in the Now Playing menu.\n• Landscape player: turn the phone sideways in Now Playing for a landscape layout: the artwork, lyrics or queue on the left, and the song, controls, volume and buttons on the right. The rest of the app stays in portrait.\n• Top Picks: the top of Home is a row of tall tiles like Apple Music's. The first is Continue Listening: the song you stopped on, where you stopped, even after closing the app; tap it to carry on with the same queue (it fades away as playback starts). After it: Favourites Mix, Most Played, Not Played Lately (songs you haven't played in 30 days), your newest album and the last album you played. Move or hide the row in Settings › Appearance › Home Sections.\n• Go to Album: in the Now Playing menu, opens the album of the song that's playing.\n• Merge albums: when one album shows up as several (a disc each, or songs tagged differently), select them in the Library and tap the merge button, or open one and choose Merge with Other Albums. Their songs join the album you keep; albums with their own track numbers become extra discs. No files or tags are changed, and Separate Merged Albums in the album's menu undoes it.\n• 3×3 chart: Stats › 3×3 Chart draws your nine most played albums of the week, month, year or all time as one image, with or without names and play counts, ready to share. Week, month and year count plays day by day from this version on; from before, only each song's last play is known.\n• iPad: colon3 now runs on iPad too. The tabs sit in a bar at the top that opens into a sidebar, every screen turns every way, grids and shelves show more per row, the album page puts the cover beside the title, and the player fills the screen with the artwork and controls on the left and the lyrics or queue beside them (a chevron or a swipe down closes it).\n\nChanged:\n\n• Home title: \"Home\" now sits on the same line as the country button instead of a line of its own below it.\n• Missing covers: when Apple has no cover for an album or song, colon3 now also looks on Deezer and MusicBrainz's Cover Art Archive, and uses what it finds there if the title and artist match.",
+          "downloadURL": "https://github.com/AmineWallah/colon3/releases/download/v1.4.0/colon3-1.4.0-unsigned.ipa",
+          "size": 6300212,
           "minOSVersion": "18.0"
         }
       ],
@@ -11931,7 +11931,8 @@
         "entitlements": [],
         "privacy": {
           "NSAppleMusicUsageDescription": "colon3 reads your Music library's playlists so it can rebuild them from your own music and Soulseek.",
-          "NSLocalNetworkUsageDescription": "colon3 uses the local network for Wi-Fi Transfer, so a computer on your Wi-Fi can add or download music."
+          "NSLocalNetworkUsageDescription": "colon3 uses the local network for Wi-Fi Transfer, so a computer on your Wi-Fi can add or download music.",
+          "NSPhotoLibraryAddUsageDescription": "colon3 saves the chart image you share to your photo library when you choose Save Image."
         }
       }
     },
@@ -13517,16 +13518,20 @@
       "versions": [
         {
           "version": "2.0",
-          "date": "2026-11-02T12:47:41Z",
-          "localizedDescription": "Unsigned build of commit 78d70ffd82248237613086a7201941f280b4954b. Sideload this .ipa. Installs beside the web-based EngiNote.",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/native-build-4/EngiNoteNative.ipa",
-          "size": 273518,
+          "date": "2026-11-11T16:52:25Z",
+          "localizedDescription": "Unsigned build of commit b4810a669d8b2cf2f2bf7e8b351efaa9da590e35. Sideload this .ipa. Installs beside the web-based EngiNote.",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/native-build-8/EngiNoteNative.ipa",
+          "size": 14537136,
           "minOSVersion": "17.5"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSCameraUsageDescription": "EngiNote shows you in a camera bubble over your note when you switch it on.",
+          "NSMicrophoneUsageDescription": "EngiNote records your voice with the screen when you make a recording.",
+          "NSPhotoLibraryAddUsageDescription": "EngiNote saves a recording to Photos when you choose to."
+        }
       }
     },
     {
@@ -13543,11 +13548,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.9",
-          "date": "2026-11-11T11:27:07Z",
-          "localizedDescription": "English:\n\n• Uses hour, minute and second wheels to set a custom timer by scrolling.\n• Fixes an unauthorized error when deleting some older chemistry projects.\n• Fixes permanent deletion of some biology projects from Trash while preserving recovery after an interrupted cleanup.\n• Corrects some Done buttons and the local terminal screen's error display.\n• Returns the composer to Agent mode after a goal is saved; a failed save keeps the goal form and draft for retry.\n• Lets AI set a goal for the current authorized task, with clear prompts when a goal is paused, resumed or blocked.\n\nThis is an intermediate internal beta. Please check opening and leaving measurement tools, timer setup, deleting and restoring older projects, and emptying Trash. Also check the composer after successful and failed goal saves, AI goal setting for the current task, and paused, resumed and blocked prompts. Linux GPU and new hardware video decoding work continues separately; public TestFlight is planned for a later complete update.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.9/Floe-Agent-1.8.9-build331-unsigned.ipa",
-          "size": 914457675,
+          "version": "1.8.10",
+          "date": "2026-11-11T18:11:44Z",
+          "localizedDescription": "English:\n\n• Simplifies reply actions. Failed tool cards respect manual collapse when results refresh.\n• Removes unsuitable 3D, manufacturing and simulation actions from standalone 2D CAD. Editing a 3D sketch locks the view to its plane and restores the view when you finish.\n• Updates image color adjustment, previews and export.\n\n• Corrects state handling at the end of some streaming replies and improves progress, stop and completion feedback for background tasks.\n• Improves live captions and speaker labels during meeting recordings, with a choice to keep recording or stop when leaving the page.\n• Improves toolbox displays and common actions. Traceroute can show IP region and network information using a local database.\n• Adds DXF/DWG import on the 3D editor's sketch page. You can also choose a sketch from a 2D CAD project in Floe and add its native curves and construction geometry to the current sketch while keeping the original project separate.\n\nPlease check editor assistants versus ordinary chats, reply completion and waiting states, recording continuation and stopping, and toolbox actions. For CAD imports, check source-sketch selection, actual size, cancellation and one-step undo. Geometry is copied; dimensions, constraints and links remain in the source project.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.10/Floe-Agent-1.8.10-build332-unsigned.ipa",
+          "size": 915566752,
           "minOSVersion": "26.0"
         }
       ],
@@ -13641,11 +13646,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.21",
-          "date": "2026-11-11T09:18:25Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.21:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.21/Lumisound-2.0.0.21-unsigned.ipa",
-          "size": 15794515,
+          "version": "2.0.0.24",
+          "date": "2026-11-11T21:48:41Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.24:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.24/Lumisound-2.0.0.24-unsigned.ipa",
+          "size": 15920146,
           "minOSVersion": "26.0"
         }
       ],
