@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.lumisound.ios",
-    "com.theboisclub.gen1recompplusplus",
-    "com.wrngwrld.Chanyan"
+    "com.porksphere.comical",
+    "moe.itoapp.ito",
+    "cc.zexa.dshtether"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.188.0",
-          "date": "2026-11-11T15:24:58Z",
-          "localizedDescription": "F1321 restores exactly two Recent Bird Gen controls beside the title: the soft-refresh icon and Full feed. Accessible busy state, retained cards and retired-owner protections remain.\n\nF1322 consolidates primary and weekly RBA hard refresh into their existing heading icons, removing duplicate Fetch latest buttons. Only the applicable RBA inputs are refreshed; navigation still reuses valid caches.\n\nF1323 shows compact actual-source ages such as updated 4min ago, without renewing timestamps on cached repaint.\n\nF1324 removes generic first-load caching explanations, preserving real HTTP 429 notices, progress and incomplete-source reporting.\n\nF1325 resets the visible wizard timer on reopening without restarting acquisition or resetting same-visit progress.\n\nF1326 restores one unified initial-check list with truthful source states and unchanged dependency scheduling.\n\nF1327 puts finished checks first and removes duplicate loading headings and aggregate prose.\n\nF1328 keeps elapsed time immediately after Ready on the same line with identical font and bold weight.\n\nF1329 combines duration and Close/Continue guidance into one italic footer sentence.\n\nValidation: focused actual consumers, real-Chrome geometry and behavior-removal mutations are recorded in the authoritative feature records. Publication requires the complete trusted catalog and all six layout profiles; private parity/contracts/wiring are independently gated through the durable runner. Artifact verification and TestFlight availability are separate milestones.\n\nNot claimed fixed: F1320's earlier native empty-Recent report or F1303's native Mass hang. F1294 remains deferred; unresolved owner-policy choices are not part of this release.\n\nThe first freeze was rejected by the complete layout gate, not shipped. The corrected audit follows the approved controls and source-first setup presentation, preserves all dependent hit-testing/geometry coverage, and covers the real ten-Ready long-timer state. Measured repairs keep the Recent icon glyph contained, retain 44px sole RBA targets and omit only the redundant Ready/time separator without shrinking text. Independent removal mutations reject all three geometry regressions and a second footer sentence. The corrected candidate must establish complete fresh public gates.\n\nInstallation: BirdChaser-unsigned.ipa is for sideloading with your own signing tool, not direct installation. Signed TestFlight delivery is independent; upload/Apple processing alone does not establish account availability.\n\nThe .ipa below is UNSIGNED and was built by CI from b6af9d5, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.188.0/BirdChaser-unsigned.ipa",
-          "size": 143468300,
+          "version": "1.189.1",
+          "date": "2026-11-12T03:02:42Z",
+          "localizedDescription": "Carry the acquisition-owned estimator through shared resource work and Rank Discoveries identity and sighting calls. Preserve resource currentness, scheduling, cache policy, request inventory and honest unknown/overrun states.\n\nTwo real-consumer regressions fail on the published source and pass with the repair; six independent propagation mutations fail the intended assertions.\n\nThe .ipa below is UNSIGNED and was built by CI from 4e085bb, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.189.1/BirdChaser-unsigned.ipa",
+          "size": 143469540,
           "minOSVersion": "15.0"
         }
       ],
@@ -1698,10 +1698,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-11T01:28:02Z",
-          "localizedDescription": "Built from ae21b56 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-12T01:26:15Z",
+          "localizedDescription": "Built from d1dc6ba on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14625612,
+          "size": 14651220,
           "minOSVersion": "15.0"
         }
       ],
@@ -3246,7 +3246,7 @@
       }
     },
     {
-      "name": "Comical",
+      "name": "Comical (dev)",
       "bundleIdentifier": "com.porksphere.comical",
       "developerName": "porksphere",
       "subtitle": "A cross-platform comic reader for iOS, Android, desktop, and the web",
@@ -3261,11 +3261,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.0",
-          "date": "2026-11-10T05:52:55Z",
-          "localizedDescription": "Versioned build with every platform's binaries.\n\nAndroid (APK):\n\nThe desktop installers aren't code-signed: Windows SmartScreen warns on first run (More info → Run anyway).\n\nAltStore users: keep your existing source — the public release channel tracks every tag and updates automatically:\n\n• iOS native shell: system tab bar, per-tab stacks and Photos-style bars on Expo SDK 58.\n• Page curl, spread padding, and book covers.\n• Draw series cards as books.\n• iOS-style chips, grouped reader settings, curl by default.",
-          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/v0.9.0/comical-unsigned.ipa",
-          "size": 28585490,
+          "version": "0.9.0.17",
+          "date": "2026-11-12T06:34:13Z",
+          "localizedDescription": "Development-client shell (Debug + expo-dev-client). Carries the same com.porksphere.comical bundle id as the release and PR builds, so it shares their data and REPLACES whatever Comical is installed.\n\nInstall via source (recommended): add this URL in SideStore/AltStore → Sources → +.\n\nThen run bun run dev:device on your PC and connect from the app's launcher. Rebuild (re-run this workflow) only when native code changes — a native module, a config plugin, an SDK bump. Pure JS/TS iterates over Metro with no rebuild at all.",
+          "downloadURL": "https://github.com/porksphere/comical-app/releases/download/ios-devclient/comical-devclient.ipa",
+          "size": 53655291,
           "minOSVersion": "16.4"
         }
       ],
@@ -3869,11 +3869,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.15",
-          "date": "2026-11-11T08:13:12Z",
+          "version": "0.3.16",
+          "date": "2026-11-12T04:31:45Z",
           "localizedDescription": "Installed copies update to this version automatically the next time they open.",
-          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v0.3.15/RustRadar_0.3.15.ipa",
-          "size": 31260241,
+          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v0.3.16/RustRadar_0.3.16.ipa",
+          "size": 31260511,
           "minOSVersion": "15.0"
         }
       ],
@@ -6766,7 +6766,7 @@
           "date": "2026-11-10T11:34:37Z",
           "localizedDescription": "Added:\n\n• Draw on a PDF with a pen: the pen in the reader bar (or D) turns on Draw for a PDF shown as its pages, scanned or not. A pen, a highlighter in five colours and an eraser (the pen's own eraser end works too), five sizes (a small scale opens from the size button, and [ and ] change it), four pen styles (ballpoint, marker, fountain pen and brush, from the style button), Undo and Redo (Ctrl Z). The pen is wider as you press harder. On a touch screen only the pen draws (a pen's drag no longer scrolls the page, and its side button or eraser end erases: on Android the phone's own pen reading is used, since a web page can't see the button), so a hand resting on the page leaves nothing and a finger still scrolls and pinches; Finger lets a finger or mouse draw (not beside a pen, where a hand is resting), and a computer starts with it on. Drawings stay as you left them at any zoom, are kept on this device with the clip, and show in ⋯ › Drawings, which lists the pages and saves a copy of the PDF with them as ink annotations (the PDF itself is never changed).\n• ⋯ › Drawings has Try your pen: a pad that shows what the page and the phone each say of the pen's touch and buttons, and Start test, which asks for ten things in turn (a finger, the pen, its button, a resting hand) and records a log to save or copy and send.\n• On a Samsung tablet, the pen's side button held and dragged erases (One UI sends no touch for it, so it's read natively), and the pen's touch no longer pans the page just after it comes in range.\n• Highlights on a PDF read from where it is: select words on its printed pages and tap Highlight, as in any clip. They go with the clip's other highlights (its Highlights sheet, the Highlights place, Copy all and Save all highlights), take a colour and a note, and show in Show as text when its words are found there.\n\nRemoved:\n\n• The Highlights button in the reader for a comic or a scanned PDF, which have no words to highlight.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.56.0/Waypage.ipa",
-          "size": 10789926,
+          "size": 10793416,
           "minOSVersion": "15.5"
         }
       ],
@@ -6788,11 +6788,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.57",
-          "date": "2026-11-09T00:52:18Z",
+          "version": "0.8.58",
+          "date": "2026-11-12T05:52:24Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-ios.ipa",
-          "size": 34737429,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.58/Gen2Recomped-0.8.58-ios.ipa",
+          "size": 35974491,
           "minOSVersion": "14.0"
         }
       ],
@@ -6847,11 +6847,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.9",
-          "date": "2026-10-28T16:07:20Z",
-          "localizedDescription": "New:\n\n• Reader header and footer. Show the chapter, book title, reading progress, page numbers, time and battery level in thin strips above and below the page. Arrange them in Settings → Customize: drag each item to the left, center or right of the header or footer, reorder items that share a spot, or hide them. On Android and iOS, where the reader hides the system status bar, they are on by default so you can still see the time and battery; on desktop they are off until you turn them on.\n• Advanced typography. A new \"Advanced typography\" switch lets you set exact values for font size, line height, paragraph spacing, margins and weight instead of preset steps. First-line indent can now follow the book, be turned off, or be set yourself.\n• Searchable font picker. Curated, plugin, imported and installed fonts now share one list with section headings, and you can search it by name.\n• Xiaomi MiMo read-aloud voices. Xiaomi MiMo is now available as a text-to-speech provider for reading aloud.\n\nImproved:\n\n• More text per page on phones. The safe area around the notch and home indicator now counts toward the page margins in paginated mode, so iPhones no longer lose about three lines of text per page.\n• Calmer appearance controls. Typography choices come first and sliders after, and the page color picker is a dropdown once plugin themes make the list long.\n• No font flash between chapters. A new chapter appears only after its font has loaded, instead of briefly showing a fallback font.\n\nFixed:\n\n• Exports on iOS. Exporting files on iPhone and iPad no longer produces empty files or fails.\n• iOS 16.0–16.3 and older Safari. The app and EPUB loading now work on these versions. The minimum supported iOS version is now 16.0.\n• Inline glyph images in CJK books. Small images used as substitute characters stay on their line of text instead of breaking the sentence apart.\n• Menus stay on screen. Popovers such as the selection menu no longer run past the bottom of the screen, for example in landscape.\n• Desktop startup. The app no longer fails to start when file-association registration fails, or when opening a book whose file name is not valid Unicode.\n• Reader appearance popover layout. Option groups no longer grow extra space after relayout in the desktop app.\n• Mobile settings. The \"launch at startup\" setting no longer appears on Android and iOS, where it is not supported.",
-          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.9/ReadAware-ios-arm64.ipa",
-          "size": 15903064,
+          "version": "0.6.10",
+          "date": "2026-11-12T06:16:19Z",
+          "localizedDescription": "New:\n\n• E-ink mode. A new switch in Settings → Theme stops all motion, shows the interface and book pages in high-contrast black on white, drops dimmed backdrops and shadows, and makes a swipe turn exactly one page when you lift your finger, so the screen redraws as little as possible. It is on by default on Android e-paper devices the app recognizes.\n• Built-in bookmarks that sync. Bookmarks are now part of your library instead of the Jumper plugin, so they sync to your other devices. They appear in the notes list under their chapter, next to your highlights and notes. Add one with \"Bookmark this page\" in the reader header or Cmd/Ctrl+D. The Agent can list, save, open, rename and delete them. Bookmarks you made in Jumper move over automatically the first time you launch this version.\n• Search the whole book. \"Search this book\" in the reader header finds chapters (by title, or by number such as \"Chapter 12\" or \"第十二章\"), printed page labels, bookmarks, your highlights and notes, and the book's text. Text hits are grouped under their chapter, and a chapter title is listed once instead of up to four times. The search reopens on your last query for each book. On desktop it opens as a popup under the button; on phones it rises as a sheet above the keyboard.\n• A way back after a jump. After you jump to a search hit, a note, a bookmark, a chapter, a link or a point on the progress bar, a \"Back to page N\" button takes you back to where you were reading. Alt+Left and Alt+Right step back and forward through your jump history, and the command palette has Back and Forward while a book is open.\n• Foldable contents. Multi-level tables of contents can be folded. By default only the branch that holds the current chapter is open, and the branches you open are remembered for each book.\n• Phone sheets and a top toolbar option. On phones, the contents, notes and search rise from the bottom as one tall sheet that you close by pulling it down, swiping it left or tapping beside it. Settings → Customize can move the phone toolbar to the top of the screen.\n\nImproved:\n\n• Books open much faster. EPUB, CBZ, MOBI and AZW3 files are read where they are stored instead of being copied whole into the reader first, and a page's images and fonts load in parallel while it lays out. Long chapters are laid out around where you are first, a chapter is laid out once instead of five or six times, and opening no longer waits on its own animations. The book you read last is kept ready in the background, so going back to it is immediate.\n• Reduce motion stops everything. The Reduce motion setting now stops every animation, transition and smooth scroll in the app and inside books, not just a few of them.\n• Faster highlighting. A new highlight appears at once, even in books with hundreds of marks.\n• More reliable AI tool calls. The AI runtime is upgraded to support newer models' request rules, reject malformed tool arguments instead of running half a call, and tolerate providers that send empty or unusual tool-call data.\n• Jumper is retired. Its go-to search, bookmarks and history shortcuts are now built into the reader, and your rebound history shortcuts carry over.\n\nFixed:\n\n• Footnotes open again. Clicking a footnote marker opens its note in a popover again; since 0.6.0 it did nothing, in every book and on every platform. The popover now shows just the note, without a \"FOOTNOTE\" heading.\n• Progress bar page numbers. Hovering or dragging the progress bar names the page you will actually land on; it used to be one page off about half the time.\n• Phone sheets no longer flash back. Closing a phone sheet or the appearance drawer with a gesture no longer makes it spring back open before collapsing.",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.10/ReadAware-v0.6.10-ios-arm64.ipa",
+          "size": 16482469,
           "minOSVersion": "16.0"
         }
       ],
@@ -7695,11 +7695,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.2",
-          "date": "2026-11-11T20:17:30Z",
-          "localizedDescription": "Added:\n\n• A song's details can be selected and copied on the desktop.\n• The queue fades out at its top as well as at its bottom.\n• Profiles keep their order and move by drag in settings.\n• The queue can be cleared and undone on every client (fixes #146).\n• Paired devices are listed and forgotten one by one; devices paired before need pairing again once (#147).\n• Compressor and autofill pick Off or a kind, no separate switch.\n\nFixed:\n\n• The desktop profiles menu switches to the profile picked.\n• The desktop lyrics blur no longer covers a dialog or menu over it.\n• The lyrics blur stays off under a menu on Linux too.\n• A song menu's seal stamps and stays open instead of closing it.\n• The desktop search preview shows results as they arrive.\n• Lyrics the singing can't place read as unsure, not on time.\n• Home shows one shelf of each title and each item in it once.\n• The full player's cover fades into its page with no line where it ends.\n• A cover's blurred page no longer breaks into bands and speckles.\n• Lyrics show and move the same on every device in cross-device play.\n• Rap over a melodic beat has its lyrics timed by the voice's loudness.\n• Lyrics on time beat lyrics the timing check has to move.\n• The phone's volume keys move the other device's volume again.\n\nPerformance:\n\n• A search typed over stops, so the next one isn't queued behind it.",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.2/nori-ipod-0.8.2.ipa",
-          "size": 6995912,
+          "version": "0.8.3",
+          "date": "2026-11-12T01:50:46Z",
+          "localizedDescription": "Added:\n\n• AutoMix is Off, Smooth or DJ, with loops and drop cuts (#145).\n• SoundCloud and YouTube Music fill Library: albums, artists, songs, playlists and likes; their plugins update themselves for this version.\n• Another device playing shows in Android's media controls again, and the volume keys move its volume.\n\nFixed:\n\n• Pulling the player leaves no strip above its cover.\n• A setting's few choices sit on one line.\n• Library shows only a profile's own sections, or says to search.\n• Devices on two networks pair and are found on each of them.\n• Clicking a paired device plays on it instead of forgetting it.\n• A song menu's seal and Details sit at its end, centered on its head.\n• The lyrics stay in focus under the desktop's menus and dialogs.\n• The desktop's profile button stays in the top bar while searching.\n• Music handed back at once from a device plays on where it was.\n• A repeat press told late no longer undoes a newer one.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.3/nori-ipod-0.8.3.ipa",
+          "size": 7045101,
           "minOSVersion": "12.2"
         }
       ],
@@ -7816,11 +7816,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.35",
-          "date": "2026-11-06T15:18:10Z",
-          "localizedDescription": "Fix a FW Packages recovery loop after a completed installation. Finish only after exact installed-ledger and fresh device-MD5 proof, with no old/stage copies or pending cleanup; no application files are re-uploaded or deleted by this completion. Serialize recovery, catalog/status checks, installation and cleanup; reject stale journal generations. Normal rollback remains protected for genuinely incomplete installs. Update Feather and install 1.11.35 (288). No firmware or FW Packages update is required. Validated by 702 unit and 22 UI tests, GitHub CI, and an explicitly authorized metadata-only device repair confirmed by the owner.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.35/TumoCompanion-unsigned.ipa",
-          "size": 26124127,
+          "version": "1.11.36",
+          "date": "2026-11-12T03:53:57Z",
+          "localizedDescription": "TumoCompanion 1.11.36 — Firmware channel navigation:\n\n• Keep an explicit channel choice when the installed Flipper identity is refreshed; choosing Stable while running Dev no longer silently switches back to Dev.\n• Cancel a pending updater-preparation confirmation when changing channels, and retain empty-channel guidance in the drawer.\n\nNo firmware/FW Packages rebuild, factory reset, SD cleanup, BLE re-pairing or data migration is required. Stable010 and FW Packages Stable007 are unchanged. This fixes navigation only, not a claim about unrelated BLE or idle-OOM symptoms.\n\nThe unsigned IPA is for signing with your existing certificate in Feather/AltStore. Refresh the existing Feather source rather than adding a duplicate source. Physical installation and acceptance remain with the user; no attached Flipper is flashed by this task.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.36/TumoCompanion-unsigned.ipa",
+          "size": 26127589,
           "minOSVersion": "17.0"
         }
       ],
@@ -8906,7 +8906,7 @@
       "bundleIdentifier": "org.moonfin.app",
       "developerName": "Moonfin-Client",
       "subtitle": "A premium Jellyfin Client for Android Mobile, Android TV, iOS, Linux, MacOS, tvOS, Web, and Windows",
-      "localizedDescription": "← Back to main Moonfin project.\n\nMoonfin is a media client for Jellyfin, Emby, Plex and Silo servers, built with Flutter. One shared codebase powers phones and tablets, Windows, macOS, and Linux, Android TV, Fire TV, and Apple TV, and the browser. It's made for people who want a modern, customizable experience on every screen they own.\n\nSilo:\n\nSign-in with a password or a code, Home, libraries, search, favorites, watched state, ratings, collections, playback, skip intro and credits, trickplay, household profiles with their PINs, and downloads with offline progress sync all work.\n\nRequests use Silo's own requests feature in place of Seerr, and Watch Together uses Silo's Watch Party in place of SyncPlay. Settings sync, admin defaults, server messages, custom themes and MDBList and TMDB ratings need the Moonbase plugin installed in Silo.",
+      "localizedDescription": "← Back to main Moonfin project.\n\nMoonfin is a media client for Jellyfin, Emby, Plex and Silo servers, built with Flutter. One shared codebase powers phones and tablets, Windows, macOS, and Linux, Android TV, Fire TV, and Apple TV, and the browser. It's made for people who want a modern, customizable experience on every screen they own.\n\nSilo:\n\nSign-in with a password or a code, Home, libraries, search, favorites, watched state, ratings, collections, playback, skip intro and credits, trickplay, household profiles with their PINs, and downloads with offline progress sync all work.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.moonfin.app.png",
       "tintColor": "#4c7cc6",
       "category": "entertainment",
@@ -9045,10 +9045,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-11T17:19:50Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 5200515. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-231/Ito-1.5.0-dev.231-unsigned.ipa",
-          "size": 13866488,
+          "date": "2026-11-12T06:30:06Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 659a8d1. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-234/Ito-1.5.0-dev.234-unsigned.ipa",
+          "size": 13901723,
           "minOSVersion": "15.4"
         }
       ],
@@ -9068,11 +9068,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.11",
-          "date": "2026-11-10T01:28:12Z",
-          "localizedDescription": "• 9c2d0902 fix(mdblist): reuse progress and watched lists until a remap changes them @tapframe.\n• daa966d3 fix(auth): stay signed in when session refresh fails @tapframe.\n• f004557c fix(player): show mpv error details on the error screen @tapframe.",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.11-beta/nuvio-0.6.11-full-release.ipa",
-          "size": 69784598,
+          "version": "0.6.12",
+          "date": "2026-11-12T00:37:11Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.12-beta/nuvio-0.6.12-full-release.ipa",
+          "size": 69852349,
           "minOSVersion": "16.1"
         }
       ],
@@ -10729,10 +10729,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-11T01:28:02Z",
-          "localizedDescription": "Built from ae21b56 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-12T01:26:15Z",
+          "localizedDescription": "Built from d1dc6ba on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45394418,
+          "size": 45420431,
           "minOSVersion": "15.0"
         }
       ],
@@ -12089,11 +12089,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.28",
-          "date": "2026-11-10T06:21:53Z",
-          "localizedDescription": "English:\n\nDialogs on the phone were all square-cornered blocks with text overlapping. Since 0.1.0 the injected narrow-screen styles forced every [role=dialog] full-screen with border-radius:0 — that rule only ever existed for the old dsh settings shell (800px wide with a fixed 188px left nav, unusable on a phone), but every dialog that came later inherited it: sign-in, the preview notice and confirmations are natively centred rounded cards (380px wide, 28px radius) and were all flattened into square full-screen blocks, and on the old shell the header was additionally pinned absolute to the top-right corner, covering the content text. The dialog rules now only match the settings shell itself (the modal whose nav contains a navList); every other dialog is left alone and keeps dsh's native rounded card, and the shell becomes dsh's own rounded card (--dsw-radius-panel, matching the desktop) with 12px margins. Since 0.2.2-rc.1 dsh ships its own ≤767px layout for the shell (title+close / tabs / content in three grid rows), which is already correct, its display is no longer touched — older shells are detected by the structural fact that their nav is the first child, reflowed to tabs-on-top with content below, and their header stays in flow instead of being pinned over the tabs. The native drawer in 0.2.2-rc is also a [role=dialog], but its nav has no navList, so these rules never touch it — previously the blanket \"every direct div is flex:1\" rule had distorted it. Measured at 412×915: the preview notice and sign-in dialog are back to native 28px rounded centred cards, the settings shell is a 388×891 rounded card with the title and close button on one row without overlap, horizontally scrollable tabs, and every settings page fits inside the viewport.\n\nConversation content could push the page wider than the phone: wide tables, long code blocks and large images from agent output. The conversation scroller ([data-conversation-scroll], an attribute dsh itself sets) now gets adaptive fallbacks: images/videos/canvases are capped to the viewport width, tables and code blocks are capped at 100% and scroll inside their own boxes, and unbreakable prose (paths, commands, hashes) wraps at word boundaries. Chrome icons and controls are untouched.\n\nOn a phone the dsh composer stopped rising when the keyboard opened, so the keyboard covered it. The app's Android manifest did not set windowSoftInputMode, leaving the system's default policy in charge, and since the dsh composer is a contenteditable inside an iframe the system's auto-pan logic cannot find it — the keyboard just covered it. The MainActivity now sets adjustResize explicitly: the WebView viewport shrinks while the keyboard is up, the dsh interface follows, and the composer stays above the keyboard.\n\nThe connection to the computer dropped after the app sat in the background for a while. Android freezes cached background processes (Doze), and the iroh connection has no chance without a foreground identity. Once a remote connection is established, going to the background now starts a keep-alive foreground service — a silent, low-importance ongoing notification naming the connected computer — so the system neither freezes the process nor cuts its network; it is removed again on returning to the foreground. If the connection still drops while backgrounded (the computer slept, the network switched, …), the app retries once on the spot, gives up if that fails too, and reconnects as usual when brought back to the foreground. Local mode keeps its own existing service, unaffected.\n\nAfter connecting to a remote computer, the ongoing \"DSH running on this phone\" notification made it look like the phone was still on the local instance. The local DSH does not stop when you connect elsewhere — that is deliberate (switching back needs no restart), but the interface never said so. The hosts page's local card now explains, while running, that it keeps running in the background after you connect to another computer, and the status page adds \"the DSH on this phone keeps running in the background — connecting to a computer does not stop it\" while connecting. Stop it anytime from the hosts page.\n\nOn Android the app crashed the moment it connected. iroh 1.0 pulls in reqwest 0.13 built with rustls-no-provider, and the app never installed a global rustls crypto provider: on the first automatic reconnect the endpoint setup builds its first plain reqwest client and panics (\"No rustls crypto provider is configured\"), aborting the process — reproduced on a real Android 16 device with the 0.1.27 APK. The app now installs the ring provider at startup (the same backend as iroh's default tls-ring, so nothing extra is linked); pairing, connecting and browsing through the proxy all verified on the device.\n\nOn Android the first run never asked for notification permission, and every notification was silently dropped. The app used JS Notification.requestPermission(), which in the Android WebView always reports \"granted\" while the real system permission was never given, so all notifications were discarded as if notifications were disabled — and the user had to go find the setting themselves. The app now requests through the plugin's native Kotlin path: on Android 13+ the first launch shows the system half-screen dialog (\"Allow DSH Tether to send notifications?\"); below 13 there is no such permission and it is always granted. Verified on a real device: after clearing app data, the first launch shows the dialog, and tapping \"Always allow\" grants POST_NOTIFICATIONS.\n\nConnecting to a computer now uses dsh's own loading interface instead of the app's home-made loading page. The app's connecting text used to read \"Opening the DeepSeek Harness on your computer…\"; it now reads \"正在连接至电脑\" (\"Connecting to the computer\"), and while the connection is being established the injected script rewrites dsh's own loading text \"正在加载工作区…\" / \"Loading workspaces…\" to the same. Once connected, the app posts dsh-tether:connected to the web UI and the script stops rewriting, so later loading text is dsh's original again. Desktop browsers and the dsh desktop app carry no app marker, so this never runs there.\n\nThe sidebar's \"Connect a phone\" button no longer opens the single-purpose pairing-string viewer on the computer; it now opens a full feature page with three sections: pair a new phone (pairing string with copy, a live validity countdown and a refresh button), paired devices (name, online status, two-step removal — as before), and a short how-to (install the app → paste the pairing string → use dsh remotely). It fills the screen when narrow and is a centred card when wide, in the same visual language as before. Inside the phone app the same button still opens the app's own machines page, unchanged.\n\nThe hosts page gains a battery-whitelist note (Android only). Some OEM systems kill background apps aggressively enough that even the keep-alive foreground service cannot help; the hosts page now says \"if the connection still drops in the background, set this app to Unrestricted under the system battery settings\", leaving that one tap to the user instead of popping an automatic exemption request.\n\nThe phone app gains an \"About \u0026 thanks\" page and an update check. The hosts page's \"Back\" button used to appear only while a session was live, so after a disconnect the hosts page had no way out except tapping a device to reconnect — it is now always present (leading back to the status page and its reconnect entry when nothing is live). The footer version and an \"About \u0026 thanks\" entry open a new page with a prominent GitHub button, an update check (compared against the latest GitHub release; when a newer version exists the button turns into \"Download\" and the version is shown), and the acknowledgements. External links always open in the system browser and never replace the app's own interface.\n\n\"My computers\" on the phone now lives inside the dsh interface instead of taking over the whole screen. Tapping the sidebar button used to hand the entire UI over to the app shell, which felt jarring; the injected script now switches a two-tab \"Chat / My computers\" strip inside dsh itself: the host list (connect / rename / two-step removal), the pairing form, the local-mode card, connection status and reconnect, and the about-and-thanks section, all rendered with dsh's own theme variables and following dsh's language and theme. Data and actions travel over a postMessage bridge to the app's Rust core (with a 15-second timeout), and connection/local-mode state events are relayed into the panel in real time. The top bar's \"Machines\" button routes by capability: the new plugin opens the panel, an older plugin still falls back to the app's own hosts page.\n\nThe keep-alive notification is now an Android 16 \"Live Update\" chip — Android's Dynamic Island. The silent ongoing notification shown while connected in the background now carries a system chronometer (ticking from the moment the connection started) and Android 16's ProgressStyle with indeterminate progress: on Android 16 it appears as a live chip in the status bar and renders on the lock screen and always-on display, and in the shade it expands into a ticking timer. Android 15 and below keep the plain ongoing notification, unaffected. Verified on a real device (Xiaomi 23113RKC6C, Android 16): dumpsys confirms ProgressStyle and showChronometer are attached.",
-          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.28/dsh-tether-0.1.28-ios-unsigned.ipa",
-          "size": 7126487,
+          "version": "0.1.30",
+          "date": "2026-11-12T06:25:01Z",
+          "localizedDescription": "English:\n\n\"My computers\" is a single page again. Since 0.1.28, while connected to a computer, both dsh's sidebar \"My computers\" button and the top bar's \"Machines\" button opened a panel that the desktop plugin drew inside dsh. It looked different from the app's own machines page, lacked some of its features (the \"Stay connected with the screen off\" switch existed only in the app), and showed a stray developer note in its top-right corner. Both entries now open the app's own machines page (the one redesigned in 0.1.29); Back at the top-left returns to the session without reloading it. The panel has been removed from the desktop plugin.\n\nFor both entries to change, update the phone app and the desktop plugin to 0.1.30. With only the app updated, the top-bar button already goes to the new page, and dsh's sidebar button still opens the old panel, which keeps working.",
+          "downloadURL": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.30/dsh-tether-0.1.30-ios-unsigned.ipa",
+          "size": 7138633,
           "minOSVersion": "14.0"
         }
       ],
@@ -12863,7 +12863,7 @@
       "bundleIdentifier": "app.naviamp.ios",
       "developerName": "goosepod",
       "subtitle": "Windows, Mac, Linux, Android and Android TV player for Navidrome",
-      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The signed package currently contains v2.10.0, including Java, and runs on X11 or XWayland. The v2.11.0 Flatpak update is pending signing; direct Linux downloads already contain v2.11.0.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.",
+      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The signed package currently contains v2.10.0, including Java, and runs on X11 or XWayland. Newer Flatpak updates await signing; use the direct Linux downloads for the latest application release.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.naviamp.ios.png",
       "tintColor": "#037ecf",
       "category": "other",
@@ -13246,9 +13246,9 @@
       "bundleIdentifier": "io.github.normalllll.freepiv",
       "developerName": "normalllll",
       "subtitle": "A cross-platform third-party Pixiv app for Android, iOS, macOS, Windows, and Linux",
-      "localizedDescription": "freepiv:\n\nAn open-source, cross-platform Pixiv browser with FANBOX and pixivision.\n\nBrowse illustrations and manga, read novels and articles, follow creators, and download artwork on Android, Windows, Linux, macOS, and iOS.\n\nFeatures:\n\n• Pixiv browsing: Recommendations, rankings, followed creators' updates, illustrations, manga, animated artwork, and novels.\n• Search and discovery: Search works and users, filter results, browse tags, and revisit recent searches.\n• Your library: Follow creators, bookmark works, and browse your account's collections.\n\n• pixivision: Discover articles by category, tag, or keyword, explore popular articles, and open featured works and creators in the app.",
+      "localizedDescription": "freepiv:\n\nAn open-source, cross-platform Pixiv browser with FANBOX and pixivision.\n\nBrowse illustrations and manga, read novels and articles, follow creators, and download artwork on Android, Windows, Linux, macOS, and iOS.\n\nFeatures:\n\n• Pixiv browsing: Recommendations, rankings, followed creators' updates, illustrations, manga, animated artwork, and novels.\n• Search and discovery: Search works and users, filter results, browse tags, and revisit recent searches.\n• Your library: Follow creators publicly or privately, bookmark works with tags, follow series updates, and keep a browsing history on your device.\n• Accounts and filtering: Switch between several Pixiv accounts, edit your profile and profile image, and hide tags and users you block.\n\n• pixivision: Discover articles by category, tag, or keyword, explore popular articles, and open featured works and creators in the app.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.normalllll.freepiv.png",
-      "tintColor": "#f172a9",
+      "tintColor": "#f27caf",
       "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/normalllll/freepiv@main/screenshots/mobile/img0.webp",
@@ -13258,11 +13258,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.0",
-          "date": "2026-10-07T17:03:32Z",
-          "localizedDescription": "What's New:\n\n• Redesigned interface: A new glass-style design with floating surfaces, spring animations, and artwork transitions across Pixiv, FANBOX, and pixivision.\n• Appearance settings: Choose neutral, cool, or warm tones; customize light and dark accent colors separately; and enable Reduce transparency for solid surfaces.\n• Search filters: Filter illustrations and manga by work type, shape, minimum size, and drawing tool. Search novels by tags, exact tags, body text, or keywords.\n• Popular previews: View a single batch of up to 30 popular works in search results. Work type, shape, size, and tool filters do not apply to this preview.\n• Novel reader: Added overlay controls, adjustable automatic scrolling, and optional volume-key navigation on Android.\n\nImprovements:\n\n• Search, FANBOX, and pixivision tabs now switch within the same page and retain their content. Tabbed pages also support mouse-drag navigation.\n\n• Windows window titles now reflect the current page, artwork, or image being viewed.\n\nFixes:\n\n• Fixed artwork flashing when completing a swipe-back gesture.\n• Fixed layout shifts when opening the keyboard, missing titles in Android sidebar layouts, and duplicate Android clipboard notifications.\n\n• Fixed image-loading errors not reaching retry handling, and corrected pixivision image placeholders and loading layouts.\n• Fixed embedded artwork images missing from novel image galleries.\n• Fixed an iOS Rust compilation failure caused by incompatible backtrace and libc dependencies.\n\nMaintenance:\n\n• Updated Flutter, Rust, Android build tools, and application dependencies.\n• Moved shared interface components into frost_ui for consistent styling and behavior.",
-          "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.2.0%2B6/ios-nosigned.ipa",
-          "size": 23457959,
+          "version": "0.3.0",
+          "date": "2026-11-11T23:03:43Z",
+          "localizedDescription": "What's New:\n\n• Rebuilt interface: Every page has been rebuilt with new adaptive navigation, glass headers that slide away while scrolling, a title-bar search, and blur, Mica, or solid window backgrounds.\n• Multiple accounts: Sign in to several Pixiv accounts and switch between them from Me. Search history is kept separately for each account.\n• Profile editing: Edit your profile and workspace, choose whether AI-generated works are shown, and change your profile image with cropping.\n• Bookmarks and follows: Choose public or private visibility and tags when bookmarking, follow creators privately, and filter your own bookmarks by tag.\n• Series and history: Follow manga and novel series and check updates in the watchlist. Novels keep a reading bookmark on pixiv, and viewed works can be recorded in a local browsing history.\n• Block list: Block tags and users from menus to hide matching works and users across recommendations, rankings, search results, and related works.\n• Linux ARM64: DEB, RPM, and tar.gz packages are now available for ARM64.\n\nImprovements:\n\n• Rankings can be browsed by date, and creator pages now show related users and My pixiv friends.\n• The title-bar search lets you choose the search type, and its dropdown shows recent searches, trending tags, and pixivision articles.\n• Home shows recommended novels and pixivision picks. FANBOX and Settings now appear in the sidebar, and following lists switch between public and private with tabs.\n• Comments open in a panel, works with more than ten pages can jump to a page, and the novel reader supports text selection and copying.\n\nFixes:\n\n• Fixed the updater offering the Apple Silicon build to Intel Macs.\n• Fixed the macOS window appearing before the app was ready, and the novel reader ignoring saved text size and spacing.\n• Fixed empty FANBOX keyword searches and ID search suggestions not using the interface language.\n\nMaintenance:\n\n• Updated Flutter, Rust, and frost_ui. macOS builds require macOS 12.0 or later.",
+          "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.3.0%2B7/ios-nosigned.ipa",
+          "size": 23455913,
           "minOSVersion": "15.0"
         }
       ],
@@ -13366,11 +13366,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.4",
-          "date": "2026-11-03T21:04:01Z",
-          "localizedDescription": "v1.4 brings Crema, EspressU's own touch controls, a new look with Liquid Glass, and removes Vulkan and MoltenVK from the app.\n\nHighlights:\n\n• Crema touch controls: replaces TouchLab. Sticks, one-piece D-pad, face buttons, shoulders, a HOME house symbol and touchscreen pass-through.\n• Edit mode: move and resize single on-screen controls. Positions and sizes are saved with your settings and included in the settings backup.\n• New look: the interface now uses system colours, text styles and Liquid Glass. The in-game pause menu is a centred glass panel.\n• Lighter app: the Vulkan renderer and MoltenVK are gone, so the app is smaller.\n\nInterface:\n\n• The clock and date are back in the top right of the library.\n\n• The settings tint disappears right away when you close Settings.\n• The library backdrop transition is faster on iPhone.\n• Reworked settings pages, theme picker and alternate app icons.\n\niPad and iPhone:\n\n• The iPad now supports all orientations and no longer requires full screen.\n• Game Mode is declared, so iOS can use it while you play.\n• The minimum iOS version is now 17.4 (was 15.0).\n\nStability:\n\n• The SDL joystick system now starts on the main thread.\n• The display placement is only changed when it actually changed.\n• Bundled data files are copied through a staging folder.\n\nLogging:\n\n• CemuCrashLog.txt is gone. Crashes only go to the EspressU report.\n• Log files from earlier versions are deleted when the app opens.\n\nRemoved:\n\n• The old TouchLab controls, including their custom layout and colour files (.espresslyt). Controls start with the Crema default layout.\n• Vulkan and MoltenVK.\n\nNote: v1.4 keeps the app identifier (dev.espressu.EspressU) and installs over v1.3, so your games, saves and settings stay. iOS 17.4 or newer is required.\n\nEspressU contains no firmware, keys or games. Use your own dumps from your own Wii U.",
-          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.4/EspressU-v1.4.ipa",
-          "size": 30393789,
+          "version": "1.5",
+          "date": "2026-11-11T21:50:28Z",
+          "localizedDescription": "v1.5 s a big performance update. Games run smoother, stutter less and the no-JIT mode got a lot faster.\n\nNew:\n\n• Frame generation, built from scratch in Metal (iOS 17.4+, no MetalFX needed). On by default. It pauses itself under heavy GPU load or heat. If you see artefacts, turn it off under Performance \u003e Experimental.\n• The app is now available in 11 languages: German, French, Spanish, Italian, Brazilian Portuguese, Dutch, Russian, Japanese, Korean and Chinese (Simplified and Traditional).\n• Wii U game language setting (all 11 Wii U languages).\n• Graphic packs now update automatically on every app start (can be turned off in the graphic packs settings).\n• Breath of the Wild has FPS++ enabled by default.\n• 120 Hz on ProMotion iPhones.\n• Frame hitch telemetry in the EspressU report.\n\nImprovements:\n\n• Faster no-JIT interpreter. Auto now uses three CPU cores without JIT.\n• Async BC texture loading and direct BC3 transcoding.\n• Recently used textures stay in memory on memory warnings.\n• Fewer shader and pipeline compile stalls.\n• Faster loading of cached Metal pipelines at startup.\n• Lower Metal CPU overhead (batched copies and clears, reused resource bindings, GPU thread no longer polls).\n• Tidied up the Experimental settings.\n\nRemoved:\n\n• Experimental Metal 4 output.",
+          "downloadURL": "https://github.com/EspressU/EspressU-Emu/releases/download/v1.5/EspressU-v1.5.ipa",
+          "size": 31446393,
           "minOSVersion": "17.4"
         }
       ],
@@ -13548,11 +13548,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.10",
-          "date": "2026-11-11T18:11:44Z",
-          "localizedDescription": "English:\n\n• Simplifies reply actions. Failed tool cards respect manual collapse when results refresh.\n• Removes unsuitable 3D, manufacturing and simulation actions from standalone 2D CAD. Editing a 3D sketch locks the view to its plane and restores the view when you finish.\n• Updates image color adjustment, previews and export.\n\n• Corrects state handling at the end of some streaming replies and improves progress, stop and completion feedback for background tasks.\n• Improves live captions and speaker labels during meeting recordings, with a choice to keep recording or stop when leaving the page.\n• Improves toolbox displays and common actions. Traceroute can show IP region and network information using a local database.\n• Adds DXF/DWG import on the 3D editor's sketch page. You can also choose a sketch from a 2D CAD project in Floe and add its native curves and construction geometry to the current sketch while keeping the original project separate.\n\nPlease check editor assistants versus ordinary chats, reply completion and waiting states, recording continuation and stopping, and toolbox actions. For CAD imports, check source-sketch selection, actual size, cancellation and one-step undo. Geometry is copied; dimensions, constraints and links remain in the source project.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.10/Floe-Agent-1.8.10-build332-unsigned.ipa",
-          "size": 915566752,
+          "version": "1.8.11",
+          "date": "2026-11-12T05:27:26Z",
+          "localizedDescription": "English:\n\n• Refines meeting recording, transcription messages and page layout. Playback adds a draggable timeline, skip controls and play/pause. Improves voice-input interruption handling.\n• Improves the transition from plans to goals, with goal editing, pause, resume and delete. Pausing or deleting a goal stops future automatic progress while the current round continues. Stop beside the message box stops that round and pauses its goal; continuing the same round does not restart long-term goal progress.\n• Memory entries show “Retained” to distinguish storage from active use. Browsing no longer renews retention. Older information from deleted tasks gradually fades and can be archived, while pins, lasting preferences and memories used by current work are protected.\n• Improves editing, queries and feedback for 2D CAD, map and schematic/PCB assistants, and adds a 3D component library. Standalone 2D drawings hide the unsuitable 3D sketch-session bar.\n• Organizes image-editing menus and compact-screen controls, separates creating text from updating it, and lets the assistant inspect edit history, undo and redo.\n• Improves display and selection of saved sequences and run results in the biology editor. Chemistry and biology calculations use the selected environment consistently.\n\n• Adds a per-model “Omit thinking parameters” setting for incompatible custom endpoints. Maps supported reasoning levels from reported capabilities while preserving returned reasoning.\n\n• Mac Bridge can read authorized files and images at specified Mac locations, including other workspaces. Older Mac companions show an update requirement when unsupported.\n• Removes the unrelated LaTeX editor entry from ordinary PDF Notes. Organizes Help by iOS and Android, while retaining iPhone Duo's expanded layout and draft continuity.\n\nPlease focus feedback on recording and playback, goal pause/resume/Stop behavior, old-memory retention, editor-assistant results and undo, and everyday use of Office, Mac Bridge and the Duo layout.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.11/Floe-Agent-1.8.11-build333-unsigned.ipa",
+          "size": 916594333,
           "minOSVersion": "26.0"
         }
       ],
@@ -13646,11 +13646,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.24",
-          "date": "2026-11-11T21:48:41Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.24:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.24/Lumisound-2.0.0.24-unsigned.ipa",
-          "size": 15920146,
+          "version": "2.0.0.30",
+          "date": "2026-11-12T05:33:39Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.30:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.30/Lumisound-2.0.0.30-unsigned.ipa",
+          "size": 15927112,
           "minOSVersion": "26.0"
         }
       ],
@@ -13708,10 +13708,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-11T07:29:30Z",
-          "localizedDescription": "Immutable snapshot of alpha build 500 (384c131).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 500, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-500/Non-Jailbroken.ipa",
-          "size": 123772342,
+          "date": "2026-11-12T03:10:56Z",
+          "localizedDescription": "Immutable snapshot of alpha build 501 (0562ef3).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 501, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-501/Non-Jailbroken.ipa",
+          "size": 123771232,
           "minOSVersion": "17.0"
         }
       ],
