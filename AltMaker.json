@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "uk.gleissner.c64commander",
-    "com.wrngwrld.Chanyan",
-    "com.mobilenext.devicekit-ios"
+    "ar.kevinroberts.nicotind",
+    "com.handtracker.mouse",
+    "com.handtracker.app"
   ],
   "apps": [
     {
@@ -683,10 +683,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-10-25T14:30:48Z",
-          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.7.0 Commit: 9f07adef2eb5d559777f9bf59a67b756875cb24f Short SHA: 9f07ade.",
+          "date": "2026-11-13T14:49:27Z",
+          "localizedDescription": "Rolling pre-release from non-tag push.\n\nVersion: v0.7.0 Commit: 85a908bb0eeedbbdbbd648afb892f0e8528628d0 Short SHA: 85a908b.",
           "downloadURL": "https://github.com/xmoezzz/rfvp/releases/download/pre-release/RFVPLauncher.ipa",
-          "size": 19877647,
+          "size": 19898781,
           "minOSVersion": "14.0"
         }
       ],
@@ -1698,10 +1698,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-12T21:11:50Z",
-          "localizedDescription": "Built from 445ba94 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-13T20:23:20Z",
+          "localizedDescription": "Built from 0e8cf1d on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14651226,
+          "size": 14651235,
           "minOSVersion": "15.0"
         }
       ],
@@ -3591,10 +3591,10 @@
       "versions": [
         {
           "version": "0.13.0",
-          "date": "2026-11-13T12:37:04Z",
-          "localizedDescription": "What's fixed:\n\n• With iCloud sync on, bookmarks made before version 0.13.0 are now in the same order on all your devices.\n• With iCloud sync on and NekoSurf open on two devices at once, the change you made last now wins on both, such as how far you've read in a thread, instead of each keeping its own.\n• With iCloud sync on, Settings → History → Clear watched posts now clears them on all your devices, even while another one has a thread open.\n• With iCloud sync on, a file you remove from the Saved tab no longer comes back when it was still going up to iCloud from another device.\n• With iCloud sync on, a setting you changed on another device is no longer undone when this device signs in to iCloud again.\n• With iCloud sync on, removing something while it's still going up to iCloud no longer brings up \"iCloud didn't take a change\".",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.0%2B307/Runner.ipa",
-          "size": 34206272,
+          "date": "2026-11-13T16:05:20Z",
+          "localizedDescription": "🔒 More privacy settings:\n\n• Settings → Privacy can keep NSFW boards hidden until you tap the flame on Boards, and hide them again once you close the app.\n• While NSFW boards are hidden, their threads no longer show in your feed, search, bookmarks or history either.\n• Images on NSFW boards can stay covered until you tap them.\n• The Saved tab can be taken out of the tab bar; Saved then opens from History.\n\n• Saving to Photos can ask first.\n• The app switcher can show the app blurred on iPhone, or blank on Android, instead of what's open, with videos paused till you're back.\n• History can be kept only while the app is open: it's never stored or synced, and forgotten when you leave the app.\n\n🧹 Simpler storage settings:\n\n• One Clear cache button clears both images and videos.\n• Keep watched posts, Video cache limit, Clear watched posts and Clear recently visited are gone: clear your history on the History page.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.0%2B308/Runner.ipa",
+          "size": 34224809,
           "minOSVersion": "17.0"
         }
       ],
@@ -3798,11 +3798,11 @@
       "category": "social",
       "versions": [
         {
-          "version": "0.9.0",
-          "date": "2026-10-18T16:26:13Z",
-          "localizedDescription": "Changes:\n\n• Revert \"feat(summary): compact old history into summary blocks by context fill (#730)\".\n• Revert \"feat(summary): system and user turns, names, a fuller prompt, one shortening pass (#736)\".\n• Revert \"feat(summary): pick retell and merge prompts from presets, as Memory Books (#739)\".\n\n• feat(summary): pick retell and merge prompts from presets, as Memory Books (#739).\n• feat(summary): system and user turns, names, a fuller prompt, one shortening pass (#736).\n\nAndroid:\n\n• v0.9.0.apk — universal, runs on any phone (32- and 64-bit).\n• v0.9.0-arm64-v8a.apk / v0.9.0-armeabi-v7a.apk — smaller, pick your device's ABI.",
-          "downloadURL": "https://github.com/hydall/Glaze/releases/download/v0.9.0/v0.9.0.ipa",
-          "size": 26201637,
+          "version": "0.10.1",
+          "date": "2026-11-13T20:13:46Z",
+          "localizedDescription": "Changes:\n\n• fix(shell): keyboard no longer lifts shell screens off the top; version 0.10.1 (#823).\n• feat(plugins): include installed plugins in backups and cloud sync (#821).\n\nAndroid:\n\n• v0.10.1.apk — universal, runs on any phone (32- and 64-bit).\n• v0.10.1-arm64-v8a.apk / v0.10.1-armeabi-v7a.apk — smaller, pick your device's ABI.\n\nWindows:\n\n• v0.10.1-windows-setup.exe — installer, updates itself from inside the app.\n• v0.10.1-windows.zip — portable copy, nothing to install.",
+          "downloadURL": "https://github.com/hydall/Glaze/releases/download/v0.10.1/v0.10.1.ipa",
+          "size": 26889668,
           "minOSVersion": "15.0"
         }
       ],
@@ -4903,11 +4903,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.6.9",
-          "date": "2026-11-07T18:20:48Z",
-          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nVibration as on the console:\n\nMost rumble never reached the controller: the two motor speeds were read from the wrong place (only the game's strong motor got through, as the light one), and their strengths were worked out differently from the Xbox, so full strength came out at half. Both are fixed — the game's rumble now arrives as the console made it.\n\nPhoto mode put right:\n\nOn Windows and Linux, Y (L on a keyboard) now hides the whole HUD, health bar included, and in widescreen the HUD sits at the screen's edges again. A spray can you had just picked up no longer stays stuck to the screen when you turn the camera.",
-          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-iOS.ipa",
-          "size": 13411339,
+          "version": "0.6.10",
+          "date": "2026-11-13T16:45:29Z",
+          "localizedDescription": "Jet Set Radio Future, natively on Mac, Windows, Linux, Android, iPhone and iPad. You need your own copy of the game (the standalone US disc): these downloads are the engine only.\n\nVibration on a controller on the Mac:\n\nA DualSense (or any controller with vibration) never vibrated on the Mac: macOS refused the kind of vibration player the port asked for, and that refusal was final for the whole session. Controllers now get the kind macOS plays. As on the console, the game itself only vibrates when you take a hit.\n\nA better map selector:\n\nThe garage is in the list now, and 99th Street and Dogenzaka Hill load a version without a rival gang's race waiting by the exit. Choosing a map from the garage's character select no longer leaves its text on screen.",
+          "downloadURL": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.10/JSRF-Unleashed-iOS.ipa",
+          "size": 13413119,
           "minOSVersion": "15.0"
         }
       ],
@@ -4960,11 +4960,11 @@
       ],
       "versions": [
         {
-          "version": "1.65.5",
-          "date": "2026-11-04T14:47:48Z",
-          "localizedDescription": "Maya IPTV 1.65.5.\n\nRecherche.\n\n• Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné: ils restent accessibles depuis leur catégorie dans les onglets.\n• Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental.\n\n• Stalker: un code parental différent de celui du portail ne vide plus les catégories de chaînes; seules les chaînes censurées restent retenues.\n• Mode Direct (Xtream): la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.\n\n🐛 Corrections:\n\n• stalker — un code parental inconnu du portail ne vide plus toutes les catégories du direct.\n• backend — marquer les éléments adultes par leur catégorie, avec ou sans code parental.\n• search — la recherche n'affiche plus le contenu adulte ni les catégories masquées, sur tous les chemins [apk].",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/MayaIPTV-iOS.ipa",
-          "size": 30533403,
+          "version": "1.65.6",
+          "date": "2026-11-13T14:24:52Z",
+          "localizedDescription": "Sous-titres - Un fichier OpenSubtitles remplace désormais vraiment la piste intégrée du flux: sur Freebox et d'autres boîtiers Android TV, la piste du fournisseur restait affichée à la place du fichier choisi. - Une seule réplique à la fois: quand les horodatages d'une piste se chevauchent (le résumé en début d'épisode chez certains fournisseurs), les répliques ne s'empilent plus à l'écran.\n\nCôté serveur (déjà en ligne, toutes versions).\n\n• Correction de la panne du 12 novembre pendant laquelle les catalogues ne se chargeaient plus, et une surveillance qui prévient désormais en cas d'indisponibilité.\n• Chargement plus fluide quand beaucoup de matchs sont en direct.\n• Stalker: un code parental refusé par le portail ne révèle plus les films et séries adultes.\n\n🐛 Corrections:\n\n• android — une seule réplique de sous-titre à la fois, la plus récente gagne [apk].\n• backend — la garde de concurrence /api/iptv ne fuit plus ses slots.\n• android — un sous-titre OpenSubtitles remplace vraiment la piste intégrée [apk].\n• stalker — un code parental refusé par le portail ne révèle plus les films et séries adultes.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/MayaIPTV-iOS.ipa",
+          "size": 30533405,
           "minOSVersion": "15.0"
         }
       ],
@@ -6013,10 +6013,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-11T14:57:52Z",
+          "date": "2026-11-13T15:09:28Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484764,
+          "size": 7484767,
           "minOSVersion": "16.4"
         }
       ],
@@ -6223,10 +6223,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-12T21:30:27Z",
-          "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
-          "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56201066,
+          "date": "2026-11-13T18:52:14Z",
+          "localizedDescription": "Feats:\n\n• Button Mapping: Lets you assign keyboard keys or gamepad buttons to a virtual controller with an XInput layout. Menus use this layout, so navigation stays the same regardless of your game button settings.\n• Controller Setup: Lets you assign virtual controller buttons to game actions or button combinations. Any keyboard or gamepad can use any setup, and each device remembers its last choice.\n• Two new game buttons, l and r, work in commands, AssertInput and ShiftInput.\n• Menus show the key or button to press for each action, using the artwork of the device in use.\n• Button Mapping lets each controller choose which icon set its hints use.\n• Font DEF files set the position, size and spacing of inline glyphs, and [Files] can override them for each font.\n• Text can change color inline with .\u003c/\u003e.\n• Screenpack, storyboard, Lua, lifebar, LifebarAction and Text sctrl text can all use color tags and glyphs.\n• Config all in Button Mapping walks through every virtual control on the controller diagram.\n• Test Mapping highlights the virtual controls a device produces.\n• Test Setup shows which engine buttons and stick directions a Controller Setup produces.\n• controllersetup.configall and buttonmapping.configall in [Option Info] set which buttons Config all asks for.\n• All text entry uses an on-screen keyboard that works with a controller. The hiscore initials selector is still available as an option.\n• The player who opened the pause menu controls it.\n• The button that opens the pause menu, and how long it must be held, are configurable via open.action and open.holdtime.\n• Side Select: Before a mode starts, each player picks a side, chooses a Controller Setup and confirms they are ready.\n• A challenger joining mid-arcade takes the opposite side and the winner continues the arcade run.\n• Versus co-op allows one to four players per side, so matches like 1 vs 2 or 3 vs 1 work the same as even teams.\n• With side select, more players can join a side in Team Arcade, Team Versus, Survival and Time Attack as co-op partners. Otherwise the modes work as before.\n• Every co-op mode can pick Turns. Each team member is played by the player who picked it, and side select or automatic assignment decides who plays like in Simul and Tag.\n• Co-op modes have order select like other team modes. Every player on the side can pick the order, and each player keeps controlling the character they picked.\n• Menus show a description of the highlighted item.\n• Command Display in Input Settings shows single-button glyphs, such as ^A or _F, as the key or button they are bound to (Mapping), or as the standard button art (Setup).\n• Mirror Commands in Input Settings flips command list directions while the player who opened the pause menu faces left.\n• Characters can split their command list into pages with movelist. keys. ChangeMovelist switches the set and its pages together.\n• The command list only shows characters played with the controls of the player who opened the menu.\n• Screenpacks can show bezel/side art in the black bars around the fight and menus, like arcade cabinet artwork.\n• Resolution, window size, fullscreen, borderless, VSync, MSAA, shaders and 3D options apply right away. A failed change is reverted.\n• Renderer and language options are picked from a list and auto restart the game.\n• Rematch menu during victory screen in versus-type modes.\n• Victory screen shows each player's wins, win streak and win rate in versus-type modes.\n• Pause menu support during netplay, including Controller Setup changes that last for the rest of the session.\n• Mouse support for motif driven screens.\n\nFixes:\n\n• While hosting or joining and waiting for the other player, pressing cancel on a controller now returns to the menu, like Esc.\n• The game no longer squeezes the screenpack and the fight into one fixed area with fake black bars, so screenpack pixels stay sharp. The framebuffer now matches the window's shape, separate from the game resolution.\n• xshear lifebar text was shifted by the wrong amount on lifebars that aren't 320x240.\n• Letters missing from a bitmap font took no space when measured but were drawn as spaces, so centered and right-aligned text was off.\n• Centered and right-aligned typewriter text (textdelay) moved sideways while it was being typed.\n• Typewriter text with non-English letters typed some of them in several steps instead of one.\n\nRefactors:\n\n• .key and .keycode parameters are replaced by .action. An action lists virtual controls, so menus work the same for every keyboard and gamepad whatever their Controller Setup. KEY: can be used in action to assign a local keyboard key, and BTN: an engine button after the Controller Setup (BTN:a, BTN:start).\n• Peers exchange the content of their Controller Setups when the session starts, and replays store them in the header, so every side turns the same frames into the same game buttons. Each frame is still 8 bytes per player.\n• The player who starts a mode is tracked separately from the side they play on. Defaults to the left side.\n• The common menu system now supports movelists, replacing their separate drawing and scrolling code.\n• Lets a sprite be drawn without the frame skip and layer checks of Anim.Draw.\n• All text draws through the same code.",
+          "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/branch-modern-input/Ikemen_GO-modern-input-ios.ipa",
+          "size": 56412168,
           "minOSVersion": "17.0"
         }
       ],
@@ -6536,11 +6536,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.27",
-          "date": "2026-11-11T13:55:29Z",
-          "localizedDescription": "iGhostVT 1.6.27 replaces the Mac's new-tab menu with a popover you can search.\n\n• On a Mac with many paired devices, the new-tab menu grew taller than the window, and each device's terminals sat behind a submenu. New Tab now opens a popover: choose All Devices, This Mac, or a paired device with its count of open terminals on the left, and open a directory or a terminal on the right. With two paired devices or fewer, the popover is a single list.\n• The new-tab menu could not be searched. Type in the popover to filter directories and terminals on every device, move with the arrow keys, and press Return to open.\n• Two recent directories with the same folder name looked the same in the menu. On the Mac, each now shows its full path beside its name.\n• With the Mac's sidebar hidden, New Tab was only inside the ⋯ menu. A + button now sits in the top bar beside the sidebar button.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.27-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.27.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.27/GhostRemote-1.6.27.ipa",
-          "size": 7061822,
+          "version": "1.6.28",
+          "date": "2026-11-13T19:40:16Z",
+          "localizedDescription": "iGhostVT 1.6.28 moves to a newer Ghostty and lets Control-Shift shortcuts reach the terminal on the Mac.\n\n• On the Mac, Control-Shift-A, B, E, F, N, P and V never reached the program, and Control-Shift-' typed a plain \": macOS took them as its own text-editing shortcuts. They now reach the program, as Control-Shift with any other letter and Control-Delete do.\n• With a Chinese or Japanese input method on iPhone or iPad, the candidate bar sat one row below the line being typed. It now sits on that line.\n• On a 120 Hz iPhone or iPad, a flick on the terminal glided at 60 Hz. It now glides at the display's rate.\n• On a Mac with a touch display, a finger could not scroll the terminal. A finger now scrolls it, and a pinch changes the text size.\n• Resizing a terminal could leave its scrollback out of place, and on the Mac a triple-click across blank lines lost the selection. Both are fixed in the newer Ghostty, which also draws large output faster.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.28-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.28.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.28/GhostRemote-1.6.28.ipa",
+          "size": 7081863,
           "minOSVersion": "15.0"
         }
       ],
@@ -6709,11 +6709,11 @@
       ],
       "versions": [
         {
-          "version": "1.58.2",
-          "date": "2026-11-13T09:10:44Z",
-          "localizedDescription": "Added:\n\n• \"Keep playing when you leave the book\" in Audiobook settings, off by default: the book stops when you go back or open another clip. On, it keeps playing, like Narrate's \"Keep reading when you leave the clip\".\n\n• A collection can show its clips as covers instead of a list (⋯ › Show as covers), for a shelf of books. Kept on this device.\n• A collection's cover in the library shows what it holds, a small mark for each kind: clips, files, audiobooks, notes.\n• Library, Feeds, Newsletters and Discover each have a Search icon switch in View options. On, search waits behind the icon at the top; off, the search field is always at the top and the icon goes. It starts on everywhere but Discover, as before. Feeds and Newsletters get a View options button for it.\n• A Stop button on the \"Writing the transcript\" notification, and \"Stop writing\" in the audiobook's Read along sheet whenever its transcript is being written. After Stop, nothing more is written until you play the book again or press Write the rest now.\n\nChanged:\n\n• An audiobook with no transcript yet shows its cover on the page, instead of an empty space.\n• Audiobooks: \"Write ahead while charging\" is off until you turn it on. It was on from the start, so a transcript could begin by itself when the phone was put on charge.\n\nFixed:\n\n• Audiobooks: the dot on the player's track drags. It follows your finger with the times, and the book moves there when you let go. Before, only a tap moved it. The track is also easier to catch.\n• The time you've spent on a file sits right under its \"Opened from\" line, as one footer with one line above it, instead of two that read like the same thing twice.\n• An audiobook no longer ends with \"Opened from\" its file name: the player under it already says what it is.\n• Edit clips now finds words in link addresses, so you can find every link to a site (say oceanofpdf.com). Removing it takes the link away and keeps its words; Replace with rewrites the address.\n• A space typed in Edit clips' Find also matches a no-break space or a line break in the clip, as Find in this clip does.\n• Back to where you were no longer stays up for good after a link, Contents, a highlight, find or the skim bar. It goes once you scroll back to that spot yourself, or read on three screens past where the jump put you. Scrolling toward the old spot keeps it.\n• The small window outside the app no longer pops up when you go home with nothing playing. It opens only while Narrate or an audiobook is actually playing, not when it's paused, was stopped by another app taking the sound, or ended while you were away.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.58.2/Waypage.ipa",
-          "size": 10869581,
+          "version": "1.59.0",
+          "date": "2026-11-13T19:32:36Z",
+          "localizedDescription": "Added:\n\n• Android Auto. Waypage is in the car's media apps, with three tabs: Continue (the audiobook and the clip you were last on), Audiobooks, and Up next (your 10 latest unfinished clips, narrated). Tap one and it plays with the phone in your pocket and the app closed. An audiobook shows its cover and chapter, and its chapters are the queue. Beside the paragraph buttons, Narrate has Next clip and Previous clip (the collection's next clip, else the next under Up next), and an audiobook Next and Previous chapter (or file, for a folder with no chapters). Ask \"Hey Google, play on Waypage\" to start a book or clip by name. Where the car got to is back in the app when you next open it. With App lock on, the car lists nothing. A Waypage installed from GitHub needs Android Auto's Unknown sources setting (Android Auto's settings, tap Version ten times, then ⋮ › Developer settings).\n\nChanged:\n\n• Narrate and audiobooks show their cover on the lock screen and in the car, and an audiobook's chapter under its title as it goes.\n• On a phone, the reader's top bar no longer squeezes the name in among its buttons. The name hangs in a bubble just under the bar, with the chapter you're in under it, and goes away with the bar as you read on. Tap the name to rename it, as before.\n\nFixed:\n\n• A note's card shows its first page with what is drawn on it as soon as the note is made, after you draw on it, and after it comes in from another device, without opening it first. A card no longer keeps showing the older drawing.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.59.0/Waypage.ipa",
+          "size": 10882674,
           "minOSVersion": "15.5"
         }
       ],
@@ -7237,10 +7237,10 @@
       "versions": [
         {
           "version": "2.0.0",
-          "date": "2026-10-31T16:38:40Z",
-          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget and the iPhone build. Please report problems in Issues.\n\nWhat's new:\n\n• A calmer way to mark a session. One Attended button with a menu for the other statuses replaces the green and red buttons; the color only shows once it's marked.\n• Today is less crowded: the session in the big card isn't listed again in the schedule.\n• Stats starts with your courses: overall attendance, then each course with its requirements under it. On phones the charts fold under More details.\n• Settings on phones is a short list of categories, each on its own page.\n• Days off stand out on Week: the whole day is tinted with its name at the top, and a new icon replaces the umbrella. The date stays visible.\n• A saved recording is one tap away: \"Recording link\" opens it, and Edit changes it.\n• Reception hours: turn them on in Settings → Courses, add them to a course like a meeting, and they show on Week as an outline. They never count toward attendance.\n\n• Clearer Hebrew: statuses read as nouns, like נוכחות and היעדרות, and other awkward wording is fixed.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.17-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.17-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? 2.0.0-beta.15 offers Move to the Flatpak; from an older one, install the Flatpak as above and sign in or import a backup.",
-          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.17/LecCheck-2.0.0-beta.17-ios.ipa",
-          "size": 11479753,
+          "date": "2026-11-13T17:28:40Z",
+          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget and the iPhone build. Please report problems in Issues.\n\nWhat's new:\n\n• Reception hours stay visible next to a class. A class at the same time used to cover the reception box on Week; now the reception hour becomes a thin strip beside it, named in its tooltip.\n• See which sessions have a recording or a note. Small icons show on session cards and, where there's room, on Week. The Today card has a Recording link button when one is saved.\n• All sessions filters and sorts. Show only sessions with a recording or a note, and sort newest or oldest first, by course, or with recordings first. Search finds recording links too.\n• A new status: Read the summary. Mark a session you caught up on by reading its summary. It counts like a watched recording: present in your stats, and toward a requirement when recordings count. On phones the status buttons now take two rows. Keys 1 to 6 mark a session on desktop. Older versions of the app show these sessions as unmarked until they update.\n• Days off are easier to spot. The day's name at the top of Week is tinted with the day-off icon, and the month calendar on desktop gives a day off its own tinted circle instead of fading it like a day outside the semester.\n• Cancel all classes on one day without making it a day off: tap the day's name on Week. The day gets the canceled stripes, and Undo or Restore classes brings them back.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.18-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.18-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? 2.0.0-beta.15 offers Move to the Flatpak; from an older one, install the Flatpak as above and sign in or import a backup.",
+          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.18/LecCheck-2.0.0-beta.18-ios.ipa",
+          "size": 11486330,
           "minOSVersion": "15.0"
         }
       ],
@@ -8992,10 +8992,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-13T10:28:42Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b0ff2f3. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-240/Ito-1.5.0-dev.240-unsigned.ipa",
-          "size": 13944724,
+          "date": "2026-11-13T19:11:27Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 9b8bcaf. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-242/Ito-1.5.0-dev.242-unsigned.ipa",
+          "size": 14005805,
           "minOSVersion": "15.4"
         }
       ],
@@ -9444,11 +9444,11 @@
       ],
       "versions": [
         {
-          "version": "26.11.3",
-          "date": "2026-11-09T10:58:43Z",
-          "localizedDescription": "macOS:\n\n• Fixed title-bar double-click zoom and window dragging.\n\nLinux:\n\n• Fixed window resizing, duplicate title bars, and the first click after dragging.\n\nAll platforms:\n\n• DNS defaults now use TCP; saved DNS settings and cached connection configurations stay unchanged.\n• New advanced routing templates proxy non-A/AAAA DNS queries; saved templates stay unchanged.\n• Batch-test latency for the current filtered server list; set the auto-selection scope on Connect.\n• Latency-test settings summaries now refresh after editing.\n• Xray-core: v26.10.31.\n\nLinux:\n\n• Xray-core: v26.10.31.",
-          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.3/OneXray-ios.ipa",
-          "size": 91483462,
+          "version": "26.11.4",
+          "date": "2026-11-13T13:16:05Z",
+          "localizedDescription": "Linux:\n\n• Window controls now use the system title bar.\n\nAll platforms:\n\n• Reorganized first-run setup and simplified labels and spacing across pages.\n• Combined server, latency, traffic and duration in one session section, with placeholders to reduce layout shifts.\n• Respects system Reduce Motion settings.\n• Xray-core: v26.11.9.\n\nLinux:\n\n• Xray-core: v26.11.9.",
+          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.4/OneXray-ios.ipa",
+          "size": 91754245,
           "minOSVersion": "16.0"
         }
       ],
@@ -10033,11 +10033,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.129",
-          "date": "2026-11-12T20:51:22Z",
+          "version": "0.8.130",
+          "date": "2026-11-13T20:33:23Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.129/NicotinD-0.8.129-unsigned.ipa",
-          "size": 1673202,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.130/NicotinD-0.8.130-unsigned.ipa",
+          "size": 1676947,
           "minOSVersion": "15.0"
         }
       ],
@@ -10678,10 +10678,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-12T21:11:50Z",
-          "localizedDescription": "Built from 445ba94 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-13T20:23:20Z",
+          "localizedDescription": "Built from 0e8cf1d on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45420478,
+          "size": 45421586,
           "minOSVersion": "15.0"
         }
       ],
@@ -12631,41 +12631,6 @@
       }
     },
     {
-      "name": "Duet",
-      "bundleIdentifier": "com.knightabdo.knightmusic",
-      "developerName": "KNIGHTABDO",
-      "subtitle": "Knight Music and Streamora in one native app for iPhone and iPad",
-      "localizedDescription": "Duet is an open-source iOS and iPadOS 26 app made of two halves:\n\n• Knight Music, a native SwiftUI client for Navidrome and other OpenSubsonic servers. It has an offline-first library, beat-matched AutoMix transitions, YouTube Music next to your own songs, animated Apple Music artwork on the lock screen, song recognition, an AI music assistant, widgets and Siri.\n• Streamora, a personal movie and TV app, with its native VLC player and Google Drive sync.\n\nShake the phone to switch between them. Each side keeps its exact state while you use the other, and both share one lock screen. Because it is one app, it uses one App ID and one SideStore slot.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.knightabdo.knightmusic.png",
-      "tintColor": "#d92823",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-home.jpg",
-        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-album.jpg",
-        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player.jpg",
-        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player-animated.jpg",
-        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-lockscreen.jpg"
-      ],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-11-11T03:21:40Z",
-          "localizedDescription": "Duet 1.0.1.\n\nFixes and polish:\n\n• Resume where you left off on another device: when your Navidrome server has a newer queue from another device, a toast offers to continue it. Your own queue is never offered back to you.\n\n• Less work while playing: the stream cache no longer writes to the database on every lookup, and AutoMix keeps fewer plans in memory and deletes expired ones from disk.\n• Cleanup of unused code.",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v1.0.1/Duet.ipa",
-          "size": 127118264,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Knight Music connects to your Navidrome server on your local network.",
-          "NSMicrophoneUsageDescription": "Knight Music uses the microphone to recognize music playing around you and for voice requests.",
-          "NSSpeechRecognitionUsageDescription": "Knight Music uses speech recognition to convert your voice into text for Knight AI."
-        }
-      }
-    },
-    {
       "name": "PicStrip",
       "bundleIdentifier": "com.northcutt.PicStrip",
       "developerName": "northcutted",
@@ -12812,7 +12777,7 @@
       "bundleIdentifier": "app.naviamp.ios",
       "developerName": "goosepod",
       "subtitle": "Windows, Mac, Linux, Android and Android TV player for Navidrome",
-      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The signed package currently contains v2.10.0, including Java, and runs on X11 or XWayland. Newer Flatpak updates await signing; use the direct Linux downloads for the latest application release.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.",
+      "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The signed package contains v2.11.2, including Java, and runs on X11 or XWayland. Existing Flatpak installations can update through the same signed remote.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.naviamp.ios.png",
       "tintColor": "#037ecf",
       "category": "other",
@@ -13466,11 +13431,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.20",
-          "date": "2026-11-13T11:25:00Z",
-          "localizedDescription": "English:\n\n• Refines meeting recording controls and media layout, keeping original recordings distinct from transcription chunks.\n• Improves pause, resume and full-recording playback while preserving originals and offering retry or individual-part access when a part is unavailable.\n• Repairs cleanup recovery and records after legacy-environment migration while protecting existing data.\n• Fixes missing Goal cards and restores Agent input mode after a Goal is accepted as guidance during a running task.\n\nFor internal testing and the existing GitHub/Feather channels. Reclaimed storage depends on completed work on the device.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.20/Floe-Agent-1.8.20-build341-unsigned.ipa",
-          "size": 918213318,
+          "version": "1.8.22",
+          "date": "2026-11-13T18:35:34Z",
+          "localizedDescription": "English:\n\n• Fixes Optimize Storage becoming unavailable after an update by recognizing native closure receipts retained from an earlier recovery session.\n• Preserves pending jobs and all historical locks on restart, protecting original files, installed software and recovery disks.\n\nFor internal testing and the existing GitHub/Feather channels. Reclaimed storage depends on completed work on the device.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.22/Floe-Agent-1.8.22-build343-unsigned.ipa",
+          "size": 918244256,
           "minOSVersion": "26.0"
         }
       ],
@@ -13523,36 +13488,6 @@
           "NSCameraUsageDescription": "Wyrm uses the camera when you take a photo or record a video for a trail.",
           "NSMicrophoneUsageDescription": "Wyrm records sound with the videos you make for a trail.",
           "NSPhotoLibraryUsageDescription": "Wyrm shows your photos and videos so you can pick one for a trail."
-        }
-      }
-    },
-    {
-      "name": "Lumisound",
-      "bundleIdentifier": "com.lumisound.ios",
-      "developerName": "VoxeliseStudios",
-      "subtitle": "Your music, lit up",
-      "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
-      "tintColor": "#8e60b4",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "2.0.0.38",
-          "date": "2026-11-13T09:30:09Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.38:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.38/Lumisound-2.0.0.38-unsigned.ipa",
-          "size": 16796340,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "Lumisound checks your connected Bluetooth accessory's battery level so it can warn you before it dies.",
-          "NSFaceIDUsageDescription": "Lumisound can use Face ID to lock the app, since it syncs your playlists and listening history to your account.",
-          "NSHealthShareUsageDescription": "Lumisound reads your headphone audio exposure to help you spot loud listening habits, and your sleep data (if you use the Adaptive Sleep Timer) to learn roughly when you fall asleep.",
-          "NSMicrophoneUsageDescription": "Lumisound records a short hum to find a matching song already in your library.",
-          "NSMotionUsageDescription": "Lumisound uses head tracking to anchor Spatial Audio in place as you turn your head, and step counting (Workout Mode) to match playback speed to your pace."
         }
       }
     },
@@ -13684,11 +13619,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.16",
-          "date": "2026-11-12T07:04:16Z",
-          "localizedDescription": "Release v6.3.16:\n\n• Keep database initialization compatible with background sync (c055358).\n• Refresh installed widget count after Lock Screen changes (6d88101).\n• Translate captured text in Android Screen Lookup (b17709b).\n• Keep novel artwork and books loading across CDN changes (9cd37da).\n• Recover interrupted flashcard collection syncs (d99d52c).\n• Adjust podcast audio clips when creating flashcards (1b76cad).\n• Keep multiword dictionary tags together (48d4473).\n• Keep flashcard reviews moving between cards (2fc2791).\n• Keep shared imports in the Default category (9ae724f).\n• Tighten dictionary popup spacing and accents (4fc008d).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.16/Manatan-v6.3.16-iOS.ipa",
-          "size": 445295729,
+          "version": "6.3.17",
+          "date": "2026-11-13T19:26:02Z",
+          "localizedDescription": "Release v6.3.17:\n\n• Invalidate Apple runtime caches when recorder patches change (afa43f9ff).\n• Preserve ordinary recording in Apple builds (ac9aac7ed).\n• Keep buffered video exports compatible with Apple builds (66d61ec06).\n• Prepare Flashcards review queues in the background (9717e4217).\n• Keep the screen on while reading (300b1bdec).\n• Enable zoom on fullscreen novel illustrations (6c0ffb4cb).\n• Make immersion sync failures diagnosable (3060d23ba).\n• Keep the Android keyboard open during subtitle search (37aea5132).\n• Toggle primary and secondary subtitles independently (3ba090111).\n• Keep vertical novel pages fully visible when reopening (df574ccde).\n• Save full sentences in EPUB flashcards (9615b26a9).\n• Fix missing card images on 32-bit Android (c24885dcd).\n• Show selected subtitles together on the video (85505f18d).\n• Reuse buffered video for animated flashcards (19bc61194).\n• Fix frozen animated flashcard clips after late seeks (91eca4ba3).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.17/Manatan-v6.3.17-iOS.ipa",
+          "size": 445764787,
           "minOSVersion": "16.1"
         }
       ],
@@ -13825,6 +13760,30 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "PlatinumQuest uses the local network to discover and connect to nearby players for multiplayer."
         }
+      }
+    },
+    {
+      "name": "Lumisound",
+      "bundleIdentifier": "com.lumisound.ios.tv",
+      "developerName": "VoxeliseStudios",
+      "subtitle": "Your music, lit up",
+      "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.tv.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.0.40",
+          "date": "2026-11-13T19:10:46Z",
+          "localizedDescription": "Apple TV build for Lumisound v2.0.0.40.\n\nInstall: download the .ipa and sideload it to your Apple TV with atvloadly. Search and stream from the Lumisound bridge.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/tvos/v2.0.0.40/LumisoundTV-2.0.0.40.ipa",
+          "size": 11141011,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
