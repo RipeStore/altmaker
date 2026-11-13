@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.mxfia19.TwitchUnblockTV",
-    "com.kant.messenger",
-    "com.aigch.OpenParsec"
+    "org.floeagent.ios",
+    "com.aigch.OpenParsec",
+    "com.porksphere.comical"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.189.1",
-          "date": "2026-11-12T03:02:42Z",
-          "localizedDescription": "Carry the acquisition-owned estimator through shared resource work and Rank Discoveries identity and sighting calls. Preserve resource currentness, scheduling, cache policy, request inventory and honest unknown/overrun states.\n\nTwo real-consumer regressions fail on the published source and pass with the repair; six independent propagation mutations fail the intended assertions.\n\nThe .ipa below is UNSIGNED and was built by CI from 4e085bb, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v1.189.1/BirdChaser-unsigned.ipa",
-          "size": 143469540,
+          "version": "2.0.0",
+          "date": "2026-11-12T23:11:35Z",
+          "localizedDescription": "Bird Chaser 2.0.0:\n\n• Home setup: Confirm Home now opens Confirm region immediately. Region checking runs there with read-only checking/retrying/offline status, bounded automatic retries, and usable Back, Cancel and Close controls. A stalled or failed lookup retains the draft; only explicitly confirming a verified matching region saves Home.\n• Getting Ready: Abbreviated Elap: appears beside Est:, with a full accessible elapsed-time label. It measures the current preload run, including stalls and time while closed; reopening does not restart data acquisition.\n\nInternet access and successful region validation are still required. No guessed region or offline setup completion is introduced. Inline checklist photos remain deferred.\n\nUnverified on device: The recovery and elapsed lifecycle have controlled DOM, mutation and real-Chrome coverage, but have not yet been exercised in this build on the owner's device. The original network stall's exact transport cause remains unverified.\n\nThe .ipa below is UNSIGNED, built by CI from 6a509f3b30bbb28082b0f5415450c96165a8705d, the commit this Release points at. Sideload with AltStore and follow the attached beta guide. Signed TestFlight delivery and availability are separate milestones.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.0.0/BirdChaser-unsigned.ipa",
+          "size": 143473715,
           "minOSVersion": "15.0"
         }
       ],
@@ -1698,10 +1698,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-12T17:07:11Z",
-          "localizedDescription": "Built from cdc4546 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-12T21:11:50Z",
+          "localizedDescription": "Built from 445ba94 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14651223,
+          "size": 14651226,
           "minOSVersion": "15.0"
         }
       ],
@@ -1942,21 +1942,24 @@
       "bundleIdentifier": "io.github.saschb2b.cyberworldendless",
       "developerName": "saschb2b",
       "subtitle": "A roguelike built on the real Mega Man Battle Network 6, from your own ROM: every run jacks MegaMan into a newly generated net of battles, loot and guardian Navis",
-      "localizedDescription": "· Player's guide · Project page · Discussions · itch.io.\n\nYou need your own ROM: Mega Man Battle Network 6: Cybeast Gregar (USA), unmodified. Battle Network 5: Team Colonel (USA) and Battle Network 4: Red Sun (USA) beside it are optional: their areas and viruses join the runs, BN4's tournament too, and online BN5 fills the NetPass (NetBattles, trades, the week's DeepNet). No download and no page contains Capcom data; without the ROM there is no game. What the game checks.\n\n·.\n\n· Host a Net Square · For developers · Buy me a coffee.",
+      "localizedDescription": "· Player's guide · Project page · Discussions · itch.io.\n\nYou need your own ROM: Mega Man Battle Network 6: Cybeast Gregar (USA), unmodified. Battle Network 5: Team Colonel (USA) and Battle Network 4: Red Sun (USA) beside it are optional: their areas and viruses join the runs, BN4's tournament too, and online the two fill the NetPass (NetBattles, trades, the week's DeepNet). No download and no page contains Capcom data; without the ROM there is no game. What the game checks.\n\n·.\n\n· Host a Net Square · For developers · Buy me a coffee.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.saschb2b.cyberworldendless.png",
       "tintColor": "#207a76",
       "category": "games",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@main/docs/clips/trailer-play.png",
-        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@main/docs/screenshots/portmaster.png"
+        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@v0.21.0/docs/clips/trailer-play.png",
+        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@v0.20.0/docs/clips/trailer-play.png",
+        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@v0.19.0/docs/clips/trailer-play.png",
+        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@v0.19.0/docs/screenshots/gba-profiles.png",
+        "https://cdn.jsdelivr.net/gh/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless@v0.19.0/docs/screenshots/gba-lcd3x.png"
       ],
       "versions": [
         {
-          "version": "0.20.0",
-          "date": "2026-11-09T00:28:45Z",
-          "localizedDescription": "Its ROM beside BN6's:\n\nPut Mega Man Battle Network 4: Red Sun (USA) beside BN6's and the ROMs screen takes it as a third cartridge, red, with Duo's face. Without it a run is exactly as before, and a run saved with it goes on without it, a layer of BN4's starting again in BN6's tiles. It works on every system that takes BN5; the New 3DS has room for one of the two, BN5's first.\n\nIts areas and its music:\n\nBN4's five net areas turn up in runs in place of the BN6 areas they resemble: ACDC Area, Town Area, Park Area, the net of far countries and its Undernet, each in BN4's own tiles and backdrops, with BN4's music on the map and in battle and its battle backgrounds. The seed picks them area by area, about half the runs that come there (a quarter where BN5 has an area there too).\n\nIts viruses visit:\n\nFrom the second act six of BN4's virus families visit battles: Billy, Spikey, Shrimpy, Walla, Elmperor and CirKill, in the same one battle in four that BN5's viruses visit, and MegaMan names them as the older Net's. Each was moved into BN6's battle and checked against BN4's own frame by frame. They pay from BN4's own rewards; a chip BN6 has not got pays 200 zenny.\n\nThree Navis in a row:\n\nOnce a profile has reached the Nest, and with BN4 Red Sun's ROM beside BN6's, act 3's arena in half the short runs (and one of acts 3 to 5 each endless cycle) holds three Navis in a row instead of one guardian: two rounds below the act's guardian and the final at it. Your HP carries from round to round with no heal between, and a round lost is the run's end. BN4's own bracket screen shows the rounds between them, every entrant with his own face; BN6's and BN5's Navis' faces are made from your ROMs as the game starts. The act's card lists the three (\"???\" for a Navi you never met), and MegaMan reads three signals at the portal. A quit comes back at the arena's door, round 1 again.\n\nEach round pays its results screen and its Navi's chip, the final his Guardian Data. With the rounds' pay, the short net's act 3 hands out about 8,400 zenny a run where it handed out about 7,000. The Tournament switch in EXTRAS turns it off.\n\nBN4's Navis fight in BN6:\n\nGutsMan, ThunderMan, WindMan, FireMan, SearchMan, AquaMan, WoodMan and Roll enter the tournament's first two rounds, each on his own plate of BN4's bracket. Each was moved into BN6's battle engine and checked against BN4's own battle frame by frame. A round against one of them pays a BN6 Navi chip of the round's strength until BN4's chips come.\n\nRoll's summon brings BN4's own Mettaur, moved into BN6 for her.\n\nA warp that glitches:\n\nIn one run in three, a warp glitches on an act's first layer from act 2 on: a pad that switches looks under BN6's mosaic, its colours turned and torn. Step on and say Yes, and it leads to a layer of the same area that comes apart as MegaMan takes its data.\n\nA layer that comes apart:\n\nOther areas' looks flip onto the same floor through BN6's own renderer, longer and more often the more of its data MegaMan takes, its battles growing tougher with them; its data come from up to two acts deeper. Its exit leads on to the act's next layer.\n\nThe copy at its heart:\n\nAt its heart stands a copy, the guardians you have fought written over each other. It fights as three of them in one battle, each glitching out in BN6's sprite mosaic as the next arrives on its panel, and pays a pick of their Navi chips in your folder's codes. The Glitch switch in EXTRAS turns the layer off.\n\n🎛️ Leave out what you don't want:\n\nThe setup after NEW GAME now comes in three pages, RUN, HELP and a new EXTRAS, turned with L and R; NEXT at a page's foot goes on to the next and JACK IN! is on the last (START still starts the run from any page). EXTRAS switches off, for one run, the things this game adds to BN6: Liberation Missions, the Tournament, Glitch layers, the Virus Battler, DarkChips and, with BN5 or BN4 beside BN6, the Older nets (their areas, Navis and viruses). Everything is on unless you switch it off, the run keeps what it started with, and it counts like any other run; its summary names what was off. A run saved before this version continues with everything on.\n\nEverything else:\n\n• Nobody stands in a walkway's mouth. A Mr.Prog's service or a navi no longer stands where a walkway meets a small room (BN5's Nebula Area had its Recovery Mr.Prog block one); where a room has no other spot, he moves to the next room.",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.20.0/cyberworld-endless.ipa",
-          "size": 2204481,
+          "version": "0.21.0",
+          "date": "2026-11-12T21:48:51Z",
+          "localizedDescription": "One family, three layers:\n\nEach act of a run is now about one virus family, named on the act's card. Its first layer meets that virus alone, the second beside a partner, the third in a battle built around it, and a Server's challenge is the hardest battle it stands in. Such a battle pays from that family's own rewards, so a run's chips change with its acts. A layer's other battles are the area's own as ever.\n\nThis replaces the one visiting virus in every fourth battle and the deep's mix of both nets.\n\nAny game's virus:\n\nThe family can be any game's whose ROM you have: BN5's and BN4's viruses come to BN6's areas, more often the deeper you go, and act 1 stays close to the area's own.\n\nWith BN4 Red Sun's ROM, VolGear, Kilby and MagTect join Billy, Spikey and the rest among the viruses an act can be about, each moved into BN6's battle and checked against BN4's own frame by frame, their sounds BN4's own.\n\nA Navi of Dad's lab:\n\nEvery virus MegaMan deletes adds to his battle data on its family, in every run. Once the data on three families is complete (eight deletions each), Dad writes, and a Navi of his lab stands in Lan's HP.\n\nSet up a battle:\n\nHe sets up test battles: the foes, their versions and panels, the field's eighteen panels (BN5's lava, sea and magnet panel and BN4's Hole among their types), the background and the song, BN5's and BN4's among them where their ROMs are read.\n\nNothing in one can delete MegaMan, it pays nothing, and the run is afterwards exactly as it was. Four sets are kept with their best time and busting level.\n\nA folder of the Lab's own:\n\nA test battle can be fought with a folder built for it: on STAGE, Folder turns from MegaMan's own to the Lab's, and A opens BN6's folder editor with every chip your profile has held in any run, in each of its codes. The run's folder and pack are untouched.\n\nNavis:\n\nA guardian MegaMan has beaten twice can be set there, alone, in each version beaten from now on (his first for wins of before). Bass and the Cybeast open with one win, ProtoMan with a netbattle won, and one of BN5's Darkloids with a dark layer's board won over him from now on.\n\nBN6, BN5 and BN4:\n\nPET \u003e Library now opens the run's own Library, drawn as BN6's own to the pixel, with BN6, BN5 and BN4 named on its band: each game has its StdChip, MegaChip and GigaChip pages. Left and Right turn the pages, L and R move the list a screenful. Each page is the game's own Library in its own numbers and counts only chips a run can hand out today; a chip two games share, Cannon or Sword, fills its place on each. A class whole turns its count gold. BN6's P.A. Memo is gone with its old screen for now; a page for Program Advances follows.\n\nReward picks on a screen of their own:\n\nA guardian's draft, a vault's, a Server's and a Glitch copy's three chips, an official gate's and Mr.Prog's gift are now picked on a screen in the PET's look, laid out as the Library: each choice on its card with its picture and details, what MegaMan already holds marked as BN6's shops mark it, a long description scrolling as BN6's chat box does.\n\nIts chips in your folder:\n\nWith BN4's ROM beside BN6's, 77 of Red Sun's own chips now play in BN6's battles, each checked frame by frame against BN4's own: the Heat and Bubble spreads, FlmLine, MagBolt, Thunder, TwnFng, SidBmbo, SeekBom, PropBom, Meteors, Ligtnin, MokoRus, BigHamr, AirHoc, GutPnch and RollAro, AquaUp and GreenWd, FirePlus, TimeBomb and more, and GutsMan's chip and his SP.\n\nHalf of what a layer of BN4's areas hands out comes from BN4's own catalogue: the Net Dealer's stock, Mystery Data, the vaults', Servers' and gift's picks, and a Chip Trader's list; in the deep the half draws on every game's chips you have. BN4's dark chips stay out of a run for now, and the Library's BN4 page counts only what a run can hand out.\n\nIts Program Advances:\n\nSeventeen of BN4's Program Advances form in the Custom screen as in Red Sun: HeatSprd, BubSprd, FlmCros, BstFang, MagShok, PitRng and PitHoky.\n\nIts Navis guard its areas:\n\nRed Sun's nine Navis now guard the areas BN4 dresses in half the runs, as BN5's six guard theirs: GutsMan or AquaMan in ACDC Area, FireMan or Roll in Town Area, WoodMan in Park Area, ThunderMan or WindMan in the countries' areas, SearchMan and JunkMan in the deep's pool. Each is held to the act's band and leaves Guardian Data as BN5's do.\n\nFour more Navis in the tournament:\n\nTopMan, JunkMan, BurnerMan and SparkMan join BN4's tournament as rounds, each on his own plate of BN4's bracket: TopMan's spinning top, his dashes and his sounds, JunkMan's junk raining down, BurnerMan's flames and SparkMan's sparks, each proved frame by frame against BN4's own battle.\n\nIts songs in the Jukebox:\n\nThe PET's Jukebox lists Red Sun's 34 songs in sections of their own, each named for the place in BN4 that starts it.\n\nIn the NetPass's full set:\n\nNetBattles, trades and the week's DeepNet now need BN4 Red Sun (USA) beside BN6 and BN5 Team Colonel. The Square stays open to every game. A pass that was full shows a new open slot, the greeter tells you once, and the stamps land again when you add BN4's ROM. BN4's chips go into NetBattles and trades as each is proved. A New 3DS reads one ROM beside BN6's, so BN5 or BN4 alone gives it the Trade stamp: it trades the chips both games hold, and the week's DeepNet stays shut there, its dive not being the Board's without the other game. Online play speaks protocol v18: an older build and this one no longer meet, and someone hosting their own Square updates the server with the game.\n\nCloudMan and CosmoMan on the dark boards:\n\nWith BN5's ROM beside BN6's, CloudMan and CosmoMan fight in BN6's own engine, proven against BN5's battles frame by frame. CloudMan is act 4's own Darkloid on a dark layer, as BN5's third mission has him; the later acts' dark layers bring CosmoMan, as BN5's fifth does; in the other acts each is one more choice, so a board repeats less. A board pays its Darkloid's own Navi chips: his SP two phases under par, his own chip at par.\n\nLarkMan and GridMan in the deep:\n\nBN5's Nebula Navis LarkMan and GridMan can guard a deep act (5 or 6) beside Team Colonel's six: LarkMan at V2, GridMan at V3, held to the act's band, SP on later cycles. Neither has a Soul to give: his Guardian Data hands over his Navi chip, its SP version in the deep.\n\nSeven Navis' chips, and the last Program Advances:\n\nThe Navi chips of ShadeMan, BlizzardMan, CloudMan, CosmoMan, LarkMan, GridMan and Django are in the game, each as V1, SP and DS, and turn up among BN5's chips in the finds. The DS chips answer only to a dark MegaMan, as in BN5.\n\nWith them the five Program Advances made with a Darkloid's or Nebula Navi's chip form on the Custom screen: BigNoise, CsmoPris, WildBird, Football and PileDrvr.\n\nAnd BN6's own CrosOver forms from a run's Django chips (Django, his SP and his DS, in D): BN6's recipe names its own Django 1-3, which no run hands out.\n\nSoulT+1:\n\nA guardian who gives his Soul now puts BN5's NaviCust program SoulT+1 in his draft: a plus part of four cells that keeps a Soul united for four turns in place of three. A Beast Out stays three turns.\n\nArrow lanes, and BN5's win music:\n\nA layer dressed as SciLab, End Area, Oran Area, Nebula Area or BN5's Undernet now gets the quick way back BN6's areas have: a lane of one-way arrow panels from a far detour to the way, drawn in that area's own arrows, read from BN5's maps. And a battle won on one of BN5's areas, or on a dark layer, ends with BN5's own victory music.\n\nTeam ProtoMan in BN6's engine:\n\nFive of Team ProtoMan (NapalmMan, GyroMan, SearchMan, Meddy and MagnetMan, with BN5's magnet panels that pull MegaMan along) now fight in BN6's battle, moved from BN5's own and checked against it frame by frame. No run meets them yet: they join the guardians, with their Souls, in a later version.\n\n🌐 The PET in the Net Square:\n\nSTART opens the PET in the Net Square as anywhere: edit a folder before a NetBattle, run the NaviCust, use a SubChip, play the Jukebox. What you change there comes home with you, also if you close the game in the Square. The NetPass, which START used to open there, is on R in the PET's menu (it says so) and in KeyItem as everywhere. A chip you trade is in your Pack on the spot, ready for a folder.\n\nEverything else:\n\n• NumbrOpn in the NaviCust. From act 5 a guardian's draft can offer NumbrOpn: ten chips in the Custom screen's hand, for a 5x5 block that fills the board. Custom1 and Custom2 are not offered beside it, and the vendor sells it in later runs once it has been found.\n• Showdown and Sorrow. ProtoMan's netbattle now plays Showdown, and a lost run's summary plays Sorrow, as a won one plays the staff roll's music.\n• Fixed: Lan's HP before one of BN4's areas. With BN4 Red Sun's ROM beside BN6's, a visit home drew Lan's HP as scrambled magenta tiles whenever the act ahead was one of BN4's areas, since 0.20.0. Home looks as it should again.\n• Fixed: menus on BN4's areas. On a layer of BN4 Red Sun's areas the Chip Folder, a dealer's shop and the Chip Trader drew as scrambled tiles; they look as on any other layer again.\n• Fixed: AreaGrab could stop the game on a dark layer. In a Surrounded battle, once a Catack had driven through a row of MegaMan's two columns, AreaGrab dimmed the screen and the game stood still for good. It now takes his column's panels back and the battle goes on.\n• Fixed: New 3DS, layers with another game's ROM. On a New 3DS with BN5's or BN4's ROM beside BN6's, memory ran short while an area was learned, and a layer could come out different from the same seed. An area now takes about 20 MB less at its peak, and one crash on that path is gone.\n• Chip ids past 511. BN6's chip ids grew from nine bits to ten inside the game, ground for BN4 Red Sun's chips. Nothing plays differently. A run saved by an earlier version goes on as before (its folders are converted once as it loads); a save from this version moved to an earlier one is refused there as a newer version's.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.21.0/cyberworld-endless.ipa",
+          "size": 2362768,
           "minOSVersion": "14.0"
         }
       ],
@@ -3229,10 +3232,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-27T11:26:43Z",
-          "localizedDescription": "• Server tasks, preview check and MP4 video previews.\n• Settings: hint that previews need Stash's animated WebP previews.\n• UX review: navigation, watch page, channels, shorts markers and more.\n• Shorts: play scene markers, mixed with the videos or only.\n• Own player panel instead of miniplayer, smoother player and shorts.\n• Back to the previous video, channel ratings and favorites, create performers/studios/groups.\n• Loops, thumbnail fit setting, app tour.\n• What's new, fullscreen by tilting, calmer shorts, marker editing.\n• Fullscreen: plain black fade on both platforms, quicker.",
-          "downloadURL": "https://github.com/Two-Play/StashTube/releases/download/v1.0.0-beta.7/stashtube-v1.0.0-beta.7-7.ipa",
-          "size": 23781560,
+          "date": "2026-11-12T18:15:08Z",
+          "localizedDescription": "• Playback QoL: full buffering, position saving, queue countdown.\n• Feedback and bug reports from Settings → About.\n• Subtitles, zoom without black bars, skip feedback; fix CI.",
+          "downloadURL": "https://github.com/Two-Play/StashTube/releases/download/v1.0.0-beta.8/stashtube-v1.0.0-beta.8-9.ipa",
+          "size": 23916016,
           "minOSVersion": "15.0"
         }
       ],
@@ -3241,6 +3244,7 @@
         "privacy": {
           "NSFaceIDUsageDescription": "Unlock Stash with Face ID.",
           "NSLocalNetworkUsageDescription": "Stash connects to your media server and finds Chromecast devices on the local network.",
+          "NSPhotoLibraryAddUsageDescription": "Save a frame of a video to your photos.",
           "NSPhotoLibraryUsageDescription": "Choose photos to use as covers and images in Stash."
         }
       }
@@ -3261,11 +3265,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.0.33",
-          "date": "2026-11-12T12:14:49Z",
+          "version": "0.9.0.45",
+          "date": "2026-11-13T00:09:00Z",
           "localizedDescription": "Development-client shell (Debug + expo-dev-client). Carries the same com.porksphere.comical bundle id as the release and PR builds, so it shares their data and REPLACES whatever Comical is installed.\n\nInstall via source (recommended): add this URL in SideStore/AltStore → Sources → +.\n\nThen run bun run dev:device on your PC and connect from the app's launcher. Rebuild (re-run this workflow) only when native code changes — a native module, a config plugin, an SDK bump. Pure JS/TS iterates over Metro with no rebuild at all.",
           "downloadURL": "https://github.com/porksphere/comical-app/releases/download/ios-devclient/comical-devclient.ipa",
-          "size": 53655289,
+          "size": 53655296,
           "minOSVersion": "16.4"
         }
       ],
@@ -5615,10 +5619,10 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-11-12T17:24:49Z",
+          "date": "2026-11-13T00:24:33Z",
           "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
           "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
-          "size": 4433548,
+          "size": 4445102,
           "minOSVersion": "14.0"
         }
       ],
@@ -6219,10 +6223,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-12T11:44:18Z",
+          "date": "2026-11-12T21:30:27Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56201232,
+          "size": 56201066,
           "minOSVersion": "17.0"
         }
       ],
@@ -6654,39 +6658,6 @@
       }
     },
     {
-      "name": "Marble Blast Ultra",
-      "bundleIdentifier": "com.randomityguy.mbuhaxe",
-      "developerName": "RandomityGuy",
-      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
-      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbuhaxe.png",
-      "tintColor": "#c09cd8",
-      "category": "games",
-      "screenshotURLs": [
-        "https://imgur.com/x6DYms7.png",
-        "https://imgur.com/Ncb4atl.png",
-        "https://imgur.com/KQKUk0Y.png",
-        "https://imgur.com/lfLBKqO.png",
-        "https://imgur.com/DN1A2Mf.png"
-      ],
-      "versions": [
-        {
-          "version": "1.3.2",
-          "date": "2026-10-18T17:54:05Z",
-          "localizedDescription": "• Fixed a critical regression where the marble didn't move as fast.",
-          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-iOS.ipa",
-          "size": 59613250,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "Marble Blast Ultra uses the local network to discover and connect to nearby players for multiplayer."
-        }
-      }
-    },
-    {
       "name": "Monolith",
       "bundleIdentifier": "dev.naveed-gung.monolith",
       "developerName": "naveed-gung",
@@ -6738,11 +6709,11 @@
       ],
       "versions": [
         {
-          "version": "1.57.0",
-          "date": "2026-11-12T08:12:22Z",
-          "localizedDescription": "Added:\n\n• Audiobooks. Open an M4B or MP3 with Open a file, or a folder of them with Open an audiobook folder (Android). It plays from where it is, never copied in, and shows under Files with headphones on its cover. The player under the text has the chapter, a track through it, back 15 and on 30 seconds, speed and a sleep timer (the moon). The chapters, and the files of a folder, are at the top left like a collection's clips; Read along with is in ⋯. It goes on with the screen off, and the lock screen, earbuds and a car control it. Elsewhere in the app a small bar carries it.\n• Where you are in an audiobook syncs, with its speed, what it reads along with and your fixes, by the file, like other files read from outside.\n\n• A transcript of an audiobook with no book: its words, with the chapters as headings and paragraphs where the narrator pauses. Select a word heard wrong and tap the pen to fix it everywhere, now and as the transcript goes on.\n\n• An EPUB with its own narration (Media Overlays) reads along by itself when it's read from where it is: press play.\n• Pages in Draw are one surface: a line you draw from one page onto the next is on both, and so is a picture dragged over the gap. Erasing, selecting and undoing take it from both.\n• When something is selected, Move to top and Move to bottom (arrows) put it in front of or behind the rest. What you drag always comes to the front.\n• Draw has a Select tool. Draw a loop round your strokes (or tap one) to take them, then Cut, Copy, Paste or Delete them, or drag them somewhere else. Ctrl or Cmd with X, C and V and Delete work on a computer.\n• Draw has a + for putting a picture from your phone on a PDF's page. Drag it, make it bigger or smaller by its corner, and it goes into the copy you save with drawings.\n• Hold a colour in Draw to make it your own: a spectrum, a slider for how light it is, Hex and Red, Green and Blue, and an eyedropper that takes a colour from the PDF.\n• Files read from outside sync what's yours on them: where you are, highlights, tags, collection, favourite and reading time. The file itself stays on its device; open the same file on another device and it picks up there.\n• GitHub sync shows how much room is left in your waypage-data repo, out of GitHub's 5 GB.\n\nChanged:\n\n• The selection bar has one Highlight button on a phone or tablet. A tap highlights in the colour you used last, shown by a small dot on its pen. Hold it and the five colours open in a row under the bar (above it when there's no room): slide to one and let go. With a mouse, the colour dot beside Highlight (or a right-click on it) opens the same row.\n• Keys 1 to 5 highlight the selected words in yellow, green, blue, pink or purple.\n\nFixed:\n\n• A selection dragged to another page no longer vanishes behind it: it stays visible while you drag, lands on the page you drop it on, and always stays on a page. Anything an earlier test build lost off a page's edge comes back.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.57.0/Waypage.ipa",
-          "size": 10856577,
+          "version": "1.58.1",
+          "date": "2026-11-12T20:08:36Z",
+          "localizedDescription": "Added:\n\n• Volume under Allow mixing, in Narrate and in Audiobook settings: 0 to 2× with normal (1×) in the middle, so the voice or book can sit under music or rise above it. Above 1× the Android app lifts the sound itself; on iPhone Narrate goes no louder than normal.\n• While a transcript is being written, its words show up on the open page as each stretch is heard (every 10 to 20 seconds), not three minutes at a time.\n• \"Writing the transcript\" in the phone's notifications while it writes, with how far the chapter has got.\n• The chapter being written runs a light along its bar in the chapters list.\n\nChanged:\n\n• The audiobook player has no chapter name and hint above its bar any more; the chapters are in the list at the top.\n• An audiobook added as a folder takes the folder's name, and the cover picture in the folder (cover.jpg, folder.png and the like).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.58.1/Waypage.ipa",
+          "size": 10864237,
           "minOSVersion": "15.5"
         }
       ],
@@ -8006,11 +7977,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.7",
-          "date": "2026-11-12T12:29:02Z",
+          "version": "0.12.8",
+          "date": "2026-11-12T21:42:16Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.7/rust-dicom-station-0.12.7-ios.ipa",
-          "size": 30511527,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.8/rust-dicom-station-0.12.8-ios.ipa",
+          "size": 30652099,
           "minOSVersion": "15.0"
         }
       ],
@@ -8387,11 +8358,11 @@
       ],
       "versions": [
         {
-          "version": "2.3",
-          "date": "2026-11-10T20:28:12Z",
-          "localizedDescription": "❄️ Interactive Winter Theme:\n\n• Snow now settles dynamically on cards and category tabs.\n• Shake it loose: Simply swipe across the category bar or long-press any card to shake the snow off.\n\n🎵 Background Music:\n\n• Supports importing and playing your own local .mp3 files.\n\n🌸 Sakura Accent:\n\n• Added a new soft-pink accent palette to refresh your interface aesthetics.\n\n📚 Multi-Source Unified Catalog:\n\n• Combine multiple repositories into a single unified view. Choose exactly which sources to browse together.\n\n⚡ Prefer TIPA:\n\n• Set TIPA as your default package format preference whenever both standard IPA and TIPA builds are available.\n\nIf you experience any issues with the winter animations or audio playback, please open an issue.",
-          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
-          "size": 16533197,
+          "version": "2.3.2",
+          "date": "2026-11-12T18:39:43Z",
+          "localizedDescription": "🛠️ Bug Fixes \u0026 Improvements:\n\nNew Setting: Added \"Track All Releases\" — enable this to track the newest versions, even if they are Action builds.\n\n• Installation Methods: Fixed app installation failures and improved overall stability.",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3.2/ryP0-2.3.2.ipa",
+          "size": 16554800,
           "minOSVersion": "17.0"
         }
       ],
@@ -8580,11 +8551,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.0",
-          "date": "2026-11-07T02:07:19Z",
-          "localizedDescription": "Bug Fixes:\n\n• Move sheet actions into the iPhone Duo side column (#237) (7925256).\n• Keep the backup and layout profile rows in text colors, not brand orange (#240) (41ee259).\n• Keep an imported game from reaching files outside its folder (#246) (9d8e4dc).\n\n• The black screen after PikaTaxi in Pokémon Insurgence (mateo-m/mkxp-z-apple-mobile#70) (b4148a6).\n• Find a file written after launch when an older file has the same name (mateo-m/mkxp-z-apple-mobile#69) (aac5fa4).\n• Track the main branch of litergss2 (mateo-m/psdk-apple-mobile#7) (63dce27).\n\nCI:\n\n• Run pull requests on GitHub Macs with a build cache (#248) (34e3440).\n\nChores:\n\n• Update AppAuth, swift-crypto, SDL, and web tools (#242) (62b6c6a).\n• Bump version to 0.11.0 (build 825) (7fd87d5).\n\nFeatures:\n\n• Give games the Empo version in $userAgentVersion (#226) (eba5906).\n• Add a setting to respect silent mode (#233) (1e58b18).\n• Let players import a sound set for MIDI music (#234) (c0def1a).\n• Pick a MIDI sound set for each game (#236) (49e2c35).\n• Back up saves and games to iCloud Drive, Dropbox, and Google Drive (#189) (9239a49).\n• Announce backups, MIDI music, and silent mode in What's new (#241) (acfb014).\n• Give games the launcher version in $userAgentVersion (mateo-m/mkxp-z-apple-mobile#66) (983c900).\n• Play MIDI with a static FluidSynth and a bundled SoundFont (mateo-m/mkxp-z-apple-mobile#68) (36871c6).\n\nOther:\n\n• Update the core and ANGLE pins (#243) (3481c65).\n\nRefactor:\n\n• Reorganize What's new (#249) (bf002a6).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.11.0/Empo-ios.ipa",
-          "size": 99776387,
+          "version": "0.11.1",
+          "date": "2026-11-12T23:21:15Z",
+          "localizedDescription": "Bug Fixes:\n\n• Close the state bugs in the player, library, saves, and backups (#254) (df0c3fa).\n• A controller button save keeps a controls file that Empo cannot read (#270) (dee9087).\n• Stop restore, package, and sync paths from losing saves and settings (#256) (2343861).\n• Stop app backup paths from losing saves, settings, and sign-ins (#261) (ddf264d).\n• Show the in-game keyboard toggle on the Mac (#271) (5064665).\n• Keep an old setting that the controls import cannot read (#272) (507fb15).\n• Find a file in another case with the path cache off (mateo-m/mkxp-z-apple-mobile#74) (0f9b62d).\n• A save that fails half way in Pokémon Insurgence (mateo-m/mkxp-z-apple-mobile#73) (62b418b).\n• A save that fails half way in Pokémon Insurgence (mateo-m/mkxp-z-apple-mobile#73) (8c923c3).\n• A name screen without a letter grid uses typing mode (mateo-m/mkxp-z-apple-mobile#75) (6facf0b).\n• Keep the last save when a save stops half way (mateo-m/mkxp-z-apple-mobile#76) (8b83c58).\n• Hide the temp file from Dir objects and drop it when a thread stops (mateo-m/mkxp-z-apple-mobile#77) (d26bd02).\n\nFeatures:\n\n• Send game and server errors to Sentry (#266) (e7a54c6).\n\nOther:\n\n• Update the core pin to v17 (#276) (54f0113).\n\nRefactor:\n\n• Make GameCore.h the only core contract and generate the rest (#267) (c8a72fb).\n• One limits table, one layout model, and one profile chain (#268) (a748e05).\n• One layout conversion, one key window owner, and no global game keys (#269) (7a3d5d9).\n• Delete unused flags, constants, and test-only functions (#257) (281b076).\n• Share one copy of each provider helper (#258) (578e5c3).\n• Share the JSON setup, the error map, and the stop lines (#259) (a36e719).\n\nRelease:\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.11.1/Empo-ios.ipa",
+          "size": 101586739,
           "minOSVersion": "26.0"
         }
       ],
@@ -9021,10 +8992,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-12T12:17:51Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b9cb268. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-236/Ito-1.5.0-dev.236-unsigned.ipa",
-          "size": 13916157,
+          "date": "2026-11-12T22:07:19Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit b7df7cb. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-237/Ito-1.5.0-dev.237-unsigned.ipa",
+          "size": 13919970,
           "minOSVersion": "15.4"
         }
       ],
@@ -10062,11 +10033,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.128",
-          "date": "2026-11-11T20:15:18Z",
+          "version": "0.8.129",
+          "date": "2026-11-12T20:51:22Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.128/NicotinD-0.8.128-unsigned.ipa",
-          "size": 1670248,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.129/NicotinD-0.8.129-unsigned.ipa",
+          "size": 1673202,
           "minOSVersion": "15.0"
         }
       ],
@@ -10450,11 +10421,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.3",
-          "date": "2026-11-11T21:46:02Z",
-          "localizedDescription": "Download the right version for your device below.\n\nIssues closed:\n\n• #3121 Mod API 3 returns broken mon with fieldmove.eligibility.\n• #3122 Gen 3: a mod can't change which metatiles a map shows.\n• #3124 [Red/Android/0.4.1] Professor Oak missing after Champion.\n• #3126 Quest Log recap doesn’t draw the surf blob or the Fly bird.\n• #3127 Pokemon emerald wild encounter transition.\n• #3128 catch.nickname never fires in Gen 2 or Gen 3, so mods can't answer the nickname question after a catch.",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.3/gen1recomp%2B%2B-0.4.3-ios.ipa",
-          "size": 44747096,
+          "version": "0.4.4",
+          "date": "2026-11-12T19:08:46Z",
+          "localizedDescription": "Bingo.\n\nIssues closed:\n\n• #3132 [GB audio] Emulation bugs.\n• #3133 A nickname on a trainer.party row shows in Gold, Silver and Crystal but is dropped in Red, Blue, Yellow and the Gen 3 games.\n• #3134 Opponent held items fail.",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.4/gen1recomp%2B%2B-0.4.4-ios.ipa",
+          "size": 44750328,
           "minOSVersion": "15.0"
         }
       ],
@@ -10540,17 +10511,17 @@
       "name": "Musonic",
       "bundleIdentifier": "org.reactjs.native.example.Musonic",
       "developerName": "DoodzDev",
-      "subtitle": "A Spotify-like client for Navidrome, Subsonic \u0026 OctoFiesta — self-hosted music, done right. Built with React Native",
-      "localizedDescription": "Musonic:\n\nYour music, your server, beautifully played.\n\nApps for Android, iOS and the browser, and Musonic Server to host your library yourself. Also works with Navidrome and any Subsonic-compatible server.\n\nMusonic for Android and iOS:\n\nA calm, fast music app: full-screen player with synced lyrics, a queue you can reorder, Shuffle Magic, Magic Mixes by genre, a home built from what you play, offline downloads (Wi-Fi first), separate streaming quality on Wi-Fi and mobile data, Android Auto (beta), English and French. → apps/mobile · changelog.\n\nMusonic Web:\n\nThe complete Musonic in a desktop browser: home, search, library, synced lyrics, full-screen player, floating mini player, keyboard and media keys. Import a Spotify or Deezer playlist from its address (with Musonic Server). Use it online, nothing to install, or host it yourself. → apps/web · changelog.",
+      "subtitle": "Self-hosted music: Musonic Server (Rust), an Android app and a web player. Also works with Navidrome and other Subsonic servers",
+      "localizedDescription": "Musonic:\n\nYour music, your server, beautifully played.\n\nAn app for Android, a player for the browser (on iPhone too), and Musonic Server to host your library yourself. Also works with Navidrome and any Subsonic-compatible server.\n\nMusonic for Android:\n\nA calm, fast music app: full-screen player with synced lyrics, a queue you can reorder, Shuffle Magic, Magic Mixes by genre, a home built from what you play, offline downloads (Wi-Fi first), separate streaming quality on Wi-Fi and mobile data, Android Auto (beta), English and French. → apps/mobile · changelog.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.reactjs.native.example.Musonic.png",
       "tintColor": "#eb6332",
       "category": "other",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/home.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/player.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/lyrics.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/search_results.jpg",
-        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/docs/assets/img/screenshots/library.jpg"
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/site/public/assets/img/screenshots/home.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/site/public/assets/img/screenshots/player.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/site/public/assets/img/screenshots/lyrics.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/site/public/assets/img/screenshots/search_results.jpg",
+        "https://cdn.jsdelivr.net/gh/DoodzDev/Musonic@main/site/public/assets/img/screenshots/library.jpg"
       ],
       "versions": [
         {
@@ -10705,10 +10676,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-12T17:07:11Z",
-          "localizedDescription": "Built from cdc4546 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-12T21:11:50Z",
+          "localizedDescription": "Built from 445ba94 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45420477,
+          "size": 45420478,
           "minOSVersion": "15.0"
         }
       ],
@@ -13493,11 +13464,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.11",
-          "date": "2026-11-12T05:27:26Z",
-          "localizedDescription": "English:\n\n• Refines meeting recording, transcription messages and page layout. Playback adds a draggable timeline, skip controls and play/pause. Improves voice-input interruption handling.\n• Improves the transition from plans to goals, with goal editing, pause, resume and delete. Pausing or deleting a goal stops future automatic progress while the current round continues. Stop beside the message box stops that round and pauses its goal; continuing the same round does not restart long-term goal progress.\n• Memory entries show “Retained” to distinguish storage from active use. Browsing no longer renews retention. Older information from deleted tasks gradually fades and can be archived, while pins, lasting preferences and memories used by current work are protected.\n• Improves editing, queries and feedback for 2D CAD, map and schematic/PCB assistants, and adds a 3D component library. Standalone 2D drawings hide the unsuitable 3D sketch-session bar.\n• Organizes image-editing menus and compact-screen controls, separates creating text from updating it, and lets the assistant inspect edit history, undo and redo.\n• Improves display and selection of saved sequences and run results in the biology editor. Chemistry and biology calculations use the selected environment consistently.\n\n• Adds a per-model “Omit thinking parameters” setting for incompatible custom endpoints. Maps supported reasoning levels from reported capabilities while preserving returned reasoning.\n\n• Mac Bridge can read authorized files and images at specified Mac locations, including other workspaces. Older Mac companions show an update requirement when unsupported.\n• Removes the unrelated LaTeX editor entry from ordinary PDF Notes. Organizes Help by iOS and Android, while retaining iPhone Duo's expanded layout and draft continuity.\n\nPlease focus feedback on recording and playback, goal pause/resume/Stop behavior, old-memory retention, editor-assistant results and undo, and everyday use of Office, Mac Bridge and the Duo layout.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.11/Floe-Agent-1.8.11-build333-unsigned.ipa",
-          "size": 916594333,
+          "version": "1.8.17",
+          "date": "2026-11-13T00:29:51Z",
+          "localizedDescription": "English:\n\n• Improves continuous meeting transcription, draft display and silence handling, with better stop-tail settlement, recording recovery and errors from the selected transcription service.\n• Refines the meeting workbench, separates recording and transcription status, and keeps a seekable playback timeline with forward and back controls.\n• Fixes plan execution retaining planning-only permissions. A new plan returns the composer to Agent; a later manual Plan selection remains respected.\n• Scopes checklist progress to the current run, preserves history, and adds a native reset-and-rebuild capability for the assistant.\n• Preserves inline file references produced by subagents across reopening and improves continuous reading of large text files.\n• Expands native Workspace text recognition and tool guidance for source code, scripts, webpages, configuration and other plain-text files, preserving newlines and UTF-8 byte-order marks.\n• Fixes database reading and reference classification during legacy environment checks, and improves data-preserving optimization progress, blocked-state details and storage estimates. Existing data, installed software and recovery disks remain preserved.\n• Prevents premature failure alerts while a run is retrying and clears stale alerts after recovery, keeping cancellation, suspension and final failure distinct.\n\nThis build starts with internal testing. Please check meeting recording and playback, actual edits after executing a plan, TXT/web/code file cards, and actual storage and data integrity before and after optimizing a migrated device.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.17/Floe-Agent-1.8.17-build338-unsigned.ipa",
+          "size": 917946884,
           "minOSVersion": "26.0"
         }
       ],
@@ -13564,11 +13535,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.31",
-          "date": "2026-11-12T07:15:46Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.31:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.31/Lumisound-2.0.0.31-unsigned.ipa",
-          "size": 15930876,
+          "version": "2.0.0.33",
+          "date": "2026-11-13T00:04:37Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.33:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.33/Lumisound-2.0.0.33-unsigned.ipa",
+          "size": 16260017,
           "minOSVersion": "26.0"
         }
       ],
@@ -13626,10 +13597,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-12T07:22:48Z",
-          "localizedDescription": "Immutable snapshot of alpha build 503 (149ee41).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 503, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-503/Non-Jailbroken.ipa",
-          "size": 123773645,
+          "date": "2026-11-13T00:06:03Z",
+          "localizedDescription": "Immutable snapshot of alpha build 507 (50ab7ab).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 507, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-507/Non-Jailbroken.ipa",
+          "size": 123842896,
           "minOSVersion": "17.0"
         }
       ],
@@ -13818,6 +13789,39 @@
           "NSCameraUsageDescription": "EngiNote shows you in a camera bubble over your note when you switch it on.",
           "NSMicrophoneUsageDescription": "EngiNote records your voice with the screen when you make a recording.",
           "NSPhotoLibraryAddUsageDescription": "EngiNote saves a recording to Photos when you choose to."
+        }
+      }
+    },
+    {
+      "name": "PlatinumQuest",
+      "bundleIdentifier": "com.randomityguy.mbpqhaxe",
+      "developerName": "RandomityGuy",
+      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
+      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbpqhaxe.png",
+      "tintColor": "#3b82f6",
+      "category": "games",
+      "screenshotURLs": [
+        "https://imgur.com/x6DYms7.png",
+        "https://imgur.com/Ncb4atl.png",
+        "https://imgur.com/KQKUk0Y.png",
+        "https://imgur.com/lfLBKqO.png",
+        "https://imgur.com/DN1A2Mf.png"
+      ],
+      "versions": [
+        {
+          "version": "2.0.4",
+          "date": "2026-11-12T17:33:03Z",
+          "localizedDescription": "This release contains the following improvements:\n\n• Added support for playing custom Gem Hunt levels originally intended for multiplayer.\n• Added basic support for MBU shapes.\n• Added support for invisible interior surfaces.\n• Fixed MBU Ice not looking correct.\n\n• Fixed radar not showing up for certain kinds of End Pads.\n• Fixed certain Help bubbles showing empty dialogues.\n• Fixed Gravity Triggers not functioning correctly.\n• Fixed PhysMod Triggers resetting their state on level restart.\n• Fixed Marble reflections on certain marble shapes that do not support it.\n• Fixed Nest Egg pickups not being counted on the level select menu.\n• Fixed being able to spam click watching top replays to crash the game.\n• Fixed Gem Hunt default time being incorrect.\n• Fixed Custom Music not playing.\n• Fixed Trapdoors, Landmines and Nukes not respecting their reset times.\n• Fixed Trapdoor sounds not playing.\n• Fixed some crashes caused by certain misconfigured levels.\n• Fixed crashes on Android.",
+          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/2.0.4/MBHaxe-PlatinumQuest-iOS.ipa",
+          "size": 606212147,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "PlatinumQuest uses the local network to discover and connect to nearby players for multiplayer."
         }
       }
     }
