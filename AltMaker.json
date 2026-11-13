@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "org.floeagent.ios",
-    "com.aigch.OpenParsec",
-    "com.porksphere.comical"
+    "uk.gleissner.c64commander",
+    "com.wrngwrld.Chanyan",
+    "com.mobilenext.devicekit-ios"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.0.0",
-          "date": "2026-11-12T23:11:35Z",
-          "localizedDescription": "Bird Chaser 2.0.0:\n\n• Home setup: Confirm Home now opens Confirm region immediately. Region checking runs there with read-only checking/retrying/offline status, bounded automatic retries, and usable Back, Cancel and Close controls. A stalled or failed lookup retains the draft; only explicitly confirming a verified matching region saves Home.\n• Getting Ready: Abbreviated Elap: appears beside Est:, with a full accessible elapsed-time label. It measures the current preload run, including stalls and time while closed; reopening does not restart data acquisition.\n\nInternet access and successful region validation are still required. No guessed region or offline setup completion is introduced. Inline checklist photos remain deferred.\n\nUnverified on device: The recovery and elapsed lifecycle have controlled DOM, mutation and real-Chrome coverage, but have not yet been exercised in this build on the owner's device. The original network stall's exact transport cause remains unverified.\n\nThe .ipa below is UNSIGNED, built by CI from 6a509f3b30bbb28082b0f5415450c96165a8705d, the commit this Release points at. Sideload with AltStore and follow the attached beta guide. Signed TestFlight delivery and availability are separate milestones.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.0.0/BirdChaser-unsigned.ipa",
-          "size": 143473715,
+          "version": "2.1.1",
+          "date": "2026-11-13T06:24:30Z",
+          "localizedDescription": "Bird Gen source recovery:\n\nThis patch repairs Annual-first History qualification and explicit source recovery without turning Getting Ready into an interactive browser session.\n\n• Annual-first History: recognize eBird's adjacent count, \"This Year\" and year spans instead of treating their joined text as a different source. Region, year, First Observed order, row dates and declared counts must still qualify; optional scientific names remain optional.\n• Explicit FOY and Mass Retry: a user-requested Bird Gen source Retry can use its owned eBird browser recovery even when the feed originally loaded automatically. It retries that source rather than refreshing successful sources. Cancellation and navigation still prevent obsolete work from publishing.\n\n• Honest Mass coverage: successful high-count acquisition does not prove every arrival or location. Partial results retain their useful flocks and specific missing-history/location coverage instead of being called fully loaded.\n\nWhat this does not promise:\n\nThe next-release Bird Gen wording, info-dialog/key/contents and Getting Ready presentation proposals are not included.\n\nVerification and delivery:\n\nThe complete exact-source app catalog and all six real-Chrome layout profiles passed. Ten distinct behavior-removal mutations were rejected. Eleven focused parser, setup and recovery consumers passed against each genuine unsigned and signed IPA.\n\nUnverified on device:\n\nExact-build TestFlight availability remains unconfirmed. Provider access and complete Mass arrival history are not guaranteed. A native v2.1.1 trace demonstrates explicit FOY recovery and Mass settling Partial, but does not identify its Apple build or installation channel.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.1.1/BirdChaser-unsigned.ipa",
+          "size": 143474363,
           "minOSVersion": "15.0"
         }
       ],
@@ -1199,11 +1199,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.0.37",
-          "date": "2026-11-09T14:15:52Z",
-          "localizedDescription": "• Feat: add device.io.keyboard.status ().",
-          "downloadURL": "https://github.com/mobile-next/devicekit-ios/releases/download/0.0.37/devicekit-ios.ipa",
-          "size": 542228,
+          "version": "0.0.38",
+          "date": "2026-11-13T11:56:40Z",
+          "localizedDescription": "• Feat: device.voiceover.* to drive VoiceOver and read what it speaks; requires iOS 27 or later and an agent built with Xcode 27 or later, calls on older versions return an error (), thanks to @vijaysharm.\n• Feat: per-finger start in device.io.gesture, for double taps (), thanks to @vijaysharm.\n• Fix: lay out screen size, screenshots and the ui tree in the foreground app's orientation (), thanks to @edusperoni.\n• Fix: normalize MJPEG frame orientation at every scale (), thanks to @jorahbi.",
+          "downloadURL": "https://github.com/mobile-next/devicekit-ios/releases/download/0.0.38/devicekit-ios.ipa",
+          "size": 549309,
           "minOSVersion": "14.0"
         }
       ],
@@ -1620,11 +1620,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.2",
-          "date": "2026-11-07T06:49:16Z",
-          "localizedDescription": "What's New:\n\nThis release makes it safe to control one C64 from two phones, or from C64 Commander and another app, at the same time. The C64 has one stream target, one audio mixer, one joystick and keyboard state, one set of drives and one configuration for everyone connected to it. Before this release, several actions in the app assumed it was the only one connected.\n\nTwo phones on one C64:\n\n• Live View: When a second phone starts Live View, the first phone no longer takes the stream back every few seconds. It shows that another app has the stream, and closing Live View on it no longer stops the other phone's picture. After a Wi-Fi drop, the phone takes its stream back when its packets arrive again. (#637).\n\n• Disks: Each phone now uses its own work file when it mounts a disk from the phone, so one phone's eject can no longer save the other phone's disk over its own file. Eject, Remove and the next and previous disk of a group now check the drive first and leave a disk in place that another phone has mounted since. Stop on the Play page ejects only the disk it mounted. (#637).\n• Playback: When the song-length timer runs out, or you press Stop or the sleep timer ends, the app first checks that the C64 is still playing its tune. If another app has started something else, the app stops its playlist with a message and leaves the C64 alone. This check covers SID tunes. (#637).\n• Volume: Pause and resume, Stop, the end of a playlist, seeking in a tune, Solo and config Revert now restore only the volume levels this phone changed. A level set by another app in the meantime is kept. (#637).\n• Health check: Two phones running the health check at the same moment no longer leave a changed setting behind. The FTP check now allows 3 seconds, like the REST and Telnet checks, so a short Wi-Fi stall no longer reports a healthy C64 as degraded. (#637).\n\nReliability:\n\n• Telnet: A background check of another saved C64 can no longer take over a Telnet session in the middle of a task, so keystrokes always reach the C64 the task started on. REU and config file tasks stay on one C64 from start to finish. (#637).\n• Remote seek: Fixed a rare case where pausing during a seek could make the app undo the seek again later. (#637).\n• Keyboard Lighting: Home and Lighting Studio no longer ask for Keyboard Lighting settings from a C64 that has none. (#637).",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.2/c64commander-1.2.2-ios.ipa",
-          "size": 7611560,
+          "version": "1.2.3",
+          "date": "2026-11-13T12:45:46Z",
+          "localizedDescription": "What's New:\n\nThis release adds six small usability features. It also fixes several playback and configuration defects, and makes the app more robust when a request, a socket or the phone's storage fails.\n\nUsability:\n\n• Config Load and Reset: Load and Reset in the Home config section now ask for confirmation first. The dialog names the C64 it applies to when several are saved, and Cancel is focused first. (#639).\n• Playlist: A row's menu now has Remove from playlist, Move to top and Move to bottom. Every removal, including bulk removal and Clear playlist, can be undone from the message that follows it. (#639).\n• Config: Settings that differ from their default value are marked, and each one can be reset to its default on its own. (#639).\n• Live View: You can save a screenshot of the C64 screen while Live View shows a live picture. (#639).\n• Remote Input: A row of BASIC commands sends LIST, RUN or LOAD\"$\",8 to the C64 in one press. The row scrolls with the keys, so it fits on small screens. (#639).\n\nAll new controls can be reached and operated with the keypad alone.\n\nFixes:\n\n• Disk images: Launching a .g64 or .g71 disk image now switches on the drive and sets its mode first, and loads from the drive's actual bus ID. (#638).\n• Song lengths: The song-length lookup now prefers the tune's MD5 or full path over a matching file name, so a tune is less likely to get another tune's length. Song lengths are no longer rounded to whole seconds. (#638).\n• Config: A numeric value for a choice setting is no longer rejected as invalid. (#638).\n• SID files: A PSID file with an out-of-range second or third SID address is now rejected instead of being played with a wrong address. (#638).\n\nReliability:\n\n• HVSC library: When saving the library index fails, for example because storage is full, the app now reports the cause and no longer loads an older copy of the index afterwards. (#641).\n• Game Mode: When a Game Mode request times out, the app still stops the streams it started. (#641).\n• Storage: Opening the app's local database can no longer wait forever, and a full storage area no longer breaks saving ROMs. (#641).\n\n• Android: A failed stream setup no longer leaks a network socket. A failure inside the FTP, Telnet or HVSC code now ends the call with an error instead of leaving it waiting forever. A Telnet write can no longer block other Telnet calls. Wi-Fi is held correctly after the app returns from the background. (#640).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.2.3/c64commander-1.2.3-ios.ipa",
+          "size": 7615230,
           "minOSVersion": "15.0"
         }
       ],
@@ -3591,10 +3591,10 @@
       "versions": [
         {
           "version": "0.13.0",
-          "date": "2026-11-12T15:45:26Z",
-          "localizedDescription": "🧵 Catching up on threads:\n\n• Back in a thread in the nested view, replies posted while you were away are at the bottom with the other new posts, each under a preview of the post it answers, and a preview under that post in the thread shows them there in full when tapped; the preview above one at the bottom goes to the post it answers.\n• A thread's count now includes every post you haven't scrolled to yet, not only those posted since you opened it, and says unread; this starts with threads you open after updating, and only posts that came since your first visit are tinted.\n\n🔖 Bookmarks that look like a board:\n\n• Bookmarked threads show as a board's threads do, in its grid or list, with the board, reply counts and unread posts on each.\n• Archived and deleted threads say so on their card, and the ••• menu can remove them all at once.\n\n🖼️ A new look for the Saved tab:\n\n• Each saved file fills a tile shaped like its picture, so tall and wide ones aren't cut off, with whether it's an image, video or GIF on the picture.\n• Its name is on a frosted bar, with its file type, size and, for an image, resolution under it.\n• On iPad, as many columns as fit, as on a board.\n\n🧭 A tidier tab bar:\n\n• The tab bar is only as wide as its tabs, in the middle of the screen.\n• Tapping a tab gives a little tap and bounce, and tapping the tab you're on goes back to the top of it.\n• The Bookmarks tab shows how many bookmarked threads have unread posts.\n\nWhat's fixed:\n\n• With iCloud sync on, a file saved before version 0.13.0 is now in the same place in the Saved tab on all your devices.\n• In the full-screen viewer, the shade and controls under a video stay at the bottom of the screen while you swipe between videos, instead of moving with each one.\n• In the full-screen viewer, swiping to the next video no longer makes the one before it flash.\n• In Bookmarks, a thread opens straight away, without waiting to find out whether it's still up.\n• Clear bookmarks asks first, and says when it clears them on all your devices.\n• Bookmarks keeps the order you chose, and ticks it in the Sort menu.\n• The ring on a saved file going to or from iCloud fills smoothly, instead of starting over with every percent.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.0%2B305/Runner.ipa",
-          "size": 34200202,
+          "date": "2026-11-13T12:37:04Z",
+          "localizedDescription": "What's fixed:\n\n• With iCloud sync on, bookmarks made before version 0.13.0 are now in the same order on all your devices.\n• With iCloud sync on and NekoSurf open on two devices at once, the change you made last now wins on both, such as how far you've read in a thread, instead of each keeping its own.\n• With iCloud sync on, Settings → History → Clear watched posts now clears them on all your devices, even while another one has a thread open.\n• With iCloud sync on, a file you remove from the Saved tab no longer comes back when it was still going up to iCloud from another device.\n• With iCloud sync on, a setting you changed on another device is no longer undone when this device signs in to iCloud again.\n• With iCloud sync on, removing something while it's still going up to iCloud no longer brings up \"iCloud didn't take a change\".",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.0%2B307/Runner.ipa",
+          "size": 34206272,
           "minOSVersion": "17.0"
         }
       ],
@@ -4344,11 +4344,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.1",
-          "date": "2026-11-02T02:13:03Z",
-          "localizedDescription": "Fixed:\n\n• Retry malformed or truncated translation responses once, then split a failing batch into smaller, independently validated batches. Completed batches are saved so retrying only processes unfinished subtitles.\n• Fixed sandbox permission errors when exporting videos with embedded or burned-in subtitles by staging output in a system-provided replacement directory.\n\nDownloads:\n\n• macOS 15+: Voxline-1.2.1.zip (x86_64 arm64; ad-hoc signed; not notarized).\n• iOS / iPadOS 18+: Voxline-iOS-1.2.1.ipa (unsigned; sign with AltStore, SideStore or Xcode).\n\nKeep the same signing account and Bundle ID when reinstalling the IPA to preserve app data.",
-          "downloadURL": "https://github.com/yamakze/Voxline/releases/download/v1.2.1/Voxline-iOS-1.2.1.ipa",
-          "size": 6565337,
+          "version": "1.2.2",
+          "date": "2026-11-13T01:22:57Z",
+          "localizedDescription": "Improved:\n\n• Simplified Mac and iOS task lists and media details with lighter grouped rows, concise status signals, and fewer repeated statistics.\n• Moved audio-track information, subtitle counts, and processing-stage details into an on-demand media panel while keeping active progress and retry controls available.\n• Redesigned iOS iCloud settings with native form sections, vertical sync statistics, and better handling of long folder names.\n• Applied Mac accent tinting to the main content background while keeping cards, floating controls, and the sidebar neutral.\n• Isolated progress updates within individual media rows and reused a single sync-state snapshot per list update.\n\nFixed:\n\n• Restored mouse interaction with Mac task deletion and ordering controls.\n• Prevented errors from one task appearing in another task's details, and kept execution errors separate from sync publication failures.\n• Fixed iOS error expansion and retry controls triggering media navigation, and kept long titles stable when expanding errors.\n• Kept the Mac proofreading video's black background within the video area so it no longer covers the window toolbar.\n\nDownloads:\n\n• macOS 15+: Voxline-1.2.2.zip (x86_64 arm64; ad-hoc signed; not notarized).\n• iOS / iPadOS 18+: Voxline-iOS-1.2.2.ipa (unsigned; sign with AltStore, SideStore or Xcode).\n\nKeep the same signing account and Bundle ID when reinstalling the IPA to preserve app data.",
+          "downloadURL": "https://github.com/yamakze/Voxline/releases/download/v1.2.2/Voxline-iOS-1.2.2.ipa",
+          "size": 6530646,
           "minOSVersion": "18.0"
         }
       ],
@@ -5612,17 +5612,17 @@
       "bundleIdentifier": "com.aigch.OpenParsec",
       "developerName": "hugeBlack",
       "subtitle": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK",
-      "localizedDescription": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK.\n\nThis project is still a major WIP, so apologies for the currently lackluster documentation. I'm also very new to both Swift and SwiftUI so I'm sure there are many places for improvement.\n\nBefore building, make sure you have the Parsec SDK framework symlinked or copied to the Frameworks folder. Builds were tested on Xcode Version 12.5.\n\nTouch Control:\n\nYou can set the touch mode you want to use in settings. Touchpad mode and direct touch mode are supported.\n\nWhen streaming, you can tap with 3 fingers to bring up the on-screen keyboard.\n\nYou can toggle if you want to use 2 fingers to scroll or zoom in the overlay menu.",
+      "localizedDescription": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK. This project is not affiliated with Parsec.\n\nDownloads:\n\nThe .ipa works with AltStore, SideStore, LiveContainer and TrollStore. LiveContainer does not check sources for new builds. For updates, tap install in the source and replace the existing app to get the newest build.\n\nOpenParsec is built against iOS 14 and later.\n\nOpenParsec will never support App Store distribution as it bundles the Parsec SDK, which can't be redistributed under App Store policies.\n\nTouch Control:\n\nTouch modes can be set in Settings or the stream menu. Touchpad moves the cursor like a laptop trackpad, Direct clicks where the finger lands.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aigch.OpenParsec.png",
       "tintColor": "#972cff",
       "category": "games",
       "versions": [
         {
-          "version": "1.4.0",
-          "date": "2026-11-13T00:24:33Z",
-          "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
-          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
-          "size": 4445102,
+          "version": "2.0.0",
+          "date": "2026-11-13T07:02:53Z",
+          "localizedDescription": "Welcome to OpenParsec v2.0.0!:\n\nThis is the release promised back in 1.4.0, with everything that's been on the nightly since october.\n\nWe now have a Metal renderer, streams that hold and reconnect by themselves, new connecting screens,reworked settings, and other control-related improvements.\n\nBefore you update:\n\n• auto reconnect is now switched on by default, see settings \u003e developer for additional settings.\n• everyone is now on the new Metal renderer. OpenGL is remains optional as a fallback\\.\n\nstreaming.\n\n• metal renderer, now the default (#118).\n• 120hz on ProMotion iphones (#118).\n• the stream stays connected in the background for as long as ios allows, and reconnects when you're back (#138).\n• the last frame stays up when the stream drops (#138).\n• auto reconnect waits for the network to come back, and reconnects right away on a wifi/cellular switch (#138).\n• resolution, bitrate and constant frame rate survive a reconnect (#119).\n\ninput.\n\n• smoother trackpad scrolling, thanks @alantangok (#97).\n• reverse scrolling works for trackpad and mouse, thanks @MoustacheOff (#116).\n• menu edge swipe setting, thanks @alantangok (#100).\n• left edge swipe brings back a hidden menu button (#120).\n• show menu button off no longer hides the keyboard button (#120).\n• mouse side buttons (#120).\n• drag handle in direct mode when the keyboard covers the picture, three finger tap hides the keyboard (#120).\n• the next controller takes over when the active one disconnects (#120).\n\napp.\n\n• settings rework, and settings open from the stream menu (#119, #129).\n• bitrate, constant frame rate and pinch to zoom are settings that carry over between streams (#119).\n• touch mode in the stream menu (#129).\n• connecting and reconnect screens match and show a live connection log (#130).\n• says right away when there's no network, retries once if the host doesn't answer (#117).\n• last host card stays after a disconnect, reconnect from the app icon (#117).\n• host list refresh no longer blocks the screen, long press a host to copy its name (#113).\n\nThanks to everyone for making bug reports on nightly builds, and thank you for your support!\n\nGenerated by GitHub:\n\n• host list UX.\n• Preserve fractional GCMouse scroll deltas.\n• Add opt-in iPad menu edge swipe.\n• last host reconnect optimization.\n• METAL RENDERER!!!\n• settings rework.\n• input and keyboard fixes.\n\n• Stream guards.\n• Stream menu.\n• Connect screens.\n• fix: honor Reverse Scroll Direction for trackpad/mouse scrolling.\n• Stream resume.\n\nNew Contributors:\n\n• @alantangok made their first contribution.\n• @MoustacheOff made their first contribution.",
+          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/2.0.0/OpenParsec.ipa",
+          "size": 4445097,
           "minOSVersion": "14.0"
         }
       ],
@@ -6709,11 +6709,11 @@
       ],
       "versions": [
         {
-          "version": "1.58.1",
-          "date": "2026-11-12T20:08:36Z",
-          "localizedDescription": "Added:\n\n• Volume under Allow mixing, in Narrate and in Audiobook settings: 0 to 2× with normal (1×) in the middle, so the voice or book can sit under music or rise above it. Above 1× the Android app lifts the sound itself; on iPhone Narrate goes no louder than normal.\n• While a transcript is being written, its words show up on the open page as each stretch is heard (every 10 to 20 seconds), not three minutes at a time.\n• \"Writing the transcript\" in the phone's notifications while it writes, with how far the chapter has got.\n• The chapter being written runs a light along its bar in the chapters list.\n\nChanged:\n\n• The audiobook player has no chapter name and hint above its bar any more; the chapters are in the list at the top.\n• An audiobook added as a folder takes the folder's name, and the cover picture in the folder (cover.jpg, folder.png and the like).\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.58.1/Waypage.ipa",
-          "size": 10864237,
+          "version": "1.58.2",
+          "date": "2026-11-13T09:10:44Z",
+          "localizedDescription": "Added:\n\n• \"Keep playing when you leave the book\" in Audiobook settings, off by default: the book stops when you go back or open another clip. On, it keeps playing, like Narrate's \"Keep reading when you leave the clip\".\n\n• A collection can show its clips as covers instead of a list (⋯ › Show as covers), for a shelf of books. Kept on this device.\n• A collection's cover in the library shows what it holds, a small mark for each kind: clips, files, audiobooks, notes.\n• Library, Feeds, Newsletters and Discover each have a Search icon switch in View options. On, search waits behind the icon at the top; off, the search field is always at the top and the icon goes. It starts on everywhere but Discover, as before. Feeds and Newsletters get a View options button for it.\n• A Stop button on the \"Writing the transcript\" notification, and \"Stop writing\" in the audiobook's Read along sheet whenever its transcript is being written. After Stop, nothing more is written until you play the book again or press Write the rest now.\n\nChanged:\n\n• An audiobook with no transcript yet shows its cover on the page, instead of an empty space.\n• Audiobooks: \"Write ahead while charging\" is off until you turn it on. It was on from the start, so a transcript could begin by itself when the phone was put on charge.\n\nFixed:\n\n• Audiobooks: the dot on the player's track drags. It follows your finger with the times, and the book moves there when you let go. Before, only a tap moved it. The track is also easier to catch.\n• The time you've spent on a file sits right under its \"Opened from\" line, as one footer with one line above it, instead of two that read like the same thing twice.\n• An audiobook no longer ends with \"Opened from\" its file name: the player under it already says what it is.\n• Edit clips now finds words in link addresses, so you can find every link to a site (say oceanofpdf.com). Removing it takes the link away and keeps its words; Replace with rewrites the address.\n• A space typed in Edit clips' Find also matches a no-break space or a line break in the clip, as Find in this clip does.\n• Back to where you were no longer stays up for good after a link, Contents, a highlight, find or the skim bar. It goes once you scroll back to that spot yourself, or read on three screens past where the jump put you. Scrolling toward the old spot keeps it.\n• The small window outside the app no longer pops up when you go home with nothing playing. It opens only while Narrate or an audiobook is actually playing, not when it's paused, was stopped by another app taking the sound, or ended while you were away.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.58.2/Waypage.ipa",
+          "size": 10869581,
           "minOSVersion": "15.5"
         }
       ],
@@ -7611,11 +7611,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.8",
-          "date": "2026-11-07T01:56:17Z",
-          "localizedDescription": "Modu 1.3.8:\n\nBuild / 构建：10175 · Stable / 正式版.\n\nEnglish:\n\n• Fix(tts): Apply local speed control to OpenAI-compatible speech; support independent pitch on Android and macOS.\n• Feat(notes): Search excerpts, comments and chapter names across all notes or within the current book.\n• Fix(bookshelf): Keep folder cover density consistent across phone layouts.\n• Feat(ocr): Add PP-OCRv6 Small as the default and Medium as a higher-accuracy option, retain v5, and provide Gitee model mirrors.\n• Feat(dictionary): Add a copy button beneath each dictionary result.\n• Fix(reader): Limit brightness adjustments to book content and content dialogs; keep menus and non-reading pages at system brightness in both themes.\n• Feat(reader): Set header and footer fonts, colours and opacity independently, with reset controls.\n• Feat(plugins): Preview plugin packages before installation and preserve registered dictionary, toolbar and reading actions. () Thanks @1Cookie2gavh.\n• Fix(appearance): Refresh linked reading colours after palette, system brightness and scheduled theme changes; fix the fine-tune dialog layout. () Thanks @1Cookie2gavh.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Linux x64 / ARM64 · HarmonyOS ARM64.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.8/Modu-1.3.8-ios-arm64.ipa",
-          "size": 53768928,
+          "version": "1.3.9",
+          "date": "2026-11-13T02:34:38Z",
+          "localizedDescription": "Modu 1.3.9:\n\nBuild / 构建：10177 · Stable / 正式版.\n\nEnglish:\n\n• Feat(books): Read original files and folders in place, with read-only access, source badges, relinking and conversion to internal copies. Keep notes and reading progress when switching sources. Reading data continues to sync while linked originals stay on the device.\n• Feat(search): Choose Books, Notes or both from bookshelf search. Keep current-book note searches within that book, and place the history layout editor beside the date. () Thanks @1Cookie2gavh.\n• Fix(reader): Use compact AI dialogs and speech-bubble pointers on adjustable windows, with rounded corners and a fixed source anchor while dragging. Keep the text beneath menus and dialogs undimmed.\n• Fix(reader): Apply reading brightness consistently to dictionary, query and AI content dialogs, including embedded webpages, without applying the dimming twice.\n• Fix(reader): Fix line-spacing adjustments and overlapping footnote text.\n• Feat(sync): With automatic sync on and sync preview confirmation off, sync once when the app enters the background and once when it returns, including after unlocking. Save the current reading and narration positions before syncing.\n• Fix(settings): Use normal input types for WebDAV addresses and usernames.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Linux x64 / ARM64 · HarmonyOS ARM64.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.9/Modu-1.3.9-ios-arm64.ipa",
+          "size": 53809074,
           "minOSVersion": "16.0"
         }
       ],
@@ -7642,11 +7642,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.4",
-          "date": "2026-11-12T16:43:40Z",
-          "localizedDescription": "Fixed:\n\n• Starring a song no longer flashes the Favorites card's color.\n• Add to queue goes after what you played, ahead of autofill.\n• DJ mixes never cut and come in on the instruments (#148).\n• Beat-matched mixes fade in rather than skip the intro (#148).\n• Fades let a song finish its last line before it falls (#148).\n• A provider's next song is fetched ahead, so it mixes in (#148).\n• The volume keys move another device a whole step per press.",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.8.4/nori-ipod-0.8.4.ipa",
-          "size": 7042545,
+          "version": "0.9.0",
+          "date": "2026-11-13T04:40:09Z",
+          "localizedDescription": "Added:\n\n• A profile shows its account's picture, and its Edit page switches the YouTube channel.\n• A profile's Edit page is tidier: Rename is in its menu, advanced settings fold away.\n\n• Plugin settings are tidier: pages of their own, choices side by side, meters and icons.\n\nChanged:\n\n• Plugins move to plugin API 5: update them from Settings › Plugins.\n\nFixed:\n\n• A session the provider takes up again is signed in at once.\n• A provider's search no longer offers genres that play nothing.\n• A playlist of unknown length no longer says 0 songs.\n\nPerformance:\n\n• A mix's gliding tempo no longer wakes the player every second.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.9.0/nori-ipod-0.9.0.ipa",
+          "size": 7066784,
           "minOSVersion": "12.2"
         }
       ],
@@ -8414,11 +8414,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.6.11",
-          "date": "2026-11-10T08:54:47Z",
-          "localizedDescription": "• feature/subtitle shadow outline blur (#356) @3l-franco.\n• perf(ios): free more app memory before playback on iPhones @luqmanfadlli.\n• perf(ios): lighter mpv setup under the iPhone jetsam limit @luqmanfadlli.\n• fix(mdblist): reuse progress and watched lists until a remap changes them @tapframe.\n• fix(auth): stay signed in when session refresh fails @tapframe.\n• fix(player): center opening overlay backdrop on tall screens (#2585) @yvngjoon.\n• fix(player): show mpv error details on the error screen @tapframe.\n• fix(autosync): allow AutoSync without a preferred language, enable forced subs and AutoSync by default (#2578) @skoruppa.\n• feat(hero): smart horizontal framing for cropped backdrops (#2538) @skoruppa.\n• Add and update Bulgarian strings in strings.xml (#2576) @viiktr.\n• i18n: harmonize French wording with Nuvio TV (#2575) @SK-Gits.\n• fix(autosync): search further when a restored subtitle does not fit (#2537) @skoruppa.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.11-beta/nuvio-0.6.11-enhanced-release.ipa",
-          "size": 75396411,
+          "version": "0.6.12",
+          "date": "2026-11-13T01:28:27Z",
+          "localizedDescription": "• fix(subtitles): config export/import and profile removal for device subtitle prefs @luqmanfadlli.\n• feat(player): restore HLS quality chooser for Live TV @luqmanfadlli.\n• Significantly increase anime line sharpener strength (#375) @chrisk325.\n\n• feat(player): isolate subtitle preferences per device (#369) @3l-franco.\n• fix live tv buffering endlessly and black screen on some streams (#366) @chrisk325.\n\n• migrate simkl oauth v1 to v2 (#359) @chrisk325.\n• feat(player): chapters setting for every engine, chapters on iOS and a chapter title toggle (#2609) @skoruppa.\n• fix(collections): respect \"Show catalog type\" in folders (#2608) @skoruppa.\n• fix(player): show the real cause of playback errors, like NuvioTV (#2607) @skoruppa.\n• fix(player): use the audio clock when mpv video time drops to 0 (#2605) @skoruppa.\n• fix(player): add an SPS/PPS init segment to HLS streams that lack them (#2606) @skoruppa.\n• fix(player): decode DASH MIME query hints before detection (#2600) @retrocodes12.\n• i18n(vi): update latest Vietnamese strings (#2601) @blueocean2308.\n• fix(streams): keep tokenized links for reuse and refresh expired saved links (#2598) @skoruppa.\n• i18n: add French string for signed-out notice (#2593) @SK-Gits.\n• Update Dutch (nl) strings and reorder Dutch in Settings (#2592) @mronion212.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.12-beta/nuvio-0.6.12-enhanced-release.ipa",
+          "size": 75542331,
           "minOSVersion": "16.1"
         }
       ],
@@ -8992,10 +8992,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-12T22:07:19Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b7df7cb. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-237/Ito-1.5.0-dev.237-unsigned.ipa",
-          "size": 13919970,
+          "date": "2026-11-13T10:28:42Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit b0ff2f3. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-240/Ito-1.5.0-dev.240-unsigned.ipa",
+          "size": 13944724,
           "minOSVersion": "15.4"
         }
       ],
@@ -9435,12 +9435,12 @@
       "bundleIdentifier": "net.yuandev.onexray",
       "developerName": "YuanDevTeam",
       "subtitle": "Open-source Xray-core client for iOS, macOS, Android, Windows, and Linux. Smart routing, subscription management, and custom JSON configs. Available on the App Store, Google Play, and Microsoft Store",
-      "localizedDescription": "Bring your own servers or subscription. OneXray does not provide VPN access or proxy servers.\n\nWhy OneXray:\n\n• Across your devices. Use iPhone, iPad, Mac, Android, Windows or Linux, with light/dark themes and five interface languages.\n• Your servers, organized. Import share links, Xray JSON and subscriptions. Group manual nodes and reorder them by dragging.\n• Routing you control. Choose Smart or Custom Routing, or use complete Raw and provider configurations, including Remnawave subscriptions.\n\nGet started:\n\n• Install from the official store and complete setup and system permissions. Windows and Linux also need an outbound-interface selection.\n• Open Servers and add your subscription, share links or Xray JSON. Complete provider configurations are recognized during subscription import.",
+      "localizedDescription": "Bring your own servers or subscription. OneXray does not provide VPN access or proxy servers.\n\nWhy OneXray:\n\n• Across your devices. Use iPhone, iPad, Mac, Android, Windows or Linux, with light/dark themes and five interface languages.\n• Your servers, organized. Import share links, Xray JSON and subscriptions. Group manual nodes and reorder them by dragging.\n• Routing you control. Choose Smart or Custom Routing, or use complete Raw and provider configurations, including Remnawave subscriptions.\n\nThe current official packages require the following operating systems and architectures:\n\nUbuntu 22.04's system GLib 2.72 does not meet the current official DEB / ZIP requirements. Use Ubuntu 24.04 LTS or another distribution that meets all the requirements above.\n\nGet started:\n\n• Install from the official store and complete setup and system permissions. Windows and Linux also need an outbound-interface selection.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/net.yuandev.onexray.png",
       "tintColor": "#1e89ff",
       "category": "other",
       "screenshotURLs": [
-        "https://onexray.com/images/screenshots/devices-en.png"
+        "https://onexray.com/images/screenshots/devices-en.png?v=20261113"
       ],
       "versions": [
         {
@@ -10289,17 +10289,19 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.84",
-          "date": "2026-11-12T10:44:12Z",
-          "localizedDescription": "Las miniaturas de los programas en Rejilla y Tarjetas se ven ahora apaisadas y enteras, sin recortar caras ni cabezas. Corrige un fallo en Apple por el que la miniatura seguía recortándose, y pide la versión apaisada cuando la guía solo indica un póster vertical. Hay que refrescar las guías para que se apliquen.",
-          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.84/InputStreamPlayer-iOS-0.9.84-138-unsigned.ipa",
-          "size": 17675439,
+          "version": "0.9.85",
+          "date": "2026-11-13T10:57:22Z",
+          "localizedDescription": "Radio: ahora puedes enviar la emisora que escuchas a un Chromecast, una tele o un altavoz con Google Cast (iOS y Android), y en iOS también por AirPlay. El botón aparece en la pantalla de la radio cuando hay aparatos en tu red. En el aparato se ve el logo y el nombre de la emisora; el móvil sigue controlando la pausa y el cambio de emisora.",
+          "downloadURL": "https://github.com/jopsis/InputStreamPlayer/releases/download/v0.9.85/InputStreamPlayer-iOS-0.9.85-139-unsigned.ipa",
+          "size": 20456716,
           "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "ISPlayer usa la red local para encontrar teles y altavoces con Chromecast a los que mandar la radio."
+        }
       }
     },
     {
@@ -10592,10 +10594,10 @@
       "versions": [
         {
           "version": "0.5.6",
-          "date": "2026-11-04T12:19:29Z",
-          "localizedDescription": "Build 283 for Apple TV, iPhone, iPad, Mac, and Android. This beta adds recovery tools where you need them most, on the profile picker, and improves how AetherEngine resumes playback and handles subtitles.\n\nRecover an account before opening a profile:\n\n• Repair saves a separate encrypted file. It checks a supported legacy backup for the signed-in account and prepares a new copy for you to review and save. Keep the original file as a fallback.\n• Restore asks before replacing the account’s cloud backup. If the response is uncertain, use the verification action to check the earlier attempt. The app keeps track of that attempt so you can return to it.\n• On Apple TV, choose a backup action in Tools, then scan its QR code with a phone on the same trusted local network to move a backup file. Review and confirm any restore on the TV. On Android, file actions use the system file picker where available. To start a restore on an eligible Android 14 or later device, choose Sign in for backup recovery in Tools.\n• Tools and account controls stay available during profile loading. The Android TV picker keeps Tools and the account button available while profiles are loading or unavailable. Existing profile PIN and diagnostic-sharing rules still apply.\n\nPlayback and sources:\n\n• AetherEngine on Apple can be selected from the player settings. It carries your resume point when opening or switching players, and its subtitle selection and rendering now use the current playback session.\n• Subtitle add-ons on Apple can be retried when a request fails. Available results from successful add-ons stay visible while a failed one retries.\n\nDownloads:\n\nApple TV comes in Full and Lite. Apple IPAs need compatible sideload signing. The Mac build is for Apple silicon and ships with an ad hoc signature, without notarization. Android comes in Full with mpv and Play with Media3. Update with the same platform and variant to keep the app identity.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.12/VortX-iOS-v0.5.6-beta.12-ci.ipa",
-          "size": 69414677,
+          "date": "2026-11-11T21:21:27Z",
+          "localizedDescription": "VortX 0.5.6 beta 13: Profile Recovery, Mac Sign-In and Subtitle Shortcuts:\n\nBuild 285 for Apple TV, iPhone, iPad, Mac and Android. This beta makes it easier to recover an account from the profile picker, fixes a Mac sign-in failure and keeps the Library visible during refresh.\n\nFixed:\n\n• Library and cloud backups. The Library keeps the first result visible while refreshing. Cloud sync accepts larger encrypted backups and keeps your account’s existing encryption format.\n\nNew:\n\n• Preferred subtitles with C. With keyboard focus in the Apple player, press C to select an available track in your preferred language. Press it again to turn that primary track off. On iPhone and iPad, this requires iOS or iPadOS 17 or later.\n\nPlease test:\n\n• On Apple TV, open Tools from the profile picker and check that you can reach Back, Diagnostics and the available backup actions with the remote.\n• On Mac, try signing in with your password or QR code. In the Library, check that titles stay visible during refresh.\n• In the Apple player, press C twice on a title that has subtitles in your preferred language.\n\nAndroid phone, tablet and TV. Choose VortX-0.5.6-full-mpv-universal.apk for Full with mpv or VortX-0.5.6-play-media3-universal.apk for Play with Media3. The Media3 AAB is included for store distribution. Update using the same app variant.\n\nSHA256SUMS.txt lists package checksums. VortX-Hosted-Direct-Beta-Provenance.json records the original GitHub Actions builds.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.6-beta.13/VortX-iOS-v0.5.6-beta.13-ci.ipa",
+          "size": 69435751,
           "minOSVersion": "16.0"
         }
       ],
@@ -12056,7 +12058,7 @@
       "bundleIdentifier": "dev.seedseeker.ios",
       "developerName": "rat-punchers",
       "subtitle": "Fast seed finder for Shattered Pixel Dungeon",
-      "localizedDescription": "An extremely fast seed finder for Shattered Pixel Dungeon, written in Rust — with native apps for Android, iOS, Linux, macOS, and Windows.\n\nTry it in your browser →.\n\n• ⚡️ 4.7–25.4× faster than Java seed finders on the benchmark queries.\n• 🔍 Rich queries: multiple requirements across melee and thrown weapons, armor, wands, and rings.\n• 🔗 Share links: short links to share your search.\n• 📅 Daily scouting: scout today’s UTC daily run, or choose a past or future date.\n• 🗺️ Interactive maps: explore fullscreen floors and the Imp Vault, reveal secrets, and find the Rat King.\n• 📱 Native apps Material 3, GTK 4 and libadwaita, SwiftUI, WinUI 3.\n\nhttps://github.com/user-attachments/assets/b5baa6be-b305-4d9b-bbdb-bfd1009c187e\n\nhttps://github.com/user-attachments/assets/7a4dd801-44dc-4ef1-82ce-a7911c46ecad\n\nWeb app:\n\nRun searches directly at shpd-seed-seeker.pages.dev.",
+      "localizedDescription": "An extremely fast seed finder for Shattered Pixel Dungeon, written in Rust — with native apps for Android, iOS, Linux, macOS, and Windows.\n\nTry it in your browser →.\n\n• ⚡️ 4.7–25.4× faster than Java seed finders on the benchmark queries.\n• 🔍 Rich queries: multiple requirements across melee and thrown weapons, armor, wands, and rings.\n• 🔗 Share links: short links to share your search.\n• 📅 Daily scouting: scout today’s UTC daily run, or choose a past or future date.\n• 🗺️ Interactive maps: explore fullscreen floors and the Imp Vault, reveal secrets, and find the Rat King.\n• 📱 Native apps Material 3, GTK 4 and libadwaita, SwiftUI, WinUI 3.\n\nhttps://github.com/user-attachments/assets/b5baa6be-b305-4d9b-bbdb-bfd1009c187e\n\nhttps://github.com/user-attachments/assets/7a4dd801-44dc-4ef1-82ce-a7911c46ecad\n\nWeb app:\n\nRun searches directly at seedseeker.nerdcoder.xyz.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.seedseeker.ios.png",
       "tintColor": "#386ac2",
       "category": "other",
@@ -12823,11 +12825,11 @@
       ],
       "versions": [
         {
-          "version": "2.11.1",
-          "date": "2026-11-12T15:37:12Z",
-          "localizedDescription": "Naviamp v2.11.1:\n\nNaviamp 2.11.1 adds live Stream Details and improves internet-radio artwork, station editing, and audio information. It also fixes repeated shuffle orders and duplicate generated stations in Recently Played Radio.\n\nHighlights:\n\n• Inspect the metadata and audio quality supplied by an internet-radio stream.\n• See more station logos and stream-provided song artwork.\n• Get fresh shuffle orders and cleaner Recently Played Radio history.\n\nUpgrade notes:\n\n• No special upgrade steps are required.\n\nKnown issues:\n\n• Radio metadata, artwork, and reported audio quality depend on what the station supplies; some streams provide only a title or station information.",
-          "downloadURL": "https://github.com/goosepod/naviamp/releases/download/v2.11.1/Naviamp-v2.11.1-ios-unsigned.ipa",
-          "size": 20685073,
+          "version": "2.11.2",
+          "date": "2026-11-13T06:05:40Z",
+          "localizedDescription": "Naviamp 2.11.2:\n\nNaviamp 2.11.2 fixes white bands at the top and bottom of the Android app. App backgrounds and filled Now Playing artwork now extend behind the system bars while controls remain safely inset.\n\nHighlights:\n\n• Restore full-window backgrounds on Android.\n\nUpgrade notes:\n\n• No special upgrade steps are required.\n• Store and beta channel versions may differ from GitHub.",
+          "downloadURL": "https://github.com/goosepod/naviamp/releases/download/v2.11.2/Naviamp-v2.11.2-ios-unsigned.ipa",
+          "size": 20691324,
           "minOSVersion": "17.2"
         }
       ],
@@ -13464,11 +13466,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.17",
-          "date": "2026-11-13T00:29:51Z",
-          "localizedDescription": "English:\n\n• Improves continuous meeting transcription, draft display and silence handling, with better stop-tail settlement, recording recovery and errors from the selected transcription service.\n• Refines the meeting workbench, separates recording and transcription status, and keeps a seekable playback timeline with forward and back controls.\n• Fixes plan execution retaining planning-only permissions. A new plan returns the composer to Agent; a later manual Plan selection remains respected.\n• Scopes checklist progress to the current run, preserves history, and adds a native reset-and-rebuild capability for the assistant.\n• Preserves inline file references produced by subagents across reopening and improves continuous reading of large text files.\n• Expands native Workspace text recognition and tool guidance for source code, scripts, webpages, configuration and other plain-text files, preserving newlines and UTF-8 byte-order marks.\n• Fixes database reading and reference classification during legacy environment checks, and improves data-preserving optimization progress, blocked-state details and storage estimates. Existing data, installed software and recovery disks remain preserved.\n• Prevents premature failure alerts while a run is retrying and clears stale alerts after recovery, keeping cancellation, suspension and final failure distinct.\n\nThis build starts with internal testing. Please check meeting recording and playback, actual edits after executing a plan, TXT/web/code file cards, and actual storage and data integrity before and after optimizing a migrated device.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.17/Floe-Agent-1.8.17-build338-unsigned.ipa",
-          "size": 917946884,
+          "version": "1.8.20",
+          "date": "2026-11-13T11:25:00Z",
+          "localizedDescription": "English:\n\n• Refines meeting recording controls and media layout, keeping original recordings distinct from transcription chunks.\n• Improves pause, resume and full-recording playback while preserving originals and offering retry or individual-part access when a part is unavailable.\n• Repairs cleanup recovery and records after legacy-environment migration while protecting existing data.\n• Fixes missing Goal cards and restores Agent input mode after a Goal is accepted as guidance during a running task.\n\nFor internal testing and the existing GitHub/Feather channels. Reclaimed storage depends on completed work on the device.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.20/Floe-Agent-1.8.20-build341-unsigned.ipa",
+          "size": 918213318,
           "minOSVersion": "26.0"
         }
       ],
@@ -13527,19 +13529,19 @@
     {
       "name": "Lumisound",
       "bundleIdentifier": "com.lumisound.ios",
-      "developerName": "HollowHeavenXR",
-      "subtitle": "A full-featured, privacy-respecting music player for iOS, watchOS, and tvOS — stream from",
-      "localizedDescription": "Repository layout:\n\nEverything functional is Rust; see RUST-PORT.md for what moved where.\n\nSee ios/README.md for installation (AltStore / Sideloadly), self-hosting the bridge, and build-from-source instructions.\n\nIn-app help:\n\nThe app includes a full Help \u0026 Feature Guide (Settings → Help) covering every feature above in detail, with usage tips for each.\n\nREAD IT!!!",
+      "developerName": "VoxeliseStudios",
+      "subtitle": "Your music, lit up",
+      "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
-      "tintColor": "#456caf",
+      "tintColor": "#8e60b4",
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.33",
-          "date": "2026-11-13T00:04:37Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.33:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/HollowHeavenXR/Lumisound/releases/download/ios/v2.0.0.33/Lumisound-2.0.0.33-unsigned.ipa",
-          "size": 16260017,
+          "version": "2.0.0.38",
+          "date": "2026-11-13T09:30:09Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.38:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.38/Lumisound-2.0.0.38-unsigned.ipa",
+          "size": 16796340,
           "minOSVersion": "26.0"
         }
       ],
@@ -13597,10 +13599,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-13T00:06:03Z",
-          "localizedDescription": "Immutable snapshot of alpha build 507 (50ab7ab).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 507, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-507/Non-Jailbroken.ipa",
-          "size": 123842896,
+          "date": "2026-11-13T06:19:58Z",
+          "localizedDescription": "Immutable snapshot of alpha build 515 (88291ea).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 515, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-515/Non-Jailbroken.ipa",
+          "size": 123995421,
           "minOSVersion": "17.0"
         }
       ],
