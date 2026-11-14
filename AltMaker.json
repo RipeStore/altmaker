@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.christianselig.Apollo",
     "com.handtracker.mouse",
-    "com.handtracker.app"
+    "com.handtracker.app",
+    "com.owenselles.CloudNow2"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.1.1",
-          "date": "2026-11-13T06:24:30Z",
-          "localizedDescription": "Bird Gen source recovery:\n\nThis patch repairs Annual-first History qualification and explicit source recovery without turning Getting Ready into an interactive browser session.\n\n• Annual-first History: recognize eBird's adjacent count, \"This Year\" and year spans instead of treating their joined text as a different source. Region, year, First Observed order, row dates and declared counts must still qualify; optional scientific names remain optional.\n• Explicit FOY and Mass Retry: a user-requested Bird Gen source Retry can use its owned eBird browser recovery even when the feed originally loaded automatically. It retries that source rather than refreshing successful sources. Cancellation and navigation still prevent obsolete work from publishing.\n\n• Honest Mass coverage: successful high-count acquisition does not prove every arrival or location. Partial results retain their useful flocks and specific missing-history/location coverage instead of being called fully loaded.\n\nWhat this does not promise:\n\nThe next-release Bird Gen wording, info-dialog/key/contents and Getting Ready presentation proposals are not included.\n\nVerification and delivery:\n\nThe complete exact-source app catalog and all six real-Chrome layout profiles passed. Ten distinct behavior-removal mutations were rejected. Eleven focused parser, setup and recovery consumers passed against each genuine unsigned and signed IPA.\n\nUnverified on device:\n\nExact-build TestFlight availability remains unconfirmed. Provider access and complete Mass arrival history are not guaranteed. A native v2.1.1 trace demonstrates explicit FOY recovery and Mass settling Partial, but does not identify its Apple build or installation channel.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.1.1/BirdChaser-unsigned.ipa",
-          "size": 143474363,
+          "version": "2.2.1",
+          "date": "2026-11-14T12:21:33Z",
+          "localizedDescription": "What changed:\n\n• F1371 - Taller Stakeout Bird map. The selected bird's map is now twice its previous height at the same available width. This is a vertical-only change: other maps, pins, location selection, map bounds and data acquisition are unchanged. Following results remain reachable below the map.\n• F1374 - Clearer Busy Hotspots cards. Activity statistics no longer have shaded highlighting. Rare-bird names match the surrounding Rare reports text while retaining their species links and Stakeout navigation. Distances are enlarged to match hotspot headings, with readable units, and a visible gap separates each numbered badge from its hotspot name. Activity calculations, filters and sorting are unchanged.\n• F1375 - Unbroken NEW badges. NEW remains a single complete badge. When there is insufficient space after a bird name, the entire badge moves to the next line instead of splitting into NE and W. Names can still wrap normally, and NEW eligibility is unchanged.\n\nValidation and delivery:\n\nThe Release IPA is unsigned and intended for sideloading with AltStore or an equivalent signing tool. TestFlight uses a separate signed build; an upload or successful Apple processing alone is not confirmation of tester access.\n\nUnverified on device:\n\nThese visual changes have been exercised in real Chrome, not personally inspected on an iPhone. FOY automatic opening recovery is not included: its browser-opening behavior still needs an owner decision, and the existing manual Refresh recovery is unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from 0969ea4, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.2.1/BirdChaser-unsigned.ipa",
+          "size": 143480658,
           "minOSVersion": "15.0"
         }
       ],
@@ -1698,10 +1698,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-14T04:03:53Z",
-          "localizedDescription": "Built from e00c119 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-14T16:40:51Z",
+          "localizedDescription": "Built from 178296e on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14651722,
+          "size": 14651711,
           "minOSVersion": "15.0"
         }
       ],
@@ -2142,11 +2142,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.4",
-          "date": "2026-11-11T05:21:30Z",
-          "localizedDescription": "Fixed:\n\n• An attempted fix for the game closing at the start of the first 3D scene on some phones. On a Mali phone this began with v0.11.3, so phones now go back to v0.11.2's way of ordering and waiting for the graphics work in that scene. An Adreno phone reported the same on v0.11.3; it gets the same change, but whether it helps there is not known yet. If the game still closes there, the next start on a phone draws the 3D models a simpler way, and on a PC with Vulkan the next start uses the older ordering, without changing your settings.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-ios-unsigned.ipa",
-          "size": 9071880,
+          "version": "0.11.6",
+          "date": "2026-11-14T05:55:51Z",
+          "localizedDescription": "New:\n\n• On every device but the Adreno 740, the 3D scenery asks the graphics chip for less work, with the picture unchanged.\n• Shadows take less graphics work, phones most: the three layers that soften a shadow share one check of the picture instead of three (not with MSAA; the picture is exactly the same).\n• When no shadow is on screen, the layers that soften shadows are skipped (the picture is exactly the same).\n• On Windows PCs with older Intel graphics (6th to 10th generation, on Intel's final drivers), shadows can be drawn without stopping the picture partway to copy it: the first start after an install or a driver update checks once that the picture is exactly the same and not slower, and keeps it only then.\n\n• With the Original frame rate, the game sets aside less memory for drawing 3D scenery: what its busiest scenes need instead of the most it could take.\n• On phones with the Mali-G52 or the PowerVR DXT graphics chip, the parts of the scenery that are off screen or that the game itself hides are skipped before they are drawn, once the game has checked at start that the picture stays exactly the same.\n• With Vulkan, the glow around lamps and the sun is added to the picture by a smaller graphics program made for that one step, once the game has checked at start that the picture comes out exactly the same.\n• With Vulkan (not with MSAA), the shapes that mark where shadows fall are drawn by a graphics program that does no colour work at all, so the graphics chip can mark them before it paints anything, once the game has checked at start that the shadows come out exactly the same.\n• With Vulkan on most graphics chips (not the Mali-G52, and not with MSAA), shadows are laid over the scenery by a smaller graphics program made for that one step, once the game has checked at start that the picture comes out exactly the same.\n• With Frame rate set to Uncapped and Vertical sync off on Android phones, motion is steadier: each in-between picture is drawn for the moment the screen will actually show it, where the phone reports when its pictures reach the screen.\n• On phones with the PowerVR DXT graphics chip (the Google Pixel 10 Pro Fold among them), the 3D scenery is prepared by a different kind of graphics step, the one that lets the game skip scenery before drawing it (the picture is exactly the same).\n• On the same phones, pictures with no shadow in them, such as the title and the pause menu, skip the whole shadow step (the picture is exactly the same).\n• On the Google Pixel 10 Pro Fold the opening and the lamp-lit scenes run faster with these changes together (measured: 14 to 17 thousandths of a second a picture in the opening, where v0.11.5 took 20 to 23).\n\nFixed:\n\n• The macOS and iOS packages build again (v0.11.5 had none).\n• Phones with only one or two fast processor cores keep those cores for the game and its picture, and run the sound and background work on the other cores, instead of all of them sharing the fast ones.\n• The automatic capture of a slow scene for bug reports interrupts the game for less time.\n• A safety setting that older versions of the game could leave switched on for good after a graphics crash, making the graphics chip check every read of the 3D scenery, is now switched off by the game itself at the first start. This also takes out the same line if you added it by hand.\n• The game still switches that safety setting back on by itself if the graphics driver crashes again.\n• Phones and tablets with a Qualcomm Adreno chip on Qualcomm's own driver now set up each drawing step the driver's longest-standing way, an attempt at the short freezes seen on the Adreno 740 and 710 (the picture is exactly the same).",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.6/ico-pc-v0.11.6-ios-unsigned.ipa",
+          "size": 9391358,
           "minOSVersion": "15.0"
         }
       ],
@@ -2253,10 +2253,10 @@
       "versions": [
         {
           "version": "0.1.6",
-          "date": "2026-11-11T15:26:17Z",
-          "localizedDescription": "ios 0.1.6-nightly.20261111.45:\n\n• build(deps): bump the production-dependencies group across 1 directory with 10 updates (#367) (6a3f81c83).\n• build(deps): bump napi (#369) (195651024).\n• build(deps-dev): bump the development-dependencies group with 7 updates (#366) (1b525feea).\n• build(deps): bump libmpv2 from 6.0.1 to 7.0.0 (#370) (2d3d9db81).\n• build(deps): bump actions/setup-java from 6.1.0 to 6.2.0 (#373) (5768d6da6).\n\nChanges since ios/v0.1.6-nightly.20261108.42.",
-          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261111.45/conduit-0.1.6-nightly.20261111.45-ios-unsigned.ipa",
-          "size": 46617826,
+          "date": "2026-11-14T14:27:14Z",
+          "localizedDescription": "ios 0.1.6-nightly.20261114.48:\n\nPackaging release with no component source changes.\n\nChanges since ios/v0.1.6-nightly.20261111.45.",
+          "downloadURL": "https://github.com/davidvanderklay/conduit/releases/download/ios/v0.1.6-nightly.20261114.48/conduit-0.1.6-nightly.20261114.48-ios-unsigned.ipa",
+          "size": 46617650,
           "minOSVersion": "15.0"
         }
       ],
@@ -2397,10 +2397,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-11T01:42:41Z",
-          "localizedDescription": "Lots of new features! An upgraded rooms list with filter bubbles, a nice emoji picker, quick reactions, custom emoji, creating rooms, powerful moderation tools, redesigned link previews, and better virtual keyboard behavior on mobile.\n\nWe've been working really hard these past few weeks to close the gap between Robrix and other major clients like Element. We're almost there, and in many respects Robrix is even better! We plan to tackle the biggest missing feature soon: notifications.\n\nBy the way, if you don't like some of the new UI behavior or features, most of them are configurable in the Settings screen.\n\nHighlights from this release:\n\n• 🛡️ Powerful moderator tools: report, mute, kick, or ban users.\n\n• Easily find, select, and delete specific messages sent by a user (e.g., for spam).\n\n• 😀 Full support for picking emoji!\n\n• A super nice emoji picker with search, skin tones, and recent emoji.\n• React quickly by double-tapping/clicking a message, or picking an emoji from the message context menu.\n• When writing a message, type a colon: then some letters to instantly search for and input emoji.\n\n• 🎨 Custom emoji (and any MXC URIs) now show up in messages and reactions!\n• 🔍︎ The rooms list uses filter bubbles now instead of categories, plus inverse filters!\n\n• You can long-press, middle-click, or right-click on a category to exclude it.\n• This is super useful, for showing something like \"non low priority rooms\".\n\n• ➕ Create new rooms easily from the Add Room screen.\n• 🔗 New layout for link previews that works better for images, gifs, and narrow screens.\n• 🚪 Full support for leaving spaces (and viewing members of a space).\n\n• When leaving a space, we show a really nice hierarchical tree view of your joined rooms and subspaces so you can easily select the ones you want to leave.\n\n• 📜 You can now easily open old rooms that were replaced by a newer one.\n• ⌨️ On mobile, the soft keyboard now stays open while you scroll, send messages, or pick emoji.\n• ↕️ The top and bottom bars are auto-hidden while scrolling, and the bottom bar animates into a neat floating \"pill\".\n• 🔄 It's easy to tell when your account is being synced: an animated sync bar is shown above the room timeline.\n\n• Plus the rooms list shows a more detailed \u0026 accurate sync icon too.\n\n• ✅ Verify other users from their profile, with badges on avatars showing who's verified.\n• 🚀 Older Android devices draw text much faster and launch faster.\n\nThere are tons of other misc UI \u0026 UX improvements:\n\n• Back/Forward navigation buttons are displayed on all devices.\n• Easily show or hide the rooms list sidebar with the button in the title bar.\n• Redesigned the message input box with more room for text, and easier access to uploading media.\n• Space child graphs are cached, so switching between spaces is instant after the first time.\n• Read receipts take up less space and are better aligned/displayed.\n• The narrower layouts for the rooms list look perfect now.\n• Use two-finger trackpad swipes to go back and forward in mobile view mode.\n• You can reply to small events like membership or topic changes.\n\nAnd some minor bug fixes:\n\n• Older Android versions (8 to 10): the soft keyboard no longer covers the message box.\n• macOS: the app icon no longer has a double border.\n• The rooms list no longer sits empty for a few seconds on slower devices.\n• The app is re-drawn immediately now after rotating your phone.\n• Rooms list avatars don't briefly flicker while their avatar image is loading.\n\nFixes to the Matrix SDK:\n\n• Replying to state events now works.\n• Don't throw away the shortcodes for custom emojis.\n\nmacOS:\n\nDownload and open the .dmg, then drag Robrix to your Applications folder as normal.\n\niOS and iPadOS:\n\nJoin the TestFlight beta at https://testflight.apple.com/join/cQPRgdVY.\n\nLinux:\n\nUbuntu or Debian (and similar) distros.\n\nDownload and open that file in the Software Center (or App Center), or run this in your terminal:\n\nArch Linux.\n\nNote that the robrix_1.0.0-beta.6_x86_64.tar.gz and robrix_1.0.0-beta.6_aarch64.tar.gz files are just published for use with community-maintained AUR packages (see robrix-bin and robrix-git in that package manager). We can't guarantee they are correct or up-to-date.\n\nAppImage (for any Linux).\n\nWhat changed in Robrix since the last release:\n\n• Ensure our own profile will eventually be fetched if it fails at first.\n• Make sure the rooms list is always populated and drawn on startup.\n• Hide the rooms list's top bar (header) and bottom nav bar while scrolling.\n• Also hide the top/bottom bars upon scroll in Settings \u0026 AddRoom screens.\n• Add a light/dark theme button to the login screen.\n• Don't show the \"hold Shift\" tips on iOS and Android.\n• Show more buttons to clear the current room/space filter.\n• allow verifying another user from their user profile pane.\n• Show the verification status of other users on avatars and messages.\n• Use styling from Makepad toggles to make them purple when enabled.\n• Reorder the Encryption Settings section above Room Directories.\n• Cache space graphs in the app's cache dir for instant per-space rooms lists.\n• Use FxHash for faster hashing of hashmaps/sets that matter.\n• Fix Robrix icon on macOS being double-bordered.\n• [Makepad] try to draw text faster on older Android devices.\n\n• ci: run unit tests after clippy.\n• LazyView: a wrapper to only build a widget once it's actually shown.\n• Show a space's lobby screen after joining it (not the RoomScreen).\n• Do less work per-frame while scrolling thru a room or typing.\n• Show a sync indicator bar at the top of a room in mobile view mode.\n• Refactor room/space navigation into HomeScreen.\n• Show a loading spinner while waiting for user verification to start.\n• Support two-finger trackpad swipe to go back or forward.\n• [Makepad] only render bouncing dots at 30 hz.\n• Rooms list: keep old replaced rooms so we can open them (by choice).\n• Show a room creation card at the top (with a link to its older room).\n• Show tombstoned icon in room tabs and room headers.\n\n• Add an emoji picker to the message input via the mentionable popup.\n• Add quick reaction buttons to the message context menu.\n• ALlow double-tap/click on a message for a quick reaction.\n• Exclude our new emoji shortcode list from typos checking.\n• clippy fix.\n• Don't sync recent emoji so frequently; add setting to disable it.\n• Speed up CI by doing better caching of build results.\n• Moderation: report, delete others' messages, kick, ban, mute.\n• Support leaving a top-level space with a modal for leaving child rooms.\n• Add moderation slash commands: kick, ban, and unban.\n• [Makepad] when scrolling dont' try to do partial repaints on Android.\n• minor perf: skip drawing invisible backgrounds in the room timeline.\n• [Makepad] preserve animator state on rotation so we don't need manual state mgmt.\n• Ensure all popups are within safe areas; fix emoji picking on mobile.\n• Open context menus towards the middle of the window/screen.\n• [Makepad] keep a dropdown's selected item on rotation.\n• Moderation: support removing a user's messages from a room.\n• [Makepad] allow drawing scroll bars outside of a view's content.\n• Refactor tree of rooms for use in leave space modal and space lobby.\n• Make all checkboxes match the tinted select all/none buttons in modals.\n• Leave space modal: ask for confirmation, and use a larger modal.\n• CI: speed up builds that are trying to install/cache stuff unnecessarily.\n• Only show invite buttons if the user can actually invite others.\n• Emoji picker: make emoji bigger, show tooltips, scrollable categories.\n• Treat small state events like messages: support replies and context menus.\n• Spaces: show members, linkify all topics, save/restore lobby state.\n• Ensure text inputs in modals always show above the virtual kbd.\n• Show MXC URI images / custom emoji, both inline and in reactions.\n• Show custom emoji reaction shortcodes/names. Open MXC URIs in image viewer.\n• Implement creating rooms.\n• Create room modal: make topic input multiline, don't submit on Enter.\n• Use filter bubbles instead of fixed category headers in the rooms list.\n• Redesign link previews to better use the width of the room screen.\n• Animate filter bubbles as they're selected.\n• Makepad text input allow scroll on them, and virtual kbd can stay up during touch scroll.\n• [Makepad] tapping the send message button doesn't hide the virtual keyboard.\n• [Makepad] keep showing the virtual/soft kbd when scrolling.\n• Reposition context menus and tooltips after the virtual keyboard moves.\n• Shrink the room screen above the virtual keyboard instead of panning it up.\n• Fix small edge cases in the new room screen + virtual keyboard approach.\n• reinstate separate max height for link previews.\n• open context menus below the click/long-press, unless they don't fit.\n• don't hide the virtual kbd when tapping the emoji button.\n• put the rooms list status and clear filter button on one line.\n• Add a filter bubble for showing rooms you're a mod/admin/creator of.\n• Filter bubbles: long-press, middle-click, or right-click a bubble to inverse/exclude it.\n• Add a sidebar/sidepane button to collapse/expand the rooms list.\n• change the rooms list toggle button to a directional icon.\n• Group back, forward, and rooms list toggle button together.\n• use an overlapped design for read receipts that is more space efficient.\n• Try to fit read receips on the same line, wrap if they can't.\n• Add Room: maintain scroll position when going back from a room preview.\n• Apply the same bottom shadow to the rooms list header on desktop view mode.\n• Make title bar buttons bigger, both in the caption bar and above rooms list.\n• also make the room pane buttons a bit bigger, and evently spaced.\n• Clean up the two narrower layouts of rooms list entries.\n• Link previews: hide redundant link text. Show loading spinner and absence indicator.\n• make the narrower rooms list layouts perfect, including the explore space button.\n• Show room names on hover if they're hidden/truncated, fix explore space button.\n• Ensure the message context menu stays locked in position when kbd is hidden.\n\n• make sure toggle labels wrap (makepad).\n• minor text changes to settings screen and edited indicator.\n• Room input bar redesign.\n• minor fixes to avatar drawing.\n\nChanges we made to Makepad since the last release:\n\nAs always, a significant amount of our effort is spent upstreaming improvements \u0026 fixes into Makepad, such that Robrix and everyone else benefits from them.\n\n• Android: older phones draw text much faster, and the screen only repaints the parts that changed. (, plus more PRs coming soon).\n• Android: first launch is faster on older phones, and shows a \"Compiling shaders\" screen instead of a long white one. ( and ).\n• Android 8 to 10: the soft keyboard no longer covers the bottom of the app and any text box there. ().\n• Text can be drawn a simpler way that's faster on older devices, which is what Robrix's new \"Use simpler text rendering\" setting does. ().\n• Scrolling no longer hides the soft keyboard, only a tap does, and the screen doesn't jump under your finger during a press. ( and ).\n• On phones and tablets, a drag that starts on a text box scrolls instead of focusing it, and a multiline text box scrolls its own text first. ().\n• On phones and tablets, touching a list while it bounces only stops it, and a slightly shaky tap on an item still counts as a tap. ().\n• Text boxes in dialogs move above the soft keyboard, and part of a window can shrink above it while the rest stays put. (,, and ).\n• iOS: a text box no longer loses its text on your first keystroke after leaving a username or password field. ().\n• Tall text boxes can center their text vertically, placeholder text stays on one line, and apps can tell whether you or the app focused a text box. Robrix's new message box uses all three. (PR coming soon).\n• Rotating your phone no longer resets toggles, checkboxes, or a dropdown's selection. ( and ).\n• macOS and Wayland: two-finger trackpad swipes go back and forward in stack navigation. ().\n• Big grids of emoji stay smooth, since the text atlas grows when it fills up instead of constantly resetting. (PR coming soon).\n• Small animations like typing dots can run at a lower frame rate, which uses less CPU and battery. ().\n• Drawing, scrolling, and handling input are a bit faster, thanks to faster widget lookups and less wasted work. (,,, and ).\n• An image can be only as wide as its aspect ratio needs, which link previews of pictures and GIFs use. ().\n• A list or scrolling view that gets much shorter while scrolled near its end now shows its last items right away. ( and ).\n• A list's fling can be stopped, so jumping it somewhere new, like to an emoji category, doesn't leave it drifting. ().\n• A view can smoothly scroll to a spot, which Robrix uses to scroll Add Rooms and Settings back to the top. (PR coming soon).\n• A clicked list item no longer stays highlighted after the mouse leaves it. ().\n• A toggle or checkbox can wrap a long label onto more lines, with its box lined up with the first line. (PR coming soon).\n• Smaller changes: buttons fade out of their hover color without a gray flash, disabled checkboxes ignore clicks, a crowded tab bar keeps the selected tab in view, and scroll bars can sit beside a view instead of covering it. (,,, and ).\n• A widget can sit at the end of a text block's last line, which is how Robrix fits read receipts there. ().\n• So Robrix can move onto the newest version of Makepad, we also brought over the fixes it relies on, like Android's clipboard, keyboard types, and status bar icons, and Wayland's mouse back and forward buttons. (,,,,,,,,,,, and ).\n\nNew Contributors:\n\n• @RiPetitor made their first contribution.",
-          "downloadURL": "https://github.com/project-robius/robrix/releases/download/v1.0.0-beta.6/robrix-1.0.0-beta.6-ios-aarch64.ipa",
-          "size": 65215535,
+          "date": "2026-11-14T08:18:54Z",
+          "localizedDescription": "Just a quick follow-up release before I go on vacation. Some nice new features: Robrix can follow your system's theme (light/dark mode), a left/removed room that is still open gets clearly marked, and super long messages can't push the text input off-screen.\n\nHighlights from this release:\n\n• 🌗 A new \"Auto\" appearance setting follows your system's light or dark mode.\n• 🚪 If you get kicked, banned, or leave a room while it's open, we now clearly show that.\n\n• For example, the reason you got kicked/banned is shown, plus buttons to re-join or knock if allowed.\n• You can still read the room, but not send, reply, or react in it.\n\n• 📨 Invites that ended elsewhere, like being rejected in another app or taken back by the sender, now say so instead of loading forever.\n• 📝 If an edit fails to send, your changed draft gets saved into the editor so you can retry it.\n• 🚫 In rooms where you can't send messages, Reply and Edit buttons are hidden.\n\n• Same for reactions, and it's clearly shown if you try to react when it's not allowed.\n\n• 🏷️ Rooms and spaces with no name show their alias instead of a room ID.\n\nAnd some bug fixes:\n\n• The rooms list can no longer show as empty, even if the Matrix sync service does weird shit.\n• A long message no longer pushes the bottom of the text input off the screen.\n\n• Patched a bug in the Matrix SDK that could rarely cause a sent message to appear twice.\n\nmacOS:\n\nDownload and open the .dmg, then drag Robrix to your Applications folder as normal.\n\niOS and iPadOS:\n\nJoin the TestFlight beta at https://testflight.apple.com/join/cQPRgdVY.\n\nLinux:\n\nUbuntu or Debian (and similar) distros.\n\nDownload and open that file in the Software Center (or App Center), or run this in your terminal:\n\nArch Linux.\n\nNote that the robrix_1.0.0-beta.7_x86_64.tar.gz and robrix_1.0.0-beta.7_aarch64.tar.gz files are just published for use with community-maintained AUR packages (see robrix-bin and robrix-git in that package manager). We can't guarantee they are correct or up-to-date.\n\nAppImage (for any Linux).\n\nWhat changed in Robrix since the last release:\n\n• Don't remove loaded rooms and timelines if the room list service resets.\n• Update rooms that get left, fix restored invites, respect can-send/react permissions.\n• Don't ever cut off the room input bar's text input.\n• Adjust footer positioning w.r.t. the EditingPane so both can be shown.\n• Fix the editingpane getting squeezed below footers, clarify ended invites.\n\n• Add rounded corners to footers and properly fill safe inset areas.\n• Display room/space names as an alias or \"unnamed\", not a bare ID.\n• Add an \"Auto (follow system)\" appearance setting, the new default.\n• bump version to 1.0.0-beta.7.\n\nChanges we made to Makepad since the last release:\n\nAs always, a significant amount of our effort is spent upstreaming improvements \u0026 fixes into Makepad, such that Robrix and everyone else benefits from them.\n\nSo that Robrix can move the latest version of Makepad, we upstreamed a TON more of the changes that Robrix relies on, including the ones our last release listed as \"PR coming soon\", like drawing with GLES on Android, the growing text atlas, vertically centered text boxes, and smooth scrolling to a spot.\n\nSee the huge list of Makepad PRs: it's through and ).",
+          "downloadURL": "https://github.com/project-robius/robrix/releases/download/v1.0.0-beta.7/robrix-1.0.0-beta.7-ios-aarch64.ipa",
+          "size": 65428219,
           "minOSVersion": "15.0"
         }
       ],
@@ -2785,11 +2785,11 @@
       ],
       "versions": [
         {
-          "version": "2026.10.29",
-          "date": "2026-10-29T14:14:27Z",
-          "localizedDescription": "• GFN fix: Restore native streaming capabilities.",
-          "downloadURL": "https://github.com/owenselles/CloudNow/releases/download/v2026.10.29-4042dbd/CloudNow.ipa",
-          "size": 16375748,
+          "version": "2026.11.14",
+          "date": "2026-11-14T16:23:18Z",
+          "localizedDescription": "• Make external TestFlight distribution optional.\n• Support Apple TV profiles in TestFlight builds.",
+          "downloadURL": "https://github.com/owenselles/CloudNow/releases/download/v2026.11.14-264fa5a/CloudNow.ipa",
+          "size": 16375750,
           "minOSVersion": "26.2"
         }
       ],
@@ -5554,7 +5554,7 @@
       "subtitle": "YouTube Music client for iOS",
       "localizedDescription": "Trop:\n\nA free and open source YouTube Music client for iOS.\n\nFeatures:\n\n• No ads.\n\n• Stream songs and videos from YouTube Music.\n• Synced lyrics (Musixmatch, Netease, Kugou, LRCLIB, Genius).\n• Library sync (playlists, albums, artists, podcasts).\n\n• Custom app icons and themes.\n• Queue management and listening history.\n\nAdd the Trop source, then install the latest stable release (unsigned - your client re-signs it with your Apple ID):\n\nNote: AltStore PAL is not supported.\n\nManual Installation:\n\nTo build an unsigned IPA locally, run ./build_ipa.sh; the output is build/Trop.ipa.\n\nNotable mentions:\n\n• InnerTubeX - eXtended InnerTube API library for Kotlin.\n• zemer-cipher - YouTube cipher deobfuscation and PoToken generation.\n• Metrolist - YouTube Music client for Android.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.686udjie.Trop.png",
-      "tintColor": "#1a88ff",
+      "tintColor": "#bb5556",
       "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/SwiftyMedia/Trop@main/.github/assets/1.png",
@@ -5563,11 +5563,11 @@
       ],
       "versions": [
         {
-          "version": "0.0.4",
-          "date": "2026-10-23T20:01:13Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/SwiftyMedia/Trop/releases/download/v0.0.4/Trop.ipa",
-          "size": 47614536,
+          "version": "0.0.5",
+          "date": "2026-11-14T12:11:48Z",
+          "localizedDescription": "• feat: add YouTube comment section for songs (#20).",
+          "downloadURL": "https://github.com/SwiftyMedia/Trop/releases/download/v0.0.5/Trop.ipa",
+          "size": 35924605,
           "minOSVersion": "26.2"
         }
       ],
@@ -6013,10 +6013,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-13T15:09:28Z",
+          "date": "2026-11-14T13:59:44Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484767,
+          "size": 7484764,
           "minOSVersion": "16.4"
         }
       ],
@@ -6223,10 +6223,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-14T01:03:04Z",
+          "date": "2026-11-14T13:45:58Z",
           "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56202844,
+          "size": 56202722,
           "minOSVersion": "17.0"
         }
       ],
@@ -6709,11 +6709,11 @@
       ],
       "versions": [
         {
-          "version": "1.59.0",
-          "date": "2026-11-13T19:32:36Z",
-          "localizedDescription": "Added:\n\n• Android Auto. Waypage is in the car's media apps, with three tabs: Continue (the audiobook and the clip you were last on), Audiobooks, and Up next (your 10 latest unfinished clips, narrated). Tap one and it plays with the phone in your pocket and the app closed. An audiobook shows its cover and chapter, and its chapters are the queue. Beside the paragraph buttons, Narrate has Next clip and Previous clip (the collection's next clip, else the next under Up next), and an audiobook Next and Previous chapter (or file, for a folder with no chapters). Ask \"Hey Google, play on Waypage\" to start a book or clip by name. Where the car got to is back in the app when you next open it. With App lock on, the car lists nothing. A Waypage installed from GitHub needs Android Auto's Unknown sources setting (Android Auto's settings, tap Version ten times, then ⋮ › Developer settings).\n\nChanged:\n\n• Narrate and audiobooks show their cover on the lock screen and in the car, and an audiobook's chapter under its title as it goes.\n• On a phone, the reader's top bar no longer squeezes the name in among its buttons. The name hangs in a bubble just under the bar, with the chapter you're in under it, and goes away with the bar as you read on. Tap the name to rename it, as before.\n\nFixed:\n\n• A note's card shows its first page with what is drawn on it as soon as the note is made, after you draw on it, and after it comes in from another device, without opening it first. A card no longer keeps showing the older drawing.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.59.0/Waypage.ipa",
-          "size": 10882674,
+          "version": "1.60.1",
+          "date": "2026-11-14T13:07:38Z",
+          "localizedDescription": "Changed:\n\n• Sync history lists a version only when it differs from the one before it, not every save. Saves that only moved where you are in a clip or a timestamp are left out.\n• The sidebar's Notes under Library sets Show to All notes, and Clips sets it to All clips, so each one lists what its name says whatever Show was on before.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.60.1/Waypage.ipa",
+          "size": 10896840,
           "minOSVersion": "15.5"
         }
       ],
@@ -8781,11 +8781,11 @@
       ],
       "versions": [
         {
-          "version": "4.4.1",
-          "date": "2026-10-13T20:00:21Z",
+          "version": "4.5.0",
+          "date": "2026-11-14T16:09:15Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/lenios/shefu/releases/download/v4.4.1%2B2883/shefu-unsigned.ipa",
-          "size": 15629179,
+          "downloadURL": "https://github.com/lenios/shefu/releases/download/v4.5.0%2B2893/shefu-unsigned.ipa",
+          "size": 15685320,
           "minOSVersion": "15.6"
         }
       ],
@@ -9691,7 +9691,7 @@
       "name": "COD4iOS",
       "bundleIdentifier": "com.devz.cod4ios",
       "developerName": "DevZer0D4Y",
-      "subtitle": "Call of Duty 4 port for iOS, Android, Nintendo Switch and New Nintendo 3DS",
+      "subtitle": "Call of Duty 4 port for iOS, Android and Nintendo Switch",
       "localizedDescription": "Only the iOS version is ready for now!!:\n\nCall of Duty 4: Modern Warfare on iPhone and iPad, based on KisakCOD.\n\nCOD4iOS includes single-player and CoD4x multiplayer in one app, with touch controls and Xbox-style controller support. This source release is 1.0.3, build 4. The port is still in development, so expect bugs and differences between devices and servers.\n\nYou need your own copy of the original PC game, Call of Duty 4: Modern Warfare (2007). Modern Warfare Remastered files will not work. The source and IPA do not include the retail game data.\n\nIf you want to support me and remain up-to-date about this and other projects, you can in different ways:\n\nKo-Fi: https://ko-fi.com/dev_zer0\n\nYouTube: https://www.youtube.com/@develop_erZ\n\nWhat you need:\n\n• An iPhone or iPad running iOS/iPadOS 17 or later.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.devz.cod4ios.png",
       "tintColor": "#61762d",
@@ -10189,7 +10189,7 @@
       "bundleIdentifier": "io.nekohasekai.screensharing",
       "developerName": "nekohasekai",
       "subtitle": "Better Screen Sharing for Apple systems",
-      "localizedDescription": "Open Screen Sharing:\n\nOpen Screen Sharing aims to develop superior servers and clients based on the private protocol used by Apple VNC (macOS's Screen Sharing server and ScreenSharing.app).\n\niOS:\n\nThe App Store version is \\$1 through October 31, 2026, then \\$2. Your purchase supports my work.\n\nThe App Store version excludes the following features due to App Store restrictions:\n\n• Apple VNC server: relies on background keep-alive mechanisms and a lockdown exploit.\n• Dragging files directly from a remote Mac into other iOS/iPadOS apps: relies on a private API.\n\nNightly builds:\n\nYou can also switch to the Nightly track in the App settings of the macOS app and update directly.\n\nFeatures:\n\n• Compared to the original ScreenSharing.app:.\n\n• Optimized for local networks.\n• Optimized for public networks (runs smoothly with Tailscale P2P).",
+      "localizedDescription": "Open Screen Sharing:\n\nA remote desktop client that doesn't suck.\n\nThe App Store version excludes the following features due to App Store restrictions, but you can support my work by purchasing it:\n\n• Dragging files directly from a remote Mac into other iOS/iPadOS apps: relies on a private API.\n\nNightly builds:\n\nYou can also switch to the Nightly track in the App settings of the macOS app and update directly.\n\nRoadmap:\n\n• [x] Add support for macOS.\n• [x] Add support for RDP.\n• [x] Publish to iOS App Store.\n• Publish to Homebrew.\n• [x] Add support for Android.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.nekohasekai.screensharing.png",
       "tintColor": "#5796fd",
       "category": "other",
@@ -10229,11 +10229,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.442",
-          "date": "2026-11-08T20:30:52Z",
-          "localizedDescription": "Added:\n\n• Delete worktrees when archiving, a project setting that is off by default, on the Mac, Android, iPhone and iPad. From the CLI: dieter project update --delete-worktrees-on-archive=true PROJECT. When a conversation is archived, the machine that runs it removes its clean, idle worktree; turning the setting on also cleans up existing archives. Branches and conversation history stay, and restoring recreates the committed files, but ignored files, dependencies and build output are deleted. Worktrees with uncommitted or in-progress work are kept.\n\nChanged:\n\n• Agent channels are always on: every project has a channel and every agent turn can use it. The opt-in switches are gone: Settings → Experimental → Agent channels on the Mac, Android, iPhone and iPad, the project and board overrides, and dieter channel settings.\n• The Inbox on Android, iPhone and iPad leads with running work, followed by Pinned, Needs you, Review and Recent. Tiles at the top count running work, replies that need you and cards ready for review, and filter to them. Swipe a card right to mark a reply read, finish a review or pin it, and left to archive it (with undo) or stop a running agent. The Android desktop Inbox uses the same order.\n\nFixed:\n\n• Queued messages on Android, iPhone and iPad stay pinned above the input while the conversation scrolls. Send now, Edit and Remove wait until the machine has the message, and the queue shows when a message is waiting, sending, stopping the agent or failed.\n• A synced record that a machine cannot verify, such as one signed by a machine that never joined the device roster, no longer stalls every later change from that peer. That stall could leave a project missing on one machine and create a duplicate when it was opened there. Such records are held, checked again every sync round and listed under held in dieter peer status.\n• Run on no longer lists checkouts of machines that left the account.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.442/Dieter-iOS.ipa",
-          "size": 64974988,
+          "version": "0.6.445",
+          "date": "2026-11-14T10:27:58Z",
+          "localizedDescription": "Fixed:\n\n• Go 1.26.11 (the gateway image builds with Go 1.27.4) fixes GO-2026-6859, an HTTP server crash.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.6.445/Dieter-iOS.ipa",
+          "size": 65110096,
           "minOSVersion": "18.0"
         }
       ],
@@ -10423,11 +10423,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.4",
-          "date": "2026-11-12T19:08:46Z",
-          "localizedDescription": "Bingo.\n\nIssues closed:\n\n• #3132 [GB audio] Emulation bugs.\n• #3133 A nickname on a trainer.party row shows in Gold, Silver and Crystal but is dropped in Red, Blue, Yellow and the Gen 3 games.\n• #3134 Opponent held items fail.",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.4/gen1recomp%2B%2B-0.4.4-ios.ipa",
-          "size": 44750328,
+          "version": "0.4.5",
+          "date": "2026-11-14T10:13:59Z",
+          "localizedDescription": "Download the right version for your device below.\n\nIssues closed:\n\n• #3138 Battle Bag in Battle Pyramid doesn't work in Battle.\n• #3139 when using a controller and navigating though menus and such, sometimes when navigating through them, one dpad click or joystick move move through two options instead of one and skip one of them, and its very annoying.\n• #3140 Gift Castform in Gen 3 isn't holding the Mystic Water like it should.",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.5/gen1recomp%2B%2B-0.4.5-ios.ipa",
+          "size": 44742127,
           "minOSVersion": "15.0"
         }
       ],
@@ -10647,10 +10647,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-14T04:03:53Z",
-          "localizedDescription": "Built from e00c119 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-14T16:40:51Z",
+          "localizedDescription": "Built from 178296e on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45434285,
+          "size": 45435427,
           "minOSVersion": "15.0"
         }
       ],
@@ -13011,7 +13011,7 @@
       "bundleIdentifier": "app.tatakai.me",
       "developerName": "Snozxyx",
       "subtitle": "Meet Tatakai. Watch, read, discover, track, and belong — one home for everything you love about anime. Made for the community",
-      "localizedDescription": "Overview:\n\nTatakai brings anime discovery, streaming, manga reading, and community features together in one customizable app. Instead of relying on a single built-in provider, its extension-first design lets users choose their sources.\n\nHost your own sources with Tatakai Extension Server: setup, built-in proxy, live logs, and deployment buttons for Vercel, Cloudflare, Heroku and Render. Set its API in Settings → Extension Hub → Extension Servers, or configure a connection.\n\nThe service is maintained independently in Snozxyx/TatakaiServer and included here as the tatakai-server/ Git submodule. Initialize it in an existing checkout:\n\nFor a new Tatakai checkout, use git clone --recurse-submodules.",
+      "localizedDescription": "Features:\n\n• Discover anime, manga, and novels with search, recommendations, and seasonal catalogs.\n• Watch and read through your installed extensions.\n• Track your library, progress, favorites, and continue-watching list.\n• Join community discussions and watch rooms.\n• Customize themes, layouts, profiles, and playback.\n\nDevelopment:\n\nUse Node.js 22 or later. Follow the development setup to clone the app and private API, get contributor access, and configure development keys.\n\nThe frontend and API run on your computer. Contributors use a separate development Supabase instance. See Contributing for the pull request process.\n\nExtensions:\n\nBuild your own extension with the extension guide, or host your sources with the independently maintained Tatakai Extension Server.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.tatakai.me.png",
       "tintColor": "#fd3a6c",
       "category": "entertainment",
@@ -13141,11 +13141,11 @@
       ],
       "versions": [
         {
-          "version": "0.3.0",
-          "date": "2026-11-11T23:03:43Z",
-          "localizedDescription": "What's New:\n\n• Rebuilt interface: Every page has been rebuilt with new adaptive navigation, glass headers that slide away while scrolling, a title-bar search, and blur, Mica, or solid window backgrounds.\n• Multiple accounts: Sign in to several Pixiv accounts and switch between them from Me. Search history is kept separately for each account.\n• Profile editing: Edit your profile and workspace, choose whether AI-generated works are shown, and change your profile image with cropping.\n• Bookmarks and follows: Choose public or private visibility and tags when bookmarking, follow creators privately, and filter your own bookmarks by tag.\n• Series and history: Follow manga and novel series and check updates in the watchlist. Novels keep a reading bookmark on pixiv, and viewed works can be recorded in a local browsing history.\n• Block list: Block tags and users from menus to hide matching works and users across recommendations, rankings, search results, and related works.\n• Linux ARM64: DEB, RPM, and tar.gz packages are now available for ARM64.\n\nImprovements:\n\n• Rankings can be browsed by date, and creator pages now show related users and My pixiv friends.\n• The title-bar search lets you choose the search type, and its dropdown shows recent searches, trending tags, and pixivision articles.\n• Home shows recommended novels and pixivision picks. FANBOX and Settings now appear in the sidebar, and following lists switch between public and private with tabs.\n• Comments open in a panel, works with more than ten pages can jump to a page, and the novel reader supports text selection and copying.\n\nFixes:\n\n• Fixed the updater offering the Apple Silicon build to Intel Macs.\n• Fixed the macOS window appearing before the app was ready, and the novel reader ignoring saved text size and spacing.\n• Fixed empty FANBOX keyword searches and ID search suggestions not using the interface language.\n\nMaintenance:\n\n• Updated Flutter, Rust, and frost_ui. macOS builds require macOS 12.0 or later.",
-          "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.3.0%2B7/ios-nosigned.ipa",
-          "size": 23455913,
+          "version": "0.3.1",
+          "date": "2026-11-14T12:44:38Z",
+          "localizedDescription": "Improvements:\n\n• Pictures are cached in the app's own data folder instead of the shared system temporary folder, and the cache is trimmed by age and size in the background. The old cache in the temporary folder is left to the system's cleanup.\n\n• Scrolling novel and user lists is smoother, and Home, Me, and Newest no longer rebuild each time a page is opened or closed above them.\n\nFixes:\n\n• Fixed the follow button changing width when switching between Follow and Following.\n\nMaintenance:\n\n• Updated Flutter to 3.50.0, frost_ui, and other dependencies, and removed unused packages.",
+          "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.3.1%2B8/ios-nosigned.ipa",
+          "size": 23568389,
           "minOSVersion": "15.0"
         }
       ],
@@ -13400,11 +13400,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.24",
-          "date": "2026-11-14T01:39:53Z",
-          "localizedDescription": "English:\n\nFixes old storage-optimization records blocking a fresh optimization after device migration. Recovery verifies the complete file contents, reports progress and supports cancellation while preserving original data, installed software and recovery disks. Check completed results and device free space for actual reclamation.\n\nLinux cleanup tasks now let the assistant inspect and clean caches and temporary junk inside the shared Linux system through its terminal. The cache-inspection tool is optional. A safe cleanup script remains available without a configured model.\n\nCompletes iCloud synchronization and incoming refresh for cloud voice configuration and other settings, using the existing credential-sync control. Deduplicates packaged fonts and retires replaced components while retaining documents, font contents and licenses.\n\nImproves image-workbench tools, layers, export and canvas navigation, and fixes conflicts when updating the original image repeatedly in one editing session.\n\nThis build is for internal testing, with no public TestFlight or formal App Store submission. Unsigned GitHub packages and the Feather feed follow the existing delivery policy and require your own signing.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.24/Floe-Agent-1.8.24-build345-unsigned.ipa",
-          "size": 649692748,
+          "version": "1.8.25",
+          "date": "2026-11-14T08:52:12Z",
+          "localizedDescription": "English:\n\nAdds single and batch deletion, multiple selection and Select All for font-design projects. Font management lists all bundled and user-imported fonts, identifies bundled items and protects them from deletion.\n\nImproves first-turn tool visibility for agents. Chat, Plan and Agent modes expose tools appropriate to their purpose, while local models load definitions on demand. Preserves mode boundaries during retries and conversation recovery.\n\nImproves stall detection during repeated tool-catalog queries by tracking real progress.\n\nThis build is for internal testing. Post-migration storage optimization, real Linux cleanup and cross-device synchronization still require device verification; earlier results are not counted as new reclamation. No public TestFlight or formal App Store submission.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.25/Floe-Agent-1.8.25-build346-unsigned.ipa",
+          "size": 649780098,
           "minOSVersion": "26.0"
         }
       ],
@@ -13588,11 +13588,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.17",
-          "date": "2026-11-13T19:26:02Z",
-          "localizedDescription": "Release v6.3.17:\n\n• Invalidate Apple runtime caches when recorder patches change (afa43f9ff).\n• Preserve ordinary recording in Apple builds (ac9aac7ed).\n• Keep buffered video exports compatible with Apple builds (66d61ec06).\n• Prepare Flashcards review queues in the background (9717e4217).\n• Keep the screen on while reading (300b1bdec).\n• Enable zoom on fullscreen novel illustrations (6c0ffb4cb).\n• Make immersion sync failures diagnosable (3060d23ba).\n• Keep the Android keyboard open during subtitle search (37aea5132).\n• Toggle primary and secondary subtitles independently (3ba090111).\n• Keep vertical novel pages fully visible when reopening (df574ccde).\n• Save full sentences in EPUB flashcards (9615b26a9).\n• Fix missing card images on 32-bit Android (c24885dcd).\n• Show selected subtitles together on the video (85505f18d).\n• Reuse buffered video for animated flashcards (19bc61194).\n• Fix frozen animated flashcard clips after late seeks (91eca4ba3).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.17/Manatan-v6.3.17-iOS.ipa",
-          "size": 445764787,
+          "version": "6.3.18",
+          "date": "2026-11-14T14:47:39Z",
+          "localizedDescription": "Release v6.3.18:\n\n• Fix Flashcards review counts and log refresh timing (18433557d).\n• Prioritize manga text lookup over reader tap zones (e802c8873).\n• Support romaji search in Japanese dictionaries (caa74da62).\n• Keep mobile browser Back inside the browser (dad6ccebc).\n• Switch podcast dictionary entries with one tap (1ea848dd4).\n\n• Fix playback for podcasts that require byte ranges (3a7243696).\n• Improve horizontal manga text sizing in small OCR boxes (facbb6d69).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.18/Manatan-v6.3.18-iOS.ipa",
+          "size": 445722227,
           "minOSVersion": "16.1"
         }
       ],
@@ -13733,26 +13733,32 @@
     },
     {
       "name": "Lumisound",
-      "bundleIdentifier": "com.lumisound.ios.tv",
+      "bundleIdentifier": "com.lumisound.ios",
       "developerName": "VoxeliseStudios",
       "subtitle": "Your music, lit up",
       "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.tv.png",
-      "tintColor": "#6156e2",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
+      "tintColor": "#8e60b4",
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.40",
-          "date": "2026-11-13T19:10:46Z",
-          "localizedDescription": "Apple TV build for Lumisound v2.0.0.40.\n\nInstall: download the .ipa and sideload it to your Apple TV with atvloadly. Search and stream from the Lumisound bridge.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/tvos/v2.0.0.40/LumisoundTV-2.0.0.40.ipa",
-          "size": 11141011,
+          "version": "2.0.0.41",
+          "date": "2026-11-14T10:53:32Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.41:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.41/Lumisound-2.0.0.41-unsigned.ipa",
+          "size": 16868152,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Lumisound checks your connected Bluetooth accessory's battery level so it can warn you before it dies.",
+          "NSFaceIDUsageDescription": "Lumisound can use Face ID to lock the app, since it syncs your playlists and listening history to your account.",
+          "NSHealthShareUsageDescription": "Lumisound reads your headphone audio exposure to help you spot loud listening habits, and your sleep data (if you use the Adaptive Sleep Timer) to learn roughly when you fall asleep.",
+          "NSMicrophoneUsageDescription": "Lumisound records a short hum to find a matching song already in your library.",
+          "NSMotionUsageDescription": "Lumisound uses head tracking to anchor Spatial Audio in place as you turn your head, and step counting (Workout Mode) to match playback speed to your pace."
+        }
       }
     }
   ]
