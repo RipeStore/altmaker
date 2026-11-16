@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.danielnoam.waypage",
-    "com.sunpad.SunPad",
-    "com.meleepad.MeleePad"
+    "com.lumisound.ios",
+    "com.elsterlee.NeoBili",
+    "ikemen-engine.I-K-E-M-E-N-Go"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.2.1",
-          "date": "2026-11-14T12:21:33Z",
-          "localizedDescription": "What changed:\n\n• F1371 - Taller Stakeout Bird map. The selected bird's map is now twice its previous height at the same available width. This is a vertical-only change: other maps, pins, location selection, map bounds and data acquisition are unchanged. Following results remain reachable below the map.\n• F1374 - Clearer Busy Hotspots cards. Activity statistics no longer have shaded highlighting. Rare-bird names match the surrounding Rare reports text while retaining their species links and Stakeout navigation. Distances are enlarged to match hotspot headings, with readable units, and a visible gap separates each numbered badge from its hotspot name. Activity calculations, filters and sorting are unchanged.\n• F1375 - Unbroken NEW badges. NEW remains a single complete badge. When there is insufficient space after a bird name, the entire badge moves to the next line instead of splitting into NE and W. Names can still wrap normally, and NEW eligibility is unchanged.\n\nValidation and delivery:\n\nThe Release IPA is unsigned and intended for sideloading with AltStore or an equivalent signing tool. TestFlight uses a separate signed build; an upload or successful Apple processing alone is not confirmation of tester access.\n\nUnverified on device:\n\nThese visual changes have been exercised in real Chrome, not personally inspected on an iPhone. FOY automatic opening recovery is not included: its browser-opening behavior still needs an owner decision, and the existing manual Refresh recovery is unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from 0969ea4, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.2.1/BirdChaser-unsigned.ipa",
-          "size": 143480658,
+          "version": "2.2.2",
+          "date": "2026-11-16T03:11:53Z",
+          "localizedDescription": "Patagonia event consolidation (F1376) Show equivalent ongoing site/species episodes once in the dedicated Patagonia screen, full Bird Gen and Recent preview. Keep the original qualification dates and counts, deduplicate report/checklist/name unions, preserve distinct sites, taxa and episodes, and consolidate before the five-row preview limit. Retained restore and fresh merges use the same producer. Later solo reports advance recency without inflating the union of qualification-day report/checklist/observer totals. The narrow high-visibility category label has its own row.\n\nDeliberate FOY recovery (F1373) Opening FOY after its retained current-identity failure can start one owned recovery using the existing permitted eBird browser/login flow. Generic programmatic navigation, startup, preload and personal-refresh callbacks do not authorize a browser. Existing source/year/region validation, last-good evidence and navigation cancellation remain.\n\nTruthful source health and targeted recovery (F1188-F1191) Separate genuine acquisition, directory, qualification, history and persistence errors from capped, unresolved-location or unsurveyed-history coverage. Show error warnings only for unresolved errors, with explicit stage/region attribution and targeted Retry. Keep nonfatal coverage in Source status details with deliberate Refresh. Reuse healthy regional feeds, acquired pages and successful history reads. Storage-only recovery does not reacquire pages or renew original acquisition dates.\n\nSensitive monthly health (F1190) Name its shared Mass source explicitly, including zero-alert states. Independently healthy owned monthly inventory is not failed by Mass-only location/arrival limits. Use a shield category symbol and separate selection, loading and error semantics. Preserve regional/monthly privacy, immutable detection times and existing expiry.\n\nThe .ipa below is UNSIGNED and was built by CI from 5445f4b, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.2.2/BirdChaser-unsigned.ipa",
+          "size": 143484256,
           "minOSVersion": "15.0"
         }
       ],
@@ -1698,10 +1698,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-15T23:35:22Z",
-          "localizedDescription": "Built from 1ff2da3 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-16T01:23:58Z",
+          "localizedDescription": "Built from 40435e9 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14651720,
+          "size": 14651730,
           "minOSVersion": "15.0"
         }
       ],
@@ -3766,11 +3766,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.7",
-          "date": "2026-11-15T13:11:40Z",
+          "version": "1.8.7.1",
+          "date": "2026-11-16T02:41:22Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.7/doer-unsigned.ipa",
-          "size": 28409295,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.7.1/doer-unsigned.ipa",
+          "size": 28438599,
           "minOSVersion": "15.0"
         }
       ],
@@ -5607,7 +5607,7 @@
     {
       "name": "OpenParsec",
       "bundleIdentifier": "com.aigch.OpenParsec",
-      "developerName": "hugeBlack",
+      "developerName": "NearFrame",
       "subtitle": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK",
       "localizedDescription": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK. This project is not affiliated with Parsec.\n\nDownloads:\n\nThe .ipa works with AltStore, SideStore, LiveContainer and TrollStore. LiveContainer does not check sources for new builds. For updates, tap install in the source and replace the existing app to get the newest build.\n\nOpenParsec is built against iOS 14 and later.\n\nOpenParsec will never support App Store distribution as it bundles the Parsec SDK, which can't be redistributed under App Store policies.\n\nTouch Control:\n\nTouch modes can be set in Settings or the stream menu. Touchpad moves the cursor like a laptop trackpad, Direct clicks where the finger lands.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aigch.OpenParsec.png",
@@ -5618,7 +5618,7 @@
           "version": "2.0.0",
           "date": "2026-11-13T07:02:53Z",
           "localizedDescription": "Welcome to OpenParsec v2.0.0!:\n\nThis is the release promised back in 1.4.0, with everything that's been on the nightly since october.\n\nWe now have a Metal renderer, streams that hold and reconnect by themselves, new connecting screens,reworked settings, and other control-related improvements.\n\nBefore you update:\n\n• auto reconnect is now switched on by default, see settings \u003e developer for additional settings.\n• everyone is now on the new Metal renderer. OpenGL is remains optional as a fallback\\.\n\nstreaming.\n\n• metal renderer, now the default (#118).\n• 120hz on ProMotion iphones (#118).\n• the stream stays connected in the background for as long as ios allows, and reconnects when you're back (#138).\n• the last frame stays up when the stream drops (#138).\n• auto reconnect waits for the network to come back, and reconnects right away on a wifi/cellular switch (#138).\n• resolution, bitrate and constant frame rate survive a reconnect (#119).\n\ninput.\n\n• smoother trackpad scrolling, thanks @alantangok (#97).\n• reverse scrolling works for trackpad and mouse, thanks @MoustacheOff (#116).\n• menu edge swipe setting, thanks @alantangok (#100).\n• left edge swipe brings back a hidden menu button (#120).\n• show menu button off no longer hides the keyboard button (#120).\n• mouse side buttons (#120).\n• drag handle in direct mode when the keyboard covers the picture, three finger tap hides the keyboard (#120).\n• the next controller takes over when the active one disconnects (#120).\n\napp.\n\n• settings rework, and settings open from the stream menu (#119, #129).\n• bitrate, constant frame rate and pinch to zoom are settings that carry over between streams (#119).\n• touch mode in the stream menu (#129).\n• connecting and reconnect screens match and show a live connection log (#130).\n• says right away when there's no network, retries once if the host doesn't answer (#117).\n• last host card stays after a disconnect, reconnect from the app icon (#117).\n• host list refresh no longer blocks the screen, long press a host to copy its name (#113).\n\nThanks to everyone for making bug reports on nightly builds, and thank you for your support!\n\nGenerated by GitHub:\n\n• host list UX.\n• Preserve fractional GCMouse scroll deltas.\n• Add opt-in iPad menu edge swipe.\n• last host reconnect optimization.\n• METAL RENDERER!!!\n• settings rework.\n• input and keyboard fixes.\n\n• Stream guards.\n• Stream menu.\n• Connect screens.\n• fix: honor Reverse Scroll Direction for trackpad/mouse scrolling.\n• Stream resume.\n\nNew Contributors:\n\n• @alantangok made their first contribution.\n• @MoustacheOff made their first contribution.",
-          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/2.0.0/OpenParsec.ipa",
+          "downloadURL": "https://github.com/NearFrame/OpenParsec/releases/download/2.0.0/OpenParsec.ipa",
           "size": 4445097,
           "minOSVersion": "14.0"
         }
@@ -6220,10 +6220,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-15T04:45:18Z",
-          "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
+          "date": "2026-11-16T03:26:43Z",
+          "localizedDescription": "feat: modernize the engine with overhauled input and controller systems, side selection, rematch menu and more.\n\nFeats:\n\n• Controller Mapping: Lets you assign keyboard keys or gamepad buttons to a virtual controller with an XInput layout. Menus use this layout, so navigation stays the same regardless of your game button settings.\n• Button Setup: Lets you assign virtual controller buttons to game actions or button combinations. Any keyboard or gamepad can use any setup, and each device remembers its last choice.\n• Menus show the key or button to press for each action, using the artwork of the device in use.\n• Button Mapping lets each controller choose which icon set its hints use.\n• Font DEF files set the position, size and spacing of inline glyphs, and [Files] can override them for each font.\n• Text can change color inline with \\\u003ccolor:RRGGBB\u003e.\u003c/\u003e.\n• Screenpack, storyboard, Lua, lifebar, LifebarAction and Text sctrl text can all use color tags and glyphs.\n• Config all in Button Mapping walks through every virtual control on the controller diagram.\n• Test Mapping highlights the virtual controls a device produces.\n• Test Setup shows which engine buttons and stick directions a Controller Setup produces.\n• controllersetup.configall and buttonmapping.configall in [Option Info] set which buttons Config all asks for.\n• All text entry uses an on-screen keyboard that works with a controller. The hiscore initials selector is still available as an option.\n• The player who opened the pause menu controls it.\n• Pause Delay config option (toggle, the button that opens the pause menu, and how long it must be held, are configurable via system.def).\n• Side Select: Before a mode starts, each player picks a side, chooses a Controller Setup and confirms they are ready.\n• A challenger joining mid-arcade takes the opposite side and the winner continues the arcade run.\n• Versus co-op allows one to four players per side, so matches like 1 vs 2 or 3 vs 1 work the same as even teams.\n• With side select, more players can join a side in Team Arcade, Team Versus, Survival and Time Attack as co-op partners. Otherwise the modes work as before.\n• Every co-op mode can pick Turns. Each team member is played by the player who picked it, and side select or automatic assignment decides who plays like in Simul and Tag.\n• Co-op modes have order select like other team modes. Every player on the side can pick the order, and each player keeps controlling the character they picked.\n• Menus show a description of the highlighted item.\n• Command Display in Input Settings shows single-button glyphs, such as ^A or _F, as the key or button they are bound to (Mapping), or as the standard button art (Setup).\n• Mirror Commands in Input Settings flips command list directions while the player who opened the pause menu faces left.\n• Characters can split their command list into pages with movelist. keys. ChangeMovelist switches the set and its pages together.\n• The command list shows the characters of the player who opened the menu and their CPU partners. Human partners open their own menu.\n• Screenpacks can show bezel/side art in the black bars around the fight and menus, like arcade cabinet artwork.\n• Resolution, window size, fullscreen, borderless, VSync, MSAA, shaders and 3D options apply right away. A failed change is reverted.\n• Renderer and language options are picked from a list and auto restart the game.\n• Rematch screen with a rematch menu and each player's wins, win streak and win rate after the victory screen in versus-type modes.\n• Pause menu support during netplay, including Controller Setup changes that last for the rest of the session.\n• Mouse support for motif driven screens.\n\nFixes:\n\n• While hosting or joining and waiting for the other player, pressing cancel on a controller now returns to the menu, like Esc.\n• The game no longer squeezes the screenpack and the fight into one fixed area with fake black bars, so screenpack pixels stay sharp. The framebuffer now matches the window's shape, separate from the game resolution.\n• xshear lifebar text was shifted by the wrong amount on lifebars that aren't 320x240.\n• Letters missing from a bitmap font took no space when measured but were drawn as spaces, so centered and right-aligned text was off.\n• Centered and right-aligned typewriter text (textdelay) moved sideways while it was being typed.\n• Typewriter text with non-English letters typed some of them in several steps instead of one.\n\nRefactors:\n\n• .key and .keycode parameters are replaced by .action. An action lists virtual controls, so menus work the same for every keyboard and gamepad whatever their Controller Setup. KEY: can be used in action to assign a local keyboard key, and BTN: an engine button after the Controller Setup.\n• Peers exchange the content of their Controller Setups when the session starts, and replays store them in the header, so every side turns the same frames into the same game buttons. Each frame is still 8 bytes per player.\n• The player who starts a mode is tracked separately from the side they play on. Defaults to the left side.\n• The common menu system now supports movelists, replacing their separate drawing and scrolling code.\n• Lets a sprite be drawn without the frame skip and layer checks of Anim.Draw.\n• All text draws through the same code.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/branch-modern-input/Ikemen_GO-modern-input-ios.ipa",
-          "size": 56422680,
+          "size": 56429312,
           "minOSVersion": "17.0"
         }
       ],
@@ -7577,10 +7577,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-14T02:34:06Z",
-          "localizedDescription": "Pageturner from run 43546148848, commit a1cd552. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-43546148848/Pageturner.ipa",
-          "size": 29711941,
+          "date": "2026-11-16T02:13:30Z",
+          "localizedDescription": "Pageturner from run 43790307875, commit 4309259. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-43790307875/Pageturner.ipa",
+          "size": 28338225,
           "minOSVersion": "17.0"
         }
       ],
@@ -8008,11 +8008,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.2",
-          "date": "2026-11-03T03:14:15Z",
-          "localizedDescription": "构建信息：提交 617b2a6，Xcode 27.1 Build version 27A9275，由 GitHub Actions 构建。.",
-          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.2/NeoBili-v1.3.2-unsigned.ipa",
-          "size": 134891889,
+          "version": "1.3.3",
+          "date": "2026-11-16T05:10:48Z",
+          "localizedDescription": "下载附件 NeoBili-v1.3.3-unsigned.ipa，使用同页 SHA256SUMS.txt 校验。.\n\n构建信息：提交 6647ae6c74e469d8d88595347a9e6a0afa64b706，由 Xcode Cloud 构建。.",
+          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.3/NeoBili-v1.3.3-unsigned.ipa",
+          "size": 134035734,
           "minOSVersion": "26.0"
         }
       ],
@@ -8991,10 +8991,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-15T20:48:37Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 74b26e3. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-249/Ito-1.5.0-dev.249-unsigned.ipa",
-          "size": 14437879,
+          "date": "2026-11-16T02:30:03Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 38c1228. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-250/Ito-1.5.0-dev.250-unsigned.ipa",
+          "size": 14541247,
           "minOSVersion": "15.4"
         }
       ],
@@ -10646,10 +10646,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-15T23:35:22Z",
-          "localizedDescription": "Built from 1ff2da3 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-16T01:23:58Z",
+          "localizedDescription": "Built from 40435e9 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45631880,
+          "size": 45632115,
           "minOSVersion": "15.0"
         }
       ],
@@ -10712,10 +10712,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-15T07:27:24Z",
-          "localizedDescription": "PeonPad 0.1.0 Preview 2 (build 6) is an unsigned IPA update.\n\nImportant:\n\n• The IPA is unsigned. Sign it with your own Apple account or a sideloading service you trust before installing it. Install it over Preview 1 with the same signing identity to keep data.Wargus, saves and preferences.\n• The IPA contains no Warcraft II data, Aleona data, installer, MPQ, save, provisioning profile or signing credential.\n• You must own Warcraft II and extract a complete data.Wargus folder on a computer, then copy it to On My iPad \u003e PeonPad \u003e data.Wargus.\n• iPadOS 16 or later is required.\n\nWhat changed:\n\n• Errors are shown instead of a silent close (#14, for #11): if the game engine hits a problem with your data, such as a missing or damaged file, PeonPad now shows a PeonPad stopped message with the reason and the file name. Previously it closed with no message.\n• Launch log: every launch is written to PeonPad.log in the PeonPad folder in Files, and the previous launch is kept as PeonPad.previous.log. Attach it when you report a problem. It contains no game data.\n• iOS 27: the app starts through UIKit scenes, so builds made with Xcode 27 open on iOS 27. In LiveContainer, it no longer needs \"Spoof SDK version\" turned on (#10).\n• TV and external displays: the SDL window keeps its own UIKit scene, so connecting an external display no longer moves or resizes the game window. iOS SDL is the Pad ports' SDL 2.32.10 fork at 090b0c5a (#12).\n\nTouch controls are unchanged. PeonPad does not use controllers.\n\nValidation:\n\n• The data-free app audit passed and rejected an app with a planted data.Wargus. Two independent packagings of the IPA were byte-identical.\n\n• On a physical M2 iPad Pro with iPadOS 27.2.1, an in-place update over build 5 kept data.Wargus and preferences and reached the main menu. Inside LiveContainer 3.8.0, the same build reached the main menu, and damaged data files showed the new message.\n• Not rechecked on a device for this build: a full campaign, save/load, and physical TV output.\n\nThe source for this release is the tagged commit v0.1.0-preview.2; GitHub provides its source archive on this page.",
-          "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.0-preview.2/PeonPad-0.1.0-preview.2-unsigned.ipa",
-          "size": 3544860,
+          "date": "2026-11-16T02:51:06Z",
+          "localizedDescription": "PeonPad 0.1.0 Preview 3 (build 7) is an unsigned IPA update.\n\nImportant:\n\n• The IPA is unsigned. Sign it with your own Apple account or a sideloading service you trust before installing it. Install it over an earlier preview with the same signing identity to keep data.Wargus, saves and preferences.\n• The IPA contains no Warcraft II data, Aleona data, installer, MPQ, save, provisioning profile or signing credential.\n• You must own Warcraft II and extract a complete data.Wargus folder on a computer with Wargus 3.2 or newer (PeonPad is tested with 3.3.x) or with PeonPad's scripts/prepare-ipad-build.sh. Then copy it to On My iPad \u003e PeonPad \u003e data.Wargus.\n• iPadOS 16 or later is required.\n\nWhat changed:\n\n• Old Wargus data is caught at launch (#16, from #11): data made by Wargus 3.1 or older calls engine functions PeonPad's Stratagus no longer has, so it used to start and then stop at its first script error (SetFogOfWarOpacity). PeonPad now reads the version in data.Wargus/extracted. If it's older than 3.2, PeonPad says so and explains how to extract again before the engine starts.\n• The install guide states the Wargus version requirement. It also notes that an FFmpeg without libtheora leaves videos/ empty, which only loses the cinematics, and that prepare-ipad-build.sh works around it.\n\nAlso in this line since Preview 1 (from Preview 2): engine errors show a PeonPad stopped message with the file name, each launch is written to PeonPad.log, the app starts through UIKit scenes for iOS 27 (in LiveContainer it no longer needs \"Spoof SDK version\"), and the game window keeps its own scene on external displays.\n\nValidation:\n\n• The data-free app audit passed and rejected an app with a planted data.Wargus. Two independent packagings of the IPA were byte-identical.\n\n• On a physical M2 iPad Pro with iPadOS 27.2.1, an in-place update over build 6 kept data.Wargus and preferences.\n• Build 7 was not launched on the device because the test iPad was busy. Build 6, which differs only by the version check, reached the main menu there, and the same check accepts that iPad's own Wargus 3.3.3 data (run on a backup of it) and rejects it when marked 3.1.2.\n\nThe source for this release is the tagged commit v0.1.0-preview.3; GitHub provides its source archive on this page.",
+          "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.0-preview.3/PeonPad-0.1.0-preview.3-unsigned.ipa",
+          "size": 3547137,
           "minOSVersion": "16.0"
         }
       ],
@@ -13743,11 +13743,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.51",
-          "date": "2026-11-15T16:42:07Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.51:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.51/Lumisound-2.0.0.51.ipa",
-          "size": 17204805,
+          "version": "2.0.0.55",
+          "date": "2026-11-16T05:31:37Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.55:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.55/Lumisound-2.0.0.55.ipa",
+          "size": 17415157,
           "minOSVersion": "26.0"
         }
       ],
