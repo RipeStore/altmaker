@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.thomasthanos.An1me-Tracker",
-    "media.conduit.mobile",
-    "ikemen-engine.I-K-E-M-E-N-Go"
+    "dev.offdesk.ios",
+    "com.minh-ton.Reynard",
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.4.0",
-          "date": "2026-11-17T15:16:23Z",
-          "localizedDescription": "Broader Regions and Home:\n\nRepair Choose region with a dedicated scrolling body below its header and search. Group ABA Area and Lower 48 under Broader Regions, keep the offline jurisdiction catalog separate, and search names and region codes. Restore the top on reopening without forcing the keyboard open. Recognize bundled administrative Home membership for ABA Area and Lower 48 while preserving explicit device approval, per-region ownership and warnings for unverified offshore locations. Other researched eBird website regions are not enabled.\n\nHonest aggregate menus:\n\nKeep the complete authored menu visible. Supported destinations describe their real source boundaries: Today's Patches uses bounded nearby Home/Here/Find acquisition, Favorites uses saved hotspots, rarity tools retain their existing alert coverage, and weather uses approved Home with US-only NOAA forecasts. Unsupported county/history/directory tools explain the missing capability and offer Choose region instead of silently substituting whole-US observations. Guard late weather and tide completions across Home and scope changes.\n\nLeaderboard clarity and persistence:\n\nAdd numbered Gold, Silver, Bronze and Top-N milestone labels without inventing tie ranks or missing scores. Replace known-group jargon with verified-score coverage language. Keep unavailable podium scores visibly unknown, and wrap labels within narrow cards. Accept a successful unchanged identity capture; distinguish a known name with no published standing from a missing identity. Bound header prefetch to 500 rows. Under recognized quota pressure, expire older leaderboard snapshots only as needed while preserving the complete current board, verifying durable read-back and retaining session-only recovery when persistence fails. Native All time HTTP 500 recovery remains unproven.\n\nBusy Patches, Stakeout and navigation:\n\nCarry the unreleased v2.3.0 improvements forward: useful foreground reads yield less to matched-reference work without changing rate limits, required coverage, party evidence or cancellation. Preserve already-known Stakeout observer, species-total, duration and supported metadata through first paint, hydration, sorting and saved redraws without a per-checklist metadata sweep. Move the entire My Bird List group immediately above Rankings. Default shortcuts are Today's Patches, Stakeout Patches, Stakeout Birds and Twitches; saved custom and intentionally empty choices remain authoritative.\n\nDelivery boundaries:\n\nThe .ipa below is UNSIGNED and was built by CI from 1451288, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.4.0/BirdChaser-unsigned.ipa",
-          "size": 143489049,
+          "version": "2.5.0",
+          "date": "2026-11-17T23:25:18Z",
+          "localizedDescription": "F1389: Distinguish verified zero species, no matching published rank and an unavailable checklist count. A missing leaderboard row is not a numeric zero; explain the distinction in Top 100 and accessible header labels.\n\nF1390: Treat ABA/Lower 48 observation feeds that the verified capability registry does not support as unavailable, not failed or successfully empty. Preserve independent retained evidence and avoid a futile retry. Bound Bird Gen's background leaderboard acquisition to 500 without changing the manual Top 100 registry.\n\nF1391: Home and Here no longer offer Close Find. Keep that action for a real temporary Find, preserve its restore behavior, and show one local-feed summary.\n\nF1392: Add All regions / Here / Home filters to the existing region chooser. Combine text search with verified catalog membership, including supported ABA/Lower 48 overlap. Request explicit device location or use the current profile-and-area-owned Home; never substitute Home after a Here failure. Keep All reachable for denied, offline, ambiguous or unsupported locations. Reject late results and invalidate membership on profile, identity, area or saved-Home changes. Missing Home retains a Set Home action across asynchronous Recent updates.\n\nF1393-F1395: Contain Leaflet panes, markers, popups and controls beneath the region chooser. Separate the useful map canvas from readable, scalable OpenStreetMap copyright credits. Move optional Leaflet credit to the page footer. Use shared 8:5 map canvases, including populated Recent checklists and SVG fallbacks; preserve the deliberately taller 8:7 Stakeout Birds map. Extend actual-consumer controls and mandatory real-Chrome geometry coverage, with independent behavior and layout mutations.\n\nCoupled map lifecycle: delayed fitting now verifies the current map identity and attached canvas before touching Leaflet. Embedded maps keep interactive zoom but disable CSS zoom transitions, whose completion callback in the bundled Leaflet can outlive a removed map pane. A real Chrome transition-start/removal control reproduces that exact exception, and independently restoring animation brings it back. The mandatory full-layout Recent fixture owns its exact county-feed inputs, resets inherited filters and requires its own checklist, without relaxed deadlines or geometry assertions. Eleven independent actual-consumer mutations cover the behavior.\n\nCoupled regression guards retain selected-period ownership, cache-only header painting, bounded Find acquisition, stale-Home rejection and explicit setup confirmation. They now require the accessible unavailable-checklist label, one local Find summary and an actual selected-point marker or SVG inside the shared map canvas rather than the replaced presentation.\n\nKnown investigations remain open: native All time HTTP 500 needs a same-scope fresh native comparison; BC county identity coverage, ANUBIS access denial and malformed native high-count markup are not claimed repaired. No access-control bypass, fabricated empty success, new major-region capability or proxy was added. F1347 remains deferred; F1354/F1369/F1339 are excluded and F932/F995 evidence boundaries remain unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from 8fd3864, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.5.0/BirdChaser-unsigned.ipa",
+          "size": 143491150,
           "minOSVersion": "15.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-17T03:00:39Z",
-          "localizedDescription": "Built from 8d01126 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-18T01:16:02Z",
+          "localizedDescription": "Built from 1a15b4b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14652299,
+          "size": 14652307,
           "minOSVersion": "15.0"
         }
       ],
@@ -3848,11 +3848,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "2026-11-16T20:41:37Z",
+          "version": "1.0.1",
+          "date": "2026-11-17T21:15:23Z",
           "localizedDescription": "Installed copies update to this version automatically the next time they open.",
-          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v1.0.0/RustRadar_1.0.0.ipa",
-          "size": 36864575,
+          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v1.0.1/RustRadar_1.0.1.ipa",
+          "size": 36864271,
           "minOSVersion": "15.0"
         }
       ],
@@ -4304,11 +4304,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.25.16",
-          "date": "2026-11-10T11:44:29Z",
-          "localizedDescription": "Offdesk Dev v0.25.16: every component at 0.25.16, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.25.16/offdesk-0.25.16.ipa",
-          "size": 9367067,
+          "version": "0.26.0",
+          "date": "2026-11-18T02:27:11Z",
+          "localizedDescription": "Offdesk Dev v0.26.0: every component at 0.26.0, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.26.0/offdesk-0.26.0.ipa",
+          "size": 9368150,
           "minOSVersion": "15.0"
         }
       ],
@@ -4835,7 +4835,7 @@
       "bundleIdentifier": "tv.twitch.twitch",
       "developerName": "Knoks1111",
       "subtitle": "A better Twitch experience for iOS",
-      "localizedDescription": "TwitchPlusK is a tweak for the official Twitch iOS app. It keeps the native app and adds a fully customizable chat, 7TV/BTTV/FFZ emotes, adblock, Channel Points Auto Claim, OLED mode and more.\n\nAvailable in ENGLISH and FRENCH from the Settings menu.\n\nChat and emotes:\n\n• Reply to messages, view threads, and customize deleted-message display.\n• Use 7TV, BTTV, and FFZ emotes, including animated and Zero-Width emotes.\n• Search emotes, manage favorites, and import favorites from PC.\n• Choose picker providers, animations, and the opening tab.\n\nAd blocking:\n\n• Proxy — block stream ads through a default or custom proxy.\n• Local (VAFT) — block stream ads without a video proxy.\n• Proxy + Local (VAFT) — combine a stream relay with local ad blocking.",
+      "localizedDescription": "TwitchPlusK is a tweak for the official Twitch iOS app. It keeps the native app and adds a fully customizable chat, 7TV/BTTV/FFZ emotes, adblock, Channel Points Auto Claim, OLED mode and more.\n\nAvailable in ENGLISH and FRENCH from the Settings menu.\n\nChat and emotes:\n\n• Reveal deleted messages and view timeout durations or permanent ban labels.\n• Access 7TV, BTTV, and FFZ emotes through a dedicated emote picker.\n• Search emotes, manage favorites, and import favorites from PC.\n\nAd blocking:\n\n• Proxy — block stream ads through a default or custom proxy.\n• Local (VAFT) — block stream ads without a video proxy.\n• Proxy + Local (VAFT) — combine a stream relay with local ad blocking.\n• Use a separate emote proxy on networks that block emote services.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/tv.twitch.twitch.png",
       "tintColor": "#8e44f8",
       "category": "other",
@@ -4848,11 +4848,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.3",
-          "date": "2026-11-08T00:23:52Z",
-          "localizedDescription": "TwitchPlusK release info:\n\n• Twitch app version: 31.9.\n• Full changelog: CHANGELOG.md.\n\nFixes:\n\n• Fixed the emote picker button missing when Twitch’s Bits button is unavailable: it now appears directly to the left of the native emote button.",
-          "downloadURL": "https://github.com/Knoks1111/TwitchPlusK/releases/download/twitchplusk-v2.0.3-twitch-31.9/tpK-2.0.3-Twitch-31.9.ipa",
-          "size": 196182590,
+          "version": "2.0.4",
+          "date": "2026-11-17T22:02:21Z",
+          "localizedDescription": "TwitchPlusK release info:\n\n• Twitch app version: 32.0.\n• Full changelog: CHANGELOG.md.\n\n✨ What’s New:\n\nThe custom chat has been completely removed in favor of Twitch's native chat, with TwitchPlusK features integrated directly for a cleaner, more efficient experience. 7TV, BTTV, and FFZ emotes, the emote picker, first-time chatter highlighting, deleted-message display, and customizable event backgrounds alongside Twitch's built-in chat features.\n\nAdded:\n\n• Added an optional custom background color for deleted messages.\n• Added adjustable emote sizes, with a default height of 28 points.\n\nChanged:\n\n• Replaced the logo with a cleaner white design and refined its settings layout.\n• Simplified emote loading, catalog management, and favorites handling while preserving existing behavior.\n\n• Simplified Appearance settings and grouped portrait and landscape picker dimensions into a dedicated screen.\n\n• Moved emote sizes, picker dimensions, first-message color, and deleted-message options to Appearance settings.\n• Emote providers use a fixed 7TV \u003e BTTV \u003e FFZ priority.\n\n• Simplified the emote pipeline and removed unused custom-renderer code.\n\n• Reduced UI scanning when hiding Twitch Turbo.\n\nFixes:\n\n• Fixed inaccurate cached-emote counts and delayed counter updates in Advanced settings.\n\n• Fixed unreliable startup selection for Home's Following, Live, and Clips pages, Browse's Categories and Live Channels pages, Activity, and Profile.\n\n• Fixed partial emote matches: emote codes now require an exact, case-sensitive word match.\n• Fixed wide emotes overlapping surrounding text by reserving their actual width.\n• Improved loading when the same emote appears multiple times.\n• Deleted-message status and revealed content now share one row and use Twitch's native font size.\n• Preserved username and badge colors when dimming deleted messages.\n\nDeleted:\n\n• Removed obsolete legacy emote-cache migration code.\n\n• Removed unused translations.\n• Removed obsolete emote provider-selection logic.",
+          "downloadURL": "https://github.com/Knoks1111/TwitchPlusK/releases/download/twitchplusk-v2.0.4-twitch-32.0/tpK-2.0.4-Twitch-32.0.ipa",
+          "size": 196977625,
           "minOSVersion": "16.4"
         }
       ],
@@ -5296,11 +5296,11 @@
       ],
       "versions": [
         {
-          "version": "0.22.0",
-          "date": "2026-11-17T13:13:13Z",
-          "localizedDescription": "New Features:\n\n• Online PDF files now open in the mobile PDF viewer instead of the desktop version.\n• Links with custom URL schemes can now open in their corresponding apps on your device.\n\nBug Fixes \u0026 Improvements:\n\n• WebGL content is now rendered using Apple’s Metal graphics API through ANGLE, which can improve performance on some sites.\n• Made minor performance optimizations, particularly when the browser is in the background or the device is hot.",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.22.0/Reynard.ipa",
-          "size": 113650109,
+          "version": "0.22.1",
+          "date": "2026-11-18T02:02:47Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.22.1/Reynard.ipa",
+          "size": 113650739,
           "minOSVersion": "13.0"
         }
       ],
@@ -6195,7 +6195,7 @@
         {
           "version": "1.1",
           "date": "2026-11-17T16:47:01Z",
-          "localizedDescription": "feat: modernize the engine with overhauled input and controller systems, side selection, rematch menu and more.\n\nFeats:\n\n• Controller Mapping: Lets you assign keyboard keys or gamepad buttons to a virtual controller with an XInput layout. Menus use this layout, so navigation stays the same regardless of your game button settings.\n• Button Setup: Lets you assign virtual controller buttons to game actions or button combinations. Any keyboard or gamepad can use any setup, and each device remembers its last choice.\n• Menus show the key or button to press for each action, using the artwork of the device in use.\n• Button Mapping lets each controller choose which icon set its hints use.\n• Font DEF files set the position, size and spacing of inline glyphs, and [Files] can override them for each font.\n• Text can change color inline with \\\u003ccolor:RRGGBB\u003e.\u003c/\u003e.\n• Screenpack, storyboard, Lua, lifebar, LifebarAction and Text sctrl text can all use color tags and glyphs.\n• Config all in Button Mapping walks through every virtual control on the controller diagram.\n• Test Mapping highlights the virtual controls a device produces.\n• Test Setup shows which engine buttons and stick directions a Controller Setup produces.\n• controllersetup.configall and buttonmapping.configall in [Option Info] set which buttons Config all asks for.\n• All text entry uses an on-screen keyboard that works with a controller. The hiscore initials selector is still available as an option.\n• The player who opened the pause menu controls it.\n• Pause Delay config option (toggle, the button that opens the pause menu, and how long it must be held, are configurable via system.def).\n• Side Select: Before a mode starts, each player picks a side, chooses a Controller Setup and confirms they are ready.\n• A challenger joining mid-arcade takes the opposite side and the winner continues the arcade run.\n• Versus co-op allows one to four players per side, so matches like 1 vs 2 or 3 vs 1 work the same as even teams.\n• With side select, more players can join a side in Team Arcade, Team Versus, Survival and Time Attack as co-op partners. Otherwise the modes work as before.\n• Every co-op mode can pick Turns. Each team member is played by the player who picked it, and side select or automatic assignment decides who plays like in Simul and Tag.\n• Co-op modes have order select like other team modes. Every player on the side can pick the order, and each player keeps controlling the character they picked.\n• Menus show a description of the highlighted item.\n• Command Display in Input Settings shows single-button glyphs, such as ^A or _F, as the key or button they are bound to (Mapping), or as the standard button art (Setup).\n• Mirror Commands in Input Settings flips command list directions while the player who opened the pause menu faces left.\n• Characters can split their command list into pages with movelist. keys. ChangeMovelist switches the set and its pages together.\n• The command list shows the characters of the player who opened the menu and their CPU partners. Human partners open their own menu.\n• Screenpacks can show bezel/side art in the black bars around the fight and menus, like arcade cabinet artwork.\n• Resolution, window size, fullscreen, borderless, VSync, MSAA, shaders and 3D options apply right away. A failed change is reverted.\n• Renderer and language options are picked from a list and auto restart the game.\n• Rematch screen with a rematch menu and each player's wins, win streak and win rate after the victory screen in versus-type modes.\n• Pause menu support during netplay, including Controller Setup changes that last for the rest of the session.\n• Mouse support for motif driven screens.\n\nFixes:\n\n• While hosting or joining and waiting for the other player, pressing cancel on a controller now returns to the menu, like Esc.\n• The game no longer squeezes the screenpack and the fight into one fixed area with fake black bars, so screenpack pixels stay sharp. The framebuffer now matches the window's shape, separate from the game resolution.\n• xshear lifebar text was shifted by the wrong amount on lifebars that aren't 320x240.\n• Letters missing from a bitmap font took no space when measured but were drawn as spaces, so centered and right-aligned text was off.\n• Centered and right-aligned typewriter text (textdelay) moved sideways while it was being typed.\n• Typewriter text with non-English letters typed some of them in several steps instead of one.\n\nRefactors:\n\n• .key and .keycode parameters are replaced by .action. An action lists virtual controls, so menus work the same for every keyboard and gamepad whatever their Controller Setup. KEY: can be used in action to assign a local keyboard key, and BTN: an engine button after the Controller Setup.\n• Peers exchange the content of their Controller Setups when the session starts, and replays store them in the header, so every side turns the same frames into the same game buttons. Each frame is still 8 bytes per player.\n• The player who starts a mode is tracked separately from the side they play on. Defaults to the left side.\n• The common menu system now supports movelists, replacing their separate drawing and scrolling code.\n• Lets a sprite be drawn without the frame skip and layer checks of Anim.Draw.\n• All text draws through the same code.",
+          "localizedDescription": "feat: modernize the engine with overhauled input and controller systems, side selection, rematch menu and more.\n\nFeats:\n\n• Controller Mapping: Lets you assign keyboard keys or gamepad buttons to a virtual controller with an XInput layout. Menus use this layout, so navigation stays the same regardless of your game button settings.\n• Button Setup: Lets you assign virtual controller buttons to game actions or button combinations. Any keyboard or gamepad can use any setup, and each device remembers its last choice.\n• Unrecognized controllers are fully mappable in-game. Previously they needed the external SDL2 Gamepad Tool to work correctly.\n• Menus show the key or button to press for each action, using the artwork of the device in use.\n• Button Mapping lets each controller choose which icon set its hints use.\n• Font DEF files set the position, size and spacing of inline glyphs, and [Files] can override them for each font.\n• Text can change color inline with \\\u003ccolor:RRGGBB\u003e.\u003c/\u003e.\n• Screenpack, storyboard, Lua, lifebar, LifebarAction and Text sctrl text can all use color tags and glyphs.\n• Config all in Button Mapping walks through every virtual control on the controller diagram.\n• Test Mapping highlights the virtual controls a device produces.\n• Test Setup shows which engine buttons and stick directions a Controller Setup produces.\n• controllersetup.configall and buttonmapping.configall in [Option Info] set which buttons Config all asks for.\n• All text entry uses an on-screen keyboard that works with a controller. The hiscore initials selector is still available as an option.\n• The player who opened the pause menu controls it.\n• Pause Delay config option (toggle, the button that opens the pause menu, and how long it must be held, are configurable via system.def).\n• Side Select: Before a mode starts, each player picks a side, chooses a Controller Setup and confirms they are ready.\n• A challenger joining mid-arcade takes the opposite side and the winner continues the arcade run.\n• Versus co-op allows one to four players per side, so matches like 1 vs 2 or 3 vs 1 work the same as even teams.\n• With side select, more players can join a side in Team Arcade, Team Versus, Survival and Time Attack as co-op partners. Otherwise the modes work as before.\n• Every co-op mode can pick Turns. Each team member is played by the player who picked it, and side select or automatic assignment decides who plays like in Simul and Tag.\n• Co-op modes have order select like other team modes. Every player on the side can pick the order, and each player keeps controlling the character they picked.\n• Menus show a description of the highlighted item.\n• Command Display in Input Settings shows single-button glyphs, such as ^A or _F, as the key or button they are bound to (Mapping), or as the standard button art (Setup).\n• Mirror Commands in Input Settings flips command list directions while the player who opened the pause menu faces left.\n• Characters can split their command list into pages with movelist. keys. ChangeMovelist switches the set and its pages together.\n• The command list shows the characters of the player who opened the menu and their CPU partners. Human partners open their own menu.\n• Screenpacks can show bezel/side art in the black bars around the fight and menus, like arcade cabinet artwork.\n• Resolution, window size, fullscreen, borderless, VSync, MSAA, shaders and 3D options apply right away. A failed change is reverted.\n• Renderer and language options are picked from a list and auto restart the game.\n• Rematch screen with a rematch menu and each player's wins, win streak and win rate after the victory screen in versus-type modes.\n• Pause menu support during netplay, including Controller Setup changes that last for the rest of the session.\n• Mouse support for motif driven screens.\n\nFixes:\n\n• While hosting or joining and waiting for the other player, pressing cancel on a controller now returns to the menu, like Esc.\n• The game no longer squeezes the screenpack and the fight into one fixed area with fake black bars, so screenpack pixels stay sharp. The framebuffer now matches the window's shape, separate from the game resolution.\n• xshear lifebar text was shifted by the wrong amount on lifebars that aren't 320x240.\n• Letters missing from a bitmap font took no space when measured but were drawn as spaces, so centered and right-aligned text was off.\n• Centered and right-aligned typewriter text (textdelay) moved sideways while it was being typed.\n• Typewriter text with non-English letters typed some of them in several steps instead of one.\n\nRefactors:\n\n• .key and .keycode parameters are replaced by .action. An action lists virtual controls, so menus work the same for every keyboard and gamepad whatever their Controller Setup. KEY: can be used in action to assign a local keyboard key, and BTN: an engine button after the Controller Setup.\n• Peers exchange the content of their Controller Setups when the session starts, and replays store them in the header, so every side turns the same frames into the same game buttons. Each frame is still 8 bytes per player.\n• The player who starts a mode is tracked separately from the side they play on. Defaults to the left side.\n• The common menu system now supports movelists, replacing their separate drawing and scrolling code.\n• Lets a sprite be drawn without the frame skip and layer checks of Anim.Draw.\n• All text draws through the same code.",
           "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/branch-modern-input/Ikemen_GO-modern-input-ios.ipa",
           "size": 56431162,
           "minOSVersion": "17.0"
@@ -6681,11 +6681,11 @@
       ],
       "versions": [
         {
-          "version": "1.65.1",
-          "date": "2026-11-17T06:14:49Z",
-          "localizedDescription": "Added:\n\n• James Clear's 3-2-1 is in Discover's newsletters: sign up with your Newsletters address and each Thursday's email comes in cleaned up.\n• James Clear's 3-2-1 newsletter reads cleanly: no logo, tagline, weekly greeting or banner lines, its 3 ideas, 2 quotes and 1 question as headings, and it's named James Clear instead of \"Jamesclear\".\n\n• Update from the site keeps the copy it replaced on this device. Undo on the toast, or \"Go back to the earlier copy\" in the clip's menu, brings it back.\n• Stats keeps a deleted clip or file in \"Most time\", greyed. Tap it to save it again, open the original, or remove it from Stats. Its time stays in your totals either way.\n• Saving the same page again, or bringing back the same file, picks up its old reading time and place in Stats.\n\nChanged:\n\n• An update that comes back much shorter, or only the start of a page that was whole, keeps your copy and offers \"Use it anyway\".\n• An update that finds nothing changed keeps the clip as it was, so nothing new goes to sync.\n• A collection's In other apps is now a switch in its Edit, no longer in its ⋯ menu.\n\nFixed:\n\n• Newsletter emails no longer show their layout as boxed tables, blank lines or an empty heading at the end.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.65.1/Waypage.ipa",
-          "size": 11229947,
+          "version": "1.66.0",
+          "date": "2026-11-17T20:26:59Z",
+          "localizedDescription": "Changed:\n\n• In a clip's sheet, Live now sits under More, right above In other apps.\n• In other apps (on a clip and in a collection's Edit) now says what it does.\n• Tapping the version at the foot of the sidebar opens Settings › About.\n\n• Every menu now leaves the same quick way the drop-downs do: the ⋯ menus, a clip's menu, the reader's panels on a big screen and the drawing menus no longer shrink all the way back into their button.\n• Find in a clip slides down over the reader's bar and back up when it closes, instead of cutting in and out.\n• The drawing bar rises from the bottom and sinks back, and its menus grow out of their button; the colour picker fades in by the colour it was opened from.\n• On a big screen, a link, note or look-up in the middle of the reader fades in like the other dialogs instead of rising from the bottom.\n• In a collection, a clip that's removed, added or moved now shrinks away, grows in or slides to its place, as it does in the library, instead of the list jumping.\n• The + on Discover and Feeds rows and the reader's Contents button dip under a finger like every other button.\n\nFixed:\n\n• A catalog's username and password now go only to that catalog's own server. Before, they went along to any other site its feed linked a folder, book or cover to.\n\n• James Clear's 3-2-1 now saves without its footer: the book and calendar ads, \"Follow me on social\", the unsubscribe and postal-address lines, the site-and-date line and the \"What else am I working on?\" heading are gone. Every newsletter also loses its inbox-only footer (Kit's) and its open-tracking picture.\n\n• Going back to a live clip's earlier copy no longer splits its reading time in Stats between the two copies.\n• With reduced motion on, spinners flickered on every frame instead of breathing slowly.\n• On the narrowest phones (320 px): a collection's long title broke mid-word, the reader's Text size row ran off the edge, and Margins (Narrow / Normal / Wide) ran past its card.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.66.0/Waypage.ipa",
+          "size": 11234875,
           "minOSVersion": "15.5"
         }
       ],
@@ -7142,15 +7142,15 @@
       "tintColor": "#f42446",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://m3ue.sparkison.dev/img/tv-social-card.jpg?v=3"
+        "https://m3ue.sparkison.dev/img/tv-social-card.jpg?v=4"
       ],
       "versions": [
         {
-          "version": "1.3.0",
-          "date": "2026-11-11T17:12:44Z",
-          "localizedDescription": "Features:\n\n• Add smaller display size options (edf3420).\n• Add Simkl watch history integration (#181) (2a954db).\n\n• Android VOD player setting and automatic mpv fallback (78cebb9).\n• Pin the sidebar logo and footer so only the middle scrolls (99bc4f4).\n• Handle remote Play, Pause and Stop in the player (569ffd5).\n• Make Home rows follow the Movies, Series and Live TV sort (ac55d9d).\n• Default Filter Persistence on and Home to Spotlight (e534294).\n• Handle remote Next and Previous in the player (6b24b05).\n• Load the full DVR library with status filters and sort (#133) (e3fbe97).\n• Request from a specific Arr integration (#137) (1b07961).\n• Save every playlist granted in a device pairing (3c53180).\n• Audio and subtitle sync controls (04f4f6a).\n• work alongside M3U Editor's Trakt and SIMKL accounts (2be93ad).\n• apply M3U TV Profiles from M3U Editor (b63f6ce).\n• apply M3U TV Home Screens from M3U Editor (2e65b95).\n• lock screen Now Playing controls and opt-in background audio (e00299a).\n• background audio with media notification controls (e83c4a5).\n• resume live at the live edge and tidy background controls (1bfdbbd).\n• show channel logos whole in the media notification (cba79da).\n• picture-in-picture for the mpv player (94efeb5).\n• default Background audio on, matching Android (34b6d1f).\n• CarPlay Favorites and Live TV screens (b28f698).\n• CarPlay plays audio with no phone screen (d0f0b45).\n• Android Auto Favorites and Live TV, linked with the phone's player (7684124).\n\nBug Fixes:\n\n• Auto scroll to top of screen using dpad nav (86b9eca).\n• Linux overlay auto-hide + black pillarbox (44eac3f).\n• Continue Watching up next, skip, and series episode resume (77fde26).\n• Keep the Linux video plane presenting on KWin (#345) (8aa2e63).\n• smooth background playback and readable Now Playing artwork (dea2901).\n• keep the media session across channel changes (461e792).\n• keep a player created in the background audio-only (a4dbc2d).\n\n• Make CarPlay reliable on a real iPhone (c1d3f7e).\n\nMaintenance:\n\n• Auto-scroll to top of game detail using dpad nav (5383c10).\n• Build updated TV matchup detail screen (292f7d0).\n• Fix failing test case (e2b74c0).\n• Add playback overlay toggle to debug settings (3719283).\n• Bundle MSVC C++ runtime for Windows build (ef593a5).\n• Ensure Windows build packages vulkan dll (1120fe7).\n• Hide player overlay when audio/subtitle sync controls visible (d8dfc8c).\n• Add support for still image fallback when backdrop missing (9200820).\n\n• Remove settings page inner-padding (0c41629).\n• Wording updates for server side configs (cd14873).",
-          "downloadURL": "https://github.com/m3ue/m3u-tv/releases/download/v1.3.0/m3u-tv-v1.3.0-ios.ipa",
-          "size": 29884713,
+          "version": "1.3.1",
+          "date": "2026-11-17T22:23:46Z",
+          "localizedDescription": "Features:\n\n• Add MDBList as an integration (fc5178a3).\n\n• Add ability to hide OSD overlay on playback start (ff58415a).\n• 50/60 Hz for 25/30 fps content, re-pin mpv-build to 6dbda06 (#367) (a69968b0).\n\nBug Fixes:\n\n• Add .gitignored security action for CI runner (bc66ed34).\n• Homescreen focus jumping rows with less items (a4bdb978).\n• add CC fallback for OTA MPEG-2 streams missing the PMT caption descriptor (#364) (9adbd673).\n• Scroll snap on screens with top searchbar (f4cec2b5).\n• intermittent time based EPG test (2a3c8ee4).\n\nMaintenance:\n\n• Add missing encryption flag for App store submissions (70ead1db).\n\n• Add security scan to CI workflow (0e1e15f9).\n• Add security scanner script for running outside of CI (c5deb453).\n\n• Fix lint warning about redundant arg values (6601425b).\n• Cleanup and optimize DVR recording display (fb8ecbf6).\n• Refactor search screen display (fd5247cc).\n• More updates to search results page (7a97f172).\n• Style spotlight entry point items (05e74cdb).\n• Fix custom homescreen entry points not going directly to category (549d790f).\n• Update homescreen spotlight for custom rows (ddffb579).\n• Update homescreen extension entry point tiles (cca1843c).\n• Prevent escape key exiting full screen view (848de4e5).\n• Update store listing content (1ad61e9d).\n• Update API to work with paginated endpoints (27b3c1cd).\n• Update window manager lib (0aeedb02).\n• Add missing libs for CI runner (b9a8d373).\n\n• bump the flutter-production group across 1 directory with 10 updates (#366) (5f400475).\n• Run builds to generate updated pub lockfiles (99083e4a).\n• Add build helper script (f9a523e6).\n• Update Xtream API endpoints (d52ab984).\n• Upgrade to Flutter 3.50 (2a2206f9).\n• Update artwork and screenshots (3f0c04e3).\n• Fix CI runner for Lunux build (29bae55a).",
+          "downloadURL": "https://github.com/m3ue/m3u-tv/releases/download/v1.3.1/m3u-tv-v1.3.1-ios.ipa",
+          "size": 30317040,
           "minOSVersion": "15.0"
         }
       ],
@@ -7951,11 +7951,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.10",
-          "date": "2026-11-16T23:20:06Z",
+          "version": "0.12.11",
+          "date": "2026-11-17T19:43:47Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.10/rust-dicom-station-0.12.10-ios.ipa",
-          "size": 30636634,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.11/rust-dicom-station-0.12.11-ios.ipa",
+          "size": 31331762,
           "minOSVersion": "15.0"
         }
       ],
@@ -8352,7 +8352,7 @@
       "bundleIdentifier": "io.narl.protonstream",
       "developerName": "narrrl",
       "subtitle": "a client to stream videos (shows, movies) from proton drive",
-      "localizedDescription": "proton-stream:\n\nYour Proton Drive, streaming. A Netflix-style library for the videos in your Proton Drive and the share links people send you, on Linux, Windows, Android, Android TV and iOS.\n\nproton-stream.narl.io.\n\nThis is an unofficial, community-built client. It is not affiliated with, endorsed by, or supported by Proton AG. \"Proton\" and \"Proton Drive\" are trademarks of Proton AG, used here only to describe what the software talks to. It provides no content: it plays what you keep in Proton Drive or what is shared with you.\n\nFeatures:\n\nLibrary.\n\n• Public share links or your own Drive. Paste a share link, with its password if it has one, or sign in and pick folders of your Drive. Any number of them merge into one library.",
+      "localizedDescription": "Proton Stream:\n\nYour Proton Drive, streaming. A Netflix-style library for the videos in your Proton Drive and the share links people send you, on Linux, Windows, Android, Android TV and iOS.\n\nproton-stream.narl.io.\n\nThis is an unofficial, community-built client. It is not affiliated with, endorsed by, or supported by Proton AG. \"Proton\" and \"Proton Drive\" are trademarks of Proton AG, used here only to describe what the software talks to. It provides no content: it plays what you keep in Proton Drive or what is shared with you.\n\nFeatures:\n\nLibrary.\n\n• Public share links or your own Drive. Paste a share link, with its password if it has one, or sign in and pick folders of your Drive. Any number of them merge into one library.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.narl.protonstream.png",
       "tintColor": "#7e5dfd",
       "category": "entertainment",
@@ -10007,11 +10007,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.132",
-          "date": "2026-11-16T22:57:22Z",
+          "version": "0.8.133",
+          "date": "2026-11-17T21:50:36Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.132/NicotinD-0.8.132-unsigned.ipa",
-          "size": 1732240,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.133/NicotinD-0.8.133-unsigned.ipa",
+          "size": 1733580,
           "minOSVersion": "15.0"
         }
       ],
@@ -10621,10 +10621,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-17T03:00:39Z",
-          "localizedDescription": "Built from 8d01126 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; on Linux hand-mouse.deb, remote-recording_.deb and recording-converter_*.deb.",
+          "date": "2026-11-18T01:16:02Z",
+          "localizedDescription": "Built from 1a15b4b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45636311,
+          "size": 45636310,
           "minOSVersion": "15.0"
         }
       ],
@@ -13570,11 +13570,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.22",
-          "date": "2026-11-17T09:49:57Z",
-          "localizedDescription": "Release v6.3.22:\n\n• Reuse verified Google Drive checkpoints during cleanup (9cad9b6).\n• Show learning stats and offer private automatic tracking (141413b).\n• Fix audiobook subtitle import on iOS (f27a488).\n• Update to SM98 (a883912).\n• Add direct flashcard mining to Kuma3 on Android (05ec93f).\n• Show known words in the toolbar profile menu (dbf847f).\n• Simplify the browser extension popup (bc39451).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.22/Manatan-v6.3.22-iOS.ipa",
-          "size": 444222010,
+          "version": "6.3.23",
+          "date": "2026-11-18T01:42:23Z",
+          "localizedDescription": "Release v6.3.23:\n\n• Restore manga OCR after turning pages (f9697e5).\n• Fix immersion history reads after reopening the database (06417d7).\n• Let learners contribute missing catalog data (44f2ad6).\n• Make novel page turns faster and more consistent (e8d25ca).\n• Improve mobile browser navigation and tab management (2618ab9).\n• Preserve readable visual novel text in browser dark mode (59b4be4).\n• Add mouse wheel shortcuts to video playback (d92e17d).\n• Show the In library badge for imported PDFs (8592de4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.23/Manatan-v6.3.23-iOS.ipa",
+          "size": 444413898,
           "minOSVersion": "16.1"
         }
       ],
@@ -13792,6 +13792,41 @@
           "NSLocalNetworkUsageDescription": "WrapPin uses the local network to pair with and connect to this iPhone through a compatible device tunnel.",
           "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Always access to reduce the blue location indicator while WrapPin keeps a simulation active in the background. Coordinates received for background keep-alive are never saved or uploaded.",
           "NSLocationWhenInUseUsageDescription": "WrapPin uses Location Services to keep an active test session running in the background and to return the map to your real position after it stops."
+        }
+      }
+    },
+    {
+      "name": "Duet",
+      "bundleIdentifier": "com.knightabdo.knightmusic",
+      "developerName": "KNIGHTABDO",
+      "subtitle": "Knight Music and Streamora in one native app for iPhone and iPad",
+      "localizedDescription": "Duet is an open-source iOS and iPadOS 26 app made of two halves:\n\n• Knight Music, a native SwiftUI client for Navidrome and other OpenSubsonic servers. It has an offline-first library, beat-matched AutoMix transitions, YouTube Music next to your own songs, animated Apple Music artwork on the lock screen, song recognition, an AI music assistant, widgets and Siri.\n• Streamora, a personal movie and TV app, with its native VLC player and Google Drive sync.\n\nShake the phone to switch between them. Each side keeps its exact state while you use the other, and both share one lock screen. Because it is one app, it uses one App ID and one SideStore slot.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.knightabdo.knightmusic.png",
+      "tintColor": "#d92823",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-home.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-album.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-player-animated.jpg",
+        "https://cdn.jsdelivr.net/gh/KNIGHTABDO/knight-music@main/docs/screenshots/ipad-lockscreen.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-11-17T21:32:17Z",
+          "localizedDescription": "Streamora:\n\n• Continue with Google on the same iPhone or iPad. Cross-device code pairing is still available.\n\n• Movies shows separate messages for offline, server and secure-connection errors. Duet can retry once when the connection returns, and Back to Music is always available on this screen.\n\nKnight Music:\n\n• Pause, Skip and Clear stay in control when a network change finishes. Saved queue positions follow the exact entry, including repeated songs.\n• YouTube playback validates the ranges it receives, and Duet does less artwork and sync work while a side is hidden.\n\nThis unsigned IPA is for SideStore on iOS and iPadOS 26 or later. Live Kick requests are disabled in this public build.",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v1.1.0/Duet.ipa",
+          "size": 127204854,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Knight Music connects to your Navidrome server on your local network.",
+          "NSMicrophoneUsageDescription": "Knight Music uses the microphone to recognize music playing around you and for voice requests.",
+          "NSSpeechRecognitionUsageDescription": "Knight Music uses speech recognition to convert your voice into text for Knight AI."
         }
       }
     }
