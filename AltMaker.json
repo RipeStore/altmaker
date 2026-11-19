@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.wyatthoutz.birding",
-    "com.handtracker.mouse",
-    "com.handtracker.app"
+    "com.knightabdo.knightmusic",
+    "dev.offdesk.ios",
+    "com.loki-project.loki-messenger"
   ],
   "apps": [
     {
@@ -28,11 +28,11 @@
       ],
       "versions": [
         {
-          "version": "2.15.6",
-          "date": "2026-11-06T19:43:21Z",
-          "localizedDescription": "• Defer root view controller setup until a scene is in the foreground.\n• Background fetch: report the background on a launch straight into it.\n• [Automated] Update translations from Crowdin[bot].\n• [Automated] Update fallback static snode list[bot].\n• Notification extension: replace isMainAppActive with a lease and log every push.\n• Calls: fix busy responses for the caller's own call and the end-call lost after a background hang-up.\n• Conversations: only run the media loading animation while it can be seen.\n• Image picker: don't reselect a photo that no longer exists.\n• Notifications: stop the badge count reading every dedupe record on every push.\n• Backgrounding: suspend the database before the background time runs out.\n• Image picker: build the album list off the main thread.\n• Typing indicators: stop concurrent timeout refreshes over-releasing a Task.\n• Startup: stop \"Clear Device and Restore\" crashing on the landing screen.\n• QR codes: generate off the main thread, and only once.\n• Keep QUIC connections on BBR congestion control.\n• Update libSession to 1.9.5.\n• Startup: finish startup after backgrounding mid-migration instead of hanging.\n\n• Onboarding: keep the extension's key, recover a lost identity, export logs.\n• Startup: drop Clear Device and Restore, stop advising reinstall, harden key and config loading.\n• Bump version to 2.15.6 (build 727).",
-          "downloadURL": "https://github.com/session-foundation/session-ios/releases/download/2.15.6/session-2.15.6.ipa",
-          "size": 57848193,
+          "version": "2.15.7",
+          "date": "2026-11-19T05:50:33Z",
+          "localizedDescription": "• [Automated] Update translations from Crowdin[bot].\n• Update libSession to 1.9.6.\n• [Automated] Update fallback static snode list[bot].\n• Fix extension messages lost when imported before startup completes.\n• Fix crash removing an empty extension dedupe directory.\n• Suspend the database before a background fetch runs out of time.\n• Refuse to restore a different account over existing data.\n• Bump version to 2.15.7 (build 728).",
+          "downloadURL": "https://github.com/session-foundation/session-ios/releases/download/2.15.7/session-2.15.7.ipa",
+          "size": 57894520,
           "minOSVersion": "15.6"
         }
       ],
@@ -643,11 +643,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "f9ff96c",
-          "date": "2026-11-18T15:48:28Z",
+          "version": "8bb0750",
+          "date": "2026-11-19T04:55:59Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/f9ff96c/sealskin-v0.5.0.ipa",
-          "size": 1744124,
+          "downloadURL": "https://github.com/selkies-project/sealskin/releases/download/8bb0750/sealskin-v0.5.0.ipa",
+          "size": 1744126,
           "minOSVersion": "26.0"
         }
       ],
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.7.1",
-          "date": "2026-11-18T22:33:03Z",
-          "localizedDescription": "Changes:\n\n• Give rank-ladder badges more room on the right, especially for four-digit ranks such as #1,975 and #2,965. Keep the existing readable font sizes, numbered milestone artwork, aligned icons, and original arrow shape. Widen the matching arrow container so the ladder stays aligned.\n• In Birders around you, show You first within your equal-rank, equal-species group before choosing the surrounding rows. A long tie no longer fills every row above You with tied peers when genuinely higher-scoring birders are available. Higher species totals remain above yours; lower totals remain below.\n\nPreserved behavior:\n\nThis changes presentation only. Actual ranks and species totals do not change. Source and cached row order are not rewritten, other tied peers retain their order, and verified identity matching remains required. Missing or truncated source coverage still receives the existing explicit warnings rather than invented competitors or rank thresholds. The separate milestone-row redesign and progressive leaderboard loading are not included.\n\nRegression controls:\n\nActual DOM controls cover late, first, top, and bottom tie positions, unchanged source data, coverage hints, and missing higher-score rows. Real-Chrome geometry checks include the reported four-digit ranks and require a positive right-hand text reserve at scaled text sizes. Deliberately restoring the old badge width or disabling the tie-display move makes the respective control fail. Publication still requires the complete test catalog and all six layout profiles.\n\nThe .ipa below is UNSIGNED and was built by CI from 57e7f16, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.7.1/BirdChaser-unsigned.ipa",
-          "size": 143493247,
+          "version": "2.9.0",
+          "date": "2026-11-19T05:32:09Z",
+          "localizedDescription": "Preserve valid annual-first prefetches while recovering owned failures. Match gallery and consumer contracts to qualified alerts and explicitly partial aggregate coverage. Keep the Stakeout loading notice visible through partial checklist paint.\n\nThe .ipa below is UNSIGNED and was built by CI from a3e8cdc, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.9.0/BirdChaser-unsigned.ipa",
+          "size": 143493455,
           "minOSVersion": "15.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-18T22:08:27Z",
-          "localizedDescription": "Built from 211951c on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-19T02:44:37Z",
+          "localizedDescription": "Built from e323836 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14664154,
+          "size": 14669032,
           "minOSVersion": "15.0"
         }
       ],
@@ -2141,11 +2141,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.10",
-          "date": "2026-11-18T10:32:44Z",
-          "localizedDescription": "Fixed:\n\n• An attempted fix for the game closing with \"The graphics driver stopped responding\" a few seconds into the first 3D scene on some Adreno phones (Galaxy A36). A background check of the character models now never prepares its own extra graphics work on phones, which matches the one start on that phone that kept running. Whether it helps there is not known yet: the log of the next start will tell.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.10/ico-pc-v0.11.10-ios-unsigned.ipa",
-          "size": 9572593,
+          "version": "0.11.11",
+          "date": "2026-11-18T22:36:09Z",
+          "localizedDescription": "Fixed:\n\n• An attempted fix for stretched and wrongly coloured triangles across the picture on some Mali phones (moto g24) since v0.11.8. A blending shortcut added in v0.11.8 is taken out again, so those phones draw as they did in v0.11.7, where the picture was right. Cutscenes on those phones run as they did in v0.11.7.\n• An attempted fix for the Retroid Pocket 6 restarting or the game closing during start. On Qualcomm's driver the game now prepares less graphics work up front once the driver's own memory for the game has grown, and prepares the rest as it is first needed.\n• The game's log files now survive the device restarting while the game runs, and the next start says when the device restarted.\n• An attempted fix for the Retroid Pocket 6 restarting by itself when the graphics driver stops answering in play: the game now closes with a message within about a second in that case, before the device goes down.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.11/ico-pc-v0.11.11-ios-unsigned.ipa",
+          "size": 9570584,
           "minOSVersion": "15.0"
         }
       ],
@@ -3590,10 +3590,10 @@
       "versions": [
         {
           "version": "0.13.1",
-          "date": "2026-11-16T10:37:16Z",
-          "localizedDescription": "What's fixed:\n\n• After dragging the scrollbar to the bottom of a thread, tapping a post or jumping up works again, instead of the thread only shaking.\n• Dragging the scrollbar moves a thread smoothly, without jumping back and forth between posts.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.1%2B314/Runner.ipa",
-          "size": 34303328,
+          "date": "2026-11-19T02:00:48Z",
+          "localizedDescription": "📌 New replies stay at the bottom until you've read them:\n\n• Replies that came in since your last visit stay at the bottom of the thread, under a preview of the post they answer, until you've read them all and newer ones have come.\n• Replies that come in while a thread is open are listed at the bottom the same way.\n\n🧹 Edit filters, and check what thread filters catch:\n\n• Tap a thread filter or a keyword post filter in Settings to edit it, e.g. to cut one you added by holding a thread down to the words that matter.\n• Turn off Hide matching threads in Settings to see the threads your filters catch, faded, in boards, the feed and search.\n\n📱 Ready for iPhone Duo:\n\n• Open, a thread you pick from a board, Bookmarks, History or Search opens beside the list, as on iPad; fold it shut and the thread stays open, and goes back beside the list when you open it again.\n• On both screens, the camera and status icons no longer cover buttons or text.\n• On an 11-inch iPad held upright, threads you pick from a board open beside it too, with the board in a narrower column.\n\nWhat's fixed:\n\n• Reopening a thread after reading new replies now brings you back to where you stopped, also when they came in while the thread was open, not up near the opening post.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.1%2B315/Runner.ipa",
+          "size": 34313384,
           "minOSVersion": "17.0"
         }
       ],
@@ -4304,11 +4304,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.26.0",
-          "date": "2026-11-18T02:27:11Z",
-          "localizedDescription": "Offdesk Dev v0.26.0: every component at 0.26.0, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.26.0/offdesk-0.26.0.ipa",
-          "size": 9368150,
+          "version": "0.27.0",
+          "date": "2026-11-19T06:04:02Z",
+          "localizedDescription": "Offdesk Dev v0.27.0: every component at 0.27.0, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.27.0/offdesk-0.27.0.ipa",
+          "size": 9372110,
           "minOSVersion": "15.0"
         }
       ],
@@ -7211,10 +7211,10 @@
       "versions": [
         {
           "version": "2.0.0",
-          "date": "2026-11-17T11:38:29Z",
-          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget and the iPhone build. Please report problems in Issues.\n\nWhat's new:\n\n• Panopto on all your devices, set up once. Signed in to LecCheck, your Panopto setup and sign-in are kept encrypted for your devices: the LecCheck server stores them but can't read them. On another device, Settings → Panopto recordings shows Set up on … with Use it here: check that both devices show the same 6-digit code and tap Allow on the first one. No Client ID, secret or browser on the new device, and every device looks for recordings (at most every 3 hours for all of them together). A device connected in beta.20 moves its connection in by itself. Disconnect works on this device or on all of them.\n\n• A clearer Panopto setup guide, in English and Hebrew.\n• \"Couldn't reach Panopto\" no longer sticks. Android's daily look now waits for a connection, a look that failed without one tries again when you open the app instead of 3 hours later, and each read retries once after a dropped connection. Two rare ways to lose the Panopto sign-in during a refresh are fixed.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.21-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.21-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? 2.0.0-beta.15 offers Move to the Flatpak; from an older one, install the Flatpak as above and sign in or import a backup.",
-          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.21/LecCheck-2.0.0-beta.21-ios.ipa",
-          "size": 11740509,
+          "date": "2026-11-18T22:56:03Z",
+          "localizedDescription": "Beta. Not yet verified on every device: reminders and their buttons, the Android widget, the iPhone build and Windows. Please report problems in Issues.\n\nWhat's new:\n\n• More colors, and your own. Settings → Appearance has Teal, Amber and Indigo, and Custom: slide to any color and LecCheck builds its theme from it. Each device keeps its own choice.\n• Find a class's recording in Panopto right away. A search button by the recording link looks for that class now. When several groups were recorded, it asks which one is yours and remembers it; it asks before replacing a link you pasted; and when nothing fits it says why and lets you pick from that day's recordings. On the course page, Change switches a class to another group's recordings.\n\nDownloads:\n\n• Android: LecCheck-2.0.0-beta.22-android-arm64.apk for most phones, or the universal LecCheck-2.0.0-beta.22-android.apk.\n• iPhone: in AltStore or SideStore, add this source: https://raw.githubusercontent.com/Emanuel4100/LecCheck2/altstore/altstore-source.json\n• Linux: install the Flatpak, then it updates itself: flatpak install --user https://emanuel4100.github.io/LecCheck2/leccheck.flatpakref (or open leccheck.flatpakref in your software center). Installed with install.sh before? 2.0.0-beta.15 offers Move to the Flatpak; from an older one, install the Flatpak as above and sign in or import a backup.\n• Windows (experimental; 64-bit Windows 10 or 11): run LecCheck-2.0.0-beta.22-windows-setup.exe, then LecCheck updates itself. The setup isn't signed yet, so Windows may say it protected your PC: choose More info, then Run anyway. No reminders on Windows yet.",
+          "downloadURL": "https://github.com/Emanuel4100/LecCheck2/releases/download/v2.0.0-beta.22/LecCheck-2.0.0-beta.22-ios.ipa",
+          "size": 11763678,
           "minOSVersion": "15.0"
         }
       ],
@@ -7951,11 +7951,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.11",
-          "date": "2026-11-17T19:43:47Z",
+          "version": "0.12.12",
+          "date": "2026-11-18T23:16:34Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.11/rust-dicom-station-0.12.11-ios.ipa",
-          "size": 31331762,
+          "downloadURL": "https://github.com/alexprotom/rust-dicom-station/releases/download/v0.12.12/rust-dicom-station-0.12.12-ios.ipa",
+          "size": 31437931,
           "minOSVersion": "15.0"
         }
       ],
@@ -8525,11 +8525,11 @@
       ],
       "versions": [
         {
-          "version": "0.11.4",
-          "date": "2026-11-18T17:59:38Z",
-          "localizedDescription": "Bug Fixes:\n\n• Drop the crash reports of other apps in LiveContainer (#295) (c81060d).\n• Title game errors by the error and its message (#296) (074c889).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.11.4/Empo-ios.ipa",
-          "size": 101656602,
+          "version": "0.11.5",
+          "date": "2026-11-19T04:40:28Z",
+          "localizedDescription": "Bug Fixes:\n\n• Do not count a pause as a frame in Graphics.average_frame_rate (mateo-m/mkxp-z-apple-mobile#94) (4c40325).\n• Stop the engine clock while a pause, a game dialog, or a pause request is open (mateo-m/mkxp-z-apple-mobile#95) (8a06d66).\n• Repair sound names that the old Ruby 1.8 sweep broke in saves (mateo-m/mkxp-z-apple-mobile#96) (81a9aea).\n• Repair broken sound names before a save (mateo-m/mkxp-z-apple-mobile#98) (4cfab3f).\n\nFeatures:\n\n• Report save repairs and tag game errors that follow a save load (#300) (4bcd660).\n\nOther:\n\n• Update the core and ANGLE pins (#297) (619c88c).\n• Update the core and ANGLE pins (#298) (21cae64).\n• Update the core and ANGLE pins (#299) (9d38430).\n• Update the core and ANGLE pins (#301) (8cbce0b).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.11.5/Empo-ios.ipa",
+          "size": 101670547,
           "minOSVersion": "26.0"
         }
       ],
@@ -10621,10 +10621,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-18T22:08:27Z",
-          "localizedDescription": "Built from 211951c on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-19T02:44:37Z",
+          "localizedDescription": "Built from e323836 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45666004,
+          "size": 45708776,
           "minOSVersion": "15.0"
         }
       ],
@@ -11423,11 +11423,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.2.0",
-          "date": "2026-09-01T06:05:54Z",
-          "localizedDescription": "Some updates to improve persistence and mobile phone operation:\n\n• Persist zoom setting across restart.\n• Persist MPE setting across restart.\n• Right-click with 1-second long press.\n• Two-finger scroll to pan/scroll UI.\n• Slim iOS build option which excludes presets.\n\nEdit:\n\n• Potential Android performance enhancements in 0.2.1-alpha apk.",
-          "downloadURL": "https://github.com/vicwomg/surge-ios-android/releases/download/v0.2.0-alpha/Surge.XT.0.2.0-alpha.ipa",
-          "size": 352184562,
+          "version": "0.3.0",
+          "date": "2026-11-18T23:27:28Z",
+          "localizedDescription": "• New full-screen landscape Perform view: patch browser (favorites, user, factory, third party, search, random), scene/filter/misc panels, filter and amp EGs, macros, FX toggles, play mode, octave and voice limit.\n• Compact landscape save dialog and help overlay.\n• Persist last patch and audio settings on suspend.\n• Migrate Android user data (favorites, MIDI program patches) from internal storage.\n• Use embedded Lato fonts to avoid Android system font crash.",
+          "downloadURL": "https://github.com/vicwomg/surge-ios-android/releases/download/v0.3.0-alpha/Surge.XT.0.3.0-alpha.ipa",
+          "size": 352285501,
           "minOSVersion": "10.15"
         }
       ],
@@ -13785,11 +13785,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-11-17T21:32:17Z",
-          "localizedDescription": "Streamora:\n\n• Continue with Google on the same iPhone or iPad. Cross-device code pairing is still available.\n\n• Movies shows separate messages for offline, server and secure-connection errors. Duet can retry once when the connection returns, and Back to Music is always available on this screen.\n\nKnight Music:\n\n• Pause, Skip and Clear stay in control when a network change finishes. Saved queue positions follow the exact entry, including repeated songs.\n• YouTube playback validates the ranges it receives, and Duet does less artwork and sync work while a side is hidden.\n\nThis unsigned IPA is for SideStore on iOS and iPadOS 26 or later. Live Kick requests are disabled in this public build.",
-          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v1.1.0/Duet.ipa",
-          "size": 127204854,
+          "version": "1.0.2",
+          "date": "2026-11-19T06:12:54Z",
+          "localizedDescription": "Duet 1.0.2.\n\nFixes and polish:\n\n• iPad: fixed a crash at onboarding and a sidebar animation crash.\n• Playback: failed entries retry, long tracks keep their position, steadier scrobble queue, remote refresh, route/mix/cache race fixes.\n\n• Library: sync, starring, playlist edits, top songs, account switching and database recovery fixes.\n• Notifications: Knight replies with inline reply, import and arrival alerts, routed permission prompts.\n\n• Duet/Streamora: lock screen for the classic player, HTTP error screen, queued switches, focus debounce.\n• Toasts queue instead of replacing each other and show above sheets.\n• Landscape detail headers, playlist menu, artist search, inline sheet errors and many accessibility fixes.\n• YouTube playlists keep the suggestion shelf out of the track list.",
+          "downloadURL": "https://github.com/KNIGHTABDO/knight-music/releases/download/v1.0.2/Duet.ipa",
+          "size": 127353988,
           "minOSVersion": "26.0"
         }
       ],
