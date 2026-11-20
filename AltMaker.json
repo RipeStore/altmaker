@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joetr.phoebe",
-    "org.moonfin.app",
-    "net.clynamic.e1547"
+    "com.wyatthoutz.birding",
+    "com.aigch.OpenParsec",
+    "com.certlium.crumb"
   ],
   "apps": [
     {
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.10.1",
-          "date": "2026-11-19T17:03:57Z",
-          "localizedDescription": "F1417 corrects the actual Busy Patches menu icon introduced in v2.10.0. In Standard display, the shared small-card photo rule enlarged the icon's nested thumbnail beyond its logo wrapper, spilling outside the tile and obscuring the relative age. The correction scopes thumbnail sizing to the alert's menu glyph and gives all nine figures enough room in High visibility. It keeps the actual menu glyph, not a copied pin or replacement emoji. The separate estimated-party/multiplier thumbnail, relative time and evidence action are unchanged.\n\nThe original geometry guard checked only the outer logo wrapper. The improved real-Chrome guard checks every nested element against the logo bounds, including the thumbnail and all nine figures. Removing the production containment rule fails this control. Deliberately doubling the nested thumbnail also fails. Production previews and geometry controls cover 393px/402px Standard and 402px High visibility; the normal public workflow additionally runs the entire catalog and all six layout profiles before publishing.\n\nThe reported native initial-response delay is still unproven and remains a named device check. Neither the controlled browser responses nor this icon correction establish a transport diagnosis or guaranteed Lower 48 recovery. Signed IPA verification, Apple processing and actual TestFlight access are separate milestones; an unsigned Release or successful upload is not an availability claim.\n\nInstallation: BirdChaser-unsigned.ipa requires appropriate sideload signing, for example with AltStore. v2.10.0's published tag and artifacts remain unchanged.\n\nThe .ipa below is UNSIGNED and was built by CI from 26dc09c, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.10.1/BirdChaser-unsigned.ipa",
-          "size": 143493994,
+          "version": "2.11.1",
+          "date": "2026-11-20T01:22:30Z",
+          "localizedDescription": "Fixed:\n\n• Recent Celebrity duplicates after cold start (F1430): when retained Bird Gen alerts appear before checked canonical taxonomy is ready, the current full feed and Home Recent now remerge automatically after taxonomy restores. Opening the full feed or refreshing observations is no longer required for that controlled startup sequence.\n• The same readiness repaint follows a successful official taxonomy edition check. Parent/form relationships come only from the checked taxonomy, not similar bird names. Distinct species remain separate.\n• The merged alert retains the newest coherent report's name, time, place and checklist, plus supporting checklists. Celebrity filter counts and the selected category stay consistent with the feed.\n• A late taxonomy result cannot resurrect a feed from a previous region/context. This presentation-only repaint does not fetch new observations/photos, advance saved-source freshness or publish new notification candidates.\n\nVerification and boundaries:\n\nThe cold-start consumer exercises retained storage across two boots, a held canonical restore and cancelled automatic refresh. Additional controls cover official edition readiness, obsolete scope and an enabled native notification bridge; removing each safeguard makes its intended guard fail.\n\nThis patch also stabilizes F764's test baseline after the intended 500-to-5000 leaderboard expansion. The production first-page usability, source ownership and recovery behavior are unchanged. This is not a new native leaderboard transport or initial-delay fix.\n\nThe full gate also exposed a pre-existing F998 midnight fixture problem: \"ten minutes ago\" could mean yesterday in a today's-only lane. The consumer now runs explicit midnight and midday clocks with a current-day observation; no production TWITCH eligibility rule was changed.\n\nThe v2.11.0 interface, original Stakeout filters and Celebrity camera icon are retained. The device report motivated the repair, but controlled reproduction and verified release artifacts are not a claim that the owner has confirmed the corrected native sequence. Signed upload or Apple processing alone does not establish TestFlight download access.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.11.1/BirdChaser-unsigned.ipa",
+          "size": 143495252,
           "minOSVersion": "15.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-19T02:44:37Z",
-          "localizedDescription": "Built from e323836 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-19T22:40:51Z",
+          "localizedDescription": "Built from 3db9af4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14669032,
+          "size": 14669049,
           "minOSVersion": "15.0"
         }
       ],
@@ -1943,7 +1943,7 @@
       "name": "Cyberworld",
       "bundleIdentifier": "io.github.saschb2b.cyberworldendless",
       "developerName": "saschb2b",
-      "subtitle": "A roguelike built on the real Mega Man Battle Network 6, from your own ROM: every run jacks MegaMan into a newly generated net of battles, loot and guardian Navis",
+      "subtitle": "A Battle Network roguelike: a new net every run, with viruses and Navis from BN4, BN5 and BN6 and their chips in one folder. NetBattle, trade and dive together in the online Net Square. It plays the original games from your own ROMs, on PC, phones, handhelds, consoles and the browser",
       "localizedDescription": "· Player's guide · Project page · Discussions ·.\n\n· itch.io.\n\nYou need your own ROM: Mega Man Battle Network 6: Cybeast Gregar (USA), unmodified. Battle Network 5: Team Colonel (USA) and Battle Network 4: Red Sun (USA) beside it are optional: their areas and viruses join the runs, BN4's tournament too, and online the two fill the NetPass (NetBattles, trades, the week's DeepNet). No download and no page contains Capcom data; without the ROM there is no game. What the game checks.\n\n·.\n\n· Host a Net Square · For developers · Buy me a coffee.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.saschb2b.cyberworldendless.png",
       "tintColor": "#207a76",
@@ -1954,11 +1954,11 @@
       ],
       "versions": [
         {
-          "version": "0.22.2",
-          "date": "2026-11-17T00:15:14Z",
-          "localizedDescription": "A new run that began with the last run's MegaMan:\n\nThank you, Espilan!",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.2/cyberworld-endless.ipa",
-          "size": 2670019,
+          "version": "0.23.0",
+          "date": "2026-11-19T20:51:02Z",
+          "localizedDescription": "The game has a Discord server now, a place to talk that's quicker than GitHub's Discussions:\n\n• #general, #runs-and-folders and #screenshots-and-clips for your runs, the folders that carried them, and the moments worth showing.\n• #net-square to find an opponent for a NetBattle, trade, or talk about the week's DeepNet. Pick the NetBattle pings role and anyone looking for a match can ping you.\n• #battle-network for the original games.\n• help, a forum tagged by topic and system, for setups, ROMs (your own dump, never a link), saves and online play.\n\n• #dev-talk for how the game is made, and the Lounge to talk by voice.\n\nBusterUp and the Champy chips with BN4's ROM:\n\nWith Battle Network 4's ROM in the game, BusterUp did nothing, and neither did FireHit1-3 (the Champy chips, whose punch never came), FlmHook1-3, SandWrm1-3, GolmHit1-3, JustcOne and ColArmy. BN4's chips were added to the game's table for chips like these, but the table kept only the first 7 of BN6's 23 entries. It keeps all of them now. BusterUp raises MegaMan's buster by one level for the rest of the battle, as in BN6: a shot deals 2 instead of 1, and a charged shot 20 instead of 10. With BN6's ROM alone, or with BN5's beside it, these chips always worked. Thanks to the players who reported them.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless.ipa",
+          "size": 2676844,
           "minOSVersion": "14.0"
         }
       ],
@@ -2613,11 +2613,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0.2",
-          "date": "2026-11-10T03:34:08Z",
-          "localizedDescription": "Skein 1.0.2 (build 202611091009) for iOS 26.0 and later, notarized for alternative distribution.\n\niPhone and iPad: install through AltStore PAL by adding this source: https://raw.githubusercontent.com/SwiftyLab/Skein/main/AltStore/source.json\n\nMac: download Skein-1.0.2-202611091009-macOS.zip below (signed with Developer ID and notarized by Apple), unzip it and move Skein to Applications. It is attached separately, shortly after this release appears.",
-          "downloadURL": "https://github.com/SwiftyLab/Skein/releases/download/v1.0.2-202611091009/a0d876af-d7c2-3cc3-a94f-5e191af573df.ipa",
-          "size": 25043542
+          "version": "1.0.3",
+          "date": "2026-11-19T20:32:28Z",
+          "localizedDescription": "Skein 1.0.3 (build 202611191438) for iOS 26.0 and later, notarized for alternative distribution.\n\niPhone and iPad: install through AltStore PAL by adding this source: https://raw.githubusercontent.com/SwiftyLab/Skein/main/AltStore/source.json\n\nMac: download Skein-1.0.3-202611191438-macOS.zip below (signed with Developer ID and notarized by Apple), unzip it and move Skein to Applications. It is attached separately, shortly after this release appears.",
+          "downloadURL": "https://github.com/SwiftyLab/Skein/releases/download/v1.0.3-202611191438/6864187f-023c-31af-9bef-63c0aa944e2c.ipa",
+          "size": 25085640
         }
       ]
     },
@@ -3231,10 +3231,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-18T21:29:24Z",
-          "localizedDescription": "• List position through fullscreen, favorites selector, zoom snap feedback.\n• Security hardening: credentials on the server's origin, PBKDF2 PIN, lost-PIN recovery.",
-          "downloadURL": "https://github.com/Two-Play/StashTube/releases/download/v1.0.0-beta.9/stashtube-v1.0.0-beta.9-10.ipa",
-          "size": 23943382,
+          "date": "2026-11-19T22:18:38Z",
+          "localizedDescription": "• Gallery videos, clips as shorts, sticky filters, back to top.",
+          "downloadURL": "https://github.com/Two-Play/StashTube/releases/download/v1.0.0-beta.10/stashtube-v1.0.0-beta.10-11.ipa",
+          "size": 23996705,
           "minOSVersion": "15.0"
         }
       ],
@@ -5590,16 +5590,18 @@
       "versions": [
         {
           "version": "2.0.0",
-          "date": "2026-11-13T07:02:53Z",
-          "localizedDescription": "Welcome to OpenParsec v2.0.0!:\n\nThis is the release promised back in 1.4.0, with everything that's been on the nightly since october.\n\nWe now have a Metal renderer, streams that hold and reconnect by themselves, new connecting screens,reworked settings, and other control-related improvements.\n\nBefore you update:\n\n• auto reconnect is now switched on by default, see settings \u003e developer for additional settings.\n• everyone is now on the new Metal renderer. OpenGL is remains optional as a fallback\\.\n\nstreaming.\n\n• metal renderer, now the default (#118).\n• 120hz on ProMotion iphones (#118).\n• the stream stays connected in the background for as long as ios allows, and reconnects when you're back (#138).\n• the last frame stays up when the stream drops (#138).\n• auto reconnect waits for the network to come back, and reconnects right away on a wifi/cellular switch (#138).\n• resolution, bitrate and constant frame rate survive a reconnect (#119).\n\ninput.\n\n• smoother trackpad scrolling, thanks @alantangok (#97).\n• reverse scrolling works for trackpad and mouse, thanks @MoustacheOff (#116).\n• menu edge swipe setting, thanks @alantangok (#100).\n• left edge swipe brings back a hidden menu button (#120).\n• show menu button off no longer hides the keyboard button (#120).\n• mouse side buttons (#120).\n• drag handle in direct mode when the keyboard covers the picture, three finger tap hides the keyboard (#120).\n• the next controller takes over when the active one disconnects (#120).\n\napp.\n\n• settings rework, and settings open from the stream menu (#119, #129).\n• bitrate, constant frame rate and pinch to zoom are settings that carry over between streams (#119).\n• touch mode in the stream menu (#129).\n• connecting and reconnect screens match and show a live connection log (#130).\n• says right away when there's no network, retries once if the host doesn't answer (#117).\n• last host card stays after a disconnect, reconnect from the app icon (#117).\n• host list refresh no longer blocks the screen, long press a host to copy its name (#113).\n\nThanks to everyone for making bug reports on nightly builds, and thank you for your support!\n\nGenerated by GitHub:\n\n• host list UX.\n• Preserve fractional GCMouse scroll deltas.\n• Add opt-in iPad menu edge swipe.\n• last host reconnect optimization.\n• METAL RENDERER!!!\n• settings rework.\n• input and keyboard fixes.\n\n• Stream guards.\n• Stream menu.\n• Connect screens.\n• fix: honor Reverse Scroll Direction for trackpad/mouse scrolling.\n• Stream resume.\n\nNew Contributors:\n\n• @alantangok made their first contribution.\n• @MoustacheOff made their first contribution.",
-          "downloadURL": "https://github.com/NearFrame/OpenParsec/releases/download/2.0.0/OpenParsec.ipa",
-          "size": 4445097,
+          "date": "2026-11-20T01:20:51Z",
+          "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
+          "downloadURL": "https://github.com/NearFrame/OpenParsec/releases/download/nightly/OpenParsec.ipa",
+          "size": 4453850,
           "minOSVersion": "14.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "OpenParsec connects directly to your computers on Wi-Fi to stream their desktop, audio, and controls."
+        }
       }
     },
     {
@@ -6685,7 +6687,7 @@
           "date": "2026-11-19T13:29:00Z",
           "localizedDescription": "Added:\n\n• A comic's Auto-scroll settings have a Hold at the end to go on switch: scroll down past the end and hold for half a second, the next card filling as you do, and the next chapter opens.\n• Tags on highlights. Open a highlight and add tags under its note; they show on its row, and the Highlights place can show just the highlights with one tag. Highlight tags are their own list, apart from your clips' tags, and go with the highlight to your other devices, backups and Copy all.\n• In Highlights you can pick several tags at once. A highlight shows if it has any of them; the filter button at the end of the tag row changes that to all of the tags or none of them.\n• Page view for notes, in the reader's ⋯ menu above Save as PDF: every page of the note in one column, with the page you are on at the top. Tap a page to go to it.\n• Hold a page to select it, tap more to add them, then Copy, Paste (below the last selected page, in this note or another), Delete (with Undo), Share, Save as (PDF or picture) or change the Background to Blank, Lines or Squares. Drawings stay where they are.\n• Settings › Report a problem › Recover Notes and Highlights looks through your library for highlights and drawings an update left behind. It lists them by clip, puts back the ones with a safe place (a highlight that moved, drawings past the end of a clip, a PDF shown as text that has drawings, a note missing its sheets), and lets you open, copy or delete the rest.\n• Recover also has Look for deleted notes. It finds Notes that are gone from your library but still in GitHub sync or on this phone (an older version's sync deletes Notes), shows their sheets and strokes, and brings each back as a new note.\n• A Tag row switch in the Library's View options and Settings › Library hides the row of tag chips under Show and Order, or brings it back.\n\nFixed:\n\n• A highlight that spans two paragraphs, or whose text has doubled spaces, is found again when a clip's paragraphs have shifted, instead of showing \"Not found in this copy of the clip\".\n• A clip set to Live stays Live: the next sync, or restoring a backup, turned it off again.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.68.0/Waypage.ipa",
-          "size": 11272532,
+          "size": 11275634,
           "minOSVersion": "15.5"
         }
       ],
@@ -8525,12 +8527,12 @@
       ],
       "versions": [
         {
-          "version": "0.11.5",
-          "date": "2026-11-19T04:40:28Z",
-          "localizedDescription": "Bug Fixes:\n\n• Do not count a pause as a frame in Graphics.average_frame_rate (mateo-m/mkxp-z-apple-mobile#94) (4c40325).\n• Stop the engine clock while a pause, a game dialog, or a pause request is open (mateo-m/mkxp-z-apple-mobile#95) (8a06d66).\n• Repair sound names that the old Ruby 1.8 sweep broke in saves (mateo-m/mkxp-z-apple-mobile#96) (81a9aea).\n• Repair broken sound names before a save (mateo-m/mkxp-z-apple-mobile#98) (4cfab3f).\n\nFeatures:\n\n• Report save repairs and tag game errors that follow a save load (#300) (4bcd660).\n\nOther:\n\n• Update the core and ANGLE pins (#297) (619c88c).\n• Update the core and ANGLE pins (#298) (21cae64).\n• Update the core and ANGLE pins (#299) (9d38430).\n• Update the core and ANGLE pins (#301) (8cbce0b).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.11.5/Empo-ios.ipa",
-          "size": 101670547,
-          "minOSVersion": "26.0"
+          "version": "0.12.0",
+          "date": "2026-11-19T20:36:46Z",
+          "localizedDescription": "Features:\n\n• Lower the minimum to iOS 17 and macOS 14 (#302) (0327e29).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.12.0/Empo-ios.ipa",
+          "size": 101839940,
+          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
@@ -9723,11 +9725,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.11",
-          "date": "2026-11-13T23:50:00Z",
-          "localizedDescription": "Concat 0.2.11:\n\nA release of fixes: black frames at cuts, a preview that went black on some Windows PCs, captions on Intel Macs, and a log that says what went wrong when something does.\n\nFixed:\n\n• Black frames at cuts. A clip split or trimmed between two frames no longer leaves a black frame at the cut, in the preview or in the exported file. Footage slower than the export, or slowed down, keeps its last frame (#756).\n• Merge works on clips cut between frames, both halves of a split clip included (#756).\n• Black preview on Windows. When a PC's graphics device drops out, Concat lets it go, tries it once more, then steps down, and as a last resort draws the preview on the processor instead of going black. That last step leaves effects out of the preview, and the monitor says so once (#709). If your preview is still black on 0.2.11, please add your log to #709.\n• Captions on Intel Macs. Generating captions no longer runs on the graphics chip of an Intel Mac, which is where it closed the app (#758). We could not test this on an Intel Mac ourselves, so please tell us in #758 how it behaves on yours.\n• Windows and Linux: the window during an export. The window can be minimised, maximised and moved while Export, Settings or another full-window page is up. Close is dimmed while an export runs, so one click in the corner cannot cancel it (#751).\n• Show in folder and Remove on a recent project's card stay under the pointer and take the click (#748).\n• Duplicate is one undo step, for one clip or many.\n• A cut on a step of a speed curve keeps the jump.\n• Emoji from fonts drawn in layers and gradients, as Windows 11's are, show in colour in titles.\n• On a phone, the row of tabs in Settings has no gaps (#718).\n\nNew:\n\n• A log worth reading. Every line says when, how serious, what about and what happened, and it is in the file before a crash can take it. The log records what you did in the interface's own words, how each run started and ended, and whether the last run ended cleanly. It never holds your text or captions (#594, #330).\n• Share the log from a phone. On Android, Settings › About shares this run's log and the one before it in two taps. When the last run crashed, the next launch says so once, offers the log, and names what the crash was (#560).\n• Exports explain themselves. An export's log says what was asked, each stage as it passes, and ends with one line saying where the time went, whether it finished, was cancelled or failed (#560, #754). If an export is slow on your machine, that line is what we need in #754.\n• 25 languages are level with English again: 3,288 strings translated.\n\nFaster:\n\n• Titles, shapes and photos are read once per export and kept on the graphics device, not once per frame. In our test export on an Apple M5, drawing went from 5.5 s to 4.1 s (#754).\n• An emoji's picture is decoded once and kept, so a title with emoji no longer pays for each one on every paint.\n• A speed curve is prepared once, so reading it during playback and export costs almost nothing.\n\nFor agents and scripts:\n\n• A finished export reports every frame as rendered (#595).\n• A speed curve sent through the API is stored in order and in range.\n• When the preview had to be drawn without effects or HDR, the API's preview returns an error instead of a picture that is missing them.\n\nDownload:\n\nA self-contained build for every platform Concat ships on.\n\nSHA256SUMS lists each file's checksum.",
-          "downloadURL": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-ios-arm64.ipa",
-          "size": 82336871,
+          "version": "0.2.12",
+          "date": "2026-11-19T21:15:44Z",
+          "localizedDescription": "Concat 0.2.12:\n\nPhone exports finish again, Windows PCs without a graphics driver export, nothing you make is lost on the way out, and Concat now hears the beat of your music.\n\nNew:\n\n• Beats. Switch on Beats under Audio › Sound and Concat listens to the song on your own device and marks every beat and bar along its clips. The tempo is shown, edits snap to the beats, and Cut on beats splits a clip on every beat or bar in one step, undone in one step. A video's soundtrack gets its beats too, and each file keeps its own. A three-minute song is heard in about a second and a half on an Apple M5.\n• Width and height can be keyed, the way a clip's scale already could.\n• Sound treatments are switches under Basic › Treatments on the clip itself, instead of cards on the Library's sound shelf. While a treatment is being applied the clip keeps playing the sound it had, instead of going silent.\n• A computer with no graphics driver Concat can use is told so on the start screen, with what fixes it.\n• Notices are cards that wrap, stay up while the pointer is over them and keep a failure on screen until you have read it. A preview of a missing file names the file.\n• On a phone, effects and transitions can be dropped on the timeline with nothing selected (#818).\n\nFixed:\n\n• Exports on Android finish again. An export or any long job no longer freezes the window, and the encoder no longer stalls after taking the first frames (#747, #786). The app no longer crashes after an export finishes on Android 15.\n• Exports on Windows PCs without a graphics driver. On Windows' built-in software renderer, exports no longer lose the device on the first frame and now finish (#824). Plain frames are drawn by Concat's own renderer there: a 1080p export went from 3.6 to 31.1 fps on the same machine.\n• \"Not enough memory\" on graphics cards with plenty free. On Linux and Windows with Vulkan, cards whose small shared window of memory filled up (common on NVIDIA laptops and older cards) had the preview refused or lost while gigabytes stood free. Concat now places that memory where there is room. A frame that does run out of graphics memory on Windows is skipped instead of closing the app (#746, #802).\n• Nothing is lost on the way out. A settings file that will not read is never saved over. A voiceover still recording when the project closes is kept. Opening a project never drops the parts this version cannot read: they stay in the file and you are told.\n• No black frame at a join where a clip's sound runs past its picture (#790).\n• A mouse wheel or trackpad on Android scrolls instead of closing the app (#800). Picking a file on Android that fails or is replaced by a second pick no longer crashes (#793).\n• A launch counts as started once its window has drawn or been used, so a slow first second is not reported as a failed start (#809, #800). Runs of 0.2.8 are no longer reported as crashes.\n• Saves and the preview no longer wait behind long jobs such as captions or an export.\n• Captions hear the whole clip, where a noisy recording made Concat skip parts of it (#763).\n• A clip with its speed changed no longer goes silent on computers set to write decimals with a comma (#762).\n• An audio file's cover art is never drawn into the video (#730).\n• A quiet track's waveform keeps its shape when it is turned up (#831).\n• The Basic, Enhance and Adjust tabs take a click during playback (#835). A menu's label stops glowing once its menu closes (#834).\n• Dragging a group of clips laid end to end is no longer refused. The first letter in a size field is no longer cut off.\n• An effect package with an expression nested too deep is refused instead of closing the app.\n• Spanish is complete again, and every language has the new lines.\n\nFaster:\n\n• A preview decoder uses one thread per core, eight at most, instead of eight on every machine.\n• Saves, the preview and long jobs each have their own lane, so a long job no longer holds up the others.\n\nDownload:\n\nA self-contained build for every platform Concat ships on.\n\nSHA256SUMS lists each file's checksum.",
+          "downloadURL": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-ios-arm64.ipa",
+          "size": 95808584,
           "minOSVersion": "15.0"
         }
       ],
@@ -10007,11 +10009,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.134",
-          "date": "2026-11-18T21:28:41Z",
+          "version": "0.8.135",
+          "date": "2026-11-19T21:33:01Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.134/NicotinD-0.8.134-unsigned.ipa",
-          "size": 1736586,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.135/NicotinD-0.8.135-unsigned.ipa",
+          "size": 1736391,
           "minOSVersion": "15.0"
         }
       ],
@@ -10621,10 +10623,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-19T02:44:37Z",
-          "localizedDescription": "Built from e323836 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-19T22:40:51Z",
+          "localizedDescription": "Built from 3db9af4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45708776,
+          "size": 45712565,
           "minOSVersion": "15.0"
         }
       ],
@@ -12722,11 +12724,11 @@
       "name": "Naviamp",
       "bundleIdentifier": "app.naviamp.ios",
       "developerName": "goosepod",
-      "subtitle": "Windows, Mac, Linux, Android and Android TV player for Navidrome",
+      "subtitle": "Windows, Mac, iOS, tvOS, Linux, Android, Android TV with Android Auto and Apple CarPlay player for Navidrome and Jellyfin",
       "localizedDescription": "Naviamp:\n\nYour music stays with the server you choose. Naviamp brings the player.\n\nNaviamp is an independent third-party client and is not affiliated with or endorsed by the Navidrome project.\n\nGet Naviamp:\n\nDownload for macOS from the Mac App Store or for Windows from the Microsoft Store.\n\nBeta builds are available through TestFlight for macOS and iOS.\n\nand share feedback.\n\nLinux Flatpak:\n\nInstall the official Linux x86_64 Flatpak from Naviamp's signed GitHub Pages repository. The signed package contains v2.11.2, including Java, and runs on X11 or XWayland. Existing Flatpak installations can update through the same signed remote.\n\nare hosted on GitHub Releases. A Flathub listing is not required; Flathub supplies the Freedesktop runtime. Linux DEB, RPM, and portable ZIP downloads remain on.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.naviamp.ios.png",
       "tintColor": "#037ecf",
-      "category": "other",
+      "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/compact-now-playing.png",
         "https://cdn.jsdelivr.net/gh/goosepod/naviamp@main/readme-assets/screenshots/mobile-queue.png",
@@ -12939,17 +12941,19 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "2026-10-29T01:27:46Z",
-          "localizedDescription": "IPA experimental de Crumb. Compilación Release finalizada el 29/10/2026 a las 01:23 UTC.\n\nFuente: ee25a7875aea6405d0101a3c1916d281d80d44ae, PR #24, apilado sobre los PR #23 y #22. Versión 1.0.0; número interno 23053 conservado; ARM64; iOS 16.4 o posterior. IPA sin firmar; requiere la firma habitual de sideloading.\n\nCorrige una omisión de la descarga: conserva el diversitybag cuando Apple lo incluye, lo vincula al mismo productor KBSync, importa keybag y diversitybag en orden y guarda sólo el resultado completo aceptado. Rechaza bolsas ambiguas o inválidas y conserva la evidencia privada de ambas importaciones.\n\nNo se ha validado el SINF real ni descifrado la IPA TT. Las pruebas locales reprodujeron el retorno -42057 y confirmaron la coincidencia de los 432 bytes del buffer rechazado entre la rutina nativa y la derivación móvil independiente. La captura TT anterior no permite saber si Apple había enviado un diversitybag descartado.\n\nInstalar encima de Crumb con el mismo identificador y firma para conservar la autorización. No desinstalar. Conservar las exportaciones originales. Este cambio no recupera retroactivamente material omitido por una captura anterior.\n\nCI aprobado: https://github.com/boierito/Crumb/actions/runs/40799098176 https://github.com/boierito/Crumb/actions/runs/40799098166\n\nSHA-256: 7b71cb3f077d9a1b11570f94f9946bfc13cc03da6a8004c7d7bbca8dc2a1a794 Se adjuntan fuentes correspondientes y licencias. No contienen archivos privados del usuario.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/experimental-complete-license-20261029-0123-utc/Crumb-2026-10-29-0123-UTC-ee25a787.ipa",
-          "size": 41211893,
+          "version": "2.0.0",
+          "date": "2026-11-20T00:05:29Z",
+          "localizedDescription": "Crumb 2.0.0 reúne en una sola app para iPhone y iPad la búsqueda en el App Store, la descarga de versiones anteriores y la gestión de archivos IPA. Esta versión suma el descifrado experimental en el dispositivo y amplía las opciones de firma e instalación.\n\nQué trae la 2.0.0:\n\n• Encontrá la versión que buscás. Buscá por nombre, enlace del App Store, ID o bundle ID. Guardá favoritos y elegí entre las versiones disponibles.\n• Gestioná las IPA desde Descargas. Consultá la versión y el build descargados, exportá el archivo o instalalo cuando iOS lo permita.\n• Descifrado experimental en el dispositivo. Para descargas compatibles y autorizadas, Crumb puede descifrar dentro de la app sin un asistente aparte, VPN ni emparejamiento. Esta función requiere firmar Crumb con un App Group autorizado.\n• Ajustes de firma en un solo lugar. La configuración del descifrador reúne los controles de firma y las indicaciones de uso. Se retiraron los diagnósticos temporales y su exportación.\n\nDescarga y compatibilidad:\n\nDescargá Crumb-Release.ipa de los archivos de esta release y firmala con un instalador compatible. Crumb requiere iOS o iPadOS 16.4 o posterior. Para actualizar una instalación existente, conservá el bundle ID com.certlium.crumb y la identidad de firma.\n\nCrumb puede adquirir licencias de apps gratuitas cuando Apple lo permite. Las compras pagas y suscripciones quedan fuera. La disponibilidad depende de la cuenta, la región y el dispositivo. El descifrado sigue siendo experimental y la instalación depende de la firma y de la aceptación de iOS.\n\nVerificación:\n\nSHA-256 de Crumb-Release.ipa.\n\naca425f5d28489655dd244a4eafb16b9512f234d66d3d16c339f1b0d83293417.\n\nCréditos:\n\nGracias a mineek, lunginspector, skadz, jailbreak.party y nxtcoreee3 por los proyectos en los que se basa Crumb, a boierito por la coordinación y las pruebas en dispositivo, a Majd Alfhaily por ipatool y a los colaboradores de ipadn por la referencia para el descifrado. La implementación contó con ayuda de OpenAI Codex y el icono se creó con ImageGen.\n\nLa release adjunta los avisos y las fuentes correspondientes de los componentes nativos. El estado de las licencias y la redistribución del código heredado figura en los avisos de terceros.\n\nREADME ·.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/v2.0.0/Crumb-Release.ipa",
+          "size": 14484118,
           "minOSVersion": "16.4"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Crumb advertises a pairing host and connects to this device after you approve pairing in Settings."
+        }
       }
     },
     {
@@ -13697,11 +13701,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.65",
-          "date": "2026-11-19T09:36:50Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.65:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.65/Lumisound-2.0.0.65.ipa",
-          "size": 17464938,
+          "version": "2.0.0.66",
+          "date": "2026-11-19T19:15:19Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.66:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.66/Lumisound-2.0.0.66.ipa",
+          "size": 17505057,
           "minOSVersion": "26.0"
         }
       ],
