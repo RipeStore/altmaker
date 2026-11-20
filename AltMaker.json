@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.wyatthoutz.birding",
-    "com.aigch.OpenParsec",
-    "com.certlium.crumb"
+    "com.certlium.crumb",
+    "io.nekohasekai.screensharing",
+    "com.felix.rustradar"
   ],
   "apps": [
     {
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.11.1",
-          "date": "2026-11-20T01:22:30Z",
-          "localizedDescription": "Fixed:\n\n• Recent Celebrity duplicates after cold start (F1430): when retained Bird Gen alerts appear before checked canonical taxonomy is ready, the current full feed and Home Recent now remerge automatically after taxonomy restores. Opening the full feed or refreshing observations is no longer required for that controlled startup sequence.\n• The same readiness repaint follows a successful official taxonomy edition check. Parent/form relationships come only from the checked taxonomy, not similar bird names. Distinct species remain separate.\n• The merged alert retains the newest coherent report's name, time, place and checklist, plus supporting checklists. Celebrity filter counts and the selected category stay consistent with the feed.\n• A late taxonomy result cannot resurrect a feed from a previous region/context. This presentation-only repaint does not fetch new observations/photos, advance saved-source freshness or publish new notification candidates.\n\nVerification and boundaries:\n\nThe cold-start consumer exercises retained storage across two boots, a held canonical restore and cancelled automatic refresh. Additional controls cover official edition readiness, obsolete scope and an enabled native notification bridge; removing each safeguard makes its intended guard fail.\n\nThis patch also stabilizes F764's test baseline after the intended 500-to-5000 leaderboard expansion. The production first-page usability, source ownership and recovery behavior are unchanged. This is not a new native leaderboard transport or initial-delay fix.\n\nThe full gate also exposed a pre-existing F998 midnight fixture problem: \"ten minutes ago\" could mean yesterday in a today's-only lane. The consumer now runs explicit midnight and midday clocks with a current-day observation; no production TWITCH eligibility rule was changed.\n\nThe v2.11.0 interface, original Stakeout filters and Celebrity camera icon are retained. The device report motivated the repair, but controlled reproduction and verified release artifacts are not a claim that the owner has confirmed the corrected native sequence. Signed upload or Apple processing alone does not establish TestFlight download access.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.11.1/BirdChaser-unsigned.ipa",
-          "size": 143495252,
+          "version": "2.11.2",
+          "date": "2026-11-20T05:15:30Z",
+          "localizedDescription": "Alert presentation corrections:\n\n• First of the year: the introductory words and connecting \"at\" now use regular-weight body text, black in the light theme. Bird names keep their emphasis, the card still opens FOY Ticks, and the independent place link keeps its destination. Recent Bird Gen uses the same plain introduction; its compact location treatment is unchanged.\n• Patagonia alerts outside your chase area: a known event beyond the current chase radius now shows the existing Outside chase area disclosure, matching other alerts. The alert remains visible. Events inside the radius are not labelled outside, and an unknown origin or unavailable coordinates do not produce a guessed warning.\n\nPreserved behavior:\n\nThis update does not change FOY grouping, the three-day window, annual-list navigation, bird or hotspot actions, notification qualification, Patagonia event qualification, or chase-distance thresholds. It introduces no new feed acquisition, dependencies, shared algorithms, or account requirements. Body text continues to follow the selected theme rather than forcing black text in dark mode.\n\nVerification:\n\nThe complete exact-source catalog passed 2,196 tests with zero failures and three skips; all six real-Chrome layout profiles passed. The downloaded unsigned IPA from native run 44673785718/1 matches the frozen source, all 11,047 canonical public assets, and all 85 selected installed DOM consumers. Its SHA-256 is c8908d366bcf7feb424912b5d29687692408937293006885dd8b4625566ad3e3. Signed delivery is checked separately and is not an owner-access claim.\n\nUnverified on device:\n\nDesktop DOM, browser and archive verification do not constitute a fresh native-device regression check. Apple processing and signed delivery are distinct from confirmation that the owner can download the exact build in TestFlight. The GitHub IPA is the separate sideloadable artifact.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.11.2/BirdChaser-unsigned.ipa",
+          "size": 143495278,
           "minOSVersion": "15.0"
         }
       ],
@@ -2755,11 +2755,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.2",
-          "date": "2026-11-09T00:23:23Z",
-          "localizedDescription": "New:\n\n• Search forgives slips. Spaces, punctuation, accents and a typo or two no longer get in the way: \"goodwill hunting\" finds Good Will Hunting, \"spiderman\" Spider-Man, \"intersteller\" Interstellar. In your library and for things you don't have yet. A film shown under its Italian title is found by its original one too.\n• Chromecast from the top bar. In the Android app, the cast button next to your profile picture lists the Chromecasts on your network too. Connect to one before choosing anything, and Play plays there.\n• Back to the film on the Chromecast. While a film plays on a Chromecast, a bar at the bottom of every page shows it, with play/pause and Stop casting. Tap it, or Android's Chromecast notification, to get its player back, from where the Chromecast is, without the film starting again.\n\nChanged:\n\n• For anyone building it themselves: npm run pack:pi is now npm run pack:server.\n\nFixed:\n\n• Chromecast: films with subtitles inside the file didn't start the first time: the Chromecast waited for the subtitles, which Jellyfin takes a while (minutes on a small server) to pull out of the file, and gave up. The film now starts straight away and the subtitles appear as soon as they're ready.\n• Chromecast errors say why, with the Chromecast's own number, and in Italian too.\n\nUpdate:\n\n• Android app (phones and tablets), for the Chromecast notification and for the cast button showing Chromecasts on their own.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.8.2/Netfish-ios.ipa",
-          "size": 928876,
+          "version": "0.9.0",
+          "date": "2026-11-20T06:30:10Z",
+          "localizedDescription": "New:\n\n• Photos. Jellyfin's Photos and Home videos libraries are in Netfish: Photos in the menu and a row on Home, with albums and folders as they are in Jellyfin.\n\n• A photo opens full screen: left and right (or a swipe, or the remote) for the others, and a Slideshow.\n• Home videos play in the player.\n\n• A Netfish screensaver in the Android app: the library's backdrops slowly drifting by, with the title, the time and what's on Netfish's channel.\n\n• Choose it where Android lets you pick a screen saver: on most Android TV boxes, Settings → System (or Device Preferences) → Screen saver → Netfish. Google TV and Fire TV only offer their own.\n\n• The version that plays best, by itself. When a film or episode has several versions (a 4K one and a 1080p one, say) and nobody picked one, Netfish plays the one this device takes as it is, the biggest that does. The server's log says which.\n• On mobile data on iPhone and iPad too: Settings → Playback on this device → On mobile data.\n\nChanged:\n\n• Android: smoother on TV boxes. The app tells the server what the device really decodes well, and the server converts the rest instead of the device stuttering through it.\n\n• AV1 and VP9 only with a decoder in the chip on a TV or TV box. A phone or tablet's own processor takes them up to 1080p.\n• No picture bigger than the device's decoder takes, such as 4K H.264 on a Raspberry Pi.\n\n• A TV that can't play something tries once more with a plain conversion (1080p H.264, stereo) before saying it can't. Heavier for the server, but it plays.\n\nFixed:\n\n• Search: a single five-letter word with a slip (\"walle\") now also finds things you don't have yet.\n\nUpdate:\n\n• Android app (TVs, boxes, phones, tablets), for smoother playback and the screensaver.\n• iPhone and iPad app, for On mobile data.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.9.0/Netfish-ios.ipa",
+          "size": 931779,
           "minOSVersion": "16.0"
         }
       ],
@@ -3848,11 +3848,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.1",
-          "date": "2026-11-17T21:15:23Z",
+          "version": "1.0.2",
+          "date": "2026-11-20T12:54:09Z",
           "localizedDescription": "Installed copies update to this version automatically the next time they open.",
-          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v1.0.1/RustRadar_1.0.1.ipa",
-          "size": 36864271,
+          "downloadURL": "https://github.com/felixgoff/RustRadar/releases/download/v1.0.2/RustRadar_1.0.2.ipa",
+          "size": 36890998,
           "minOSVersion": "15.0"
         }
       ],
@@ -5087,11 +5087,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "3.0.0",
-          "date": "2026-11-15T10:37:41Z",
-          "localizedDescription": "Added:\n\n• Added a HarmonyOS version with two packages: ARM64 for phones and x64 for the emulator. The packages are unsigned, so you need to sign them yourself before installing (#296).\n• Added Recent reading, Following, New updates and Local comics widgets for Android, HarmonyOS (service cards), iOS and macOS; whether they work on Apple platforms depends on how the app is signed and sideloaded (#338).\n• Long-press the app icon to jump to Favorites, Following, History or Search on Android, iOS and HarmonyOS; on Android and iOS, open the app once after updating for the shortcuts to appear (#346).\n• Added an optional adaptive reading mode that tells vertical-scroll comics from paged comics by their images and picks a suitable reading mode (#333).\n• Added a first-use guide that helps new users set up language, permissions, backup restore and WebDAV; existing users skip it.\n• Added a \"Clear reading progress when deleting a single history entry\" option; when enabled, deleting one history entry also clears its reading progress, while reading time statistics are kept (#341).\n\nChanged:\n\n• Redesigned reading statistics with recent, monthly, all-time and custom date ranges, a reading calendar and trends, and total reading time per comic (#332, #342).\n• Random picks now offer Single draw and Choose from three, with no duplicate comics in the same round.\n• Local comics can now open to details or start reading on tap, sort by file size, and let you choose separately whether deleting removes the comic files, favorites and history (#321).\n• The favorites dialog now lets you add to or remove from several folders in a row without closing after each change (#345).\n• The Auto Language Filters switch is replaced by choosing which comic sources the search language filter applies to, so sources that do not support the filter are not affected.\n• Importing comics now shows the current step, a progress bar and the comic being processed; if the import fails partway, comics already copied are still added to the library (#347).\n\n• Turning back from the first page of a chapter now goes to the previous chapter's comments page first, then its last page (#343).\n• The chapter comments page now supports the tap-to-turn areas.\n\n• The Windows update window now uses the app's colors and shows installation progress.\n• The log page now supports search, filtering by level and tag, export, and keeps the previous run's logs to help troubleshoot problems.\n• Covers stay cached longer (90 days after they were last viewed), and pull-to-refresh on a comic's details page updates its cover (#332).\n\n• Improved the settings layout: the sidebar search box stays visible, groups use a single column on wide screens, and history settings moved to Browsing \u0026 filters.\n• On desktop, Esc and the mouse Back button now go back one level at a time instead of jumping to the home page.\n• Improved browsing performance in large libraries, with less lag when opening lists and switching pages.\n• Backups leave out unnecessary content, so they take less space while keeping all personal data.\n• Updated the user agreement and disclaimer.\n\nFixed:\n\n• Fixed tapping Previous chapter in continuous reading changing the title but still showing the current chapter (#340).\n• Fixed page turns and the saved reading position getting out of sync in right-to-left continuous reading.\n• Fixed duplicated, misplaced or briefly unsplit images when turning pages quickly with wide page splitting or two images in landscape (#337).\n• Fixed quick repeated right swipes, or a right swipe during the page-turn animation, accidentally going back in right-to-left reading (#344).\n\n• Fixed missing or duplicated chapters and pages after exporting and re-importing comic archives and CBZ files.\n• Fixed comic archive import and export paths when using an external directory on Android.\n• Fixed incorrect task states after a PDF export failed or was canceled.\n• Fixed favorite tags containing commas or quotes being split or altered.\n• Fixed cleared reading progress being written back by refreshes and similar actions.\n• Fixed history entries for local comics read on another device having no cover and failing to open (#348).\n• Fixed updates already read on another device being marked as new again (#336).\n• Fixed saving WebDAV settings running the initial sync twice (#335).\n• Fixed the app lock not staying locked when device authentication is unavailable.\n• Fixed Esc closing the app lock screen on desktop.\n• Fixed titles and covers being squeezed and cut off in Brief mode on phones; the action button next to the title has been removed (#331).",
-          "downloadURL": "https://github.com/Kyosee/VeneraX/releases/download/v3.0.0/VeneraX-ios-3.0.0%2B258.ipa",
-          "size": 39423677,
+          "version": "3.0.1",
+          "date": "2026-11-20T10:56:20Z",
+          "localizedDescription": "iOS IPA 和 HarmonyOS HAP 均未签名，安装前需自行签名。 / iOS IPA and HarmonyOS HAP packages require signing before installation.\n\nAdded:\n\n• Android can now schedule update checks in the background without opening the app; timing depends on the system's background restrictions. (#359).\n\n• Re-translate an individual page while reading without re-translating the entire chapter. (#174).\n• Comic exports can now include translation data so saved translations can be used on another device.\n\n• Manually importing a full app backup can restore WebDAV account details, followed folders and translation performance settings that have not been configured on this device. Sync backups continue to keep these settings separate on each device. (#349).\n• After an abnormal exit, preview, copy, save or share a diagnostic report to help report crashes and freezes. The report automatically masks recognized sensitive information, such as URLs, email addresses, WebDAV account details, passwords, cookies, access tokens, API keys, comic source names and personal details in file paths.\n• Repeated launch failures now open a recovery screen with options to start in safe mode, view a diagnostic report or try a normal launch.\n\nChanged:\n\n• Pre-translation and the translation library now share a chapter management page with search, status filters, progress and batch actions to start, pause, resume, cancel, re-translate or delete translations.\n• Translation chapters show known page totals and let you fetch missing totals. Page counts are retained when the corresponding translations are synced, imported or exported.\n• Local comics on the home page now follow the sort order selected in the local library. (#351).\n• Reading statistics now remember the last selected tab. (#350).\n\n• Saved favorite images now show their chapter and can be viewed one chapter at a time. (#349).\n• Smoother local comic reading with two-page layouts, wide-page splitting and rapid page turns, with less stuttering during sync and home-screen widget updates. (#352, #355).\n• WebDAV real-time sync now groups reading progress from consecutive page turns into one upload. It tries to sync after about 15 seconds without further changes, or about 30 seconds after the first unsynced change if page turns continue. Leaving the reader saves the latest progress and attempts to sync it, reducing stuttering and data usage from frequent backup uploads.\n\nFixed:\n\n• Fixed temporary image stretching, layout jumps and unstable reading positions when rotating the device. (#349).\n• Fixed tapping the page edge failing to open the previous chapter from the first page or the next chapter from the last page. (#349).\n• Fixed per-comic reading settings saved for the same local comic on another device not taking effect. Enabled settings on the current device still take priority. (#353).\n• Fixed unfinished pre-translation tasks losing their paused state or being unavailable to resume after restarting the app. (#189).\n• Fixed pages with incomplete translation replies being treated as finished. Missing translations can now be retried. (#155).\n• Fixed update checks and pre-translation being interrupted too soon after switching HarmonyOS to the background. (#349).\n• Fixed an earlier check causing a scheduled check at the configured daily time to be skipped. (#349).\n• Fixed long stalls when opening or returning to the app, or entering from a home-screen widget, while local comic folders were being read. (#349).\n• Fixed home-screen update widgets confusing unread comic counts with the results of the last check. (#349).\n• Fixed HarmonyOS home-screen widgets failing to show updated page numbers, chapters or covers. (#349).\n• Fixed repeated entries from widgets, launcher shortcuts or notifications stacking duplicate pages, and update-check shortcuts opening an incomplete version of the page. (#349).\n• Fixed image favorites failing after chapters were inserted, reordered or replaced. A prompt lets you view or manage images saved from an older chapter version. (#349).\n• Fixed Windows in-app updates potentially leaving an incomplete installation when files were locked.\n• Fixed card sizes and button positions jumping when switching modes in the random comic draw dialog. (#354).\n• Fixed the HarmonyOS startup icon shrinking unexpectedly and losing its rounded corners. (#349).\n• Fixed iOS home-screen widgets potentially failing to read app data after the app was re-signed. (#349).\n• Fixed network error logs including response cookies, reducing the risk of exposing login information in exported logs.",
+          "downloadURL": "https://github.com/Kyosee/VeneraX/releases/download/v3.0.1/VeneraX-ios-3.0.1%2B260.ipa",
+          "size": 39632748,
           "minOSVersion": "15.1"
         }
       ],
@@ -6687,7 +6687,7 @@
           "date": "2026-11-19T13:29:00Z",
           "localizedDescription": "Added:\n\n• A comic's Auto-scroll settings have a Hold at the end to go on switch: scroll down past the end and hold for half a second, the next card filling as you do, and the next chapter opens.\n• Tags on highlights. Open a highlight and add tags under its note; they show on its row, and the Highlights place can show just the highlights with one tag. Highlight tags are their own list, apart from your clips' tags, and go with the highlight to your other devices, backups and Copy all.\n• In Highlights you can pick several tags at once. A highlight shows if it has any of them; the filter button at the end of the tag row changes that to all of the tags or none of them.\n• Page view for notes, in the reader's ⋯ menu above Save as PDF: every page of the note in one column, with the page you are on at the top. Tap a page to go to it.\n• Hold a page to select it, tap more to add them, then Copy, Paste (below the last selected page, in this note or another), Delete (with Undo), Share, Save as (PDF or picture) or change the Background to Blank, Lines or Squares. Drawings stay where they are.\n• Settings › Report a problem › Recover Notes and Highlights looks through your library for highlights and drawings an update left behind. It lists them by clip, puts back the ones with a safe place (a highlight that moved, drawings past the end of a clip, a PDF shown as text that has drawings, a note missing its sheets), and lets you open, copy or delete the rest.\n• Recover also has Look for deleted notes. It finds Notes that are gone from your library but still in GitHub sync or on this phone (an older version's sync deletes Notes), shows their sheets and strokes, and brings each back as a new note.\n• A Tag row switch in the Library's View options and Settings › Library hides the row of tag chips under Show and Order, or brings it back.\n\nFixed:\n\n• A highlight that spans two paragraphs, or whose text has doubled spaces, is found again when a clip's paragraphs have shifted, instead of showing \"Not found in this copy of the clip\".\n• A clip set to Live stays Live: the next sync, or restoring a backup, turned it off again.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.68.0/Waypage.ipa",
-          "size": 11275634,
+          "size": 11285864,
           "minOSVersion": "15.5"
         }
       ],
@@ -7335,11 +7335,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "4.6.2",
-          "date": "2026-11-02T01:03:57Z",
-          "localizedDescription": "• Fix the shuffled bookmark order changing when bookmarks are updated.\n• Fix the app lock not prompting for biometrics automatically.\n\n• Improve recovery from anti-bot challenges and sites that block HTTP/2.\n• Show a clearer error when a secure connection can't be made, instead of reporting a certificate error.\n• Reduce memory use of side panel previews and smooth tag loading.\n\n• Update Portuguese (Brazil), Russian, and Ukrainian translations.",
-          "downloadURL": "https://github.com/khoadng/Boorusama/releases/download/v4.6.2/boorusama-4.6.2-ios.ipa",
-          "size": 34324791,
+          "version": "4.6.3",
+          "date": "2026-11-20T02:25:25Z",
+          "localizedDescription": "• Fix Gelbooru searches stopping at page 17; deep pages and page jumps now load.\n• Fix e621 showing no posts after its API update.\n• Work around Zerochan's broken API responses so browsing and search load again.\n• Fix being locked out of the app when the lock can't be verified on this device; you can now retry or turn the app lock off.\n• Restoring settings from another device no longer brings over its app lock.",
+          "downloadURL": "https://github.com/khoadng/Boorusama/releases/download/v4.6.3/boorusama-4.6.3-ios.ipa",
+          "size": 34341087,
           "minOSVersion": "15.0"
         }
       ],
@@ -7973,7 +7973,7 @@
       "bundleIdentifier": "com.elsterlee.NeoBili",
       "developerName": "Fab1e2000",
       "subtitle": "A SwiftUI Bilibili client for iOS 26+, powered by MPVKit",
-      "localizedDescription": "NeoBili:\n\nA native, third-party Bilibili client for iPhone.\n\nBuilt with SwiftUI · Liquid Glass on iOS 26 · Powered by MPVKit.\n\nScreenshots:\n\nNeoBili is an unofficial client developed independently by an individual. It is not affiliated with, authorized, or endorsed by Bilibili. It is free, for personal and educational use only, and may not be used commercially. Please read the Disclaimer before use.\n\nWhy NeoBili:\n\nBilibili is one of the largest video and live-streaming communities in China. NeoBili is an iPhone client for it written entirely in SwiftUI and Swift 6. It follows iOS conventions and Liquid Glass instead of mirroring a cross-platform design, and it collects no data.",
+      "localizedDescription": "NeoBili:\n\nA native, third-party Bilibili client for iPhone.\n\nBuilt with SwiftUI · Liquid Glass on iOS 26 · Powered by MPVKit.\n\nScreenshots:\n\nNeoBili is an unofficial client developed independently by an individual. It is not affiliated with, authorized, or endorsed by Bilibili. It is free, for personal and educational use only, and may not be used commercially. Please read the Disclaimer before use.\n\nWhy NeoBili:\n\nBilibili is one of the largest video and live-streaming communities in China. NeoBili is an iPhone client for it written in Swift 6 with SwiftUI and UIKit. It follows iOS conventions and Liquid Glass instead of mirroring a cross-platform design, and it collects no data.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.elsterlee.NeoBili.png",
       "tintColor": "#fd79b5",
       "category": "other",
@@ -7985,11 +7985,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.3",
-          "date": "2026-11-16T05:10:48Z",
-          "localizedDescription": "下载附件 NeoBili-v1.3.3-unsigned.ipa，使用同页 SHA256SUMS.txt 校验。.\n\n构建信息：提交 6647ae6c74e469d8d88595347a9e6a0afa64b706，由 Xcode Cloud 构建。.",
-          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.3/NeoBili-v1.3.3-unsigned.ipa",
-          "size": 134035734,
+          "version": "1.3.4",
+          "date": "2026-11-20T08:21:30Z",
+          "localizedDescription": "构建信息：提交 5dbcc8db0a6d5b8e4324429e4c4b7ff93836c6ca，由 Xcode Cloud 构建。.",
+          "downloadURL": "https://github.com/Fab1e2000/NeoBili/releases/download/v1.3.4/NeoBili-v1.3.4-unsigned.ipa",
+          "size": 134123157,
           "minOSVersion": "26.0"
         }
       ],
@@ -8135,11 +8135,11 @@
       ],
       "versions": [
         {
-          "version": "2.10.0",
-          "date": "2026-11-19T16:03:30Z",
-          "localizedDescription": "• The power button shows the smart plug's state: On while the plug is on (also in standby), Off once it's off.\n• Fixed: the power button stayed on \"Starting\" when the smart plug's shortcut didn't run.\n\nAndroid.\n\nWeb.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.10.0/BrewLog.ipa",
-          "size": 12861142,
+          "version": "2.11.0",
+          "date": "2026-11-20T12:13:35Z",
+          "localizedDescription": "• After rinsing: \"Pour in 15 g of beans\" straight into the brewer on the tared scale; Ready tares again for the pour.\n• \"Brew this\" on a recipe goes straight to the brew screen.\n\n• After rinsing: \"Pour in 15 g of beans\" straight into the brewer on the tared scale; Ready tares again for the pour.\n• \"Brew this\" on a recipe goes straight to the brew screen.\n\nWeb.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.11.0/BrewLog.ipa",
+          "size": 12863906,
           "minOSVersion": "17.0"
         }
       ],
@@ -8968,10 +8968,10 @@
       "versions": [
         {
           "version": "1.5.0",
-          "date": "2026-11-16T23:29:46Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 618658d. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-254/Ito-1.5.0-dev.254-unsigned.ipa",
-          "size": 14848404,
+          "date": "2026-11-20T04:14:49Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 76dee97. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-256/Ito-1.5.0-dev.256-unsigned.ipa",
+          "size": 15137240,
           "minOSVersion": "15.4"
         }
       ],
@@ -10167,15 +10167,15 @@
       "subtitle": "A remote desktop client that doesn't suck",
       "localizedDescription": "The App Store version excludes the following features due to App Store restrictions, but you can support my work by purchasing it on the App Store:\n\n• Dragging files directly from a remote Mac into other iOS/iPadOS apps: relies on a private API.\n\nAndroid:\n\nYou can support my work by purchasing it on Google Play.\n\nNightly builds:\n\nYou can also switch to the Nightly track in the App settings of the macOS app and update directly.\n\nRoadmap:\n\n• [x] Add support for macOS.\n• [x] Add support for RDP.\n• [x] Publish to iOS App Store.\n• [x] Publish to Homebrew.\n• [x] Add support for Android.\n• [x] Publish to Google Play.\n• Publish to F-Droid.\n• Add support for Linux / Windows?",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.nekohasekai.screensharing.png",
-      "tintColor": "#5796fd",
+      "tintColor": "#3d748e",
       "category": "other",
       "versions": [
         {
-          "version": "1.0.7",
-          "date": "2026-11-17T10:21:29Z",
-          "localizedDescription": "• Add android app.\n• Fixes and improvements.",
-          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.7/OpenScreenSharing.ipa",
-          "size": 11840191,
+          "version": "1.0.8",
+          "date": "2026-11-20T13:51:14Z",
+          "localizedDescription": "• Add a tab bar for multiple sessions on iPad.\n• Extend full-screen sessions around the MacBook notch.\n• Add native touch input for touch displays on macOS.\n• Automatically take over busy High Performance sessions from other Open Screen Sharing clients.\n• Add RSA-AES and VeNCrypt authentication for VNC servers (RealVNC, TigerVNC, wayvnc).\n• Add option to reverse scroll direction for standard VNC and RDP.\n• Fixes and improvements.",
+          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.8/OpenScreenSharing.ipa",
+          "size": 11167454,
           "minOSVersion": "15.0"
         }
       ],
@@ -12941,11 +12941,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.0.0",
-          "date": "2026-11-20T00:05:29Z",
-          "localizedDescription": "Crumb 2.0.0 reúne en una sola app para iPhone y iPad la búsqueda en el App Store, la descarga de versiones anteriores y la gestión de archivos IPA. Esta versión suma el descifrado experimental en el dispositivo y amplía las opciones de firma e instalación.\n\nQué trae la 2.0.0:\n\n• Encontrá la versión que buscás. Buscá por nombre, enlace del App Store, ID o bundle ID. Guardá favoritos y elegí entre las versiones disponibles.\n• Gestioná las IPA desde Descargas. Consultá la versión y el build descargados, exportá el archivo o instalalo cuando iOS lo permita.\n• Descifrado experimental en el dispositivo. Para descargas compatibles y autorizadas, Crumb puede descifrar dentro de la app sin un asistente aparte, VPN ni emparejamiento. Esta función requiere firmar Crumb con un App Group autorizado.\n• Ajustes de firma en un solo lugar. La configuración del descifrador reúne los controles de firma y las indicaciones de uso. Se retiraron los diagnósticos temporales y su exportación.\n\nDescarga y compatibilidad:\n\nDescargá Crumb-Release.ipa de los archivos de esta release y firmala con un instalador compatible. Crumb requiere iOS o iPadOS 16.4 o posterior. Para actualizar una instalación existente, conservá el bundle ID com.certlium.crumb y la identidad de firma.\n\nCrumb puede adquirir licencias de apps gratuitas cuando Apple lo permite. Las compras pagas y suscripciones quedan fuera. La disponibilidad depende de la cuenta, la región y el dispositivo. El descifrado sigue siendo experimental y la instalación depende de la firma y de la aceptación de iOS.\n\nVerificación:\n\nSHA-256 de Crumb-Release.ipa.\n\naca425f5d28489655dd244a4eafb16b9512f234d66d3d16c339f1b0d83293417.\n\nCréditos:\n\nGracias a mineek, lunginspector, skadz, jailbreak.party y nxtcoreee3 por los proyectos en los que se basa Crumb, a boierito por la coordinación y las pruebas en dispositivo, a Majd Alfhaily por ipatool y a los colaboradores de ipadn por la referencia para el descifrado. La implementación contó con ayuda de OpenAI Codex y el icono se creó con ImageGen.\n\nLa release adjunta los avisos y las fuentes correspondientes de los componentes nativos. El estado de las licencias y la redistribución del código heredado figura en los avisos de terceros.\n\nREADME ·.",
-          "downloadURL": "https://github.com/boierito/Crumb/releases/download/v2.0.0/Crumb-Release.ipa",
-          "size": 14484118,
+          "version": "2.0.1",
+          "date": "2026-11-20T14:09:29Z",
+          "localizedDescription": "• Fix de login.",
+          "downloadURL": "https://github.com/boierito/Crumb/releases/download/v2.0.1/Crumb-Release.ipa",
+          "size": 14480799,
           "minOSVersion": "16.4"
         }
       ],
@@ -13084,11 +13084,11 @@
       ],
       "versions": [
         {
-          "version": "2026.1119.1710",
-          "date": "2026-11-19T18:47:27Z",
-          "localizedDescription": "• Fix Up Next crash when the queue holds the same track twice.",
-          "downloadURL": "https://github.com/j-roskopf/Phoebe/releases/download/release/2026.1119.1710/Phoebe-2026.1119.1710.ipa",
-          "size": 35970984,
+          "version": "2026.1120.0321",
+          "date": "2026-11-20T03:41:24Z",
+          "localizedDescription": "• Fix Sentry-reported playback, database, and catalog ANRs.",
+          "downloadURL": "https://github.com/j-roskopf/Phoebe/releases/download/release/2026.1120.0321/Phoebe-2026.1120.0321.ipa",
+          "size": 35972854,
           "minOSVersion": "26.0"
         }
       ],
@@ -13489,10 +13489,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-17T09:22:29Z",
-          "localizedDescription": "Immutable snapshot of alpha build 531 (3198e54).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 531, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-531/Non-Jailbroken.ipa",
-          "size": 124339365,
+          "date": "2026-11-20T10:01:35Z",
+          "localizedDescription": "Immutable snapshot of alpha build 545 (47c8c93).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 545, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-545/Non-Jailbroken.ipa",
+          "size": 124781056,
           "minOSVersion": "17.0"
         }
       ],
@@ -13542,11 +13542,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.11",
-          "date": "2026-11-15T12:08:06Z",
-          "localizedDescription": "KartPad 0.8.11 (build 276) makes Android menus with movie thumbnails keep up, fixes Wii Remote extensions and the Wii Remote player slot on Mac, and brings the iPhone/iPad touch-control and screen fixes merged since 0.8.10.\n\nFixed:\n\n• Getting touch controls back (iPhone/iPad): when a controller hides the touch controls, Show Touch Controls is now the first row of the ••• menu, and Controls → Auto-hide Touch Controls with Controller turns the behaviour off. Only a controller on Player 1 hides them; a pad on Player 2–4 doesn't ().\n• Rotation and external displays (iPhone/iPad): the game follows the screen's orientation through rotations on iPadOS 27, and leaves an external display to the system for mirroring ().\n\nUpdating:\n\n• iPhone, iPad and Mac: rebuild 0.8.11 with PadMint and replace only the app; your data stays.\n\nResults by check:\n\nNot checked: any phone, including the slow phones the Android menu and online fixes are for; a physical Wii Remote, Nunchuk or Classic Controller on a Mac; the iPhone/iPad changes on a device, an external display or the Simulator (checks 7–11 there need a full translated Simulator build); a custom GPU driver carried over an update, which the emulator can't set.\n\nFrom merge efb292d39604d87b0eee05a7e7f427a2a25843b6:\n\nThe APK is signed with KartPad's release key, and two derivations from the same bundle are byte-identical. The game-pack interface fingerprint is unchanged from 0.8.8, and the build checks it. The APK, iPhone/iPad input, notices, PadMint recipe and source archive pass PadMint's audit with the same accepted findings as 0.8.8: translated game code in the APK, and translator test fixtures and generator source in the source archive.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.11/KartPad-v0.8.11-ios-for-padmint.ipa",
-          "size": 9451481,
+          "version": "0.8.12",
+          "date": "2026-11-20T07:08:42Z",
+          "localizedDescription": "KartPad 0.8.12 (build 278) tells Android players which graphics driver suits their phone, adds an experimental 120 FPS mode for fast Android phones, keeps the iPhone and iPad controller mapping open while you change buttons, brings two runtime fixes to the Mac, and stops custom GPU drivers on Snapdragon phones from paying for a fix that only Qualcomm's own driver needs.\n\nAdded:\n\n• 120 FPS Races (Experimental, Android): ⋯ → Graphics \u0026 Performance → 120 FPS Races (Experimental) draws an in-between frame after each of the game's frames during races, for phones with 120 Hz screens. The game itself still runs at 60, and menus are unchanged. It roughly doubles the work of drawing each frame, so it's meant for fast phones; when a phone can't keep up, KartPad drops the extra frames. Off by default. Turning it on turns off 30 FPS Races, and the other way round. If KartPad closes unexpectedly with it on (Android 11 and later), it's turned off at the next start and KartPad tells you. Use it with the WiiCompiled 0.9 (Beta) graphics engine: on a Pixel 9 Pro XL it held a steady 120 on Beta, but on Classic it stuttered below 60, worse than leaving it off.\n\nChanged:\n\n• Controller mapping stays open (iPhone and iPad): after you change a button in Controller Button Mapping, the list comes back with the new assignment, so you can change several in a row. Done closes it. (#575).\n• Custom GPU drivers skip the Qualcomm fixes (Android): with a custom driver such as Turnip or PurpleVK, KartPad still treated the phone as running Qualcomm's own driver, because those drivers keep Qualcomm's ID and the Adreno name. On Snapdragon 8 Elite and other Adreno 8xx phones that meant Automatic repacked every draw, the slowest of the fixes, even though it's for a fault in Qualcomm's driver. KartPad now applies the automatic Qualcomm fixes only to Qualcomm's own driver, including repackaged Qualcomm driver packages. It checks the driver name the phone reports; every Qualcomm driver in players' logs so far, from Adreno 619 to 840, names itself \"Qualcomm Technologies Inc. Adreno Vulkan Driver\". Nothing changes with the phone's own driver. No Adreno 8xx phone has tried a custom driver without the repack yet: if meshes or textures stretch with one, choose ⋯ → Graphics \u0026 Performance → Graphics Diagnostics… → Character Graphics Test → Experimental: fix characters and track textures. How much faster this makes a custom driver isn't measured.\n\nUpdating:\n\n• Apple Silicon Mac: rebuild 0.8.12 with PadMint and replace only the app; your data stays.\n\nResults by check:\n\nPixel 9 Pro XL (Tensor G4, Mali-G715, 120 Hz), owner's phone: build 278 installed over 0.8.11 in place, using a copy re-signed with the owner's test key (same app contents as the attached APK). No setup screen; both games still ready, and the existing licence, saves and Beta engine choice carried over. Recommended for This Phone names the Mali-G715 and gives the non-Snapdragon advice. Luigi Circuit race: Beta 59.1 FPS off, 120.0 FPS on (p95 9.0 ms, steady while driving); Classic 59.2 FPS off but 47–57 FPS with 120 on (p95 up to 49 ms, visible stutter), so on Classic the switch makes this phone worse. Turning it off brings both back to 60.\n\nNot checked: a Snapdragon phone on Qualcomm's 512.762 driver (the Turnip advice and Get a Driver button), how much battery 120 FPS Races uses, the 120 FPS crash fallback (no crash was forced), a Snapdragon phone with a custom driver, the iPad controller mapping with a real controller (it compiles and passed the iPhone/iPad player check; the Simulator checks weren't run), a multi-cup memory run on the Mac, and Retro Rewind on the Classic engine.\n\nFrom merge f99e9ca4b10b7b0a8ad5c8accf87408a31098954:\n\nThe APK is signed with KartPad's release key, and two derivations from the same bundle are byte-identical. The game-pack interface fingerprint is unchanged from 0.8.11. The APK, iPhone/iPad input, notices, PadMint recipe and source archive pass PadMint's audit with the same accepted findings as 0.8.11 and the held build 277: translated game code in the APK, and translator test fixtures and generator source in the source archive.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.12/KartPad-v0.8.12-ios-for-padmint.ipa",
+          "size": 9451630,
           "minOSVersion": "16.0"
         }
       ],
@@ -13575,11 +13575,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.25",
-          "date": "2026-11-19T07:36:44Z",
-          "localizedDescription": "Release v6.3.25:\n\n• Open lookup flashcards in the right workspace (007cd30).\n• Import Jiten and JPDB review history into Flashcards (aae960c).\n• Restore replay controls on imported flashcards (7b8bdcd).\n• Restore images and audio on synced flashcards (b8b5be2).\n• Add Flashcards performance diagnostics (8a62829).\n• Reuse manga reading coverage until it changes (7c6023b).\n• Add protected publisher updates for note types (90aeaf9).\n• Speed up Lens image cropping without changing OCR inputs (9f421fd).\n• Stream sync status and manual progress updates (c472c99).\n• Include reader identity failure details in debug exports (d8f2bc3).\n• Keep vocabulary sources editable when an Anki deck is missing (5ce6a6e).\n• Return from flashcard Browse to the lookup source (58f0f35).\n• Share boundary OCR scans across adjacent reader pages (1203d32).\n• Restore sentence audio when mining video flashcards (9f4ca81).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.25/Manatan-v6.3.25-iOS.ipa",
-          "size": 446485954,
+          "version": "6.3.26",
+          "date": "2026-11-20T11:47:44Z",
+          "localizedDescription": "Release v6.3.26:\n\n• Add dictionary library backups and device copy (f345c3f13).\n• Fix scrambled pages in the manga reader (3fc98ee7b).\n• Improve playback and Windows crash diagnostics (2de910065).\n• Fix local subtitles for image-wrapped HLS streams (fe79d40bc).\n• Honor dictionary popup scale on iOS (b96d9181d).\n• Validate Android torrent bridge packaging (dc23d25e4).\n• Use Manatan SDK 2.1.0 (1c69a6afd).\n• Revert \"Speed up MDX dictionary imports\" (bd1eaa2f0).\n• Update build configuration (686654274).\n• Add anime and manga extension capabilities (8fe271ee6).\n• Keep webtoon panels aligned across image boundaries (54bbf3add).\n• Keep dictionary character images inside their definitions (ea2d6cf43).\n• Reuse decoded page pixels for Lens OCR (57ac6c426).\n• Reduce image resize memory across OCR backends (431c6b8ac).\n• Show extension-provided seek thumbnails (f52a82255).\n• Make Japanese subtitle lookup furigana-aware (732e54c08).\n• Support anime extension API 17 (f15422d1e).\n• Unify obsolete extension removal across media (01c38d008).\n• Use dav1d for AVIF decoding in OCR and Flashcards (96154e702).\n\n• Improve Flashcards performance recordings (8c0f875f1).\n• Fix embedded subtitle selection for local video (5dfd1b7e8).\n• Support screen lookup on Hyprland Wayland (181043e2e).\n• Add definitions and pitch accents to Flashcards imports (c19b22c64).\n• Preserve cards when updating note types (0b0f52b7d).\n• Enable four European parsers in the app and extension (cd2651c8a).\n• Fix Flashcards workload estimates (252176ddb).\n• Save connected Flashcards locally and sync media promptly (7a07d264f).\n• Restore subtitles when switching YouTube videos (519b90958).\n• Restore manga image recovery test coverage (61620ae17).\n• Share capped cover thumbnails across media libraries (737b64a1d).\n• Keep YouTube playing through fullscreen rotation (b96be34f6).\n• Speed up MDX dictionary imports (7d6f77172).\n• Refine video statistics layouts across phone and desktop (2f7d88821).\n• Keep YouTube playing while checking notifications (f8c3b7db1).\n• Open the mobile browser start page without waiting for protection (c35a925c2).\n• Use the selected Manatan theme throughout Flashcards (5bb49eb58).\n• Read AVIF dimensions without decoding frames (06f51c176).\n• Reduce memory retained by AVIF reader images (3cd386609).\n\n• Make video mouse clicks consistent on Android (9a98236c8).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.26/Manatan-v6.3.26-iOS.ipa",
+          "size": 449722155,
           "minOSVersion": "16.1"
         }
       ],
@@ -13654,39 +13654,6 @@
           "NSCameraUsageDescription": "EngiNote shows you in a camera bubble over your note when you switch it on.",
           "NSMicrophoneUsageDescription": "EngiNote records your voice with the screen when you make a recording.",
           "NSPhotoLibraryAddUsageDescription": "EngiNote saves a recording to Photos when you choose to."
-        }
-      }
-    },
-    {
-      "name": "PlatinumQuest",
-      "bundleIdentifier": "com.randomityguy.mbpqhaxe",
-      "developerName": "RandomityGuy",
-      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
-      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbpqhaxe.png",
-      "tintColor": "#3b82f6",
-      "category": "games",
-      "screenshotURLs": [
-        "https://imgur.com/x6DYms7.png",
-        "https://imgur.com/Ncb4atl.png",
-        "https://imgur.com/KQKUk0Y.png",
-        "https://imgur.com/lfLBKqO.png",
-        "https://imgur.com/DN1A2Mf.png"
-      ],
-      "versions": [
-        {
-          "version": "2.0.4",
-          "date": "2026-11-12T17:33:03Z",
-          "localizedDescription": "This release contains the following improvements:\n\n• Added support for playing custom Gem Hunt levels originally intended for multiplayer.\n• Added basic support for MBU shapes.\n• Added support for invisible interior surfaces.\n• Fixed MBU Ice not looking correct.\n\n• Fixed radar not showing up for certain kinds of End Pads.\n• Fixed certain Help bubbles showing empty dialogues.\n• Fixed Gravity Triggers not functioning correctly.\n• Fixed PhysMod Triggers resetting their state on level restart.\n• Fixed Marble reflections on certain marble shapes that do not support it.\n• Fixed Nest Egg pickups not being counted on the level select menu.\n• Fixed being able to spam click watching top replays to crash the game.\n• Fixed Gem Hunt default time being incorrect.\n• Fixed Custom Music not playing.\n• Fixed Trapdoors, Landmines and Nukes not respecting their reset times.\n• Fixed Trapdoor sounds not playing.\n• Fixed some crashes caused by certain misconfigured levels.\n• Fixed crashes on Android.",
-          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/2.0.4/MBHaxe-PlatinumQuest-iOS.ipa",
-          "size": 606212147,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "PlatinumQuest uses the local network to discover and connect to nearby players for multiplayer."
         }
       }
     },
@@ -13833,6 +13800,37 @@
           "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Always access to reduce the blue location indicator while WrapPin keeps a simulation active in the background. Coordinates received for background keep-alive are never saved or uploaded.",
           "NSLocationWhenInUseUsageDescription": "WrapPin uses Location Services to keep an active test session running in the background and to return the map to your real position after it stops."
         }
+      }
+    },
+    {
+      "name": "Marble Blast Gold",
+      "bundleIdentifier": "com.randomityguy.mbghaxe",
+      "developerName": "RandomityGuy",
+      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
+      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbghaxe.png",
+      "tintColor": "#61b8d1",
+      "category": "games",
+      "screenshotURLs": [
+        "https://imgur.com/x6DYms7.png",
+        "https://imgur.com/Ncb4atl.png",
+        "https://imgur.com/KQKUk0Y.png",
+        "https://imgur.com/lfLBKqO.png",
+        "https://imgur.com/DN1A2Mf.png"
+      ],
+      "versions": [
+        {
+          "version": "1.1.15",
+          "date": "2026-11-20T12:23:16Z",
+          "localizedDescription": "This release contains the following improvements:\n\n• Added Leaderboards and Marbleland support.\n• Added stencil shadows support.\n• Added better camera smoothing for touch controls.\n• Updated the collision system to be more accurate to the original.\n• Updated the particle system to be more accurate to the original.\n• Fixed trapdoor sounds not playing.\n• Fixed custom reset times for Trapdoors and Land Mines not working.",
+          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.1.15/MBHaxe-Gold-iOS.ipa",
+          "size": 31522933,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
