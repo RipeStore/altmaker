@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "ar.kevinroberts.nicotind",
-    "io.linuxserver.sealskinisolation",
-    "nl.jknaapen.fladder"
+    "com.engikode.enginote.native",
+    "io.github.wszqkzqk.pvz-portable",
+    "ikemen-engine.I-K-E-M-E-N-Go"
   ],
   "apps": [
     {
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-19T22:40:51Z",
-          "localizedDescription": "Built from 3db9af4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-21T01:50:20Z",
+          "localizedDescription": "Built from 1b24e8c on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14669049,
+          "size": 14669232,
           "minOSVersion": "15.0"
         }
       ],
@@ -2141,11 +2141,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.12",
-          "date": "2026-11-19T09:30:29Z",
-          "localizedDescription": "Fixed:\n\n• An attempted fix for the frame rate dropping during the opening and in some scenes on Android phones (moto g24) with Frame rate Original. In the first moments of play the game now checks whether the phone's graphics driver holds each picture until it is drawn; where it does, the next picture is prepared while the one before is still being drawn instead of leaving that frame out. Other phones present as before, and the pictures look the same.\n• An attempted fix for slow scenes on some phones (moto g24), such as parts of the opening: the game now spends less graphics work on the scenery it leaves out of the picture. The first start after the update takes a little longer while the game prepares its graphics again.\n• The game closing the moment it is opened on a Pixel 10 Pro Fold with an Android 17 preview. A part used only for Options \u003e Graphics driver ran at every start and no longer works with that system; it now runs only when a driver of your own is opened.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.12/ico-pc-v0.11.12-ios-unsigned.ipa",
-          "size": 9576065,
+          "version": "0.11.13",
+          "date": "2026-11-21T04:18:58Z",
+          "localizedDescription": "New:\n\n• The pause menu no longer shows the Square prompt for Save states, and Square there no longer opens them. Choose Save states in the pause menu (or press F6 on a keyboard) to open them; the Continue screen keeps its Square prompt.\n• The pause menu's panel on the right is shorter: play time, deaths, how often Yorda was taken, saves, enemies defeated, the difficulty and the area. New Game+, Mirror mode, the achievements count and the helpers are no longer listed there; Options \u003e Gameplay \u003e Difficulty and the Achievements page show them.\n• Mirror mode and New Game+ are now under Customize on the New Game screen, for every difficulty. The New Game screen keeps Difficulty, Customize and Start.\n• Bug reports now record what each of the last areas you played contained and what was left out of its pictures and why, and a saved picture for a bug report records the same up to that moment, so a wrong picture can be looked into from the report alone.\n• Button pictures for Xbox and Nintendo (Switch, Wii U) controllers in the menus, the game's prompts, photo mode and the touch screen buttons, chosen automatically from the controller you use; Options \u003e Controls \u003e Button pictures picks them by hand, and also has Wii Classic Controller pictures. The pictures are by MesaBlack.\n\nFixed:\n\n• Mirror mode: left and right on the stick now move the way you push in the menus, on the save and memory card screens, on the Continue screen and on the screens after the ending (the D-pad already did).\n• An attempted fix for the frame rate dropping during the opening on Android phones like the moto g24 with Frame rate Original. The check added in v0.11.12, which decides in the first moments of play whether the phone's graphics driver holds each picture until it is drawn, never finished on that phone, so the improvement it enables never turned on; the check now times how long the phone takes to show each picture and whether the picture before had finished drawing by then, without slowing the pictures it checks, and decides.\n• An attempted fix for slow scenes with a lot of detail on screen on some phones like the moto g24, such as the boat in the opening: the game now asks the graphics chip for less work on every device.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.13/ico-pc-v0.11.13-ios-unsigned.ipa",
+          "size": 9620034,
           "minOSVersion": "15.0"
         }
       ],
@@ -4931,11 +4931,11 @@
       ],
       "versions": [
         {
-          "version": "1.66.0",
-          "date": "2026-11-15T13:24:37Z",
-          "localizedDescription": "Nouveautés.\n\n• Nouvelle animation au démarrage.\n\nCôté serveur (toutes versions).\n\n• Le compte sait désormais s'il a soutenu le projet.\n\n✨ Nouveautés:\n\n• splash — nouvelle animation au démarrage.",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.66.0/MayaIPTV-iOS.ipa",
-          "size": 30564068,
+          "version": "1.67.0",
+          "date": "2026-11-21T00:41:37Z",
+          "localizedDescription": "Nouveautés - Les annonces de l'équipe s'affichent dans l'app: information, alerte ou maintenance planifiée, avec l'horaire dans votre fuseau. Pendant une maintenance, l'app vous indique l'heure de retour prévue au lieu d'une simple erreur de connexion.\n\nCôté serveur (déjà en ligne pour toutes les versions).\n\n• Plus de stabilité quand un fournisseur ne répond pas: un seul abonnement en panne ne peut plus ralentir les autres utilisateurs, et les erreurs s'affichent tout de suite au lieu d'attendre une minute.\n• Les identifiants de vos abonnements ne sont plus écrits dans les journaux du serveur.\n• Mises à jour de sécurité des composants serveur.\n\n✨ Nouveautés:\n\n• announcements — bannière d'annonces dans l'app et message de maintenance.\n• announcements — annonces de l'opérateur, backend et admin.\n\n🐛 Corrections:\n\n• backend — plus d'identifiants fournisseur dans le journal.\n• backend — la garde /api/iptv résiste à un fournisseur en panne.\n• scripts — altstore-pal-publish résiste aux coupures de l'API Apple.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/MayaIPTV-iOS.ipa",
+          "size": 30574888,
           "minOSVersion": "15.0"
         }
       ],
@@ -5715,11 +5715,11 @@
       ],
       "versions": [
         {
-          "version": "4.6.0",
-          "date": "2026-11-14T01:31:23Z",
-          "localizedDescription": "New Features \u0026 Enhancements:\n\n• Template-Based Filenames \u0026 Persistent Counters (#21): Custom file naming patterns ({platform}, {date}, {time}, {quality}, {num}, {title}) with monotonic sequential counters per platform.\n\nBug Fixes \u0026 Scraper Repairs:\n\n• YouTube Server 2 Migration: Migrated YouTube Server 2 to ytmp3.gl (api.ytmp3.gl) for reliable MP3 and MP4 stream conversions.\n\n• Share History Limits (#24): Aligned ShareActivity history truncation with user-configured mori_history_limit so favorited items are preserved.\n• Background State Exception (#24): Fixed missing pauseAllMedia import throwing ReferenceError when the app enters the background.\n• Preview Modal Missing File Status: Fixed false (File missing) status on audio and music cards by mapping audio MIME types dynamically, rendering proper music placeholders, and detecting media readiness via HTML5 audio events.\n• Upstream Security Upgrade (#25): Upgraded proxy-addr to 2.0.8 resolving CVE vulnerability.\n\nPerformance \u0026 Reliability:\n\n• Stale OTA Patch Auto-Purge (#24): Automatically purges legacy or stale OTA scraper patches when a newer bundled core version is detected.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.0/Mori-v4.6.0-iOS-Unsigned.ipa",
-          "size": 2179675,
+          "version": "4.6.1",
+          "date": "2026-11-20T23:42:35Z",
+          "localizedDescription": "New Features \u0026 Enhancements:\n\n• Chinese Share Link Extraction (#26): Added parser preserving extraction codes from Chinese cloud drive and media share captions (Quark, UC, Baidu, 115, Lanzou).\n\n• Full i18n Key Synchronization: Synchronized all 9 locale dictionaries to 630 translation keys and added native Android Indonesian string resources (values-in).\n\nBug Fixes \u0026 Scraper Repairs:\n\n• iOS Auto-Zoom on Input Focus (#31): Enforced 16px font sizing and locked viewport scale to prevent WebKit auto-zooming when tapping the input or paste bar.\n• Bilibili Akamai 403 \u0026 Stream Headers (#31): Injected required Referer (https://www.bilibili.com/) and User-Agent headers on Akamai CDN streams, removed universal byte-range header to prevent broken HTTP 206 responses, and added HTML error page detection to stop saving corrupt error responses.\n\nPerformance \u0026 Reliability:\n\n• History \u0026 Gallery Memory Optimization: Cached video thumbnails directly to disk via Filesystem, added paginated progressive rendering for large media lists, and removed redundant background scanning loops.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.1/Mori-v4.6.1-iOS-Unsigned.ipa",
+          "size": 2214932,
           "minOSVersion": "14.0"
         }
       ],
@@ -5868,11 +5868,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.5",
-          "date": "2026-10-20T01:50:39Z",
-          "localizedDescription": "• Tanuki's Stash ver. 0.4.5.",
-          "downloadURL": "https://github.com/CaramelKat/Tanukis-Stash/releases/download/v0.4.5/Tanukis-Stash-unsigned.ipa",
-          "size": 3712116,
+          "version": "0.4.8",
+          "date": "2026-11-21T03:06:18Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/CaramelKat/Tanukis-Stash/releases/download/v0.4.8/Tanukis-Stash-unsigned.ipa",
+          "size": 5232028,
           "minOSVersion": "17.0"
         }
       ],
@@ -6196,10 +6196,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-11-20T17:28:17Z",
-          "localizedDescription": "The nightly release is generated after each commit to develop and contains the newest engine and screenpack files. It is intended for testing and may contain regressions or changes not yet covered by the stable documentation.",
-          "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/nightly/Ikemen_GO-dev-ios.ipa",
-          "size": 56211213,
+          "date": "2026-11-21T05:16:18Z",
+          "localizedDescription": "feat: modernize the engine with overhauled input and controller systems, side selection, rematch menu and more.\n\nFeats:\n\n• Controller Mapping: Lets you assign keyboard keys or gamepad buttons to a virtual controller with an XInput layout. Menus use this layout, so navigation stays the same regardless of your game button settings.\n• Button Setup: Lets you assign virtual controller buttons to game actions or button combinations. Any keyboard or gamepad can use any setup, and each device remembers its last choice.\n• Unrecognized controllers are fully mappable in-game. Previously they needed the external SDL2 Gamepad Tool to work correctly.\n• Menus show the key or button to press for each action, using the artwork of the device in use.\n• Button Mapping lets each controller choose which icon set its hints use.\n• Font DEF files set the position, size and spacing of inline glyphs, and [Files] can override them for each font.\n• Text can change color inline with \\\u003ccolor:RRGGBB\u003e.\u003c/\u003e.\n• Screenpack, storyboard, Lua, lifebar, LifebarAction and Text sctrl text can all use color tags and glyphs.\n• Config all in Button Mapping walks through every virtual control on the controller diagram.\n• Test Mapping highlights the virtual controls a device produces.\n• Test Setup shows which engine buttons and stick directions a Controller Setup produces.\n• controllersetup.configall and buttonmapping.configall in [Option Info] set which buttons Config all asks for.\n• All text entry uses an on-screen keyboard that works with a controller. The hiscore initials selector is still available as an option.\n• The player who opened the pause menu controls it.\n• Pause Delay config option (toggle, the button that opens the pause menu, and how long it must be held, are configurable via system.def).\n• Side Select: Before a mode starts, each player picks a side, chooses a Controller Setup and confirms they are ready.\n• A challenger joining mid-arcade takes the opposite side and the winner continues the arcade run.\n• Versus co-op allows one to four players per side, so matches like 1 vs 2 or 3 vs 1 work the same as even teams.\n• With side select, more players can join a side in Team Arcade, Team Versus, Survival and Time Attack as co-op partners. Otherwise the modes work as before.\n• Every co-op mode can pick Turns. Each team member is played by the player who picked it, and side select or automatic assignment decides who plays like in Simul and Tag.\n• Co-op modes have order select like other team modes. Every player on the side can pick the order, and each player keeps controlling the character they picked.\n• Menus show a description of the highlighted item.\n• Command Display in Input Settings shows single-button glyphs, such as ^A or _F, as the key or button they are bound to (Mapping), or as the standard button art (Setup).\n• Mirror Commands in Input Settings flips command list directions while the player who opened the pause menu faces left.\n• Characters can split their command list into pages with movelist. keys. ChangeMovelist switches the set and its pages together.\n• The command list shows the characters of the player who opened the menu and their CPU partners. Human partners open their own menu.\n• Screenpacks can show bezel/side art in the black bars around the fight and menus, like arcade cabinet artwork.\n• Resolution, window size, fullscreen, borderless, VSync, MSAA, shaders and 3D options apply right away. A failed change is reverted.\n• Renderer and language options are picked from a list and auto restart the game.\n• Rematch screen with a rematch menu and each player's wins, win streak and win rate after the victory screen in versus-type modes.\n• Pause menu support during netplay, including Controller Setup changes that last for the rest of the session.\n• Mouse support for motif driven screens.\n\nFixes:\n\n• While hosting or joining and waiting for the other player, pressing cancel on a controller now returns to the menu, like Esc.\n• The game no longer squeezes the screenpack and the fight into one fixed area with fake black bars, so screenpack pixels stay sharp. The framebuffer now matches the window's shape, separate from the game resolution.\n• xshear lifebar text was shifted by the wrong amount on lifebars that aren't 320x240.\n• Letters missing from a bitmap font took no space when measured but were drawn as spaces, so centered and right-aligned text was off.\n• Centered and right-aligned typewriter text (textdelay) moved sideways while it was being typed.\n• Typewriter text with non-English letters typed some of them in several steps instead of one.\n\nRefactors:\n\n• .key and .keycode parameters are replaced by .action. An action lists virtual controls, so menus work the same for every keyboard and gamepad whatever their Controller Setup. KEY: can be used in action to assign a local keyboard key, and BTN: an engine button after the Controller Setup.\n• Peers exchange the content of their Controller Setups when the session starts, and replays store them in the header, so every side turns the same frames into the same game buttons. Each frame is still 8 bytes per player.\n• The player who starts a mode is tracked separately from the side they play on. Defaults to the left side.\n• The common menu system now supports movelists, replacing their separate drawing and scrolling code.\n• Lets a sprite be drawn without the frame skip and layer checks of Anim.Draw.\n• All text draws through the same code.",
+          "downloadURL": "https://github.com/ikemen-engine/Ikemen-GO/releases/download/branch-modern-input/Ikemen_GO-modern-input-ios.ipa",
+          "size": 56442839,
           "minOSVersion": "17.0"
         }
       ],
@@ -7607,11 +7607,11 @@
       "name": "nori",
       "bundleIdentifier": "dev.nori.music",
       "developerName": "norifm",
-      "subtitle": "blazingly fast multi-platform navidrome client",
-      "localizedDescription": "nori is in active development: screens and settings change between versions. Bugs and ideas are.\n\n• Sleeps between bursts. Music is decoded ahead and the CPU sleeps in between. Nothing ticks with the screen off, and on Android the audio chip can decode on its own.\n• Sounds right. Gapless albums, AutoMix transitions on the beat, an equalizer with AutoEQ curves, and a sound profile for each output.\n• Finds the words. Your server's lyrics and eleven online services, asked at once and timed against the singing, word by word where they have it.\n• Plays together. Control one device from another, or host a jam that guests join with a link or QR code.",
+      "subtitle": "navidrome, subsonic, youtube music and soundcloud player for android, tv, windows, macos, linux, terminal and ipod",
+      "localizedDescription": "• Sleeps between bursts. Music is decoded ahead and the CPU sleeps in between. Nothing ticks with the screen off, and on Android the audio chip can decode on its own.\n• Sounds right. Gapless albums, AutoMix transitions on the beat, an equalizer with AutoEQ curves, and a sound profile for each output.\n• Finds the words. Your server's lyrics and eleven online services, asked at once and timed against the singing, word by word where they have it.\n• Plays together. Control one device from another, or host a jam that guests join with a link or QR code.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.nori.music.png",
       "tintColor": "#0284c7",
-      "category": "other",
+      "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-album-page.png",
         "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-full-player.png"
@@ -10623,10 +10623,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-19T22:40:51Z",
-          "localizedDescription": "Built from 3db9af4 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-21T01:50:20Z",
+          "localizedDescription": "Built from 1b24e8c on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45712565,
+          "size": 45716586,
           "minOSVersion": "15.0"
         }
       ],
@@ -11679,11 +11679,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.2.7",
-          "date": "2026-11-07T08:56:15Z",
-          "localizedDescription": "• Fix: correct Grave Buster death dirt position.\n\n• Feat: rewrite the v4 save converter as a structured save editor.\n• Fix: restore graceful Android exit and relaunch.\n• Refactor: centralize challenge screen button state.",
-          "downloadURL": "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-ios-arm64.ipa",
-          "size": 4328679,
+          "version": "0.3.0",
+          "date": "2026-11-21T05:35:47Z",
+          "localizedDescription": "• Fix: restore WASM save persistence.\n• Refactor: migrate from SDL2 to SDL3.\n\n• Fix: render WASM at display resolution.\n• Refactor: format CLI version output and drop dead SEH info.\n• Fix: always prevent six-lane boss crashes.\n• Feat: upgrade Android to API 37 and modernize the toolchain.\n• Fix: restore original Dancing Zombie render order, head scale, and arm loss.\n• Feat: enable LTO for native and -Os for WASM.",
+          "downloadURL": "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.3.0/pvz-portable-ios-arm64.ipa",
+          "size": 4329117,
           "minOSVersion": "16.4"
         }
       ],
@@ -13575,11 +13575,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.26",
-          "date": "2026-11-20T11:47:44Z",
-          "localizedDescription": "Release v6.3.26:\n\n• Add dictionary library backups and device copy (f345c3f13).\n• Fix scrambled pages in the manga reader (3fc98ee7b).\n• Improve playback and Windows crash diagnostics (2de910065).\n• Fix local subtitles for image-wrapped HLS streams (fe79d40bc).\n• Honor dictionary popup scale on iOS (b96d9181d).\n• Validate Android torrent bridge packaging (dc23d25e4).\n• Use Manatan SDK 2.1.0 (1c69a6afd).\n• Revert \"Speed up MDX dictionary imports\" (bd1eaa2f0).\n• Update build configuration (686654274).\n• Add anime and manga extension capabilities (8fe271ee6).\n• Keep webtoon panels aligned across image boundaries (54bbf3add).\n• Keep dictionary character images inside their definitions (ea2d6cf43).\n• Reuse decoded page pixels for Lens OCR (57ac6c426).\n• Reduce image resize memory across OCR backends (431c6b8ac).\n• Show extension-provided seek thumbnails (f52a82255).\n• Make Japanese subtitle lookup furigana-aware (732e54c08).\n• Support anime extension API 17 (f15422d1e).\n• Unify obsolete extension removal across media (01c38d008).\n• Use dav1d for AVIF decoding in OCR and Flashcards (96154e702).\n\n• Improve Flashcards performance recordings (8c0f875f1).\n• Fix embedded subtitle selection for local video (5dfd1b7e8).\n• Support screen lookup on Hyprland Wayland (181043e2e).\n• Add definitions and pitch accents to Flashcards imports (c19b22c64).\n• Preserve cards when updating note types (0b0f52b7d).\n• Enable four European parsers in the app and extension (cd2651c8a).\n• Fix Flashcards workload estimates (252176ddb).\n• Save connected Flashcards locally and sync media promptly (7a07d264f).\n• Restore subtitles when switching YouTube videos (519b90958).\n• Restore manga image recovery test coverage (61620ae17).\n• Share capped cover thumbnails across media libraries (737b64a1d).\n• Keep YouTube playing through fullscreen rotation (b96be34f6).\n• Speed up MDX dictionary imports (7d6f77172).\n• Refine video statistics layouts across phone and desktop (2f7d88821).\n• Keep YouTube playing while checking notifications (f8c3b7db1).\n• Open the mobile browser start page without waiting for protection (c35a925c2).\n• Use the selected Manatan theme throughout Flashcards (5bb49eb58).\n• Read AVIF dimensions without decoding frames (06f51c176).\n• Reduce memory retained by AVIF reader images (3cd386609).\n\n• Make video mouse clicks consistent on Android (9a98236c8).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.26/Manatan-v6.3.26-iOS.ipa",
-          "size": 449722155,
+          "version": "6.3.27",
+          "date": "2026-11-21T03:42:00Z",
+          "localizedDescription": "Release v6.3.27:\n\n• Resume playback mode pauses immediately on tap (02e7286).\n• Offer the official Flashcards preset when adding note types (d05dd65).\n• Disconnect publisher updates after note type customization (c207d52).\n• Preserve field mappings when switching note types (6951c26).\n• Support custom Flashcards template scripts (c471d00).\n• Cache Flashcards note-type packages for offline use (99e381b).\n• Update Flashcards note type to v1.0.8 (7c03efa).\n• Preserve reader error details in debug exports (56bad4f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.27/Manatan-v6.3.27-iOS.ipa",
+          "size": 446648230,
           "minOSVersion": "16.1"
         }
       ],
@@ -13624,37 +13624,6 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      }
-    },
-    {
-      "name": "EngiNote",
-      "bundleIdentifier": "com.engikode.enginote",
-      "developerName": "ayushheheheha",
-      "subtitle": "Import HTML notes and annotate over them, in the browser",
-      "localizedDescription": "EngiNote:\n\nImport your notes as HTML or PDF files, or start a blank notebook, and write over them, like GoodNotes or Freenotes, but for web pages too. It runs in any browser, and as an iPad app with Apple Pencil support and a built-in screen recorder.\n\nWhat it does:\n\nNotes.\n\n• Import one or more .html or .pdf files (button, or drag and drop). Each becomes a note you can open and write on.\n• New notebook makes blank paged paper: plain, ruled, grid or dotted, in your choice of size, direction, paper colour, line colour and spacing. A thin line marks each page, and pages are added as you write.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.engikode.enginote.png",
-      "tintColor": "#6058e8",
-      "category": "other",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/ayushheheheha/EngiNote@main/docs/screenshot.png"
-      ],
-      "versions": [
-        {
-          "version": "1.0",
-          "date": "2026-11-12T10:51:10Z",
-          "localizedDescription": "Unsigned build of commit b8559499c68065bab3ed032ac6be16199829ca72. Install with AltStore: open this .ipa from AltStore's My Apps tab (the + button).",
-          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/build-76/EngiNote.ipa",
-          "size": 14608034,
-          "minOSVersion": "17.5"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "EngiNote shows you in a camera bubble over your note when you switch it on.",
-          "NSMicrophoneUsageDescription": "EngiNote records your voice with the screen when you make a recording.",
-          "NSPhotoLibraryAddUsageDescription": "EngiNote saves a recording to Photos when you choose to."
-        }
       }
     },
     {
@@ -13859,6 +13828,37 @@
           "NSPhotoLibraryAddUsageDescription": "AniWings saves downloaded videos and images to your device.",
           "NSPhotoLibraryUsageDescription": "AniWings accesses your photo library to customize your profile avatar and banner.",
           "NSUserTrackingUsageDescription": "AniWings uses this identifier to deliver relevant rewarded support ads."
+        }
+      }
+    },
+    {
+      "name": "EngiNote Native",
+      "bundleIdentifier": "com.engikode.enginote.native",
+      "developerName": "ayushheheheha",
+      "subtitle": "Import HTML notes and annotate over them, in the browser",
+      "localizedDescription": "EngiNote:\n\nImport your notes as HTML or PDF files, or start a blank notebook, and write over them, like GoodNotes or Freenotes, but for web pages too. It runs in any browser, and as an iPad app with Apple Pencil support and a built-in screen recorder.\n\nWhat it does:\n\nNotes.\n\n• Import one or more .html or .pdf files (button, or drag and drop). Each becomes a note you can open and write on.\n• New notebook makes blank paged paper: plain, ruled, grid or dotted, in your choice of size, direction, paper colour, line colour and spacing. A thin line marks each page, and pages are added as you write.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.engikode.enginote.native.png",
+      "tintColor": "#6058e8",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/ayushheheheha/EngiNote@main/docs/screenshot.png"
+      ],
+      "versions": [
+        {
+          "version": "2.0",
+          "date": "2026-11-21T05:59:30Z",
+          "localizedDescription": "Unsigned build of commit 7d485ef0cd027d2ce8754ad7baeca470079c99b2. Sideload this .ipa. Installs beside the web-based EngiNote.",
+          "downloadURL": "https://github.com/ayushheheheha/EngiNote/releases/download/native-build-10/EngiNoteNative.ipa",
+          "size": 14561804,
+          "minOSVersion": "17.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "EngiNote shows you in a camera bubble over your note when you switch it on.",
+          "NSMicrophoneUsageDescription": "EngiNote records your voice with the screen when you make a recording.",
+          "NSPhotoLibraryAddUsageDescription": "EngiNote saves a recording to Photos when you choose to."
         }
       }
     }
