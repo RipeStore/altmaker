@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.example.Mirarr",
-    "org.floeagent.ios",
-    "ikemen-engine.I-K-E-M-E-N-Go"
+    "ar.kevinroberts.nicotind",
+    "pl.adrian.FactorioPad",
+    "io.github.scripta"
   ],
   "apps": [
     {
@@ -1286,11 +1286,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.2.4",
-          "date": "2026-10-31T13:49:07Z",
-          "localizedDescription": "Fix Factorio 2.1.24 startup.",
-          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.2.4/FactorioPad-template.ipa",
-          "size": 2964937,
+          "version": "2.3.0",
+          "date": "2026-11-22T18:04:22Z",
+          "localizedDescription": "Added external display support for iPad. Thanks to @IndecentDad for the contribution!",
+          "downloadURL": "https://github.com/MyNameIsArko/FactorioPad/releases/download/v2.3.0/FactorioPad-template.ipa",
+          "size": 2975231,
           "minOSVersion": "17.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-22T10:05:41Z",
-          "localizedDescription": "Built from 37b0b56 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-22T14:55:22Z",
+          "localizedDescription": "Built from 852aaf1 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14669231,
+          "size": 14669222,
           "minOSVersion": "15.0"
         }
       ],
@@ -1986,11 +1986,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.6",
-          "date": "2026-11-12T15:31:45Z",
-          "localizedDescription": "Version 1.1.6.\n\n• Reading, editing and focus mode now share the same per-note scroll position, so switching between them keeps your place in the note.\n• Focus mode preserves the editor state and selection while the app bar and side panels are hidden.\n• Small screens no longer show floating reading controls that overlap the text column.\n• On phones and tablets, the top bar keeps a Settings shortcut at the far right when no note is open, with the sync indicator immediately to its left.\n• Security: a corrupt session bundle can no longer revive a deleted or partially deleted session through fallback keys. The corrupt bundle is kept as a tombstone and leftover split-key material is cleaned up best-effort.",
-          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.6/Scripta-ios-unsigned.ipa",
-          "size": 12655012,
+          "version": "1.1.7",
+          "date": "2026-11-22T17:19:11Z",
+          "localizedDescription": "Version 1.1.7.\n\n• Android launcher icon: keep the pen cap inside the circular safe zone.\n• Reading view: selection handles reappear when scrolling back to the selected text and never show inside the selected text.",
+          "downloadURL": "https://github.com/rizzonicola/Scripta/releases/download/v1.1.7/Scripta-ios-unsigned.ipa",
+          "size": 12670537,
           "minOSVersion": "14.0"
         }
       ],
@@ -2926,11 +2926,8 @@
       "tintColor": "#6058e8",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png"
       ],
       "versions": [
         {
@@ -5795,35 +5792,35 @@
       }
     },
     {
-      "name": "zanzibarr",
+      "name": "Zanzibarr",
       "bundleIdentifier": "com.zanzibarr.zanzibarr",
       "developerName": "envermeister",
       "subtitle": "Zanzibarr streams NZB content from Usenet without downloading — instant start, true seek, PAR2 repair, Dolby Vision. Windows · macOS · iOS · Linux · Android · Google TV",
-      "localizedDescription": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb and the video starts playing in seconds — no download queue, no waiting for the full file, no disk space sacrificed. Scrub to the final scene of a 4K remux before the first act would have finished downloading. It feels like magic; it's really just a very disciplined engine.\n\nWhy Zanzibarr is different:\n\nPlay instantly, never download The Rust engine maps every seek position to the exact Usenet segments that hold it, fetches only those, decodes yEnc on the fly and serves the result through a lazy, range-aware local stream. Pause the player and the network goes quiet. Close the app and nothing is left behind on your disk.",
+      "localizedDescription": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb and the video starts playing in seconds — no download queue, no waiting for the full file, no disk space sacrificed. Scrub to the final scene of a 4K remux before the first act would have finished downloading. It feels like magic; it's really just a very disciplined engine.\n\nNew in v2.0:\n\n• Search everywhere at once — multiple Newznab indexers in parallel, Prowlarr/NZBHydra2 endpoints, automatic Easynews web search and cross-source deduplication.\n• Keep the season going — a natural-order play queue, watched-episode badges and a ten-second Up next card with Play now / Finish episode / Clear queue.\n\n• Your accounts and languages, remembered — multiple switchable NNTP profiles, multiple enabled indexer profiles, and preferred audio language carried across episodes.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.zanzibarr.zanzibarr.png",
       "tintColor": "#a06442",
       "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/home_dark.png",
         "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/player_controls.png",
-        "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/search.png",
+        "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/up_next.png",
         "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/advanced_settings.png",
         "https://cdn.jsdelivr.net/gh/envermeister/zanzibarr@main/docs/screenshots/smart_canvas.png"
       ],
       "versions": [
         {
-          "version": "1.9",
-          "date": "2026-10-13T10:03:35Z",
-          "localizedDescription": "Zanzibarr v1.9 — season-pack picker polish:\n\nStream anything from Usenet. Own nothing. Wait for nothing. Zanzibarr plays NZB content without downloading it — instant start, frame-accurate seek, and nothing left behind on your disk.\n\nWhat's new in v1.9:\n\n• Episode numbers are finally visible. Posts that write subjects as \"\u003cdirectory\u003e/\u003cfile\u003e\" used to bury the episode number behind the long batch directory name. The picker now shows the actual file name and wraps long titles to two lines — the continue-watching cards and the player title got the same treatment.\n• Episodes in natural order. The picker no longer sorts by size, which scrambled equal-sized episodes; entries now follow natural name ordering — E9 before E10, with NCOP/NCED extras listed after the episodes.\n• No more ghost codec errors. A harmless mpv error event (an audio codec falling back from hardware to software decoding) used to pop an 8-second error banner during perfectly healthy playback. Post-startup errors are now shown only if playback actually stops progressing.\n\n(The first three items were reported on GitHub issue #5 — thanks for the precise follow-up! The macOS packaging issue was reported on GitHub issue #6.).\n\nAlready inside:\n\n• Cast to your TV — Chromecast \u0026 AirPlay; the receiver pulls straight from Zanzibarr's token-gated LAN endpoint.\n• Built-in indexer search — Newznab search with quality badges, tap-to-play inside the app.\n• Multi-file NZB picker — choose the episode inside season packs, fully D-pad navigable.\n• Obfuscated NZB sets — hash-named RAR volumes identified by content, reordered by embedded volume numbers.\n• Archive-aware — multi-volume RAR5/RAR4 (incl. -hp encrypted) and 7z (STORE, LZMA/LZMA2 solid, AES-256) reassembled in memory.\n• Compressed RAR, seekable — volumes that actually compress stream too: decode-ahead serves the player while unpacking continues.\n• PAR2 repair — missing/corrupt segments rebuilt with Reed-Solomon, byte-exact against par2cmdline.\n• Full picture pipeline — SDR / HDR / HDR10 / Dolby Vision selector with BT.2390 tone mapping; TrueHD/Atmos, DTS-HD MA, AV1.\n• Android TV, fully remote-driven — settings, indexer setup and search work end-to-end with a D-pad, with visible focus everywhere.\n• Continue watching — playback positions remembered per episode, with a resume row on the home screen.\n• Smart Canvas — draw your own crop with live aspect preview, applied on the GPU.\n• In-app updates — Zanzibarr checks for new versions itself; Android installs them in place with one tap.\n• Player essentials — PiP, frame stepping, speed, audio sync, external audio/subtitle loading, double-click ±10 s seek, subtitle color \u0026 font pickers, fit ↔ fill toggle.\n• 14 languages — EN, TR, ES, DE, FR, PT, IT, RU, ZH, JA, KO, HI, AR, FA (RTL included), dark \u0026 light themes.\n• Private by design — NNTP credentials live only in the OS keychain; no accounts, no telemetry, no cloud.\n\nGetting started:\n\n• Install the build for your platform.\n• Open the settings gear and enter your Usenet provider's NNTP details.\n• Open any .nzb (or search with the built-in indexer) and press play.",
-          "downloadURL": "https://github.com/envermeister/Zanzibarr/releases/download/v1.9/zanzibarr-ios-unsigned.ipa",
-          "size": 22715530,
+          "version": "2.0",
+          "date": "2026-11-22T14:53:44Z",
+          "localizedDescription": "Zanzibarr v2.0 — search smarter, keep watching:\n\nStream anything from Usenet. Own nothing. Wait for nothing. Zanzibarr plays NZB content without downloading it — instant start, frame-accurate seek, and only the segments you actually watch leave your provider.\n\nv2.0 is a major search, discovery and continuous-playback update: multiple providers and indexers, Easynews web search, health pre-checks, saved searches, an episode queue, OpenSubtitles, remembered audio languages, runtime HDR10+ detection and Arabic subtitle fallback.\n\nSearch every source, not just one:\n\n• Multiple indexer accounts, searched in parallel. Enable any combination of Newznab-compatible profiles and merge their results into one list. Prowlarr and NZBHydra2 work through their Newznab-compatible API endpoints — no separate integration or extra plugin required. Existing single-indexer settings migrate automatically.\n• Easynews web search joins automatically. When your active NNTP provider is Easynews, the same account also searches the Easynews web API. Indexer and Easynews results arrive together, with an Easynews source chip where relevant.\n\n• Recent and saved searches. Repeat a query from the recent chips, bookmark frequent searches, or clear the recent list. The controls are keyboard and D-pad accessible.\n\nSeason packs that keep playing:\n\n• Play queue and automatic next episode. Multi-entry NZBs continue in natural episode order. At EOF, a ten-second Up next card offers Play now, Finish episode and Clear queue; Back/Esc cancels the transition.\n• Watched-episode awareness. Finished entries are marked in the picker, which focuses the first unwatched episode so continuing a season takes one selection.\n• Streaming stays lazy. Building the queue performs no extra article fetches; the next episode starts streaming only when its turn arrives.\n\nSubtitles and audio that follow you:\n\n• Arabic subtitle fallback. Bundled Noto Arabic fonts let libass fall back per glyph instead of rendering Arabic text as empty squares, without changing the selected primary font.\n• Remembered audio language. Pick an audio track once and subsequent episodes prefer the same language when a matching track exists. Region-prefixed language codes are handled; Auto/No clears the preference.\n• Local-player subtitle note. External OpenSubtitles files are applied to the local mpv player; they are not sent to Chromecast or AirPlay receivers.\n\nAccounts, HDR and platform polish:\n\n• Multiple NNTP accounts. Save named provider profiles and switch the streaming account from Settings. Saving a profile makes it active; legacy single-account credentials migrate without data loss. Parallel pooling across several NNTP accounts is not implied — one active account serves the stream.\n\n• Notarized macOS distribution. The Apple Silicon app is signed inside-out with Developer ID and hardened runtime, notarized by Apple and stapled for offline Gatekeeper validation — no right-click workaround needed.\n• Preference reliability. Canvas and periodic-info preference rebuilds now preserve subtitle-language, external-subtitle and audio-language choices instead of silently dropping them.\n\nVerification:\n\n• 330 Rust tests and 261 Flutter tests, plus Clippy and Flutter analysis.\n\nGetting started:\n\n• Install the build for your platform.\n• In Settings, save one or more NNTP provider profiles; the saved profile becomes the streaming account.\n• Add Newznab, Prowlarr or NZBHydra2 profiles if you want built-in search. Easynews web search needs no separate configuration when Easynews is the active provider.\n• Open an NZB or tap a search result — and let the next episode follow automatically.",
+          "downloadURL": "https://github.com/envermeister/Zanzibarr/releases/download/v2.0/zanzibarr-ios-unsigned.ipa",
+          "size": 23199972,
           "minOSVersion": "13.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSLocalNetworkUsageDescription": "zanzibarr discovers Chromecast and AirPlay devices on your local network to cast video to your TV."
+          "NSLocalNetworkUsageDescription": "Zanzibarr discovers Chromecast and AirPlay devices on your local network to cast video to your TV."
         }
       }
     },
@@ -5986,10 +5983,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-11-21T15:08:35Z",
+          "date": "2026-11-22T15:05:08Z",
           "localizedDescription": "Automated nightly build from main @ 052389f.\n\nRecent all changes so far:\n\n• fix(background): full console surface on the headless SW global (#478) (052389f).\n• fix(extensions): gate runtime.getBrowserInfo to Firefox builds only (#477) (26e0e1c).\n• feat(extensions): expose chrome.tabs enums on page + background (#476) (1aa4120).\n• feat(sandbox): add chrome.action.onUserSettingsChanged page event (#475) (dff8ebd).\n• feat(sandbox): add tabs static constants for Chrome parity (#474) (217fb37).\n• feat(browser): more free-proxy sources + live health-check before listing (#473) (d15f5b8).\n• fix(extensions): link ALL module scripts in an MV2 background page (Sidebery) (#471) (6191a4a).\n• feat(extensions): Firefox sessions values + theme/contextualIdentities (Sidebery) (#470) (08967e3).\n• fix(extensions): tabs.getCurrent returns the page's tab (OneTab) (#469) (4186545).\n• fix(engine): live-binding rewrite falls back to snapshot if uncompilable (#468) (08cad32).\n• fix(extensions): failed page module stays failed (Momentum newtab) (#467) (68f4706).\n• fix(extensions): content bridge survives LavaMoat scuttling (Phantom on pages) (#466) (e5eeb66).\n• fix(extensions): page bridge survives LavaMoat scuttling (MetaMask popup) (#465) (2de2394).\n• fix(extensions): inert MediaSource on extension pages (MetaMask UI boot) (#464) (37d8acc).\n• fix(engine): live ES-module import bindings (Phantom SW boot) (#463) (57c39d4).\n• feat(extensions): add runtime.onSuspendCanceled + management enums (#462) (ee4cea2).\n• fix(browser): toggles use the themed toggleOn tint (dark-mode match) (#461) (ee66a83).\n• feat(browser): force translation + target-language picker (#460) (ea36f49).\n• fix(extensions): give executeScript-injected code the extension's chrome (#459) (680e193).\n• feat(browser): in-page translation UI + Apple on-device backend (#458) (747168f).\n• fix(extensions): read web-accessible helpers natively, not via fetch (#457) (a6de0a7).\n• feat(browser): in-page translation foundation (engine + native core) (#456) (5db29ec).\n• feat(extensions): add chrome.tabs.removeCSS (pairs with insertCSS) (#455) (481ace8).\n• fix(extensions): run web-accessible helpers past page CSP (#454) (bf7a658).\n• fix(browser): restore chrome-extension:// page tabs across relaunch (#453) (6935d96).\n• fix(extensions): persist extension-page window.localStorage (#452) (6919d69).\n• fix(browser): keep a tab's URL across renderer reclamation (#451) (27f4799).\n• feat(extensions): expose chrome.storage area quota constants (#450) (c23150e).\n• feat(sandbox): GM_addStyle/GM_addElement return a thenable element (#449) (fc30535).\n• fix(extensions): chrome.alarms returns Promises in the MV3 worker shim (#448) (7859357).\n• feat(extensions): serve web_accessible_resources to pages (fail-closed) (#447) (a147f08).\n• feat(sandbox): stream GM_xhr responseText on progress (TM/VM parity) (#446) (8ff1d5a).\n• feat(extensions): implement chrome.identity.launchWebAuthFlow (iOS 17.4+) (#445) (20e2f24).\n• fix(sandbox): GM_addElement('style') gets the GM_addStyle CSP fallback (#444) (fc2932f).\n• feat(sandbox): live-sync dashboard value delete/clear to open pages (#443) (fae3f0e).\n• fix(sandbox): GM_getResourceURL returns a blob: URL for img-src parity (#442) (2b0edaf).\n• feat(browser): proxy quick-toggle + config in the browser menu (#441) (6f768b7).\n• feat(browser): browse \u0026 activate free proxies by country (#440) (83efdf7).\n• feat(browser): add an HTTP/HTTPS/SOCKS5 browser proxy (iOS 17+) (#439) (7415474).\n• fix(engine): GMAssetCache eviction must never wipe the lone cached asset (#438) (f81f54e).\n• feat(extensions): crypto.subtle RSA (PKCS1v15/PSS/OAEP) in the worker (#437) (975c214).\n• feat(extensions): auto-run ScriptCat-class managers in one isolated world (#436) (ae0ad4a).\n• feat(extensions): opt-in IndexedDB persistence for extension pages (#435) (981adb7).\n• feat(engine): bound GMAssetCache with a size cap + LRU eviction (#434) (b2a8b13).\n• feat(extensions): All-Isolated single-world mode for ScriptCat compat (#433) (3299e23).\n• feat(extensions): probe whether ScriptCat's runner fires an injected body (#432) (439348a).\n• fix(extensions): gate verbose .debug runtime logs behind a flag (#430) (cfa31fb).\n• test(extensions): perf-bridge carries a 90KB+ pageLoad reply intact (#431) (8346c22).\n• chore(extensions): on-device eval/CSP probe for ScriptCat eval-loader (#429) (2bdc7b9).",
           "downloadURL": "https://github.com/DudeAint/brownbear/releases/download/nightly/BrownBear-nightly.ipa",
-          "size": 7484767,
+          "size": 7484763,
           "minOSVersion": "16.4"
         }
       ],
@@ -6649,11 +6646,11 @@
       ],
       "versions": [
         {
-          "version": "1.5.2",
-          "date": "2026-11-11T06:50:39Z",
-          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.5.2.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.5.2.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: signed with Monolith's stable release key, so later versions install over this one. Upgrading from v1.5.0 or older (debug-signed) needs one uninstall/reinstall. Android may warn it's from an unknown developer — expected for a non–Play Store APK.",
-          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.5.2/monolith.ipa",
-          "size": 11216362,
+          "version": "1.5.3",
+          "date": "2026-11-22T14:12:59Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.5.3.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.5.3.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: signed with Monolith's stable release key, so later versions install over this one. Upgrading from v1.5.0 or older (debug-signed) needs one uninstall/reinstall. Android may warn it's from an unknown developer — expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.5.3/monolith.ipa",
+          "size": 11258609,
           "minOSVersion": "16.4"
         }
       ],
@@ -6687,7 +6684,7 @@
           "date": "2026-11-21T18:52:39Z",
           "localizedDescription": "Added:\n\n• When the narrator leaves the book for four minutes while you read along (another translation, or a part this edition leaves out), a card over the player offers Show the transcript or Find another book. The book is remembered, so The book under ⋯ › Read along goes back to it.\n• A zip of MP3s (or other sound files) added with Add a file becomes one audiobook, its files in name order as chapters, played from inside the zip. Only zips whose sound files are stored as they are; a compressed one says to unzip it and add the folder.\n• Sync transcripts, in Settings › Audiobooks: an audiobook's transcript syncs with the book, so another phone reads along without writing it again. On by default when Sync is on.\n• Android Auto: a Collections tab. Your 8 latest collections and series, each opening with quick starts (Continue, or Start for a new or finished one, and Newest), then its clips and audiobooks in order. A long series brings its first two, the newest and the stretch from where you left off, not all of it. Android only.\n• Android Auto: Next clip and Previous clip now go through the clip's collection or series in order, also when the car started it with the app closed (they used to go to the next under Up next). An audiobook's Next chapter after its last chapter goes on to the next book in its series, and Previous before the first goes back. Android only.\n• Under a collection's or series' Continue button: Last read (the clip you read last, even a finished one) and Newest (the clip added last). One that would open the same clip as Continue is left out.\n\n• Save with options (Add clips) can now put clips into a series as well as a collection: the list shows your series and offers both New collection… and New series….\n• Draw › Add › Note: drop a comment bubble anywhere on a clip, note or PDF, tap it to write a comment, and pick its colour and tags. The colours and tags are the highlights' own: a note's tag is offered on highlights and filters Highlights too. In Highlights a note shows as its comment, in its colour with its tags, beside the highlights (not as a drawing), and Copy all includes it. Hold a bubble to move it, or drag it with Select. Bubbles sync with a clip's drawings. They are not in a copy of a PDF, or Save as PDF, yet.\n• Audiobooks on iPhone keep playing with the screen locked, with back and forward on the lock screen and earbuds, the sleep timer and the chapter under the title.\n\n• A series or collection's Edit page has a Status row, to set where the story stands yourself when its site doesn't say (a blog like The Zombie Knight Saga). It syncs.\n\n• A story read to the end that's still being written says \"Caught up\", not \"All read\".\n\n• In Scroll, dragging a selected drawing or picture to the top or bottom edge scrolls the page along with it, so you can put it on another page. The scroll builds up and eases off smoothly.\n• Hold the pen still for half a second at the end of a rough line or circle to make it a straight line or a clean circle. A line's end follows the pen until you lift it, and a circle moves with it. Turn it on or off in the reader's settings, under Draw.\n\nChanged:\n\n• A sharper app icon: the same open book, road and sun, redrawn with curved pages, a page edge, a wider road that narrows toward the sun, and the sun rising behind the book.\n• Stories with no cover on their site (AO3, the forums, most of FictionPress) show a cover card of their own: the site, title and author on a colour picked from the story, the same each time.\n• A Discover story's Save asks just two things: Collection or series (picked on the Save with options page that opens, with your collections, your series, New collection… and New series…), or EPUB file.\n• Narrate with Kokoro or Piper makes up to about a minute ahead, not just the next paragraph, so a long paragraph after a short one no longer starts with a pause.\n\nFixed:\n\n• Android Auto: Next clip and Previous clip (and an audiobook's next and previous chapter) had the same arrows as the paragraph buttons, so beside them it looked like previous and next were swapped. They now show a list with an arrow. The car's tab names follow the app's language. Android only.\n• In Hebrew, the ⋯ menus of a collection, of Highlights and of Select opened partly off screen. On a phone on its side, a collection's ⋯ menu now scrolls instead of running off the bottom.\n\n• Typing in a search box right as a sheet closes (Audiobookshelf's sign-in, say) no longer sends the letters into the closing sheet's fields.\n• Drawing in Pages on a PDF or a note no longer moves or turns the page under your pen or finger, and what you draw or erase stays on the page you are on.\n• With Draw on in Pages, pinching zooms the page where it is and you can keep drawing on it, instead of opening the picture viewer. The page stays locked: zooming never shows another page. Sweep two fingers sideways to turn, which locks to the new page.\n• Dragging a selected drawing or picture to the side of the screen in Pages and holding it there for a moment carries it to the next page.\n• Zooming in Pages now keeps the spot under your fingers, as in Scroll, instead of drifting off to the right.\n• A note's new sheet in Pages is now laid out like the others.\n• On a small phone (320 px), the picking bar's Collection and Mark read ran into each other, and the Draw bar cut off the pen and Done at its ends.\n• With the phone on its side, the app lock's title and Forgot passcode were off the screen. They now sit beside the keys.\n• On a tablet or computer, Stats and Anki had no name at the top of the screen.\n• In Hebrew, the picking bar's Tags, Collection, Edit and Delete, the reader's Back to where you were, Read next and Shortcuts, and the Offline pill stayed in English.\n• With Audiobookshelf turned on, the app could start with it half loaded, so a book from your server might not play until the app was restarted.\n• Save in shows only when it matters: a Discover story saved as a collection or series, or a book added as clips, no longer shows a Save in pick that did nothing.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.69.0/Waypage.ipa",
-          "size": 22591260,
+          "size": 22620467,
           "minOSVersion": "15.5"
         }
       ],
@@ -7613,8 +7610,8 @@
       "tintColor": "#0284c7",
       "category": "entertainment",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-album-page.png",
-        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/casiopea-full-player.png"
+        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/rainbow-goblins-album-page.png",
+        "https://cdn.jsdelivr.net/gh/norifm/nori@master/docs/screenshots/rainbow-goblins-full-player.png"
       ],
       "versions": [
         {
@@ -10010,11 +10007,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.136",
-          "date": "2026-11-20T21:07:41Z",
+          "version": "0.8.137",
+          "date": "2026-11-22T20:22:45Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.136/NicotinD-0.8.136-unsigned.ipa",
-          "size": 1738055,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.137/NicotinD-0.8.137-unsigned.ipa",
+          "size": 1743129,
           "minOSVersion": "15.0"
         }
       ],
@@ -10624,10 +10621,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-22T10:05:41Z",
-          "localizedDescription": "Built from 37b0b56 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
+          "date": "2026-11-22T14:55:22Z",
+          "localizedDescription": "Built from 852aaf1 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Pi Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): PiCluster-* (Windows, Mac, Linux, Android, iPhone); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and pi-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45718133,
+          "size": 45718130,
           "minOSVersion": "15.0"
         }
       ],
@@ -12908,7 +12905,7 @@
       "bundleIdentifier": "com.certlium.crumb",
       "developerName": "boierito",
       "subtitle": "Crumb lets you find App Store apps, choose a version and download its IPA on your",
-      "localizedDescription": "Crumb:\n\nCrumb lets you find App Store apps, choose a version and download its IPA on your iPhone or iPad. It runs as a normally sideloaded app, without jailbreak, TrollStore or external JIT.\n\nFeatures:\n\n• Sign in with your Apple ID and two-factor authentication. Sessions are stored in Keychain; passwords and verification codes are not saved.\n• Search by app name, App Store link, app ID or bundle ID, and save favourites.\n\nApp availability, licenses and installation remain subject to Apple's account and device restrictions. Browsing another region does not guarantee a download.\n\nExperimental App Group decryption:\n\nThis branch decrypts inside Crumb using an authorized App Group, without a helper, VPN or pairing. Sign with App Groups enabled in KSign, then choose Decrypt in Downloads. See setup and limitations.",
+      "localizedDescription": "Crumb:\n\nCrumb lets you find App Store apps, choose a version and download its IPA on your iPhone or iPad. It runs as a normally sideloaded app, without jailbreak, TrollStore or external JIT.\n\nFeatures:\n\n• Sign in with your Apple ID and two-factor authentication. Sessions are stored in Keychain; passwords and verification codes are not saved.\n• Search by app name, App Store link, app ID or bundle ID, and save favourites.\n\nApp availability, licenses and installation remain subject to Apple's account and device restrictions. Browsing another region does not guarantee a download.\n\nApp Group decryption:\n\nCrumb attempts on-device decryption using an authorized App Group, without a helper, VPN or pairing. Sign with App Groups enabled in KSign, then choose Decrypt in Downloads. See setup and limitations.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.certlium.crumb.png",
       "tintColor": "#3776a4",
       "category": "utilities",
@@ -13548,11 +13545,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.27",
-          "date": "2026-11-21T03:42:00Z",
-          "localizedDescription": "Release v6.3.27:\n\n• Resume playback mode pauses immediately on tap (02e7286).\n• Offer the official Flashcards preset when adding note types (d05dd65).\n• Disconnect publisher updates after note type customization (c207d52).\n• Preserve field mappings when switching note types (6951c26).\n• Support custom Flashcards template scripts (c471d00).\n• Cache Flashcards note-type packages for offline use (99e381b).\n• Update Flashcards note type to v1.0.8 (7c03efa).\n• Preserve reader error details in debug exports (56bad4f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.27/Manatan-v6.3.27-iOS.ipa",
-          "size": 446648230,
+          "version": "6.3.28",
+          "date": "2026-11-22T15:05:32Z",
+          "localizedDescription": "Release v6.3.28:\n\n• Fix Linux browser runtime startup (4340662).\n• Support headphone playback controls for videos (c201046).\n• Load metadata beside imported local videos (61b2b73).\n• Add Slide page-turn animation to the novel reader (7125a97).\n• Add Netflix study and flashcard mining to the browser extension (c6e9a2e).\n• Fix wrong page previews during Android novel turns (1394a53).\n• Honor library category preferences for videos and novels (dac5bd7).\n• Save source preferences reliably (b5a02d8).\n• Improve browsing and playback reliability (49ee569).\n• Keep source icons available offline (f18e1cc).\n• Add a toolbar switch for dictionary lookups and highlights (82acd6d).\n• Restore direct lookups on subtitle furigana (eb6af55).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.28/Manatan-v6.3.28-iOS.ipa",
+          "size": 446890165,
           "minOSVersion": "16.1"
         }
       ],
