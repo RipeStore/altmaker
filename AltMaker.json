@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.linuxserver.sealskinisolation",
-    "com.joemattiello.iCube",
-    "br.com.lucasliet.arrmate"
+    "com.randomityguy.mbuhaxe",
+    "com.lumisound.ios",
+    "com.thenetaji.pawse"
   ],
   "apps": [
     {
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.11.4",
-          "date": "2026-11-20T17:31:20Z",
-          "localizedDescription": "F1439: Keep a real separator between compact checklist species totals and duration, including when details arrive after the initial render. Bird counts still precede species totals, and totals remain compact, for example \"11sp 1h20m\" rather than \"11sp1h20m\". Late observer and media facts use the same spacing rule; absent facts stay absent and repeated hydration does not duplicate fields or separators.\n\nF1440: Put the shield and visible Confirmed label at the end of Stakeout Birds checklist facts, after duration/media and before the independent clipboard action. Keep pending reports as a distinct question mark in their existing position, with meaningful accessible names and tooltips. Only actual confirmed/accepted evidence gets confirmation. Missing or unreviewed evidence never becomes reviewer confirmation.\n\nPreserved behavior: Checklist attribution, bird/species values, duration formatting, dates, source actions, privacy and rarity provenance remain. Unrelated mixed-bird compact shields stay icon-only, and separately labelled review flags retain their existing presentation. This is a bounded checklist-presentation correction, not a change to qualification or fetching.\n\nValidation: 74 affected consumers passed without skips. Five independent DOM omissions and two actual-Chrome omissions failed their intended guards. Actual grouped/flat Stakeout views were inspected at 393px/402px Standard and 402px High visibility. Demanding 320px and 402px High visibility audits passed with zero overflow and contained 44px tap targets. Publication still requires the complete exact-source catalog and all six layout profiles.\n\nInstallation: BirdChaser-unsigned.ipa is the unsigned sideload build; use your usual signing/sideload tool. Signed TestFlight delivery is separate. Successful upload or Apple processing alone does not establish owner access.\n\nThe .ipa below is UNSIGNED and was built by CI from c1928ef, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.11.4/BirdChaser-unsigned.ipa",
-          "size": 143495328,
+          "version": "2.12.1",
+          "date": "2026-11-23T13:04:46Z",
+          "localizedDescription": "Reconcile dependent consumers with venue-aware grouping and progressive history while retaining source, privacy, cache and ownership assertions.\n\nThe .ipa below is UNSIGNED and was built by CI from 9ff3be7, the commit this Release points at. Sideload with AltStore.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.12.1/BirdChaser-unsigned.ipa",
+          "size": 143505884,
           "minOSVersion": "15.0"
         }
       ],
@@ -1312,8 +1312,8 @@
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/session.webp",
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/worlds.webp",
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/map.webp",
-        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/character.webp",
-        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/packages.webp"
+        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/packages.webp",
+        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/marketplace.webp"
       ],
       "versions": [
         {
@@ -1609,7 +1609,7 @@
       "bundleIdentifier": "uk.gleissner.c64commander",
       "developerName": "chrisgleissner",
       "subtitle": "Control and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network",
-      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Search: Find any page, setting, action, tune or disk by name. Three ways in — the field at the top of Home, the Quick menu, or the 7 key. A result you cannot use yet is still listed, with the reason.\n• Guided tour: A first-run walk through every part of the app.\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.",
+      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Multiple devices: Save several devices, check their health, and switch between them.\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Remote Input and Live View: Use an on-screen joystick or keyboard, and stream audio or video from the running machine.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.\n• SID Player: A music-player mode for phones without a C64 Ultimate. It plays SID tunes on the phone, with playlists, HVSC and SID Radio.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/uk.gleissner.c64commander.png",
       "tintColor": "#bea85c",
       "category": "games",
@@ -2927,10 +2927,10 @@
       "category": "utilities",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Sync.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Player.png"
       ],
       "versions": [
         {
@@ -3590,10 +3590,10 @@
       "versions": [
         {
           "version": "0.13.1",
-          "date": "2026-11-19T11:56:26Z",
-          "localizedDescription": "🗄️ Find deleted threads in archives:\n\n• On a thread 4chan has deleted, even one opened from a pasted link, tap Look in Archives to read it from an archive that keeps its board, like Desuarchive, 4plebs, warosu or archived.moe, with its images and videos if the archive kept them; it's in the thread's menu too when an old copy is showing.\n• If an archive's copy falls short, Look in Other Archives in the thread's menu tries the rest, and posts the old copy had stay.\n• Opened again later, the thread says which archive it came from, and shows the archive's thumbnail in History and Bookmarks.\n• Turn off any archive you'd rather not have asked, in Settings → Archives.\n\n🔠 Text size for posts:\n\n• Make the text of posts in threads smaller or larger, in Settings → Threads → Text size.\n\nWhat's fixed:\n\n• Tapping a deleted thread in Bookmarks opens it again, as it last loaded, with Look in Archives if there's no copy; it used to only say the thread was deleted.\n• The Deleted and Archived labels on thread cards sit by the counts, no longer over a long title.\n• Threads you visited stay in History once 4chan deletes them, marked Deleted, and still open as they last loaded; opening History used to remove them.\n• Threads saved for offline open straight away, even on a slow connection, and then update.\n• New posts' images are saved too while a thread saved for offline is open, and a save cut short, as by closing the app, carries on the next time it's opened.\n• Saving two threads for offline at once no longer loses the first one's text.\n• Saving a copy of a deleted thread for offline keeps the date it last loaded.\n• Saved for Offline and Settings → Storage no longer count threads on hidden boards, and Remove All leaves them; Storage also shows what the copies of threads take up.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.1%2B316/Runner.ipa",
-          "size": 34348650,
+          "date": "2026-11-23T09:26:05Z",
+          "localizedDescription": "📏 File sizes:\n\n• Each post's picture or video now shows its size, dimensions and type in a line below it.\n• The File Information dialog in the media viewer now shows the file's size, and its dimensions too where known (also for saved files).\n\n⬆️ Back to the top:\n\n• On iPhone and iPad, tap the status bar at the top of the screen to scroll back to the top of a board, a thread or any other list.\n\n⏩ Hold to fast-forward:\n\n• In the media viewer, hold a finger on a video to play it at double speed, and let go to go back to normal.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.13.1%2B319/Runner.ipa",
+          "size": 32424806,
           "minOSVersion": "17.0"
         }
       ],
@@ -5769,11 +5769,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "10.0.5",
-          "date": "2026-11-02T20:19:12Z",
-          "localizedDescription": "Security \u0026 Privacy:\n\n• Removed certificate-verification bypass from private server imports to strengthen security.\n• Redacted helper-related outbound tags and addresses from client diagnostics and logs.\n• Implemented protection against cross-origin redirects on widget signaling.\n\nBug Fixes:\n\n• Resolved private server configuration and connectivity problems.\n• Improved handling of helper pairing room restarts and ticket expiry.\n• Fixed domain fronting provider race conditions and canceled request tracking.\n\nImprovements:\n\n• Extended CloudKit outage tolerance when stapling to better handle temporary service interruptions.\n• Implemented native volunteer ICE checks and tuning via Radiance update.\n• Enhanced helper pairing system with ticket management and renewal.\n• Improved diagnostics by filtering and redacting sensitive connection data.\n\nInfrastructure:\n\n• Restored branch nightly uploads and Slack notifications in CI/CD pipeline.\n\nThis is a production release from commit 617abf1.\n\nBranch: v10.0.5.\n\n• iOS: Uploaded to TestFlight.",
-          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.ipa",
-          "size": 92004200,
+          "version": "11.0.0",
+          "date": "2026-11-23T15:10:55Z",
+          "localizedDescription": "New Features:\n\n• Personal Proxies: Share your connection with friends through secure invite links. Accept or decline friend requests, manage active proxies, and see real-time connection status.\n• Action Mode: New dedicated mode for helpers sharing their connection. Auto-enable option available on launch, with improved UI and consent workflows.\n• Usage Statistics: View on-device usage statistics with a new dedicated screen showing traffic breakdown.\n• Smart Routing Enhancements: Added \"Try Direct First\" option to intelligently attempt direct connections before routing through VPN.\n• Sign in with Google and Apple: Native in-app authentication on iOS for easier account management.\n• Include-only Split Tunneling: New split tunneling mode to route only specific apps through VPN while keeping others direct.\n\n• Android TV Improvements: Enhanced remote-friendly UI across the Android TV experience.\n\nImprovements:\n\n• Personal Proxy Reliability: Enhanced friend discovery, live connection status indicators, and improved pairing mechanisms with better recovery from connection failures.\n• Onboarding: Refined Personal Proxies and Action Mode introduction flows with improved timing and design consistency.\n• Helper Widget: Better signaling and telemetry tracking for volunteer connections.\n• Windows Executable Selection: Fixed matching logic for split-tunneling on Windows.\n• macOS Split Tunneling: Properly integrated connection owner detection (FindConnectionOwner) in PacketTunnel.\n• Linux Support: Fixed ability to open lantern:// links in the running app instance.\n• Translation Workflow: Migrated from Transifex to AI-powered translation system for faster localization updates.\n• Telemetry: Added optional logging integration with SigNoz for improved diagnostics (developer mode only).\n\nBug Fixes:\n\n• Fixed corrupted shared_preferences.json recovery on Android.\n• Resolved flaky Android Test Lab runs.\n\n• Fixed RPM service installation on Linux.\n\n• Corrected split-tunneling bypass string translations in Farsi.\n• Fixed circular dependency error when starting VPN in debug mode.\n• Fixed debug-only CircularDependencyError at app startup.\n• Fixed unread circular dependency error when starting VPN in debug mode.\n• Fixed vulnerable Go dependencies in Android native library.\n\nInfrastructure \u0026 Dependencies:\n\n• Upgraded OpenTelemetry SDK to 1.47.0 for better observability.\n• Added golangci-lint, race detector, and govulncheck for Go code quality.\n• Added stack canaries to Android native code for security hardening.\n• Improved TestFlight upload reliability with better retry logic and timeout handling.\n• Nightly builds now default to debug logging for improved diagnostics.\n• Multiple updates to radiance, lantern-box, and broflake for personal proxy stability, volunteer direct exits, and obfuscated connections.\n\nThis is a production release from commit d9b971b.\n\nBranch: v11.0.0.\n\n• iOS: Uploaded to TestFlight.",
+          "downloadURL": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.ipa",
+          "size": 104375016,
           "minOSVersion": "15.6"
         }
       ],
@@ -5798,7 +5798,7 @@
       "name": "Zanzibarr",
       "bundleIdentifier": "com.zanzibarr.zanzibarr",
       "developerName": "envermeister",
-      "subtitle": "Zanzibarr streams NZB content from Usenet without downloading — instant start, true seek, PAR2 repair, Dolby Vision. Windows · macOS · iOS · Linux · Android · Google TV",
+      "subtitle": "Zanzibarr streams NZB content from Usenet without downloading — instant start, true seek, PAR2 repair, Dolby Vision. Windows · macOS · iOS · Linux · Android · Google TV · Samsung Tizen · LG WebOS",
       "localizedDescription": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb and the video starts playing in seconds — no download queue, no waiting for the full file, no disk space sacrificed. Scrub to the final scene of a 4K remux before the first act would have finished downloading. It feels like magic; it's really just a very disciplined engine.\n\nNew in v2.0:\n\n• Search everywhere at once — multiple Newznab indexers in parallel, Prowlarr/NZBHydra2 endpoints, automatic Easynews web search and cross-source deduplication.\n• Keep the season going — a natural-order play queue, watched-episode badges and a ten-second Up next card with Play now / Finish episode / Clear queue.\n\n• Your accounts and languages, remembered — multiple switchable NNTP profiles, multiple enabled indexer profiles, and preferred audio language carried across episodes.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.zanzibarr.zanzibarr.png",
       "tintColor": "#a06442",
@@ -6510,11 +6510,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.35",
-          "date": "2026-11-21T15:21:06Z",
-          "localizedDescription": "iGhostVT 1.6.35 lets ighostvt-cli open a session in the app, and set up a new session the way you want it.\n\n• A session made with ighostvt-cli new had no tab until the app was next launched. ighostvt-cli app attach \u003csid\u003e now brings it up in the running app, opening a tab for it if no window has one, and new --attach does the same as soon as the session starts.\n• ighostvt-cli new always started the shell at 80×24 in your home folder. It now takes --cols and --rows (or --size 120x40), --cwd, --cwd-of \u003csid\u003e to start where another session's shell is, --env NAME=VALUE, --shell, and --lock interaction or --lock keyboard. All but --attach work with --host too.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.35-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.35.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.35/GhostRemote-1.6.35.ipa",
-          "size": 7238629,
+          "version": "1.6.39",
+          "date": "2026-11-23T16:44:30Z",
+          "localizedDescription": "iGhostVT 1.6.39 opens the MCP server to AI apps on other devices on your local network, lets a tap open a link on iPhone and iPad, and makes the MCP approval page readable in dark mode.\n\n• An AI app could use the MCP server only from the same device. MCP Server (until now Local MCP Server) also accepts apps on other devices on your local network, each still only after you allow it in iGhostVT, and refuses connections from anywhere else. Its address uses the device's .local name, such as http://my-mac.local:18765/mcp. The connection is not encrypted, so use it only on a network you trust.\n• The MCP settings hid the server's address behind Copy Address. On iPhone and iPad the section now shows both addresses — 127.0.0.1 for an app on the same device, the .local one for other devices — which you tap to copy, how many apps you have allowed, and Forget All; on a Mac, the button beside MCP Server opens them in a sheet, where you click an address to copy it.\n• On iPhone and iPad, tapping a link in a terminal only raised or hid the keyboard, and a long press opened the edit menu without selecting anything. A tap on a web link now opens it, the edit menu offers Open Link when a link is under your finger, and a long press selects the word under it — drag before you lift to select more.\n• On a Mac, ⌘-clicking a link in a terminal did nothing. A web link now opens in your browser; other links, such as file paths, still do not open.\n• In dark mode, the approval page an AI app opens showed its title, text, code and Cancel white on white. It is readable in both appearances now, and shows only the app's name, the code and Cancel.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.39-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.39.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.39/GhostRemote-1.6.39.ipa",
+          "size": 7304130,
           "minOSVersion": "15.0"
         }
       ],
@@ -7554,10 +7554,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-16T17:35:11Z",
-          "localizedDescription": "Pageturner from run 43918063513, commit 3a229f7. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-43918063513/Pageturner.ipa",
-          "size": 28344095,
+          "date": "2026-11-23T12:27:50Z",
+          "localizedDescription": "Pageturner from run 45173042764, commit 9a127b9. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-45173042764/Pageturner.ipa",
+          "size": 28348413,
           "minOSVersion": "17.0"
         }
       ],
@@ -7574,7 +7574,7 @@
       "bundleIdentifier": "com.modu.reader",
       "developerName": "sobranie2406",
       "subtitle": "An open-source, cross-platform ebook and PDF reader",
-      "localizedDescription": "Available for Android, iOS, macOS, Windows, Linux and native HarmonyOS. Local reading needs no AI account; online tools are optional.\n\nFeatures:\n\nA flexible library, comfortable typography, scan-to-text reading, AI, translation, listening and sync. Keep your everyday reading tools close to the page.\n\nPDFs and scanned books:\n\nKeep the original layout while removing empty margins. Panel reading, rotation, zoom and image enhancement help you see the details on smaller screens.\n\nOn-device OCR:\n\nTurn scanned pages into text you can reflow, select, translate and annotate. Lightweight OCR models run locally and work offline after download.\n\nOriginal and reflowed text:\n\nRead the original page alongside adjustable text. Stack them in portrait or place them side by side in landscape to check the source without losing your place.",
+      "localizedDescription": "Available for Android, iOS, macOS, Windows, Linux and native HarmonyOS. Local reading needs no AI account; online tools are optional.\n\nDownloads and guides:\n\nFrom 1.3.11, Linux packages include x64 and ARM64 DEBs for Debian 13 and an AppImage for Arch Linux x64. AppImage installation guide.\n\nFeatures:\n\nA flexible library, comfortable typography, scan-to-text reading, AI, translation, listening and sync. Keep your everyday reading tools close to the page.\n\nPDFs and scanned books:\n\nKeep the original layout while removing empty margins. Panel reading, rotation, zoom and image enhancement help you see the details on smaller screens.\n\nOn-device OCR:\n\nTurn scanned pages into text you can reflow, select, translate and annotate. Lightweight OCR models run locally and work offline after download.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.modu.reader.png",
       "tintColor": "#c7a55c",
       "category": "other",
@@ -7587,11 +7587,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.10",
-          "date": "2026-11-18T04:05:32Z",
-          "localizedDescription": "Modu 1.3.10:\n\nBuild / 构建：10182 · Stable / 正式版.\n\nEnglish:\n\n• Feat(reader): Add swipe-to-highlight quick marking on mobile reflow pages. Connected marks can merge.\n• Feat(plugins): Add a catalog of reviewed plugins with GitHub and Gitee sources. Install and update compatible plugins from settings, with an on-device mode for testing your own plugins. The optional Private Books plugin can hide or restore books and lock them with a passcode. Private books, their notes, and reading progress stay on the device.\n• Feat(plugins): Save an article from a URL, preview its text as Markdown, then export it or add it to the bookshelf with the optional Web Read Later plugin.\n• Feat(sync): Explain the counts and conflict options in the sync preview, add upload-only sync, and ask for confirmation again if the list of books to remove has changed. (, ) Thanks @1Cookie2gavh.\n• Fix(sync): Follow WebDAV redirects that add a trailing slash to WeRead and OCR metadata directories.\n• Fix(reader): Preserve the paragraph's text size when a book displays a rare character as an inline image.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Linux ARM64 / x64 · HarmonyOS ARM64.\n\nEach of the nine packages includes a SHA-256 checksum file. / 共九个安装包，各附 SHA-256 校验文件。.\n\niOS IPA and HarmonyOS HAP require your own signing. macOS uses ad-hoc signing. Windows requires WebView2. Linux DEB targets Debian 13. / iOS IPA 和鸿蒙 HAP 需自行签名。macOS 使用临时签名。Windows 需要 WebView2。Linux DEB 面向 Debian 13。.",
-          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.10/Modu-1.3.10-ios-arm64.ipa",
-          "size": 54136014,
+          "version": "1.3.11",
+          "date": "2026-11-23T10:26:34Z",
+          "localizedDescription": "Modu 1.3.11:\n\nBuild / 构建：10189 · Stable / 正式版.\n\nEnglish:\n\n• Feat(pdf): View two PDF pages side by side, with separate cropping for each page. Image enhancement carries over when switching to continuous scroll.\n• Feat(translation): Pretranslate the next 1–5 pages in reader translation and Classical Chinese translation. Continue into the next chapter when needed.\n• Feat(plugins): Review permissions in plugin settings or grant them when prompted. Plugins can use their own data storage and request access to books, notes and search. () Thanks @RuizeSun.\n• Fix(translation): Restore skipped paragraphs at page breaks and keep page turns responsive while translations arrive.\n• Fix(reader): Keep line spacing consistent on the page before an illustration.\n• Fix(macos): Dismiss reader menus and lookup popups by clicking outside them.\n• Fix(ios): Fix blank PDF pages on iPad and improve importing books from Files.\n• Fix(windows): Fix crashes when closing reader views or releasing audio on shutdown.\n\nDownloads:\n\nAndroid ARM64 · iOS ARM64 · macOS ARM64 / x64 · Windows ARM64 / x64 · Debian 13 DEB ARM64 / x64 · Arch Linux x64 AppImage · HarmonyOS ARM64.\n\nEach of the ten packages includes a SHA-256 checksum file. / 共十个安装包，各附 SHA-256 校验文件。.",
+          "downloadURL": "https://github.com/sobranie2406/modureader/releases/download/v1.3.11/Modu-1.3.11-ios-arm64.ipa",
+          "size": 52434251,
           "minOSVersion": "16.0"
         }
       ],
@@ -7607,7 +7607,7 @@
       "name": "nori",
       "bundleIdentifier": "dev.nori.music",
       "developerName": "norifm",
-      "subtitle": "navidrome, subsonic, youtube music and soundcloud player for android, tv, windows, macos, linux, terminal and ipod",
+      "subtitle": "A music player for your own Navidrome or Subsonic server, YouTube Music and SoundCloud, on Android",
       "localizedDescription": "What it does:\n\n• It saves battery. nori decodes music ahead and lets the CPU sleep in between. Nothing ticks while the screen is off, and on Android the audio chip can decode on its own.\n• It sounds right: gapless albums, AutoMix transitions on the beat, an equalizer with AutoEQ curves, and a sound profile for each output.\n• It finds the lyrics: your server's, and those of eleven online services, timed against the singing, word by word where a service has that.\n• It plays together. Control one device from another, or host a jam that guests join with a link or a QR code.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.nori.music.png",
       "tintColor": "#0284c7",
@@ -7618,11 +7618,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.5",
-          "date": "2026-11-19T10:39:27Z",
-          "localizedDescription": "Added:\n\n• The notification and lock screen show shuffle again.\n\n• Plugins can add, hide and change the notification's buttons.\n• Each profile can scrobble to ListenBrainz, Libre.fm and Last.fm (#164).\n\nFixed:\n\n• An album page's cover fades into it and scrolls with its title, as the player's does.\n• Plugins reach headphones from the terminal client on macOS.\n• A plugin of rows alone shows them on the devices sheet.\n• Headphones the phone renamed show their battery and controls.",
-          "downloadURL": "https://github.com/norifm/nori/releases/download/v0.9.5/nori-ipod-0.9.5.ipa",
-          "size": 7224711,
+          "version": "1.0.0",
+          "date": "2026-11-23T13:51:40Z",
+          "localizedDescription": "nori 1.0 is the first major release of nori.\n\nnori plays from your Navidrome, Subsonic, OpenSubsonic, or octo-fiesta server, and from YouTube Music and SoundCloud through plugins. It runs on Android phones and Android TV, Windows, macOS, Linux, the terminal, and the iPod touch, all over one Rust core and the same Nori Seasons design.\n\nWhat 1.0 ships with:\n\n• Battery-first playback with hardware offload on Android and nothing polling while the screen is off.\n• Gapless albums, beat-matched AutoMix (Smooth and DJ), an equalizer with AutoEQ curves, and per-output sound profiles.\n• Synced lyrics from your server and online services, timed against the singing.\n\n• Plugins for music sources, headphone controls, extra sounds, and AutoMix tuning, with no account and no analytics.\n\nNew since 0.9.5:\n\n• First-run setup walks you through picking your music sources (or restoring a backup), AutoMix behavior, mobile data quality, and appearance and season (#171).\n• Support nori voluntarily with a one-time or monthly payment in Settings › Support nori or at support.norifm.com, collecting a seal in your stamp book for each payment. Monthly support can be stopped or resumed in the app or on the site (#166, #168, #169, #172).\n• Get plugins groups plugins into category pages (Services, Devices, Playback, More) (#170).\n• Plugin repos can be added by GitHub user/repo and renamed (#173).\n• Safe mode explains why plugins were stopped and offers a restart, and force-stopping nori no longer trips safe mode.\n\nPerformance and size:\n\n• Home renders whole on its first frame with cached covers and colors.\n• The full player opens smoothly on the first frame, including on battery saver, and Back waits for the transition to settle.\n• Startup no longer waits two seconds when a Bluetooth plugin is enabled.\n\nFixed:\n\n• Restored queues keep shuffle, repeat, and Play next songs (#167).\n• Play when Bluetooth connects starts playback reliably (#167).\n• Seeking near an AutoMix transition keeps the mix instead of skipping.\n• Async calls no longer crash under hardened memory allocators (#165).\n• A sheet from a page underneath no longer freezes touches and Back.\n• The full player opens without a bounce after a slow drag, snaps its cover and colors on resume, and recenters on takeover.\n• Bluetooth device retries no longer overlap.\n\n• Restoring a backup during first-run setup opens straight into its profiles, and source rows stay in place while their plugins install.\n• The desktop app keeps its search bar wide while the preview is open and shows when the next season begins.",
+          "downloadURL": "https://github.com/norifm/nori/releases/download/v1.0.0/nori-ipod-1.0.0.ipa",
+          "size": 7475777,
           "minOSVersion": "12.2"
         }
       ],
@@ -8060,11 +8060,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.19.1",
-          "date": "2026-10-29T09:47:47Z",
-          "localizedDescription": "• Keep a numbered list at the end of an agent reply in the thread by Bjarne Oeverli (@bjarneo) (c0c831b).",
-          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.19.1/flux-ios-0.19.1.ipa",
-          "size": 10583725,
+          "version": "0.20.0",
+          "date": "2026-11-23T07:35:49Z",
+          "localizedDescription": "Added:\n\n• Use an Android phone or tablet as a second monitor of the computer.\n• Wake a sleeping computer from the phone with Wake-on-LAN.\n• Pair a phone by its IP address when discovery finds nothing.\n• Run automation rules when the phone leaves, rings, or notifies, and when an agent waits.\n• Show the herdr agents that need you in a home screen widget on the phone.\n• Select the audio output of the computer, and play its audio on the phone.\n• Sign SSH logins and Git commits with a key on the Android phone.\n• Answer an agent from its notification on Android, iOS, macOS, and Windows. Each app asks for its own unlock first and sends nothing until the unlock succeeds. The answer path checks the phone unlock first.\n\n• Show a note in the agent thread when Agent control is off on the computer. The note names the Access card.\n• Open the fingerprint check at once for an approval on Android 12 or later. The switch is off by default.\n\n• Ask for a confirmation before Agent control turns on from the Access card.\n• Show 4 cards on the device page of the Flux window when the phone can run commands.\n\nChanged:\n\n• Rename Control to Remote on Android. Remote shows rows in 3 groups: See, Use, and Share.\n\n• Move the sync switches from Computers to Settings. The Sync screen is gone.\n\n• Show the phone layout on a tablet in portrait.\n• Scroll the phone touchpad like the touchpads of the computer.\n• Put the touchpad at the side of the keys in landscape.\n• Let the remote desktop encode on the CPU with remote_desktop_encoder.\n• Show the number of the current call on the computer.\n• Show the connected state in the bar widget under a replacement bar.\n• Print the reason when an approval falls back to the password.\n• Cap the IPC send buffer, and log each link event with the device ID.\n\nFixed:\n\n• Find a phone again with flux-cli discover after its link closed.\n• Keep the spaces of the phone keyboard in a browser address bar.\n• Show sent text messages once and in time order on the desktop.\n• Keep the extended screen at the full size of the video on the phone.\n• Open the fingerprint prompt at most once for each request.\n• Keep the key file row silent when a folder is unreadable.\n• Keep a blocked agent of an offline computer in the badge count.\n\nFlux for iOS and macOS:\n\n• Answer an agent from its notification. The notification has the question and 1 action for each choice, or Reply. An action asks for Face ID, Touch ID, or the passcode on iOS, and for Touch ID or the password on the Mac. Flux reads the pane again and sends only when the dialog is the same. iOS posts these notifications only while Flux runs. A tap after Flux was suspended opens the thread and sends nothing.\n\n• Show the reason in the thread when the unlock fails for an answer, and post the notification again after a cancelled unlock.\n\nFlux for Windows:\n\n• Show the link state in the thread, the Agent control note, and since when a computer is not reachable.\n\nNot changed:\n\n• The pairing sheet and the fingerprint approval screen keep the layout and the text of v0.19.1.\n• The Send bar, Remote, Settings, and the scope chip are on Android only. iOS, macOS, and Windows get no new screen.\n\nThe new iOS, macOS, and Windows code is not tested on a device yet.\n\n• Merge the phase 2 QA fix: 1 link dot for each computer in the Remote scope row by Bjarne Oeverli (@bjarneo) (481e119).\n• Show one link dot for each computer in the Remote scope row by Bjarne Oeverli (@bjarneo) (9612341).\n• Merge the phase 2 QA fixes: the badge count, the Computers width, and the Remote chip by Bjarne Oeverli (@bjarneo) (05469f3).\n• Fix the badge count, the Computers width, and the Remote chip by Bjarne Oeverli (@bjarneo) (34dbb63).\n\n• Recapture the desk images of the site from the new Flux window by Bjarne Oeverli (@bjarneo) (4d6f7c8).\n• Rename the Sync switches heading to Settings and fix its links by Bjarne Oeverli (@bjarneo) (cce9aaf).\n• Merge the WP12 review fixes for Flux for iOS and macOS by Bjarne Oeverli (@bjarneo) (bb6725c).\n• Fix the second review of the Swift apps by Bjarne Oeverli (@bjarneo) (779f44c).\n• Merge WP12: add the core jobs of phase 1 to Flux for iOS and macOS by Bjarne Oeverli (@bjarneo) (43edf39).\n\n• Keep a blocked agent of an offline computer in the badge by Bjarne Oeverli (@bjarneo) (5cdd6c1).\n• Post the agent notification again after a cancelled unlock by Bjarne Oeverli (@bjarneo) (f30b101).\n• Show the reason in the thread when the unlock fails for an answer by Bjarne Oeverli (@bjarneo) (ef2f639).\n\n• Show the link state and the Agent control note in the iOS and macOS apps by Bjarne Oeverli (@bjarneo) (c89c9a6).\n• Answer an agent from its notification on iOS and macOS by Bjarne Oeverli (@bjarneo) (bac8759).\n• Port the agent dialog, notice, and link note models to Swift by Bjarne Oeverli (@bjarneo) (77df725).\n• Merge the WP13 review fixes for Flux for Windows by Bjarne Oeverli (@bjarneo) (a02b7a2).\n• Fix the review findings of the notification answer path on Windows by Bjarne Oeverli (@bjarneo) (249eaa1).\n• Merge WP13: add the core jobs of phase 1 to Flux for Windows by Bjarne Oeverli (@bjarneo) (e773d29).\n• Add the core jobs of phase 1 to Flux for Windows by Bjarne Oeverli (@bjarneo) (30c6eb2).\n• Merge the shell fix: show the phone layout on a tablet in portrait by Bjarne Oeverli (@bjarneo) (c9b0cf1).\n• Hide the sample approval when the demo has no blocked agent by Bjarne Oeverli (@bjarneo) (17d8256).\n• Show the phone layout on a tablet in portrait by Bjarne Oeverli (@bjarneo) (fab9c3b).\n\n• Merge the P5 fix from phase 1 into phase 2 by Bjarne Oeverli (@bjarneo) (9d275cb).\n• Merge WP17: group the Settings screen in 5 groups by Bjarne Oeverli (@bjarneo) (32983ae).\n• Merge the P5 fix: dismiss the lock screen before an answer from the notification by Bjarne Oeverli (@bjarneo) (1c51443).\n• Send an answer from the notification after the lock screen dismiss by Bjarne Oeverli (@bjarneo) (ea8bb86).\n\n• Show the groups of Settings in 2 columns only in landscape by Bjarne Oeverli (@bjarneo) (7b8be59).\n• Group the Settings screen in 5 groups that open in place by Bjarne Oeverli (@bjarneo) (0876a61).\n• Merge WP18: show Remote as rows in See, Use, and Share by Bjarne Oeverli (@bjarneo) (aab0937).\n\n• Show Remote as rows in See, Use, and Share, and add a menu key to the computer row by Bjarne Oeverli (@bjarneo) (0a3920e).\n\n• Merge phase 1 security fixes into phase 2 by Bjarne Oeverli (@bjarneo) (e630b40).\n\n• Merge phase 1 fixes into phase 2 by Bjarne Oeverli (@bjarneo) (212e960).\n• Merge the QA fix: tap only the action key in the timed test by Bjarne Oeverli (@bjarneo) (bbfe754).\n• Merge WP9: add Remote, Settings, and the scope chip to the Android map by Bjarne Oeverli (@bjarneo) (3b29a79).\n• Tap only the action key in the timed answer test by Bjarne Oeverli (@bjarneo) (d287b17).\n• Add the Remote name, the Settings screen, and the scope chip to the top bars by Bjarne Oeverli (@bjarneo) (8d72bcd).\n• Merge WP10: show 3 cards on the device page of the Qt window by Bjarne Oeverli (@bjarneo) (eb3a1b6).\n• Show 3 cards on the device page of the Qt window by Bjarne Oeverli (@bjarneo) (9767c19).\n• Merge WP11: print the reason when an approval falls back to the password by Bjarne Oeverli (@bjarneo) (f9a4160).\n• Merge the WP6 security fixes: open the prompt at most once for each request by Bjarne Oeverli (@bjarneo) (e2f4bc3).\n• Open the fingerprint prompt at most once for each request by Bjarne Oeverli (@bjarneo) (49dea5f).\n• Keep the key file row silent when a folder is unreadable by Bjarne Oeverli (@bjarneo) (658d8b9).\n• Merge WP3: answer an agent from its notification on Android by Bjarne Oeverli (@bjarneo) (11c82f3).\n• Merge WP4: show the link state where the user acts by Bjarne Oeverli (@bjarneo) (671c750).\n• Answer an agent from its notification on Android by Bjarne Oeverli (@bjarneo) (608546a).\n• Print the reason when an approval falls back to the password by Bjarne Oeverli (@bjarneo) (bc13430).\n\n• Show the connecting state in the sample thread from the debug page by Bjarne Oeverli (@bjarneo) (86f012d).\n\n• Merge WP7: add a fake herdr and a timed test for answers from the phone by Bjarne Oeverli (@bjarneo) (ed98e9a).\n• Add a fake herdr and a timed test for answers from the phone by Bjarne Oeverli (@bjarneo) (9a5d8a7).\n• Merge WP6: open the fingerprint check at once with an opt-in switch by Bjarne Oeverli (@bjarneo) (5a1294e).\n• Open the fingerprint check at once with an opt-in switch by Bjarne Oeverli (@bjarneo) (6b21af5).\n• Merge WP2: ask before Agent control turns on from the Access card by Bjarne Oeverli (@bjarneo) (3766f9c).\n• Ask before Agent control turns on from the Access card by Bjarne Oeverli (@bjarneo) (ecbf768).\n• Merge WP1: cap the IPC send buffer, log link events, and check herdr-core by Bjarne Oeverli (@bjarneo) (6cdf2fa).\n\n• Keep the extended screen at the full size of the video on the phone by Bjarne Oeverli (@bjarneo) (c0f2320).\n• Sign SSH logins and Git commits with a key on the Android phone by Bjarne Oeverli (@bjarneo) (c7ed750).\n• Play the audio of the computer on the phone with Play on phone by Bjarne Oeverli (@bjarneo) (c1fa0dc).\n• Select the audio output of the computer on the Media screen of the phone by Bjarne Oeverli (@bjarneo) (9aaedc0).\n• Use an Android phone or tablet as a second monitor of the computer by Bjarne Oeverli (@bjarneo) (644a578).\n• Show the herdr agents that need you in a home screen widget by Bjarne Oeverli (@bjarneo) (1b35b7c).\n• Wake a sleeping computer from the phone with Wake-on-LAN by Bjarne Oeverli (@bjarneo) (6a03d22).\n• Put the touchpad at the side of the keys in landscape by Bjarne Oeverli (@bjarneo) (a6efaff).\n• Pair a phone by its IP address when discovery finds nothing by Bjarne Oeverli (@bjarneo) (d62ebfb).\n• Scroll the phone touchpad like the touchpads of the computer by Bjarne Oeverli (@bjarneo) (337bda2).\n• Run automation rules when the phone leaves, rings, or notifies, and when an agent waits by Bjarne Oeverli (@bjarneo) (6b49a3b).\n• Show sent text messages once and in time order on the desktop by Bjarne Oeverli (@bjarneo) (f18a179).\n• Show the connected state in the bar widget under a replacement bar by Bjarne Oeverli (@bjarneo) (1b34a5f).\n• Keep the spaces of the phone keyboard in a browser address bar by Bjarne Oeverli (@bjarneo) (1021a4a).\n• Let the remote desktop encode on the CPU with remote_desktop_encoder by Bjarne Oeverli (@bjarneo) (0f3c63c).\n• Show the number of the current call on the computer by Bjarne Oeverli (@bjarneo) (47a50ca).\n• Find a phone again with flux-cli discover after its link closed by Bjarne Oeverli (@bjarneo) (1180ed3).",
+          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.20.0/flux-ios-0.20.0.ipa",
+          "size": 10643468,
           "minOSVersion": "17.0"
         }
       ],
@@ -8136,11 +8136,11 @@
       ],
       "versions": [
         {
-          "version": "2.11.0",
-          "date": "2026-11-20T12:13:35Z",
-          "localizedDescription": "• After rinsing: \"Pour in 15 g of beans\" straight into the brewer on the tared scale; Ready tares again for the pour.\n• \"Brew this\" on a recipe goes straight to the brew screen.\n\n• After rinsing: \"Pour in 15 g of beans\" straight into the brewer on the tared scale; Ready tares again for the pour.\n• \"Brew this\" on a recipe goes straight to the brew screen.\n\nWeb.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.11.0/BrewLog.ipa",
-          "size": 12863906,
+          "version": "2.12.1",
+          "date": "2026-11-23T09:20:58Z",
+          "localizedDescription": "• Give the After THREE recipe a grind size the Android test can read.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.12.1/BrewLog.ipa",
+          "size": 12864162,
           "minOSVersion": "17.0"
         }
       ],
@@ -8969,10 +8969,10 @@
       "versions": [
         {
           "version": "1.5.1",
-          "date": "2026-11-22T11:08:57Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit b9c20ef. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-260/Ito-1.5.1-dev.260-unsigned.ipa",
-          "size": 15138524,
+          "date": "2026-11-23T16:51:55Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 54e6037. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-263/Ito-1.5.1-dev.263-unsigned.ipa",
+          "size": 15150532,
           "minOSVersion": "15.4"
         }
       ],
@@ -10172,11 +10172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.8",
-          "date": "2026-11-20T13:51:14Z",
-          "localizedDescription": "• Add a tab bar for multiple sessions on iPad.\n• Extend full-screen sessions around the MacBook notch.\n• Add native touch input for touch displays on macOS.\n• Automatically take over busy High Performance sessions from other Open Screen Sharing clients.\n• Add RSA-AES and VeNCrypt authentication for VNC servers (RealVNC, TigerVNC, wayvnc).\n• Add option to reverse scroll direction for standard VNC and RDP.\n• Fixes and improvements.",
-          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.8/OpenScreenSharing.ipa",
-          "size": 11167454,
+          "version": "1.0.9",
+          "date": "2026-11-23T11:24:00Z",
+          "localizedDescription": "• Add High Definition option for Internet connections.\n• Add multiple addresses and Tailscale discovery.\n• Fixes and improvements.",
+          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.9/OpenScreenSharing.ipa",
+          "size": 11742697,
           "minOSVersion": "15.0"
         }
       ],
@@ -10873,11 +10873,11 @@
       ],
       "versions": [
         {
-          "version": "1.15.1",
-          "date": "2026-11-15T20:23:30Z",
-          "localizedDescription": "Fixed:\n\n• The dancing cat laughed through sad songs. Each song's mood (sad, chill, love, party) now decides which dances it can get: sad and chill songs only get the calm ones, and the giggling and party cats are kept for livelier songs.\n\nChanged:\n\n• Late at night (11 pm to 5 am) the cat keeps to its quiet dances for everything except party songs.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
-          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.15.1/Pawse.ipa",
-          "size": 24808948,
+          "version": "1.16.0",
+          "date": "2026-11-23T17:00:16Z",
+          "localizedDescription": "Added:\n\n• Previous goes back to songs you already heard. Played songs no longer drop out of the queue: Pawse keeps the last 50, even when you start another playlist, album or radio, so Previous takes you to the song before. The queue has a History section above Up next; tap a song there to hear it again, or Clear to forget them.\n• ∞ in the queue turns Autoplay on or off for what's playing now, without changing the setting.\n\nChanged:\n\n• Tapping a song plays it, with the songs after it in Up next. Songs before it in the list aren't queued, and what you were listening to stays in History. The \"Tapping a song in a playlist\" setting is gone; Play next and Add to queue still add single songs.\n• Autoplay is one switch: when your queue ends, keep playing similar songs. It's on by default and now applies after albums and playlists too. If you had it off, it stays off.\n• Shuffle mixes only the songs still to come, so the songs you already heard stay in History in the order you heard them.\n\nWhich file do I need?:\n\nYou need one file: the one for your device. The version is in the release title. Full steps: https://github.com/thenetaji/pawse-music#install",
+          "downloadURL": "https://github.com/thenetaji/pawse-music/releases/download/v1.16.0/Pawse.ipa",
+          "size": 22678603,
           "minOSVersion": "16.4"
         }
       ],
@@ -13462,10 +13462,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-23T04:39:29Z",
-          "localizedDescription": "Immutable snapshot of alpha build 549 (f8d21a8).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 549, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-549/Non-Jailbroken.ipa",
-          "size": 124817949,
+          "date": "2026-11-23T12:48:05Z",
+          "localizedDescription": "Immutable snapshot of alpha build 557 (a56a47f).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 557, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-557/Non-Jailbroken.ipa",
+          "size": 124827064,
           "minOSVersion": "17.0"
         }
       ],
@@ -13548,11 +13548,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.28",
-          "date": "2026-11-22T15:05:32Z",
-          "localizedDescription": "Release v6.3.28:\n\n• Fix Linux browser runtime startup (4340662).\n• Support headphone playback controls for videos (c201046).\n• Load metadata beside imported local videos (61b2b73).\n• Add Slide page-turn animation to the novel reader (7125a97).\n• Add Netflix study and flashcard mining to the browser extension (c6e9a2e).\n• Fix wrong page previews during Android novel turns (1394a53).\n• Honor library category preferences for videos and novels (dac5bd7).\n• Save source preferences reliably (b5a02d8).\n• Improve browsing and playback reliability (49ee569).\n• Keep source icons available offline (f18e1cc).\n• Add a toolbar switch for dictionary lookups and highlights (82acd6d).\n• Restore direct lookups on subtitle furigana (eb6af55).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.28/Manatan-v6.3.28-iOS.ipa",
-          "size": 446890165,
+          "version": "6.3.29",
+          "date": "2026-11-23T11:36:50Z",
+          "localizedDescription": "Release v6.3.29:\n\n• Keep manga word lookups from triggering double-tap zoom (b85fe1d).\n• Match audiobook button to the novel reader theme (a110145).\n• Speed up loading and correct seek preview images (36e1f27).\n• Preserve video watch time during transient capture failures (f9f3b75).\n• Preserve novel reading positions while fonts load (73ce162).\n• Make the video toolbar handle draggable (8160c89).\n• Recover interrupted Google Drive sync (a251a92).\n• Fix startup from pinned Windows taskbar shortcuts (0a88a64).\n• Keep library covers visible when switching tabs (6c77ba3).\n• Fix glossary formatting and frequencies on mined cards (7815f74).\n• Preserve source settings when syncing a new device (8e420d7).\n• Expand streaming subtitle language and audio support (5fb3646).\n• Add subtitle study and mining across streaming sites (86d28df).\n• Recover saved manga titles when reading resumes (954227b).\n• Fix Linux browser runtime startup (743b298).\n• Display video statistics in a two-by-two card grid (f95538b).\n• Support headphone playback controls for videos (c201046).\n• Load metadata beside imported local videos (61b2b73).\n• Add Slide page-turn animation to the novel reader (7125a97).\n• Add Netflix study and flashcard mining to the browser extension (c6e9a2e).\n• Fix wrong page previews during Android novel turns (1394a53).\n• Honor library category preferences for videos and novels (dac5bd7).\n• Save source preferences reliably (b5a02d8).\n• Improve browsing and playback reliability (49ee569).\n• Keep source icons available offline (f18e1cc).\n• Add a toolbar switch for dictionary lookups and highlights (82acd6d).\n• Restore direct lookups on subtitle furigana (eb6af55).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.29/Manatan-v6.3.29-iOS.ipa",
+          "size": 447490406,
           "minOSVersion": "16.1"
         }
       ],
@@ -13586,11 +13586,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "2.0.0.66",
-          "date": "2026-11-19T19:15:19Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.66:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.66/Lumisound-2.0.0.66.ipa",
-          "size": 17505057,
+          "version": "2.0.0.68",
+          "date": "2026-11-23T20:04:18Z",
+          "localizedDescription": "Lumisound iOS v2.0.0.68:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.68/Lumisound-2.0.0.68.ipa",
+          "size": 17913333,
           "minOSVersion": "26.0"
         }
       ],
@@ -13721,37 +13721,6 @@
       }
     },
     {
-      "name": "Marble Blast Gold",
-      "bundleIdentifier": "com.randomityguy.mbghaxe",
-      "developerName": "RandomityGuy",
-      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
-      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbghaxe.png",
-      "tintColor": "#61b8d1",
-      "category": "games",
-      "screenshotURLs": [
-        "https://imgur.com/x6DYms7.png",
-        "https://imgur.com/Ncb4atl.png",
-        "https://imgur.com/KQKUk0Y.png",
-        "https://imgur.com/lfLBKqO.png",
-        "https://imgur.com/DN1A2Mf.png"
-      ],
-      "versions": [
-        {
-          "version": "1.1.15",
-          "date": "2026-11-20T12:23:16Z",
-          "localizedDescription": "This release contains the following improvements:\n\n• Added Leaderboards and Marbleland support.\n• Added stencil shadows support.\n• Added better camera smoothing for touch controls.\n• Updated the collision system to be more accurate to the original.\n• Updated the particle system to be more accurate to the original.\n• Fixed trapdoor sounds not playing.\n• Fixed custom reset times for Trapdoors and Land Mines not working.",
-          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.1.15/MBHaxe-Gold-iOS.ipa",
-          "size": 31522933,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "EngiNote Native",
       "bundleIdentifier": "com.engikode.enginote.native",
       "developerName": "ayushheheheha",
@@ -13806,6 +13775,39 @@
         "privacy": {
           "NSCameraUsageDescription": "Used only to scan the QR code shown by the TwitchUnblock TV app, to connect your TV. Nothing is recorded.",
           "NSMicrophoneUsageDescription": "This app doesn't use the microphone."
+        }
+      }
+    },
+    {
+      "name": "Marble Blast Ultra",
+      "bundleIdentifier": "com.randomityguy.mbuhaxe",
+      "developerName": "RandomityGuy",
+      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
+      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.randomityguy.mbuhaxe.png",
+      "tintColor": "#c09cd8",
+      "category": "games",
+      "screenshotURLs": [
+        "https://imgur.com/x6DYms7.png",
+        "https://imgur.com/Ncb4atl.png",
+        "https://imgur.com/KQKUk0Y.png",
+        "https://imgur.com/lfLBKqO.png",
+        "https://imgur.com/DN1A2Mf.png"
+      ],
+      "versions": [
+        {
+          "version": "1.4.1",
+          "date": "2026-11-23T21:18:26Z",
+          "localizedDescription": "This release fixes the following issue:\n\n• Fixed name tags of players not rendering.",
+          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.4.1-mbu/MBHaxe-Ultra-iOS.ipa",
+          "size": 61546551,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Marble Blast Ultra uses the local network to discover and connect to nearby players for multiplayer."
         }
       }
     }
