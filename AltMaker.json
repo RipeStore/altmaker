@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.randomityguy.mbuhaxe",
-    "com.lumisound.ios",
-    "com.thenetaji.pawse"
+    "wiki.qaq.GhostRemote",
+    "com.joemattiello.iCube",
+    "com.suversal.wrappin"
   ],
   "apps": [
     {
@@ -392,11 +392,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.26.0",
-          "date": "2026-10-01T01:08:16Z",
-          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• Extended iOS support for picture-in-picture to AVPlayer and KitePlayer.\n• Implemented secure connection support for servers hosted by the user in the mobile app (and when a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide).\n• Small drifts between watchers are now corrected with a speed change of 0.5% which nobody notices instead of a jump.\n• Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote's media keys still control the room.\n• Show a non-generic explicitly-defined error when a connection fails.\n• New Feature: Home keeps your 5 recent rooms remembered (under the join key).\n• New Feature: ExoPlayer now loads chapters from MKV and MP4 files, and each chapter shows a still frame taken from around the time the chapter starts.\n• Enhanced focus control for Android TV.\n• The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.\n• An audio or subtitle track that you pick now is remembered with the next file by its language.\n• Subtitle searches now send the episode and the file's hash for better matches.\n• Shared playlist quality-of-life change: Media folders show when the app lost access to them + a playlist file that none of your folders holds is now marked as such (and you can point the app to it).\n• The in-app hosted server now limits connections and drops a client that floods it.\n\n• Joining from an invite link, a shortcut or a Quick Action now works at any time.\n• Screen readers: the room controls stay on screen while a screen reader runs.\n• Android: you can pick the app's language in the system's per-app language setting.\n• Android: added a baseline profile inside the APK which makes the app start faster.\n• In-room notifications/notices now fade in and out instead appearing/disappearing out of nowhere.\n• iOS VLC: updated to VLCKit 4.0.0a24.\n• Updated KitePlayer from 0.0.27 to 0.2.0 on both iOS and Android. Major performance gains come with it.\n• The log now hides identifying details and limits its size.\n\nHelp translate Synkplay on Weblate.",
-          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
-          "size": 94047950,
+          "version": "0.27.0",
+          "date": "2026-11-24T06:35:35Z",
+          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\nHighlights::\n\n• Added portrait mode.\n• KitePlayer functions properly on all platforms. Now also supports HLS, DASH, trueHDR, Dolby Vision and 360° video.\n• Background playback support.\n\n• The room opens in the view you used last: landscape, the default, or portrait. The full-screen key turns the room to the other view and keeps that view for the next rooms. It does NOT follow the device rotation. (#243, #249).\n\n• After a reconnect or a new file, a phone that had left the app could pull the whole room back to its old position. It now takes the room's position. (#125).\n• Slightly improved colors and theming across the app. Each theme now builds its accent colours from one scale that stays readable on its background. While a video buffers, the play key turns round and its color moves along that scale.\n• On the home screen, a clock key next to the join key now shows the list of the recent rooms. Before, the recent rooms were a list under the join key.\n\n• Over video, a fading message from another person no longer disappears when your own message, or a message you have already seen, arrives. Each new message starts the fade again. (#162, fixed).\n\n• Changed some of how room messages read, for more fidelity with how Syncplay PC reads. (#216).\n\n• On a server where rooms can see each other, an opposite case also is fixed: the room operator line showed in every room. It now shows only in the operator's own room. (#213).\n\n• In German, Spanish, French, Russian and Chinese, more room messages now use the words of Syncplay PC. (#215).\n• When a server refuses you, for example because the server password is wrong, the room now shows the server's message once and stops trying. Before, it tried to join again and again without end. (#211).\n• The track selection and seek panels were only partly translated in languages other than English. They are now fully translated. (#232).\n• In a managed room, a person who is not an operator could press Play and be told to unpause again, which could never work for them. (#212).\n• Moving to another room with /room now writes a line that names the new room, for you and for the people you left. (#214).\n• A fast swipe from the top or bottom edge, to open the status bar or go home, no longer changes the volume or the brightness. (#137, reported).\n• A tap next to the tabs of the GIF panel no longer hides the room controls.\n• Leaving a room with several quick taps on Yes no longer crashes the app.\n• The home screen no longer crashes the app in a very narrow window, such as a split-screen window at its smallest size.\n• Android: switching dark mode, or changing the font size or the display size, while you are in a room with mpv or ExoPlayer no longer crashes the app.\n• Android: the text menu of a field no longer offers Autofill, because a tap on it could crash the app after the field had closed. Paste still works.\n• iOS: a failed join now says at once whether the server name was not found or the server refused. Before, it waited 10 seconds and gave a general reason. (#227).\n• iOS VLC: a file that cannot load now reports so. (#234).\n• iOS VLC: after a seek, the position could stop moving while the video played on. The app now sees a stopped position and seeks once more. (#233).\n• iOS: the engine picker now describes the engines that iOS has. (#221).\n• Android TV: video now always takes the display path that can carry HDR, also with frosted glass on. (#224).\n• Android TV: while the room controls are hidden, the remote's focus now stays on the video. A D-pad press shows the controls and lands on the play key. (#177, fixed).\n• Desktop: the picture-in-picture key is gone, because it did nothing. (#223). Instead, the room has a full-screen key next to the seek bar. It switches the window between full screen and windowed, as the F key does. (#222).\n\n• macOS: the app now fills the whole window, title bar included. The close, minimize and full-screen buttons sit in the app's top corner, next to the top bar and the message box.\n\nDependency Updates::\n\n• KitePlayer is updated to 0.4.0. It no longer pauses for a moment now and then, as it did in 0.26.0. (#178). It also supports HLS and DASH now, even 360° video.\n• iOS VLC: updated to VLCKit 4.0.0a26.\n• Android: ExoPlayer is updated to Media3 1.12.0-beta01.\n• iOS: the connection library is updated to SwiftNIO 2.105.0.\n• The app is now built with the Kotlin Toolchain instead of Gradle. Nothing changes in how the app works.\n• The ExoPlayer-only APK is reproducible again, so IzzyOnDroid can verify it. The 0.26.0 APK failed that check. (#166).\n• The licence now has an App Store exception to the AGPL, because the app ships on the App Store. (#225).\n\nHelp translate Synkplay on Weblate.",
+          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.27.0/synkplay-0.27.0-ios.ipa",
+          "size": 88719408,
           "minOSVersion": "15.0"
         }
       ],
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.12.1",
-          "date": "2026-11-23T13:04:46Z",
-          "localizedDescription": "Reconcile dependent consumers with venue-aware grouping and progressive history while retaining source, privacy, cache and ownership assertions.\n\nThe .ipa below is UNSIGNED and was built by CI from 9ff3be7, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.12.1/BirdChaser-unsigned.ipa",
-          "size": 143505884,
+          "version": "2.12.3",
+          "date": "2026-11-24T05:28:48Z",
+          "localizedDescription": "Changes:\n\n• Clearer Stakeout taxonomy: the selected bird now comes first, followed by broader candidates with aligned turning arrows and same-level \"or\" alternatives. Taxonomy categories, not name punctuation, distinguish italic spuhs from upright slash taxa. Selection, limited-coverage warnings, Details and variant actions remain explicit.\n• Visible year/region tag: the existing compact header control uses the reviewed background, white text and visible outline. The complete year/region label, keyboard focus and accessible hit target remain intact.\n• Current-county shortcut: recently verified Here or saved-Home county evidence can appear above the independently collapsed All counties list. Its source is labelled separately from the selected view. Opening the chooser does not request GPS or silently select a county.\n• Review Home before saving: manual and GPS Settings lookups display a candidate map, coordinates and an explicit unsaved state. Save Home commits the reviewed candidate; Cancel keeps the saved Home. Ordinary Settings saves no longer approve a Home candidate.\n• Honest ABA Twitches availability: unsupported aggregate Rare Bird Alerts show the reason, disable unsupported Refresh and offer Choose region. The separate Mega rarities surface remains distinct; supported-region feeds are unchanged.\n• Useful Stakeout location headers: the existing representative public hotspot is a working primary link. Only additional sources appear underneath; single-location groups omit that section. Private sources retain private treatment and link their supporting checklist IDs without becoming public hotspots.\n• Recoverable Find more reports: cancelling visible Stakeout history work restores explicit continuation without discarding known evidence or restarting automatically on a metadata repaint. Active work still prevents duplicate submission. The original reported device trigger has not been independently established.\n\nVerification and delivery:\n\nThe exact released source passed the complete app catalog and all six real-Chrome layout profiles. The published unsigned IPA was independently downloaded, digest-checked and verified against its exact source, embedded build and public/native bundle contracts.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.12.3/BirdChaser-unsigned.ipa",
+          "size": 143509542,
           "minOSVersion": "15.0"
         }
       ],
@@ -1312,8 +1312,8 @@
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/session.webp",
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/worlds.webp",
         "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/map.webp",
-        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/packages.webp",
-        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/marketplace.webp"
+        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/character.webp",
+        "https://cdn.jsdelivr.net/gh/elymsyr/dungeon-master-tool@main/media/packages.webp"
       ],
       "versions": [
         {
@@ -2141,11 +2141,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.11.14",
-          "date": "2026-11-21T23:37:50Z",
-          "localizedDescription": "Fixed:\n\n• An attempted fix for the game pausing for a moment after a brief graphics stall on some Android phones (the opening cinematic on a Mali phone): the game's own background copies and automatic captures no longer wait for the slow picture to finish.\n• An attempted fix for the unsteady frame rate in busy scenes on some phones like the moto g24, such as the boat in the opening: the game no longer asks the graphics chip to draw the tiny pieces of scenery that are too small to show up in any pixel. It checks itself at start-up and turns this off if anything looks wrong, and keeps it off until the next version if the game closes with a crash or a graphics problem while it is in use.\n• An attempted fix for uneven speed in the opening cinematic and for the slowdown in ordinary play that the previous version brought to some Android phones (a Mali phone) with Frame rate Original: the next picture now goes to the graphics chip while the one before is still finishing, so that the chip does not sit waiting between pictures. If the game closes with a crash or a graphics problem while this is in use, it stays off until the next version.\n• An attempted fix for the missing room in the dream at the start of the game with the North American disc: its walls, floor and windows are drawn again around Ico instead of an empty cloudy sky.",
-          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.14/ico-pc-v0.11.14-ios-unsigned.ipa",
-          "size": 9789624,
+          "version": "0.11.15",
+          "date": "2026-11-24T03:36:35Z",
+          "localizedDescription": "New:\n\n• Options \u003e Controls \u003e Zoom type: choose Toggle to press the zoom button (R2) once to zoom the camera in and again to zoom it out, instead of holding it.\n• Options \u003e Controls \u003e Camera reset: turn it on to bring the camera straight back to Ico with a press of R3 (click the right stick in) after looking around.\n• Pop-up messages are smaller, and several of them, the save state messages first, say the same in fewer words.\n• The log now also notes the phone's temperature, whether it is slowing the processor to cool down, the battery's draw, and a short summary of where each scene's time went, so a shared log shows more clearly what to improve next.\n• At its first start on a device the game times a few small test pictures, for up to a second and a half, and writes in its log how fast the graphics chip does each kind of drawing, so a log from a slow phone shows what its time goes into.\n\nFixed:\n\n• An attempted fix for short freezes in the title and menus on some Android phones after a slow picture, when the game made its background copy.\n• An attempted fix for the stutter in the boat scene on phones like the moto g24: the skipping of tiny pieces of the picture added in the previous version did not help there, so the game now times it with and without once at the start of play (the first scene after the title) and keeps the faster for the session.\n• An attempted fix for the stutter in busy scenes such as the boat on phones like the moto g24: some of the scenery is now drawn in a way that can let the graphics chip skip hidden parts sooner. It checks itself when the game starts and is timed once early in play, in the first scene where it is used: it is kept for the session only if it measured faster, and it stays off after a graphics problem.\n• An attempted fix for the stutter in busy scenes such as the boat on phones like the moto g24: most of the scenery is now drawn by a shorter version of its colouring step that does only what that scenery needs, with the same picture. It checks itself when the game starts and is timed once early in play: it is kept for the session only if it measured faster, and it stays off after a graphics problem.",
+          "downloadURL": "https://github.com/nathanialf/ico-pc/releases/download/v0.11.15/ico-pc-v0.11.15-ios-unsigned.ipa",
+          "size": 9889116,
           "minOSVersion": "15.0"
         }
       ],
@@ -2755,11 +2755,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.2",
-          "date": "2026-11-20T18:24:57Z",
-          "localizedDescription": "New:\n\n• You can see when Netfish is connected away from home. At start-up, a small ring appears ahead of the fish, and the fish swims through it once WireGuard is connected.\n\nChanged:\n\n• Away from home: choose the file. Settings → Away from home now takes the WireGuard .conf file itself (tap to choose it, or drag it in on a computer). Pasting still works.\n\n• Before saving, it shows where the file connects and what it reaches, and warns when your server isn't among them.\n• Once saved, it shows whether it's connected, ready for when you're out, or couldn't connect.\n\nUpdate:\n\n• Server, for the new Away from home in Settings.\n• Android and Mac apps, to choose the file and for the start-up ring. Windows app for the ring.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.9.2/Netfish-ios.ipa",
-          "size": 933246,
+          "version": "0.9.3",
+          "date": "2026-11-24T06:49:08Z",
+          "localizedDescription": "Changed:\n\n• Starting away from home is one smooth movement. The ring, the tunnel, keeps its shape and breathes all along: the fish swims into it and is gone, the tunnel waits for as long as Netfish takes to load, then the fish swims out of it as the net draws. \"Connected through WireGuard\" stays until then.\n\nUpdate:\n\n• Server, for the opening animation.\n• Android, Mac and Windows apps.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.9.3/Netfish-ios.ipa",
+          "size": 934646,
           "minOSVersion": "16.0"
         }
       ],
@@ -2927,10 +2927,10 @@
       "category": "utilities",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Sync.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Player.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
       ],
       "versions": [
         {
@@ -5565,11 +5565,11 @@
       ],
       "versions": [
         {
-          "version": "1.27.20",
-          "date": "2026-11-15T05:02:52Z",
-          "localizedDescription": "✨ Features:\n\n• Add shared support cards to Settings and optional startup reminders, with animated headers, automatic paging and clickable page indicators. Keep GitHub Star and donation actions, and offer store review or Flathub favorites links for the current distribution. Remember Remind me later and Don't remind me again choices (#707).\n• Choose and remember the interface style in Display settings. When using the Apple style, choose automatic, inset or edge Sidebar appearance (#709).\n\n🐛 Fixes:\n\n• Restore normal browsing after an empty search in the Apple interface (#703).\n• Restore WebDAV sync with mixed authentication challenges, including Fastmail (#705).\n• Preserve Loop import history for habits with non-Latin names and retain record notes (#706).\n• Refresh support cards and open previews when their channel changes, and keep background support controls visually enabled while a dialog is open (#707).\n• Restore startup support reminders on Windows and Linux, and close the support dialog before asking for sync confirmation (#708).\n• Preserve habit-page floating button transitions after switching interface styles (#709).\n• Keep the macOS app category consistent with the category selected in Xcode (#711).\n\n🌐 Localization:\n\n• Update Arabic translation, thanks to Rostom HEO's contribution on Weblate (#702).\n• Update Spanish translation, thanks to Jesus Calle's contribution on Weblate (#710).\n• Update Welsh translation, thanks to Jon Stevenson's contribution on Weblate (store metadata, #710, #713).\n• Update Esperanto translation, thanks to Jon Stevenson's contribution on Weblate (store metadata, #710).\n• Prepare Welsh and Esperanto app locales, currently available only in debug builds. Untranslated app text falls back to English (#711).\n\n🧹 Others:\n\n• Add links to related projects and refresh donor and translator credits.",
-          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.20%2B209/mhabit-unsigned.ipa",
-          "size": 16672428,
+          "version": "1.27.24",
+          "date": "2026-11-24T03:02:07Z",
+          "localizedDescription": "🐛 Fixes:\n\n• Report corrupt Loop ZIP backups as import errors (#715).\n• Restore reliable first-frame rendering and window lifecycle handling on Windows. Use the English app name in the title bar to avoid garbled text (#715).\n• Correct English text in habit details, check-ins, reminders, import, export, and settings. Show the correct number of days until a habit starts in Russian and Ukrainian (#720).\n• Avoid a crash when entering full screen or resizing the window on macOS by temporarily switching to Skia.\n\n🌐 Localization:\n\n• Add Esperanto translation to the app and iOS Home Screen widgets, thanks to Jon Stevenson's contribution on Weblate (#717).\n\n🧹 Others:\n\n• Upgrade to Flutter 3.47.9 and Dart 3.13.7, and migrate the adaptive interface and animated lists to standalone packages (#715).\n• Adopt native Windows build flavors and align Linux and Flatpak packaging with the generic distribution (#715).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.24%2B213/mhabit-unsigned.ipa",
+          "size": 17635302,
           "minOSVersion": "15.0"
         }
       ],
@@ -6510,11 +6510,11 @@
       ],
       "versions": [
         {
-          "version": "1.6.39",
-          "date": "2026-11-23T16:44:30Z",
-          "localizedDescription": "iGhostVT 1.6.39 opens the MCP server to AI apps on other devices on your local network, lets a tap open a link on iPhone and iPad, and makes the MCP approval page readable in dark mode.\n\n• An AI app could use the MCP server only from the same device. MCP Server (until now Local MCP Server) also accepts apps on other devices on your local network, each still only after you allow it in iGhostVT, and refuses connections from anywhere else. Its address uses the device's .local name, such as http://my-mac.local:18765/mcp. The connection is not encrypted, so use it only on a network you trust.\n• The MCP settings hid the server's address behind Copy Address. On iPhone and iPad the section now shows both addresses — 127.0.0.1 for an app on the same device, the .local one for other devices — which you tap to copy, how many apps you have allowed, and Forget All; on a Mac, the button beside MCP Server opens them in a sheet, where you click an address to copy it.\n• On iPhone and iPad, tapping a link in a terminal only raised or hid the keyboard, and a long press opened the edit menu without selecting anything. A tap on a web link now opens it, the edit menu offers Open Link when a link is under your finger, and a long press selects the word under it — drag before you lift to select more.\n• On a Mac, ⌘-clicking a link in a terminal did nothing. A web link now opens in your browser; other links, such as file paths, still do not open.\n• In dark mode, the approval page an AI app opens showed its title, text, code and Cancel white on white. It is readable in both appearances now, and shows only the app's name, the code and Cancel.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.39-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.39.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
-          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.39/GhostRemote-1.6.39.ipa",
-          "size": 7304130,
+          "version": "1.6.41",
+          "date": "2026-11-24T08:59:44Z",
+          "localizedDescription": "iGhostVT 1.6.41 includes the MCP server helper in Mac self-update signature checks and in the Mac install and update scripts; it connects to devices on any 1.6 release.\n\n• Mac self-updates checked the Developer ID team signature of ighostvtd, ighostvtd-io, ighostvtd-remote and ighostvt-cli, but omitted ighostvt-mcp. The updater now verifies ighostvt-mcp on its own alongside the other bundled helpers before installing an update.\n• Scripts/mac-update-from-github.sh now re-signs and stops ighostvt-mcp when replacing an installed Mac bundle, and Scripts/mac-install.sh stops ighostvt-mcp alongside the other helpers during an in-place Mac upgrade.\n\nChoose iphoneos-arm64e for roothide, iphoneos-arm64 for a rootless bootstrap, iGhostVT-1.6.41-macos-notarized.zip for a Mac — it is signed and notarized, so it opens without clearing quarantine, and updates itself — or GhostRemote-1.6.41.ipa for an iPhone or iPad without custom firmware, which your sideloading app signs as it installs it. To run the relay, use the attached compose.yml; the image is ghcr.io/owngoal-dev/ighostvt-relay, and the digest is in relay-image.txt. SHA-256 sums are in SHA256SUMS, and the Mac app's in SHA256SUMS.macos.",
+          "downloadURL": "https://github.com/owngoal-dev/iGhostVT/releases/download/v1.6.41/GhostRemote-1.6.41.ipa",
+          "size": 7304124,
           "minOSVersion": "15.0"
         }
       ],
@@ -6687,7 +6687,7 @@
           "date": "2026-11-21T18:52:39Z",
           "localizedDescription": "Added:\n\n• When the narrator leaves the book for four minutes while you read along (another translation, or a part this edition leaves out), a card over the player offers Show the transcript or Find another book. The book is remembered, so The book under ⋯ › Read along goes back to it.\n• A zip of MP3s (or other sound files) added with Add a file becomes one audiobook, its files in name order as chapters, played from inside the zip. Only zips whose sound files are stored as they are; a compressed one says to unzip it and add the folder.\n• Sync transcripts, in Settings › Audiobooks: an audiobook's transcript syncs with the book, so another phone reads along without writing it again. On by default when Sync is on.\n• Android Auto: a Collections tab. Your 8 latest collections and series, each opening with quick starts (Continue, or Start for a new or finished one, and Newest), then its clips and audiobooks in order. A long series brings its first two, the newest and the stretch from where you left off, not all of it. Android only.\n• Android Auto: Next clip and Previous clip now go through the clip's collection or series in order, also when the car started it with the app closed (they used to go to the next under Up next). An audiobook's Next chapter after its last chapter goes on to the next book in its series, and Previous before the first goes back. Android only.\n• Under a collection's or series' Continue button: Last read (the clip you read last, even a finished one) and Newest (the clip added last). One that would open the same clip as Continue is left out.\n\n• Save with options (Add clips) can now put clips into a series as well as a collection: the list shows your series and offers both New collection… and New series….\n• Draw › Add › Note: drop a comment bubble anywhere on a clip, note or PDF, tap it to write a comment, and pick its colour and tags. The colours and tags are the highlights' own: a note's tag is offered on highlights and filters Highlights too. In Highlights a note shows as its comment, in its colour with its tags, beside the highlights (not as a drawing), and Copy all includes it. Hold a bubble to move it, or drag it with Select. Bubbles sync with a clip's drawings. They are not in a copy of a PDF, or Save as PDF, yet.\n• Audiobooks on iPhone keep playing with the screen locked, with back and forward on the lock screen and earbuds, the sleep timer and the chapter under the title.\n\n• A series or collection's Edit page has a Status row, to set where the story stands yourself when its site doesn't say (a blog like The Zombie Knight Saga). It syncs.\n\n• A story read to the end that's still being written says \"Caught up\", not \"All read\".\n\n• In Scroll, dragging a selected drawing or picture to the top or bottom edge scrolls the page along with it, so you can put it on another page. The scroll builds up and eases off smoothly.\n• Hold the pen still for half a second at the end of a rough line or circle to make it a straight line or a clean circle. A line's end follows the pen until you lift it, and a circle moves with it. Turn it on or off in the reader's settings, under Draw.\n\nChanged:\n\n• A sharper app icon: the same open book, road and sun, redrawn with curved pages, a page edge, a wider road that narrows toward the sun, and the sun rising behind the book.\n• Stories with no cover on their site (AO3, the forums, most of FictionPress) show a cover card of their own: the site, title and author on a colour picked from the story, the same each time.\n• A Discover story's Save asks just two things: Collection or series (picked on the Save with options page that opens, with your collections, your series, New collection… and New series…), or EPUB file.\n• Narrate with Kokoro or Piper makes up to about a minute ahead, not just the next paragraph, so a long paragraph after a short one no longer starts with a pause.\n\nFixed:\n\n• Android Auto: Next clip and Previous clip (and an audiobook's next and previous chapter) had the same arrows as the paragraph buttons, so beside them it looked like previous and next were swapped. They now show a list with an arrow. The car's tab names follow the app's language. Android only.\n• In Hebrew, the ⋯ menus of a collection, of Highlights and of Select opened partly off screen. On a phone on its side, a collection's ⋯ menu now scrolls instead of running off the bottom.\n\n• Typing in a search box right as a sheet closes (Audiobookshelf's sign-in, say) no longer sends the letters into the closing sheet's fields.\n• Drawing in Pages on a PDF or a note no longer moves or turns the page under your pen or finger, and what you draw or erase stays on the page you are on.\n• With Draw on in Pages, pinching zooms the page where it is and you can keep drawing on it, instead of opening the picture viewer. The page stays locked: zooming never shows another page. Sweep two fingers sideways to turn, which locks to the new page.\n• Dragging a selected drawing or picture to the side of the screen in Pages and holding it there for a moment carries it to the next page.\n• Zooming in Pages now keeps the spot under your fingers, as in Scroll, instead of drifting off to the right.\n• A note's new sheet in Pages is now laid out like the others.\n• On a small phone (320 px), the picking bar's Collection and Mark read ran into each other, and the Draw bar cut off the pen and Done at its ends.\n• With the phone on its side, the app lock's title and Forgot passcode were off the screen. They now sit beside the keys.\n• On a tablet or computer, Stats and Anki had no name at the top of the screen.\n• In Hebrew, the picking bar's Tags, Collection, Edit and Delete, the reader's Back to where you were, Read next and Shortcuts, and the Offline pill stayed in English.\n• With Audiobookshelf turned on, the app could start with it half loaded, so a book from your server might not play until the app was restarted.\n• Save in shows only when it matters: a Discover story saved as a collection or series, or a book added as clips, no longer shows a Save in pick that did nothing.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.69.0/Waypage.ipa",
-          "size": 22620467,
+          "size": 22623180,
           "minOSVersion": "15.5"
         }
       ],
@@ -6711,11 +6711,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.58",
-          "date": "2026-11-12T05:52:24Z",
+          "version": "0.8.60",
+          "date": "2026-11-24T01:18:57Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.58/Gen2Recomped-0.8.58-ios.ipa",
-          "size": 35974491,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.60/Gen2Recomped-0.8.60-ios.ipa",
+          "size": 36598878,
           "minOSVersion": "14.0"
         }
       ],
@@ -8357,7 +8357,7 @@
       "subtitle": "a client to stream videos (shows, movies) from proton drive",
       "localizedDescription": "Proton Stream:\n\nYour Proton Drive, streaming. A Netflix-style library for the videos in your Proton Drive and the share links people send you, on Linux, Windows, Android, Android TV and iOS.\n\nproton-stream.narl.io.\n\nThis is an unofficial, community-built client. It is not affiliated with, endorsed by, or supported by Proton AG. \"Proton\" and \"Proton Drive\" are trademarks of Proton AG, used here only to describe what the software talks to. It provides no content: it plays what you keep in Proton Drive or what is shared with you.\n\nFeatures:\n\nLibrary.\n\n• Public share links or your own Drive. Paste a share link, with its password if it has one, or sign in and pick folders of your Drive. Any number of them merge into one library.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.narl.protonstream.png",
-      "tintColor": "#8459de",
+      "tintColor": "#a77ce1",
       "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/narrrl/proton-stream@main/images/android-home.png",
@@ -8367,11 +8367,11 @@
       ],
       "versions": [
         {
-          "version": "2.2.0",
-          "date": "2026-11-23T01:15:13Z",
-          "localizedDescription": "• refactor(core): keep secrets through proton-auth-rs; rusqlite 0.41.\n• refactor(core): migrations and atomic config writes from proton-base-rs.\n• refactor(stream): block maps, single flight and disk cache from proton-media-rs.\n• feat: keep thumbnails and artwork in the shared picture cache.\n• refactor(core): sign in through proton_auth_rs::session.\n• refactor(core): sign in through proton_sdk::login.\n• fix(android): put the launcher icon on a deep violet plate.\n• feat(packaging): AppStream metainfo and fastlane store metadata.\n• fix(app): run on the discrete GPU and buffer 4K on Windows.\n• fix(android): ship armeabi-v7a for 32-bit Android TVs.\n• refactor(stream): use the stream engine from proton-media-rs 0.2.0.\n• fix(core): don't store a refreshed session after sign-out.\n• feat(packaging): Flatpak manifest and build script.\n• Crawl own-Drive folders when Drive reports a change.\n• ci(android): cache Robolectric's android-all jars.\n• AUR packages: proton-stream, -bin and -git.\n\n• fix(packaging): spell out the metainfo path in the RPM spec.",
-          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.2.0/proton-stream-2.2.0-ios.ipa",
-          "size": 26923325,
+          "version": "2.3.0",
+          "date": "2026-11-23T22:17:27Z",
+          "localizedDescription": "• fix(player): start on a libmpv built without Lua.\n• fix(app,player): destroy the mpv core off the ui thread.\n• feat(android): drive the app with a TV remote.\n• Feat/android tv UI.\n• feat: the suite's look, and a Stream mark with currents.",
+          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.3.0/proton-stream-2.3.0-ios.ipa",
+          "size": 27052933,
           "minOSVersion": "17.0"
         }
       ],
@@ -8969,10 +8969,10 @@
       "versions": [
         {
           "version": "1.5.1",
-          "date": "2026-11-23T16:51:55Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 54e6037. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-263/Ito-1.5.1-dev.263-unsigned.ipa",
-          "size": 15150532,
+          "date": "2026-11-24T01:39:40Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit 7e04aa3. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-264/Ito-1.5.1-dev.264-unsigned.ipa",
+          "size": 15150123,
           "minOSVersion": "15.4"
         }
       ],
@@ -9760,11 +9760,11 @@
       ],
       "versions": [
         {
-          "version": "1.17.0",
-          "date": "2026-11-07T22:31:42Z",
-          "localizedDescription": "Features:\n\n• phone: PHOENIX has a night and a day shift (Settings \u003e Company \u003e Night / Day), each with its own fixed route: route.json for nights, route-day.json for the day tour. Tonight's rows match only the chosen shift's route, and new stops join that one. The day tour has no opticians, so Load shows only the van (45f07f0).",
-          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.17.0/TourPlanner-unsigned.ipa",
-          "size": 22248272,
+          "version": "1.17.1",
+          "date": "2026-11-24T05:00:46Z",
+          "localizedDescription": "Bug Fixes:\n\n• app: drop --experimental-default-type, removed in Node 26 (4f69c20).\n• app: stack stop-order icons over labels so four options fit (259b126).\n\nPerformance Improvements:\n\n• android: build the APK for arm64, armeabi-v7a and x86_64 only (f31dfc8).",
+          "downloadURL": "https://github.com/saeedkolivand/tour-planner/releases/download/v1.17.1/TourPlanner-unsigned.ipa",
+          "size": 22342968,
           "minOSVersion": "16.4"
         }
       ],
@@ -10010,11 +10010,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.137",
-          "date": "2026-11-22T20:22:45Z",
+          "version": "0.8.138",
+          "date": "2026-11-24T00:53:09Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.137/NicotinD-0.8.137-unsigned.ipa",
-          "size": 1743129,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.138/NicotinD-0.8.138-unsigned.ipa",
+          "size": 1743043,
           "minOSVersion": "15.0"
         }
       ],
@@ -10172,11 +10172,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.0.9",
-          "date": "2026-11-23T11:24:00Z",
-          "localizedDescription": "• Add High Definition option for Internet connections.\n• Add multiple addresses and Tailscale discovery.\n• Fixes and improvements.",
-          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.9/OpenScreenSharing.ipa",
-          "size": 11742697,
+          "version": "1.0.10",
+          "date": "2026-11-24T04:34:33Z",
+          "localizedDescription": "• Replace floating toolbar handle with assistive ball.\n• Fixes and improvements.",
+          "downloadURL": "https://github.com/nekohasekai/open-screen-sharing/releases/download/v1.0.10/OpenScreenSharing.ipa",
+          "size": 11765704,
           "minOSVersion": "15.0"
         }
       ],
@@ -13354,11 +13354,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.72",
-          "date": "2026-11-22T12:28:43Z",
-          "localizedDescription": "English:\n\n• Tasks join an upgrade already started in Settings and wait for it to finish.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
-          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.72/Floe-Agent-1.8.72-build393-unsigned.ipa",
-          "size": 721843642,
+          "version": "1.8.78",
+          "date": "2026-11-23T22:31:25Z",
+          "localizedDescription": "English:\n\n• Return to the app and open long conversations more quickly. Background task status follows the current run outcome.\n• Questions and task progress updates run directly. Approval model reasoning is off by default and can be enabled in Agent \u0026 Permissions.\n• Paired devices can sync user attachments. Workspace rename and deletion sync has its own setting, with conflicting versions preserved.\n• The game workbench adds native runtime support. Run games from the workbench or IDE, with saves kept per project.\n• Studio can turn programmatically generated pixel frames into video. Voice playback supports DeepSeek streaming.\n• In-app illustrated help explains what each workbench does and how to use it.\n\nGitHub IPA 未签名，不能直接安装，也不是 App Store 上传包。 The GitHub IPA is unsigned, cannot be installed directly, and is not the App Store upload package.",
+          "downloadURL": "https://github.com/JiangNanGenius/floe-agent/releases/download/v1.8.78/Floe-Agent-1.8.78-build399-unsigned.ipa",
+          "size": 736117257,
           "minOSVersion": "26.0"
         }
       ],
@@ -13375,7 +13375,7 @@
           "NSHealthShareUsageDescription": "Floe reads the Health data you request after you authorize access.",
           "NSHealthUpdateUsageDescription": "Floe only reads the Health data you authorize; it does not save or modify Health data.",
           "NSHomeKitUsageDescription": "Floe accesses your Home only when you enable Home tools and request an automation action.",
-          "NSLocalNetworkUsageDescription": "Floe discovers nearby devices only when you start a local-network check or ask the assistant to do so.",
+          "NSLocalNetworkUsageDescription": "Floe uses the local network to check for nearby devices on request and to sync selected conversations with devices you pair.",
           "NSLocationWhenInUseUsageDescription": "Floe uses your location when you open the location toolbox or request weather and nearby places. Wi-Fi diagnostics needs precise-location permission to show the connected network and access point. Running tasks may continue using approximate location in the background.",
           "NSMicrophoneUsageDescription": "Floe uses the microphone when you dictate, record music or meetings, or start sound analysis.",
           "NSMotionUsageDescription": "Floe uses motion and pressure sensors when you open the corresponding instruments in the toolbox.",
@@ -13462,10 +13462,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-23T12:48:05Z",
-          "localizedDescription": "Immutable snapshot of alpha build 557 (a56a47f).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 557, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-557/Non-Jailbroken.ipa",
-          "size": 124827064,
+          "date": "2026-11-24T07:34:03Z",
+          "localizedDescription": "Immutable snapshot of alpha build 561 (319d494).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 561, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-561/Non-Jailbroken.ipa",
+          "size": 124846162,
           "minOSVersion": "17.0"
         }
       ],
@@ -13576,36 +13576,6 @@
       }
     },
     {
-      "name": "Lumisound",
-      "bundleIdentifier": "com.lumisound.ios",
-      "developerName": "VoxeliseStudios",
-      "subtitle": "Your music, lit up",
-      "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.png",
-      "tintColor": "#8e60b4",
-      "category": "entertainment",
-      "versions": [
-        {
-          "version": "2.0.0.68",
-          "date": "2026-11-23T20:04:18Z",
-          "localizedDescription": "Lumisound iOS v2.0.0.68:\n\nInstallation: Download the IPA and install with Sideloadly or AltStore.\n\nAltStore users: Add the source URL from Settings → Streaming to get automatic updates.",
-          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/ios/v2.0.0.68/Lumisound-2.0.0.68.ipa",
-          "size": 17913333,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "Lumisound checks your connected Bluetooth accessory's battery level so it can warn you before it dies.",
-          "NSFaceIDUsageDescription": "Lumisound can use Face ID to lock the app, since it syncs your playlists and listening history to your account.",
-          "NSHealthShareUsageDescription": "Lumisound reads your headphone audio exposure to help you spot loud listening habits, and your sleep data (if you use the Adaptive Sleep Timer) to learn roughly when you fall asleep.",
-          "NSMicrophoneUsageDescription": "Lumisound records a short hum to find a matching song already in your library.",
-          "NSMotionUsageDescription": "Lumisound uses head tracking to anchor Spatial Audio in place as you turn your head, and step counting (Workout Mode) to match playback speed to your pace."
-        }
-      }
-    },
-    {
       "name": "CyPort",
       "bundleIdentifier": "com.example.cyport",
       "developerName": "Thijs2004",
@@ -13697,17 +13667,17 @@
       "bundleIdentifier": "com.suversal.wrappin",
       "developerName": "suversal",
       "subtitle": "iOS 27+ 本机虚拟定位与步行路线测试工具",
-      "localizedDescription": "User guide · @suversal on X.\n\nWrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language.\n\nUse WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.\n\nWhat you need:\n\nThis guide uses the free route: iLoader + SideStore + LocalDevVPN + WrapPin.\n\n• A physical iPhone running iOS 18 or newer, with a passcode set. iOS 18–26 needs a computer for initial pairing.",
+      "localizedDescription": "User guide · @suversal on X.\n\nWrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language.\n\nUse WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.\n\nWhat you need:\n\nThis guide uses the free route: iLoader + SideStore + LocalDevVPN + WrapPin.\n\n• A physical iPhone or iPad running iOS/iPadOS 18 or newer, with a passcode set.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.suversal.wrappin.png",
       "tintColor": "#356ed4",
       "category": "other",
       "versions": [
         {
-          "version": "1.0.25",
-          "date": "2026-11-18T17:29:45Z",
-          "localizedDescription": "SHA-256：.",
-          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.25/WrapPin-Standard-1.0.25-build93-unsigned.ipa",
-          "size": 7117623,
+          "version": "1.0.26",
+          "date": "2026-11-24T07:09:57Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/suversal/WrapPin/releases/download/v1.0.26/WrapPin-Standard-1.0.26-build96-unsigned.ipa",
+          "size": 7161177,
           "minOSVersion": "18.0"
         }
       ],
@@ -13762,11 +13732,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.7.49",
-          "date": "2026-11-21T21:27:06Z",
-          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-21.",
-          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-421/TwitchUnblock.ipa",
-          "size": 4840121,
+          "version": "1.7.54",
+          "date": "2026-11-24T03:39:37Z",
+          "localizedDescription": "Automatic build of the test-17d298 branch on 2026-11-24.",
+          "downloadURL": "https://github.com/MXFia19/TwitchUnblock/releases/download/test-426/TwitchUnblock.ipa",
+          "size": 4892988,
           "minOSVersion": "16.0"
         }
       ],
@@ -13809,6 +13779,30 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "Marble Blast Ultra uses the local network to discover and connect to nearby players for multiplayer."
         }
+      }
+    },
+    {
+      "name": "Lumisound",
+      "bundleIdentifier": "com.lumisound.ios.tv",
+      "developerName": "VoxeliseStudios",
+      "subtitle": "Your music, lit up",
+      "localizedDescription": "What you get:\n\nSound.\n\n• The Lumisound engine: gapless playback, crossfade and DJ-style Smart Crossfade, speed and pitch.\n• LumiEQ with presets for every kind of music and Auto EQ that tunes itself to each song.\n• Volume boost that stays clean, Spatial Audio rooms with head tracking, reverb, night mode.\n• Effects such as Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore and Slowed + Reverb.\n• Music Haptics, Skip Silent Intros, ReplayGain.\n\nLibrary.\n\n• Duplicate Finder that compares the sound itself, Library Health, backups and a 30-day Recently Deleted.\n• Synced lyrics, smart playlists, stats, a yearly Rewind and achievements.\n\nNow Playing.\n\n• More than 25 animated artwork styles and 11 seeker styles, or design your own.\n• Widgets, a Live Activity, Siri and Shortcuts, Focus filters and Car Mode.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lumisound.ios.tv.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.0.43",
+          "date": "2026-11-24T02:45:52Z",
+          "localizedDescription": "Apple TV build for Lumisound v2.0.0.43.\n\nInstall: download the .ipa and sideload it to your Apple TV with atvloadly. Search and stream from the Lumisound bridge.",
+          "downloadURL": "https://github.com/VoxeliseStudios/Lumisound/releases/download/tvos/v2.0.0.43/LumisoundTV-2.0.0.43.ipa",
+          "size": 12147119,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
