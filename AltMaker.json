@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.tx3stn.atolla",
-    "com.geode.launcher",
-    "com.wyatthoutz.birding"
+    "com.brewlog.app",
+    "com.joemattiello.iCube",
+    "dev.offdesk.ios"
   ],
   "apps": [
     {
@@ -976,10 +976,10 @@
       "versions": [
         {
           "version": "1.0.8",
-          "date": "2026-11-21T17:45:24Z",
-          "localizedDescription": "Automated nightly build generated from commit 6dcc9135ce048548efafd42f9d017c3b9ea05f0e on 2026-11-21 17:45 UTC.\n\nWhat's new:\n\nfix(paste): adds support to paste files on linux feat(chat): add keyboard intent for android chore(chat): remove context menu Merge pull request #41 from resucutie/feature/keyboard-paste.",
-          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.8-nightly.225/Lampcord.ipa",
-          "size": 37698457,
+          "date": "2026-11-25T02:41:17Z",
+          "localizedDescription": "Automated nightly build generated from commit 20aa2aad4bbace60cca6199df60a682f0d5bfee8 on 2026-11-25 02:41 UTC.\n\nWhat's new:\n\nci: automate AUR package publishing.",
+          "downloadURL": "https://github.com/l6t9/Lampcord/releases/download/v1.0.8-nightly.244/Lampcord.ipa",
+          "size": 37785506,
           "minOSVersion": "17.0"
         }
       ],
@@ -1954,11 +1954,11 @@
       ],
       "versions": [
         {
-          "version": "0.23.0",
-          "date": "2026-11-19T20:51:02Z",
-          "localizedDescription": "The game has a Discord server now, a place to talk that's quicker than GitHub's Discussions:\n\n• #general, #runs-and-folders and #screenshots-and-clips for your runs, the folders that carried them, and the moments worth showing.\n• #net-square to find an opponent for a NetBattle, trade, or talk about the week's DeepNet. Pick the NetBattle pings role and anyone looking for a match can ping you.\n• #battle-network for the original games.\n• help, a forum tagged by topic and system, for setups, ROMs (your own dump, never a link), saves and online play.\n\n• #dev-talk for how the game is made, and the Lounge to talk by voice.\n\nBusterUp and the Champy chips with BN4's ROM:\n\nWith Battle Network 4's ROM in the game, BusterUp did nothing, and neither did FireHit1-3 (the Champy chips, whose punch never came), FlmHook1-3, SandWrm1-3, GolmHit1-3, JustcOne and ColArmy. BN4's chips were added to the game's table for chips like these, but the table kept only the first 7 of BN6's 23 entries. It keeps all of them now. BusterUp raises MegaMan's buster by one level for the rest of the battle, as in BN6: a shot deals 2 instead of 1, and a charged shot 20 instead of 10. With BN6's ROM alone, or with BN5's beside it, these chips always worked. Thanks to the players who reported them.",
-          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless.ipa",
-          "size": 2676844,
+          "version": "0.24.0",
+          "date": "2026-11-25T00:11:08Z",
+          "localizedDescription": "MegaMan in colours of your own:\n\nColours, a new entry of the PET's menu, opens a screen where MegaMan's armour, his suit and his gold each take any colour of the palettes you own. The preview follows the cursor, and three looks are kept, A to C. He wears it on the field, in battle, in a chat box and on the Custom screen, BN6's shading kept. A Cross, a Soul or BeastOut keeps its own colours, and the look is back when the form ends.\n\nOther players see your MegaMan in your colours:\n\nIn the Net Square your look travels with your name, and the players around you are drawn in theirs. The plaza has room for three sets of colours besides yours: past that, the players farthest from you are drawn in BN6's blue until they come nearer, never in wrong colours.\n\nEvery starting folder on the setup's shelf:\n\nThe FOLDER row turns through all ten starting folders and counts the open ones. A locked folder can be looked at, not taken: the box says what it plays like, with a hint at what opens it, never the deed itself.\n\nFour starting folders:\n\n• Steady is BN6's own ExtraFolder (HiCannon, Vulcan2, EnergBom, LifeSword's three swords) with four Recov30. It opens once a run reaches act 3.\n• Navi is BN6's Navi folder made a start's: BlastMan, DiveMan and CircusMan with small chips in their codes, BblStar1 and WhiCapsl to hold a foe for them, and three Navi+20. It opens once you use a Navi chip.\n• Ember lays grass with GrasSeed and burns it with Fire chips, which hit a foe on grass for double. It opens once a guardian falls to MegaMan in HeatCross.\n• Tide is Aqua in codes A and T, double on Fire foes, with bubbles and IceSeed's ice to hold a foe still. It opens once a Fire guardian is deleted, so a profile that has beaten HeatMan or BlastMan has it at once.\n\nTeam ProtoMan guards the net, and their Souls are MegaMan's:\n\nWith BN5 Team Colonel's ROM beside BN6's, from act 2 a coin of the seed puts a BN5 area's guardian's partner in his place: GyroMan for ShadowMan, SearchMan for NumberMan, NapalmMan for TomahawkMan, MagnetMan for KnightMan, Meddy for ToadMan, and DarkProto, BN5's ProtoMan, for Colonel in the Undernet. The deep acts draw from all of them. Each fights as BN5's does. Team Colonel's ROM draws none of the other five on the net, so there they stand in a HeelNavi's body.\n\nEach leaves his Soul and a chip of its kind: GyroSoul, SearchSoul with its SHUFFLE, NapalmSoul, MagnetSoul, MeddySoul with her capsules on the Custom screen, ProtoSoul.\n\nIn the week's DeepNet, a crew is who walks with you:\n\nStand near another diver for a second and you are a crew, up to four; walk out of sight and you are not. Nothing to ask or answer. A crewmate's battle starts at once with every free crewmate in it, side by side at the front. Each diver's name stands over his MegaMan, your crew's in green with a ring at their feet; a plate under the HP box gives each crewmate's HP and where he is (his layer, BATTLE, BUSY, HOME), and the map and the second screen show them too. A crewmate deleted in a battle the crew wins is pulled back once a dive, on a quarter of each standing crewmate's HP. Game and server both need this version: an older one is told so at the gate.\n\nA guardian's door waits for your crew:\n\nA guardian's door waits ten seconds for your crew (hold A to go in early), and a party meets the guardian a diver alone meets, his HP times the party.\n\nInto the dive and out of it:\n\nThe portal asks once and says how many are diving (\"2 NAVIS DIVING! DIVE IN?\"), the title's CONTINUE takes an unfinished dive straight back up, a dive's end has a RESULT of its own and reaches the Board as it ends, and a dropped link is said in the band and taken up again however long it was away.\n\nA partner's HP in BN6's own digits:\n\nOn a party's field and in the Arena's two a side, your ally's HP stands under his name in BN6's battle digits, beside him as BN6 puts an enemy's, never over another MegaMan of the crew: orange while it falls, green while it rises.\n\nThree more:\n\n• A crew's battle could stall on its Custom screen for half a minute. A crewmate's chips were now and then lost on their way, and the field waited for them to the turn's limit. They always arrive now.",
+          "downloadURL": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.24.0/cyberworld-endless.ipa",
+          "size": 2808375,
           "minOSVersion": "14.0"
         }
       ],
@@ -4304,11 +4304,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.30.0",
-          "date": "2026-11-24T18:26:47Z",
-          "localizedDescription": "Offdesk Dev v0.30.0: every component at 0.30.0, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.30.0/offdesk-0.30.0.ipa",
-          "size": 9373065,
+          "version": "0.33.0",
+          "date": "2026-11-25T07:05:55Z",
+          "localizedDescription": "Offdesk Dev v0.33.0: every component at 0.33.0, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.33.0/offdesk-0.33.0.ipa",
+          "size": 11110862,
           "minOSVersion": "15.0"
         }
       ],
@@ -4369,11 +4369,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.3.3",
-          "date": "2026-11-15T10:21:49Z",
-          "localizedDescription": "Faster shader compiles, and a signed, notarized Mac app.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\nChanges:\n\n• Shader compilation is up to 43% faster. Measured on an iPhone across 10 game scenes, compile time dropped by 29% to 43% per scene, and by 36% overall. Shaders are now built with the game's fetch settings filled in, a shader that is only ever used that way no longer gets a second, generic copy, and the shader converter folds more constant work before handing a shader to iOS.\n• Stored shaders are rebuilt once after updating, because shader translation changed.\n• Mac: the app is signed with a Developer ID and notarized by Apple, so macOS opens it without the unidentified developer warning.",
-          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.3-build-11940/xenios_ios_iphone_ipad.ipa",
-          "size": 49667563,
+          "version": "2.3.4",
+          "date": "2026-11-25T05:16:44Z",
+          "localizedDescription": "Rebuilt on the latest Xenia Edge, with one shader converter for every game shader.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\nChanges:\n\n• Updated to Xenia Edge as of 23 November: 327 upstream changes since 2.3.3. They include kernel fixes for threads, timers, waits, file calls and guest exception handling, XMA audio loop fixes, System Link socket fixes, title update handling, and CPU instructions that follow the console more closely (vector saturation flag, reciprocal and logarithm estimates, NaN handling, string load and store).\n• The Metal renderer no longer uses Apple's Metal Shader Converter or Mesa's DXIL translator. Every game shader, tessellated surfaces included, now goes through spirv2air, and tessellation is drawn with Metal's own patch drawing.\n• Rendering fixes for Fable 2.\n• Stored shaders are rebuilt once after updating, because shader translation changed.\n\nBuild details:\n\n• Stage: stable.\n• Version: 2.3.4.\n• Build number: 12322.\n• Commit: 597119d2d.\n• Published at: 2026-11-25T04:35:59Z.\n• Source ref: refs/heads/xenios.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.4-build-12322/xenios_ios_iphone_ipad.ipa",
+          "size": 41084905,
           "minOSVersion": "26.0"
         }
       ],
@@ -5565,11 +5565,11 @@
       ],
       "versions": [
         {
-          "version": "1.27.24",
-          "date": "2026-11-24T03:02:07Z",
-          "localizedDescription": "🐛 Fixes:\n\n• Report corrupt Loop ZIP backups as import errors (#715).\n• Restore reliable first-frame rendering and window lifecycle handling on Windows. Use the English app name in the title bar to avoid garbled text (#715).\n• Correct English text in habit details, check-ins, reminders, import, export, and settings. Show the correct number of days until a habit starts in Russian and Ukrainian (#720).\n• Avoid a crash when entering full screen or resizing the window on macOS by temporarily switching to Skia.\n\n🌐 Localization:\n\n• Add Esperanto translation to the app and iOS Home Screen widgets, thanks to Jon Stevenson's contribution on Weblate (#717).\n\n🧹 Others:\n\n• Upgrade to Flutter 3.47.9 and Dart 3.13.7, and migrate the adaptive interface and animated lists to standalone packages (#715).\n• Adopt native Windows build flavors and align Linux and Flatpak packaging with the generic distribution (#715).",
-          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.24%2B213/mhabit-unsigned.ipa",
-          "size": 17635302,
+          "version": "1.27.25",
+          "date": "2026-11-25T04:00:03Z",
+          "localizedDescription": "Released: v1.27.25+214:\n\nThis release is intended for F-Droid only.\n\n🐛 Fixes:\n\n• Pin the Android NDK to r28c (28.2.13676358) so APK rebuilds can use the.\n\n🌐 Localization:\n\n• Complete the Welsh app translation and update Esperanto. Thanks to Jon Stevenson for both contributions on Weblate (#721).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.25%2B214/mhabit-unsigned.ipa",
+          "size": 17659609,
           "minOSVersion": "15.0"
         }
       ],
@@ -6711,11 +6711,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.60",
-          "date": "2026-11-24T01:18:57Z",
+          "version": "0.8.61",
+          "date": "2026-11-25T00:05:28Z",
           "localizedDescription": "Download the correct version for your computer below.",
-          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.60/Gen2Recomped-0.8.60-ios.ipa",
-          "size": 36598878,
+          "downloadURL": "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.61/Gen2Recomped-0.8.61-ios.ipa",
+          "size": 36639547,
           "minOSVersion": "14.0"
         }
       ],
@@ -8060,11 +8060,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.20.0",
-          "date": "2026-11-23T07:35:49Z",
-          "localizedDescription": "Added:\n\n• Use an Android phone or tablet as a second monitor of the computer.\n• Wake a sleeping computer from the phone with Wake-on-LAN.\n• Pair a phone by its IP address when discovery finds nothing.\n• Run automation rules when the phone leaves, rings, or notifies, and when an agent waits.\n• Show the herdr agents that need you in a home screen widget on the phone.\n• Select the audio output of the computer, and play its audio on the phone.\n• Sign SSH logins and Git commits with a key on the Android phone.\n• Answer an agent from its notification on Android, iOS, macOS, and Windows. Each app asks for its own unlock first and sends nothing until the unlock succeeds. The answer path checks the phone unlock first.\n\n• Show a note in the agent thread when Agent control is off on the computer. The note names the Access card.\n• Open the fingerprint check at once for an approval on Android 12 or later. The switch is off by default.\n\n• Ask for a confirmation before Agent control turns on from the Access card.\n• Show 4 cards on the device page of the Flux window when the phone can run commands.\n\nChanged:\n\n• Rename Control to Remote on Android. Remote shows rows in 3 groups: See, Use, and Share.\n\n• Move the sync switches from Computers to Settings. The Sync screen is gone.\n\n• Show the phone layout on a tablet in portrait.\n• Scroll the phone touchpad like the touchpads of the computer.\n• Put the touchpad at the side of the keys in landscape.\n• Let the remote desktop encode on the CPU with remote_desktop_encoder.\n• Show the number of the current call on the computer.\n• Show the connected state in the bar widget under a replacement bar.\n• Print the reason when an approval falls back to the password.\n• Cap the IPC send buffer, and log each link event with the device ID.\n\nFixed:\n\n• Find a phone again with flux-cli discover after its link closed.\n• Keep the spaces of the phone keyboard in a browser address bar.\n• Show sent text messages once and in time order on the desktop.\n• Keep the extended screen at the full size of the video on the phone.\n• Open the fingerprint prompt at most once for each request.\n• Keep the key file row silent when a folder is unreadable.\n• Keep a blocked agent of an offline computer in the badge count.\n\nFlux for iOS and macOS:\n\n• Answer an agent from its notification. The notification has the question and 1 action for each choice, or Reply. An action asks for Face ID, Touch ID, or the passcode on iOS, and for Touch ID or the password on the Mac. Flux reads the pane again and sends only when the dialog is the same. iOS posts these notifications only while Flux runs. A tap after Flux was suspended opens the thread and sends nothing.\n\n• Show the reason in the thread when the unlock fails for an answer, and post the notification again after a cancelled unlock.\n\nFlux for Windows:\n\n• Show the link state in the thread, the Agent control note, and since when a computer is not reachable.\n\nNot changed:\n\n• The pairing sheet and the fingerprint approval screen keep the layout and the text of v0.19.1.\n• The Send bar, Remote, Settings, and the scope chip are on Android only. iOS, macOS, and Windows get no new screen.\n\nThe new iOS, macOS, and Windows code is not tested on a device yet.\n\n• Merge the phase 2 QA fix: 1 link dot for each computer in the Remote scope row by Bjarne Oeverli (@bjarneo) (481e119).\n• Show one link dot for each computer in the Remote scope row by Bjarne Oeverli (@bjarneo) (9612341).\n• Merge the phase 2 QA fixes: the badge count, the Computers width, and the Remote chip by Bjarne Oeverli (@bjarneo) (05469f3).\n• Fix the badge count, the Computers width, and the Remote chip by Bjarne Oeverli (@bjarneo) (34dbb63).\n\n• Recapture the desk images of the site from the new Flux window by Bjarne Oeverli (@bjarneo) (4d6f7c8).\n• Rename the Sync switches heading to Settings and fix its links by Bjarne Oeverli (@bjarneo) (cce9aaf).\n• Merge the WP12 review fixes for Flux for iOS and macOS by Bjarne Oeverli (@bjarneo) (bb6725c).\n• Fix the second review of the Swift apps by Bjarne Oeverli (@bjarneo) (779f44c).\n• Merge WP12: add the core jobs of phase 1 to Flux for iOS and macOS by Bjarne Oeverli (@bjarneo) (43edf39).\n\n• Keep a blocked agent of an offline computer in the badge by Bjarne Oeverli (@bjarneo) (5cdd6c1).\n• Post the agent notification again after a cancelled unlock by Bjarne Oeverli (@bjarneo) (f30b101).\n• Show the reason in the thread when the unlock fails for an answer by Bjarne Oeverli (@bjarneo) (ef2f639).\n\n• Show the link state and the Agent control note in the iOS and macOS apps by Bjarne Oeverli (@bjarneo) (c89c9a6).\n• Answer an agent from its notification on iOS and macOS by Bjarne Oeverli (@bjarneo) (bac8759).\n• Port the agent dialog, notice, and link note models to Swift by Bjarne Oeverli (@bjarneo) (77df725).\n• Merge the WP13 review fixes for Flux for Windows by Bjarne Oeverli (@bjarneo) (a02b7a2).\n• Fix the review findings of the notification answer path on Windows by Bjarne Oeverli (@bjarneo) (249eaa1).\n• Merge WP13: add the core jobs of phase 1 to Flux for Windows by Bjarne Oeverli (@bjarneo) (e773d29).\n• Add the core jobs of phase 1 to Flux for Windows by Bjarne Oeverli (@bjarneo) (30c6eb2).\n• Merge the shell fix: show the phone layout on a tablet in portrait by Bjarne Oeverli (@bjarneo) (c9b0cf1).\n• Hide the sample approval when the demo has no blocked agent by Bjarne Oeverli (@bjarneo) (17d8256).\n• Show the phone layout on a tablet in portrait by Bjarne Oeverli (@bjarneo) (fab9c3b).\n\n• Merge the P5 fix from phase 1 into phase 2 by Bjarne Oeverli (@bjarneo) (9d275cb).\n• Merge WP17: group the Settings screen in 5 groups by Bjarne Oeverli (@bjarneo) (32983ae).\n• Merge the P5 fix: dismiss the lock screen before an answer from the notification by Bjarne Oeverli (@bjarneo) (1c51443).\n• Send an answer from the notification after the lock screen dismiss by Bjarne Oeverli (@bjarneo) (ea8bb86).\n\n• Show the groups of Settings in 2 columns only in landscape by Bjarne Oeverli (@bjarneo) (7b8be59).\n• Group the Settings screen in 5 groups that open in place by Bjarne Oeverli (@bjarneo) (0876a61).\n• Merge WP18: show Remote as rows in See, Use, and Share by Bjarne Oeverli (@bjarneo) (aab0937).\n\n• Show Remote as rows in See, Use, and Share, and add a menu key to the computer row by Bjarne Oeverli (@bjarneo) (0a3920e).\n\n• Merge phase 1 security fixes into phase 2 by Bjarne Oeverli (@bjarneo) (e630b40).\n\n• Merge phase 1 fixes into phase 2 by Bjarne Oeverli (@bjarneo) (212e960).\n• Merge the QA fix: tap only the action key in the timed test by Bjarne Oeverli (@bjarneo) (bbfe754).\n• Merge WP9: add Remote, Settings, and the scope chip to the Android map by Bjarne Oeverli (@bjarneo) (3b29a79).\n• Tap only the action key in the timed answer test by Bjarne Oeverli (@bjarneo) (d287b17).\n• Add the Remote name, the Settings screen, and the scope chip to the top bars by Bjarne Oeverli (@bjarneo) (8d72bcd).\n• Merge WP10: show 3 cards on the device page of the Qt window by Bjarne Oeverli (@bjarneo) (eb3a1b6).\n• Show 3 cards on the device page of the Qt window by Bjarne Oeverli (@bjarneo) (9767c19).\n• Merge WP11: print the reason when an approval falls back to the password by Bjarne Oeverli (@bjarneo) (f9a4160).\n• Merge the WP6 security fixes: open the prompt at most once for each request by Bjarne Oeverli (@bjarneo) (e2f4bc3).\n• Open the fingerprint prompt at most once for each request by Bjarne Oeverli (@bjarneo) (49dea5f).\n• Keep the key file row silent when a folder is unreadable by Bjarne Oeverli (@bjarneo) (658d8b9).\n• Merge WP3: answer an agent from its notification on Android by Bjarne Oeverli (@bjarneo) (11c82f3).\n• Merge WP4: show the link state where the user acts by Bjarne Oeverli (@bjarneo) (671c750).\n• Answer an agent from its notification on Android by Bjarne Oeverli (@bjarneo) (608546a).\n• Print the reason when an approval falls back to the password by Bjarne Oeverli (@bjarneo) (bc13430).\n\n• Show the connecting state in the sample thread from the debug page by Bjarne Oeverli (@bjarneo) (86f012d).\n\n• Merge WP7: add a fake herdr and a timed test for answers from the phone by Bjarne Oeverli (@bjarneo) (ed98e9a).\n• Add a fake herdr and a timed test for answers from the phone by Bjarne Oeverli (@bjarneo) (9a5d8a7).\n• Merge WP6: open the fingerprint check at once with an opt-in switch by Bjarne Oeverli (@bjarneo) (5a1294e).\n• Open the fingerprint check at once with an opt-in switch by Bjarne Oeverli (@bjarneo) (6b21af5).\n• Merge WP2: ask before Agent control turns on from the Access card by Bjarne Oeverli (@bjarneo) (3766f9c).\n• Ask before Agent control turns on from the Access card by Bjarne Oeverli (@bjarneo) (ecbf768).\n• Merge WP1: cap the IPC send buffer, log link events, and check herdr-core by Bjarne Oeverli (@bjarneo) (6cdf2fa).\n\n• Keep the extended screen at the full size of the video on the phone by Bjarne Oeverli (@bjarneo) (c0f2320).\n• Sign SSH logins and Git commits with a key on the Android phone by Bjarne Oeverli (@bjarneo) (c7ed750).\n• Play the audio of the computer on the phone with Play on phone by Bjarne Oeverli (@bjarneo) (c1fa0dc).\n• Select the audio output of the computer on the Media screen of the phone by Bjarne Oeverli (@bjarneo) (9aaedc0).\n• Use an Android phone or tablet as a second monitor of the computer by Bjarne Oeverli (@bjarneo) (644a578).\n• Show the herdr agents that need you in a home screen widget by Bjarne Oeverli (@bjarneo) (1b35b7c).\n• Wake a sleeping computer from the phone with Wake-on-LAN by Bjarne Oeverli (@bjarneo) (6a03d22).\n• Put the touchpad at the side of the keys in landscape by Bjarne Oeverli (@bjarneo) (a6efaff).\n• Pair a phone by its IP address when discovery finds nothing by Bjarne Oeverli (@bjarneo) (d62ebfb).\n• Scroll the phone touchpad like the touchpads of the computer by Bjarne Oeverli (@bjarneo) (337bda2).\n• Run automation rules when the phone leaves, rings, or notifies, and when an agent waits by Bjarne Oeverli (@bjarneo) (6b49a3b).\n• Show sent text messages once and in time order on the desktop by Bjarne Oeverli (@bjarneo) (f18a179).\n• Show the connected state in the bar widget under a replacement bar by Bjarne Oeverli (@bjarneo) (1b34a5f).\n• Keep the spaces of the phone keyboard in a browser address bar by Bjarne Oeverli (@bjarneo) (1021a4a).\n• Let the remote desktop encode on the CPU with remote_desktop_encoder by Bjarne Oeverli (@bjarneo) (0f3c63c).\n• Show the number of the current call on the computer by Bjarne Oeverli (@bjarneo) (47a50ca).\n• Find a phone again with flux-cli discover after its link closed by Bjarne Oeverli (@bjarneo) (1180ed3).",
-          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.20.0/flux-ios-0.20.0.ipa",
-          "size": 10643468,
+          "version": "0.20.1",
+          "date": "2026-11-24T21:27:49Z",
+          "localizedDescription": "Fixed:\n\n• Read the reason on the start screen when the selected computer cannot start an agent. For example, herdr is not running, or Agent control is off.\n\nFlux for Android is the only app that changes. The desktop package, Flux for macOS, Flux for iOS, and Flux for Windows have the same behavior as v0.20.0.",
+          "downloadURL": "https://github.com/bjarneo/flux/releases/download/v0.20.1/flux-ios-0.20.1.ipa",
+          "size": 10643466,
           "minOSVersion": "17.0"
         }
       ],
@@ -8136,11 +8136,11 @@
       ],
       "versions": [
         {
-          "version": "2.15.0",
-          "date": "2026-11-24T18:54:04Z",
-          "localizedDescription": "• New Settings → Appearance: choose the accent color (copper, blue, green, purple, red, graphite) and light, dark or system.\n\n• Settings → Appearance: choose the accent color (copper, blue, green, purple, red, graphite) next to light and dark.\n\nWeb.",
-          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.15.0/BrewLog.ipa",
-          "size": 12923681,
+          "version": "2.16.0",
+          "date": "2026-11-25T07:23:15Z",
+          "localizedDescription": "• Tap a bean's photo to see it full screen (pinch to zoom, double tap to reset).\n\n• Tap a bean's photo to see it full screen (pinch to zoom, double tap to reset).\n\nWeb.",
+          "downloadURL": "https://github.com/proelio57/BrewLog/releases/download/v2.16.0/BrewLog.ipa",
+          "size": 12940433,
           "minOSVersion": "17.0"
         }
       ],
@@ -8367,11 +8367,11 @@
       ],
       "versions": [
         {
-          "version": "2.4.0",
-          "date": "2026-11-24T10:11:06Z",
-          "localizedDescription": "• feat(android): Watch Next and voice search on a TV.\n• perf(ios): a smoother player, scrolling and poster grid.\n• fix: the Stream icon in Qt shells, the band round the nav bar, the iOS icon's plate.",
-          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.4.0/proton-stream-2.4.0-ios.ipa",
-          "size": 27197790,
+          "version": "2.5.1",
+          "date": "2026-11-25T03:49:14Z",
+          "localizedDescription": "• fix(core,android): list a copied episode once, and keep recovered mpv errors off the player.",
+          "downloadURL": "https://github.com/narrrl/proton-stream/releases/download/v2.5.1/proton-stream-2.5.1-ios.ipa",
+          "size": 27818328,
           "minOSVersion": "17.0"
         }
       ],
@@ -8469,11 +8469,11 @@
       ],
       "versions": [
         {
-          "version": "21.2.0",
-          "date": "2026-11-19T17:27:42Z",
-          "localizedDescription": "Added:\n\n• Swipe to close setting.\n• Metatag suggestions.\n• Recommended posts.\n• Dtext post thumbnails.\n• Comment avatars.",
-          "downloadURL": "https://github.com/clynamic/e1547/releases/download/21.2.0%2B108/e1547.ipa",
-          "size": 20360419,
+          "version": "21.2.1",
+          "date": "2026-11-24T21:01:09Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/clynamic/e1547/releases/download/21.2.1%2B109/e1547.ipa",
+          "size": 20368170,
           "minOSVersion": "15.0"
         }
       ],
@@ -8528,11 +8528,11 @@
       ],
       "versions": [
         {
-          "version": "0.12.0",
-          "date": "2026-11-19T20:36:46Z",
-          "localizedDescription": "Features:\n\n• Lower the minimum to iOS 17 and macOS 14 (#302) (0327e29).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.12.0/Empo-ios.ipa",
-          "size": 101839940,
+          "version": "0.12.1",
+          "date": "2026-11-25T05:07:15Z",
+          "localizedDescription": "Bug Fixes:\n\n• Read a keyword parameter as modern ruby grammar (#310) (ee3d678).\n• Read a prepend call as a ruby 1.9 call (#308) (677d9e9).\n• Read the scripts inside encrypted rgss archives (#309) (692cea0).\n• Keep the Japanese and Chinese file names of a zip made on Windows (#311) (ba141df).\n• Show a 40 fps game evenly on a 120 Hz iPhone (#316) (3b862cb).\n• Show the script error that stops a game at boot (#317) (3af4123).\n• Convert text in the Win32API stand-ins on Ruby 1.8 (mateo-m/mkxp-z-apple-mobile#100) (d84c788).\n• Open http and https links with System.launch (mateo-m/mkxp-z-apple-mobile#101) (d2d1101).\n• Add the Essentials screen border to the full-screen size (mateo-m/mkxp-z-apple-mobile#102) (34b5e80).\n• Run a frozen screen at the full frame rate (mateo-m/mkxp-z-apple-mobile#103) (5e94739).\n• Run LonaRPG on Ruby 1.9 (mateo-m/mkxp-z-apple-mobile#109) (04f1e46).\n• Let LonaRPG start a new game (mateo-m/mkxp-z-apple-mobile#110) (026eb09).\n• Log the frame rate only when it changes (mateo-m/mkxp-z-apple-mobile#115) (45b454b).\n• Split only the .rb files of the Data/Scripts loader (mateo-m/mkxp-z-apple-mobile#114) (cb79718).\n• Read a clear pixel without NaN in high-res mode (mateo-m/mkxp-z-apple-mobile#113) (9142d77).\n• Skip a patch folder that is missing (mateo-m/mkxp-z-apple-mobile#112) (475c36d).\n• End the game only when the first load fails (mateo-m/mvmz-apple-mobile#4) (a585f3d).\n• Report a script error that stops the game before its first frame (mateo-m/mvmz-apple-mobile#5) (b9bad68).\n• Start the game again from its resume point when iOS stops the web content process (mateo-m/mvmz-apple-mobile#6) (8475e76).\n• Load the gems that a game ships, and build bigdecimal (mateo-m/psdk-apple-mobile#9) (4407237).\n\nFeatures:\n\n• Fill the closed iPhone Duo screen and put the toolbar in the top left corner (#315) (5383116).\n• Report games that end while Empo is in the background (#320) (06ade18).\n• Write the frame times to the debug log (mateo-m/mkxp-z-apple-mobile#104) (9eb0b60).\n\nOther:\n\n• Pass the purchase tests on the first run on a new simulator (#305) (350fbe8).\n• Update the engine and PSDK pins (#313) (2ca3726).\n• Update the core and ANGLE pins (#318) (bfa6215).\n• Update the core and ANGLE pins (#319) (cb01b24).\n• Update the core and ANGLE pins (#321) (5691a50).\n\nPerformance:\n\n• Read game files through a buffer (mateo-m/mkxp-z-apple-mobile#105) (41244a3).\n• Give the game thread a frame deadline so that iOS runs it on the fast cores (mateo-m/mkxp-z-apple-mobile#108) (aa63290).\n• Send the texts of one frame to a bitmap together (mateo-m/mkxp-z-apple-mobile#111) (9e995b9).\n\niPhone and iPad: install the app with a sideloading tool. Install Empo on an iPhone or iPad shows how.\n\nMac: macOS blocks the app the first time you open it. Install Empo on a Mac shows how to allow it.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.12.1/Empo-ios.ipa",
+          "size": 102053442,
           "minOSVersion": "17.0"
         }
       ],
@@ -9421,11 +9421,11 @@
       ],
       "versions": [
         {
-          "version": "26.11.5",
-          "date": "2026-11-20T15:50:40Z",
-          "localizedDescription": "Desktop:\n\n• Use OneXray as a local HTTP and SOCKS5 proxy.\n\niOS / iPadOS:\n\n• Route Apple push notifications through the proxy with the APNs preset on iOS and iPadOS 16.4 or later.\n• See VPN connection status and startup failures in Control Center on iOS and iPadOS 18 or later.\n• Remove the app's VPN configuration from VPN Tunnel.\n\nmacOS (Mac App Store):\n\n• Remove the app's VPN configuration from VPN Tunnel.\n\nmacOS SE:\n\n• Uninstall the app's system extension from VPN Tunnel.\n\nWindows:\n\n• Open the Microsoft Store from the update button.\n\nLinux:\n\n• Install on Fedora with RPM or on Arch Linux with a pacman package.\n• Use the selected interface language on ARM64.\n\nAll platforms:\n\n• Choose provider configurations by subscription from Connect or after import.\n• Use subscription-supplied GeoIP and GeoSite data with supported provider configurations.\n• Reset Smart routing to its defaults.\n• Get a notice if the post-connection reachability check fails.\n• Xray-core v26.11.9.\n\nLinux:\n\n• Xray-core v26.11.9.\n\nWindows:\n\n• 更新按钮可打开 Microsoft Store。.\n\nLinux:\n\n• Xray-core v26.11.9。.",
-          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.5/OneXray-ios.ipa",
-          "size": 92192045,
+          "version": "26.11.6",
+          "date": "2026-11-25T02:43:36Z",
+          "localizedDescription": "Android:\n\n• In Smart routing, turn on “Google Play via VPN” to route Google Play requests through the VPN when mainland China is set to direct. The switch is off by default.\n\nWindows:\n\n• Added JSON editor hints for Windows Filtering Platform (WFP) settings.\n\nAll platforms:\n\n• Fixed bootstrap DNS for XDrive connections that use Google Drive.\n• Added JSON editor suggestions for delay and log level in Freedom block rules.\n• Xray-core v26.11.9.\n\nWindows:\n\n• Xray-core v26.11.9.\n\nWindows:\n\n• 修复 XDrive 使用 Google Drive 时的引导 DNS。.\n• Xray-core v26.11.9。.",
+          "downloadURL": "https://github.com/YuanDevTeam/OneXray/releases/download/v26.11.6/OneXray-ios.ipa",
+          "size": 92191519,
           "minOSVersion": "16.0"
         }
       ],
@@ -9716,7 +9716,7 @@
       "name": "Concat",
       "bundleIdentifier": "app.concat.editor",
       "developerName": "jub0t",
-      "subtitle": "Beta: The open-source CapCut alternative. Scriptable through a JSON-RPC API \u0026 MCP",
+      "subtitle": "The open-source CapCut alternative",
       "localizedDescription": "About:\n\nConcat is a free, open-source video editor for macOS, Windows, Linux, Android and iOS. It covers what most edits need: auto-captions, voice isolation, text-to-speech, background removal, animations and keyframes, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.\n\nEverything runs on your machine. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk.\n\nGood for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes.\n\nAlso for machines: a built-in MCP server for AI agents (concat --mcp, set up) and a JSON-RPC API for scripts, so they can cut video with it too.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.concat.editor.png",
       "tintColor": "#0669fd",
@@ -11290,11 +11290,11 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "2.1.3",
-          "date": "2026-11-03T19:29:43Z",
-          "localizedDescription": "🎙️ Microsecond Lip-Sync \u0026 \"Audio Comes First\" Elimination:\n\n• Atomic Frame 0 Anchor: VideoWriter.appendFrame now atomically verifies VideoToolbox encoder readiness (patient spin-wait up to 150 ms) and commits Video Frame 0 at PTS = .zero before draining preroll audio buffers. This completely eliminates the startup gap where audio was previously written to the container before the video track had its first frame.\n• Microsecond Zero-PTS Audio Alignment: The first drained audio buffer is anchored strictly to PTS = .zero with subsequent packets chained monotonically via lastAudioEndPTS. Both audio and video tracks start at the exact same physical microsecond.\n• Tripled Preroll Buffer Capacity: Expanded maxPrerollAudioBuffers from 20 to 60 buffers (~1.25s), ensuring that hardware camera spin-up or configuration latency never causes preroll audio frames corresponding to Frame 0 to be discarded.\n\n🎞️ Dual-Stage Pipelining \u0026 Frame Skip Elimination:\n\n• Independent Sensor \u0026 ISP Semaphores: Replaced the single blocking inFlightCaptures counter with a dual-stage tracking system:.\n\n• sensorInFlight (limit: 2): Decremented immediately when photoOutput(_:didCapturePhotoFor:) signals sensor exposure and readout completion. The camera sensor is immediately freed to expose the next frame at the exact 24.000 FPS timer interval without waiting for background DNG packaging.\n• ispInFlight (limit: 5): Decremented in photoOutput(_:didFinishProcessingPhoto:error:) (with fallback in didFinishCaptureFor). Hard-caps total concurrent ISP jobs in mediaserverd to prevent surface pool exhaustion.\n\n• Eliminated Sensor Starvation: The sensor exposure loop is no longer throttled by 60–80ms ISP packaging latencies, sustaining true 24.000 CFR capture without missed ticks or hold-frame stuttering.\n• Resilient Video Backpressure: Increased video encoder spin-wait attempts to 15 (30 ms) to absorb transient VideoToolbox GOP boundary encoding spikes without dropping frames.\n\n📦 Build \u0026 Packaging:\n\n• App Version: 2.1.3 (Build 14).",
-          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/2.1.3/OwLens.ipa",
-          "size": 575868,
+          "version": "2.1.10",
+          "date": "2026-11-25T06:25:44Z",
+          "localizedDescription": "Changes in v2.1.10:\n\n• Restored fixed de-vignetting for the iPhone 12 Pro rear lenses using separate profiles fitted to Open Gate reference stills. The correction applies before log encoding in both preview and recording.\n• Removed the guided lens calibration workflow. The fixed profiles leave center exposure at unity and limit corner gain.\n• Updated 24 fps RAW capture scheduling, frame ordering, and audio alignment to the capture clock. Actual 0.5× capture cadence and long-take sync still need on-device verification.\n\nDownload OwLens.ipa and sign it with your usual sideloading tool.",
+          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/v2.1.10/OwLens.ipa",
+          "size": 823004,
           "minOSVersion": "17.0"
         }
       ],
@@ -11598,11 +11598,11 @@
       ],
       "versions": [
         {
-          "version": "3.0.0",
-          "date": "2026-09-28T14:29:27Z",
-          "localizedDescription": "Nebulo is now Onside TV!:\n\nSame app, new name, and the biggest update so far.\n\nRead this before you install:\n\n• You need iOS 26 or newer. If your phone is on an older version, stay on Nebulo V2.3 for now.\n• Onside TV installs as a new app next to Nebulo. You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n• There's just one IPA this time, no backup version.\n\nWhat's New:\n\n• New look: Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n• Way bigger sports section: Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n• Favorite teams: Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n• Live Activities: Follow the score from your Lock Screen and Dynamic Island.\n• Smarter game search: Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n• New search: Live games, recently watched channels and your categories all in one place.\n• Recordings: Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n• Connection warning: If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\nFixes:\n\n• If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n• Streams don't keep playing sound anymore after you close them and lock your phone.\n• Smoother scrolling and less heat.\n• Show pictures on the home screen only appear when they actually match the show.\n\nUnder the Hood:\n\n• Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.",
-          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-          "size": 51168260,
+          "version": "3.1.0",
+          "date": "2026-11-25T04:41:14Z",
+          "localizedDescription": "• Coming from Onside TV V3.0.0? Sideload this one on top and keep your login, favorites and settings.\n• Coming from Nebulo? Onside TV installs as a new app, so you'll have to log in again.\n• You need iOS 26 or newer.\n\nWhat's New:\n\n• Player pages: Tap anyone in a team's squad to see their season, average rating, recent games and stats.\n• App icons: 12 new icons to pick from in Settings. The original is still there too.\n• Picture in Picture for recordings: It starts from where you are and picks up from the same spot when you go back to full screen. HEVC recordings open in the mini player instead.\n• Tap the score in the player: It opens the game card with the stats and lineups.\n• Player of the match: Gets crowned at full time, and big performances now get the ratings they deserve.\n• Connection notice in Multi-View: The app tells you if you're opening more streams than your provider allows.\n\nBetter Streaming:\n\n• Picture in Picture on live channels: Opens with one press and buffers a lot less. It can run up to about 30 seconds behind live, since that's what keeps it smooth.\n• Multi-View: Bigger buffers, streams start one after another, and a stream that dies reconnects by itself. You still need a provider that allows as many connections as you want streams.\n• No more reloading: Healthy streams don't get reloaded every 30 seconds anymore.\n\nFixes:\n\n• Tapping a game only plays a channel that's really showing it, and the player shows the right game.\n• Upcoming games are back on league and team pages.\n• The bottom bar doesn't disappear anymore after you leave Multi-View in landscape.\n• Sports and Search tabs slide the same way as Favorites.\n• Home categories open and swipe back like the rest of iOS.\n• Descriptions and the recording setup screen snap instead of animating.\n• Cleaner player photos.",
+          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.1.0/OnsideTV_V3.1.0.ipa",
+          "size": 53455882,
           "minOSVersion": "26"
         }
       ],
@@ -13462,10 +13462,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-24T10:14:54Z",
-          "localizedDescription": "Immutable snapshot of alpha build 572 (aa9ff9a).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 572, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-572/Non-Jailbroken.ipa",
-          "size": 125003184,
+          "date": "2026-11-25T07:13:58Z",
+          "localizedDescription": "Immutable snapshot of alpha build 585 (7092c36).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 585, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-585/Non-Jailbroken.ipa",
+          "size": 125107472,
           "minOSVersion": "17.0"
         }
       ],
