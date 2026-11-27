@@ -10,8 +10,8 @@
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.joemattiello.iCube",
-    "io.github.possiblypengu.pageturner",
-    "com.wrngwrld.Chanyan"
+    "io.github.danielnoam.waypage",
+    "com.kyrielie.nectar"
   ],
   "apps": [
     {
@@ -1501,11 +1501,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.2",
-          "date": "2026-11-15T10:48:56Z",
-          "localizedDescription": "RAtouch 0.1.2 (build 3) keeps the iOS SDL window on its own UIKit scene, so connecting a TV or external display no longer moves or resizes the game window. RAtouch's pinned SDL is the Pad ports' SDL 2.32.10 fork at 090b0c5a (#9).\n\nTouch and controller behavior is unchanged: the controller drives the cursor, scrolling, clicks and modifiers, and the touch palette appears only through its own button.\n\nThis remains an unsigned public alpha for self-signing and sideloading. Install it over the existing app with the same signing identity to retain the app container. PadMint continues to link to this downloadable app.\n\nVerify the IPA against RAtouch-v0.1.2-SHA256.txt before installing.",
-          "downloadURL": "https://github.com/chrissotraidis/ratouch/releases/download/v0.1.2/RAtouch-v0.1.2-unsigned.ipa",
-          "size": 2525255,
+          "version": "0.1.3",
+          "date": "2026-11-27T00:01:31Z",
+          "localizedDescription": "RAtouch 0.1.3 (build 4) shows the game correctly on a TV: when iPadOS puts RAtouch on a TV or monitor (an extended display), it comes up the right way up and fills the screen; the iPad no longer limits it to landscape, which left it rotated or squeezed on the external screen (#11).\n\nTouch and controller behavior is unchanged.\n\nThis remains an unsigned public alpha for self-signing and sideloading. Install it over the existing app with the same signing identity to retain the app container. PadMint continues to link to this downloadable app.\n\nVerify the IPA against RAtouch-v0.1.3-SHA256.txt before installing.",
+          "downloadURL": "https://github.com/chrissotraidis/ratouch/releases/download/v0.1.3/RAtouch-v0.1.3-unsigned.ipa",
+          "size": 2525861,
           "minOSVersion": "15.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-26T04:38:07Z",
-          "localizedDescription": "Built from ba883ba on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
+          "date": "2026-11-27T03:07:25Z",
+          "localizedDescription": "Built from a292146 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14760295,
+          "size": 14778917,
           "minOSVersion": "15.0"
         }
       ],
@@ -2928,7 +2928,8 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library_Search.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Settings.png"
       ],
       "versions": [
@@ -3919,11 +3920,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-11-15T10:49:12Z",
-          "localizedDescription": "VaultPad Developer Preview 3 for iPadOS 15 or newer (0.1.0, build 3).\n\n• TV and external displays: the SDL window keeps its own UIKit scene, so connecting an external display no longer moves or resizes the game window. iOS SDL is the Pad ports' SDL 2.32.10 fork at 090b0c5a (#14).\n• The toolbar and touch behavior are unchanged: the toolbar follows its saved setting.\n\nThe unsigned arm64 IPA contains no Fallout 2 game data. Import files from your own legally purchased copy. Install over the existing app with the same signing account and bundle identifier to retain its data; do not uninstall first. Check the IPA against the accompanying SHA-256 file before installing.",
-          "downloadURL": "https://github.com/chrissotraidis/vaultpad/releases/download/v0.1.0-preview.3/VaultPad-0.1.0-preview.3-unsigned.ipa",
-          "size": 4318292,
+          "version": "0.1.1",
+          "date": "2026-11-27T00:16:30Z",
+          "localizedDescription": "VaultPad Developer Preview 4 for iPadOS 15 or newer (0.1.1, build 6).\n\nWhat's new:\n\n• Right on a TV: when iPadOS shows VaultPad on a TV or monitor (an extended display), the game comes up the right way up and fills the screen, and the trackpad cursor follows the pointer there (#16).\n• Opens from PadMint: VaultPad now answers padmint-vaultpad://, so Play in PadMint's iPhone/iPad library opens it (#17).\n\nDownload VaultPad-0.1.1-preview.4-unsigned.ipa, check it against its .sha256 file, sign it with your own Apple ID and install it over Preview 3 with the same identity to keep your data. VaultPad contains no Fallout data; you add your own.",
+          "downloadURL": "https://github.com/chrissotraidis/vaultpad/releases/download/v0.1.1-preview.4/VaultPad-0.1.1-preview.4-unsigned.ipa",
+          "size": 4318759,
           "minOSVersion": "15.0"
         }
       ],
@@ -4303,11 +4304,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.34.0",
-          "date": "2026-11-26T07:46:02Z",
-          "localizedDescription": "Offdesk Dev v0.34.0: every component at 0.34.0, built from the same commit.",
-          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.34.0/offdesk-0.34.0.ipa",
-          "size": 11142795,
+          "version": "0.35.0",
+          "date": "2026-11-27T03:55:17Z",
+          "localizedDescription": "Offdesk Dev v0.35.0: every component at 0.35.0, built from the same commit.",
+          "downloadURL": "https://github.com/zalify/offdesk/releases/download/v0.35.0/offdesk-0.35.0.ipa",
+          "size": 11153807,
           "minOSVersion": "15.0"
         }
       ],
@@ -5138,11 +5139,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.2.3",
-          "date": "2026-11-24T13:51:29Z",
+          "version": "0.2.4",
+          "date": "2026-11-27T05:20:39Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.3/Nectar-unsigned.ipa",
-          "size": 5576644,
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.4/Nectar-unsigned.ipa",
+          "size": 7200054,
           "minOSVersion": "16.0"
         }
       ],
@@ -5282,16 +5283,16 @@
       "bundleIdentifier": "com.minh-ton.Reynard",
       "developerName": "minh-ton",
       "subtitle": "A Gecko-based web browser for iOS 13+",
-      "localizedDescription": "Reynard Browser:\n\nReynard is a Gecko-based web browser for iOS 13+.\n\nUnlike other browsers on iOS that are forced to use Apple's WebKit engine (including Safari and all third-party browsers), Reynard uses Gecko. This is the same engine that powers the Firefox browser on desktop and Android devices.\n\nBesides providing an alternative, up-to-date browser engine[^1], Reynard supports Firefox add-ons, including more capable ad-blocking extensions, along with privacy features such as Enhanced Tracking Protection and DNS over HTTPS.\n\niOS 14 (iPhone 6S Plus, 14.1):\n\nThese sites are known to break or render incorrectly on iOS 14. The screenshots below compare how they load in Safari versus Reynard.\n\niOS 26 (iPhone 13 mini, 26.1):\n\nReynard also works great on the latest version of iOS!",
+      "localizedDescription": "Reynard Browser:\n\nReynard is a Gecko-based web browser for iOS 13+.\n\nUnlike other browsers on iOS that are forced to use Apple's WebKit engine (including Safari and all third-party browsers), Reynard uses Gecko. This is the same engine that powers the Firefox browser on desktop and Android devices.\n\nBesides providing an alternative, up-to-date browser engine[^1], Reynard supports Firefox add-ons, including more capable ad-blocking extensions, along with privacy features such as Enhanced Tracking Protection and DNS over HTTPS.\n\nDevelopment:\n\nIf you’ve come across this repository and find it interesting, I’d love to get help or collaborate on it. I’m learning as I go here and don’t have much prior experience with iOS app development or with Gecko itself, so any contributions, feedback, or pointers would be greatly appreciated.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.minh-ton.Reynard.png",
       "tintColor": "#fc6e5d",
       "category": "utilities",
       "screenshotURLs": [
-        "https://github.com/user-attachments/assets/d89f4385-c478-4aea-aa9d-6c9fca72252b",
-        "https://github.com/user-attachments/assets/279f8268-b196-415d-9199-66c06989ae7f",
-        "https://github.com/user-attachments/assets/1a68024e-83d4-489c-a576-26d5ea43011c",
-        "https://github.com/user-attachments/assets/eb8f0073-04c2-436d-b66c-9ba2af8e56c2",
-        "https://github.com/user-attachments/assets/0e52fbf1-af5d-4a83-9bba-50c5d1e15d57"
+        "https://github.com/user-attachments/assets/62568ad7-c84c-4623-a560-f679c2a47755",
+        "https://github.com/user-attachments/assets/4c43cda8-5451-4876-9556-2529a36e0e62",
+        "https://github.com/user-attachments/assets/d213427d-c207-4129-82b4-a19b091072e0",
+        "https://github.com/user-attachments/assets/f0e7b590-63be-44cf-87c2-c790c59bd915",
+        "https://github.com/user-attachments/assets/6015bbc0-727c-4fca-9756-3ec3d256f162"
       ],
       "versions": [
         {
@@ -5453,11 +5454,11 @@
       ],
       "versions": [
         {
-          "version": "1.5.5",
-          "date": "2026-11-15T10:48:27Z",
-          "localizedDescription": "DevilTouch 1.5.5 Preview 2 (build 3). Based on DevilutionX 1.5.5, with the existing direct-touch controls, Files importer and save writer preserved.\n\nDownload DevilTouch-1.5.5-build3.ipa, check it against SHA256SUMS, and install it with AltStore Classic, SideStore or Sideloadly, signed with your own Apple account. To keep your data, update in place over Preview 1 with the same signing identity; do not uninstall first.\n\nWhat changed:\n\n• TV and external displays: the iOS SDL window keeps its own UIKit scene, so connecting an external display no longer moves or resizes the game window. iOS SDL is the Pad ports' SDL 2.32.10 fork at 090b0c5a (#13).\n• Touch controls and controllers: the optional touch overlay hides automatically while a controller is in use. Show Touch Controls brings it back, and Auto-hide Touch Controls with Controller turns automatic hiding on or off (#14, DevilutionX#1).\n\nVersion: 1.5.5, build 3. Bundle: com.chrissotraidis.deviltouch. Platform: ARM64 iOS/iPadOS 15+, with iPad as the tested product focus.\n\nSource: app 752d77cc2848f2bfd9c0a98a89d1326d0c04e6e0; maintained engine a3d1c74c1103ee407f964ef8a4cfc31f562519a0; mpqfs 9423bd48d04c8a0c51d3df6ce328e66785e3b441; iOS SDL 090b0c5ade61395078f9ac0756474d9e475f7fa7.\n\nSHA256SUMS covers the IPA, complete source, notice archive, provenance and validation report. Byte-identical executable reproducibility is not claimed.",
-          "downloadURL": "https://github.com/chrissotraidis/deviltouch/releases/download/v1.5.5-preview.2/DevilTouch-1.5.5-build3.ipa",
-          "size": 11676718,
+          "version": "1.5.6",
+          "date": "2026-11-27T00:11:23Z",
+          "localizedDescription": "DevilTouch 1.5.6 Preview 3 (build 7). Based on DevilutionX 1.5.5, with the existing direct-touch controls, Files importer and save writer preserved.\n\nDownload DevilTouch-1.5.6-build7.ipa, check it against SHA256SUMS, and install it with AltStore Classic, SideStore or Sideloadly, signed with your own Apple account. To keep your data, update in place over Preview 2 with the same signing identity; do not uninstall first.\n\nWhat's new:\n\n• Right on a TV: when iPadOS shows DevilTouch on a TV or monitor (an extended display), the game comes up the right way up and fills the screen; the iPad no longer limits it to landscape (#17).\n• Controller defaults: Xbox-style controllers get DevilTouch's default layout, with Speedbook on B so A attacks (#17).\n• Opens from PadMint: DevilTouch now answers padmint-deviltouch://, so Play in PadMint's iPhone/iPad library opens it (#18).\n\nVersion: 1.5.6, build 7. Bundle: com.chrissotraidis.deviltouch. Platform: ARM64 iOS/iPadOS 15+, with iPad as the tested product focus.",
+          "downloadURL": "https://github.com/chrissotraidis/deviltouch/releases/download/v1.5.6-preview.3/DevilTouch-1.5.6-build7.ipa",
+          "size": 11677496,
           "minOSVersion": "15.0"
         }
       ],
@@ -5929,11 +5930,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-11-15T10:48:12Z",
-          "localizedDescription": "CaesarPad 0.1.0 Preview 2 (build 2) is an unsigned IPA update of the Augustus-based Caesar III app for iPad.\n\nWhat changed:\n\n• iOS 27: the app starts through UIKit scenes, so builds made with Xcode 27 open on iOS 27 (#6).\n• TV and external displays: the SDL window keeps its own UIKit scene, so connecting an external display no longer moves or resizes the game window. SDL is CaesarPad's maintained SDL fork at 7ba50737 (#7, augustus#1).\n\nTouch controls are unchanged; Augustus is built without joystick support, so there is no controller auto-hide.",
-          "downloadURL": "https://github.com/chrissotraidis/caesarpad/releases/download/v0.1.0-preview.2/CaesarPad-0.1.0-preview.2-unsigned.ipa",
-          "size": 24590170,
+          "version": "0.1.1",
+          "date": "2026-11-27T00:01:25Z",
+          "localizedDescription": "CaesarPad 0.1.1 Preview 3 (build 3) is an unsigned IPA update of the Augustus-based Caesar III app for iPad.\n\nWhat changed:\n\n• Right on a TV: when iPadOS shows CaesarPad on a TV or monitor (an extended display), the game comes up the right way up and fills the screen; the iPad no longer limits it to landscape, which left it rotated or squeezed on the external screen (#9).\n\nTouch controls are unchanged; Augustus is built without joystick support, so there is no controller auto-hide.",
+          "downloadURL": "https://github.com/chrissotraidis/caesarpad/releases/download/v0.1.1-preview.3/CaesarPad-0.1.1-preview.3-unsigned.ipa",
+          "size": 24590605,
           "minOSVersion": "15.0"
         }
       ],
@@ -6640,11 +6641,11 @@
       ],
       "versions": [
         {
-          "version": "1.69.0",
-          "date": "2026-11-21T18:52:39Z",
-          "localizedDescription": "Added:\n\n• When the narrator leaves the book for four minutes while you read along (another translation, or a part this edition leaves out), a card over the player offers Show the transcript or Find another book. The book is remembered, so The book under ⋯ › Read along goes back to it.\n• A zip of MP3s (or other sound files) added with Add a file becomes one audiobook, its files in name order as chapters, played from inside the zip. Only zips whose sound files are stored as they are; a compressed one says to unzip it and add the folder.\n• Sync transcripts, in Settings › Audiobooks: an audiobook's transcript syncs with the book, so another phone reads along without writing it again. On by default when Sync is on.\n• Android Auto: a Collections tab. Your 8 latest collections and series, each opening with quick starts (Continue, or Start for a new or finished one, and Newest), then its clips and audiobooks in order. A long series brings its first two, the newest and the stretch from where you left off, not all of it. Android only.\n• Android Auto: Next clip and Previous clip now go through the clip's collection or series in order, also when the car started it with the app closed (they used to go to the next under Up next). An audiobook's Next chapter after its last chapter goes on to the next book in its series, and Previous before the first goes back. Android only.\n• Under a collection's or series' Continue button: Last read (the clip you read last, even a finished one) and Newest (the clip added last). One that would open the same clip as Continue is left out.\n\n• Save with options (Add clips) can now put clips into a series as well as a collection: the list shows your series and offers both New collection… and New series….\n• Draw › Add › Note: drop a comment bubble anywhere on a clip, note or PDF, tap it to write a comment, and pick its colour and tags. The colours and tags are the highlights' own: a note's tag is offered on highlights and filters Highlights too. In Highlights a note shows as its comment, in its colour with its tags, beside the highlights (not as a drawing), and Copy all includes it. Hold a bubble to move it, or drag it with Select. Bubbles sync with a clip's drawings. They are not in a copy of a PDF, or Save as PDF, yet.\n• Audiobooks on iPhone keep playing with the screen locked, with back and forward on the lock screen and earbuds, the sleep timer and the chapter under the title.\n\n• A series or collection's Edit page has a Status row, to set where the story stands yourself when its site doesn't say (a blog like The Zombie Knight Saga). It syncs.\n\n• A story read to the end that's still being written says \"Caught up\", not \"All read\".\n\n• In Scroll, dragging a selected drawing or picture to the top or bottom edge scrolls the page along with it, so you can put it on another page. The scroll builds up and eases off smoothly.\n• Hold the pen still for half a second at the end of a rough line or circle to make it a straight line or a clean circle. A line's end follows the pen until you lift it, and a circle moves with it. Turn it on or off in the reader's settings, under Draw.\n\nChanged:\n\n• A sharper app icon: the same open book, road and sun, redrawn with curved pages, a page edge, a wider road that narrows toward the sun, and the sun rising behind the book.\n• Stories with no cover on their site (AO3, the forums, most of FictionPress) show a cover card of their own: the site, title and author on a colour picked from the story, the same each time.\n• A Discover story's Save asks just two things: Collection or series (picked on the Save with options page that opens, with your collections, your series, New collection… and New series…), or EPUB file.\n• Narrate with Kokoro or Piper makes up to about a minute ahead, not just the next paragraph, so a long paragraph after a short one no longer starts with a pause.\n\nFixed:\n\n• Android Auto: Next clip and Previous clip (and an audiobook's next and previous chapter) had the same arrows as the paragraph buttons, so beside them it looked like previous and next were swapped. They now show a list with an arrow. The car's tab names follow the app's language. Android only.\n• In Hebrew, the ⋯ menus of a collection, of Highlights and of Select opened partly off screen. On a phone on its side, a collection's ⋯ menu now scrolls instead of running off the bottom.\n\n• Typing in a search box right as a sheet closes (Audiobookshelf's sign-in, say) no longer sends the letters into the closing sheet's fields.\n• Drawing in Pages on a PDF or a note no longer moves or turns the page under your pen or finger, and what you draw or erase stays on the page you are on.\n• With Draw on in Pages, pinching zooms the page where it is and you can keep drawing on it, instead of opening the picture viewer. The page stays locked: zooming never shows another page. Sweep two fingers sideways to turn, which locks to the new page.\n• Dragging a selected drawing or picture to the side of the screen in Pages and holding it there for a moment carries it to the next page.\n• Zooming in Pages now keeps the spot under your fingers, as in Scroll, instead of drifting off to the right.\n• A note's new sheet in Pages is now laid out like the others.\n• On a small phone (320 px), the picking bar's Collection and Mark read ran into each other, and the Draw bar cut off the pen and Done at its ends.\n• With the phone on its side, the app lock's title and Forgot passcode were off the screen. They now sit beside the keys.\n• On a tablet or computer, Stats and Anki had no name at the top of the screen.\n• In Hebrew, the picking bar's Tags, Collection, Edit and Delete, the reader's Back to where you were, Read next and Shortcuts, and the Offline pill stayed in English.\n• With Audiobookshelf turned on, the app could start with it half loaded, so a book from your server might not play until the app was restarted.\n• Save in shows only when it matters: a Discover story saved as a collection or series, or a book added as clips, no longer shows a Save in pick that did nothing.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
-          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.69.0/Waypage.ipa",
-          "size": 22633868,
+          "version": "1.70.0",
+          "date": "2026-11-27T05:46:58Z",
+          "localizedDescription": "Added:\n\n• New chapters with the app closed: every few hours the phone looks at each linked collection's contents page and, when it lists chapters you haven't got, says so in a notification (one per collection, with how many). A tap opens the collection, which checks itself. Turn it off in Settings › Notifications › New chapters; it follows Check for new chapters and the Wi-Fi only setting for saves. Sites behind Cloudflare are read through a hidden browser. A contents page that lists chapters oldest first over several pages, or a blog's dated posts, still waits for the daily check in the app. Android only; not built for iOS or the web copy.\n\n• A collection's Continue button has a Narrate half, the speaker at its end. It narrates the chapter Continue opens, from where you left off, or the first one from its start once the collection is all read. It isn't shown for audiobooks, comics, notes or PDFs shown as pages, nor while that chapter is already being narrated.\n\n• A comix.to chapter saves as a comic with all its pictures: every panel is found (the site shows them as you scroll) and kept on the device. A chapter that comes up short says how many pictures loaded and offers Try again, instead of being kept half done. Android only.\n\n• comix.to's firewall turns a request away now and then. Waypage paces its page turns and asks again for a turned-away page within seconds, so a chapter no longer fails to save for it and a long title is read in full. Android only.\n• Continue reading has a Narrate button on the card's far side. It opens the clip where you left off and narrates from there, with the voice you picked for its language. It isn't shown for audiobooks, comics, notes or PDFs shown as pages, nor while that clip is already being narrated.\n• Save the narration on iPhone: a clip or book is spoken into sound files by its Narrate voice (Kokoro, Piper or one of the iPhone's own), to listen to as an audiobook.\n• Show in folder on iPhone opens the Files app where a file read from outside sits.\n\n• Two more covers for a collection: Stacked (two pictures, one above the other) and Side by side.\n\nChanged:\n\n• A collection's Add is now its own + button in the top bar, beside ⋯, instead of an item in the ⋯ menu.\n• A collection's ⋯ menu now says Add, and it adds what the library's Save with options does: a file (a book, a PDF, a comic, an audiobook…), a folder, an audiobook folder (in the app) or a new note, as well as links. Whatever it brings in joins that collection or series; a folder of audiobook folders becomes its own series inside the collection.\n• On a site's page in Discover › Sites, the All, Sites, Feeds and Newsletters chips step aside to give the site more room; they come back with the site tiles.\n• Discover › Sites opens on every site as a tile, grouped into Web fiction, Fan fiction, Comics and Libraries, each with a line on what it is. A tile opens that site's page: its lists as chips, the genre picker, and its covers without the site's name on each one. Back returns to the tiles.\n• A drop-down list longer than its menu shows a scroll bar on its inner edge and fades out where there's more.\n\n• Edit's Collection tab: the name takes the full width (no cover or progress at the top, since the cover's choices are below), Status sits after the cover and is hidden while \"Status from the site\" is on.\n• Sort by is a drop-down at the top of the chapters' card in Edit. The chosen sort shows ↑ or ↓; pick it again to turn it round. Any other order says \"Your order\".\n• The selection menu's Narrate button just says Narrate (Play on a clip with its own sound).\n\nFixed:\n\n• Narrating with the clip closed (from the bar on Home) or with the phone locked now keeps your reading place where the voice is, so the clip opens there next time. Before, the place stayed where the page was last on screen.\n• On iPhone, a dark theme no longer flashes the light background while the app starts.\n• In Hebrew, Discover's chapter counts read \".ch 34\"; they read \"34 ch.\" again.\n• A mosaic cover kept showing a clip after it was deleted or moved out. Mosaics are drawn again when the clips they show change, and go back to Automatic when fewer than two pictures are left.\n• In Hebrew, a chapter with an English title had its size or time on the other side from its title.\n• A collection, series or feed can have a long name now, up to 200 characters. It was cut at 32. Long names end in \"…\" on cards, chips and pickers, and the \"Previous in\" and \"Next in\" cards in the reader keep them to two lines.\n• Scrolling a long drop-down (Discover's site picker, for one) no longer moves the page behind it, and pulling it down at its top no longer reloads Discover and shuts it.\n• Narrate: pressing next or previous while the next paragraph is still being made (Piper, Kokoro) no longer piles the presses up and skips several paragraphs once the sound comes. A press that can't happen yet is dropped, from the app, the notification, earbuds and the car.\n• Narrate with Piper or Kokoro no longer jumps to the next paragraph on its own a few seconds into one that took a while to make.\n• Piper and Kokoro no longer mumble briefly after a sentence that ends in a quote mark.\n\n• Catalogs and WebDAV: when a catalog's or server's address is changed on one device to a different server, your other devices no longer keep its old password for the new address. They ask for it again. The same server at a new folder, or moved up to https, keeps it as before.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
+          "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.70.0/Waypage.ipa",
+          "size": 22646306,
           "minOSVersion": "15.5"
         }
       ],
@@ -7511,10 +7512,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-26T23:16:48Z",
-          "localizedDescription": "Pageturner from run 45909262026, commit 63567f9. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-45909262026/Pageturner.ipa",
-          "size": 28841505,
+          "date": "2026-11-27T02:23:57Z",
+          "localizedDescription": "Pageturner from run 45927210480, commit 186b03e. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-45927210480/Pageturner.ipa",
+          "size": 28844280,
           "minOSVersion": "17.0"
         }
       ],
@@ -8927,10 +8928,10 @@
       "versions": [
         {
           "version": "1.5.1",
-          "date": "2026-11-24T01:39:40Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit 7e04aa3. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-264/Ito-1.5.1-dev.264-unsigned.ipa",
-          "size": 15150123,
+          "date": "2026-11-27T03:47:35Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit f950474. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-265/Ito-1.5.1-dev.265-unsigned.ipa",
+          "size": 15151971,
           "minOSVersion": "15.4"
         }
       ],
@@ -9301,11 +9302,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-11-15T10:48:32Z",
-          "localizedDescription": "Emerald Tablet 0.1.0 Preview 2:\n\nPreview 2 (0.1.0 build 2) updates the Pharaoh + Cleopatra iPhone and iPad app built on the open-source Akhenaten engine.\n\nWhat changed:\n\n• iOS 27: the app starts through UIKit scenes, so builds made with Xcode 27 open on iOS 27 (#3).\n• TV and external displays: the SDL window keeps its own UIKit scene, so connecting an external display no longer moves or resizes the game window. SDL is the Pad ports' SDL 2.32.10 fork at 090b0c5a (#4).\n\nTouch, Apple Pencil and the native controls are unchanged. The game reads controllers only on other platforms, so there is no controller auto-hide.\n\nThe IPA is unsigned. Re-sign it with your own Apple ID using AltStore Classic, SideStore or Sideloadly. Install it over Preview 1 with the same Apple ID to keep your data.\n\nIntegrity:\n\nSee EmeraldTablet-0.1.0-preview.2-unsigned.ipa.sha256 and SOURCE-MANIFEST.txt.",
-          "downloadURL": "https://github.com/chrissotraidis/emeraldtablet/releases/download/v0.1.0-preview.2/EmeraldTablet-0.1.0-preview.2-unsigned.ipa",
-          "size": 15577481,
+          "version": "0.1.1",
+          "date": "2026-11-27T00:23:18Z",
+          "localizedDescription": "Emerald Tablet 0.1.1 Preview 3:\n\nPreview 3 (0.1.1 build 7) updates the Pharaoh + Cleopatra iPhone and iPad app built on the open-source Akhenaten engine.\n\nWhat changed:\n\n• Right on a TV: when iPadOS shows Emerald Tablet on a TV or monitor (an extended display), the game comes up the right way up and fills the screen, and the main menu and game screens use the TV's whole picture instead of the iPad's own screen size (#6).\n\nTouch, Apple Pencil and the native controls are unchanged.\n\nThe IPA is unsigned. Re-sign it with your own Apple ID using AltStore Classic, SideStore or Sideloadly. Install it over Preview 2 with the same Apple ID to keep your data.\n\nIntegrity:\n\nSee EmeraldTablet-0.1.1-preview.3-unsigned.ipa.sha256 and SOURCE-MANIFEST.txt.",
+          "downloadURL": "https://github.com/chrissotraidis/emeraldtablet/releases/download/v0.1.1-preview.3/EmeraldTablet-0.1.1-preview.3-unsigned.ipa",
+          "size": 15579172,
           "minOSVersion": "15.0"
         }
       ],
@@ -9677,7 +9678,7 @@
       "bundleIdentifier": "app.concat.editor",
       "developerName": "jub0t",
       "subtitle": "The open-source CapCut alternative",
-      "localizedDescription": "About:\n\nConcat is a free, open-source video editor for macOS, Windows, Linux, Android and iOS. It covers what most edits need: auto-captions, voice isolation, text-to-speech, background removal, animations and keyframes, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.\n\nEverything runs on your machine. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk.\n\nGood for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes.\n\nAlso for machines: a built-in MCP server for AI agents (concat --mcp, set up) and a JSON-RPC API for scripts, so they can cut video with it too.",
+      "localizedDescription": "About:\n\nConcat is a free, open-source video editor for macOS, Windows, Linux and Android. It covers what most edits need: auto-captions, voice isolation, text-to-speech, background removal, animations and keyframes, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload.\n\nEverything runs on your machine. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk.\n\nGood for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes.\n\nAlso for machines: a built-in MCP server for AI agents (concat --mcp, set up) and a JSON-RPC API for scripts, so they can cut video with it too.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.concat.editor.png",
       "tintColor": "#0669fd",
       "category": "photo-video",
@@ -10166,11 +10167,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.452",
-          "date": "2026-11-16T17:12:00Z",
-          "localizedDescription": "Fixed:\n\n• Android: swiping along the navigation no longer closes the app. The selection lens grew with every move of your finger until the app crashed, even on an accidental swipe. It now keeps its size and stops at the first and last tab.\n• Android: wide badges such as \"99+\" on More are no longer cut off, and a coloured row passing under the glass bar no longer tints the selected tab.",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.7.452/Dieter-iOS.ipa",
-          "size": 68798747,
+          "version": "0.7.455",
+          "date": "2026-11-27T03:25:10Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.7.455/Dieter-iOS.ipa",
+          "size": 69863320,
           "minOSVersion": "18.0"
         }
       ],
@@ -10584,10 +10585,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-26T04:38:07Z",
-          "localizedDescription": "Built from ba883ba on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
+          "date": "2026-11-27T03:07:25Z",
+          "localizedDescription": "Built from a292146 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 45829998,
+          "size": 48057875,
           "minOSVersion": "15.0"
         }
       ],
@@ -10649,11 +10650,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-11-16T02:51:06Z",
-          "localizedDescription": "PeonPad 0.1.0 Preview 3 (build 7) is an unsigned IPA update.\n\nImportant:\n\n• The IPA is unsigned. Sign it with your own Apple account or a sideloading service you trust before installing it. Install it over an earlier preview with the same signing identity to keep data.Wargus, saves and preferences.\n• The IPA contains no Warcraft II data, Aleona data, installer, MPQ, save, provisioning profile or signing credential.\n• You must own Warcraft II and extract a complete data.Wargus folder on a computer with Wargus 3.2 or newer (PeonPad is tested with 3.3.x) or with PeonPad's scripts/prepare-ipad-build.sh. Then copy it to On My iPad \u003e PeonPad \u003e data.Wargus.\n• iPadOS 16 or later is required.\n\nWhat changed:\n\n• Old Wargus data is caught at launch (#16, from #11): data made by Wargus 3.1 or older calls engine functions PeonPad's Stratagus no longer has, so it used to start and then stop at its first script error (SetFogOfWarOpacity). PeonPad now reads the version in data.Wargus/extracted. If it's older than 3.2, PeonPad says so and explains how to extract again before the engine starts.\n• The install guide states the Wargus version requirement. It also notes that an FFmpeg without libtheora leaves videos/ empty, which only loses the cinematics, and that prepare-ipad-build.sh works around it.\n\nAlso in this line since Preview 1 (from Preview 2): engine errors show a PeonPad stopped message with the file name, each launch is written to PeonPad.log, the app starts through UIKit scenes for iOS 27 (in LiveContainer it no longer needs \"Spoof SDK version\"), and the game window keeps its own scene on external displays.\n\nValidation:\n\n• The data-free app audit passed and rejected an app with a planted data.Wargus. Two independent packagings of the IPA were byte-identical.\n\n• On a physical M2 iPad Pro with iPadOS 27.2.1, an in-place update over build 6 kept data.Wargus and preferences.\n• Build 7 was not launched on the device because the test iPad was busy. Build 6, which differs only by the version check, reached the main menu there, and the same check accepts that iPad's own Wargus 3.3.3 data (run on a backup of it) and rejects it when marked 3.1.2.\n\nThe source for this release is the tagged commit v0.1.0-preview.3; GitHub provides its source archive on this page.",
-          "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.0-preview.3/PeonPad-0.1.0-preview.3-unsigned.ipa",
-          "size": 3547137,
+          "version": "0.1.1",
+          "date": "2026-11-27T00:01:28Z",
+          "localizedDescription": "PeonPad 0.1.1 Preview 4 (build 8) is an unsigned IPA update.\n\nImportant:\n\n• The IPA is unsigned. Sign it with your own Apple account or a sideloading service you trust before installing it. Install it over an earlier preview with the same signing identity to keep data.Wargus, saves and preferences.\n• The IPA contains no Warcraft II data, Aleona data, installer, MPQ, save, provisioning profile or signing credential.\n\n• iPadOS 16 or later is required.\n\nWhat changed:\n\n• Right on a TV: when iPadOS shows PeonPad on a TV or monitor (an extended display), the game comes up the right way up and fills the screen; the iPad no longer limits it to landscape, which left it rotated or squeezed on the external screen (#18).\n\nValidation:\n\n• A build of this commit was played on an iPad Pro over a 1280×720 TV in November 2026, and this exact IPA was installed in place on that iPad, keeping data.Wargus and preferences.\n\nThe source for this release is the tagged commit v0.1.1-preview.4; GitHub provides its source archive on this page. This release does not grant rights to Warcraft II content or trademarks.",
+          "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.1-preview.4/PeonPad-0.1.1-preview.4-unsigned.ipa",
+          "size": 3545818,
           "minOSVersion": "16.0"
         }
       ],
@@ -11250,11 +11251,11 @@
       "category": "photo-video",
       "versions": [
         {
-          "version": "2.1.13",
-          "date": "2026-11-26T12:04:35Z",
-          "localizedDescription": "Corrects the field-of-view lens shading fallback so its radial coefficient no longer incorrectly weakens corner lift through the rolloff field. Release build 30. Factory GainMap availability and visual uniformity still require device verification.",
-          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/v2.1.13/OwLens.ipa",
-          "size": 869018,
+          "version": "2.1.14",
+          "date": "2026-11-27T02:19:56Z",
+          "localizedDescription": "Fixes manual ISO response by applying each RAW frame’s DNG BaselineExposure and BaselineExposureOffset in scene-linear processing before log encoding. Verified on iPhone 12 Pro that ISO 320 to 1000 changes DNG BaselineExposure by the expected 1.65 stops, and the user confirmed the corrected preview responds to ISO.\n\nRec.709 monitoring intentionally maps each selected log profile to the same display color space. Switch Rec.709 monitoring off to inspect the distinct log encoding. Release build 31.",
+          "downloadURL": "https://github.com/jeetdoesthings/OwLens/releases/download/v2.1.14/OwLens.ipa",
+          "size": 869571,
           "minOSVersion": "17.0"
         }
       ],
@@ -11558,11 +11559,11 @@
       ],
       "versions": [
         {
-          "version": "3.1.0",
-          "date": "2026-11-25T04:41:14Z",
-          "localizedDescription": "• Coming from Onside TV V3.0.0? Sideload this one on top and keep your login, favorites and settings.\n• Coming from Nebulo? Onside TV installs as a new app, so you'll have to log in again.\n• You need iOS 26 or newer.\n\nWhat's New:\n\n• Player pages: Tap anyone in a team's squad to see their season, average rating, recent games and stats.\n• App icons: 12 new icons to pick from in Settings. The original is still there too.\n• Picture in Picture for recordings: It starts from where you are and picks up from the same spot when you go back to full screen. HEVC recordings open in the mini player instead.\n• Tap the score in the player: It opens the game card with the stats and lineups.\n• Player of the match: Gets crowned at full time, and big performances now get the ratings they deserve.\n• Connection notice in Multi-View: The app tells you if you're opening more streams than your provider allows.\n\nBetter Streaming:\n\n• Picture in Picture on live channels: Opens with one press and buffers a lot less. It can run up to about 30 seconds behind live, since that's what keeps it smooth.\n• Multi-View: Bigger buffers, streams start one after another, and a stream that dies reconnects by itself. You still need a provider that allows as many connections as you want streams.\n• No more reloading: Healthy streams don't get reloaded every 30 seconds anymore.\n\nFixes:\n\n• Tapping a game only plays a channel that's really showing it, and the player shows the right game.\n• Upcoming games are back on league and team pages.\n• The bottom bar doesn't disappear anymore after you leave Multi-View in landscape.\n• Sports and Search tabs slide the same way as Favorites.\n• Home categories open and swipe back like the rest of iOS.\n• Descriptions and the recording setup screen snap instead of animating.\n• Cleaner player photos.",
-          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.1.0/OnsideTV_V3.1.0.ipa",
-          "size": 53455882,
+          "version": "3.1.1",
+          "date": "2026-11-27T05:04:05Z",
+          "localizedDescription": "• Coming from Onside TV V3.0.0 or V3.1.0? Sideload this one on top and keep your login, favorites, recordings and settings.\n• Coming from Nebulo? Onside TV installs as a new app, so you'll have to log in again.\n• You need iOS 26 or newer.\n\nWhat's New:\n\n• Update pop-up: The app tells you when a new version is out, once per version. No more checking Settings.\n• Clear a Live Activity: There's an X on the Lock Screen card, so you can get rid of it any time.\n• Finished games go away: A Live Activity ends by itself after the game is over, even if the app is closed. iOS decides when the app gets to check, so it can take a little while.\n• Team logos in Live Activities: They now show up on the Lock Screen and in the Dynamic Island, even after your sideloading app re-signs Onside TV.\n• Support link: Now goes to Ko-fi.\n\nBetter Streaming:\n\n• Channels start fast and stay steady: Auto Buffer starts every channel at 10 seconds and gives one that keeps stalling more, up to 20.\n• Picture in Picture: Opens quicker, with no buffering once it's up. On a busy provider (like a big game) it waits longer instead of giving up.\n• Opening a new stream closes PiP: The new one plays in the app instead of both playing at once.\n• Network changes: Switching between Wi-Fi and cellular reopens the stream on its own.\n• Provider down: Your channel list and guide stay put when your provider has a bad moment, instead of going empty.\n\nRecordings:\n\n• They keep going: A recording that loses the stream reconnects and keeps recording, so you don't end up with only the first few minutes.\n• On time: Recordings start on the clock, and the app tells you if iOS stopped it from recording.\n• Safer: Your login isn't saved inside your recordings anymore.\n\nFixes:\n\n• Passwords: Stored in the iPhone's secure Keychain.\n• M3U playlists: Favorites, order, renamed and hidden channels stay right when the playlist changes.\n• Tabs under the player: Channels, Schedule and Recordings always slide now.\n\n• Crash fixes: Swipe to delete, seeking, and the update link.\n• Logos and artwork: Broken images don't get saved as logos anymore.",
+          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.1.1/OnsideTV_V3.1.1.ipa",
+          "size": 53550760,
           "minOSVersion": "26"
         }
       ],
@@ -13422,10 +13423,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-11-26T23:33:11Z",
-          "localizedDescription": "Immutable snapshot of alpha build 634 (674977d).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 634, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-634/Non-Jailbroken.ipa",
-          "size": 141511126,
+          "date": "2026-11-27T07:13:24Z",
+          "localizedDescription": "Immutable snapshot of alpha build 643 (2323ab9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 643, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-643/Non-Jailbroken.ipa",
+          "size": 141523555,
           "minOSVersion": "17.0"
         }
       ],
@@ -13508,11 +13509,11 @@
       ],
       "versions": [
         {
-          "version": "6.3.33",
-          "date": "2026-11-26T11:47:29Z",
-          "localizedDescription": "Release v6.3.33:\n\n• Keep video controls help scrollable on short screens (049640bb9).\n• Speed up immersion startup after interrupted writes (3b6626c87).\n• Cover immersion quota handoffs after interrupted erasure (c0a0c97de).\n• Batch immersion quota recounts (d271d290c).\n• Batch checkpoint reads during vocabulary erasure (933eccd35).\n• Speed up the first immersion archive sweep after a reset (941934355).\n• Speed up large immersion backlog drains (d2b6e0bf0).\n• Speed up immersion queue recovery for large archives (08e47262d).\n• Use the owner endpoint for immersion delivery checks (53827ebb5).\n• Check immersion quota ownership once per receipt batch (5caafd6f7).\n• Reuse recovery totals for immersion storage quotas (bd9d6e328).\n• Remember completed vocabulary erasure across restarts (9e082190d).\n• Avoid repeated immersion backlog scans after a reset (d4547ef00).\n• Batch immersion delivery receipts and preserve newer checkpoints (7e2237fd2).\n• Skip unnecessary permission rewrites during immersion recovery (6fc219447).\n• Skip unnecessary immersion backlog scans before a reset (0cd9da95c).\n• Avoid rescanning immersion history on checkpoint saves (0f7ab3036).\n• Add the Get Shared Flashcards catalog and publisher updates (15f77c88d).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.33/Manatan-v6.3.33-iOS.ipa",
-          "size": 448749937,
+          "version": "6.3.34",
+          "date": "2026-11-27T00:18:13Z",
+          "localizedDescription": "Release v6.3.34:\n\n• Speed up saving immersion stats with archived history (0df61d8c0).\n• Use Mokuro OCR when available (50300c9bb).\n• Export browser account connection diagnostics (c5d2a57a9).\n• Choose anime subtitles by study language (f3dbee34e).\n• Fix dark lines between webtoon image slices on iOS (9393bece4).\n• Keep mobile web links inside Manatan and center browser close control (d88bb4e0d).\n• Load subtitle files by dropping them onto videos (d3c8f7c2f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.\n\n• Firefox store updates require Mozilla validation/review. The Firefox ZIP is an unsigned submission package, not an installable signed XPI; use the AMO listing.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.3.34/Manatan-v6.3.34-iOS.ipa",
+          "size": 448762274,
           "minOSVersion": "16.1"
         }
       ],
