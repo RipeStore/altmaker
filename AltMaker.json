@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "io.github.possiblypengu.pageturner",
     "com.handtracker.app",
-    "com.handtracker.mouse",
-    "com.owlens.app"
+    "com.handtracker.mouse"
   ],
   "apps": [
     {
@@ -1174,11 +1174,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "2.15.0",
-          "date": "2026-11-26T02:26:23Z",
-          "localizedDescription": "Validate Stakeout transport completeness before bounded projection. Explicitly control boundary acquisition before startup in privacy and county-race fixtures, retain exact-geometry unknown suppression, use truthful retained coordinates, accept measured ETA ranges and synchronize the actual layout acquisition request.\n\nThe .ipa below is UNSIGNED and was built by CI from 8a318f3, the commit this Release points at. Sideload with AltStore.",
-          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.15.0/BirdChaser-unsigned.ipa",
-          "size": 143535669,
+          "version": "2.16.0",
+          "date": "2026-11-28T01:09:07Z",
+          "localizedDescription": "Bird Chaser 2.16.0: owned persistence, clearer Home controls and bounded county acquisition.\n\nThis release contains exactly the fourteen owner-selected outcomes. F1538 remains separate research.\n\n• F247: typed compressed JSON persistence across app and native notification stores, preserved binary storage, copied/owned atomic retention, bounded quota retries, truthful failures and migration/restart receipts. Selected Mega reports remain visible when a live read fails.\n• F1534: region search results appear directly below the input; Go and keyboard submission use the existing chooser.\n• F1535: Clear cancels unsaved Home/Temp lookups and candidate review without changing saved bases.\n• F1536: one combined year/region control and a preceding Home shortcut; taller outlined scope pills retain readable text and full touch targets.\n• F1537: repeated Home lookup labels include distinguishing context.\n• F1539: Cascade alerts use an explicit white checkmark with a black outline, not colour alone.\n• F1540: Top 100 name/photo actions use verified identities; larger square photos and progressive history retain their shared layout and navigation.\n• F1541: regional scans and patch-bird hydration remain visibly pending, retaining useful birds through queued work and failures.\n• F1542: unknown boundary distance is a compact passive Home/Temp notice, not an unnecessary action banner.\n• F1543: saved Home restoration survives unrelated personal-period refreshes; obsolete geographic work cannot change current bases.\n• F1544: exact identified U.S. state/county and Canadian province/territory boundaries load on demand from official providers, with source/version retention and offline reuse. Unsupported Canadian subregions remain unknown; no worldwide polygon bundle or universal native-device coverage is claimed.\n• F1463: Recent, Big Days and Convoys project into the selected county before grouping/counts/maps and reject retired publishers; explicit broader context and saved choices remain separate.\n• F1464: selected-county full/notable fixture budgets decrease from 6/3 to 4/2 while retaining geo discovery and state-wide species enrichment. Valid own/parent source reuse preserves acquisition times; unknown parts cannot establish complete coverage.\n• F1465: selected current hotspot/directory fixture calls decrease from 4 to 2 and seven-day history from 14 to 7. Real-region/date sharing, scores, evidence and source quality remain intact.\n\nThe unsigned IPA is for sideloading and requires signing for installation. A published unsigned IPA, successful Apple validation or a permission-limited group lookup does not by itself establish TestFlight download access.\n\nCo-authored-by: Copilot Copilot-Session: 2f421e2e-fc18-4ea0-936a-104ab4a63746.",
+          "downloadURL": "https://github.com/WyattHoutz/birding-app/releases/download/v2.16.0/BirdChaser-unsigned.ipa",
+          "size": 143590575,
           "minOSVersion": "15.0"
         }
       ],
@@ -1700,10 +1700,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-27T18:37:52Z",
-          "localizedDescription": "Built from 74c492b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
+          "date": "2026-11-28T01:14:17Z",
+          "localizedDescription": "Built from f1f3b32 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandMouse-1.1.0-ios-unsigned.ipa",
-          "size": 14781941,
+          "size": 14807051,
           "minOSVersion": "15.0"
         }
       ],
@@ -2755,11 +2755,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.6",
-          "date": "2026-11-26T07:48:13Z",
-          "localizedDescription": "Fixed:\n\n• Away from home on iPhone and iPad: the WireGuard .conf file couldn't be chosen (it was greyed out). Any file can be chosen now, and Netfish says if it isn't a WireGuard file.\n\nUpdate:\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
-          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.9.6/Netfish-ios.ipa",
-          "size": 4688423,
+          "version": "0.9.7",
+          "date": "2026-11-27T20:51:28Z",
+          "localizedDescription": "New:\n\n• Brightness and volume in the player on phones and tablets. Swipe up or down on the left of the picture for brightness, on the right for volume. The screen gets its own brightness back when you leave the player.\n\nUpdate:\n\n• Server, the Android app and the iPhone app.\n\nEvery version: CHANGELOG.md.\n\nThe apps aren't signed by Apple or Microsoft yet: on a Mac, right-click → Open the first time; on Windows, More info → Run anyway.",
+          "downloadURL": "https://github.com/ravifrancesco/netfish/releases/download/v0.9.7/Netfish-ios.ipa",
+          "size": 4692481,
           "minOSVersion": "16.0"
         }
       ],
@@ -6646,7 +6646,7 @@
           "date": "2026-11-27T10:04:43Z",
           "localizedDescription": "Added:\n\n• Android Auto: the Collections tab is now Collections/Series. It starts with All, every collection and series A to Z (up to 60), then your starred ones, then the 8 latest. One that is only under All opens with its Continue and Newest, not its whole list. Android only.\n• Android Auto, the lock screen and Narrate's notification show a progress bar while Narrate reads, with time gone and time left. The times are estimated from the text's length at the reading speed, and set right at each paragraph. Dragging the bar goes to the start of the paragraph at that point. Android only.\n\nFixed:\n\n• Sync merges off the main thread again, so a sync with a big library no longer holds up taps while it merges. Since 1.68.0 the merge's background helper failed as it started (logged as \"t is not defined\"), and every merge ran on the main thread instead.\n\nInstalling: open this page on your phone, tap Waypage.apk, and allow your browser to install apps the first time it asks. Updates install over the top and keep your data.\n\niPhone: Waypage.ipa is added here a few minutes later. It's unsigned: install it with AltStore or SideStore, which sign it with your own Apple ID.",
           "downloadURL": "https://github.com/danielnoam/waypage/releases/download/app-v1.71.0/Waypage.ipa",
-          "size": 22652751,
+          "size": 22661178,
           "minOSVersion": "15.5"
         }
       ],
@@ -6847,11 +6847,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-10-13T21:00:12Z",
-          "localizedDescription": "openQ4 1.1.0 — Quake 4 for iPhone, iPad and Apple Vision Pro:\n\nBuilt on openQ4 v0.14.000.\n\nWhat's new:\n\n• openQ4 v0.14.000 from upstream: more faithful sound and room reverb, smarter multiplayer bots, campaign and renderer fixes, and the classic Quake 4 menus by default again.\n• Saves from 1.0.0 load right where you left off.\n\nAdd a SideStore source — openQ4 then updates itself. It is in both; add either one (Quake ports carries just the Quake family; All ports carries every port):\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nOr install openq4-1.1.0-iOS.ipa / openq4-1.1.0-visionOS.ipa below with SideStore/AltStore yourself.\n\nNo game data is included. You need your own Quake 4, patched to 1.4.2 (Steam and GOG releases already are); the app asks for your q4base folder on first launch.",
-          "downloadURL": "https://github.com/rebelancap/openQ4-ios/releases/download/v1.1.0/openq4-1.1.0-iOS.ipa",
-          "size": 811684514,
+          "version": "1.2.0",
+          "date": "2026-11-27T23:43:21Z",
+          "localizedDescription": "openQ4 1.2.0 — Quake 4 for iPhone, iPad and Apple Vision Pro:\n\nBuilt on openQ4 v0.15.0 \"Multiplayer Edition\" (1.1.0 was built on v0.14.000; this release also carries everything from v0.14.1).\n\nWhat's new:\n\nThe new interface, by touch and controller. openQ4's rebuilt menus and the Remastered HUD are now the default on iPhone and Vision Pro: tabbed settings, Campaign with New Game and Chapters pages, weapon wheel (now centred so the touch buttons don't cover it), scopes and animated crosshairs. Every screen takes taps, drags and a controller; the keyboard appears when you tap a text field, and Done saves like Return. The Remastered HUD stays clear of the touch buttons. Prefer the classic Quake 4 menus? Settings → New Interface switches back (and forth) at any time. Installs that used the classic menus in an earlier build are moved to the new interface once.\n\nFrom upstream openQ4 v0.14.1 and v0.15.0:\n\n• Multiplayer your way: the Quake 2-style Classic ruleset with a grappling hook, Instagib, Quad Hog, Vampiric Damage, Weapons Frenzy and weapon arenas, one-tap presets on Create Server's new Modifiers tab, and every server setting on four tabs (Match, Rules, Modifiers, Server).\n• Buying on servers that turn it on, with a new buy menu.\n• Netcode you can feel: your own shots draw the moment you fire, hits are confirmed even when an update is lost, and a slow frame no longer costs you a shot. Multiplayer needs 1.2.0 (openQ4 0.15.0) on both sides.\n• Demos less than half the size that seek in about a second.\n• Player Setup gains a HUD tab; smart weapon switching; subtitles and a dialogue volume; Arena's match-start ceremony and best results; many campaign, sound and bot fixes.\n• Controller rumble on firing and taking hits now comes from upstream.\n\nOurs:\n\n• Saves from every earlier version load right where you left off — 1.1.0, 1.0.0 and the pre-1.0 test builds alike.\n• Vision Pro 3D: Stereo Depth rescaled — 100 % now equals the old 50 % and the slider goes to 200 %; a depth you had set is reset once to the new default. The gun's depth is tamed so it no longer pops out at you.\n• \"Game Saved\" shows once, not twice.\n• Fixed crashes when switching between the campaign, Arena and multiplayer, and when loading a mod (the Mods page now tells you a restart is needed).\n• Exit in the main menu now closes the game cleanly (it used to crash on the way out).\n\nKnown limitations:\n\n• Saves made in 1.2.0 can't be loaded by older versions (they load fine forward, and 1.2.0 loads every older save).\n\n• Cosmetic, in the new interface: thin strips at the left and right edges stay unblurred behind the pause menu; dropdown rows are small for a thumb (UI Scale 125 % helps); the prompt bar shows keyboard key names after touch input (the entries are tappable); a few desktop-only Display rows are shown; the buy menu has no touch button yet (it works by touch once open, and opens from a controller or keyboard bind); the multiplayer warm-up panel is desktop-sized.\n• Not yet confirmed on device hardware for this exact build; it was tested on the iPhone and Vision Pro simulators.\n\nThe download is 770 MB (iPhone / iPad) and 773 MB (Vision Pro), about 41 MB smaller than 1.1.0.\n\nAdd a SideStore source — openQ4 then updates itself. It is in both; add either one (Quake ports carries just the Quake family; All ports carries every port):\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nOr install openq4-1.2.0-iOS.ipa / openq4-1.2.0-visionOS.ipa below with SideStore/AltStore yourself.\n\nNo game data is included. You need your own Quake 4, patched to 1.4.2 (Steam and GOG releases already are); the app asks for your q4base folder on first launch.",
+          "downloadURL": "https://github.com/rebelancap/openQ4-ios/releases/download/v1.2.0/openq4-1.2.0-iOS.ipa",
+          "size": 770324716,
           "minOSVersion": "16.0"
         }
       ],
@@ -7513,10 +7513,10 @@
       "versions": [
         {
           "version": "2.20.0",
-          "date": "2026-11-27T02:23:57Z",
-          "localizedDescription": "Pageturner from run 45927210480, commit 186b03e. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
-          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-45927210480/Pageturner.ipa",
-          "size": 28844280,
+          "date": "2026-11-28T02:23:36Z",
+          "localizedDescription": "Pageturner from run 46097090711, commit 0132454. Unsigned: sideload it, or add the source to AltStore / SideStore for updates.",
+          "downloadURL": "https://github.com/PossiblyPengu/PageTurner/releases/download/ios-build-46097090711/Pageturner.ipa",
+          "size": 28866211,
           "minOSVersion": "17.0"
         }
       ],
@@ -8905,10 +8905,10 @@
       "versions": [
         {
           "version": "1.5.1",
-          "date": "2026-11-27T03:47:35Z",
-          "localizedDescription": "Automated unsigned dev build from main at commit f950474. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-265/Ito-1.5.1-dev.265-unsigned.ipa",
-          "size": 15151971,
+          "date": "2026-11-27T21:40:39Z",
+          "localizedDescription": "Automated unsigned dev build from main at commit b6b35e8. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/dev-266/Ito-1.5.1-dev.266-unsigned.ipa",
+          "size": 15219688,
           "minOSVersion": "15.4"
         }
       ],
@@ -9948,11 +9948,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.139",
-          "date": "2026-11-25T22:32:15Z",
+          "version": "0.8.140",
+          "date": "2026-11-27T22:00:20Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.139/NicotinD-0.8.139-unsigned.ipa",
-          "size": 1742855,
+          "downloadURL": "https://github.com/kevinch3/NicotinD/releases/download/v0.8.140/NicotinD-0.8.140-unsigned.ipa",
+          "size": 1743446,
           "minOSVersion": "15.0"
         }
       ],
@@ -10144,11 +10144,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.455",
-          "date": "2026-11-27T03:25:10Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.7.455/Dieter-iOS.ipa",
-          "size": 69863320,
+          "version": "0.7.457",
+          "date": "2026-11-27T21:15:48Z",
+          "localizedDescription": "Added:\n\n• Choose a Claude or GPT-6 model; the account picker follows the model's provider. Model, thinking, advisor and account can change between turns.\n• Pick an Advisor: a second model, on either provider, that reviews the work and adds notes. Choose its thinking, and its account when it uses the other provider.\n• Claude logins need Allow Oh My Pi to use this login in Settings › Providers (or dieter provider omp-access ACCOUNT on). It is off by default: Anthropic does not permit Claude.ai logins in third-party tools, and accounts used this way may be blocked. Dieter hands Oh My Pi only short-lived access tokens, and Claude Code keeps refreshing the login.\n\nA code reviewer for your agents. Choose a reviewer once for your account: a harness, model and depth in Settings › Code reviewer, or with dieter reviewer update. Then switch on Code review when you create a task, chat or schedule, or later in the conversation. When its change is complete, the agent asks this second model for a review, fixes the findings it agrees with and explains the ones it rejects.\n\n• Each review appears in the conversation. Findings come with severity, file and lines (open the diff in Changes) and a suggested fix.\n• A second review marks findings resolved, still open or new.\n• Choose Review changes in Changes, or run dieter card review CARD --wait, to start one yourself.\n• Reviews run on your machine, on your provider accounts, on a disposable snapshot of the workspace that the agent's work never touches. See.\n\nChanged:\n\n• Existing Oh My Pi conversations continue in a new Oh My Pi session. Their earlier turns stay in Dieter's transcript. Custom models from ~/.omp/agent/models.yml are no longer offered.\n• The Mac and iOS apps are built with Xcode 27.2 and link the iOS and macOS 27.2 SDKs. Supported systems are unchanged: iOS 18 and macOS 26 or later.",
+          "downloadURL": "https://github.com/dbpprt/dieter/releases/download/v0.7.457/Dieter-iOS.ipa",
+          "size": 70075659,
           "minOSVersion": "18.0"
         }
       ],
@@ -10562,10 +10562,10 @@
       "versions": [
         {
           "version": "1.1.0",
-          "date": "2026-11-27T18:37:52Z",
-          "localizedDescription": "Built from 74c492b on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
+          "date": "2026-11-28T01:14:17Z",
+          "localizedDescription": "Built from f1f3b32 on main. Windows: HandTracker--portable.exe (no install). Mac: HandTracker--mac-arm64.dmg (Apple silicon) or HandTracker--mac-x64.dmg (Intel); the first time, open it from System Settings → Privacy \u0026 Security → Open Anyway. Linux: hand-tracker_amd64.deb (sudo apt install ./hand-trackeramd64.deb). Raspberry Pi 4/5 and other 64-bit ARM Linux: hand-trackerarm64.deb. Android: HandTracker-.apk. iPhone and iPad: HandTracker--ios-unsigned.ipa, installed with Sideloadly or AltStore and your Apple ID (re-install every 7 days with a free Apple ID). Chrome (the hand mouse for web pages): HandTracker--chrome-extension.zip, unzipped and loaded in chrome://extensions with Developer mode on (Load unpacked). Apps of their own, for each of these the same way: Hand Mouse (the hand mouse alone): HandMouse-; Remote Recording (controlling camera rigs, or being one): RemoteRecording-; Recording Converter (opening and converting recordings and videos): RecordingConverter-; Cluster (your Raspberry Pis in one place: health, camera rigs, updates; each Pi joins with cluster/setup.sh): Cluster-* (Windows, Mac, Linux, Android, iPhone; PiCluster-*.apk and .ipa are the same, for phones whose Cluster app is from before its rename); on Linux hand-mouse.deb, remote-recording_.deb, recording-converter_.deb and hand-tracker-cluster_.deb.",
           "downloadURL": "https://github.com/alexandermulholland92/hand-tracker/releases/download/latest-build/HandTracker-1.1.0-ios-unsigned.ipa",
-          "size": 48073791,
+          "size": 48110553,
           "minOSVersion": "15.0"
         }
       ],
@@ -10923,11 +10923,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.7",
-          "date": "2026-11-07T19:58:25Z",
-          "localizedDescription": "Perfect Dark 1.0.7 for iPhone and Apple Vision Pro is a point release on Dab's Mod v3.15.1, the same base as 1.0.6.\n\nNew:\n\n• Drag Fire to look (#4). Hold the FIRE button (or the left FIRE button in aim mode) and drag the same finger to turn the view, the way the AIM button already works, so you can shoot and steer with one thumb. It is on by default. Turn it off with the new \"Drag Fire to look\" switch under Controls in Settings. Tapping FIRE while another finger is aiming with AIM no longer interrupts that aim.\n\n1.0.6's thermal cool-down and XBLA checkbox fixes are included.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007, Goldfinger 64 and Tomorrow Never Dies 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.15.1), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
-          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.7/perfectdark-1.0.7-iOS.ipa",
-          "size": 9416776,
+          "version": "1.0.8",
+          "date": "2026-11-27T20:51:06Z",
+          "localizedDescription": "Perfect Dark 1.0.8 for iPhone and Apple Vision Pro is a point release on Dab's Mod v3.15.1, the same base as 1.0.7.\n\nFixed:\n\n• GoldenEye levels: guards sent to an alarm or console on a wall (#5). In Bunker 1, the guard who runs for the alarm used to circle beside it for a long time. GoldenEye sends a guard to a point just off the wall in front of a wall-mounted alarm, console or keyboard; the converted levels sent him to the pad itself. They now follow GoldenEye's rule, so he runs straight to it. This was not related to frame rate. If you stand between the guard and the alarm he can still take a while, or be shot first, just as in the original.\n\nNew:\n\n• Third person (#6). A \"Third person\" switch under Controls in Settings (off by default) starts every level in third person. There is also an optional VIEW button for the touch layout that flips the camera during play. It is hidden by default; show it from Customize Touch Layout.\n\n1.0.7's Drag Fire to look is included.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007, Goldfinger 64 and Tomorrow Never Dies 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.15.1), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
+          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.8/perfectdark-1.0.8-iOS.ipa",
+          "size": 9418023,
           "minOSVersion": "15.0"
         }
       ],
@@ -11594,11 +11594,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "1.2.2",
-          "date": "2026-11-17T08:49:29Z",
-          "localizedDescription": "Added:\n\n• SSH remotes (desktop only): clone and sync with git@host:user/repo.git URLs, using your existing keys from ~/.ssh and your ssh-agent.\n• Portable Linux build: a plain .tar.gz that runs on any distribution, and a base for packages like an AUR package (#11).\n\nFixes:\n\n• Self-signed certificates on Android: certificates you installed on the device are now trusted. iOS should already trust them, and on desktop there's a workaround (#10).\n• Smaller headings: cleaner look, and long headings wrap less often.\n• Context menu position: the menu now opens right at the cursor instead of jumping across the screen.\n• Cleaner code blocks: more padding and slightly smaller text.\n• Quieter spell check: misspelling underlines are more muted and less distracting.",
-          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.2.2/GitWriter-1.2.2-ios.ipa",
-          "size": 34861903,
+          "version": "1.2.3",
+          "date": "2026-11-27T20:08:53Z",
+          "localizedDescription": "Added:\n\n• PDF files are shown in the file tree and open in the system's default PDF viewer.\n• Redesigned sidebar that is easier to use and navigate in.\n\nFixed:\n\n• Bigger checkboxes, easier to use on mobile.\n• Deleting a notebook imported from another folder no longer deletes its files from disk - prevent unwanted file deletion.\n• Heading sizes (e.g. H5 was bigger than H4).\n• Images in lists and quotes are now rendered.\n• Images and PDFs no longer offer \"Duplicate\" and \"Export to PDF\" in the file tree menu.",
+          "downloadURL": "https://github.com/jotalac/git-writer/releases/download/1.2.3/GitWriter-1.2.3-ios.ipa",
+          "size": 34963096,
           "minOSVersion": "18.2"
         }
       ],
@@ -12024,11 +12024,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.1",
-          "date": "2026-11-08T16:06:22Z",
-          "localizedDescription": "Welcome to Jellify 1.4.1.\n\nI am so happy to introduce our latest updates designed to make your music experience even more seamless. This release focuses on refining our internal architecture and enhancing the overall visual polish of the app. We also included some fun new features to help you connect with other Jellify fans.\n\n• The app received a major refactor of our theme palettes and types to improve the structural consistency of the UI. You can expect a more refined and cohesive look throughout your music journey.\n• We updated several core dependencies, including tamagui and safe-area-context, to their latest versions. These updates improve the overall performance and ensure a more reliable experience on your device.\n\nPull requests:\n\n• Add support for retrieving enabled alias class in AppIconChangerModule (#1640).\n• Update dependencies to latest versions including tamagui and safe-area-context (#1641).\n• Refactor theme types and palettes for improved structure (#1642).\n• Add iMessage sticker pack support with assets and configurations (#1643).\n• Enhance AboutScreen with privacy policy link and improved readability (#1644).\n• Key CocoaPods cache by runner environment to avoid conflicts (#1648).\n\nContributors:\n\nThank you to @anultravioletaurora for contributing to this release!",
-          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.4.1/Jellify-1.4.1.ipa",
-          "size": 38530310,
+          "version": "1.4.2",
+          "date": "2026-11-27T20:10:09Z",
+          "localizedDescription": "Welcome to Jellify 1.4.2.\n\nThis update brings a smoother experience with smarter navigation and improved error handling. You can now favorite tracks directly from your phone's Control Center or media notifications, and the app supports new languages including Slovak. We've also optimized list performance to make scrolling through your library feel snappier.\n\n• Music library selection is now optional, allowing you to query across all your libraries at once for a more comprehensive search experience.\n• You can now favorite tracks directly from the Android Control Center or iOS media notification, and tapping an error message will copy the details to your clipboard for easier troubleshooting.\n• The app now includes an in-app update notification system, and the \"Playing from\" text in the player is now tappable to navigate to the source.\n\nIssues addressed:\n\n• [FEATURE] Make \"Playing from\" text navigable (#1401).\n• Make music library selection optional (query across all music libraries) (#1583).\n• Tap an error toast to copy the error to the clipboard (#1646).\n\n• [FEATURE] Favorite tracks from Control Center / media notification (#1682).\n• Pressing the Search tab while on Search should focus the search input (#1696).\n\nPull requests:\n\n• feat: make music library selection optional (#1645).\n• Refactor navigation state and remove unused imports for Android icon fix (#1649).\n• Implement centralized error handling with toast notifications (#1650).\n• Restructure player settings store into separate files (#1651).\n• Refactor swipe settings store to gestures and update imports (#1652).\n• chore(deps-dev): bump openai from 7.47.0 to 7.53.0 (#1654)[bot].\n• chore(deps): bump zustand from 5.0.16 to 5.1.0 (#1656)[bot].\n• Update privacy policy URL and refactor URL constants (#1658).\n• Add server plugins querying and account management components (#1659).\n• Integrate AudioMuse AI detection in Account component and refactor props (#1660).\n• Implement animated list in AddToPlaylist and refactor List component (#1663).\n• Adjust toast font sizes (#1664).\n• chore(deps): bump the tamagui group across 1 directory with 4 updates (#1665)[bot].\n• chore(deps): bump axios from 1.20.0 to 1.21.1 (#1666)[bot].\n• chore(deps-dev): bump openai from 7.53.0 to 7.55.0 (#1667)[bot].\n• Improve UI components for better interaction and consistency (#1668).\n• Refactor to use warmItemContext and adjust ItemCard component spacing (#1670).\n• Add tests for music library fetching and update selection logic, bump Tamagui (#1671).\n• Adjust margins and padding for consistent layout across components (#1672).\n\n• perf(lists): recycle section-list rows (#1679).\n• Update source link to new repository URL (#1680).\n• Adjust gap in Discover and Home components for consistent layout (#1681).\n• feat(player): favorite tracks from Control Center and the media notification (#1683).\n• feat: add i18n and extract UI strings for Weblate translations (#1684).\n• chore(l10n): update translations (#1688)[bot].\n• chore(l10n): update translations (#1689)[bot].\n• chore(l10n): update translations (#1690)[bot].\n• chore(l10n): update translations (#1691)[bot].\n• chore(l10n): update translations (#1693)[bot].\n\n• chore: update icon for AudioMuse AI detection in Account component (#1695).\n• feat(search): focus search input when re-pressing the Search tab (#1697).\n• Add Ota component and screen for update notifications (#1698).\n• chore(l10n): update translations (#1699)[bot].\n• Add Slovak translation resource (#1701).\n• feat(player): make \"Playing from\" text navigable (#1704).\n• chore(deps-dev): bump lint-staged from 17.6.0 to 17.6.1 (#1706)[bot].\n• chore(deps): bump the tanstack group with 3 updates (#1714)[bot].\n• chore(deps): bump the react-native group across 1 directory with 13 updates (#1716)[bot].\n• chore(deps-dev): bump openai from 7.57.0 to 7.62.0 (#1717)[bot].\n• chore(deps): bump @sentry/react-native from 8.33.0 to 8.36.0 (#1718)[bot].\n• chore(deps): bump react-i18next from 18.0.2 to 18.0.3 (#1720)[bot].\n• chore(deps): bump i18next from 27.1.3 to 27.2.2 (#1721)[bot].\n• Refactor CarPlay service: Split functionality into modular files (#1723).\n• Prep for FDroid (#1724).\n• Fix order of sections in CarPlay home function (#1725).\n\n• chore(deps): bump i18next from 27.2.2 to 27.2.7 (#1733)[bot].\n• chore(deps-dev): bump lint-staged from 17.6.1 to 17.6.2 (#1734)[bot].\n• chore(deps-dev): bump openai from 7.62.0 to 7.63.0 (#1735)[bot].\n• chore(deps): update package versions for dependencies (#1736).\n\nContributors:\n\nThank you to @anultravioletaurora, @dodog and @hunixcode for contributing to this release!",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.4.2/Jellify-1.4.2.ipa",
+          "size": 39944188,
           "minOSVersion": "16.4"
         }
       ],
